@@ -8,6 +8,12 @@
     margin-bottom: -64px;
   }
 }
+.d-xl-none{
+  display: none;
+  @media screen and (max-width: $breakpoint_tablet) {
+    display: block;
+  }
+}
 .mobile_header {
   display: none;
   background-color: rgba(18, 38, 47, 0.8);
