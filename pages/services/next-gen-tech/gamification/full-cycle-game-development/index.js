@@ -50,7 +50,7 @@ export default function index() {
             <MetaverseExperience/>
             <ArIndustries/>
             <NftProcess/>
-            <OurWork
+            {/* <OurWork
                       classes="nft_works"
 
                 ourWorkList={ourWorkList}
@@ -66,7 +66,7 @@ export default function index() {
                 slidesPerView: 1,
               },
             },
-          }}/>
+          }}/> */}
         <NftWhyChoose classes="cycle_choose" />
     <Faqs/>
     <GetQuote/>

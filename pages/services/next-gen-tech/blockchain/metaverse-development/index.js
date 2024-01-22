@@ -45,11 +45,11 @@ export default function SmartContract() {
               <MetaverseFoundation/>
              <MetaverseBenefits data={metaverseFutureList} metaverse={false} classes="metaverse_future"/>
             <CallToAction classes="metaverse_banner"/>
-            <OurWork smartClass="smart_contract"
+            {/* <OurWork smartClass="smart_contract"
           centeredSlides={false}
           classes="nft_works"
           ourWorkList={smartOurWorkList}
-          perView={3} />
+          perView={3} /> */}
           <BlockchainEnterprise metaverse={true} classes="metaverse_expert"/>
           <WhyChoose
                 whyChooseList={metaverseCompanyList}

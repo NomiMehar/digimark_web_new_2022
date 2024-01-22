@@ -21,7 +21,7 @@ export default function NftDevelopment() {
             <NftServices/>
             <NftTechStack/>
             <NftProcess/>
-            <OurWork
+            {/* <OurWork
              classes="nft_works"  perView={2.65}
         breakpoints={{
           1200: {
@@ -33,7 +33,7 @@ export default function NftDevelopment() {
               slidesPerView: 1,
             },
           },
-        }}/>
+        }}/> */}
             <NftWhyChoose/>
             <Faqs/>
             <GetQuote/>

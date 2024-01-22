@@ -41,7 +41,7 @@ export default function MobileDevelopment () {
                 whyChooseList={solutionWhyChooseList}
                 appName="Mobile"
             />
-            <OurWork
+            {/* <OurWork
                 ourWorkList={ourWorkList}
                 centeredSlides={true}
         perView={2.65}
@@ -55,7 +55,7 @@ export default function MobileDevelopment () {
                 slidesPerView: 1,
               },
             },
-          }}/>
+          }}/> */}
             <Faqs/>
             <LetsTalk />
         </div>

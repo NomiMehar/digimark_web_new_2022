@@ -38,7 +38,7 @@ export default function SmartContract() {
       <NftTechStack />
       <SmartIndustries/>
       <DevProcesses/>
-      <OurWork
+      {/* <OurWork
           smartClass="smart_contract"
           centeredSlides={false}
           classes="nft_works"
@@ -52,7 +52,7 @@ export default function SmartContract() {
               slidesPerView: 1,
             },
         }}
-      />
+      /> */}
       <NftWhyChoose classes="why_choose" />
       <Faqs />
       <GetQuote />

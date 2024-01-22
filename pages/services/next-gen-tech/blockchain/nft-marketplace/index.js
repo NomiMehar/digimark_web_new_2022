@@ -43,7 +43,7 @@ export default function NftDevelopment() {
       />
       <NftTechStack />
       <NftProcess />
-      <OurWork
+      {/* <OurWork
         classes="nft_works"
         ourWorkList={WorkList}
         perView={1.5}
@@ -58,7 +58,7 @@ export default function NftDevelopment() {
             },
           },
         }}
-      />
+      /> */}
       <NftWhyChoose />
       <Faqs />
       <GetQuote />
