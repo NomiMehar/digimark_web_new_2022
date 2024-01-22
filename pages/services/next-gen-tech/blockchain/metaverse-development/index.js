@@ -9,8 +9,8 @@ import WhyChoose from "../../../innovation/mobility/android-app-development/why-
 import metaverseWhyChooseList from "../../../innovation/mobility/android-app-development/why-choose/metaverseWhyChooseList";
 import metaverseCompanyList from "../../../innovation/mobility/android-app-development/why-choose/metaverseCompanyList";
 import CallToAction from "../../../../../components/call-to-action/CallToAction";
-import OurWork from "../../../innovation/mobility/mobile-development/our-work/OurWork";
-import smartOurWorkList from "../../../innovation/mobility/mobile-development/our-work/SmartourWorkList.json";
+// import OurWork from "../../../innovation/mobility/mobile-development/our-work/OurWork";
+// import smartOurWorkList from "../../../innovation/mobility/mobile-development/our-work/SmartourWorkList.json";
 import BlockchainEnterprise from '../smart-contract-development/blockchain-enterprise/BlockchainEnterprise'
 import MetaverseFoundation from "./metaverse-foundation/MetaverseFoundation";
 

@@ -10,8 +10,8 @@ import ArCallAction from '../../blockchain/ar-vr-development/call-to-action/ArCa
 import MetaverseExperience from '../../blockchain/metaverse-development/metaverse-experience/MetaverseExperience'
 import ArIndustries from '../../blockchain/ar-vr-development/ar-industries/ArIndustries'
 import NftProcess from '../../blockchain/nft-development/nft-process/NftProcess'
-import OurWork from '../../../innovation/mobility/mobile-development/our-work/OurWork'
-import ourWorkList from '../../../innovation/mobility/mobile-development/our-work/ourWorkLists.json'
+// import OurWork from '../../../innovation/mobility/mobile-development/our-work/OurWork'
+// import ourWorkList from '../../../innovation/mobility/mobile-development/our-work/ourWorkLists.json'
 import NftWhyChoose from '../../blockchain/nft-development/nft-why-choose/NftWhyChoose'
 export default function index() {
   return (

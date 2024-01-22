@@ -6,8 +6,8 @@ import NftProcess from "./nft-process/NftProcess";
 import GetQuote from "../../../../../components/get-quote/GetQuote";
 import NftWhyChoose from "../nft-development/nft-why-choose/NftWhyChoose";
 import Faqs from "../../../innovation/mobility/android-app-development/faq/Faqs";
-import OurWork from "../../../innovation/mobility/mobile-development/our-work/OurWork";
-import WorkList from "../../../innovation/mobility/mobile-development/our-work/ourWorkLists.json";
+// import OurWork from "../../../innovation/mobility/mobile-development/our-work/OurWork";
+// import WorkList from "../../../innovation/mobility/mobile-development/our-work/ourWorkLists.json";
 export default function NftDevelopment() {
   return (
     <div className="ionic-app-dev">

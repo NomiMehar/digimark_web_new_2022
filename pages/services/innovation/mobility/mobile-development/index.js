@@ -10,9 +10,9 @@ import LetsTalk from "../../../../landingpage/LetsTalk/LetsTalk";
 import React from "react";
 import MobileApps from "./mobile-apps/MobileApps";
 import IndustriesList from "./industries-serve/IndustriesList";
-import OurWork from "./our-work/OurWork";
+// import OurWork from "./our-work/OurWork";
 import DevelopmentProcessList from "../android-app-development/development-process/DevelopmentProcessList.json";
-import ourWorkList from "../../../innovation/mobility/mobile-development/our-work/ourWorkLists.json";
+// import ourWorkList from "../../../innovation/mobility/mobile-development/our-work/ourWorkLists.json";
 
 export default function MobileDevelopment () {
     return (

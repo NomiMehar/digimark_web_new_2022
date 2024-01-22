@@ -2,7 +2,7 @@ import MobilityBanner from "../../../innovation/mobility/android-app-development
 import NftServices from "./nft-services/NftServices";
 import NftTechStack from "./nft-tech-stack/NftTechStack";
 import NftProcess from "./nft-process/NftProcess";
-import OurWork from "../../../innovation/mobility/mobile-development/our-work/OurWork";
+// import OurWork from "../../../innovation/mobility/mobile-development/our-work/OurWork";
 import GetQuote from "../../../../../components/get-quote/GetQuote";
 import Faqs from "../../../innovation/mobility/android-app-development/faq/Faqs";
 import NftWhyChoose from "./nft-why-choose/NftWhyChoose";
