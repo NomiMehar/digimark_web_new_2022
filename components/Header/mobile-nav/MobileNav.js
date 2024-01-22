@@ -46,7 +46,7 @@ export default function MobileNav() {
           >
             <ProSidebarProvider>
           <Sidebar
-              className="d-xl-none d-block"
+              className="d-xl-none"
               collapsed={sidebar}
               collapsedWidth="0px"
               width="295px"
