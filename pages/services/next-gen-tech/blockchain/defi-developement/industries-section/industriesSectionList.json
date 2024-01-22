@@ -1,0 +1,46 @@
+[
+  {
+    "icon": "/assets/images/services/run.svg",
+    "title": "Fitness"
+  },
+  {
+    "icon": "/assets/images/services/run1.svg",
+    "title": "E-Commerce"
+  },
+  {
+    "icon": "/assets/images/services/run2.svg",
+    "title": "Banking"
+  },
+  {
+    "icon": "/assets/images/services/run3.svg",
+    "title": "Restaurants"
+  },
+  {
+    "icon": "/assets/images/services/run4.svg",
+    "title": "Education"
+  },
+  {
+    "icon": "/assets/images/services/run5.svg",
+    "title": "Healthcare"
+  },
+  {
+    "icon": "/assets/images/services/run6.svg",
+    "title": "Real Estate"
+  },
+  {
+    "icon": "/assets/images/services/run7.svg",
+    "title": "Travel"
+  },
+  {
+    "icon": "/assets/images/services/run8.svg",
+    "title": "Finance"
+  },
+  {
+    "icon": "/assets/images/services/run9.svg",
+    "title": "Logistics"
+  },
+  {
+    "icon": "/assets/images/services/run10.svg",
+    "title": "AR"
+  }
+]

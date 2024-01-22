@@ -1,0 +1,32 @@
+[
+  {
+    "whyChooseIcon" : "/assets/images/services/solutionchoose1.svg",
+    "whyChooseTitle" : "Expand distribution",
+    "whyChooseDetail" : "1.8 billion people worldwide purchase goods online. Sell more with ease and immediacy.",
+    "duration": 1000
+  },
+  {
+    "whyChooseIcon" : "/assets/images/services/solutionchoose2.svg",
+    "whyChooseTitle" : "Increase brand exposure",
+    "whyChooseDetail" : "Apps account for over 90% of online time on smartphones. Be where your customers are.",
+    "duration": 1500
+  },
+  {
+    "whyChooseIcon" : "/assets/images/services/solutionchoose3.svg",
+    "whyChooseTitle" : "Build engagement",
+    "whyChooseDetail" : "Send out relevant marketing messages and use notifications retention through reminders.",
+    "duration": 2000
+  },
+  {
+    "whyChooseIcon" : "/assets/images/services/solutionchoose4.svg",
+    "whyChooseTitle" : "Optimize tactics & processes",
+    "whyChooseDetail" : "Gather data and optimize business operations to increase efficiency and profitability.",
+    "duration": 1000
+  },
+  {
+    "whyChooseIcon" : "/assets/images/services/solutionchoose4.svg",
+    "whyChooseTitle" : "Result-oriented",
+    "whyChooseDetail" : "Our customers’ needs are our priority concerns. We approach each project individually and develop the very solutions which will help our customers achieve their goals.",
+    "duration": 1500
+  }
+]

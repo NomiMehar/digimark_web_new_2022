@@ -1,0 +1,172 @@
+@import "../../../../styles/variables";
+.vacancies_wrapper {
+  padding: 100px 0;
+  background: #1D4354 url('../../../../public/assets/images/services/custom-bg.svg');
+  @media (max-width: 1600px) {
+    padding: 80px 0;
+  }
+  @media screen and (max-width: $breakpoint_tablet) {
+    padding: 60px 0;
+  }
+  .vacancies_search {
+    margin-bottom: 30px;
+    @media (max-width: 1600px) {
+      margin-bottom: 10px;
+    }
+    form {
+      max-width: 100%;
+      margin: 0 auto;
+      ul {
+        margin: 0 -10px;
+        justify-content: center;
+        @media screen and (max-width: $breakpoint_mobile_portrait) {
+          flex-wrap: wrap;
+        }
+        li {
+          padding: 0 10px;
+          width: 100%;
+          max-width: 264px;
+          margin: 0 0 20px;
+          @media screen and (max-width: $breakpoint_mobile_portrait) {
+            max-width: 100%;
+          }
+          &:first-child {
+            max-width: 484px;
+          }
+          &:last-child {
+            max-width: unset;
+            width: auto;
+          }
+          select {cursor: pointer;}
+          input,select {
+            color: rgba(18,38,47,0.9);
+            background: rgba(255,255,255,0.9);
+            font-size: 18px;
+            font-family: "Apercu", sans-serif;
+            border-radius: 10px;
+            border: 1px solid #D7D7D7;
+            @media screen and (max-width: $breakpoint_tablet) {
+              font-size: 16px;
+            }
+          }
+          input {
+            &::placeholder {
+              color: rgba(18,38,47,0.9);
+            }
+          }
+          .submit_btn {
+            height: 52px;
+            background: transparent;
+            border-radius: 5px;
+            border: 1px solid #FFFFFF;
+            text-transform: uppercase;
+            padding: 0 25px;
+            font-family: "CloverDisplay-bold", sans-serif;
+            color: #FFFFFF;
+            white-space: nowrap;
+            align-items: center;
+            display: flex;
+            img {
+              margin-left: 5px;
+            }
+            @media screen and (max-width: $breakpoint_tablet) {
+              height: 45px;
+            }
+          }
+        }
+      }
+    }
+  }
+  .vacancies_list {
+    max-width: 1170px;
+    margin: 0 auto;
+  }
+  .job_detail {
+    max-width: 80%;
+    margin: 0 auto;
+    @media screen and (max-width: $breakpoint_mobile_portrait) {
+      max-width: 100%;
+    }
+    .transparent_btn {
+      margin-left: auto;
+    }
+    h2 {
+      margin: 0 0 30px;
+      color: #FFFFFF;
+      @media (max-width: 1600px) {
+        margin-bottom: 20px;
+      }
+      @media screen and (max-width: $breakpoint_tablet) {
+        font-size: 20px;
+        margin-bottom: 10px;
+      }
+    }
+    p, li {
+      font-size: 24px;
+      color: #E4E4E4;
+      line-height: 36px;
+      font-family: "Apercu-Light", sans-serif;
+      opacity: 0.9;
+      margin: 0 0 32px;
+      @media (max-width: 1600px) {
+        font-size: 16px;
+        line-height: 28px;
+        margin: 0 0 25px;
+      }
+      @media screen and (max-width: $breakpoint_tablet) {
+        font-size: 14px;
+        line-height: 24px;
+        margin-bottom: 15px;
+      }
+    }
+    ul {
+      margin-bottom: 40px;
+      @media (max-width: 1600px) {
+        margin-bottom: 20px;
+      }
+      li {
+        margin-bottom: 16px;
+        padding-left: 30px;
+        position: relative;
+        @media screen and (max-width: $breakpoint_tablet) {
+          margin-bottom: 10px;
+          padding-left: 20px;
+        }
+        &:before {
+          content: '';
+          width: 8px;
+          height: 8px;
+          border-radius: 100%;
+          background: #6BB64A;
+          position: absolute;
+          left: 0;
+          top: 12px;
+        }
+      }
+    }
+  }
+}
+.engagement_link {
+  margin-top: 100px;
+  text-transform: uppercase;
+  font-size: 20px;
+  display: inline-flex;
+  align-items: center;
+  font-family: 'Apercu-Bold', sans-serif;
+  justify-content: center;
+  transition: all 0.4s ease-in-out;
+  @media (max-width: 1600px) {
+    margin-top: 50px;
+  }
+  @media (max-width: 999px) {
+    margin-top: 20px;
+  }
+  &:hover {
+    i { margin-left: 20px; color: #6BB64A;}
+    color: #6BB64A;
+  }
+  i {
+    margin-left: 10px;
+    transition: all 0.4s ease-in-out;
+  }
+}

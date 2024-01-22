@@ -1,0 +1,18 @@
+[
+  {
+    "benefitsImage" : "/assets/images/services/benefit1.svg",
+    "benefitsTitle" : "iPhone\nSmartphone"
+  },
+  {
+    "benefitsImage" : "/assets/images/services/benefit2.svg",
+    "benefitsTitle" : "iPad \nTablet Apps"
+  },
+  {
+    "benefitsImage" : "/assets/images/services/ios-benefit3.svg",
+    "benefitsTitle" : "IOS \n TV"
+  },
+  {
+    "benefitsImage" : "/assets/images/services/benefit4.svg",
+    "benefitsTitle" : "iOS \nWearable App"
+  }
+]

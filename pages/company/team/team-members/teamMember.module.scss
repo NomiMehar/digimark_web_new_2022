@@ -1,0 +1,111 @@
+@import "../../../../styles/variables";
+.team_member {
+  padding: 100px 0 50px;
+  background: #1D4354 url('../../../../public/assets/images/services/custom-bg.svg');
+  @media screen and (max-width: $breakpoint_tablet) {
+    padding: 60px 0 40px;
+  }
+  ul {
+    margin: 0 -18px;
+    @media screen and (max-width: $breakpoint_tablet) {
+      margin: 0 -10px;
+    }
+    li {
+      width: 25%;
+      padding: 0 18px;
+      margin-bottom: 40px;
+      @media screen and (max-width: $breakpoint_tablet) {
+        margin-bottom: 20px;
+        padding: 0 10px;
+      }
+      @media screen and (max-width: $breakpoint_mobile_landscape) {
+        width: 50%;
+      }
+      &:hover {
+        .team_member_text {
+          figure {
+            img {
+              border-radius: 10px;
+              filter: grayscale(0);
+              transform: rotate(5deg) scale(0.9);
+            }
+          }
+          section {
+            h2 {
+              color: #6BB64A;
+            }
+            span {
+              a {
+                transform: rotate(10deg);
+              }
+            }
+          }
+        }
+      }
+      .team_member_text {
+        figure {
+          margin: 0 0 20px;
+          img {
+            width: 100%;
+            height: auto;
+            filter: grayscale(1);
+            transition: all 0.4s ease-in-out;
+          }
+        }
+        section {
+          h2 {
+            color: #FFFFFF;
+            transition: all 0.4s ease-in-out;
+            margin: 0 0 5px;
+            font-size: 28px;
+            @media (max-width: 1600px) {
+              font-size: 22px;
+            }
+            @media screen and (max-width: $breakpoint_tablet) {
+              font-size: 18px;
+              margin-bottom: 5px;
+            }
+          }
+          span {
+            font-size: 24px;
+            color: #969696;
+            font-family: "Apercu-Light", sans-serif;
+            display: flex;
+            @media (max-width: 1600px) {
+              font-size: 20px;
+            }
+            @media screen and (max-width: $breakpoint_tablet) {
+              font-size: 17px;
+            }
+            a {
+              transition: all 0.4s ease-in-out;
+              margin-left: auto;
+              display: flex;
+              width: 50px;
+              height: 50px;
+              margin-top: -30px;
+              border-radius: 5px;
+              background: #F6F7FB;
+              align-items: center;
+              justify-content: center;
+              @media (max-width: 1600px) {
+                width: 42px;
+                height: 42px;
+              }
+              @media screen and (max-width: $breakpoint_tablet) {
+                margin-top: 0;
+                width: 30px;
+                height: 30px;
+                padding: 8px;
+                img {
+                  max-width: 100%;
+                  height: auto;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

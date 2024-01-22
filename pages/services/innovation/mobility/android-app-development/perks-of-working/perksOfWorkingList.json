@@ -1,0 +1,22 @@
+[
+  {
+    "perksNumber" : "01",
+    "perksTitle" : "Cost-Effective Solution",
+    "perksDetail" : "We are one of the very few who have expertise in all of the latest technologies on all major platforms."
+  },
+  {
+    "perksNumber" : "02",
+    "perksTitle" : "Scalability and Flexibility",
+    "perksDetail" : "All of our solutions are mobile-ready and are tested on all major mobile devices."
+  },
+  {
+    "perksNumber" : "03",
+    "perksTitle" : "Support and Maintenance",
+    "perksDetail" : "We provide post-delivery maintenance and bug-fixes to our clients for a period of 3 months."
+  },
+  {
+    "perksNumber" : "04",
+    "perksTitle" : "Complete Process Transparency",
+    "perksDetail" : "We use project management tools to keep our clients up-to-date with our progress."
+  }
+]

@@ -1,0 +1,52 @@
+[
+  {
+    "tab_button": "BlockChain",
+    "customer_name": "Alex Brugming",
+    "customer_description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sodales in sit arcu dictumst hendrerit faucibus dignissim aenean quam.",
+    "project_detail_link": "#",
+    "customer_country": "United Kingdom",
+    "flagImage": "/assets/images/homepage/customer_talk/uk.png",
+    "customer_tech": "Node.js, Angular 9, AWS",
+    "customer_video_Link": "/assets/images/homepage/banner/banner_video.mp4"
+  },
+  {
+    "tab_button": "Healthcare",
+    "customer_name": "Alex Brugmin",
+    "customer_description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sodales in sit arcu dictumst hendrerit faucibus dignissim aenean quam.",
+    "project_detail_link": "#",
+    "customer_country": "United Kingdom",
+    "flagImage": "/assets/images/homepage/customer_talk/uk.png",
+    "customer_tech": "Node.js, Angular 9, AWS",
+    "customer_video_Link": "/assets/images/homepage/banner/banner_video.mp4"
+  },
+  {
+    "tab_button": "Entertainment",
+    "customer_name": "Alex Brugmin",
+    "customer_description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sodales in sit arcu dictumst hendrerit faucibus dignissim aenean quam.",
+    "project_detail_link": "#",
+    "customer_country": "United Kingdom",
+    "flagImage": "/assets/images/homepage/customer_talk/uk.png",
+    "customer_tech": "Node.js, Angular 9, AWS",
+    "customer_video_Link": "/assets/images/homepage/banner/banner_video.mp4"
+  },
+  {
+    "tab_button": "Fintech",
+    "customer_name": "Alex Brugmin",
+    "customer_description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sodales in sit arcu dictumst hendrerit faucibus dignissim aenean quam.",
+    "project_detail_link": "#",
+    "customer_country": "United Kingdom",
+    "flagImage": "/assets/images/homepage/customer_talk/uk.png",
+    "customer_tech": "Node.js, Angular 9, AWS",
+    "customer_video_Link": "/assets/images/homepage/banner/banner_video.mp4"
+  },
+  {
+    "tab_button": "Retail",
+    "customer_name": "Alex Brugmin",
+    "customer_description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sodales in sit arcu dictumst hendrerit faucibus dignissim aenean quam.",
+    "project_detail_link": "#",
+    "customer_country": "United Kingdom",
+    "flagImage": "/assets/images/homepage/customer_talk/uk.png",
+    "customer_tech": "Node.js, Angular 9, AWS",
+    "customer_video_Link": "/assets/images/homepage/banner/banner_video.mp4"
+  }
+]

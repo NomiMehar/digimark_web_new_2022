@@ -1,0 +1,101 @@
+[
+  {
+    "arImage": "/assets/images/services/industries1.jpg",
+    "arTitle": "Healthcare",
+    "arTitleList": [
+      "Virtual Store",
+      "AR Smart Mirrors",
+      "Virtual Try-on",
+      "AR User Manual",
+      "VR Shopping Assistant"
+    ]
+  },
+  {
+    "arImage": "/assets/images/services/industries2.jpg",
+    "arTitle": "Game development",
+    "arTitleList": [
+      "Virtual Store",
+      "AR Smart Mirrors",
+      "Virtual Try-on",
+      "AR User Manual",
+      "VR Shopping Assistant"
+    ]
+  },
+  {
+    "arImage": "/assets/images/services/industries3.jpg",
+    "arTitle": "Game development",
+    "arTitleList": [
+      "Virtual Store",
+      "AR Smart Mirrors",
+      "Virtual Try-on",
+      "AR User Manual",
+      "VR Shopping Assistant"
+    ]
+  },
+  {
+    "arImage": "/assets/images/services/industries4.jpg",
+    "arTitle": "Game development",
+    "arTitleList": [
+      "Virtual Store",
+      "AR Smart Mirrors",
+      "Virtual Try-on",
+      "AR User Manual",
+      "VR Shopping Assistant"
+    ]
+  },
+  {
+    "arImage": "/assets/images/services/industries5.jpg",
+    "arTitle": "Game development",
+    "arTitleList": [
+      "Virtual Store",
+      "AR Smart Mirrors",
+      "Virtual Try-on",
+      "AR User Manual",
+      "VR Shopping Assistant"
+    ]
+  },
+  {
+    "arImage": "/assets/images/services/industries4.jpg",
+    "arTitle": "Game development",
+    "arTitleList": [
+      "Virtual Store",
+      "AR Smart Mirrors",
+      "Virtual Try-on",
+      "AR User Manual",
+      "VR Shopping Assistant"
+    ]
+  },
+  {
+    "arImage": "/assets/images/services/industries6.jpg",
+    "arTitle": "Game development",
+    "arTitleList": [
+      "Virtual Store",
+      "AR Smart Mirrors",
+      "Virtual Try-on",
+      "AR User Manual",
+      "VR Shopping Assistant"
+    ]
+  },
+  {
+    "arImage": "/assets/images/services/industries7.jpg",
+    "arTitle": "Game development",
+    "arTitleList": [
+      "Virtual Store",
+      "AR Smart Mirrors",
+      "Virtual Try-on",
+      "AR User Manual",
+      "VR Shopping Assistant"
+    ]
+  },
+  {
+    "arImage": "/assets/images/services/industries8.jpg",
+    "arTitle": "Game development",
+    "arTitleList": [
+      "Virtual Store",
+      "AR Smart Mirrors",
+      "Virtual Try-on",
+      "AR User Manual",
+      "VR Shopping Assistant"
+    ]
+  }
+]

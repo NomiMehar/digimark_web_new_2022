@@ -1,0 +1,32 @@
+[
+  {
+    "whyChooseIcon" : "/assets/images/services/choose1.svg",
+    "whyChooseTitle" : "Data security",
+    "whyChooseDetail" : "Easily accessible Software Development Kit and low barrier to entry means low costs."
+  },
+  {
+    "whyChooseIcon" : "/assets/images/services/choose2.svg",
+    "whyChooseTitle" : "Tech-savvy audience",
+    "whyChooseDetail" : "Easily accessible Software Development Kit and low barrier to entry means low costs."
+  },
+  {
+    "whyChooseIcon" : "/assets/images/services/choose3.svg",
+    "whyChooseTitle" : "Shorter development time",
+    "whyChooseDetail" : "Easily accessible Software Development Kit and low barrier to entry means low costs."
+  },
+  {
+    "whyChooseIcon" : "/assets/images/services/choose4.svg",
+    "whyChooseTitle" : "Distribution multiple networks",
+    "whyChooseDetail" : "Easily accessible Software Development Kit and low barrier to entry means low costs."
+  },
+  {
+    "whyChooseIcon" : "/assets/images/services/choose5.svg",
+    "whyChooseTitle" : "Effective testing practices",
+    "whyChooseDetail" : "Easily accessible Software Development Kit and low barrier to entry means low costs."
+  },
+  {
+    "whyChooseIcon" : "/assets/images/services/choose6.svg",
+    "whyChooseTitle" : "High ROI",
+    "whyChooseDetail" : "Easily accessible Software Development Kit and low barrier to entry means low costs."
+  }
+]

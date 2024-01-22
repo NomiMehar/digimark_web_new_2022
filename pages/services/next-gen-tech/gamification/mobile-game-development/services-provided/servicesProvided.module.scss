@@ -1,0 +1,473 @@
+@import "../../../../../../styles/variables";
+.services_provided {
+  padding: 100px 0;
+  border-radius: 0 0 100px 100px;
+  background: #12262F url("../../../../../../public/assets/images/services/starIcon.png") 90% top no-repeat;
+  position: relative;
+  @media (max-width: $breakpoint_tablet) {
+    background-image: none;
+    padding: 60px 0;
+    border-radius: 0 0 40px 40px;
+  }
+  &.unity_game_services {
+    background: url("../../../../../../public/assets/images/services/unity-services-bg.jpg") center no-repeat;
+    background-size: cover;
+    border-radius: 0;
+    padding: 188px 0 455px;
+    @media (max-width: $breakpoint_tablet) {
+      padding: 120px 0 455px;
+    }
+    &:before {
+      content: '';
+      position: absolute;
+      left: 0;
+      top: 0;
+      width: 100%;
+      height: 88px;
+      background: url("../../../../../../public/assets/images/services/tyre-shape.png") center;
+      filter: brightness(10);
+    }
+    .center { display: none;}
+    .section_title {
+      width: 100%;
+      display: flex;
+      align-items: center;
+      text-align: left;
+      border-bottom: 1px solid rgba(255, 255, 255, 0.10);
+      justify-content: space-between;
+      padding-bottom: 30px;
+      margin-bottom: 35px;
+      @media (max-width: $breakpoint_tablet) {
+        flex-direction: column;
+      }
+      h2 {
+        margin: 0;
+        @media (max-width: $breakpoint_tablet) {
+          margin-bottom: 20px;
+        }
+      }
+      p {
+        margin: 0 0 0 auto;
+        width: auto;
+        font-size: 28px;
+        color: #E4E4E4;
+        position: relative;
+        font-family: "CloverDisplay", sans-serif;
+        @media (max-width: $breakpoint_laptop) {
+          font-size: 18px;
+          margin: 0 auto 0 0;
+        }
+        &:before {
+          content: '';
+          position: absolute;
+          left: 0;
+          top: -6px;
+          height: 5px;
+          width: 12px;
+          background: #6BB64A;
+        }
+      }
+    }
+    .services_provided_text {
+      position: relative;
+      &:before {
+        content: "";
+        position: absolute;
+        right: -90px;
+        bottom: -12px;
+        background: url("../../../../../../public/assets/images/services/unity_serve_image.png") right bottom no-repeat;
+        width: 100%;
+        height: 100%;
+        pointer-events: none;
+        @media (max-width: $breakpoint_laptop) {
+          background-size: 350px;
+          right: -50px;
+        }
+        @media (max-width: $breakpoint_mobile_portrait) {
+          display: none;
+        }
+      }
+      ul {
+        width: 70%;
+        @media (max-width: $breakpoint_tablet) {
+          width: 100%;
+        }
+        li {
+          width: 50%;
+          @media (max-width: $breakpoint_mobile_portrait) {
+            width: 100%;
+          }
+          figure {
+            display: none;
+          }
+          section {
+            text-align: left;
+          }
+        }
+      }
+    }
+  }
+  &.pc_services {
+    background: #1D4354 url("../../../../../../public/assets/images/services/big-avatar.png") 90% center no-repeat;
+    background-size: contain;
+    border-radius: 0;
+    padding: 100px 0 40px;
+    @media (max-width: $breakpoint_laptop) {
+      padding: 80px 0 0;
+    }
+    .center { display: none}
+    .services_provided_text {
+      ul {
+        margin: 0 -10px;
+        li {
+          padding: 0 10px;
+          margin-bottom: 80px;
+          section {
+            text-align: left;
+            position: relative;
+            figure {
+              position: absolute;
+              left: 30px;
+              top: -48px;
+              width: 85px;
+              height: 85px;
+              @media (max-width: $breakpoint_laptop) {
+                width: 70px;
+                height: 70px;
+                top: -33px;
+              }
+              img {
+                width: 100%;
+                height: 100%;
+              }
+            }
+            p {
+              color: #E4E4E4;
+            }
+          }
+          & > section {
+            height: 100%;
+            border-radius: 20px;
+            padding: 54px 30px 40px;
+            background: rgba(40, 94, 118, 0.7);
+            border: 6px solid transparent;
+            transition: all 0.4s ease-in-out;
+            &:hover {
+              border-color: #6BB64A;
+            }
+          }
+        }
+      }
+    }
+  }
+  &.nft_game_services {
+    background: #1D4354 url("../../../../../../public/assets/images/services/big-avatartwo.png") 90% center no-repeat;
+    background-size: contain;
+    border-radius: 0;
+    padding: 100px 0 40px;
+    margin-top: 43px;
+    @media (max-width: $breakpoint_tablet) {
+      padding: 60px 0 25px;
+    }
+    &:before {
+      background: url("../../../../../../public/assets/images/services/blue_courw_shape.png") center top;
+      background-size: 100% 100%;
+      content: '';
+      position: absolute;
+      left: 0;
+      top: -43px;
+      width: 100%;
+      height: 45px;
+    }
+    &:after {
+      background: url("../../../../../../public/assets/images/services/blue_courw_shape.png") center top;
+      background-size: 100% 100%;
+      content: '';
+      position: absolute;
+      left: 0;
+      transform: scaleY(-1);
+      bottom: -43px;
+      width: 100%;
+      height: 45px;
+    }
+    .section_title {
+      width: 100%;
+    }
+    .center { display: none;}
+    .services_provided_text {
+      ul {
+        li {
+          position: relative;
+          &:before {
+            content: "";
+            position: absolute;
+            right: 20px;
+            top: 4px;
+            border-top: 20px solid #6BB64A;
+            border-left: 20px solid transparent;
+          }
+          & > section {
+            position: relative;
+            &:before {
+              content: '';
+              position: absolute;
+              left: -10px;
+              top: -10px;
+              width: 130px;
+              height: 300px;
+              border-top: 3px solid #6BB64A;
+              border-left: 3px solid #6BB64A;
+              clip-path: polygon(20% 0, 100% 0, 100% 100%, 0 100%, 0 8%);
+            }
+            &:after {
+              content: "";
+              position: absolute;
+              left: -13px;
+              top: 1px;
+              width: 33px;
+              height: 3px;
+              background: #6BB64A;
+              transform: rotate(-42deg);
+            }
+          }
+          section {
+            height: 100%;
+            figure {
+              display: none;
+            }
+            section {
+              padding: 40px;
+              text-align: left;
+              background: rgba(18,38,47,0.6);
+              clip-path: polygon(8% 0, 92% 0, 100% 8%, 100% 100%, 8% 100%, 0 92%, 0 8%);
+            }
+          }
+        }
+      }
+    }
+  }
+  &.blockchain_services{
+    background: #1D4354;
+    padding: 100px 0 100px;
+    border-radius: 0;
+    @media (max-width: $breakpoint_tablet) {
+      padding: 60px 0 60px;
+    }
+    &::before, &::after {
+      display: none;
+    }
+    .section_title {
+      width: 100%;
+    }
+   
+    .services_provided_text {
+      ul {
+        li {
+          position: relative;
+          &:before {
+            content: "";
+            position: absolute;
+            right: 20px;
+            top: 4px;
+            border-top: 20px solid #6BB64A;
+            border-left: 20px solid transparent;
+          }
+          & > section {
+            position: relative;
+            &:before {
+              content: '';
+              position: absolute;
+              left: -10px;
+              top: -10px;
+              width: 130px;
+              height: 300px;
+              border-top: 3px solid #6BB64A;
+              border-left: 3px solid #6BB64A;
+              clip-path: polygon(20% 0, 100% 0, 100% 100%, 0 100%, 0 8%);
+            }
+            &:after {
+              content: "";
+              position: absolute;
+              left: -13px;
+              top: 1px;
+              width: 33px;
+              height: 3px;
+              background: #6BB64A;
+              transform: rotate(-42deg);
+            }
+          }
+          section {
+            height: 100%;
+            figure {
+              display: none;
+            }
+            section {
+              padding: 40px;
+              text-align: left;
+              background: rgba(18,38,47,0.6);
+              clip-path: polygon(8% 0, 92% 0, 100% 8%, 100% 100%, 8% 100%, 0 92%, 0 8%);
+            }
+          }
+        }
+      }
+    }
+  }
+  &.unreal_game_services {
+    background: #12262F;
+    border-radius: 0;
+    padding: 50px 0 0;
+    &:before {
+      background: url("../../../../../../public/assets/images/services/unreal-serve-shape.png") top center;
+      background-size: 100% 100%;
+      content: '';
+      position: absolute;
+      left: 0;
+      z-index: 1;
+      top: -160px;
+      width: 100%;
+      height: 165px;
+      @media (max-width: $breakpoint_tablet) {
+        height: 80px;
+        top: -75px;
+      }
+    }
+    &:after {
+      background: url("../../../../../../public/assets/images/services/unreal-serve-shape.png") top center;
+      background-size: cover;
+      content: '';
+      position: absolute;
+      left: 0;
+      z-index: 1;
+      bottom: -160px;
+      width: 100%;
+      height: 165px;
+      transform: scaleY(-1);
+      @media (max-width: $breakpoint_tablet) {
+        height: 80px;
+        bottom: -75px;
+      }
+    }
+    .center { display: none;}
+    .services_provided_text {
+      ul {
+        li {
+          position: relative;
+          & > section {
+            position: relative;
+            padding: 8px;
+            &:before {
+              content: '';
+              position: absolute;
+              left: -2px;
+              top: 0;
+              width: 50%;
+              height: 100%;
+              background: url("../../../../../../public/assets/images/services/unreal-box-shape.svg");
+              background-size: 100% 100%;
+            }
+            &:after {
+              content: '';
+              position: absolute;
+              right: -2px;
+              top: 0;
+              width: 50%;
+              height: 100%;
+              background: url("../../../../../../public/assets/images/services/unreal-box-shape1.svg");
+              background-size: 100% 100%;
+            }
+          }
+          section {
+            height: 100%;
+            figure {
+              display: none;
+            }
+            section {
+              padding: 40px;
+              text-align: left;
+              background: rgba(29, 67, 84, 0.6);
+              clip-path: polygon(8% 0, 92% 0, 100% 8%, 100% 100%, 8% 100%, 0 92%, 0 8%);
+            }
+          }
+        }
+      }
+    }
+  }
+  .section_title {
+    h2 { color: #FFFFFF}
+  }
+  .services_provided_text {
+    ul {
+      margin: 0 -15px;
+      li {
+        width: 33.333%;
+        padding: 0 15px;
+        margin-bottom: 60px;
+        @media (max-width: $breakpoint_laptop) {
+          margin-bottom: 30px;
+        }
+        @media (max-width: $breakpoint_tablet) {
+          width: 50%;
+        }
+        @media (max-width: $breakpoint_mobile_landscape) {
+          width: 100%;
+        }
+        section {
+          text-align: center;
+          &:hover {
+            figure { transform: scaleX(-1)}
+          }
+          figure {
+            margin: 0 auto 54px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 100px;
+            height: 100px;
+            background-color: #212121;
+            border-radius: 100%;
+            transition: all 0.4s ease-in-out;
+            img {
+              @media (max-width: $breakpoint_laptop) {
+                width: 70px;
+                height: 70px;
+              }
+            }
+            @media (max-width: $breakpoint_laptop) {
+              margin-bottom: 30px;
+            }
+            @media (max-width: $breakpoint_laptop) {
+              width: 70px;
+              height: 70px;
+            }
+          }
+          h3 {
+            margin: 0 0 20px;
+            color: #FFFFFF;
+            font-size: 28px;
+            white-space: pre-line;
+            @media (max-width: $breakpoint_laptop) {
+              font-size: 22px;
+            }
+          }
+          p {
+            margin: 0;
+            line-height: 36px;
+            font-size: 24px;
+            @media (max-width: $breakpoint_laptop) {
+              font-size: 18px;
+              line-height: 28px;
+            }
+          }
+        }
+      }
+    }
+  }
+  .center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    a {
+      max-width: 365px;
+    }
+  }
+}

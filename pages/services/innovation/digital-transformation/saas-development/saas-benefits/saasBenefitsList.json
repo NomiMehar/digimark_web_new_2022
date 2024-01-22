@@ -1,0 +1,30 @@
+[
+  {
+    "benefitIcon": "/assets/images/services/saasBIcon1.svg",
+    "benefitTitle": "Reduced time and costs",
+    "benefitDescription": "SaaS varies from the traditional model because the software (application) is already configured and installed. The application will be ready to use with the provided cloud server in a few hours.\n\nThis decreases the time spent on installation and configuration and the issues that could arise during software deployment. Companies' monthly or annual subscription payments for using SaaS programs are considerably easier to budget.",
+    "mainImage": "/assets/images/services/saasImage1.jpg",
+    "subMainImage": "/assets/images/services/saassubImage1.jpg"
+  },
+  {
+    "benefitIcon": "/assets/images/services/saasBIcon2.svg",
+    "benefitTitle": "Upgrades",
+    "benefitDescription": "SaaS varies from the traditional model because the software (application) is already configured and installed. The application will be ready to use with the provided cloud server in a few hours.\n\nThis decreases the time spent on installation and configuration and the issues that could arise during software deployment. Companies' monthly or annual subscription payments for using SaaS programs are considerably easier to budget.",
+    "mainImage": "/assets/images/services/saasImage1.jpg",
+    "subMainImage": "/assets/images/services/saassubImage1.jpg"
+  },
+  {
+    "benefitIcon": "/assets/images/services/saasBIcon3.svg",
+    "benefitTitle": "Flexibility",
+    "benefitDescription": "SaaS varies from the traditional model because the software (application) is already configured and installed. The application will be ready to use with the provided cloud server in a few hours.\n\nThis decreases the time spent on installation and configuration and the issues that could arise during software deployment. Companies' monthly or annual subscription payments for using SaaS programs are considerably easier to budget.",
+    "mainImage": "/assets/images/services/saasImage1.jpg",
+    "subMainImage": "/assets/images/services/saassubImage1.jpg"
+  },
+  {
+    "benefitIcon": "/assets/images/services/saasBIcon3.svg",
+    "benefitTitle": "Scalability and integration",
+    "benefitDescription": "SaaS varies from the traditional model because the software (application) is already configured and installed. The application will be ready to use with the provided cloud server in a few hours.\n\nThis decreases the time spent on installation and configuration and the issues that could arise during software deployment. Companies' monthly or annual subscription payments for using SaaS programs are considerably easier to budget.",
+    "mainImage": "/assets/images/services/saasImage1.jpg",
+    "subMainImage": "/assets/images/services/saassubImage1.jpg"
+  }
+]

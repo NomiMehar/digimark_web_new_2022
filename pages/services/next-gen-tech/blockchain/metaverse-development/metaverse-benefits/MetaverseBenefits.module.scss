@@ -1,0 +1,203 @@
+@import "../../../../../../styles/variables";
+.perks_wrapper {
+  padding: 100px 0 120px;
+  background-color: #F3F6FF;
+  @media (max-width: $breakpoint_tablet) {
+    padding: 60px 0 60px;
+  }
+  .section_title{
+    text-align: left;
+    width: 100%;
+    margin-bottom: 10px;
+  }
+
+  .perks_rules{
+    @media (max-width: $breakpoint_mobile_portrait) {
+     display: block;
+    }
+    .perks_services {
+      max-width: 545px;
+      @media (max-width: $breakpoint_mini_laptop) {
+        max-width: 460px;
+      }
+      @media (max-width: $breakpoint_tablet) {
+        max-width: 325px;
+      }
+      @media (max-width: $breakpoint_mobile_portrait) {
+        max-width: 100%;
+      }
+      ul{
+        li {
+          position: relative;
+          padding-left: 45px;
+          margin-bottom: 30px;
+          &:hover {
+           span{
+            &:before {
+              transform: rotate(0deg);
+            }
+           }
+          }
+          &:nth-child(even) {
+            span{
+              &:before {
+                background: #1D4354 !important;
+              }
+            }
+          }
+          @media (max-width: $breakpoint_laptop) {
+            padding-left: 45px;
+            margin-bottom: 20px;
+          }
+          @media (max-width: $breakpoint_tablet) {
+            padding-left: 52px;
+          }
+          @media (max-width: $breakpoint_mobile_portrait) {
+            padding-left: 0;
+            padding-top: 40px;
+          }
+          span {
+            font-size: 28px;
+            position: absolute;
+            left: 0;
+            top: 9px;
+            font-family: "CloverDisplay-Bold", sans-serif;
+            color: $dark_color;
+            @media (max-width: $breakpoint_laptop) {
+              font-size: 22px;
+            }
+            @media (max-width: $breakpoint_tablet) {
+              top: 10px;
+              font-size: 20px;
+            }
+            &:before {
+              content: '';
+              display: inline-block;
+              width: 20px;
+              transform: rotate(15deg);
+              height: 20px;
+              margin-right: 40px;
+              background: #6BB64A;
+              transition: all 0.4s ease-in-out;
+            }
+          }
+          section {
+            h3 {
+              margin: 0 0 20px;
+              font-size: 28px;
+              font-family: "CloverDisplay-Bold", sans-serif;
+              @media (max-width: $breakpoint_laptop) {
+                margin: 0 0 12px;
+                font-size: 25px;
+              }
+              @media (max-width: $breakpoint_tablet) {
+                font-size: 20px;
+                margin: 0 0 5px;
+              }
+            }
+            p {
+              margin: 0;
+              font-size: 24px;
+              line-height: 36px;
+              font-family: "Apercu-Light", sans-serif;
+              @media (max-width: $breakpoint_laptop) {
+                font-size: 20px;
+                line-height: 30px;
+              }
+              @media (max-width: $breakpoint_tablet) {
+                font-size: 16px;
+                line-height: 24px;
+              }
+            }
+          }
+          &:last-child{
+            margin-bottom: 0;
+          }
+        }
+      }
+    }
+    .perks_image {
+      margin: 0 auto 0 0;
+      position: relative;
+      @media (max-width: $breakpoint_laptop) {
+        max-width: 550px;
+      }
+      @media (max-width: $breakpoint_mini_laptop) {
+        max-width: 475px;
+        margin: 0 auto 0 0;
+      }
+      @media (max-width: $breakpoint_tablet) {
+        max-width: 370px;
+      }
+      @media (max-width: $breakpoint_mobile_portrait) {
+        width: 100%;
+        max-width: 100%;
+      }
+      img {
+        max-width: 100%;
+        position: relative;
+        z-index: 1;
+        height: auto;
+        margin-bottom: 25px;
+      }
+    }
+  }
+  &.metaverse_future{
+    background-color: #fff;
+    @media (max-width: $breakpoint_tablet) {
+      padding: 60px 0 40px;
+    }
+    .greenLine{
+      padding-top: 25px;
+      @media (max-width: $breakpoint_tablet) {
+        padding-top: 12px;
+      }
+      @media (max-width: $breakpoint_mobile_portrait) {
+        padding-top: 0;
+        margin-top: -15px;
+      }
+    }
+    .perks_services{
+      ul{
+        li{
+          padding-left: 185px;
+          @media (max-width: $breakpoint_tablet) {
+            padding-left: 140px;
+            padding-top: 0;
+          }
+          span{
+            white-space: break-spaces;
+            left: 0px;
+            color: #1D4354;
+            font-size: 28px;
+            line-height: 29px;
+            border-top: 2px solid #1d435a;
+            padding-top: 5px;
+            @media (max-width:$breakpoint_laptop) {
+              font-size:23px;
+            }
+            @media (max-width: $breakpoint_tablet) {
+              font-size: 18px;
+            }
+            &::before{
+              content: none !important;
+            }
+            p{
+              margin: 0;
+              color: #A79FA3;
+              font-size: 16px;
+            }
+          }
+          &:last-child{
+            margin-bottom: 0;
+          }
+        }
+      }
+    }
+    .perks_image{
+      img{
+        margin-top: 20px;
+      }
+    }
+  }
+}

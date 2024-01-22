@@ -1,0 +1,115 @@
+.defi_process_wrapper {
+  padding: 100px 0;
+}
+@media (max-width: 1600px) {
+  .defi_process_wrapper {
+    padding: 80px 0;
+  }
+}
+@media (max-width: 1000px) {
+  .defi_process_wrapper {
+    padding: 60px 0 60px;
+  }
+}
+.defi_process_wrapper ul {
+  margin: 0 -20px;
+}
+@media (max-width: 1600px) {
+  .defi_process_wrapper ul {
+    margin: 0 -10px;
+  }
+}
+.defi_process_wrapper ul li {
+  width: 20%;
+  padding: 0 20px;
+  margin: 30px 0 0;
+}
+@media (max-width: 1600px) {
+  .defi_process_wrapper ul li {
+    padding: 0 10px;
+  }
+}
+@media (max-width: 1000px) {
+  .defi_process_wrapper ul li {
+    width: 50%;
+    margin-top: 70px;
+  }
+}
+@media (max-width: 600px) {
+  .defi_process_wrapper ul li {
+    width: 100%;
+  }
+}
+.defi_process_wrapper ul li:hover section figure:before {
+  transform: rotate(0deg);
+}
+.defi_process_wrapper ul li section {
+  text-align: center;
+}
+.defi_process_wrapper ul li section figure {
+  margin: 0 0 30px;
+  position: relative;
+  display: inline-block;
+}
+@media (max-width: 1600px) {
+  .defi_process_wrapper ul li section figure img {
+    max-width: 90px;
+    height: auto;
+  }
+}
+.defi_process_wrapper ul li section figure:before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  transform: rotate(-10deg);
+  background: #6BB64A;
+  transition: all 0.4s ease;
+}
+.defi_process_wrapper ul li section figure:after {
+  content: "";
+  position: absolute;
+  left: -50px;
+  top: -32px;
+  width: 85px;
+  height: 85px;
+  border-radius: 100%;
+  border: 4px solid #6BB64A;
+}
+@media (max-width: 1600px) {
+  .defi_process_wrapper ul li section figure:after {
+    width: 65px;
+    height: 65px;
+    top: -32px;
+    left: -40px;
+  }
+}
+.defi_process_wrapper ul li section figure img {
+  position: relative;
+  z-index: 1;
+}
+.defi_process_wrapper ul li section h3 {
+  margin: 0 0 20px;
+  font-size: 28px;
+  color: #6BB64A;
+}
+@media (max-width: 1600px) {
+  .defi_process_wrapper ul li section h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+}
+.defi_process_wrapper ul li section p {
+  margin: 0;
+  font-size: 20px;
+  line-height: 30px;
+  font-family: "Apercu-Light", sans-serif;
+}
+@media (max-width: 1600px) {
+  .defi_process_wrapper ul li section p {
+    font-size: 16px;
+    line-height: 26px;
+  }
+}/*# sourceMappingURL=defiProcess.module.css.map */

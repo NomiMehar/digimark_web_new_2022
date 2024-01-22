@@ -1,0 +1,22 @@
+[
+  {
+    "iconImage": "/assets/images/services/pIcon1.png",
+    "title": "Ideation",
+    "description": "We seek to understand users’ problems. We leverage various techniques like user interviews, surveys, and even stakeholder interviews."
+  },
+  {
+    "iconImage": "/assets/images/services/pIcon2.png",
+    "title": "Design",
+    "description": "Monolithic apps are broken into microservices. Decoupling the code allows teams to move faster and more independently."
+  },
+  {
+    "iconImage": "/assets/images/services/pIcon3.png",
+    "title": "Build",
+    "description": "We design flexible and scalable designs keeping tech capacity in mind. Every interaction is empathetically designed keeping our end users in mind."
+  },
+  {
+    "iconImage": "/assets/images/services/pIcon4.png",
+    "title": "Measure and grow",
+    "description": "Growth strategies are baked into the design, KPIs are set. We test, measure and feed learnings back into iteration cycles of product building."
+  }
+]

@@ -1,0 +1,42 @@
+[
+  {
+    "listIcon": "/assets/images/services/saas-serv1.svg",
+    "listTitle": "Custom SaaS Development"
+  },
+  {
+    "listIcon": "/assets/images/services/saas-serv2.svg",
+    "listTitle": "SaaS Application Development"
+  },
+  {
+    "listIcon": "/assets/images/services/saas-serv1.svg",
+    "listTitle": "3rd Party Integrations"
+  },
+  {
+    "listIcon": "/assets/images/services/saas-serv2.svg",
+    "listTitle": "API Development"
+  },
+  {
+    "listIcon": "/assets/images/services/saas-serv2.svg",
+    "listTitle": "SaaS Platform Development"
+  },
+  {
+    "listIcon": "/assets/images/services/saas-serv1.svg",
+    "listTitle": "Multi-Tenant \nArchitecture"
+  },
+  {
+    "listIcon": "/assets/images/services/saas-serv1.svg",
+    "listTitle": "Secure & Compliant SaaS Solutions"
+  },
+  {
+    "listIcon": "/assets/images/services/saas-serv1.svg",
+    "listTitle": "SaaS Solution Mobile App Platform"
+  },
+  {
+    "listIcon": "/assets/images/services/saas-serv1.svg",
+    "listTitle": "SaaS Consultation"
+  },
+  {
+    "listIcon": "/assets/images/services/saas-serv1.svg",
+    "listTitle": "Support and Maintenance"
+  }
+]

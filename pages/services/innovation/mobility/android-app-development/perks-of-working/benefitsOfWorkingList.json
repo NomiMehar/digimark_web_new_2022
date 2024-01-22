@@ -1,0 +1,32 @@
+[
+  {
+    "perksNumber" : "01",
+    "perksTitle" : "Dedicated Team.",
+    "perksDetail" : "We can provide you a team of experts that fit your needs and excellent problem solvers that will add value to your organization."
+  },
+  {
+    "perksNumber" : "02",
+    "perksTitle" : "Scalability and Flexibility",
+    "perksDetail" : "A team of professionals constantly innovating the application and working parallel with quality and effectiveness."
+  },
+  {
+    "perksNumber" : "03",
+    "perksTitle" : "Daily Reporting (SCRUM).",
+    "perksDetail" : "We follow SCRUM methodology for any project. We ensure a daily communication workflow among parts."
+  },
+  {
+    "perksNumber" : "04",
+    "perksTitle" : "A Team to Support Your Back",
+    "perksDetail" : "There will always be someone for you. We are a team of 50 IT engineers focus to improve your needs."
+  },
+  {
+    "perksNumber" : "05",
+    "perksTitle" : "Flexible Timezone",
+    "perksDetail" : "We ensure a time zone alignment to deliver products faster, a real-time collaboration and shorter feedback loops."
+  },
+  {
+    "perksNumber" : "06",
+    "perksTitle" : "Cost Effective Solutions",
+    "perksDetail" : "We host solutions that are cost competiveness and which at the same time allows you to decrease your expenses."
+  }
+]

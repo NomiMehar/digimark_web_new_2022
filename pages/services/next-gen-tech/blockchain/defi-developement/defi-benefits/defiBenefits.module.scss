@@ -1,0 +1,85 @@
+@import "../../../../../../styles/variables";
+.defi_benefits_wrapper {
+  padding: 100px 0 80px;
+  @media (max-width: $breakpoint_tablet) {
+    padding: 60px 0 40px;
+  }
+  .benefits_boxes {
+    margin: 0 -15px;
+    li {
+      padding: 0 15px;
+      margin-bottom: 20px;
+      section {
+        border: 1px solid #D9D9D9;
+        border-radius: 20px;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 24px;
+        line-height: 33px;
+        color: #1D4354;
+        min-height: 150px;
+        text-align: center;
+        transition: all 0.4s ease-in-out;
+        @media (max-width: $breakpoint_laptop) {
+          font-size: 20px;
+          min-height: 110px;
+        }
+        &:hover {
+          border-color: #1D4354;
+          background: rgba(0,0,0,0.02);
+        }
+      }
+    }
+  }
+  .defi_benefits {
+    display: flex;
+    @media (max-width: $breakpoint_mobile_portrait) {
+      flex-direction: column-reverse;
+    }
+    .left_section {
+      width: 37%;
+      @media (max-width: $breakpoint_mobile_portrait) {
+        width: 100%;
+        margin-bottom: 60px;
+      }
+      .benefits_boxes {
+        li { width: 50%;}
+      }
+    }
+    .section_title {
+      margin-left: auto;
+      margin-right: unset;
+      text-align: left;
+      width: 45%;
+      @media (max-width: $breakpoint_laptop) {
+       width: 60%;
+      }
+      @media (max-width: $breakpoint_mobile_portrait) {
+        width: 100%;
+      }
+      h2 {
+        span { display: inline-block}
+      }
+      p {
+        width: 100%;
+        margin-bottom: 26px;
+      }
+      .contact_btn {
+        max-width: 245px;
+      }
+    }
+  }
+  .benefits {
+    width: 100%;
+    ul {
+      li { 
+        width: 20%;
+        @media (max-width: $breakpoint_mobile_portrait) {
+          width: 50%;
+        }
+      }
+    }
+  }
+}

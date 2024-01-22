@@ -1,0 +1,42 @@
+.call_to_action {
+  padding: 170px 0;
+  background: url("../../public/assets/images/services/smart-calltoaction.jpg");
+}
+@media (max-width: 1000px) {
+  .call_to_action {
+    padding: 60px 0;
+    margin-top: 60px;
+  }
+}
+.call_to_action .callto_content h2 {
+  font-size: 48px;
+  margin: 0;
+  font-family: "CloverDisplay", sans-serif;
+  color: #FFFFFF;
+}
+@media (max-width: 1000px) {
+  .call_to_action .callto_content h2 {
+    font-size: 28px;
+  }
+}
+.call_to_action .callto_content h2 span {
+  color: #6BB64A;
+}
+.call_to_action.metaverse_banner {
+  background: url("../../public/assets/images/services/metaverse_banner.png");
+  background-attachment: fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
+  max-width: 100%;
+  height: 700px;
+  margin-top: 0;
+}
+@media (max-width: 1000px) {
+  .call_to_action.metaverse_banner {
+    padding: 0;
+    height: 300px;
+  }
+}
+.call_to_action.metaverse_banner .callto_content {
+  display: none;
+}/*# sourceMappingURL=callToAction.module.css.map */

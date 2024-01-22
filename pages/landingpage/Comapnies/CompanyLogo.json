@@ -1,0 +1,26 @@
+[
+  {
+    "CompanyLogoImg": "/assets/images/homepage/companies_logos/clutch.svg",
+    "width": 192,
+    "height": 214,
+    "aos_duration": "500"
+  },
+  {
+    "CompanyLogoImg": "/assets/images/homepage/companies_logos/iso_certified.svg",
+    "width": 198,
+    "height": 161,
+    "aos_duration": "700"
+  },
+  {
+    "CompanyLogoImg": "/assets/images/homepage/companies_logos/pseb.svg",
+    "width": 164,
+    "height": 164,
+    "aos_duration": "900"
+  },
+  {
+    "CompanyLogoImg": "/assets/images/homepage/companies_logos/pasha.svg",
+    "width": 331,
+    "height": 86,
+    "aos_duration": "1100"
+  }
+]

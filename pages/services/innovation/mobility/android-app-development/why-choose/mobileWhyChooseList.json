@@ -1,0 +1,27 @@
+[
+  {
+    "whyChooseTitle" : "Flexible",
+    "whyChooseDetail" : "Flexibility allows the application to run on various platforms (iOS, Android, Windows) without requiring adoption. This saves time and creates a seamless user experience.",
+    "duration": 1000
+  },
+  {
+    "whyChooseTitle" : "Innovative",
+    "whyChooseDetail" : "We keep up with the latest technological trends and incorporate them into our state-of-the-art solutions to provide our clients and their users with the best experience and the most relevant functionality.",
+    "duration": 1500
+  },
+  {
+    "whyChooseTitle" : "Scalable",
+    "whyChooseDetail" : "To ensure your application can handle the ever-growing user base and provides them with the best experience, we thoroughly choose the architecture of the application and perform high load tests.",
+    "duration": 1400
+  },
+  {
+    "whyChooseTitle" : "User-friendly",
+    "whyChooseDetail" : "Creating a precise and clear user path and user map solution compilation is essential for building the perfect app. To make it user-friendly, we provide our clients with high-quality audit services.",
+    "duration": 1000
+  },
+  {
+    "whyChooseTitle" : "Flawless",
+    "whyChooseDetail" : "Creating a fast, functional, and high-quality solution requires a talented pool of developers who use top-tier tools and technologies. Our mobile app developers have everything needed to make a perfect mobile app.",
+    "duration": 1500
+  }
+]

@@ -1,0 +1,58 @@
+[
+  {
+    "quickIcon" : "/assets/images/company/quick1.svg",
+    "quickTitle" : "Mobile App Developed",
+    "quickCount" : "100",
+    "quickCountSign" : "+",
+    "data_aos": "flip-right"
+  },
+  {
+    "quickIcon" : "/assets/images/company/quick2.svg",
+    "quickTitle" : "Website Developed",
+    "quickCount" : "150",
+    "quickCountSign" : "+",
+    "data_aos": "flip-right"
+  },
+  {
+    "quickIcon" : "/assets/images/company/quick3.svg",
+    "quickTitle" : "Blockchain Solutions",
+    "quickCount" : "4",
+    "quickCountSign" : "+",
+    "data_aos": "flip-left"
+  },
+  {
+    "quickIcon" : "/assets/images/company/quick4.svg",
+    "quickTitle" : "Client Retention",
+    "quickCount" : "90",
+    "quickCountSign" : "%",
+    "data_aos": "flip-left"
+  },
+  {
+    "quickIcon" : "/assets/images/company/quick1.svg",
+    "quickTitle" : "Employed Staff",
+    "quickCount" : "40",
+    "quickCountSign" : "+",
+    "data_aos": "flip-right"
+  },
+  {
+    "quickIcon" : "/assets/images/company/quick2.svg",
+    "quickTitle" : "Long-Term Strategic\nPartners",
+    "quickCount" : "20",
+    "quickCountSign" : "+",
+    "data_aos": "flip-right"
+  },
+  {
+    "quickIcon" : "/assets/images/company/quick3.svg",
+    "quickTitle" : "Clients Served",
+    "quickCount" : "250",
+    "quickCountSign" : "+",
+    "data_aos": "flip-left"
+  },
+  {
+    "quickIcon" : "/assets/images/company/quick4.svg",
+    "quickTitle" : "Presence in 4 \nCountries",
+    "quickCount" : "4",
+    "quickCountSign" : "",
+    "data_aos": "flip-left"
+  }
+]

@@ -1,0 +1,54 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+/node_modules
+/.pnp
+.pnp.js
+/.idea
+
+# testing
+/coverage
+
+# next.js
+/.next/
+/out/
+
+# production
+/build
+
+# misc
+.DS_Store
+*.pem
+
+# debug
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# local env files
+.env*.local
+
+# vercel
+.vercel
+
+# typescript
+*.tsbuildinfo
+next-env.d.ts
+styles/globals.css.map
+styles/globals.css
+pages/support/maintenance-services/maintenanceServices.module.css
+pages/services/next-gen-tech/blockchain/nft-marketplace/nft-process/nftProcess.module.css.map
+pages/services/next-gen-tech/blockchain/nft-marketplace/nft-process/nftProcess.module.css
+pages/services/innovation/mobility/mobile-development/our-work/ourWork.module.css.map
+pages/services/innovation/mobility/mobile-development/our-work/ourWork.module.css
+pages/services/innovation/mobility/android-app-development/perks-of-working/perksOfWorking.module.css.map
+pages/services/innovation/mobility/android-app-development/perks-of-working/perksOfWorking.module.css
+pages/services/innovation/mobility/android-app-development/custom-app/customList.module.css.map
+pages/services/innovation/mobility/android-app-development/benefits/Benefits.module.css.map
+pages/services/innovation/mobility/android-app-development/custom-app/customList.module.css
+pages/services/innovation/mobility/android-app-development/benefits/Benefits.module.css
+pages/landingpage/LetsTalk/LetsTalk.module.css.map
+pages/landingpage/LetsTalk/LetsTalk.module.css
+pages/company/how-we-are/engagement-banner/engagementBanner.module.css.map
+pages/company/how-we-are/engagement-banner/engagementBanner.module.css

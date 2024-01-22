@@ -1,0 +1,113 @@
+@import "../../../../../../styles/variables";
+.benefits_cta {
+    margin-top: 70px;
+    position: relative;
+    max-width: 60%;
+    padding: 48px 0;
+    justify-content: space-between;
+    margin-left: auto;
+    align-items: center;
+    @media (max-width: $breakpoint_laptop) {
+        max-width: 55%;
+        padding: 35px 0;
+        margin-top: 40px;
+    }
+    @media (max-width: $breakpoint_tablet) {
+        flex-direction: column;
+        max-width: 98%;
+        text-align: center;
+    }
+    &:before {
+        content: "";
+        position: absolute;
+        left: -30px;
+        top: 0;
+        width: 99em;
+        height: 100%;
+        background: linear-gradient(144deg, #6BB64A 0%, #1D4354 100%);
+        transform: skew(-22deg);
+        @media (max-width: $breakpoint_tablet) {
+            transform: none;
+        }
+    }
+    h4 {
+        margin: 0;
+        font-size: 28px;
+        color: #FFFFFF;
+        text-transform: uppercase;
+        position: relative;
+        @media (max-width: $breakpoint_laptop) {
+            font-size: 20px;
+        }
+        @media (max-width: $breakpoint_tablet) {
+            margin-bottom: 20px;
+        }
+    }
+    .contact_btn {
+        position: relative;
+        max-width: 220px;
+        background: transparent;
+        border: 1px solid #FFFFFF;
+    }
+}
+.product_benefits{
+    padding: 100px 0 0;
+    background: #F3F6FF;
+    @media (max-width: $breakpoint_tablet) {
+        padding: 60px 0 0;
+    }
+    .benefits{
+        ul{
+            margin: 0 -20px;
+            li{
+                padding: 0 20px;
+                width: 25%;
+                margin: 0 0 45px;
+                position: relative;
+                @media (max-width: $breakpoint_mobile_landscape) {
+                    width: 50%;
+                    margin-bottom: 20px;
+                }
+                &:hover{
+                    h4{
+                        color: #6bb64a;
+                    }
+                }
+                h4{
+                    transition: all 0.4s ease-in-out;
+                    font-size: 84px;
+                    line-height: 78px;
+                    color: #E6EBF5;
+                    margin-bottom: 0;
+                    @media (max-width: $breakpoint_laptop) {
+                        font-size: 45px;
+                        line-height: 60px;
+                      }
+                    @media (max-width: $breakpoint_mobile_landscape) {
+                        font-size: 43px;
+                        line-height: 1;
+                    }
+                }
+                p{
+                    transition: all 0.4s ease-in-out;
+                    font-size: 28px;
+                    line-height: 36px;
+                    color: #1D4354;
+                    opacity: 0.9;
+                    margin: 0;
+                    position: absolute;
+                    top: 25%;
+                    white-space: pre;
+                    @media (max-width: $breakpoint_laptop) {
+                        font-size: 18px;
+                        line-height: 28px;
+                      }
+                    @media (max-width: $breakpoint_mobile_landscape) {
+                        white-space: unset;
+                        font-size: 14px;
+                    }
+                }
+            }
+        }
+    }
+}

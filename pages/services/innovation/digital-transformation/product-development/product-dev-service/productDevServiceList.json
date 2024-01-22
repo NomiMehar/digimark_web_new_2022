@@ -1,0 +1,22 @@
+[
+  {
+    "icon": "/assets/images/services/sframe1.png",
+    "title": "Product Ideation",
+    "description": "We assess the viability of your idea, select an optimal technology stack, and outline your vision for future development based on market research."
+  },
+  {
+    "icon": "/assets/images/services/sframe2.png",
+    "title": "Product Ideation",
+    "description": "We assess the viability of your idea, select an optimal technology stack, and outline your vision for future development based on market research."
+  },
+  {
+    "icon": "/assets/images/services/sframe3.png",
+    "title": "Product Ideation",
+    "description": "We assess the viability of your idea, select an optimal technology stack, and outline your vision for future development based on market research."
+  },
+  {
+    "icon": "/assets/images/services/sframe4.png",
+    "title": "Product Ideation",
+    "description": "We assess the viability of your idea, select an optimal technology stack, and outline your vision for future development based on market research."
+  }
+]

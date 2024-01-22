@@ -1,0 +1,104 @@
+@import "../../../../../../styles/variables";
+.unreal_process_game {
+  margin: 100px 0 0;
+  padding: 200px 0 150px;
+  background: url("../../../../../../public/assets/images/services/unrealprocessbg.png") center no-repeat;
+  background-size: contain;
+  @media (max-width: $breakpoint_tablet) {
+    background: #1d435a;
+    margin: 0;
+    padding: 80px 0 50px;
+  }
+  & > div {
+    padding: 0 100px;
+    @media (max-width: $breakpoint_tablet) {
+      padding: 0 30px;
+    }
+  }
+  .section_title {
+    text-align: left;
+    margin-left: 0;
+    margin-bottom: 0;
+    h2 {
+      @media (max-width: $breakpoint_tablet) {
+
+      }
+    }
+    p {
+      width: 100%;
+      max-width: 574px;
+      margin-left: 0;
+      font-size: 26px;
+      margin-bottom: 50px;
+      @media (max-width: $breakpoint_laptop) {
+        font-size: 18px;
+        line-height: 28px;
+        margin-bottom: 30px;
+      }
+    }
+  }
+  ul {
+    li {
+      font-size: 28px;
+      font-family: "CloverDisplay-bold", sans-serif;
+      color: #FFFFFF;
+      position: relative;
+      margin-bottom: 60px;
+      padding-left: 68px;
+      transition: all 0.4s ease-in-out;
+      @media (max-width: $breakpoint_laptop) {
+        font-size: 22px;
+        padding-left: 50px;
+        margin-bottom: 40px;
+      }
+      @media (max-width: $breakpoint_tablet) {
+        font-size: 18px;
+        margin-bottom: 30px;
+      }
+      &:last-child {
+        &:after { display: none}
+      }
+      &:hover {
+        color: #6BB64A;
+        &:before,
+        &:after {
+          background-color: #6BB64A;
+        }
+      }
+      &:before {
+        content: '';
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 28px;
+        height: 28px;
+        background: #FFFFFF;
+        border-radius: 100%;
+        transition: all 0.4s ease-in-out;
+        @media (max-width: $breakpoint_laptop) {
+          width: 22px;
+          height: 22px;
+        }
+      }
+      &:after {
+        content: '';
+        position: absolute;
+        left: 13px;
+        top: 26px;
+        width: 1px;
+        height: 60px;
+        background: #FFFFFF;
+        transition: all 0.4s ease-in-out;
+        @media (max-width: $breakpoint_laptop) {
+          left: 10px;
+          top: 20px;
+        }
+        @media (max-width: $breakpoint_tablet) {
+          height: 50px;
+        }
+      }
+    }
+  }
+}
+
+

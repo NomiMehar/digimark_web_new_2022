@@ -1,0 +1,228 @@
+.company_banner {
+  padding: 220px 0 0;
+}
+@media (max-width: 1600px) {
+  .company_banner {
+    padding: 160px 0 0;
+  }
+}
+@media screen and (max-width: 767px) {
+  .company_banner {
+    padding: 120px 0 0;
+  }
+}
+.company_banner.careers_wrapper .banner_content {
+  padding: 0 0 35px !important;
+}
+@media screen and (max-width: 600px) {
+  .company_banner.careers_wrapper .banner_content {
+    flex-direction: column;
+  }
+}
+.company_banner.careers_wrapper .banner_content .company_text {
+  padding: 74px 0 90px;
+  width: 56%;
+}
+@media (max-width: 1600px) {
+  .company_banner.careers_wrapper .banner_content .company_text {
+    padding: 60px 0;
+  }
+}
+@media screen and (max-width: 600px) {
+  .company_banner.careers_wrapper .banner_content .company_text {
+    width: 100%;
+    padding: 40px 0;
+    margin-bottom: 30px;
+  }
+}
+.company_banner.careers_wrapper .banner_content .company_text:before {
+  content: "";
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 999em;
+  height: 100%;
+  background: url("../../../../public/assets/images/company/careers-layer.jpg");
+}
+.company_banner.careers_wrapper .banner_content .company_text span {
+  color: #FFFFFF;
+}
+.company_banner.careers_wrapper .banner_content .company_text h1 {
+  color: #6BB64A;
+  position: relative;
+}
+.company_banner.careers_wrapper .banner_content .company_text p {
+  margin: 0;
+}
+.company_banner.careers_wrapper .banner_content .banner_careers {
+  margin-left: auto;
+  padding-left: 30px;
+  height: auto;
+}
+@media (max-width: 1600px) {
+  .company_banner.careers_wrapper .banner_content .banner_careers {
+    padding-left: 120px;
+  }
+}
+@media screen and (max-width: 1000px) {
+  .company_banner.careers_wrapper .banner_content .banner_careers {
+    max-width: 300px;
+    padding-left: 10px;
+    height: auto;
+  }
+}
+@media screen and (max-width: 600px) {
+  .company_banner.careers_wrapper .banner_content .banner_careers {
+    max-width: 100%;
+  }
+}
+.company_banner.women_banner {
+  height: 100vh;
+  background: #f7f3e7 url("../../../../public/assets/images/women-empowerment/women-banner.jpg") no-repeat center bottom;
+  background-size: contain;
+}
+@media screen and (max-width: 1000px) {
+  .company_banner.women_banner {
+    height: 400px;
+  }
+}
+.company_banner.women_banner .animated_logo {
+  display: none;
+}
+.company_banner > img {
+  width: 100%;
+  height: auto;
+}
+.company_banner .breadcrumbs li:before {
+  background-color: #12262F;
+  top: 2px;
+}
+@media (max-width: 1600px) {
+  .company_banner .breadcrumbs li:before {
+    top: 7px;
+  }
+}
+.company_banner .breadcrumbs li span {
+  color: #12262F;
+}
+.company_banner .breadcrumbs li img {
+  filter: brightness(0.08);
+}
+.company_banner.mini_banner .banner_content {
+  align-items: center !important;
+  padding: 100px 0 50px;
+}
+@media (max-width: 1600px) {
+  .company_banner.mini_banner .banner_content {
+    padding: 0 0 30px;
+  }
+}
+.company_banner .banner_content .company_text {
+  width: 60%;
+  position: relative;
+}
+@media screen and (max-width: 767px) {
+  .company_banner .banner_content .company_text {
+    width: 100%;
+  }
+}
+.company_banner .banner_content .company_text small {
+  position: absolute;
+  left: 20%;
+  pointer-events: none;
+  -webkit-text-stroke: 1px rgba(0, 0, 0, 0.15);
+  -webkit-text-fill-color: transparent;
+  top: 0;
+  font-size: 400px;
+  font-family: "CloverDisplay-Bold", sans-serif;
+  line-height: 0.55;
+}
+@media (max-width: 1600px) {
+  .company_banner .banner_content .company_text small {
+    font-size: 300px;
+  }
+}
+@media screen and (max-width: 1000px) {
+  .company_banner .banner_content .company_text small {
+    font-size: 150px;
+  }
+}
+.company_banner .banner_content .company_text > span {
+  color: #6BB64A;
+  opacity: 0.9;
+  margin-bottom: 5px;
+  font-size: 24px;
+}
+@media screen and (max-width: 1000px) {
+  .company_banner .banner_content .company_text > span {
+    font-size: 18px;
+  }
+}
+.company_banner .banner_content .company_text > span span {
+  color: #FF0000;
+}
+.company_banner .banner_content .company_text h1 {
+  margin: 0 0 20px;
+  font-size: 48px;
+  white-space: pre-line;
+}
+@media (max-width: 1600px) {
+  .company_banner .banner_content .company_text h1 {
+    font-size: 38px;
+  }
+}
+@media (max-width: 1000px) {
+  .company_banner .banner_content .company_text h1 {
+    font-size: 26px;
+  }
+}
+.company_banner .banner_content .company_text h1 span {
+  background: #6BB64A;
+  padding: 0 10px;
+  color: #FFFFFF;
+}
+.company_banner .banner_content .company_text p {
+  margin: 0 0 50px;
+  color: #969696;
+  opacity: 0.9;
+  font-size: 24px;
+  line-height: 42px;
+  font-family: "Apercu-Light", sans-serif;
+}
+@media (max-width: 1600px) {
+  .company_banner .banner_content .company_text p {
+    margin: 0 0 30px;
+    font-size: 20px;
+    line-height: 32px;
+  }
+}
+@media screen and (max-width: 1000px) {
+  .company_banner .banner_content .company_text p {
+    margin: 0 0 20px;
+    font-size: 16px;
+    line-height: 26px;
+  }
+}
+.company_banner .banner_content .company_text p strong {
+  color: #12262F;
+}
+.company_banner .banner_content .animated_logo {
+  width: 383px;
+  margin-left: auto;
+}
+@media screen and (max-width: 767px) {
+  .company_banner .banner_content .animated_logo {
+    display: none;
+  }
+}
+.company_banner .banner_content .animated_logo figure {
+  margin: 0;
+  position: relative;
+  text-align: center;
+}
+.company_banner .banner_content .animated_logo figure figcaption {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}/*# sourceMappingURL=CompanyBanner.module.css.map */

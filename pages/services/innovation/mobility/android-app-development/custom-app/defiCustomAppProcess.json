@@ -1,0 +1,50 @@
+[
+  {
+    "customAppNumber": "01",
+    "customAppIcon" : "/assets/images/services/defi-icon1.svg",
+    "customAppTitle" : "DeFi Token\nDevelopment",
+    "customAppDetail" : "Launch the native token to power the DeFi protocol and grow the DeFi platform."
+  },
+  {
+    "customAppNumber": "02",
+    "customAppIcon" : "/assets/images/services/defi-icon1.svg",
+    "customAppTitle" : "DeFi DApp\nDevelopment",
+    "customAppDetail" : "Launch the native token to power the DeFi protocol and grow the DeFi platform."
+  },
+  {
+    "customAppNumber": "03",
+    "customAppIcon" : "/assets/images/services/defi-icon1.svg",
+    "customAppTitle" : "DeFi Wallet\nDevelopment",
+    "customAppDetail" : "Launch the native token to power the DeFi protocol and grow the DeFi platform."
+  },
+  {
+    "customAppNumber": "04",
+    "customAppIcon" : "/assets/images/services/defi-icon1.svg",
+    "customAppTitle" : "DeFi Exchange\nDevelopment",
+    "customAppDetail" : "Launch the native token to power the DeFi protocol and grow the DeFi platform."
+  },
+  {
+    "customAppNumber": "01",
+    "customAppIcon" : "/assets/images/services/defi-icon1.svg",
+    "customAppTitle" : "DeFi Token\nDevelopment",
+    "customAppDetail" : "Launch the native token to power the DeFi protocol and grow the DeFi platform."
+  },
+  {
+    "customAppNumber": "02",
+    "customAppIcon" : "/assets/images/services/defi-icon1.svg",
+    "customAppTitle" : "DeFi DApp\nDevelopment",
+    "customAppDetail" : "Launch the native token to power the DeFi protocol and grow the DeFi platform."
+  },
+  {
+    "customAppNumber": "03",
+    "customAppIcon" : "/assets/images/services/defi-icon1.svg",
+    "customAppTitle" : "DeFi Wallet\nDevelopment",
+    "customAppDetail" : "Launch the native token to power the DeFi protocol and grow the DeFi platform."
+  },
+  {
+    "customAppNumber": "04",
+    "customAppIcon" : "/assets/images/services/defi-icon1.svg",
+    "customAppTitle" : "DeFi Exchange\nDevelopment",
+    "customAppDetail" : "Launch the native token to power the DeFi protocol and grow the DeFi platform."
+  }
+]

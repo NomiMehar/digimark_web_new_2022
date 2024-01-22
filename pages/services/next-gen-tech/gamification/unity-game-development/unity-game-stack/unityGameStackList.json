@@ -1,0 +1,67 @@
+[
+  {
+    "tabTitle": "Language",
+    "tabList": [
+      {
+        "boxIcon": "/assets/images/services/tabIcon1.png",
+        "boxTitle": "Python",
+        "boxContent": "Python is a general-purpose and high-level language. It is utilized by us to write logical and clear code for both large-scale and small projects."
+      },
+      {
+        "boxIcon": "/assets/images/services/tabIcon2.png",
+        "boxTitle": "OBJECTIVE C",
+        "boxContent": "Assisting businesses to launch the gaming app on iOS, iPad, Mac OS, and other related platforms. The popular object-oriented language, Objective C delivers more convenience and flexibility."
+      },
+      {
+        "boxIcon": "/assets/images/services/tabIcon3.png",
+        "boxTitle": "C++",
+        "boxContent": "The object-oriented language offers a better programming structure and allows code reuse. Our professional C/C++ developers can create Unity games for you in the said programming language."
+      },
+      {
+        "boxIcon": "/assets/images/services/tabIcon4.png",
+        "boxTitle": "JavaScript",
+        "boxContent": "Our design and development resources are fully capable to deliver high-end Unity games utilizing JavaScript and other Object Oriented Programming (OOP) languages."
+      },
+      {
+        "boxIcon": "/assets/images/services/tabIcon5.png",
+        "boxTitle": "C#",
+        "boxContent": "C3 or C-Sharp operates on the .Net Framework. Our expertise in the multi-paradigm programming language will do custom Unity game development for your audience."
+      }
+    ]
+  },
+  {
+    "tabTitle": "Database",
+    "tabList": [
+      {
+        "boxIcon": "/assets/images/services/tabIcon3.png",
+        "boxTitle": "C++",
+        "boxContent": "The object-oriented language offers a better programming structure and allows code reuse. Our professional C/C++ developers can create Unity games for you in the said programming language."
+      },
+      {
+        "boxIcon": "/assets/images/services/tabIcon4.png",
+        "boxTitle": "JavaScript",
+        "boxContent": "Our design and development resources are fully capable to deliver high-end Unity games utilizing JavaScript and other Object Oriented Programming (OOP) languages."
+      },
+      {
+        "boxIcon": "/assets/images/services/tabIcon5.png",
+        "boxTitle": "C#",
+        "boxContent": "C3 or C-Sharp operates on the .Net Framework. Our expertise in the multi-paradigm programming language will do custom Unity game development for your audience."
+      }
+    ]
+  },
+  {
+    "tabTitle": "Framework",
+    "tabList": [
+      {
+        "boxIcon": "/assets/images/services/tabIcon4.png",
+        "boxTitle": "JavaScript",
+        "boxContent": "Our design and development resources are fully capable to deliver high-end Unity games utilizing JavaScript and other Object Oriented Programming (OOP) languages."
+      },
+      {
+        "boxIcon": "/assets/images/services/tabIcon5.png",
+        "boxTitle": "C#",
+        "boxContent": "C3 or C-Sharp operates on the .Net Framework. Our expertise in the multi-paradigm programming language will do custom Unity game development for your audience."
+      }
+    ]
+  }
+]

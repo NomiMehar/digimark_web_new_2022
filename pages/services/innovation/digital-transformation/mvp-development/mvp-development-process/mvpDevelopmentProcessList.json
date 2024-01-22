@@ -1,0 +1,22 @@
+[
+  {
+    "counting": "01",
+    "title": "Discovery",
+    "detail": "During this phase, we will define the scope of the MVP together. Based on that you can expect a UX roadmap and Figma designs for the first sprint of the implementation phase. As a leading MVP development company, we will also propose a technology stack and architecture in the form of high-level design (HLD)."
+  },
+  {
+    "counting": "02",
+    "title": "Implementation",
+    "detail": "Here we’ll implement the scope described within the MVP and perform unit and automation regression tests. Besides testing, we’ll provide CI/CD implementation, and prepare cloud environments for software development, testing and production. We’ll make sure that the whole process is well documented. Moreover, we guarantee product demonstration and acceptance tests at the end of every sprint."
+  },
+  {
+    "counting": "03",
+    "title": "First release",
+    "detail": "Now it's time for acceptance testing of the whole MVP scope, and production deployment as a result of the final confirmation. After these steps, we’ll give you comprehensive MVP documentation."
+  },
+  {
+    "counting": "04",
+    "title": "Stabilization",
+    "detail": "During the final stage, the product will be used by your most trusted users - “family and friends testing”. Simultaneously, while applying necessary hotfixes and improving the user experience by applying minor changes, we will be able to work on the scope, post-MVP."
+  }
+]

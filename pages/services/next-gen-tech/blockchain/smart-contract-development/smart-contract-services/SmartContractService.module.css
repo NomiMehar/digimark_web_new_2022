@@ -1,0 +1,171 @@
+.perks_wrapper {
+  padding: 100px 0 120px;
+  background-color: #F3F6FF;
+}
+@media (max-width: 1000px) {
+  .perks_wrapper {
+    padding: 60px 0 145px;
+  }
+}
+.perks_wrapper .perks_rules .perks_services {
+  max-width: 100%;
+}
+.perks_wrapper .perks_rules .perks_services ul {
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin: 0 -11px;
+}
+.perks_wrapper .perks_rules .perks_services ul li {
+  width: 50%;
+  margin-bottom: 20px;
+  padding: 0 11px;
+}
+@media (max-width: 1000px) {
+  .perks_wrapper .perks_rules .perks_services ul li {
+    margin-bottom: 20px;
+  }
+}
+@media (max-width: 767px) {
+  .perks_wrapper .perks_rules .perks_services ul li {
+    width: 100%;
+  }
+}
+.perks_wrapper .perks_rules .perks_services ul li .parks_text {
+  position: relative;
+  height: 100%;
+  padding: 40px 40px 20px 160px;
+  transition: all 0.4s ease-in-out;
+}
+@media (max-width: 1000px) {
+  .perks_wrapper .perks_rules .perks_services ul li .parks_text {
+    padding: 20px 25px 25px 80px;
+  }
+}
+@media (max-width: 600px) {
+  .perks_wrapper .perks_rules .perks_services ul li .parks_text {
+    padding: 50px 20px 20px;
+  }
+}
+.perks_wrapper .perks_rules .perks_services ul li .parks_text:hover span {
+  transform: rotate(0deg);
+}
+.perks_wrapper .perks_rules .perks_services ul li span {
+  transform: rotate(16.87deg);
+  font-size: 55px;
+  width: 130px;
+  height: 130px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  left: 0;
+  top: 0;
+  background: #6bb64a;
+  font-family: "CloverDisplay-Bold", sans-serif;
+  color: #fff;
+  transition: all 0.5s;
+}
+@media (max-width: 1600px) {
+  .perks_wrapper .perks_rules .perks_services ul li span {
+    width: 90px;
+    height: 90px;
+    left: 15px;
+    top: 15px;
+  }
+}
+@media (max-width: 1000px) {
+  .perks_wrapper .perks_rules .perks_services ul li span {
+    top: 27px;
+    font-size: 30px;
+    left: 10px;
+    width: 60px;
+    height: 60px;
+  }
+}
+@media (max-width: 600px) {
+  .perks_wrapper .perks_rules .perks_services ul li span {
+    top: -20px;
+    font-size: 20px;
+    left: 20px;
+    padding: 17px;
+  }
+}
+.perks_wrapper .perks_rules .perks_services ul li section h3 {
+  margin: 0 0 20px;
+  font-size: 28px;
+  white-space: break-spaces;
+  font-family: "CloverDisplay-Bold", sans-serif;
+}
+@media (max-width: 1600px) {
+  .perks_wrapper .perks_rules .perks_services ul li section h3 {
+    margin: 0 0 12px;
+    font-size: 25px;
+  }
+}
+@media (max-width: 1000px) {
+  .perks_wrapper .perks_rules .perks_services ul li section h3 {
+    font-size: 20px;
+    margin: 0 0 5px;
+  }
+}
+.perks_wrapper .perks_rules .perks_services ul li section p {
+  margin: 0;
+  font-size: 24px;
+  line-height: 36px;
+  font-family: "Apercu-Light", sans-serif;
+}
+@media (max-width: 1600px) {
+  .perks_wrapper .perks_rules .perks_services ul li section p {
+    font-size: 20px;
+    line-height: 30px;
+  }
+}
+@media (max-width: 1000px) {
+  .perks_wrapper .perks_rules .perks_services ul li section p {
+    font-size: 16px;
+    line-height: 24px;
+  }
+}
+.perks_wrapper .perks_rules .perks_image {
+  margin: 0 0 0 auto;
+  position: relative;
+}
+@media (max-width: 1600px) {
+  .perks_wrapper .perks_rules .perks_image {
+    max-width: 550px;
+  }
+}
+@media (max-width: 1200px) {
+  .perks_wrapper .perks_rules .perks_image {
+    max-width: 360px;
+    margin: 0 auto;
+  }
+}
+@media (max-width: 767px) {
+  .perks_wrapper .perks_rules .perks_image {
+    display: none;
+  }
+}
+.perks_wrapper .perks_rules .perks_image:before, .perks_wrapper .perks_rules .perks_image:after {
+  content: "";
+  position: absolute;
+  left: -23px;
+  bottom: -23px;
+  width: 195px;
+  height: 195px;
+  background: #6bb64a;
+  transition: all 0.4s ease-in-out;
+}
+.perks_wrapper .perks_rules .perks_image:after {
+  bottom: unset;
+  left: unset;
+  top: -23px;
+  right: -23px;
+}
+.perks_wrapper .perks_rules .perks_image img {
+  max-width: 100%;
+  position: relative;
+  z-index: 1;
+  border-radius: 15px;
+  height: auto;
+}/*# sourceMappingURL=SmartContractService.module.css.map */

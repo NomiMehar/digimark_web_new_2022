@@ -1,0 +1,82 @@
+@import "../../../../../../styles/variables";
+.why_nft_game {
+  background: url('../../../../../../public/assets/images/services/why-nf-gamebg.png');
+  background-size: 100% 100%;
+  padding: 200px 0;
+  @media (max-width: $breakpoint_laptop) {
+    padding: 140px 0 110px;
+  }
+  @media (max-width: $breakpoint_tablet) {
+    & > div {
+      flex-direction: column;
+      & > img {
+        display: none;
+      }
+    }
+  }
+  .why_nft_game_list {
+    max-width: 928px;
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+    @media (max-width: $breakpoint_laptop) {
+      max-width: 700px;
+    }
+    img {
+      @media (max-width: $breakpoint_laptop) {
+        margin: 0 auto;
+      }
+    }
+    h2 {
+      margin: 0 0 2px;
+      font-size: 48px;
+      color: #FFFFFF;
+      @media (max-width: $breakpoint_laptop) {
+        font-size: 36px;
+      }
+      span {
+        color: #6BB64A;
+      }
+    }
+    p {
+      margin: 0 0 100px;
+      color: #CECECE;
+      font-size: 26px;
+      opacity: 0.9;
+      line-height: 40px;
+      @media (max-width: $breakpoint_laptop) {
+        font-size: 18px;
+        line-height: 24px;
+        margin-bottom: 50px;
+      }
+    }
+    ul {
+      margin: 0 -12px;
+      li {
+        padding: 0 12px;
+        margin-bottom: 30px;
+        width: 50%;
+        @media (max-width: $breakpoint_mobile_portrait) {
+          width: 100%;
+        }
+        section {
+          border-radius: 10px;
+          background: #FFFFFF;
+          padding: 30px;
+          height: 100%;
+          span {
+            font-size: 24px;
+            line-height: 36px;
+            display: block;
+            @media (max-width: $breakpoint_laptop) {
+              font-size: 18px;
+              line-height: 28px;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+

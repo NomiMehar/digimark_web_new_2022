@@ -1,0 +1,26 @@
+[
+  {
+    "title": "Product & Research",
+    "description": "Thorough analysis of target audience: size, interests, trends investigation."
+  },
+  {
+    "title": "Concepting",
+    "description": "Concept creation: game core loop, game economy design, game design documentation."
+  },
+  {
+    "title": "Prototyping",
+    "description": "Rapid prototype development aimed to quickly prove set of game mechanics and features."
+  },
+  {
+    "title": "Production",
+    "description": "Game development from prototype to gold master. Project sprints splitting backed with QA at each stage."
+  },
+  {
+    "title": "Submission",
+    "description": "Ensuring full compliance support: according to Nintendo, Xbox & PlayStation store requirements."
+  },
+  {
+    "title": "Live Ops",
+    "description": "Post-production support: extra content, additional levels, project economy audit, game balance."
+  }
+]

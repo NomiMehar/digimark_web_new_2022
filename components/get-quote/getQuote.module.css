@@ -1,0 +1,89 @@
+.get_quote {
+  text-align: center;
+  margin: 100px 0 -130px;
+  position: relative;
+  z-index: 9;
+}
+.get_quote.about_wrap {
+  margin-top: 0;
+}
+@media (max-width: 999px) {
+  .get_quote {
+    margin-top: 30px;
+  }
+}
+.get_quote .get_quote_content {
+  background: url("../../public/assets/images/services/quote.png") center;
+  background-size: cover;
+  padding: 40px 50px;
+  border-radius: 24px;
+  max-width: 1137px;
+  margin: 0 auto;
+  text-align: center;
+}
+@media (max-width: 1600px) {
+  .get_quote .get_quote_content {
+    max-width: 930px;
+  }
+}
+@media (max-width: 999px) {
+  .get_quote .get_quote_content {
+    padding: 20px 25px 30px;
+  }
+}
+.get_quote .get_quote_content h2 {
+  font-size: 48px;
+  margin: 0 0 10px;
+  color: #FFFFFF;
+}
+@media (max-width: 1600px) {
+  .get_quote .get_quote_content h2 {
+    font-size: 38px;
+  }
+}
+@media (max-width: 999px) {
+  .get_quote .get_quote_content h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+}
+.get_quote .get_quote_content h2 span {
+  color: #12262F;
+  background: #FFFFFF;
+  padding: 0 10px;
+}
+.get_quote .get_quote_content p {
+  font-size: 24px;
+  font-family: "Apercu-Light", sans-serif;
+  color: #FFFFFF;
+  line-height: 40px;
+  max-width: 70%;
+  margin: 0 auto 30px;
+}
+@media (max-width: 1600px) {
+  .get_quote .get_quote_content p {
+    line-height: 30px;
+    max-width: 60%;
+    font-size: 20px;
+    margin: 0 auto 20px;
+  }
+}
+@media (max-width: 999px) {
+  .get_quote .get_quote_content p {
+    max-width: 100%;
+    font-size: 17px;
+    line-height: 25px;
+  }
+}
+.get_quote .get_quote_content .contact_btn {
+  margin: 0 auto;
+  background: #FFFFFF;
+  color: #12262F;
+  box-shadow: 5px 5px 0 rgba(255, 255, 255, 0.3);
+}
+.get_quote .get_quote_content .contact_btn:hover {
+  box-shadow: none;
+}
+.get_quote .get_quote_content .contact_btn img {
+  filter: brightness(0);
+}/*# sourceMappingURL=getQuote.module.css.map */

@@ -1,0 +1,50 @@
+.defi_tech_wrapper {
+  background: #1D4354 url("../../../../../../public/assets/images/services/custom-bg.svg");
+  padding: 100px 0 80px;
+}
+@media (max-width: 1000px) {
+  .defi_tech_wrapper {
+    padding: 60px 0 40px;
+  }
+}
+.defi_tech_wrapper ul {
+  margin: 0 -14px;
+}
+.defi_tech_wrapper ul li {
+  width: 16.6667%;
+  margin-bottom: 20px;
+  padding: 0 14px;
+}
+@media (max-width: 1000px) {
+  .defi_tech_wrapper ul li {
+    width: 25%;
+  }
+}
+@media (max-width: 600px) {
+  .defi_tech_wrapper ul li {
+    width: 50%;
+  }
+}
+.defi_tech_wrapper ul li section {
+  width: 100%;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 138px;
+  border-radius: 10px;
+  border: 1px solid #FFFFFF;
+}
+.defi_tech_wrapper ul li section:hover img {
+  transform: scaleX(-1);
+}
+.defi_tech_wrapper ul li section img {
+  margin-bottom: 15px;
+  transition: all 0.4s ease-in-out;
+}
+.defi_tech_wrapper ul li section h3 {
+  margin: 0;
+  color: #FFFFFF;
+  font-size: 14px;
+}/*# sourceMappingURL=defiTech.module.css.map */

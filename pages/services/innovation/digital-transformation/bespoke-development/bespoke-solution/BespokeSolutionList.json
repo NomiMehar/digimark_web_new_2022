@@ -1,0 +1,22 @@
+[
+    {
+        "img":"/assets/images/services/arrow_circle.svg",
+        "description":"Enhanced flexibility and scalability: Bespoke software solutions are designed to accommodate the evolution of your business. Therefore, changing processes, increasing workloads, and more integrations won’t cause any problems."
+    },
+    {
+        "img":"/assets/images/services/arrow_circle.svg",
+        "description":"Cost-effectiveness:  At first glance, bespoke solutions cost much more than off-the-shelf ones. However, in the long run, they prove less expensive. You avoid subscription, licensing, and upgrade costs that pile up in the long run."
+    },
+    {
+        "img":"/assets/images/services/arrow_circle.svg",
+        "description":"Complete ownership and control:  You decide how and where your bespoke solution is deployed. In particular, it can be used by as many employees as you need, and upgrades are not an issue. If your business situation requires new features, you can add them."
+    },
+    {
+        "img":"/assets/images/services/arrow_circle.svg",
+        "description":"Extra security:  You have complete control over the software, which makes a hacker attack less likely. Off-the-shelf software may have known issues and vulnerabilities, offering cybercriminals more opportunities."
+    },
+    {
+        "img":"/assets/images/services/arrow_circle.svg",
+        "description":"Swift integration:  Bespoke software development takes into account the hardware and systems your business uses. Thus, your new solution fits in seamlessly."
+    }
+]

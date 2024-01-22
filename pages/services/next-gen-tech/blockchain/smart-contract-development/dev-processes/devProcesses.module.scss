@@ -1,0 +1,92 @@
+@import "../../../../../../styles/variables";
+.devprocesses_wrap {
+  background: url("../../../../../../public/assets/images/services/smart-processes.jpg") center fixed;
+  background-size: cover;
+  padding: 100px 0;
+  @media (max-width: $breakpoint_tablet) {
+   padding: 60px 0;
+  }
+  .devprocess_list {
+    @media (max-width: $breakpoint_mobile_portrait) {
+     display: block;
+    }
+    ul {
+      width: 42%;
+      position: relative;
+      @media (max-width: $breakpoint_tablet) {
+        width: 80%;
+      }
+      @media (max-width: $breakpoint_mobile_portrait) {
+        width: 100%;
+       }
+      li {
+        padding: 0 0 13px;
+        position: relative;
+        &:last-child {
+          &:after{ content: none}
+        }
+        &:after {
+          content: '';
+          position: absolute;
+          left: 3.6px;
+          top: 15px;
+          width: 1px;
+          height: 100%;
+          background-color: #FFFFFF;
+        }
+        &:before {
+          content: '';
+          position: absolute;
+          left: 0;
+          top: 15px;
+          width: 8px;
+          height: 8px;
+          background-color: #FFFFFF;
+          border-radius: 100%;
+          @media (max-width: $breakpoint_tablet) {
+            top: 7px;
+          }
+        }
+        button {
+          max-width: 70%;
+          border: none;
+          background: transparent;
+          padding-left: 40px;
+          text-align: left;
+          color: #FFFFFF;
+          font-size: 28px;
+          line-height: 39px;
+          font-family: "CloverDisplay", sans-serif;
+          @media (max-width: $breakpoint_tablet) {
+            font-size: 18px;
+            line-height: 23px;
+            max-width: 100%;
+          }
+          &.active {
+            font-family: "CloverDisplay-bold", sans-serif;
+          }
+        }
+      }
+    }
+    p {
+      opacity: 0.9;
+      font-size: 24px;
+      line-height: 42px;
+      font-family: "Apercu-Light", sans-serif;
+      white-space: pre-wrap;
+      margin: 0;
+      width: 100%;
+      max-width: 610px;
+      color: #fff;
+      @media (max-width: $breakpoint_tablet) {
+      max-width: 440px;
+      font-size: 16px;
+      line-height: 25px;
+      }
+      @media (max-width: $breakpoint_mobile_portrait) {
+        margin-top: 20px;
+        max-width: 100%;
+       }
+    }
+  }
+}

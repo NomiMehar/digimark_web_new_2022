@@ -1,0 +1,26 @@
+[
+  {
+    "customAppNumber": "01",
+    "customAppIcon" : "/assets/images/services/list1.svg",
+    "customAppTitle" : "Android App UX/UI Design",
+    "customAppDetail" : "We create exceptionally secure, technically advanced, and feature-rich Android apps. Our apps are designed to best fit the modern Android operating system while delivering an exceptional user-experience to the users."
+  },
+  {
+    "customAppNumber": "02",
+    "customAppIcon" : "/assets/images/services/list2.svg",
+    "customAppTitle" : "Custom Application Development",
+    "customAppDetail" : "We create exceptionally secure, technically advanced, and feature-rich Android apps. Our apps are designed to best fit the modern Android operating system while delivering an exceptional user-experience to the users."
+  },
+  {
+    "customAppNumber": "03",
+    "customAppIcon" : "/assets/images/services/list3.svg",
+    "customAppTitle" : "Android App Testing",
+    "customAppDetail" : "We create exceptionally secure, technically advanced, and feature-rich Android apps. Our apps are designed to best fit the modern Android operating system while delivering an exceptional user-experience to the users."
+  },
+  {
+    "customAppNumber": "04",
+    "customAppIcon" : "/assets/images/services/list4.svg",
+    "customAppTitle" : "Android App Maintenance & Support",
+    "customAppDetail" : "We create exceptionally secure, technically advanced, and feature-rich Android apps. Our apps are designed to best fit the modern Android operating system while delivering an exceptional user-experience to the users."
+  }
+]

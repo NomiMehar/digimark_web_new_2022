@@ -1,0 +1,42 @@
+[
+  {
+    "serviceIcon" : "/assets/images/services/ar-service1.svg",
+    "serviceTitle" : "Metaverse App Development",
+    "serviceDetail" : "We create metaverse applications with groundbreaking attributes, functionality, and user experience. Our applications for metaverse complies with all the legal guidelines with a premium interface for new users."
+  },
+  {
+    "serviceIcon" : "/assets/images/services/ar-service2.svg",
+    "serviceTitle" : "AR/MR Application Development",
+    "serviceDetail" : "Coming on the heels of the big data revolution, 3D visualizations in AR&VR (and mixed) reality are the right tool at the right time to help decision-makers understand and glean insights from huge data sets. Virtual data visualization solutions will unlock the power of big data in realms as disparate as community health & medicine, agriculture, board rooms, and governments meetings."
+  },
+  {
+    "serviceIcon" : "/assets/images/services/ar-service3.svg",
+    "serviceTitle" : "Augmented Reality Development",
+    "serviceDetail" : "We are one of the VR/AR development companies that crafts applications which operate using sensors and deliver impressive results on desktop and mobile devices."
+  },
+  {
+    "serviceIcon" : "/assets/images/services/ar-service1.svg",
+    "serviceTitle" : "Metaverse App Development",
+    "serviceDetail" : "We create metaverse applications with groundbreaking attributes, functionality, and user experience. Our applications for metaverse complies with all the legal guidelines with a premium interface for new users."
+  },
+  {
+    "serviceIcon" : "/assets/images/services/ar-service2.svg",
+    "serviceTitle" : "AR/MR Application Development",
+    "serviceDetail" : "Coming on the heels of the big data revolution, 3D visualizations in AR&VR (and mixed) reality are the right tool at the right time to help decision-makers understand and glean insights from huge data sets. Virtual data visualization solutions will unlock the power of big data in realms as disparate as community health & medicine, agriculture, board rooms, and governments meetings."
+  },
+  {
+    "serviceIcon" : "/assets/images/services/ar-service3.svg",
+    "serviceTitle" : "Augmented Reality Development",
+    "serviceDetail" : "We are one of the VR/AR development companies that crafts applications which operate using sensors and deliver impressive results on desktop and mobile devices."
+  },
+  {
+    "serviceIcon" : "/assets/images/services/ar-service1.svg",
+    "serviceTitle" : "Metaverse App Development",
+    "serviceDetail" : "We create metaverse applications with groundbreaking attributes, functionality, and user experience. Our applications for metaverse complies with all the legal guidelines with a premium interface for new users."
+  },
+  {
+    "serviceIcon" : "/assets/images/services/ar-service2.svg",
+    "serviceTitle" : "AR/MR Application Development",
+    "serviceDetail" : "Coming on the heels of the big data revolution, 3D visualizations in AR&VR (and mixed) reality are the right tool at the right time to help decision-makers understand and glean insights from huge data sets. Virtual data visualization solutions will unlock the power of big data in realms as disparate as community health & medicine, agriculture, board rooms, and governments meetings."
+  }
+]

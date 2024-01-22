@@ -1,0 +1,127 @@
+.engagement_tools {
+  background: #1e4658 url("../../../../public/assets/images/services/custom-bg.svg");
+  padding: 80px 0 100px;
+}
+@media screen and (max-width: 600px) {
+  .engagement_tools {
+    padding: 60px 0;
+  }
+}
+.engagement_tools .management_section .heading {
+  width: 60%;
+  margin-bottom: -95px;
+}
+@media screen and (max-width: 1200px) {
+  .engagement_tools .management_section .heading {
+    margin-bottom: -140px;
+  }
+}
+@media screen and (max-width: 1000px) {
+  .engagement_tools .management_section .heading {
+    margin-bottom: 0;
+    width: 100%;
+  }
+}
+.engagement_tools .management_section .heading h2 {
+  margin: 0;
+  color: #ffffff;
+  font-size: 48px;
+  line-height: 72px;
+  padding-top: 20px;
+}
+.engagement_tools .management_section .heading h2 span {
+  background-color: #6bb64a;
+  padding: 0 10px;
+}
+@media screen and (max-width: 600px) {
+  .engagement_tools .management_section .heading h2 {
+    padding-top: 0;
+    font-size: 28px;
+    line-height: 45px;
+  }
+}
+.engagement_tools .management_section .heading p {
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 36px;
+  color: #e4e4e4;
+  opacity: 0.9;
+  width: 90%;
+  margin-bottom: 0;
+}
+@media screen and (max-width: 1000px) {
+  .engagement_tools .management_section .heading p {
+    width: 100%;
+    margin-bottom: 40px;
+  }
+}
+@media screen and (max-width: 600px) {
+  .engagement_tools .management_section .heading p {
+    font-size: 16px;
+    line-height: 29px;
+  }
+}
+.engagement_tools .management_section .other_tools {
+  width: 57%;
+  margin-left: auto;
+}
+@media screen and (max-width: 1000px) {
+  .engagement_tools .management_section .other_tools {
+    width: 100%;
+  }
+}
+.engagement_tools .management_section .other_tools img {
+  width: 100%;
+  background-color: rgba(18, 38, 47, 0.3);
+  border-radius: 10px;
+  transition: all 0.4s ease-in-out;
+}
+@media screen and (max-width: 1200px) {
+  .engagement_tools .management_section .other_tools img {
+    width: 90%;
+  }
+}
+@media screen and (max-width: 600px) {
+  .engagement_tools .management_section .other_tools img {
+    width: 100%;
+    height: auto;
+  }
+}
+.engagement_tools .management_section .other_tools ul {
+  margin: 0 -18px;
+}
+@media screen and (max-width: 1200px) {
+  .engagement_tools .management_section .other_tools ul {
+    margin: 0;
+  }
+}
+@media screen and (max-width: 600px) {
+  .engagement_tools .management_section .other_tools ul {
+    justify-content: space-between;
+  }
+}
+.engagement_tools .management_section .other_tools ul li {
+  width: 33.333%;
+  padding: 0 18px;
+  margin-bottom: 30px;
+}
+.engagement_tools .management_section .other_tools ul li:hover img {
+  background-color: rgba(18, 38, 47, 0.8);
+}
+@media screen and (max-width: 1000px) {
+  .engagement_tools .management_section .other_tools ul li:first-child {
+    display: none;
+  }
+}
+@media screen and (max-width: 1200px) {
+  .engagement_tools .management_section .other_tools ul li {
+    padding: 0;
+    margin-bottom: 15px;
+  }
+}
+@media screen and (max-width: 600px) {
+  .engagement_tools .management_section .other_tools ul li {
+    width: 48.333%;
+    margin-bottom: 10px;
+  }
+}/*# sourceMappingURL=engagementTools.module.css.map */

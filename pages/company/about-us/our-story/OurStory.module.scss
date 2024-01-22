@@ -1,0 +1,103 @@
+@import "../../../../styles/variables";
+.our_story_wrapper {
+  padding: 100px 0;
+  background: #1D4354 url('../../../../public/assets/images/services/custom-bg.svg');
+  @media screen and (max-width: $breakpoint_tablet) {
+    padding: 60px 0;
+  }
+  @media screen and (max-width: $breakpoint_tablet) {
+    & > div {
+      flex-direction: column;
+    }
+  }
+  .story_text {
+    width: 50%;
+    @media screen and (max-width: $breakpoint_tablet) {
+      width: 100%;
+    }
+    h2 {
+      padding: 0 10px;
+      margin: 0 0 30px;
+      font-size: 48px;
+      display: inline-block;
+      color: #FFFFFF;
+      @media screen and (max-width: $breakpoint_tablet) {
+        font-size: 30px;
+      }
+      span {
+        background: #6BB64A;
+      }
+    }
+    p {
+      color: #E4E4E4;
+      opacity: 0.9;
+      margin: 0 0 30px;
+      font-size: 24px;
+      line-height: 36px;
+      font-family: "Apercu-Light", sans-serif;
+      @media (max-width: 1600px) {
+        font-size: 20px;
+        line-height: 32px;
+      }
+      @media screen and (max-width: $breakpoint_tablet) {
+        font-size: 16px;
+        line-height: 28px;
+        margin-bottom: 20px;
+      }
+    }
+  }
+  figure {
+    margin: 0 0 0 auto;
+    img {
+      max-width: 100%;
+      height: auto;
+    }
+    @media screen and (max-width: $breakpoint_tablet) {
+      margin: 0 auto;
+    }
+  }
+}
+.our_vision_wrapper {
+  padding: 100px 0;
+  @media screen and (max-width: $breakpoint_tablet) {
+    padding: 60px 0;
+  }
+  @media screen and (max-width: $breakpoint_mobile_landscape) {
+    & > div {
+      flex-direction: column-reverse;
+    }
+  }
+  figure {
+    margin: 0 auto 0 0;
+    img {
+      max-width: 100%;
+      height: auto;
+      @media screen and (max-width: $breakpoint_tablet) {
+        padding-right: 40px;
+      }
+      @media screen and (max-width: $breakpoint_mobile_landscape) {
+        padding-right: 0;
+      }
+    }
+  }
+  .story_text {
+    width: 56%;
+    margin-left: auto;
+    @media screen and (max-width: $breakpoint_mobile_landscape) {
+      width: 100%;
+    }
+    p {
+      margin: 0;
+      font-size: 24px;
+      line-height: 36px;
+      @media (max-width: 1600px) {
+        font-size: 20px;
+        line-height: 32px;
+      }
+      @media screen and (max-width: $breakpoint_tablet) {
+        font-size: 16px;
+        line-height: 28px;
+      }
+    }
+  }
+}

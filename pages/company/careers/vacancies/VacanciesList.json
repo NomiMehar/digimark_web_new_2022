@@ -1,0 +1,47 @@
+[
+  {
+    "itemName": "a",
+    "no": "01",
+    "jobTitle": "Business Development Executives",
+    "jobDescription": "London-based Fintech start-up. The product is Banking-as-a-service (BaaS) solution, already running live in a production environment. The solution is based on a transactional engine designed as a distribution, uses a blockchain to ensure data consistency, and handles 60,000 transactions per second. Project technology stack: Java/Spring, Kafka, Postgres/Cassandra, etcd, Jaeger, Kubernetes.",
+    "requirements": [
+      "3+ years of experience;",
+      "Strong knowledge and experience in Spring framework and Kafka;",
+      "Experience with Postgres/Cassandra;",
+      "Knowledge of REST API best practices;",
+      "Experience in Agile environment (Scrum);",
+      "Being a good team player;",
+      "Intermediate English or above (both written and verbal)."
+    ]
+  },
+  {
+    "itemName": "b",
+    "no": "02",
+    "jobTitle": "Business Development Executives",
+    "jobDescription": "London-based Fintech start-up. The product is Banking-as-a-service (BaaS) solution, already running live in a production environment. The solution is based on a transactional engine designed as a distribution, uses a blockchain to ensure data consistency, and handles 60,000 transactions per second. Project technology stack: Java/Spring, Kafka, Postgres/Cassandra, etcd, Jaeger, Kubernetes.",
+    "requirements": [
+      "3+ years of experience;",
+      "Strong knowledge and experience in Spring framework and Kafka;",
+      "Experience with Postgres/Cassandra;",
+      "Knowledge of REST API best practices;",
+      "Experience in Agile environment (Scrum);",
+      "Being a good team player;",
+      "Intermediate English or above (both written and verbal)."
+    ]
+  },
+  {
+    "itemName": "c",
+    "no": "03",
+    "jobTitle": "Business Development Executives",
+    "jobDescription": "London-based Fintech start-up. The product is Banking-as-a-service (BaaS) solution, already running live in a production environment. The solution is based on a transactional engine designed as a distribution, uses a blockchain to ensure data consistency, and handles 60,000 transactions per second. Project technology stack: Java/Spring, Kafka, Postgres/Cassandra, etcd, Jaeger, Kubernetes.",
+    "requirements": [
+      "3+ years of experience;",
+      "Strong knowledge and experience in Spring framework and Kafka;",
+      "Experience with Postgres/Cassandra;",
+      "Knowledge of REST API best practices;",
+      "Experience in Agile environment (Scrum);",
+      "Being a good team player;",
+      "Intermediate English or above (both written and verbal)."
+    ]
+  }
+]

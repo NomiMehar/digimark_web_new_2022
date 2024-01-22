@@ -1,0 +1,18 @@
+[
+  {
+    "processTitle": "Gathering & analyzing requirements",
+    "processDescription": "We collect stakeholder requirements, map out business logic, and design a product roadmap. \n\nDeliverables: an NDA, a smart contract solution requirements specification/use cases, a proposal for technical design.\n"
+  },
+  {
+    "processTitle": "Designing smart contracts architecture",
+    "processDescription": "We collect stakeholder requirements, map out business logic, and design a product roadmap. \n\nDeliverables: an NDA, a smart contract solution requirements specification/use cases, a proposal for technical design.\n"
+  },
+  {
+    "processTitle": "Developing & testing",
+    "processDescription": "We collect stakeholder requirements, map out business logic, and design a product roadmap. \n\nDeliverables: an NDA, a smart contract solution requirements specification/use cases, a proposal for technical design.\n"
+  },
+  {
+    "processTitle": "Deploying & upgrading",
+    "processDescription": "We collect stakeholder requirements, map out business logic, and design a product roadmap. \n\nDeliverables: an NDA, a smart contract solution requirements specification/use cases, a proposal for technical design.\n"
+  }
+]

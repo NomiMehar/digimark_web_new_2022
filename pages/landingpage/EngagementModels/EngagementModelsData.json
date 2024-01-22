@@ -1,0 +1,22 @@
+[
+  {
+    "id": 1,
+    "img": "/assets/images/homepage/engagement_models/staff.svg",
+    "title": "Staff \nAugmentation"
+  },
+  {
+    "id": 2,
+    "img": "/assets/images/homepage/engagement_models/product.svg",
+    "title": "Product \nDevelopment"
+  },
+  {
+    "id": 3,
+    "img": "/assets/images/homepage/engagement_models/project.svg",
+    "title": "Project \nOutsource Model"
+  },
+  {
+    "id": 4,
+    "img": "/assets/images/homepage/engagement_models/partner.svg",
+    "title": "Partner \nWith us"
+  }
+]

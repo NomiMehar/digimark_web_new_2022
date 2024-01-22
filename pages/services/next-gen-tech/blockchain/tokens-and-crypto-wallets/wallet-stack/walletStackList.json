@@ -1,0 +1,89 @@
+[
+  {
+    "tab_button": "Blockchain platforms",
+    "listWrap": [
+      {
+        "img": "/assets/images/services/wallet-icon1.svg",
+        "name": "Ethereum"
+      },
+      {
+        "img": "/assets/images/services/wallet-icon1.svg",
+        "name": "Ethereum"
+      },
+      {
+        "img": "/assets/images/services/wallet-icon1.svg",
+        "name": "Ethereum"
+      },
+      {
+        "img": "/assets/images/services/wallet-icon1.svg",
+        "name": "Ethereum"
+      },
+      {
+        "img": "/assets/images/services/wallet-icon1.svg",
+        "name": "Ethereum"
+      },
+      {
+        "img": "/assets/images/services/wallet-icon1.svg",
+        "name": "Ethereum"
+      }
+    ]
+  },
+  {
+    "tab_button": "Frameworks",
+    "listWrap": [
+      {
+        "img": "/assets/images/services/wallet-icon1.svg",
+        "name": "Ethereum"
+      },
+      {
+        "img": "/assets/images/services/wallet-icon1.svg",
+        "name": "Hyperledger Fabric"
+      },
+      {
+        "img": "/assets/images/services/wallet-icon1.svg",
+        "name": "Ethereum"
+      },
+      {
+        "img": "/assets/images/services/wallet-icon1.svg",
+        "name": "Ethereum"
+      },
+      {
+        "img": "/assets/images/services/wallet-icon1.svg",
+        "name": "Ethereum"
+      },
+      {
+        "img": "/assets/images/services/wallet-icon1.svg",
+        "name": "Ethereum"
+      }
+    ]
+  },
+  {
+    "tab_button": "Mobile",
+    "listWrap": [
+      {
+        "img": "/assets/images/services/wallet-icon1.svg",
+        "name": "Ethereum"
+      },
+      {
+        "img": "/assets/images/services/wallet-icon1.svg",
+        "name": "Ethereum"
+      },
+      {
+        "img": "/assets/images/services/wallet-icon1.svg",
+        "name": "Polkadot"
+      },
+      {
+        "img": "/assets/images/services/wallet-icon1.svg",
+        "name": "Ethereum"
+      },
+      {
+        "img": "/assets/images/services/wallet-icon1.svg",
+        "name": "Ethereum"
+      },
+      {
+        "img": "/assets/images/services/wallet-icon1.svg",
+        "name": "Ethereum"
+      }
+    ]
+  }
+]

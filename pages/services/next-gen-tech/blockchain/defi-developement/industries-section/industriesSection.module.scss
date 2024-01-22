@@ -1,0 +1,165 @@
+@import "../../../../../../styles/variables";
+.industries_section {
+  background: #F3F6FF;
+  padding: 100px 0 80px;
+  @media (max-width: $breakpoint_laptop) {
+    padding: 80px 0 60px;
+  }
+  @media screen and (max-width: $breakpoint_tablet) {
+    padding: 60px 0 45px;
+  }
+  &.white_version {
+    background: #1E4658 url('../../../../../../public/assets/images/services/custom-bg.svg');
+    .industries_title {
+      h2 {
+        color: #FFFFFF;
+      }
+    }
+  }
+  &.game_industries {
+    background: #F3F6FF url('../../../../../../public/assets/images/services/gameindusImage.png') no-repeat center left;
+    padding: 250px 0 200px;
+    background-size: 50% 100%;
+    margin-top: -90px;
+    //position: relative;
+    @media (max-width: $breakpoint_laptop) {
+      padding: 190px 0 150px;
+    }
+    @media (max-width: $breakpoint_tablet) {
+      background-image: none;
+      padding: 150px 0 60px;;
+    }
+    .industries_content {
+      flex-direction: column;
+      .industries_title {
+        margin-bottom: 40px;
+        h2 {
+          margin: 0 0 8px;
+        }
+        & > span { display: none}
+      }
+      .industries_title,
+      .industries_list{
+        width: 55%;
+        @media (max-width: $breakpoint_tablet) {
+          width: 100%;
+        }
+      }
+    }
+  }
+  .industries_content {
+    display: flex;
+    align-items: flex-end;
+    @media (max-width: $breakpoint_tablet) {
+      flex-direction: column;
+    }
+    .industries_title {
+      width: 45%;
+      @media (max-width: $breakpoint_tablet) {
+        width: 100%;
+      }
+      h2 {
+        font-size: 48px;
+        margin: 53px 0 30px;
+        @media (max-width: $breakpoint_laptop) {
+          font-size: 36px;
+          margin: 35px 0 30px;
+        }
+        @media (max-width: $breakpoint_tablet) {
+          font-size: 30px;
+        }
+        span {
+          background: #6BB64A;
+          color: #FFFFFF;
+          padding: 0 10px;
+        }
+      }
+      p {
+        font-size: 24px;
+        line-height: 36px;
+        margin: 0;
+        color: #969696;
+        @media (max-width: $breakpoint_laptop) {
+          font-size: 18px;
+          line-height: 28px;
+        }
+      }
+      & > span {
+        font-size: 18px;
+        color: #6BB64A;
+        display: inline-block;
+        position: relative;
+        font-family: "CloverDisplay-bold", sans-serif;
+        &:before {
+          content: '';
+          position: absolute;
+          right: -80px;
+          width: 64px;
+          top: 50%;
+          height: 2px;
+          background: #6BB64A;
+        }
+      }
+    }
+
+    .industries_list {
+      width: 55%;
+      @media (max-width: $breakpoint_tablet) {
+        width: 100%;
+      }
+      ul {
+        margin: 0 -9px;
+        @media (max-width: $breakpoint_laptop) {
+          margin: 0 -5px;
+        }
+        li {
+          width: 25%;
+          padding: 0 9px;
+          margin-bottom: 25px;
+          @media (max-width: $breakpoint_laptop) {
+            padding: 0 5px;
+            margin-bottom: 15px;
+          }
+          @media (max-width: $breakpoint_tablet) {
+            width: 33.333%;
+          }
+          @media (max-width: $breakpoint_mobile_portrait) {
+            width: 50%;
+          }
+          section {
+            background: #FFFFFF;
+            height: 61px;
+            box-shadow: 0 8.38484px 18.1671px 5.58989px rgba(0, 0, 0, 0.06);
+            border-radius: 10px;
+            display: flex;
+            align-items: center;
+            padding: 0 18px 0 15px;
+            justify-content: center;
+            width: auto;
+            transition: all 0.4s ease-in-out;
+            @media (max-width: $breakpoint_laptop) {
+              padding: 0 12px 0 10px;
+            }
+            &:hover {
+              background: rgba(255,255,255,0.9);
+              transform: scale(0.97);
+            }
+            img {
+              margin-right: 6px;
+            }
+            h3 {
+              margin: 0;
+              font-size: 18px;
+              @media (max-width: $breakpoint_laptop) {
+                font-size: 15px;
+              }
+              @media (max-width: $breakpoint_tablet) {
+                font-size: 14px;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

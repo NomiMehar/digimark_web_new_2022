@@ -1,0 +1,67 @@
+@import "../../../../../../styles/variables";
+.comparative_analysis {
+  padding: 100px 0;
+  background: #F3F6FF;
+  .comparative_analysis_wrap {
+    background: #FFFFFF;
+    box-shadow: 0 100px 80px rgba(0, 0, 0, 0.0196802), 0 41.7776px 33.4221px rgba(0, 0, 0, 0.0282725), 0 22.3363px 17.869px rgba(0, 0, 0, 0.035), 0 12.5216px 10.0172px rgba(0, 0, 0, 0.0417275), 0 6.6501px 5.32008px rgba(0, 0, 0, 0.0503198), 0 2.76726px 2.21381px rgba(0, 0, 0, 0.07);
+    border-radius: 20px;
+    overflow: hidden;
+    padding: 45px 53px;
+    @media (max-width: $breakpoint_laptop) {
+      padding: 35px;
+    }
+    @media (max-width: $breakpoint_mobile_landscape) {
+      padding: 20px;
+    }
+    .comparative_analysis_table {
+      width: 100%;
+      background: #EDEDED;
+      border-radius: 20px;
+      overflow: hidden;
+      @media (max-width: $breakpoint_mobile_landscape) {
+        overflow: auto;
+      }
+      table {
+        @media (max-width: $breakpoint_mobile_landscape) {
+          width: 1000px;
+        }
+        width: 100%;
+        tr {
+          th,td {
+            text-align: center;
+            height: 90px;
+            width: 295px;
+            font-size: 24px;
+            line-height: 36px;
+            color: rgb(29,67,84,0.9);
+            padding: 0 10px;
+            white-space: pre-line;
+            @media (max-width: $breakpoint_laptop) {
+              font-size: 16px;
+              line-height: 26px;
+              height: 70px;
+            }
+            &:first-child {
+              text-align: left;
+              width: 403px;
+              padding-left: 40px;
+              @media (max-width: $breakpoint_laptop) {
+                padding-left: 20px;
+              }
+            }
+            &:nth-child(2) {background: rgba(107, 182, 74, 0.2);}
+            &:nth-child(3) {background: rgba(29, 67, 84, 0.1);}
+            &:last-child {background: #E6E6E6}
+          }
+          th {
+            color: #FFFFFF;
+            &:nth-child(2) { background: #6BB64A;}
+            &:nth-child(3) { background: #1D4354;}
+            &:last-child { background: #C7CED2;}
+          }
+        }
+      }
+    }
+  }
+}

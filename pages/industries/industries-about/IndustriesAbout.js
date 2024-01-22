@@ -1,0 +1,22 @@
+import style from "./industriesAbout.module.scss";
+import Image from "next/image";
+import whiteArrow from "../../../public/assets/images/homepage/customer_talk/white-arrow.svg";
+import Link from "next/link";
+import React from "react";
+
+export default function IndustriesAbout() {
+    return(
+        <div className={style.industries_about}>
+            <div className="container flex justify-between">
+                <section>
+                    <h2>Every <span>Industry</span> Is Unique</h2>
+                    <span>We offer <span>unique solutions</span> and develop software to meet your <span>industry’s specific needs.</span></span>
+                </section>
+                <section>
+                    <p>Our innovative services and custom software solutions are designed, developed and uniquely tailored to meet different industry’s unique set of needs and requirements</p>
+                    <Link href="#" className={`contact_btn ${style.contact_btn}`}>Talk to our expert <Image src={whiteArrow} alt={whiteArrow} width={13} height={16} /></Link>
+                </section>
+            </div>
+        </div>
+    )
+}

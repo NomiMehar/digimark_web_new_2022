@@ -1,0 +1,98 @@
+.results_wrapper {
+  background: url("../../../../../../public/assets/images/services/results-bg.jpg") center fixed;
+  background-size: cover;
+  padding: 100px 0;
+}
+@media (max-width: 1600px) {
+  .results_wrapper {
+    padding: 80px 0;
+  }
+}
+@media (max-width: 1000px) {
+  .results_wrapper {
+    padding: 60px 0;
+  }
+  .results_wrapper > div {
+    flex-direction: column;
+  }
+}
+.results_wrapper .title {
+  text-align: left;
+  width: 50%;
+  margin: 0;
+}
+@media (max-width: 1000px) {
+  .results_wrapper .title {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+}
+.results_wrapper .title small {
+  font-size: 24px;
+  color: #FFFFFF;
+  display: block;
+  margin-bottom: 10px;
+  font-family: "CloverDisplay", sans-serif;
+}
+@media (max-width: 1600px) {
+  .results_wrapper .title small {
+    font-size: 18px;
+  }
+}
+.results_wrapper .results_content {
+  width: 65%;
+}
+@media (max-width: 1000px) {
+  .results_wrapper .results_content {
+    width: 100%;
+  }
+}
+.results_wrapper .results_content ul li {
+  border-right: 1px solid rgba(255, 255, 255, 0.3);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+  width: 50%;
+  text-align: center;
+}
+.results_wrapper .results_content ul li:nth-child(2), .results_wrapper .results_content ul li:last-child {
+  border-right: none;
+}
+.results_wrapper .results_content ul li:nth-child(3), .results_wrapper .results_content ul li:last-child {
+  border-bottom: none;
+}
+.results_wrapper .results_content ul li section {
+  padding: 30px 40px;
+}
+@media (max-width: 1000px) {
+  .results_wrapper .results_content ul li section {
+    padding: 20px;
+  }
+}
+.results_wrapper .results_content ul li section span {
+  font-size: 55px;
+  display: block;
+  margin-bottom: 18px;
+  color: #FFFFFF;
+  font-family: "CloverDisplay-bold", sans-serif;
+}
+@media (max-width: 1600px) {
+  .results_wrapper .results_content ul li section span {
+    font-size: 44px;
+  }
+}
+.results_wrapper .results_content ul li section h4 {
+  margin: 0;
+  font-family: "Apercu-Light", sans-serif;
+  font-size: 24px;
+  color: #FFFFFF;
+  font-weight: 400;
+}
+@media (max-width: 1600px) {
+  .results_wrapper .results_content ul li section h4 {
+    font-size: 18px;
+  }
+}
+@media (max-width: 1000px) {
+  .results_wrapper .results_content ul li section h4 {
+    font-size: 16px;
+  }
+}/*# sourceMappingURL=results.module.css.map */

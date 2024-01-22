@@ -1,0 +1,32 @@
+[
+  {
+    "whyChooseIcon" : "/assets/images/services/choose1.svg",
+    "whyChooseTitle" : "Low cost app development",
+    "whyChooseDetail" : "Easily accessible Software Development Kit and low barrier to entry means low costs."
+  },
+  {
+    "whyChooseIcon" : "/assets/images/services/choose2.svg",
+    "whyChooseTitle" : "Ease of integration",
+    "whyChooseDetail" : "Easily accessible Software Development Kit and low barrier to entry means low costs."
+  },
+  {
+    "whyChooseIcon" : "/assets/images/services/choose3.svg",
+    "whyChooseTitle" : "Wider hardware range",
+    "whyChooseDetail" : "Easily accessible Software Development Kit and low barrier to entry means low costs."
+  },
+  {
+    "whyChooseIcon" : "/assets/images/services/choose4.svg",
+    "whyChooseTitle" : "Distribution multiple networks",
+    "whyChooseDetail" : "Easily accessible Software Development Kit and low barrier to entry means low costs."
+  },
+  {
+    "whyChooseIcon" : "/assets/images/services/choose5.svg",
+    "whyChooseTitle" : "Customizable UI",
+    "whyChooseDetail" : "Easily accessible Software Development Kit and low barrier to entry means low costs."
+  },
+  {
+    "whyChooseIcon" : "/assets/images/services/choose6.svg",
+    "whyChooseTitle" : "Open source code",
+    "whyChooseDetail" : "Easily accessible Software Development Kit and low barrier to entry means low costs."
+  }
+]

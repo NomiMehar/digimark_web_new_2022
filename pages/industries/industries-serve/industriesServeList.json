@@ -1,0 +1,42 @@
+[
+  {
+    "serveImage": "/assets/images/industries/serve1.jpg",
+    "serveTitle": "Healthcare",
+    "serveDescription": "Our innovative services and custom software solutions are designed, developed and uniquely"
+  },
+  {
+    "serveImage": "/assets/images/industries/serve2.jpg",
+    "serveTitle": "Fintech",
+    "serveDescription": "Our innovative services and custom software solutions are designed, developed and uniquely"
+  },
+  {
+    "serveImage": "/assets/images/industries/serve3.jpg",
+    "serveTitle": "Retail",
+    "serveDescription": "Our innovative services and custom software solutions are designed, developed and uniquely"
+  },
+  {
+    "serveImage": "/assets/images/industries/serve4.jpg",
+    "serveTitle": "Education",
+    "serveDescription": "Our innovative services and custom software solutions are designed, developed and uniquely"
+  },
+  {
+    "serveImage": "/assets/images/industries/serve5.jpg",
+    "serveTitle": "Hospitality",
+    "serveDescription": "Our innovative services and custom software solutions are designed, developed and uniquely"
+  },
+  {
+    "serveImage": "/assets/images/industries/serve6.jpg",
+    "serveTitle": "Tour & travel",
+    "serveDescription": "Our innovative services and custom software solutions are designed, developed and uniquely"
+  },
+  {
+    "serveImage": "/assets/images/industries/serve7.jpg",
+    "serveTitle": "Transport",
+    "serveDescription": "Our innovative services and custom software solutions are designed, developed and uniquely"
+  },
+  {
+    "serveImage": "/assets/images/industries/serve8.jpg",
+    "serveTitle": "Insurance",
+    "serveDescription": "Our innovative services and custom software solutions are designed, developed and uniquely"
+  }
+]

@@ -1,0 +1,14 @@
+[
+  {
+    "langIcon" : "/assets/images/services/frame1.svg",
+    "langTitle" : "Android SDK"
+  },
+  {
+    "langIcon" : "/assets/images/services/frame2.svg",
+    "langTitle" : "Fitness SDK"
+  },
+  {
+    "langIcon" : "/assets/images/services/frame3.svg",
+    "langTitle" : "Google \nAssistant SDK"
+  }
+]

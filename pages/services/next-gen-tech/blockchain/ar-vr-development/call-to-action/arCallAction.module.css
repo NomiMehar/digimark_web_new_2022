@@ -1,0 +1,52 @@
+.ar_calltoaction {
+  background: url("../../../../../../public/assets/images/services/call-to-action.jpg") center fixed;
+  text-align: center;
+  background-size: cover;
+  padding: 115px 0;
+}
+@media (max-width: 1600px) {
+  .ar_calltoaction {
+    padding: 100px 0;
+  }
+}
+@media (max-width: 1000px) {
+  .ar_calltoaction {
+    padding: 50px 0;
+  }
+}
+.ar_calltoaction h2 {
+  margin: 0 0 10px;
+  font-size: 48px;
+  color: #FFFFFF;
+}
+@media (max-width: 1600px) {
+  .ar_calltoaction h2 {
+    font-size: 38px;
+  }
+}
+@media (max-width: 1000px) {
+  .ar_calltoaction h2 {
+    font-size: 26px;
+  }
+  .ar_calltoaction h2 br {
+    display: none;
+  }
+}
+.ar_calltoaction p {
+  font-size: 24px;
+  line-height: 42px;
+  font-family: "Apercu-Light", sans-serif;
+  color: #FFFFFF;
+  opacity: 0.9;
+  margin: 0;
+}
+@media (max-width: 1600px) {
+  .ar_calltoaction p {
+    font-size: 18px;
+    line-height: 28px;
+  }
+}
+.ar_calltoaction a {
+  margin: 30px auto 0;
+  max-width: 300px;
+}/*# sourceMappingURL=arCallAction.module.css.map */

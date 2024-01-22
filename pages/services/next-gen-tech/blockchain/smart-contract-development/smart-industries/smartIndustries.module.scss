@@ -1,0 +1,40 @@
+@import "../../../../../../styles/variables";
+.smart_industries {
+  padding: 100px 0 70px;
+  background: #F3F6FF;
+  @media (max-width: $breakpoint_tablet) {
+    padding: 60px 0 50px;
+  }
+  ul {
+    li {
+      margin: 0 40px;
+      @media (max-width:$breakpoint_mini_laptop) {
+        margin: 0 10px;
+      }
+      span {
+        display: inline-block;
+        border: 1px solid #6579F4;
+        color: #1D4354;
+        font-size: 28px;
+        border-radius: 100px;
+        padding: 30px;
+        margin-bottom: 30px;
+        @media (max-width: $breakpoint_tablet) {
+          padding: 15px;
+          margin-bottom: 15px;
+          font-size: 16px;
+        }
+      }
+      &:nth-child(2n) {
+        span {
+          border-color: #FF9274;
+        }
+      }
+      &:nth-child(5n) {
+        span {
+          border-color: #FF8A00;
+        }
+      }
+    }
+  }
+}

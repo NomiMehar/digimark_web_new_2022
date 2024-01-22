@@ -1,0 +1,426 @@
+@import "../../../../../../styles/variables";
+.perks_wrapper {
+  padding: 100px 0 120px;
+  @media (max-width: $breakpoint_tablet) {
+    padding: 60px 0 60px;
+  }
+  &.native_perks {
+    .section_title {
+      width: 67%;
+      @media (max-width: $breakpoint_mobile_landscape) {
+        width: 100%;
+      }
+    }
+  }
+  .section_title_wrap {
+    display: none;
+    justify-content: space-between;
+    margin-bottom: 60px;
+    align-items: center;
+    @media (max-width: $breakpoint_tablet) {
+      flex-direction: column;
+      text-align: center;
+    }
+    h2 {
+      margin: 0;
+      font-size: 48px;
+      color: #FFFFFF;
+      width: 50%;
+      @media (max-width: $breakpoint_laptop) {
+        font-size: 36px;
+      }
+      @media (max-width: $breakpoint_tablet) {
+        width: 100%;
+        margin-bottom: 20px;
+        font-size: 26px;
+      }
+      span {
+        color: #6BB64A;
+      }
+    }
+    p {
+      margin: 0;
+      font-size: 26px;
+      line-height: 40px;
+      width: 50%;
+      @media (max-width: $breakpoint_laptop) {
+        font-size: 22px;
+        line-height: 35px;
+      }
+      @media (max-width: $breakpoint_tablet) {
+        width: 100%;
+        font-size: 18px;
+        line-height: 28px;
+      }
+    }
+  }
+  &.ios_perks {
+    background: #F3F6FF url("../../../../../../public/assets/images/services/overview-bg.png") center;
+    background-size: cover;
+    padding-bottom: 60px;
+    &.process_enter_wrapper {
+      background: #12262F;
+      position: relative;
+      &:before {
+        content: '';
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 58px;
+        background: url("../../../../../../public/assets/images/services/section-shape.png");
+        background-size: cover;
+      }
+      &:after {
+        content: '';
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        height: 58px;
+        background: url("../../../../../../public/assets/images/services/section-shape.png");
+        background-size: cover;
+        transform: scale(-1);
+      }
+      .section_title_wrap {
+        display: flex;
+      }
+      .section_title { display: none}
+      .perks_rules {
+        .perks_services {
+          ul {
+            li {
+              margin-bottom: 80px;
+              @media (max-width: $breakpoint_tablet) {
+                &:last-child { margin-bottom: 0}
+              }
+              .parks_text {
+                background: transparent;
+                border: none;
+                padding: 0;
+                section {
+                  position: relative;
+                  h3 {
+                    color: #FFFFFF;
+                  }
+                  p {
+                    color: #D1D1D1;
+                  }
+                }
+                & > span {
+                  opacity: 0.2;
+                  left: 0;
+                  top: 0;
+                  color: #B3B3B3;
+                  font-size: 77px;
+                  &:before{
+                    display: none;
+                  }
+                }
+                &:hover {
+                  box-shadow: none;
+                  span {
+                    color: #FFFFFF;
+                    &:before { background: #FFFFFF;}
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+    &.support_wrapper {
+      background: #12262F;
+      .section_title_wrap { display: flex;}
+      .section_title { display: none}
+      .perks_rules {
+        .perks_services {
+          ul {
+            li {
+              .parks_text {
+                &:hover {
+                  background: #6BB64A;
+                  border-color: #6BB64A;
+                  img { filter: brightness(20)}
+                  span {
+                    color: #FFFFFF;
+                    &:before { background: #FFFFFF;}
+                  }
+                  section {
+                    h3,p {
+                      color: #FFFFFF;
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+    &.enterprise_wrapper {
+      background: #12262F;
+      .section_title_wrap { display: flex;}
+      .section_title { display: none}
+      .perks_rules {
+        .perks_services {
+          ul {
+            li {
+              .parks_text {
+                background: transparent;
+                padding: 30px;
+                border: 1px dashed #FFF;
+                border-radius: 0;
+                & > span {
+                  display: none;
+                }
+                section {
+                  h3,p {
+                    color: #FFFFFF;
+                  }
+                }
+                &:hover {
+                  background: #6BB64A;
+                  border-color: #6BB64A;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+
+    .perks_rules {
+      .perks_services {
+        max-width: 100%;
+        ul {
+          flex-direction: row;
+          flex-wrap: wrap;
+          margin: 0 -11px;
+          li {
+            width: 50%;
+            margin-bottom: 40px;
+            padding: 0 11px;
+            @media (max-width: $breakpoint_tablet) {
+              margin-bottom: 20px;
+            }
+            @media (max-width: $breakpoint_mobile_landscape) {
+              width: 100%;
+            }
+            .parks_text {
+              border: 1px solid #C8C8C8;
+              border-radius: 30px;
+              background-color: #FFFFFF;
+              position: relative;
+              height: 100%;
+              padding: 40px 40px 40px 160px;
+              transition: all 0.4s ease-in-out;
+              @media (max-width: $breakpoint_tablet) {
+                padding: 20px 25px 25px 80px;
+              }
+              @media (max-width: $breakpoint_mobile_portrait) {
+                padding: 50px 20px 20px;
+              }
+              &:hover {
+                box-shadow: 0 100px 80px rgba(0, 0, 0, 0.07), 0 30.1471px 24.1177px rgba(0, 0, 0, 0.0456112), 0 12.5216px 10.0172px rgba(0, 0, 0, 0.035), 0 4.5288px 3.62304px rgba(0, 0, 0, 0.0243888);
+              }
+            }
+            span {
+              left: 40px;
+              top: 48px;
+              @media (max-width: $breakpoint_tablet) {
+                left: 20px;
+                top: 27px;
+              }
+              @media (max-width: $breakpoint_mobile_portrait) {
+                top: 15px;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  &.working_benefits {
+    padding-bottom: 60px;
+    .perks_rules {
+      .perks_services {
+        max-width: 100%;
+        ul {
+          flex-direction: row;
+          flex-wrap: wrap;
+          margin: 0 -11px;
+          li {
+            width: 50%;
+            margin-bottom: 20px;
+            padding: 0 11px;
+            @media (max-width: $breakpoint_tablet) {
+              margin-bottom: 20px;
+            }
+            @media (max-width: $breakpoint_mobile_landscape) {
+              width: 100%;
+            }
+            .parks_text {
+              position: relative;
+              height: 100%;
+              padding: 40px 40px 20px 160px;
+              transition: all 0.4s ease-in-out;
+              @media (max-width: $breakpoint_tablet) {
+                padding: 20px 25px 25px 80px;
+              }
+              @media (max-width: $breakpoint_mobile_portrait) {
+                padding: 50px 20px 20px;
+              }
+            }
+            span {
+              left: 40px;
+              top: 48px;
+              @media (max-width: $breakpoint_tablet) {
+                left: 20px;
+                top: 27px;
+              }
+              @media (max-width: $breakpoint_mobile_portrait) {
+                top: 15px;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  .perks_rules{
+    .perks_services {
+      max-width: 590px;
+      ul{
+        li {
+          position: relative;
+          padding-left: 119px;
+          margin-bottom: 30px;
+          @media (max-width: $breakpoint_laptop) {
+            padding-left: 90px;
+            margin-bottom: 20px;
+          }
+          @media (max-width: $breakpoint_tablet) {
+            padding-left: 52px;
+          }
+          @media (max-width: $breakpoint_mobile_portrait) {
+            padding-left: 0;
+            padding-top: 40px;
+          }
+          img {
+            //width: auto;
+            //height: auto;
+            position: absolute;
+            left: 55px;
+            top: 55px;
+            @media (max-width: $breakpoint_tablet) {
+              left: 20px;
+              top: 12px;
+              width: 30px;
+              height: 30px;
+            }
+          }
+          span {
+            font-size: 28px;
+            position: absolute;
+            left: 0;
+            top: 9px;
+            font-family: "CloverDisplay-Bold", sans-serif;
+            color: $dark_color;
+            @media (max-width: $breakpoint_laptop) {
+              font-size: 22px;
+            }
+            @media (max-width: $breakpoint_tablet) {
+              top: 2px;
+              font-size: 20px;
+            }
+            &:before {
+              content: '';
+              position: absolute;
+              right: -58px;
+              top: 50%;
+              width: 26px;
+              height: 2px;
+              background: $green_color;
+              transform: translateY(-50%);
+              @media (max-width: $breakpoint_laptop) {
+                right: -44px;
+              }
+              @media (max-width: $breakpoint_tablet) {
+                right: -20px;
+                width: 16px;
+              }
+            }
+          }
+          section {
+            h3 {
+              margin: 0 0 20px;
+              font-size: 28px;
+              font-family: "CloverDisplay-Bold", sans-serif;
+              @media (max-width: $breakpoint_laptop) {
+                margin: 0 0 12px;
+                font-size: 25px;
+              }
+              @media (max-width: $breakpoint_tablet) {
+                font-size: 20px;
+                margin: 0 0 5px;
+              }
+            }
+            p {
+              margin: 0;
+              font-size: 24px;
+              line-height: 36px;
+              font-family: "Apercu-Light", sans-serif;
+              @media (max-width: $breakpoint_laptop) {
+                font-size: 20px;
+                line-height: 30px;
+              }
+              @media (max-width: $breakpoint_tablet) {
+                font-size: 16px;
+                line-height: 24px;
+              }
+            }
+          }
+        }
+      }
+    }
+    .perks_image {
+      margin: 0 0 0 auto;
+      position: relative;
+      @media (max-width: $breakpoint_laptop) {
+        max-width: 550px;
+      }
+      @media (max-width: $breakpoint_mini_laptop) {
+        max-width: 360px;
+    margin: 0 auto;
+      }
+      @media (max-width: $breakpoint_mobile_landscape) {
+        display: none;
+      }
+      &:before,&:after {
+        content: '';
+        position: absolute;
+        left: -23px;
+        bottom: -23px;
+        width: 195px;
+        height: 195px;
+        background: $green_color;
+        transition: all 0.4s ease-in-out;
+      }
+      &:after {
+        bottom: unset;
+        left: unset;
+        top: -23px;
+        right: -23px;
+      }
+      img {
+        max-width: 100%;
+        position: relative;
+        z-index: 1;
+        border-radius: 15px;
+        height: auto;
+      }
+    }
+  }
+}

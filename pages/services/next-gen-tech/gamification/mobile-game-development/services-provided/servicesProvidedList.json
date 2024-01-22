@@ -1,0 +1,32 @@
+[
+  {
+    "img": "/assets/images/services/sp-icon-1.svg",
+    "title":"PC Game\nDevelopment Consulting",
+    "desc":"Maintenance is an essential operation that makes your games survive with evolving times and needs. Elect us as your secure PC game development company to keep your PC games upgraded with current trends and technologies."
+  },
+  {
+    "img": "/assets/images/services/sp-icon-2.svg",
+    "title":"PC End - to - End\nGame Development",
+    "desc":"Witness the excellence in your PC games that are truly loved by your hard-core gamers. Our PC Game develop-ment services unlock your game’s maximum potential. By utilizing ama-zing graphics, engaging stories, appea-ling backgrounds, future-proof advanced."
+  },
+  {
+    "img": "/assets/images/services/sp-icon-3.svg",
+    "title":"Unity & Unreal PC\nGame Development",
+    "desc":"Our team knows how to work with the most popular engines like Unity and Unreal, to provide an immersive, captivating and realistic gaming experience that will turn your visitors into regular players"
+  },
+  {
+    "img": "/assets/images/services/sp-icon-1.svg",
+    "title":"Game Porting to PC",
+    "desc":"Our game developers are experienced in porting video games from console to the PC. We can transfer from Playstation, Xbox, and more to users’ computers, providing smooth, immersive and engaging gameplay."
+  },
+  {
+    "img": "/assets/images/services/sp-icon-2.svg",
+    "title":"Game Testing & QA",
+    "desc":"An untested PC game won’t ever reach its potential. For the smooth operation of your PC games, we test your games in several scenarios and make it quality rich and bug-free. Access our top-notch PC game development services that result in higher engagements."
+  },
+  {
+    "img": "/assets/images/services/sp-icon-3.svg",
+    "title":"Desktop Game Designing",
+    "desc":"Help your players to engage with your PC Games by integrating our mindful game designs. We thoroughly visualize your game art, styles, concepts, game levels, and mechanics, and map out the whole artistic design in your PC games."
+  }
+]

@@ -1,0 +1,30 @@
+[
+  {
+    "modalIcon": "/assets/images/company/perk1.svg",
+    "modelTitle": "Projects Based Model",
+    "modelDescription": "Based on a strict estimate of what needs to be done, strict time-frame and a predetermined budget.",
+    "modelSubTitle": "Where to use?",
+    "modelSubDescription": "Small and medium projects with stable requirements and a clear scope"
+  },
+  {
+    "modalIcon": "/assets/images/company/perk1.svg",
+    "modelTitle": "Hourly Model",
+    "modelDescription": "Out team is going to work alongside customer’s in-house developers on the same tasks, cooperate with the internal team and augment it",
+    "modelSubTitle": "Where to use?",
+    "modelSubDescription": "Projects with unclear requirements and a changing project scope"
+  },
+  {
+    "modalIcon": "/assets/images/company/perk1.svg",
+    "modelTitle": "Dedicated Resources",
+    "modelDescription": "The customer gets set up with a required number of specialists. The product owner needs to manage every iteration as well as every step of development.",
+    "modelSubTitle": "Where to use?",
+    "modelSubDescription": "Long-term projects with unclear requirements and/or continual scope changes"
+  },
+  {
+    "modalIcon": "/assets/images/company/perk1.svg",
+    "modelTitle": "Technology partner",
+    "modelDescription": "Our team is fully engaged in the project and responsible for reviewing and building solution architecture, software development, advising.",
+    "modelSubTitle": "Where to use?",
+    "modelSubDescription": "Any project size, milestone, and complexity"
+  }
+]

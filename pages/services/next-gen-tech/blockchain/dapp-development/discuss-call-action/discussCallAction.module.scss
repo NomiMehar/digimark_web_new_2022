@@ -1,0 +1,59 @@
+@import "../../../../../../styles/variables";
+.discuss_action {
+  position: relative;
+  margin-bottom: 100px;
+  @media (max-width: $breakpoint_laptop) {
+    margin-bottom: 70px;
+  }
+  .discuss_action_content {
+    background: url("../../../../../../public/assets/images/services/discuss-action-bg.jpg") center fixed;
+    background-size: cover;
+    padding: 46px 60px;
+    max-width: 77%;
+    margin: -130px auto 0;
+    border-radius: 20px;
+    @media (max-width: $breakpoint_tablet) {
+      max-width: 100%;
+     }
+     @media (max-width: $breakpoint_mobile_portrait) {
+      display: block;
+      padding: 20px;
+     }
+    figure {
+      margin: 0;
+      img {
+        border-radius: 20px;
+        @media (max-width: $breakpoint_mobile_portrait) {
+         width: 100%;
+         }
+      }
+    }
+    section {
+      padding: 0 0 0 66px;
+      @media (max-width: $breakpoint_laptop) {
+        padding: 0 0 0 40px;
+       }
+      @media (max-width: $breakpoint_tablet) {
+        padding: 0 0 0 30px;
+       }
+       @media (max-width: $breakpoint_mobile_portrait) {
+        padding: 0;
+        margin-top: 15px;
+       }
+      h2 {
+        font-size: 28px;
+        margin: 0 0 10px;
+        color: #FFFFFF;
+      }
+      p {
+        font-size: 20px;
+        line-height: 30px;
+        color: #FFFFFF;
+        font-family: "Apercu-Light", sans-serif;
+        margin: 0 0 20px;
+        opacity: 0.9;
+      }
+      .contact_btn { max-width: 243px;}
+    }
+  }
+}

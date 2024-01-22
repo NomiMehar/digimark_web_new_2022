@@ -1,0 +1,80 @@
+.mobile_industries_wrap {
+  background: #F3F6FF;
+  padding: 100px 0;
+}
+@media (max-width: 1000px) {
+  .mobile_industries_wrap {
+    padding: 60px 0;
+  }
+}
+.mobile_industries_wrap.colored_overlay {
+  background: #1E4658 url("../../../../../../public/assets/images/services/custom-bg.svg");
+}
+.mobile_industries_wrap.colored_overlay .mobile_industries_list ul li i:before {
+  color: #FFFFFF;
+}
+.mobile_industries_wrap.colored_overlay .mobile_industries_list ul li span {
+  color: #FFFFFF;
+}
+.mobile_industries_wrap .mobile_industries_list ul li {
+  width: 16.6667%;
+  margin-bottom: 77px;
+}
+@media (max-width: 1600px) {
+  .mobile_industries_wrap .mobile_industries_list ul li {
+    margin-bottom: 50px;
+  }
+}
+@media (max-width: 1000px) {
+  .mobile_industries_wrap .mobile_industries_list ul li {
+    width: 25%;
+    margin-bottom: 20px;
+  }
+}
+@media (max-width: 600px) {
+  .mobile_industries_wrap .mobile_industries_list ul li {
+    width: 50%;
+  }
+}
+.mobile_industries_wrap .mobile_industries_list ul li:hover i {
+  transform: scale(0.9);
+}
+.mobile_industries_wrap .mobile_industries_list ul li:hover i:before {
+  color: #6BB64A;
+}
+.mobile_industries_wrap .mobile_industries_list ul li i {
+  transition: all 0.4s ease-in-out;
+  font-size: 61px;
+  margin-bottom: 18px;
+}
+.mobile_industries_wrap .mobile_industries_list ul li i:before {
+  color: #909090;
+  transition: all 0.4s ease-in-out;
+}
+@media (max-width: 1600px) {
+  .mobile_industries_wrap .mobile_industries_list ul li i {
+    font-size: 45px;
+    margin-bottom: 8px;
+  }
+}
+@media (max-width: 1000px) {
+  .mobile_industries_wrap .mobile_industries_list ul li i {
+    font-size: 30px;
+    margin-bottom: 5px;
+  }
+}
+.mobile_industries_wrap .mobile_industries_list ul li span {
+  font-size: 24px;
+  line-height: 42px;
+  color: #12262F;
+}
+@media (max-width: 1200px) {
+  .mobile_industries_wrap .mobile_industries_list ul li span {
+    font-size: 20px;
+  }
+}
+@media (max-width: 1000px) {
+  .mobile_industries_wrap .mobile_industries_list ul li span {
+    font-size: 18px;
+  }
+}/*# sourceMappingURL=industriesList.module.css.map */

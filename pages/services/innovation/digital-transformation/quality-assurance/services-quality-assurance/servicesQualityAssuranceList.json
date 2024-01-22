@@ -1,0 +1,32 @@
+[
+  {
+    "title": "Functional & User Acceptance",
+    "description": "With a penetration test, we evaluate the security of an IT infrastructure by trying to exploit its vulnerabilities. The vulnerabilities may exist in the operating systems, services and application flaws, improper configurations, or end-user behaviour.",
+    "list": [
+      "Decrease costs",
+      "Decrease costs",
+      "Decrease costs",
+      "Decrease costs"
+    ]
+  },
+  {
+    "title": "Automation Testing",
+    "description": "With a penetration test, we evaluate the security of an IT infrastructure by trying to exploit its vulnerabilities. The vulnerabilities may exist in the operating systems, services and application flaws, improper configurations, or end-user behaviour.",
+    "list": [
+      "Decrease costs",
+      "Decrease costs",
+      "Decrease costs",
+      "Decrease costs"
+    ]
+  },
+  {
+    "title": "Web Services Testing",
+    "description": "With a penetration test, we evaluate the security of an IT infrastructure by trying to exploit its vulnerabilities. The vulnerabilities may exist in the operating systems, services and application flaws, improper configurations, or end-user behaviour.",
+    "list": [
+      "Decrease costs",
+      "Decrease costs",
+      "Decrease costs",
+      "Decrease costs"
+    ]
+  }
+]

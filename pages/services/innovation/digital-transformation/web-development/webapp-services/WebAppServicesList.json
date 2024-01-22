@@ -1,0 +1,63 @@
+[
+  {
+    "processImg": "/assets/images/services/chain-process1.jpg",
+    "process_name": "Web Application Development",
+    "process_description": "We provide our clients with customized, robust, and secure web applications within the stipulated time and budget.",
+    "process_list":[
+      "Enterprise Web Apps",
+      "Progressive Web Apps",
+      "CMS Development",
+      "eCommerce Solutions",
+      "CRM Development"
+    ]
+  },
+  {
+    "processImg": "/assets/images/services/chain-process1.jpg",
+    "process_name": "Web Application Modernization",
+    "process_description": "We provide our clients with customized, robust, and secure web applications within the stipulated time and budget.",
+     "process_list":[
+      "Security assessment and implementation",
+      "Technology stack upgrade/migration",
+      "Cloud migration and management",
+      "Legacy system integration",
+      "Ongoing support and maintenance"
+    ]
+  },
+  {
+    "processImg": "/assets/images/services/chain-process1.jpg",
+    "process_name": "Web Design Services",
+    "process_description": "We provide our clients with customized, robust, and secure web applications within the stipulated time and budget.",
+     "process_list":[
+      "Responsive Web Design",
+      "UI/UX design",
+      "Wireframing",
+      "Design prototypes",
+      "Usability Testing and Evaluation"
+    ]
+  },
+  {
+    "processImg": "/assets/images/services/chain-process1.jpg",
+    "process_name": "Open Source Web Development \nand Re-engineering",
+    "process_description": "We provide our clients with customized, robust, and secure web applications within the stipulated time and budget.",
+     "process_list":[
+      "Custom Open Source Web Development",
+      "Open Source Framework Development",
+      "Open Source API Development and Integration",
+      "Open Source ERP Development",
+      "Open Source Integration and Migration Services",
+      "Open Source CRM Development"
+    ]
+  },
+  {
+    "processImg": "/assets/images/services/chain-process1.jpg",
+    "process_name": "Web Application Support & \nMaintenance",
+    "process_description": "We provide our clients with customized, robust, and secure web applications within the stipulated time and budget.",
+     "process_list":[
+      "Bug fixing and issue resolution",
+      "Performance monitoring and optimization",
+      "Backup and disaster recovery",
+      "Server monitoring and management",
+      "Application documentation and knowledge base management"
+    ]
+  }
+]

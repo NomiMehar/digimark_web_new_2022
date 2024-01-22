@@ -1,0 +1,44 @@
+[
+  {
+    "process_number": "01",
+    "process_name": "Requirement Gathering",
+    "process_description": "We make sure the requirements collecting can be obvious or hidden, recognized or unknown, expected or unexpected from the client's perspective.",
+    "process_list": [
+      "Client Onboarding",
+      "NDA Signing",
+      "Gathering Data & Client’s \nRequirements",
+      "Crafting Android App Solution",
+      "Review Session & Deal Finalization"
+    ]
+  },
+  {
+    "process_number": "02",
+    "process_name": "UI/UX Design",
+    "process_description": "We make sure the requirements collecting can be obvious or hidden, recognized or unknown, expected or unexpected from the client's perspective."
+  },
+  {
+    "process_number": "03",
+    "process_name": "Prototype",
+    "process_description": "We make sure the requirements collecting can be obvious or hidden, recognized or unknown, expected or unexpected from the client's perspective."
+  },
+  {
+    "process_number": "04",
+    "process_name": "Software Development",
+    "process_description": "We make sure the requirements collecting can be obvious or hidden, recognized or unknown, expected or unexpected from the client's perspective."
+  },
+  {
+    "process_number": "05",
+    "process_name": "Quality Assurance",
+    "process_description": "We make sure the requirements collecting can be obvious or hidden, recognized or unknown, expected or unexpected from the client's perspective."
+  },
+  {
+    "process_number": "06",
+    "process_name": "Deployment",
+    "process_description": "We make sure the requirements collecting can be obvious or hidden, recognized or unknown, expected or unexpected from the client's perspective."
+  },
+  {
+    "process_number": "07",
+    "process_name": "Support & Maintenance",
+    "process_description": "We make sure the requirements collecting can be obvious or hidden, recognized or unknown, expected or unexpected from the client's perspective."
+  }
+]

@@ -1,0 +1,18 @@
+[
+  {
+    "socialIcon": "/assets/images/header/facebook.svg",
+    "socialLink": "https://www.facebook.com/digimarkdevelopers"
+  },
+  {
+    "socialIcon": "/assets/images/header/instagram.svg",
+    "socialLink": "https://www.instagram.com/digimark_developers/"
+  },
+  {
+    "socialIcon": "/assets/images/header/linkedin.svg",
+    "socialLink": "https://www.linkedin.com/company/digimarkdevelopers/mycompany/"
+  },
+  {
+    "socialIcon": "/assets/images/header/behance.svg",
+    "socialLink": "https://www.behance.net/digimarkdevelopers"
+  }
+]

@@ -1,0 +1,113 @@
+@import "../../../../../../styles/variables";
+.enterprises {
+  text-align: center;
+  margin: -110px 0 100px;
+  position: relative;
+  &.about_wrap { margin-top: 0}
+  @media (max-width: $breakpoint_tablet) {
+    margin: -90px 0 0;
+  }
+  @media (max-width: $breakpoint_mobile_portrait) {
+    margin: -140px 0 0;
+  }
+  z-index: 9;
+  .enterprises_content {
+    background: #12262F;
+    background-size: cover;
+    padding: 40px 50px;
+    max-width: 1137px;
+    margin: 0 auto;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    @media (max-width: 1600px) {
+      max-width: 930px;
+    }
+    @media (max-width: 999px) {
+      padding: 20px 25px 30px;
+    }
+    @media (max-width: $breakpoint_mobile_portrait) {
+      display: block;
+    }
+.enterprises_title{
+  max-width: 70%;
+  width: 100%;
+  text-align: left;
+  @media (max-width: $breakpoint_mobile_portrait) {
+    max-width: 100%;
+    text-align: center;
+  }
+      h2 {
+      font-size: 28px;
+      margin: 0 0 10px;
+      color: #FFFFFF;
+      @media (max-width: 1600px) {
+        font-size: 28px;
+      }
+      @media (max-width: 999px) {
+        font-size: 24px;
+        margin-bottom: 20px;
+      }
+      span {
+        color: #12262F;
+        background: #FFFFFF;
+        padding: 0 10px;
+      }
+    }
+    p {
+      font-size: 24px;
+      font-family: "Apercu-Light", sans-serif;
+      color: #FFFFFF;
+      line-height: 40px;
+      margin: 0 auto 10px;
+      @media (max-width: 1600px) {
+        line-height: 30px;
+        font-size: 20px;
+      }
+      @media (max-width: 999px) {
+        font-size: 17px;
+        line-height: 25px;
+      }
+    }
+}
+    .contact_btn {
+      margin: 0 auto;
+      background: #FFFFFF;
+      color: #12262F;
+      box-shadow: 5px 5px 0 rgb(255 255 255 / 30%);
+      &:hover { box-shadow: none}
+      img {
+        filter: brightness(0);
+      }
+    }
+  }
+  &.metaverse_expert{
+    margin: 0;
+    padding-bottom: 90px;
+    .enterprises_content{
+      background: linear-gradient(90deg, #6BB64A 0%, #1D4354 100%);
+border-radius: 20px;
+.enterprises_title{
+  max-width: 50%;
+  @media (max-width: $breakpoint_mobile_portrait) {
+   max-width: 100%;
+   margin-bottom: 20px;
+  }
+}
+.contact_btn{
+  margin-right: 0;
+  background: #6BB64A;
+  color: #fff;
+  box-shadow: 5px 5px 0 #6ab64a54;
+  @media (max-width: $breakpoint_mobile_portrait) {
+    margin-right: auto;
+  }
+  &:hover { box-shadow: none}
+  img {
+    filter: grayscale(1);
+  }
+}
+    }
+  }
+}

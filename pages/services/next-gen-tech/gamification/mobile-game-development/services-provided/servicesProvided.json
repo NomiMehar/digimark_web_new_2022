@@ -1,0 +1,32 @@
+[
+  {
+    "img": "/assets/images/services/sp-icon-1.svg",
+    "title":"Mobile Game Development \nConsulting",
+    "desc":"Whenever you choose to start developing a new Android game, you are welcome to take advantage of our consulting services, after which your team will gain insight into the tiniest details of this complex process."
+  },
+  {
+    "img": "/assets/images/services/sp-icon-2.svg",
+    "title":"Full-Cycle Mobile Game\nDevelopment",
+    "desc":"Game-Ace provides full-cycle Android game development services to help you receive a high-quality mobile game that will boost your business performance, bringing it to the next, never-before-seen level."
+  },
+  {
+    "img": "/assets/images/services/sp-icon-3.svg",
+    "title":"Assets Creation",
+    "desc":"Our 2D and 3D artists can produce highly optimized assets for your Android game. Utilizing their potential and profound experience, they will enliven the world of your app with unique models and animations."
+  },
+  {
+    "img": "/assets/images/services/sp-icon-1.svg",
+    "title":"UX/UI Design",
+    "desc":"Designers at our studio know the ropes in creating modern-looking and user-friendly interfaces for any kind of Android game so that your players will be tempted to click on the start button to get more joy."
+  },
+  {
+    "img": "/assets/images/services/sp-icon-2.svg",
+    "title":"Mobile Game Testing",
+    "desc":"Since we trust in quality assurance and control, our specialists carry out many tests in order to make sure that your Android game offers maximum performance without any serious bugs or drop in frame rate."
+  },
+  {
+    "img": "/assets/images/services/sp-icon-3.svg",
+    "title":"Support and Maintenance",
+    "desc":"By using our Android game development services, you will significantly optimize your resource management and ensure that your released game gets regular updates, is free of bugs, and has optimized gameplay."
+  }
+]

@@ -1,0 +1,39 @@
+[
+  {
+    "process_number": "01",
+    "process_name": "Planning",
+    "process_description":"Outline all procedures and activities necessary to ensure project success and develop a complete set of plans to manage the project from this phase till project completion. It provides a clear structure of scope, deliverables, processes, budget, tech stack and timeline."
+  },
+  {
+    "process_number": "02",
+    "process_name": "Design",
+    "process_description":"Outline all procedures and activities necessary to ensure project success and develop a complete set of plans to manage the project from this phase till project completion. It provides a clear structure of scope, deliverables, processes, budget, tech stack and timeline."
+  },
+  {
+    "process_number": "03",
+    "process_name": "Prototype",
+    "process_description":"Outline all procedures and activities necessary to ensure project success and develop a complete set of plans to manage the project from this phase till project completion. It provides a clear structure of scope, deliverables, processes, budget, tech stack and timeline."
+  },
+  {
+    "process_number": "04",
+    "process_name": "Development",
+    "process_description":"Outline all procedures and activities necessary to ensure project success and develop a complete set of plans to manage the project from this phase till project completion. It provides a clear structure of scope, deliverables, processes, budget, tech stack and timeline."
+  },
+  {
+    "process_number": "05",
+    "process_name": "Software Quality Assurance",
+    "process_description":"Outline all procedures and activities necessary to ensure project success and develop a complete set of plans to manage the project from this phase till project completion. It provides a clear structure of scope, deliverables, processes, budget, tech stack and timeline."
+  }
+  ,
+  {
+    "process_number": "06",
+    "process_name": "DevOps Services",
+    "process_description":"Outline all procedures and activities necessary to ensure project success and develop a complete set of plans to manage the project from this phase till project completion. It provides a clear structure of scope, deliverables, processes, budget, tech stack and timeline."
+  }
+  ,
+  {
+    "process_number": "07",
+    "process_name": "Support & Maintenance",
+    "process_description":"Outline all procedures and activities necessary to ensure project success and develop a complete set of plans to manage the project from this phase till project completion. It provides a clear structure of scope, deliverables, processes, budget, tech stack and timeline."
+  }
+]
