@@ -1,0 +1,23 @@
+
+
+version: 2
+jobs:
+  build:
+    branches:
+      only:
+       - main
+    docker:
+      # specify the version you desire here 
+      - image: circleci/node:7.10
+      
+    steps:
+      - checkout
+      - run:
+          name: Fix host authenticity for $SSH_HOST
+          command: |
+            ssh-keyscan $SSH_HOST >> ~/.ssh/known_hosts
+      - deploy:
+          name: Deploy Over SSH
+          command: |
+            echo "Deploying to dev"
+            ssh $SSH_USER@$SSH_HOST "cd /var/www/html/digimark_web_new_2022 && git stash && git pull && npm i --force && npm run build && pm2 restart digimark"

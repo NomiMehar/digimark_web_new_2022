@@ -7,7 +7,7 @@ export default function EngagementModels () {
             <div className="container">
                 <div className={`section_title ${style.section_title}`}>
                     <h2>Flexibility in choosing <span>engagement models</span></h2>
-                    <p>Lorem ipsum dolor sit amet consectetur. Augue neque malesuada velit quisque ut vivamus.</p>
+                    <p>Choose the right engagement model that works best for your organization with our flexible options.</p>
                 </div>
                 <div className={style.engagement_models_text}>
                     <ul className="list-none flex">

@@ -19,7 +19,7 @@ export default function Join () {
                     data-aos-duration="2000"
                 >
                     <h2>Join the <span>DigiMark Developers</span> Team!</h2>
-                    <p>Innovate with the latest and greatest technologies & get to work on some of the coolest projects you can imagine.</p>
+                    <p>We would love to bring your next ideas to life. Schedule a time with our founders and know the solution now.</p>
                     <Link href="/" className={`contact_btn`}>Apply Now <Image src={whiteArrow} alt={whiteArrow} width={13} height={16} /></Link>
                 </div>
                 <Image

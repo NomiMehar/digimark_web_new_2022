@@ -10,7 +10,7 @@ export default function Perks () {
                      data-aos="fade-up"
                      data-aos-duration="2000">
                     <h2>Perks & <span>Benefits</span></h2>
-                    <p>DigiMark cares about the financial and emotional well-being of its employees. While working with DigiMark, you get the following perks and benefits:</p>
+                    <p>Why Join the Digi Mark Team? <br /> Benefits and opportunities that make you happy!</p>
                 </div>
                 <ul className="list-none flex flex-wrap">
                     {
@@ -21,7 +21,7 @@ export default function Perks () {
                                     data-aos-duration="2000">
                                     <section>
                                         <Image src={perksImage} alt={perksImage} width={61} height={61}/>
-                                        <h3>Best Culture</h3>
+                                        <h3>{perkTitle}</h3>
                                     </section>
                                 </li>
                             )

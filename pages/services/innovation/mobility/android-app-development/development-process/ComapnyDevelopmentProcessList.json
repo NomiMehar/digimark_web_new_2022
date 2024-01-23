@@ -2,7 +2,7 @@
   {
     "process_number": "01",
     "process_name": "Requirement Gathering",
-    "process_description": "We make sure the requirements collecting can be obvious or hidden, recognized or unknown, expected or unexpected from the client's perspective.",
+    "process_description": "Our process begins with research to understand your requirements and goals. We ensure to deliver customized solutions that drive business growth.",
     "process_list": [
       "Client Onboarding",
       "NDA Signing",
@@ -14,31 +14,31 @@
   {
     "process_number": "02",
     "process_name": "UI/UX Design",
-    "process_description": "We make sure the requirements collecting can be obvious or hidden, recognized or unknown, expected or unexpected from the client's perspective."
+    "process_description": "We design digital products adopting a product mindset. Using design thinking methods, we ensure your products add value to customers."
   },
   {
     "process_number": "03",
     "process_name": "Prototype",
-    "process_description": "We make sure the requirements collecting can be obvious or hidden, recognized or unknown, expected or unexpected from the client's perspective."
+    "process_description": "We build a prototype to test and gather feedback on the feasibility of the final product ensuring a high-quality result that meets the client's needs."
   },
   {
     "process_number": "04",
     "process_name": "Software Development",
-    "process_description": "We make sure the requirements collecting can be obvious or hidden, recognized or unknown, expected or unexpected from the client's perspective."
+    "process_description": "Build a project with the information we have gathered. At this stage, the developers write the code and build according to the earlier document."
   },
   {
     "process_number": "05",
     "process_name": "Quality Assurance",
-    "process_description": "We make sure the requirements collecting can be obvious or hidden, recognized or unknown, expected or unexpected from the client's perspective."
+    "process_description": "We ensure the best results through Q/A testing. Our priority is creating bug-free software, providing a quality user experience, and meeting quality standards."
   },
   {
     "process_number": "06",
     "process_name": "Deployment",
-    "process_description": "We make sure the requirements collecting can be obvious or hidden, recognized or unknown, expected or unexpected from the client's perspective."
+    "process_description": "Once the product is released and deployed, then the final step involves the collaborative efforts of our developers to ensure a successful installation."
   },
   {
     "process_number": "07",
     "process_name": "Support & Maintenance",
-    "process_description": "We make sure the requirements collecting can be obvious or hidden, recognized or unknown, expected or unexpected from the client's perspective."
+    "process_description": "After deployment, it’s time to solve the issues, the end-user is facing. Perform all the required changes and run-time errors."
   }
 ]

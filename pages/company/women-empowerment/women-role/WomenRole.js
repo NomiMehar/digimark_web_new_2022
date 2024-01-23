@@ -7,12 +7,11 @@ export default function WomenRole () {
         <div className={`flex flex-wrap direction-column ${style.women_role_wrapper}`}>
             <div className="container">
                 <h2>Women Role In <span>Society</span></h2>
-                <p>We were recently rated as one of the worst countries in the world when it comes to the way we treat women. More than 60 years after independence, 80 per cent of Pakistani women are still subjected to domestic violence. Our country is ranked 82 out of 93 countries on the Gender Development Index and 152 out of 156 countries on the Gender Empowerment Measure.</p>
-                <p>Women can play a greater role in the development of our nation. They have a great potential to lift our nation, which is rife with problems. God has bestowed them with all capabilities and their role in any sphere whether it is social, economic, political, cultural or educational cannot be ignored. We need to utilize their talent in right place and admit their stake in country’s progress.</p>
+                <p>Women have been vital in shaping society throughout history. From leading social movements to making groundbreaking scientific discoveries, women have proven their equal capabilities alongside men.</p>
                 <blockquote>
                     <Image className={style.quote_icon} src={quoteIcon} alt={quoteIcon} />
                     <h3>Quaid-e-Azam said in speech in 1944:</h3>
-                    <p>No nation can rise to the height of glory unless your women are side by side with you; we are victims of evil customs. It is a crime against humanity that our women are shut up within the four walls of the houses as prisoners.</p>
+                    <p>In 1944, Quaid-e-Azam emphasized the importance of women, stating that a nation cannot reach great heights without their involvement. Now is the opportune moment to free ourselves from restrictive customs, allowing women to embrace their rightful positions in society. Women hold immense potential as educators, leaders, innovators, and volunteers, and it is our responsibility to harness their remarkable talents to drive our nation forward, towards a future teeming with progress and triumph.</p>
                 </blockquote>
                 <h4>Role of Women as Educators</h4>
                 <p>It has been seen that only the mother in the family most often urges her children to attend and stay in school.</p>
@@ -25,6 +24,8 @@ export default function WomenRole () {
                     <Image className={style.quote_icon} src={quoteIcon} alt={quoteIcon} />
                     <p>However, the Prophet Mohammad (PBUH) strongly emphasized on education by saying that, “It is the prime duty of men and women to acquire education”.</p>
                 </blockquote>
+                <p>At DigitalMark Developers, we strive to ensure an inclusive and empowering work environment for all employees, irrespective of gender.
+</p>
             </div>
         </div>
     )

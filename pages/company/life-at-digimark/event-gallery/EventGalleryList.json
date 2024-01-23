@@ -2,41 +2,21 @@
   {
     "galleryImage": "/assets/images/company/gallery-image1.jpg",
     "galleryTitle": "Playing Games",
-    "galleryDescription": "Lorem ipsum dolor sit amet consectetur. Nisl est a ornare nisl at."
+    "galleryDescription": "Bringing a playful twist to the workplace with some fun-filled games"
   },
   {
     "galleryImage": "/assets/images/company/gallery-image2.jpg",
-    "galleryTitle": "Playing Games",
-    "galleryDescription": "Lorem ipsum dolor sit amet consectetur. Nisl est a ornare nisl at."
+    "galleryTitle": "Birthday Celebrations",
+    "galleryDescription": "Making employee’s birthdays at work extra special with cake, & confetti,"
   },
   {
     "galleryImage": "/assets/images/company/gallery-image3.jpg",
-    "galleryTitle": "Playing Games",
-    "galleryDescription": "Lorem ipsum dolor sit amet consectetur. Nisl est a ornare nisl at."
+    "galleryTitle": "Special Occasions",
+    "galleryDescription": "Creating memories & turning special occasions into unforgettable moments..."
   },
   {
     "galleryImage": "/assets/images/company/gallery-image4.jpg",
-    "galleryTitle": "Playing Games",
-    "galleryDescription": "Lorem ipsum dolor sit amet consectetur. Nisl est a ornare nisl at."
-  },
-  {
-    "galleryImage": "/assets/images/company/gallery-image1.jpg",
-    "galleryTitle": "Playing Games",
-    "galleryDescription": "Lorem ipsum dolor sit amet consectetur. Nisl est a ornare nisl at."
-  },
-  {
-    "galleryImage": "/assets/images/company/gallery-image2.jpg",
-    "galleryTitle": "Playing Games",
-    "galleryDescription": "Lorem ipsum dolor sit amet consectetur. Nisl est a ornare nisl at."
-  },
-  {
-    "galleryImage": "/assets/images/company/gallery-image3.jpg",
-    "galleryTitle": "Playing Games",
-    "galleryDescription": "Lorem ipsum dolor sit amet consectetur. Nisl est a ornare nisl at."
-  },
-  {
-    "galleryImage": "/assets/images/company/gallery-image4.jpg",
-    "galleryTitle": "Playing Games",
-    "galleryDescription": "Lorem ipsum dolor sit amet consectetur. Nisl est a ornare nisl at."
+    "galleryTitle": "Outdoor Gatherings",
+    "galleryDescription": "Taking team-building to the great outdoors for a memorable cheer-up."
   }
 ]

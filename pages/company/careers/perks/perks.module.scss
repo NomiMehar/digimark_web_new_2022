@@ -31,6 +31,7 @@
         justify-content: center;
         align-items: center;
         transition: all 0.4s ease-in-out;
+        padding: 15px;
         @media screen and (max-width: $breakpoint_tablet) {
           height: 130px;
           img {
@@ -45,7 +46,8 @@
           margin: 23px 0 0;
           color: #252B33;
           font-family: "CloverDisplay", sans-serif;
-          font-size: 22px;
+          font-size: 15px;
+          word-break: break-all;
           text-align: center;
           @media screen and (max-width: $breakpoint_tablet) {
             font-size: 18px;

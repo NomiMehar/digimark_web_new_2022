@@ -19,11 +19,11 @@ export default function HowWeAre () {
                 bg_text="Work"
                 bg_title={true}
                 bannerImage={false}
-                subTitle={["Design, Development, Consultancy"]}
+                subTitle={["Development, Consultation, Optimization"]}
                 bannerTitle={["How ", <span className="at-digi">DigiMark</span>, " Developers Work"]}
                 bannerDescription={[
-                    <p>In our process we always focus on <strong>commitment, quality, bug free product</strong> and delivery before the given time.</p>,
-                    <p>We work on a wide range of software projects, we know each project will be different so we approach each project with an open mind and manage each piece of bespoke software in a way that suits the individual project.</p>]}
+                    <p>At DigiMark, we leverage our <strong>extensive experience and talented resource</strong> pool to deliver top-notch IT services for businesses globally.</p>,
+                    <p>We're experts at transforming unique business challenges into strategic opportunities. Over the years, we have successfully maintained the trust of our customers and established long-term relationships.</p>]}
             />
             <DevelopmentProcess
                 appName={["Our ", <span>Proven Process,</span>, " Products Results"]}

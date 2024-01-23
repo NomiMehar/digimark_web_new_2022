@@ -17,8 +17,8 @@ export default function LifeAtDigimark () {
                 subTitle="Community"
                 bannerTitle={["Life ", <span className="at-digi">@</span>, " DigiMark Developers"]}
                 bannerDescription={[
-                    <p>Our Learning Resources Are Primed To Keep You In Touch With The Latest Trends In The World Of Tech & Entrepreneurship.</p>,
-                <p>Bringing The Most Talented People From The World Of Business, We Strive To Create Experiences That Stay With You and Help You Devise Actionable Insights In Order To Power Your Business Forward.</p>]}
+                    <p>Besides technological expertise, we value interpersonal skills and team spirit. Based on our long-term partnership we can say with confidence, that this approach does miracles!</p>,
+                <p>Using talented people from the business world, we create experiences that leave you with actionable insights that will drive your business forward.</p>]}
             />
             <Events/>
             <InHouseSession/>

@@ -19,8 +19,8 @@ export default function WomenEmpowerment () {
             <OurStory
                 womenStory={true}
                 title={["DigiMark Developers Role in ", <span>Women Empowerment</span>]}
-                text={[<p>DigiMark Developers is proud to announce the launch of the Women’s Empowerment Initiative; an initiative that seeks to mentor, motivate and empower women to become leaders in all aspects of their lives.</p>,
-                    <p>The fruit of these efforts is evident as most of the company’s leadership roles are held by females. An anomaly in the IT industry, the company has a female majority staff in most of its departments.</p>]}
+                text={[<p>At DigiMark Developers, we're committed to empowering women to take leadership roles. Our Women's Empowerment Initiative offers training, mentorship, and support to help women excel in the tech industry!</p>,
+                    <p>We take pride in our predominantly female leadership roles, showcasing our dedication to gender diversity. We firmly believe that investing in women's potential is advantageous for our company and society as a whole.</p>]}
             />
             <WomenPerks/>
             <WomenInDigimark/>
