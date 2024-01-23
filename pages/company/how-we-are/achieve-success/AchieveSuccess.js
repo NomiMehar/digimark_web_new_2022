@@ -9,8 +9,8 @@ export default function AchieveSuccess () {
                 <div className={`flex flex-wrap ${style.achieve_success_text}`}>
                     <h2>How we Achieve <span>Success</span></h2>
                     <section>
-                        <p>When you come to us with your idea, we want to fully meet your expectations. Your contribution to the project management process is very important and allows us to create a valuable product together.</p>
-                        <p>You can be sure that the management will be tailored to fit your project. We employ the broadly understood Agile methodology. We love to work using Scrum, but our project managers are flexible and can choose the best path to achieve the goal – regardless of the framework used.</p>
+                        <p>As your right technology partner, we're poised to exceed your expectations. Through collaborative efforts with our clients, we ensure the delivery of a valuable end product. We are problem solvers and ensure the best outcomes.</p>
+                        <p>Our project management approach is highly flexible, utilizing the agile methodology and a variety of frameworks such as Scrum. Count on us to bring your ideas to life with a customized approach that is tailored specifically to you.</p>
                     </section>
                 </div>
                 <Image className={style.achieve_image} src={achieveSuccess} alt={achieveSuccess}/>

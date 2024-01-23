@@ -19,7 +19,7 @@ export default function OurVision () {
                         data-aos-duration="2000"
                     >
                         <h2>Our Vision</h2>
-                        <p>We have a strong belief that inclusion of mobile technology and digitalisation of processes for any individual or a business will help them to ease their life so that they can be more focused on their Core Business functions.</p>
+                        <p>Our vision is to empower businesses of all sizes with sustainable growth and transformation through our digital software solutions. By embracing the latest innovations, we lead the technology frontier, crafting customized solutions that cater to our clients' digital needs.</p>
                     </div>
                     <figure
                         data-aos="zoom-in"
@@ -43,7 +43,7 @@ export default function OurVision () {
                         data-aos-duration="2000"
                     >
                         <h2>Our Mission</h2>
-                        <p>We at RipenApps always focus on App Design & Dev Principles that guarantees to Engage Users, Optimize Experience, and Drive Conversions. We not only intend to build mobile application but generate more values.</p>
+                        <p>DigiMark's mission is to boost success with innovative digital transformation solutions to help businesses overcome complex business challenges. Let us be your credible technology leader on your digital transformation journey!</p>
                     </div>
                 </div>
             </div>

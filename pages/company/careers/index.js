@@ -18,7 +18,8 @@ export default function Careers () {
               subTitle="We are"
               bannerTitle={["Hiring."]}
               bannerDescription={[
-                  <p>We are always excited to discuss innovation and contribute our experience to add value. A right approach and a well framed strategy ensures a major part done and we help you with the same.</p>]}
+                  <p> Join our team and be a part of something great! Digi Mark seeks trustworthy, pragmatic, and reliable people who possess a unique balance of technical depth and strong interpersonal skills.
+                  </p>]}
           />
           <Vacancies/>
           <Perks/>

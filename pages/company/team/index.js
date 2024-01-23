@@ -16,7 +16,7 @@ export default function Team () {
                 subTitle="Professionals"
                 bannerTitle={["Team Members"]}
                 bannerDescription={[
-                    <p>We're more than just a group of developers working on clients' projects. We're a family. Together we build great things and help one another grow. We enjoy life, friendship, and products we develop and launch.</p>]}
+                    <p>At DigiMark, we are grateful for our amazing team who are dedicated to putting clients first. Our expertise, vision and loyalty allow us to consistently deliver high-quality and value-packed solutions to our clients.</p>]}
             />
             <TeamMembers/>
             <Join/>

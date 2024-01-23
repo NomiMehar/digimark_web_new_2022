@@ -18,7 +18,7 @@ export default function CoreValue () {
                             data-aos-duration="2000"
                         >
                             <h2>Our <span>core values</span></h2>
-                            <p>Combine custom tech solutions and business objectives to reach the world’s largest mobile app market</p>
+                            <p>Reach the world's largest mobile app market with our customized tech solutions</p>
                         </li>
                         {
                             coreValueList.map(({no,coreTitle,coreDescription},index)=>{

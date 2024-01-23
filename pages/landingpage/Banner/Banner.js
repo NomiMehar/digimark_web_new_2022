@@ -30,8 +30,7 @@ export default function Banner() {
               with Our Innovative Solutions!
           </h1>
           <p className="font-white">
-              Digi<span>Mark</span> Developers creates digital solutions that meet business objectives and ensure impactful transformation towards a better future.
-          </p>
+          We create <span>Digital Solutions</span> that meet business objectives and ensure impactful transformation towards a better future.          </p>
           <button
               className={style.playBtn}
               onMouseEnter={handleMouseEnter}

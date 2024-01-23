@@ -12,7 +12,7 @@ export default function DevelopmentProcess (props) {
             <div className="container">
                 <div className={`section_title white flex direction-column ${style.section_title}`}  data-aos="fade-up" data-aos-duration="1000">
                     <h2>{props.appName}</h2>
-                    <p>Unlock your true potential, leverage the best of technology, and create applications based on a modern algorithm with our experts.</p>
+                    <p>Unlock your business potential with our proven process, cutting-edge products, and unbeatable results to take your business to new heights.</p>
                 </div>
                 <div className={`flex items-center justify-between ${style.process_tabs}`}>
                     <div className={`flex ${style.process_tabs_content}`} data-aos="fade-right" data-aos-duration="1000">
