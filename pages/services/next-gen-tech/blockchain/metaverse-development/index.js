@@ -10,7 +10,7 @@ import metaverseWhyChooseList from "../../../innovation/mobility/android-app-dev
 import metaverseCompanyList from "../../../innovation/mobility/android-app-development/why-choose/metaverseCompanyList";
 import CallToAction from "../../../../../components/call-to-action/CallToAction";
 import OurWork from "../../../innovation/mobility/mobile-development/our-work/OurWork";
-import smartOurWorkList from "../../../innovation/mobility/mobile-development/our-work/SmartourWorkList.json";
+import smartOurWorkList from "../../../innovation/mobility/mobile-development/our-work/SmartOurWorkList.json";
 import BlockchainEnterprise from '../smart-contract-development/blockchain-enterprise/BlockchainEnterprise'
 import MetaverseFoundation from "./metaverse-foundation/MetaverseFoundation";
 
@@ -46,10 +46,10 @@ export default function SmartContract() {
              <MetaverseBenefits data={metaverseFutureList} metaverse={false} classes="metaverse_future"/>
             <CallToAction classes="metaverse_banner"/>
             <OurWork smartClass="smart_contract"
-          centeredSlides={false}
-          classes="nft_works"
-          ourWorkList={smartOurWorkList}
-          perView={3} />
+              centeredSlides={false}
+              classes="nft_works"
+              ourWorkList={smartOurWorkList}
+              perView={3} />
           <BlockchainEnterprise metaverse={true} classes="metaverse_expert"/>
           <WhyChoose
                 whyChooseList={metaverseCompanyList}

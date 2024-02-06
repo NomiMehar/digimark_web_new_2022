@@ -11,7 +11,7 @@ import CallToAction from "../../../../../components/call-to-action/CallToAction"
 import SmartIndustries from "./smart-industries/SmartIndustries";
 import DevProcesses from "./dev-processes/DevProcesses";
 import OurWork from "../../../innovation/mobility/mobile-development/our-work/OurWork";
-import smartOurWorkList from "../../../innovation/mobility/mobile-development/our-work/SmartourWorkList.json";
+import smartOurWorkList from "../../../innovation/mobility/mobile-development/our-work/SmartOurWorkList.json";
 export default function SmartContract() {
   return (
     <div className="ionic-app-dev">
