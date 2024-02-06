@@ -41,6 +41,7 @@ export default function AndroidIosDevelopment () {
                 whyChooseList={iosWhyChooseList}
                 appName="IOS"
                 ionicShow={true}
+                metaverse={true}
                 para="We are a top-notch Mobile App Development Company as our expertise spans various areas. Years of experience in outsourcing and passing technology can help customers optimize their businesses and operations."
             />
             <Technologies/>

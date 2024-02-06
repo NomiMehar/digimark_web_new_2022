@@ -30,6 +30,9 @@ export default function MobileDevelopment () {
             <WhyChoose
                 whyChooseList={mobileWhyChooseList}
                 mobileDev={true}
+                appName="Mobile App"
+                para="With over 7 years of experience, DigiMark offers end-to-end mobile app development services, utilizing the latest technologies & frameworks to deliver user-friendly, and secure solutions tailored to your business."
+                metaverse={true}
                 classesProp="mobile_app_wrap"
             />
             <DevelopmentProcess

@@ -40,7 +40,8 @@ export default function AndroidAppDevelopment () {
             />
             <WhyChoose
                 whyChooseList={androidWhyChooseList}
-                appName="Android"
+                metaverse={true}
+                appName="Android App"
                 para="Our developers ensure compatibility with modern technologies like wearable devices, tablets, & Android TVs. We transform and empower businesses with better customer engagement, marketing, and scaling."
                 ionicShow={true}
             />
