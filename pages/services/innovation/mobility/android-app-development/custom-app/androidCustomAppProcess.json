@@ -3,24 +3,24 @@
     "customAppNumber": "01",
     "customAppIcon" : "/assets/images/services/list1.svg",
     "customAppTitle" : "Android App UX/UI Design",
-    "customAppDetail" : "We create exceptionally secure, technically advanced, and feature-rich Android apps. Our apps are designed to best fit the modern Android operating system while delivering an exceptional user-experience to the users."
+    "customAppDetail" : "We prioritize user experience and carefully follow a roadmap to create mockups and prototypes that leave a lasting impression on end users. Reach out to us and bring the app vision to life with an attractive design."
   },
   {
     "customAppNumber": "02",
     "customAppIcon" : "/assets/images/services/list2.svg",
     "customAppTitle" : "Custom Application Development",
-    "customAppDetail" : "We create exceptionally secure, technically advanced, and feature-rich Android apps. Our apps are designed to best fit the modern Android operating system while delivering an exceptional user-experience to the users."
+    "customAppDetail" : "Our Android App Developer creates captivating UI designs and fascinating features. Our agile DevOps approach ensures a secure backend and timely delivery of high-quality results so that you can get quality service."
   },
   {
     "customAppNumber": "03",
     "customAppIcon" : "/assets/images/services/list3.svg",
     "customAppTitle" : "Android App Testing",
-    "customAppDetail" : "We create exceptionally secure, technically advanced, and feature-rich Android apps. Our apps are designed to best fit the modern Android operating system while delivering an exceptional user-experience to the users."
+    "customAppDetail" : "Get the best Android app testing services by DigiMark.  Our experts do automated and manual tests to ensure your Android app is free of loopholes and functional limitations before deploying it on the Google Play Store."
   },
   {
     "customAppNumber": "04",
     "customAppIcon" : "/assets/images/services/list4.svg",
     "customAppTitle" : "Android App Maintenance & Support",
-    "customAppDetail" : "We create exceptionally secure, technically advanced, and feature-rich Android apps. Our apps are designed to best fit the modern Android operating system while delivering an exceptional user-experience to the users."
+    "customAppDetail" : "At DigiMark, we offer reliable and effective post-deployment application support and maintenance services to help businesses achieve their desired results. Enhance your app performance with our skilled services."
   }
 ]

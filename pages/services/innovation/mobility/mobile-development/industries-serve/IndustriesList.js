@@ -54,7 +54,10 @@ export default function IndustriesList(props) {
                     data-aos-duration="1000"
                 >
                     <h2><span>industries</span> we serve</h2>
-                    <p>Being a mobile services provider, we have experts <br/>with experience in diverse industries, like:</p>
+                    <p>Being a mobile services provider, we've experts in <br />
+                    Various industries, are ready to help you succeed. <br />
+                    We serve:
+                    </p>
                 </div>
                 <div className={`mobile_industries_list ${style.mobile_industries_list}`}>
                     <ul className="list-none flex flex-wrap"

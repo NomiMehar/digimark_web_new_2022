@@ -14,7 +14,7 @@ export default function WhyMaintenance () {
             <div className={`section_title ${style.section_title}`} data-aos="flip-right"
                                         data-aos-duration="2000">
                 <h2>Why Mobile Application <span>Maintenance?</span></h2>
-                <p>In the modern times, many companies have made significant investment in mobile applications, and without proper maintenance such investment might be at risk. Mobile application maintenance may be needed due to many different reasons like</p>
+                <p>Our IT Maintenance and Support Services ensure that your app is not just functional but also delivers an excellent user experience with the help of the latest testing tools and methodologies to ensure a bug-free app to impress users.</p>
             </div>
             <div className={`flex items-center ${style.why_maintenance_wrap}`}>
                 <div className={`flex direction-column ${style.why_maintenance_content}`} data-aos="fade-right" data-aos-duration="2000">

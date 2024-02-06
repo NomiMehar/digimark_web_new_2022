@@ -28,9 +28,9 @@ export default function AboutUs () {
             <OurStory
                 title={[<span>Our Story</span>]}
                 text={[<p>In 2017, a Software Engineer and IT Business Consultant started DigiMark Developers Consulting Services to assist Small and Medium-sized businesses by implementing digital software systems. By leveraging the latest technology, our goal is to help these enterprises improve their management processes. We believe that every business has unique IT needs and we provide customized and innovative solutions, and services at affordable prices.</p>,
-                    <p>Our focus is on empowering the smallest companies with powerful systems to overcome any business challenge. We offer high-quality technology consulting, customized web solutions, individual software, and mobile app development. Our approach combines smart and relevant data with an agile methodology to tackle any client's complex challenges and accelerate the digital impact across any industry. Our team includes programming experts and marketing consultants, offering a unique combination of skills and abilities.
-                    <br />
-                    We're dedicated to our goal of building a better tomorrow for your business.
+                    <p>Our focus is on empowering the smallest companies with powerful systems to overcome any business challenge. We offer high-quality technology consulting, customized web solutions, individual software, and mobile app development. Our approach combines smart and relevant data with an agile methodology to tackle any client's complex challenges and accelerate the digital impact across any industry. Our team includes programming experts and marketing consultants, offering a unique combination of skills and abilities. 
+                        <br />
+                        We're dedicated to our goal of building a better tomorrow for your business.
                     </p>
                 ]}
             />

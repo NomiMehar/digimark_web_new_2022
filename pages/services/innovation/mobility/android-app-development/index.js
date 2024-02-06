@@ -20,11 +20,11 @@ import DevelopmentProcessList from "./development-process/DevelopmentProcessList
 export default function AndroidAppDevelopment () {
     return (
         <div className="android-app-development">
-            <MobilityBanner title="Android"/>
+            <MobilityBanner title="Android" para="Empowering businesses with custom Android apps that deliver exceptional user experiences and increase their presence"/>
             <div className="overview_bg_layer">
                 <Overview
                     overviewTitle="Android Mobile App Development"
-                    overviewDescription="Our experience has taught us one thing: user experience is the key component of any successful app. Our team uses native and hybrid technologies for iOS and Android to provide the best performance and experience. Mobile operation systems change rapidly, to help your product take advantage of new features and remain user-friendly, we offer long-term support and upgrade packages for all iOS and Android app designs."
+                    overviewDescription="DigiMark specializes in creating user-friendly and unparalleled Android Mobile Applications to meet your business needs. We have a team of experts who bring your ideas to life and provide Android App Development Agency services by enhancing user experience. Experience top-notch solutions that take your mobile presence to the next level and create value for your business. Partner with us now and get the best service."
                     overViewList={androidOverViewList}
                 />
                 <Benefits
@@ -34,12 +34,15 @@ export default function AndroidAppDevelopment () {
             </div>
             <CustomApp
                 customAppProcess={androidCustomAppProcess}
-                customAppDescription="Lorem ipsum dolor sit amet consectetur. Et feugiat pretium ultricies purus ut nunc a. Proin neque amet sed dolor. Non integer arcu sit imperdiet vitae id purus. Nunc leo est ornare donec. Convallis non praesent tristique habitant duis bibendum. In fermentum nibh ultrices pharetra."
+                customAppDescription="Wish to elevate your business? Don't worry, we have you covered with robust and innovative solutions that meet your requirements. Collaborate with our team of experts who deliver top-notch and customized Android and iOS App Development services that help you with results.
+                "
                 customAppTitle={["Top ", <span>Android App</span>, " Development Company That Build’s Custom Apps"]}
             />
             <WhyChoose
                 whyChooseList={androidWhyChooseList}
                 appName="Android"
+                para="Our developers ensure compatibility with modern technologies like wearable devices, tablets, & Android TVs. We transform and empower businesses with better customer engagement, marketing, and scaling."
+                ionicShow={true}
             />
             <Technologies/>
             <PerksOfWorking data={perksOfWorkingList} imageProp={true} appName="Android"/>

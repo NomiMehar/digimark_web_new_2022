@@ -6,8 +6,8 @@ import NftProcess from "./nft-process/NftProcess";
 import GetQuote from "../../../../../components/get-quote/GetQuote";
 import NftWhyChoose from "../nft-development/nft-why-choose/NftWhyChoose";
 import Faqs from "../../../innovation/mobility/android-app-development/faq/Faqs";
-// import OurWork from "../../../innovation/mobility/mobile-development/our-work/OurWork";
-// import WorkList from "../../../innovation/mobility/mobile-development/our-work/ourWorkLists.json";
+import OurWork from "../../../innovation/mobility/mobile-development/our-work/OurWork";
+import WorkList from "../../../innovation/mobility/mobile-development/our-work/OurWorkLists.json";
 export default function NftDevelopment() {
   return (
     <div className="ionic-app-dev">
@@ -43,7 +43,7 @@ export default function NftDevelopment() {
       />
       <NftTechStack />
       <NftProcess />
-      {/* <OurWork
+      <OurWork
         classes="nft_works"
         ourWorkList={WorkList}
         perView={1.5}
@@ -58,7 +58,7 @@ export default function NftDevelopment() {
             },
           },
         }}
-      /> */}
+      />
       <NftWhyChoose />
       <Faqs />
       <GetQuote />

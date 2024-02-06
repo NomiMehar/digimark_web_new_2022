@@ -20,27 +20,28 @@ import DevelopmentProcessList from "../android-app-development/development-proce
 export default function AndroidIosDevelopment () {
     return (
         <div className="android-app-development">
-            <MobilityBanner title="IOS"/>
+            <MobilityBanner title="IOS" para="By leveraging Custom iOS app development, we facilitate global enterprises to build mobile solutions based on their aspirations."/>
             <div className="overview_bg_layer">
                 <Overview
                     overviewTitle="iOS Mobile App Development"
-                    overviewDescription="Our experience has taught us one thing: user experience is the key component of any successful app. Our team uses native and hybrid technologies for iOS and Android to provide the best performance and experience. Mobile operation systems change rapidly, to help your product take advantage of new features and remain user-friendly, we offer long-term support and upgrade packages for all iOS and Android app designs."
+                    overviewDescription="Looking for the best Custom App Development Companies? Look no further, hire skilled IOS developers from DigiMark's talent pool to enjoy the best Custom IOS App Development Services. We help businesses to succeed in their journey of redefining the mobile experience and offer long-term support. Take your business to the next level in the digital age with our best iOS app development company in the USA."
                     overViewList={iosOverViewList}
                 />
                 <Benefits
                     benefitsList={iosBenefitsList}
-                    benefitsTitle={["Benefit from our extensive ", <span><small>.</small>Android app development<small>.</small></span>, " services no matter which ecosystem you choose."]}
+                    benefitsTitle={["Get help with your cost of ", <span><small>.</small>Mobile App Development services<small></small></span>, " no matter what ecosystem you're in."]}
                 />
             </div>
             <CustomApp
                 customAppProcess={iosCustomAppProcess}
                 customAppTitle={["Top ", <span>IOS App</span>, " Development Company That Build’s Custom Apps"]}
-                customAppDescription="Lorem ipsum dolor sit amet consectetur. Et feugiat pretium ultricies purus ut nunc a. Proin neque amet sed dolor. Non integer arcu sit imperdiet vitae id purus. Nunc leo est ornare donec. Convallis non praesent tristique habitant duis bibendum. In fermentum nibh ultrices pharetra."
-                classesProp="new_app"
+                customAppDescription="DigiMark is your one-stop solution for all of your IoS app development needs. We use the latest technologies in ioS app development to cater to a wide range of industries. We can easily adjust your application to fit your business and industry requirements"
             />
             <WhyChoose
                 whyChooseList={iosWhyChooseList}
                 appName="IOS"
+                ionicShow={true}
+                para="We are a top-notch Mobile App Development Company as our expertise spans various areas. Years of experience in outsourcing and passing technology can help customers optimize their businesses and operations."
             />
             <Technologies/>
             <PerksOfWorking
