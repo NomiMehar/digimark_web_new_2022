@@ -15,6 +15,7 @@ import smartOurWorkList from "../../../innovation/mobility/mobile-development/ou
 export default function SmartContract() {
   return (
     <div className="ionic-app-dev">
+      
       <MobilityBanner
         dynamicBanner={true}
         breadcrumParent="Next-Gen Tech"
