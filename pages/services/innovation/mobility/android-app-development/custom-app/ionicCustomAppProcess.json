@@ -1,0 +1,26 @@
+[
+  {
+    "customAppNumber": "01",
+    "customAppIcon" : "/assets/images/services/list1.svg",
+    "customAppTitle" : "Android App UX/UI Design",
+    "customAppDetail" : "We help businesses build product strategies, create wireframes, & craft captivating designs for Ionic application development. Get a chance to experience secure & progressive mobile app development ionic services."
+  },
+  {
+    "customAppNumber": "02",
+    "customAppIcon" : "/assets/images/services/list2.svg",
+    "customAppTitle" : "Custom Application Development",
+    "customAppDetail" : "We are a leading Ionic App Builder Company that assists in making the best and most engaging apps. Develop tailored applications that offer native and web experiences across multiple platforms using a single codebase."
+  },
+  {
+    "customAppNumber": "03",
+    "customAppIcon" : "/assets/images/services/list3.svg",
+    "customAppTitle" : "Android App Testing",
+    "customAppDetail" : "Our expert developers not only assist you in deploying the app but also ensure smooth functionality and usability for optimized results. DigiMark lets you enjoy hassle-free services along with the desired outcome."
+  },
+  {
+    "customAppNumber": "04",
+    "customAppIcon" : "/assets/images/services/list4.svg",
+    "customAppTitle" : "Android App Maintenance & Support",
+    "customAppDetail" : "DigiMark Developers' Android App help and maintenance service can help you in the best possible way. Our services cater to the changes and fix bugs promptly to ensure your application is always up and running."
+  }
+]

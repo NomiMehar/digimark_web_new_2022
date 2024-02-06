@@ -20,11 +20,11 @@ import DevelopmentProcessList from "../android-app-development/development-proce
 export default function ReactNativeDevelopment () {
     return (
         <div className="android-app-development">
-            <MobilityBanner title="React Native"/>
+            <MobilityBanner title="React Native" para="Maximize your business with our cost-effective React Native App Development Services that enable you to build mobile applications."/>
             <div className="overview_bg_layer overview_native_layer">
                 <Overview
                     overviewTitle="React Native Mobile App Development"
-                    overviewDescription="Our experience has taught us one thing: user experience is the key component of any successful app. Our team uses native and hybrid technologies for iOS and Android to provide the best performance and experience. Mobile operation systems change rapidly, to help your product take advantage of new features and remain user-friendly, we offer long-term support and upgrade packages for all iOS and Android app designs."
+                    overviewDescription="Experience the fast, interactive, and maintainable user interfaces for web or mobile application projects by getting React Native App Development Services. Our clients have consistently given us high ratings for delivering successful projects & we are proud to have won several industry awards, making us a trusted choice for React development services. Create cutting-edge applications to drive business growth."
                     overViewList={iosOverViewList}
                     classesProp="white-layout"
                 />
@@ -37,16 +37,19 @@ export default function ReactNativeDevelopment () {
             <CustomApp
                 customAppProcess={nativeCustomAppProcess}
                 customAppTitle={["Top ", <span>React Native Development</span>, " Company That Build’s Custom Apps"]}
-                customAppDescription="Lorem ipsum dolor sit amet consectetur. Et feugiat pretium ultricies purus ut nunc a. Proin neque amet sed dolor."
+                customAppDescription="Grab our skilled developers to have responsive & dynamic user interfaces for better user experience & business outcomes."
                 classProp="native_custom_app"
             />
             <WhyChoose
                 whyChooseList={iosWhyChooseList}
                 appName="React Native"
                 sliderVersion={true}
+                ionicShow={false}
+                metaverse={false}
+                para="Choose DigiMark the best React Native App Development Company for building apps that feel good to the end-user."
             />
             <NativeVersion/>
-            <PerksOfWorking imageProp={true} data={perksOfWorkingList} appName="React Native" classes="native_perks"/>
+            <PerksOfWorking imageProp={true} desc={true} para="Reasons why you should trust Digimark with your next web application project" data={perksOfWorkingList} appName="React Native" classes="native_perks"/>
             <DevelopmentProcess
                 appName={["Our ", <span>Proven Process,</span>, " Products Results"]}
                 DevelopmentProcessList={DevelopmentProcessList}

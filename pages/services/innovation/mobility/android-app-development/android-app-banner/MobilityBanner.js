@@ -35,20 +35,20 @@ export default function MobilityBanner(props) {
                             <div className={`flex direction-column ${style.service_banner_wrapper}`}>
                                 <ul className={`list-none flex items-center ${style.breadcrumbs}`}>
                                     <li><Image src={backArrow} alt={backArrow} width={32} height={29}/><span>Services</span></li>
-                                    <li><small>Android App Development</small></li>
+                                    <li><small>Mobility</small></li>
                                 </ul>
                                 <h1><strong>App</strong> Support & <br/><span>Maintenance</span></h1>
-                                <p>DigiMark provides result-orientated and efficient application support and maintenance solution for after deployment.</p>
+                                <p>DigiMark offers custom testing solutions for all digital products we've created to ensure the quality of the final product is at the highest level.</p>
                                 <Link href="pages/services/innovation/mobility/android-app-development/android-app-banner/MobilityBanner#" className={`banner_btn ${style.banner_btn}`}>Let’s Talk About Your App <Image src={whiteArrow} alt={whiteArrow} width={13} height={16} /></Link>
                             </div> :
                             <>
                                 <div className={`flex direction-column ${style.service_banner_wrapper}`}>
                                     <ul className={`list-none flex items-center ${style.breadcrumbs}`}>
                                         <li><Image src={backArrow} alt={backArrow} width={32} height={29}/><span>Services</span></li>
-                                        <li><small>Android App Development</small></li>
+                                        <li><small>Mobility</small></li>
                                     </ul>
                                     <h1><span><strong>{props.title}</strong> App</span><br/> Development</h1>
-                                    <p>Offer native-like experiences to your users in half development time and cost with our react native app development services.</p>
+                                    <p>{props.para}</p>
                                     <Link href="pages/services/innovation/mobility/android-app-development/android-app-banner/MobilityBanner#" className={`banner_btn ${style.banner_btn}`}>Let’s Talk About Your App <Image src={whiteArrow} alt={whiteArrow} width={13} height={16} /></Link>
                                 </div>
                                 <video className={style.app_banner_video} autoPlay loop muted>

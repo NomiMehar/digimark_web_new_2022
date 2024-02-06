@@ -21,7 +21,7 @@ export default function MobileApps() {
                     data-aos-duration="1000"
                 >
                     <h2>Top <span>Mobile App Development</span> Company That Build’s Custom Apps</h2>
-                    <p>Lorem ipsum dolor sit amet consectetur. Et feugiat pretium ultricies purus ut nunc a. Proin neque amet sed dolor.</p>
+                    <p>Providing disruptive and game-changing experiences to assist businesses in their digital transformation journey.</p>
                 </div>
                 <div className="flex direction-column">
                     <div

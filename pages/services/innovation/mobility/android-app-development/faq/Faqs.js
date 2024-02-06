@@ -14,35 +14,23 @@ export default function Faqs(props) {
         rows: [
             {
                 title: "Will we sign an NDA to keep my Android app idea confidential?",
-                content: `Lorem ipsum dolor sit amet consectetur. Ultricies sed in proin mauris id nulla tellus arcu non. In nulla maecenas porttitor integer eget id. Tempus pulvinar fermentum mus semper.`,
+                content: `Yes, we take confidentiality very seriously, and we are always willing to sign a non-disclosure agreement (NDA) to ensure your app idea remains confidential for your satisfaction.`,
             },
             {
                 title: "How much does Android app development cost?",
-                content: `Curabitur laoreet, mauris vel blandit fringilla, leo elit rhoncus nunc, ac sagittis leo elit vel lorem.
-                Fusce tempor lacus ut libero posuere viverra. Nunc velit dolor, tincidunt at varius vel, laoreet vel quam.
-                Sed dolor urna, lobortis in arcu auctor, tincidunt mattis ante. Vivamus venenatis ultricies nibh in volutpat.
-                Cras eu metus quis leo vestibulum feugiat nec sagittis lacus.Mauris vulputate arcu sed massa euismod dignissim. `,
+                content: `The cost of an Android app development service varies depending on the complexity of the app, its features, and the time required to develop it perfectly. We provide a customized quote for each project based on these factors. If you aspire to know more about our services or app-making, then it's the right time for you to reach out to us anytime and we would be happy to help you out in this regard. `,
             },
             {
                 title: "Do you provide maintenance support for Android apps?",
-                content: `Curabitur laoreet, mauris vel blandit fringilla, leo elit rhoncus nunc, ac sagittis leo elit vel lorem.
-                Fusce tempor lacus ut libero posuere viverra. Nunc velit dolor, tincidunt at varius vel, laoreet vel quam.
-                Sed dolor urna, lobortis in arcu auctor, tincidunt mattis ante. Vivamus venenatis ultricies nibh in volutpat.
-                Cras eu metus quis leo vestibulum feugiat nec sagittis lacus.Mauris vulputate arcu sed massa euismod dignissim. `,
+                content: `Yes, we do provide complete maintenance and support services for all Android apps. Our team of experts is always available to make sure that your app runs smoothly and efficiently without giving you any difficulty while using it. We offer various maintenance plans to fit your specific needs and budget. Wish to know the plans? Connect now with DigiMark Developers and have your app off the ground perfectly. `,
             },
             {
                 title: "Will you assist me in my app in the Google Play store?",
-                content: `Curabitur laoreet, mauris vel blandit fringilla, leo elit rhoncus nunc, ac sagittis leo elit vel lorem.
-                Fusce tempor lacus ut libero posuere viverra. Nunc velit dolor, tincidunt at varius vel, laoreet vel quam.
-                Sed dolor urna, lobortis in arcu auctor, tincidunt mattis ante. Vivamus venenatis ultricies nibh in volutpat.
-                Cras eu metus quis leo vestibulum feugiat nec sagittis lacus.Mauris vulputate arcu sed massa euismod dignissim. `,
+                content: `When choosing the best app development company, DigiMark Developers should be your choice because we will always offer support for app deployment on the Google Play store and can assist you throughout the process for smooth and effective results. Do share any concerns or issues you have and our support team would be more than happy to help you out. We ensure utter satisfaction and instant help for our customers. `,
             },
             {
                 title: "Will I get any post-launch support and maintenance services?",
-                content: `Curabitur laoreet, mauris vel blandit fringilla, leo elit rhoncus nunc, ac sagittis leo elit vel lorem.
-                Fusce tempor lacus ut libero posuere viverra. Nunc velit dolor, tincidunt at varius vel, laoreet vel quam.
-                Sed dolor urna, lobortis in arcu auctor, tincidunt mattis ante. Vivamus venenatis ultricies nibh in volutpat.
-                Cras eu metus quis leo vestibulum feugiat nec sagittis lacus.Mauris vulputate arcu sed massa euismod dignissim. `,
+                content: `Yes, we offer post-launch support and maintenance services to make sure that your app continues to function smoothly and stays up-to-date with the latest technology and security standards which are extremely important. We understand the importance of maintaining an app's performance for your business, so our team of experts will work with you to resolve any issues or bugs that may arise after the launch. `,
             }
         ],
     };

@@ -10,11 +10,12 @@ import SmartBenefits from "./smart-benefits/SmartBenefits";
 import CallToAction from "../../../../../components/call-to-action/CallToAction";
 import SmartIndustries from "./smart-industries/SmartIndustries";
 import DevProcesses from "./dev-processes/DevProcesses";
-// import OurWork from "../../../innovation/mobility/mobile-development/our-work/OurWork";
-// import smartOurWorkList from "../../../innovation/mobility/mobile-development/our-work/SmartourWorkList.json";
+import OurWork from "../../../innovation/mobility/mobile-development/our-work/OurWork";
+import smartOurWorkList from "../../../innovation/mobility/mobile-development/our-work/SmartOurWorkList.json";
 export default function SmartContract() {
   return (
     <div className="ionic-app-dev">
+      
       <MobilityBanner
         dynamicBanner={true}
         breadcrumParent="Next-Gen Tech"
@@ -38,7 +39,7 @@ export default function SmartContract() {
       <NftTechStack />
       <SmartIndustries/>
       <DevProcesses/>
-      {/* <OurWork
+      <OurWork
           smartClass="smart_contract"
           centeredSlides={false}
           classes="nft_works"
@@ -52,7 +53,7 @@ export default function SmartContract() {
               slidesPerView: 1,
             },
         }}
-      /> */}
+      />
       <NftWhyChoose classes="why_choose" />
       <Faqs />
       <GetQuote />

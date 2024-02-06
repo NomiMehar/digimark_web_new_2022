@@ -16,7 +16,7 @@ export default function MaintenanceServices () {
         <div className="container flex">
             <div className={`customs_app_title flex direction-column ${style.customs_app_title}`} data-aos="fade-right" data-aos-duration="1000">
                 <h2>App <span>Maintenance</span> Services</h2>
-                <p>We can help keep your app competitive and up-to-date, achieve consistent app performance and keep up with changing audience expectations using Tekrevol's extended mobile app solutions.</p>
+                <p>Keep your app relevant, high-performing, and meeting user expectations with DigiMark's comprehensive mobile app solutions. Stay ahead of the competition and achieve business success.</p>
                 <Link href="/" className={`contact_btn`}>schedule An App Expert Session <Image src={whiteArrow} alt={whiteArrow} width={13} height={16  } /></Link>
             </div>
             <div className={`${style.services_list}`}>

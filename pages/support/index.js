@@ -16,7 +16,7 @@ export default function Support () {
         <div className="overview_bg_layer overview_native_layer">
             <Overview
                 overviewTitle="Mobile App Supports & Maintenance"
-                overviewDescription="With the rise in the number of mobile apps and the corresponding escalation in the number of bugs and technology updates, mobile application maintenance becomes indispensable. We provide complete mobile app maintenance service for all type of mobile applications across multiple domains. With extensive technology skills, well define process and innovative approach our team can make your application efficient and successful to achieve your business goals."
+                overviewDescription="Has it become crucial to maintain mobile apps? Get the updated and bug-free mobile app for your business's success and make the performance better with DigiMark Developers. Being one of the best choices for Support and Maintenance Services, we stand out from others. Achieve business goals by getting technology skills, and an innovative approach from the experts."
                 overViewList={iosOverViewList}
                 classesProp="white-layout"
                 classes="support_overview"

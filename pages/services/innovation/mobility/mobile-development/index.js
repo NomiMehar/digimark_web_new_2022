@@ -10,18 +10,18 @@ import LetsTalk from "../../../../landingpage/LetsTalk/LetsTalk";
 import React from "react";
 import MobileApps from "./mobile-apps/MobileApps";
 import IndustriesList from "./industries-serve/IndustriesList";
-// import OurWork from "./our-work/OurWork";
+import OurWork from "./our-work/OurWork";
 import DevelopmentProcessList from "../android-app-development/development-process/DevelopmentProcessList.json";
-// import ourWorkList from "../../../innovation/mobility/mobile-development/our-work/ourWorkLists.json";
+import ourWorkList from "../../../../services/innovation/mobility/mobile-development/our-work/OurWorkLists.json";
 
 export default function MobileDevelopment () {
     return (
         <div className="android-app-development">
-            <MobilityBanner title="Mobile"/>
+            <MobilityBanner title="Mobile" para="We develop well-designed and bespoke custom mobile applications for both Android and iOS to increase your business growth and brand recognition."/>
             <div className="overview_bg_layer overview_native_layer">
                 <Overview
                     overviewTitle="Mobile App Development"
-                    overviewDescription="Mobile app development services refer to the creation of software applications that are designed to run on mobile devices, such as smartphones and tablets. The process of developing these apps generally involves creating a user interface and design, coding the logic of the app, testing the app, and then making it available for download through an App Store or Google Play."
+                    overviewDescription="A key component of any successful app is its user experience & our top tech developers build mobile apps that enable customers to seamlessly connect with your services and products straight from their Android or iOS devices. Our experts deliver the best technical solutions tailored to your needs. Get the best app development service that helps you with your business goals."
                     overViewList={iosOverViewList}
                     classesProp="white-layout"
                 />
@@ -30,6 +30,9 @@ export default function MobileDevelopment () {
             <WhyChoose
                 whyChooseList={mobileWhyChooseList}
                 mobileDev={true}
+                appName="Mobile App"
+                para="With over 7 years of experience, DigiMark offers end-to-end mobile app development services, utilizing the latest technologies & frameworks to deliver user-friendly, and secure solutions tailored to your business."
+                metaverse={true}
                 classesProp="mobile_app_wrap"
             />
             <DevelopmentProcess
@@ -40,8 +43,9 @@ export default function MobileDevelopment () {
             <WhyChoose
                 whyChooseList={solutionWhyChooseList}
                 appName="Mobile"
+               
             />
-            {/* <OurWork
+            <OurWork
                 ourWorkList={ourWorkList}
                 centeredSlides={true}
         perView={2.65}
@@ -55,7 +59,7 @@ export default function MobileDevelopment () {
                 slidesPerView: 1,
               },
             },
-          }}/> */}
+          }}/>
             <Faqs/>
             <LetsTalk />
         </div>

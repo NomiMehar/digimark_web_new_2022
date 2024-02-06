@@ -13,7 +13,7 @@ export default function PerksOfWorking(props) {
         <div className="container">
             <div className={`section_title flex direction-column ${style.section_title}`}  data-aos="fade-up" data-aos-duration="1000">
                 {props.workingBenfits ? <h2>The <span>{props.appName} </span> Of Working With Us</h2> : <h2>Perks of Working with Professional <span>{props.appName} App Development</span> Agency</h2>}
-                <p>Unlock Your Business's Full Potential with Our Expertise in Custom Software Solutions</p>
+                {props.desc ? <p>{props.para}</p> : "Reasons why you should trust Digimark with your next web application project"}
             </div>
             <div className={`flex ${style.section_title_wrap}`}  data-aos="fade-up" data-aos-duration="1000">
                 {props.newTitle}

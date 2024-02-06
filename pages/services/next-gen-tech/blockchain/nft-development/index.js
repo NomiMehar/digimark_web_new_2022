@@ -2,7 +2,8 @@ import MobilityBanner from "../../../innovation/mobility/android-app-development
 import NftServices from "./nft-services/NftServices";
 import NftTechStack from "./nft-tech-stack/NftTechStack";
 import NftProcess from "./nft-process/NftProcess";
-// import OurWork from "../../../innovation/mobility/mobile-development/our-work/OurWork";
+import OurWork from "../../../innovation/mobility/mobile-development/our-work/OurWork";
+import ourWorkList from "../../../innovation/mobility/mobile-development/our-work/OurWorkLists.json";
 import GetQuote from "../../../../../components/get-quote/GetQuote";
 import Faqs from "../../../innovation/mobility/android-app-development/faq/Faqs";
 import NftWhyChoose from "./nft-why-choose/NftWhyChoose";
@@ -21,7 +22,8 @@ export default function NftDevelopment() {
             <NftServices/>
             <NftTechStack/>
             <NftProcess/>
-            {/* <OurWork
+            <OurWork
+             ourWorkList={ourWorkList}
              classes="nft_works"  perView={2.65}
         breakpoints={{
           1200: {
@@ -33,7 +35,7 @@ export default function NftDevelopment() {
               slidesPerView: 1,
             },
           },
-        }}/> */}
+        }}/>
             <NftWhyChoose/>
             <Faqs/>
             <GetQuote/>
