@@ -10,9 +10,9 @@ import ServeEsd from "./serve-esd/ServeEsd";
 import CallToQualityAssurance from "../quality-assurance/callto-quality-assurance/CallToQualityAssurance";
 import LeadingEnterprises from "../web-development/leading-enterprises/LeadingEnterprises";
 import bannerSideImage from "../../../../../public/assets/images/services/enterprice_banner_bg.png"
-import EnterpriseServices from "./enterprise-services/EnterpriseServices";
+// import EnterpriseServices from "./enterprise-services/EnterpriseServices";
 import EnterpriseTool from "./enterprise-tools/EnterpriseTool";
-import serviceList from "./enterprise-services/enterpriseServicesList.json"
+// import serviceList from "./enterprise-services/enterpriseServicesList.json"
 export default function index() {
   return (
   <>

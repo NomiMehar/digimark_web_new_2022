@@ -3,18 +3,18 @@ import GetQuote from '../../../../../components/get-quote/GetQuote'
 import MobilityBanner from '../../../innovation/mobility/android-app-development/android-app-banner/MobilityBanner'
 import Faqs from '../../../innovation/mobility/android-app-development/faq/Faqs'
 import bannerSideImage from "../../../../../public/assets/images/services/ai-game.png"
-import aiReliable from "../../../../../public/assets/images/services/ai_reliable.png"
-import EnterpriseServices
-    from "../../../innovation/digital-transformation/enterprise-software-development/enterprise-services/EnterpriseServices";
+// import aiReliable from "../../../../../public/assets/images/services/ai_reliable.png"
+// import EnterpriseServices
+//     from "../../../innovation/digital-transformation/enterprise-software-development/enterprise-services/EnterpriseServices";
 import ReliablePcGame from '../pc-game-development/reliable-pc-game/ReliablePcGame'
 import ProjectNFTGame from '../nft-game-development/project-nft-game/ProjectNFTGame'
-import GameProcess from '../mobile-game-development/game-process/GameProcess'
-import UnityWorkBox from '../unity-game-development/unity-work-box/UnityWorkBox'
+// import GameProcess from '../mobile-game-development/game-process/GameProcess'
+// import UnityWorkBox from '../unity-game-development/unity-work-box/UnityWorkBox'
 import IndustriesWeServe from '../../../innovation/digital-transformation/web-development/industries-we-serve/IndustriesWeServe'
 import QuickFacts from './QuickFacts/QuickFacts'
-import aiServiceList from '../../../innovation/digital-transformation/enterprise-software-development/enterprise-services/aiServicesList.json'
-import aiProcessList from '../mobile-game-development/game-process/gameProcessList.json'
-import aiWorkBoxList from '../unity-game-development/unity-work-box/aiWorkBoxList.json'
+// import aiServiceList from '../../../innovation/digital-transformation/enterprise-software-development/enterprise-services/aiServicesList.json'
+// import aiProcessList from '../mobile-game-development/game-process/gameProcessList.json'
+// import aiWorkBoxList from '../unity-game-development/unity-work-box/aiWorkBoxList.json'
 export default function index() {
     return (
         <>
