@@ -32,3 +32,15 @@
 //         </>
 //     )
 // }
+
+import React from 'react'
+
+function SoftwareProductsProcess() {
+  return (
+    <div>
+      
+    </div>
+  )
+}
+
+export default SoftwareProductsProcess
