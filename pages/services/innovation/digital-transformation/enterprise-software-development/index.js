@@ -39,11 +39,11 @@ export default function index() {
         extraClass="enterprise_bg"
     />
     <BenefitsEsd/>
-    <EnterpriseServices title={[
+    <EnterpriseServices etitle={[
         "What we do in", <br/>,
         <span>Enterprise Application Development</span>
        ]}
-       description="Maximize operational efficiency with cutting-edge enterprise software development"
+       edescription="Maximize operational efficiency with cutting-edge enterprise software development"
        enterpriseServicesList={serviceList}
        />
     <EnterpriseTool/>

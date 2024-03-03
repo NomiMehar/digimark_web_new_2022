@@ -5,8 +5,8 @@ export default function EnterpriseServices(props) {
         <div className={` ${style[props.extraClass]} ${style.enterprise_services_wrap}`}>
             <div className="container">
                 <div className={`flex ${style.section_title_wrap}`}  data-aos="fade-up" data-aos-duration="1000">
-                    <h2>{props.title}</h2>
-                    <p>{props.description}</p>
+                    <h2>{props.etitle}</h2>
+                    <p>{props.edescription}</p>
                 </div>
                 <div className={style.enterprise_services}>
                     <ul className="list-none flex flex-wrap">

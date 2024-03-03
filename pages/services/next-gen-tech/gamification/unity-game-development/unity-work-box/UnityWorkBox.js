@@ -7,7 +7,7 @@ export default function UnityWorkBox(props) {
             <div className={` ${style[props.extraClass]} ${style.unity_work_box}`}>
                 <div className="container">
                     <div className={`section_title white ${style.section_title}`}>
-                        <h2>{props.title}</h2>
+                        <h2>{props.utitle}</h2>
                     </div>
                     <div className={style.unity_work_text}>
                         <ul className="list-none flex flex-wrap">

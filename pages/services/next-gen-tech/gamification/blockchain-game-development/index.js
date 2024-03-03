@@ -53,7 +53,7 @@ export default function index() {
     description="Below are the technologies that are used by our game development company."  />
     <UnityRecentProject/>
     <SoftwareProductsProcess
-    title={["How we develop ", <br/> ,<span>Software Products</span>]}
+    stitle={["How we develop ", <br/> ,<span>Software Products</span>]}
     softwareProductsProcessList={blockchainProductLists}
     extraClass="blockchain_develop" />
     <SaasPartners/>
