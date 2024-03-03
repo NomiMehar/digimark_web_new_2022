@@ -7,7 +7,7 @@ export default function SoftwareProductsProcess(props) {
             <div className={` ${style[props.extraClass]} ${style.software_products_process}`}>
                 <div className="container">
                     <div className={`section_title ${style.section_title}`}>
-                        <h2>{props.stitle}</h2>
+                        <h2>How we develop Software Products</h2>
                     </div>
                     <div className={`flex direction-column ${style.software_products_list}`}>
                         <ul className="list-none">

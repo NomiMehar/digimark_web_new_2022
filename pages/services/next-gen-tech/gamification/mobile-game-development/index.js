@@ -52,8 +52,8 @@ export default function index() {
        <GameTechnologies/>
        <GameProcess 
        gdescription="You are just simple four steps away to kick start your dream project with us"
-       gtitle={[
-           <span>Process of</span>, " Mobile", <br/>, "Game Development"
+          gtitle={[
+            <h2><span>Process of</span> Mobile <br /> Game Development</h2>
           ]}
           gameProcessList={gamesProcessList}
        />

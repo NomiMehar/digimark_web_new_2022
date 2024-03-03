@@ -40,9 +40,8 @@ export default function index() {
                 <EnterpriseServices
                     extraClass="ai_services"
                     edescription="Maximize operational efficiency with cutting-edge enterprise software development"
-                    etitle={[
-                        "Benefits of Using", <br/>,
-                        <span>AI in Game Development</span>
+                       etitle={[
+                        <h2>Benefits of Using <span>AI in Game Development</span></h2>
                        ]}
                        enterpriseServicesList={aiServiceList}
                 />
@@ -76,15 +75,14 @@ export default function index() {
                 />
                 <GameProcess 
                 gdescription="Know about our workflow and processes for a better understanding of our work and team."
-                gtitle={[
-                    <span>Process of</span>, " AI", <br/>, "Game Development"
+                   gtitle={[
+                    <h2><span>Process of</span> AI <br /> Game Development</h2>
                    ]}
                    gameProcessList={aiProcessList}
                 extraClass="ai_services" />
                 <UnityWorkBox
-                utitle={[
-                    "Why Digi ",<span>Mark</span>, " Developers.",
-                      <span>The Best Unity Game Development Company</span>,"?"
+                   utitle={[
+                    <h2>Why Digi <span>Mark</span> Developers <span>The Best Ai Game Development Company?</span></h2>
                    ]}
                    unityWorkBoxList={aiWorkBoxList}
                 extraClass="ai_unity" />
