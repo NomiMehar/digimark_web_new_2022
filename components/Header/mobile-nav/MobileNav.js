@@ -1,5 +1,5 @@
 import Link from "next/link";
-import {Menu, MenuItem, ProSidebarProvider, Sidebar, SubMenu} from "react-pro-sidebar";
+import {Menu, MenuItem, Sidebar, SubMenu} from "react-pro-sidebar";
 import {useState} from "react";
 import style from "../Header.module.scss";
 import {useRouter} from "next/router";
@@ -44,7 +44,6 @@ export default function MobileNav() {
                   setsidebar(true);
               }}
           >
-            <ProSidebarProvider>
           <Sidebar
               className="d-xl-none"
               collapsed={sidebar}
@@ -172,7 +171,6 @@ export default function MobileNav() {
                   </Link>
               </div>
           </Sidebar>
-      </ProSidebarProvider>
           </OutsideClickHandler>
       </>
   );

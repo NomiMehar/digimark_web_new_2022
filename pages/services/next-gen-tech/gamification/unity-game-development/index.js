@@ -56,12 +56,12 @@ export default function index() {
        <UnityGameStack/>
        <UnityWork/>
        <UnityRecentProject/>
-       <UnityWorkBox title={[
-                    "Why Digi ",<span>Mark</span>, " Developers.",
-                      <span>The Best Unity Game Development Company</span>,"?"
-                   ]}
-                   unityWorkBoxList={unityWorkBoxLists}
-                   />
+       <UnityWorkBox 
+       utitle={["Why Digi ",<span>Mark</span>, " Developers.",
+        <span>The Best Unity Game Development Company</span>,"?"
+        ]}
+    unityWorkBoxList={unityWorkBoxLists}
+     />
     <Faqs/>
     <GetQuote/>
     </div>

@@ -38,7 +38,7 @@ export default function index() {
         <ProductDelegate/>
         <ProTechnologies/>
         <SoftwareProductsProcess
-        title={["How we develop " , <br/> ,<span>Software Products</span>]}
+        stitle={["How we develop " , <br/> ,<span>Software Products</span>]}
         softwareProductsProcessList={softwareProductsProcessLists}
         />
         <PortfolioProducts/>
