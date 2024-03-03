@@ -31,3 +31,15 @@
 //     </div>
 //   )
 // }
+
+import React from 'react'
+
+function GameProcess() {
+  return (
+    <div>
+      
+    </div>
+  )
+}
+
+export default GameProcess
