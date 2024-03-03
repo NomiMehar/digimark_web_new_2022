@@ -35,7 +35,7 @@ export default function index() {
             dynamicCTA={true}
             ctaText="Request a quote"
         bannerTextWrap={[
-            <p>Our team offers <span>bespoke end-to-end PC game development</span> outsourcing services. We gathered game industry veterans to create top-notch titles for desktop devices, consoles and wearables.</p>,
+            <p>DigiMark Developers provides <span>PC Game Development</span> solutions and focuses on technology completely to drive business growth. We ensure to deliver <span>measurable</span> results.</p>,
         ]}
     />
        <div className="gray-bg">
@@ -48,7 +48,7 @@ export default function index() {
            sectionTitle={[<h2><span>PC Games Development</span><br/>Services We provide</h2>]}
        />
        <TechnologiesPcGame/>
-       <ReliablePcGame imgSrc="/assets/images/services/reliable_img.png" />
+       <ReliablePcGame description="Turn your gaming dream into reality with the help of the Game Design PC services of our experts Let’s create magic together" imgSrc="/assets/images/services/reliable_img.png" />
        <ProcessPcGame/>
        <CreativePcGame/>
        <ServicesCompany

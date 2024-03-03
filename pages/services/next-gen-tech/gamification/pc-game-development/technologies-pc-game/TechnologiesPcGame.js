@@ -11,7 +11,7 @@ export default function TechnologiesPcGame(props) {
                 <div className="container">
                     <div className={`section_title flex items-start justify-between ${style.section_title}`}>
                         <h2><span>Technologies</span> We are <br/>Specialized in</h2>
-                        <p>We know that it can be challenging to please adepts of different game genres: however, ‘challenging’ doesn’t mean ‘impossible’ to us. Pingle Studio’s team has been specializing in game development for desktop for years and can offer modern creative solutions along with cutting-edge technologies designed to make your future game truly outstanding.</p>
+                        <p>Are you ready to transform your gaming world? At DigiMark Developers, we ensure the complete satisfaction of the customers. Our skilled team doesn’t just offer solutions, but they also provide advanced gaming that sets you apart from competitors. Collaborate with us now as we are all set to lead the way and make your experience extraordinary.</p>
                     </div>
                     <div className={`flex ${style.tech_pc_tabs_wrap}`}>
                         <div className={style.tech_pc_tabs}>

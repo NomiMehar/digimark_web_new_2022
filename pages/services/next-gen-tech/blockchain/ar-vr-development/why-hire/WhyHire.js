@@ -12,8 +12,8 @@ export default function WhyHire(props) {
                 <h2 data-aos="fade-up" data-aos-duration="2000">Why <span>Hire DigiMark Developers</span> as Your <br/>AR/VR & MR Company?</h2>
                 <div className="flex">
                     <div className={style.left_section} data-aos="fade-left" data-aos-duration="2000">
-                        <p>DigiMark Developers has experience in developing technically complex VR/AR & MR solutions from scratch, our specialists have a proven record in providing analytics and designing architecture. We dispatch highly immersive and innovative applications that extend reality. We strive to adhere to SOLID principles, make applications flexible and consisting of independent modules, divide applications into states and use the Finite State Machines model.</p>
-                        <p>“The rapid development of immersive technologies (AR/VR) makes it possible to constantly improve the user experience in ecosystems and applications that can potentially become part of the Metaverse. AR and VR are the defining and inspiring technologies in the implementation of the Metaverse concept, which until recently was perceived as science fiction.”</p>
+                        <p>DigiMark Developers has experience in developing technically complex VR/AR & MR solutions. Our experts have a proven record in providing analytics & designing architecture. We strive to adhere to SOLID principles, make applications flexible and consist of independent modules, divide applications into states, and use the Finite State Machines model.</p>
+                        <p>“The rapid development of technologies (AR/VR) makes it possible to improve the user experience in ecosystems and applications that can potentially become part of the Metaverse. AR and VR are inspiring technologies in the implementation of the Metaverse concept, which until recently was perceived as science fiction.”</p>
                     </div>
                     <div className={style.right_section} data-aos="fade-right" data-aos-duration="2000">
                         <ul className={`list-none ${style.list_wrap}`}>

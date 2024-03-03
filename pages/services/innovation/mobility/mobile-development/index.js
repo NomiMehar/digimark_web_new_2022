@@ -59,7 +59,9 @@ export default function MobileDevelopment () {
                 slidesPerView: 1,
               },
             },
-          }}/>
+          }}
+          description="We provide the best Mobile Development Services by bringing innovation & providing a comprehensive portfolio of services tailored to your needs."
+          />
             <Faqs/>
             <LetsTalk />
         </div>

@@ -6,27 +6,27 @@ export default function ViableProduct() {
             <div className="container">
                 <div className={`${style.section_title} section_title`}>
                     <h2>Why build a Minimum Viable Product?</h2>
-                    <p>MVP (Minimum Viable Product) is the best approach for new product development, allowing you to test a hypothesis fast with no significant investment. MVP in software means a product with just enough features to satisfy early users. Therefore, you can quickly build your core product and launch it, substantially reducing time-to-market.</p>
+                    <p>In a Software App Development Company, an MVP is a product with the essential features required to satisfy early users. As a result, the core product can be rapidly developed and launched, significantly reducing the time-to-market. Early idea validation to limit unnecessary spending and employee effort which is amazing.</p>
                 </div>
                 <div className={style.viable_product}>
                     <ul className="list-none">
                         <li>
-                            <p><span>Early idea validation</span> to limit unnecessary spending and <br/>employee effort</p>
+                            <p><span>Validate assumptions</span> with real users</p>
                         </li>
                         <li>
-                            <p>In case of failed idea feasibility test, <span>the budget can be <br/>saved for another project</span></p>
+                            <p>Test product feasibility with <span> minimal investment</span></p>
                         </li>
                         <li>
-                            <p>Focus on top-priority features  <span>shorten the product's <br/>time-to-market</span></p>
+                            <p><span>Refine product</span> to better meet customer needs</p>
                         </li>
                         <li>
-                            <p><span>Seamless improvement</span> of MVP allows faster adoption of <br/> users' requirements and needs</p>
+                            <p><span>Reduce</span> time-to-market</p>
                         </li>
                         <li>
-                            <p>In case of failed idea feasibility test, <span>the budget can be <br/> saved for another project</span></p>
+                            <p>Identify <span>potential problems</span> early</p>
                         </li>
                         <li>
-                            <p><span>Early idea validation</span> to limit unnecessary spending and <br/> employee effort</p>
+                            <p><span>Attract investors</span> with a proven concept</p>
                         </li>
                     </ul>
                 </div>

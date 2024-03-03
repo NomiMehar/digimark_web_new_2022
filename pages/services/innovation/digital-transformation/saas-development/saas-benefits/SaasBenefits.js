@@ -12,7 +12,7 @@ export default function SaasBenefits() {
             <div className="container">
                 <div className="section_title">
                     <h2><span>SaaS Benefits</span></h2>
-                    <p>Software-as-a-Service (SaaS) has affected on-premise solutions. It is seen as a vital element of digital transformation.</p>
+                    <p>SAAS has numerous benefits for users & software providers. Enhance your SAAS & build a secure, high-performing SAAS Solution.</p>
                 </div>
                 <div className={style.sass_benefits_tabs}>
                     <ul className="list-none flex justify-between">

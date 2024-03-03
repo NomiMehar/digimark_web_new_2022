@@ -13,7 +13,7 @@ export default function AboutNFTGame() {
                     <Image src={aboutImage} alt="img"/>
                     <section>
                         <h2><span>NFT</span> Game Development</h2>
-                        <p>Gamesdapp exclusive NFT Game Development Company provides NFT Gaming Development Solutions and Services that help you to launch an NFT Gaming Platform involving a customized blockchain network. We provide the agile development process in the NFT Gaming Platform Development that invites millions of players to invest in collectibles, art, and other virtual goods. For an entrepreneur, who wants to build an NFT gaming platform at an affordable cost, We offer a 100 % White label NFT Gaming Solution that can earn in-game rewards and purchase and sell additional gaming aids.</p>
+                        <p>There has been an immense demand for NFT Game Development Services as many people are always looking for something exciting. DigiMark Developers would be your best choice as it’s one of the leading NFT game development companies and developing a reliable and protected NFT-based gaming place along with breakthrough tools and technologies. DigiMark Developers go through the complete market research for a perfect gaming strategy. Partner with us now and get the best development experience.</p>
                         <Link href="#" className={`contact_btn ${style.contact_btn}`}>Get a quote now <Image src={whiteArrow} alt={whiteArrow} width={13} height={16} /></Link>
                     </section>
                 </div>

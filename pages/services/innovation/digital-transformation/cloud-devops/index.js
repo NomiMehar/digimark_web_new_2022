@@ -26,7 +26,7 @@ export default function index() {
             </span>,  <br/> ," Services"
         ]}
         bannerTextWrap={[
-            <p>Bring the power of the <span>“cloud”</span> to your organizations, <span>shaping innovation</span> by providing you with the expertise, resources, and strategic insight to transform your business.</p>,
+            <p><span>DigiMark Developers</span> provides optimized architecture, streamlines operations, and alleviates downtime & cost with <span>DevOps</span> best practices and advanced cloud technologies.</p>,
         ]}
     />
     <LeadingEnterprises

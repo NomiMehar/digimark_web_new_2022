@@ -8,21 +8,21 @@ export default function MvpChoose() {
             <div className="container">
                 <div className="section_title white">
                     <h2>Why <span>Choose Us</span></h2>
-                    <p>By using a high-value, customer-centric approach, we share your vision of expanding your business.</p>
+                    <p>At our core, we aim to skyrocket your business growth with our top-notch customer-focused approach!</p>
                 </div>
                 <div className={style.mvp_choose}>
                     <section>
                         <ul className="list-none">
                             <li>
                                 <section>
-                                    <h3>Transparency</h3>
-                                    <p>We offer transparency for our services from start to finish.</p>
+                                    <h3>User-Centric Approach</h3>
+                                    <p>Ensuring continuous user testing, & adding feedback guarantees product alignment</p>
                                 </section>
                             </li>
                             <li>
                                 <section>
-                                    <h3>Technology</h3>
-                                    <p>Our developers have vast and valid experience across various industries and in-depth expertise with all technologies.</p>
+                                    <h3>Agile Development</h3>
+                                    <p>We follow agile methodology for persistent iterations & adjustments.</p>
                                 </section>
                             </li>
                         </ul>
@@ -32,14 +32,14 @@ export default function MvpChoose() {
                         <ul className="list-none">
                             <li>
                                 <section>
-                                    <h3>Pricing</h3>
-                                    <p>We offer best-in-class development services at a reasonable cost.</p>
+                                    <h3>Interdisciplinary Experience</h3>
+                                    <p>Having worked on projects ranging through FinTech, LegalTech, IoT, and MedTech allows us to quickly adapt to new projects.</p>
                                 </section>
                             </li>
                             <li>
                                 <section>
-                                    <h3>Our Process</h3>
-                                    <p>We utilize a streamlined development process focusing on your business goals to deliver an amazing end-user experience.</p>
+                                    <h3>Business Thinking</h3>
+                                    <p>Make us a startup partner and let us help you view your product from a business perspective.</p>
                                 </section>
                             </li>
                         </ul>

@@ -15,13 +15,13 @@ export default function ShopSolutions() {
                                         data-aos-duration="2000">
                     <h2>Blockchain Application <br/>
                         Development On <span>shop-Solutions</span></h2>
-                    <p>We are a renowned blockchain development company with extensive knowledge and expertise in building and managing decentralized solutions.</p>
+                    <p>Being one of the best Blockchain Software Development Companies, we have the expertise to create and manage advanced decentralized solutions.</p>
                 </div>
                 <div className={`flex items-center ${style.shop_solutions_content}`}>
                     <section data-aos="fade-left"
                                         data-aos-duration="2000">
-                        <p>We are one of the best <span>blockchain development companies</span> holding a team of dedicated full-stack developers and designers with years of experience developing enterprise-grade software solutions for clients worldwide.</p>
-                        <p>We design and craft <span>custom blockchain solutions</span> using <span>EVM, Substrate, Cosmos, Solidity, or Hyperledger</span>. Developing business logic for running blockchain nodes, our specialists understand how to build a decentralized platform for <span>bridges, NFTs, metaverse, DEX, dApps, and tokens</span>. Our chief principles adhere to the best quality, and we have offered various blockchain-based solutions to many businesses globally in different countries.</p>
+                        <p>At DigiMark, we're all about developing the <span>Best Blockchain App</span> solutions for businesses worldwide. With years of experience, our team of <span>full-stack developers</span> and <span>designers</span> are experts in EVM, Substrate, Cosmos, Solidity, and Hyperledger.</p>
+                        <p>We personalize solutions for <span>individual clients,</span> upholding impeccable quality standards in every aspect of our work. We are proud to achieve exceptional outcomes that drive global business success across the world. If you're ready to see your <span>blockchain dreams</span> come true, we're here to make it a reality.</p>
                     </section>
                     <Image data-aos="fade-right"
                                         data-aos-duration="2000" src={shopImage} alt="shopImage"/>

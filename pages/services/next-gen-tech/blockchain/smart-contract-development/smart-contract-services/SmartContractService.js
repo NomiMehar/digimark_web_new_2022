@@ -12,7 +12,7 @@ export default function SmartContractService(props) {
         <div className="container">
             <div className={`section_title flex direction-column ${style.section_title}`}  data-aos="fade-up" data-aos-duration="1000">
                 <h2><span>{props.appName}</span> Services</h2>
-                <p>DigiMark is an experienced team of blockchain developers who build protocols, dApps and provide services for the development of smart contracts.</p>
+                <p>We help enterprises achieve business automation by providing them with advanced Smart Contract developer and development services.</p>
             </div>
             <div className={`flex items-center ${style.perks_rules}`} data-aos="fade-right" data-aos-duration="1000">
                 <div className={`${style.perks_services}`}>

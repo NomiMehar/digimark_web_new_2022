@@ -10,7 +10,7 @@ export default function ProcessPcGame(props) {
                     <div className={`section_title ${style.section_title}`}>
                         <h2><span>Process</span> of PC <br/>
                             Game Development</h2>
-                        <p>You are just simple four steps away to kick start your dream project with us:</p>
+                        <p>With DigiMark Developers, you are just some steps away from making your dream project happen</p>
                     </div>
                     <ul className="list-none flex flex-wrap">
                         {

@@ -25,7 +25,7 @@ export default function CloudPlatforms() {
             <div className="container">
                 <div className={style.section_title}>
                     <h2><span>Cloud</span> & <span>DevOps</span> Tools & Platforms we use</h2>
-                    <p>The key to success for a successful DevOps transformation is to measure your systems and digital business impact.</p>
+                    <p>We use the best cloud & DevOps technology platforms & tools to help our clients achieve faster and more robust solutions.</p>
                 </div>
                 <div className={`platforms_cloud ${style.platforms_cloud}`}>
                     <Accordion allowZeroExpanded>

@@ -10,7 +10,7 @@ export default function ServeEsd(props) {
                 <div className={style.blockchain_serve}>
                   <div className={`section_title ${style.section_title}`}>
                       <h2>Industries We <span> Serve</span></h2>
-                      <p>We cater to a wide range of industries by leveraging our wide domain expertise. Thus, helping us to deliver perfect solutions that match specific business requirements.</p>
+                      <p>{props.description}</p>
                   </div>
                   <ul className="list-none flex">
                       {

@@ -11,44 +11,44 @@ export default function DevProcess(props) {
             <div className="container relative">
                 <div className={`section_title ${style.process_title}`} data-aos="fade-right" data-aos-duration="2000">
                     <h2>Our AR/VR <small>&</small> MR Development Process</h2>
-                    <p>Here is the sequential work process on how our peeps make themselves involve in your cryptocurrency exchange development.</p>
+                    <p>Our AR/VR Development Services are collaborative and our product development approach focuses on quality & creating world-class AR/VR products for our clients.</p>
                 </div>
                 <div className={style.dev_process_list}>
                     <ul className="list-none flex flex-wrap">
                         <li className="w-100" data-aos="fade-left" data-aos-duration="2000">
                             <section>
                                 <h3>App Ideation</h3>
-                                <p>An idea is what it takes to start the journey towards to successful App.</p>
+                                <p>A phase where creativity runs wild as we explore and hatch innovative ideas for AR/VR & MR applications.</p>
                             </section>
                         </li>
                         <li className="w-100" data-aos="fade-right" data-aos-duration="2000">
                             <section>
                                 <h3>Conceptualization</h3>
-                                <p>Once we have an idea about what we are going to deal with, we conceptualize the App, its features, add vertical & horizontal additions to the idea.</p>
+                                <p>Upon acquiring a clear understanding of the task at hand, we proceed to conceive the application and its features to bring it into reality.</p>
                             </section>
                         </li>
                         <li data-aos="fade-left" data-aos-duration="2000">
                             <section>
                                 <h3>Documentation</h3>
-                                <p>AR / VR Document contains the execution plan and details about the App being developed.</p>
+                                <p>The AR/VR document outlines the implementation strategy and provides information on the app under development.</p>
                             </section>
                         </li>
                         <li data-aos="fade-right" data-aos-duration="2000">
                             <section>
                                 <h3>App Design</h3>
-                                <p>All the graphical 2D or 3D work is kick started to prepare assets as per the requirements.</p>
+                                <p>Our award-winning design team will build out your flow and design assets.</p>
                             </section>
                         </li>
                         <li data-aos="fade-left" data-aos-duration="2000">
                             <section>
                                 <h3>AR / VR & MR Development</h3>
-                                <p>AR / VR App development & integration <br/>as per Scope.</p>
+                                <p>We work in two-week sprints, so you’re always up to speed with the status.</p>
                             </section>
                         </li>
                         <li data-aos="fade-right" data-aos-duration="2000">
                             <section>
                                 <h3>Deployment</h3>
-                                <p>Final submission to the App Store & Play Store.</p>
+                                <p>Access our team for iterative changes for two weeks after launch.</p>
                             </section>
                         </li>
                     </ul>

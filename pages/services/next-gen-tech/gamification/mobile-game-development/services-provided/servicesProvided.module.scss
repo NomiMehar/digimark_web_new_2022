@@ -445,6 +445,7 @@
             color: #FFFFFF;
             font-size: 28px;
             white-space: pre-line;
+            text-transform: capitalize;
             @media (max-width: $breakpoint_laptop) {
               font-size: 22px;
             }

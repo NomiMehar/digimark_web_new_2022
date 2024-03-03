@@ -30,14 +30,14 @@ export default function index() {
         dynamicCTA={true}
         ctaText="Request a quote"
         bannerTextWrap={[
-            <p>We’re an industry leader in <span>mobile game development</span> with an established track record for delivering immersive  and captivating Mobile games for some of the largest and most cutting-edge businesses across the world</p>,
+            <p>We are the best <span>Unreal Engine Game Dev</span> Company that meets customer needs by making tailor-made solutions. Develop games with <span>astonishing graphics</span> and add value to your business with the help of our skilled developers.</p>,
         ]}
     />
        <AboutUnrealGame/>
        <ServicesProvided
            classes="unreal_game_services"
            servicesProvidedList={servicesProvidedList}
-           sectionTitle={[<h2>Our <span>Next-Gen Unreal Engine</span> <br/> Solutions in Gaming</h2>]}
+           sectionTitle={[<h2>Our <span>Unreal Game</span> <br/> Development Services</h2>]}
        />
        <div className="unreal_video_bg">
            <div className="container">
@@ -50,10 +50,14 @@ export default function index() {
            title={[<h2>Do you need professional game <br/>
                development with <span>Unreal Engine?</span></h2>]}
        />
-       <UnrealStack/>
+       <UnrealStack    title={[
+    "Our Unreal", <br/>,
+    <span>Game Technology Stack</span>
+    ]}
+    description="Aspiring to learn about the best stack for game development? DigiMark Developers provides a wide range of technologies to make your perfect game. Connect now"  />
        <UnrealProcessGame/>
        <UnrealProjects/>
-       <NftWhyChoose/>
+       <NftWhyChoose description="With years of experience in Unreal Engine Game Development, we bring exceptional skills to every type of project. We are familiar with the fact that how to eradicate any obstacle. We believe in complete collaboration with our clients and are here to support you at every step." />
     <Faqs/>
     <GetQuote/>
     </div>

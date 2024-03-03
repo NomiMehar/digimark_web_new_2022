@@ -30,13 +30,13 @@ export default function DefiDevelopement () {
                     "Development Solutions",
                 ]}
                 bannerTextWrap={[
-                    <p>Our DeFi solutions cover the entire cycle of decentralized app development from design, coding, integration, support, and evolution of all types of DeFi products. Our goal is to offer clients fast, stable, secure and cost-effective blockchain-based financial transactions every time</p>,
+                    <p>Get ready to modernize your traditional financial services into quick fund processing at minimal transactional cost and no credit checks. Our skilled Defi Developers team develops a unique & reliable Defi Platform that enhances transaction transparency with smart contracts and token development.</p>,
                 ]}
             />
             <DefiImprove/>
             <CustomApp
                 customAppProcess={defiCustomAppProcess}
-                customAppDescription="Lorem ipsum dolor sit amet consectetur. Et feugiat pretium ultricies purus ut nunc a. Proin neque amet sed dolor. Non integer arcu sit imperdiet vitae id purus. Nunc leo est ornare donec. Convallis non praesent tristique habitant duis bibendum. In fermentum nibh ultrices pharetra."
+                customAppDescription="Experience an efficient and secure approach to financial transactions and asset management with the best DeFi development company. Revolutionize the way you do business and unleash your potential for success in the decentralized finance world at DigiMark Developers."
                 customAppTitle={["Embrace the wide range of Decentralized Finance ", <span>DeFi Development</span>,
                 " Services & Solutions"]}
                 classProp="defi_custom"
@@ -62,7 +62,7 @@ export default function DefiDevelopement () {
             />
             <DefiTech/>
             <DefiProcess/>
-            <NftWhyChoose/>
+            <NftWhyChoose description={true}/>
             <Faqs/>
             <GetQuote/>
         </div>

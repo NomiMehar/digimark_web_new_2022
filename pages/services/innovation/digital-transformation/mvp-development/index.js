@@ -28,7 +28,7 @@ export default function index() {
                 </span>,  <br/> , <strong>Development Services</strong>
             ]}
             bannerTextWrap={[
-                <p>As a <span>full-cycle software development company</span>, we have the right expertise to provide high-quality <span></span>. We approach the work with your business goals in mind, carefully prioritizing and giving you an effective solution to explore your idea’s potential.</p>,
+                <p>As a <span>full App Builder Company,</span> we optimize clients’ road to success with our top-notch MVP App Development services. We prioritize your business goals to deliver an effective and high-quality solution that maximizes your idea's potential.</p>,
             ]}
             SideImage={true}
             bannerSideImage={bannerSideImage}

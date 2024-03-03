@@ -21,7 +21,7 @@ export default function Industries() {
                 dynamicBread={true}
                 breadText="Home"
                 dynamicImageUrl={dynamicImageUrl}
-                bannerTitle={["We deliver real value to clients because of our ",<br/>," deep knowledge of the ", <span>industries</span>, " in which they operate"]}
+                bannerTitle={["DigiMark Developers assist high-tech ",<br/>," industries in ", <span>unlocking growth</span>, " and offer end-to-end solutions for tech and business requirements. "]}
             />
             <IndustriesAbout/>
             <IndustriesServe/>

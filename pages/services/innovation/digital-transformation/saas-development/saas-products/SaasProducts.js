@@ -10,7 +10,8 @@ export default function SaasProducts() {
                     <li>
                         <div className={`section_title ${style.section_title}`}>
                             <h2>What is a <span>SaaS Product?</span></h2>
-                            <p>In a nutshell, a <span>SaaS product is a centralized and on-demand software solution</span> that solves a problem and leads to business success. It begins with a concept, evolves with a plan, and uses “special ingredients” to achieve its objectives in an innovative way. There are <span>three main components</span> to SaaS Development:</p>
+                            <p>A SaaS product is a <span>centralized software solution</span> that can be accessed on-demand & is specifically designed to drive business success. It starts with a <span>concept & evolves</span> through planning, utilizing unique ingredients to achieve its goals innovatively.</p>
+                            <p>The three main components of SaaS development include:</p>
                         </div>
                     </li>
                     {

@@ -11,9 +11,9 @@ export default function ProductPower() {
             <span>Product Design</span></h4>
             <div className={style.description}>
             <p>
-            Today’s customers expect nothing less than great products. According to <span>Forbes</span>, over <span>250,000</span> new products are launched globally every year. With this level of competition in <span>Digital world</span>, businesses need to ensure they can create products that has lasting value and strategic to their business goals.</p>
+            In <span>today's digital world,</span> customers demand exceptional and high-quality products. With over <span>250,000</span> new product launches annually, businesses must strive to create <span>valuable products</span> that align with their strategic goals.</p>
             <p>
-            Your products are the physical manifestation of your brand, and a well designed product that combines <span>iconic forms, innovative solutions</span> and <span>engaging user experiences</span> will deliver what your brand promises to your customers.
+            Your brand's products are a <span>tangible representation</span> of your brand. A product that <span>boasts exceptional design,</span> innovative solutions, and user-friendly experiences fulfills your <span>brand promise</span> to your customers.
             </p>
             </div>
         </div>

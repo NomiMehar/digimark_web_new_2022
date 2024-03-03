@@ -16,8 +16,7 @@ export default function NftDevelopment() {
                 breadcrumParent="Next-Gen Tech"
                 breadcrumChild="NFT Development"
                 bannerTitle={["Non-Fungible Token ", <br/>, <span><strong>(NFT)</strong></span>, " Development "]}
-                bannerTextWrap={[<p>NFTs represent a form of blockchain-based digital ledger containing specific data like a piece of digital art, music, signature, or even a specific tweet that can be sold and traded.</p>,
-                <p>We are highly experienced in the emerging technology advancements and ready to provide you with cutting-edge NFT development services.</p>]}
+                bannerTextWrap={[<p>Revolutionize your digital assets with our latest <span>NFT Development Services</span> with the help of DigiMark Developers. Launch your NFTs by unlocking unlimited possibilities with our expert guidance and the best NFT App Development Services. Join us now and benefit from our professionals for your <span>digital transformation</span> journey.</p>]}
             />
             <NftServices/>
             <NftTechStack/>
@@ -35,8 +34,10 @@ export default function NftDevelopment() {
               slidesPerView: 1,
             },
           },
-        }}/>
-            <NftWhyChoose/>
+        }}
+        description="We provide the best NFT Development Services by bringing innovation & providing a comprehensive portfolio of services tailored to your needs."
+        />
+            <NftWhyChoose description={true}/>
             <Faqs/>
             <GetQuote/>
         </div>

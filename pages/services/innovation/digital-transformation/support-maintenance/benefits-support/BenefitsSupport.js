@@ -13,25 +13,25 @@ export default function BenefitsSupport(props) {
                         <li>
                             <section>
                                 <h3>Secure & Stable App</h3>
-                                <p>Discover end - to - end application maintenance and support service models designed to cater to your business concerns with 24/7/365 availability and highly secure access procedures.</p>
+                                <p>Explore comprehensive application support and maintenance solutions tailored to address your business requirements, featuring round-the-clock availability and robust access protocols for enhanced security measures.</p>
                             </section>
                         </li>
                         <li>
                             <section>
-                                <h3>Secure & Stable App</h3>
-                                <p>Discover end - to - end application maintenance and support service models designed to cater to your business concerns with 24/7/365 availability and highly secure access procedures.</p>
+                                <h3>Minimal Downtime</h3>
+                                <p>Discover proven industry approaches for maintaining and improving your applications. Minimize downtime and ensure efficient operations with reliable support and maintenance services.</p>
                             </section>
                         </li>
                         <li>
                             <section>
-                                <h3>Secure & Stable App</h3>
-                                <p>Discover end - to - end application maintenance and support service models designed to cater to your business concerns with 24/7/365 availability and highly secure access procedures.</p>
+                                <h3>Reduced Cost of Care</h3>
+                                <p>Unlock assessment of your software's performance & optimize applications to align with unique business needs. Leverage cutting-edge tools and industry expertise for enhanced functionality and success.</p>
                             </section>
                         </li>
                         <li>
                             <section>
-                                <h3>Secure & Stable App</h3>
-                                <p>Discover end - to - end application maintenance and support service models designed to cater to your business concerns with 24/7/365 availability and highly secure access procedures.</p>
+                                <h3>Feature Customization</h3>
+                                <p>Deploy experienced professionals to carry out assessments of your organization while maintaining alignment with a unique market focus. Benefit from customized upgrades & enhancements for precise targeting and improved performance.</p>
                             </section>
                         </li>
                     </ul>

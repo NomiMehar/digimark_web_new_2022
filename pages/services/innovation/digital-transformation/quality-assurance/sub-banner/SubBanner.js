@@ -7,9 +7,8 @@ export default function SubBanner() {
             <div className={style.subanner_wrap}>
                 <div className="container">
                     <span>QUALITY AT UNRIVALED SPEED & SCALE</span>
-                    <h2>Test IO delivers a full range of <span>web, mobile</span> and <span>IoT testing</span> through a flexible service model. With services available on-demand, we partner with you to navigate tight delivery constraints and complex requirements to drive sustained business value
-                        <br/><span>—at speed and scale.</span></h2>
-                    <h2>Our <span>Testing-as-a-Service (TaaS)</span> model gives you capacity and capability when you need it, to ship high-quality products faster.</h2>
+                    <h2>Get the best testing solutions for <span>web, mobile, & IoT applications</span> using a <span>flexible and adaptable service</span> approach.</h2>
+                    <h2>Experience our unique <span>Testing-as-a-Service (TaaS) model,</span> designed to enhance product <span>delivery capabilities</span> & ensure the accelerated release of <span> high-quality software solutions.</span> We help you in delivering sustainable business value along with the best <span>speed and scalability.</span></h2>
                 </div>
             </div>
             <div className={style.key_facts}>

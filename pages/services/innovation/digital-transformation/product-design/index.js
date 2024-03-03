@@ -25,7 +25,7 @@ export default function index() {
         SideImage={true}
         bannerSideImage={bannerSideImage}
         bannerTextWrap={[
-         <p>Leveraging our decade-long expertise in <span>enterprise software development</span>, we develop and deliver next-generation enterprise applications to streamline your business processes and enhance customer experience.</p>,
+         <p>Take your business to the next level with our <span>tailored product design services</span> that mainly focus on a human-centered approach. Keep customers engrossed with your brand and run a business effectively.</p>,
         ]}
         dynamicCTA={true}
         ctaText="Let’s Start Your project"

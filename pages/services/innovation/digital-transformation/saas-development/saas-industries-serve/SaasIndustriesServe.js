@@ -8,7 +8,7 @@ export default function SaasIndustriesServe() {
             <div className="container flex items-center">
                 <div className={style.section_title}>
                     <h2>Industries We <span>Serve</span></h2>
-                    <p>We cater to a wide range of industries by leveraging our wide domain expertise. Thus, helping us to deliver perfect solutions that match specific business requirements.</p>
+                    <p>We are committed to delivering highly competent applications that drive exceptional results by fixing your customers' issues. With a team of skilled experts, we specialize in finding scalable solutions for all of your business needs.</p>
                 </div>
                 <div className={style.content_list}>
                     <ul className="list-none flex flex-wrap">

@@ -12,9 +12,7 @@ export default function UnityGameStack() {
                 <div className="container">
                     <div className={`section_title`}>
                         <h2>Our Unity <span>Game Technology Stack</span></h2>
-                        <p>Leverage a wide variety of technologies to build your ideal game. <br/>
-                            Selecting the right database, language, and framework all count as <br/>
-                            they determine the direction and success of your game.</p>
+                        <p>DigiMark Developers being the best Unity Game Development Company always strive to provide the best and highest-quality tech stack that helps you enjoy the gaming experience utterly.</p>
                     </div>
                 </div>
                 <div className={style.unity_game_tabs_wrap}>

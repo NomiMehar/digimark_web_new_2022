@@ -12,7 +12,7 @@ import ToolsTechnologies from "../web-development/tools-technologies/ToolsTechno
 import SoftwareProductsProcess from "./software-products-process/SoftwareProductsProcess";
 import PortfolioProducts from "./portfolio-of-products/PortfolioProducts";
 import ProTechnologies from "./pro-technologies/ProTechnologies";
-
+import softwareProductsProcessLists from "./software-products-process/softwareProductsProcessList.json";
 export default function index() {
   return (
   <>
@@ -28,7 +28,7 @@ export default function index() {
                </span>,  <br/> ," Development Services"
            ]}
            bannerTextWrap={[
-               <p><span>Full-cycle software product development</span> services for startups and successful tech businesses</p>,
+               <p><span>Full-cycle software product development services</span> that benefit business modules & make you win the race.</p>,
            ]}
         />
         <CompanyResults/>
@@ -37,7 +37,10 @@ export default function index() {
         <ProductIndustries/>
         <ProductDelegate/>
         <ProTechnologies/>
-        <SoftwareProductsProcess/>
+        <SoftwareProductsProcess
+        title={["How we develop " , <br/> ,<span>Software Products</span>]}
+        softwareProductsProcessList={softwareProductsProcessLists}
+        />
         <PortfolioProducts/>
         <Faqs
             extraClass="bgColor"

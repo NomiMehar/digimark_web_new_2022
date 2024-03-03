@@ -10,10 +10,10 @@ export default function IndustriesAbout() {
             <div className="container flex justify-between">
                 <section>
                     <h2>Every <span>Industry</span> Is Unique</h2>
-                    <span>We offer <span>unique solutions</span> and develop software to meet your <span>industry’s specific needs.</span></span>
+                    <span>we provide <span>custom software solutions</span> to meet the unique demands of your industry.</span>
                 </section>
                 <section>
-                    <p>Our innovative services and custom software solutions are designed, developed and uniquely tailored to meet different industry’s unique set of needs and requirements</p>
+                    <p>We excel at cutting-edge solutions and personalized software services to meet the distinct requirements of various industries.</p>
                     <Link href="#" className={`contact_btn ${style.contact_btn}`}>Talk to our expert <Image src={whiteArrow} alt={whiteArrow} width={13} height={16} /></Link>
                 </section>
             </div>

@@ -30,7 +30,7 @@ export default function TokensAndCryptoWallets () {
                     "Wallets Development",
                 ]}
                 bannerTextWrap={[
-                    <p>We develop <span>Crypto Wallets For Management</span>, Storage & Transfer Of Cryptocurrencies. Crypto wallets are essential <span>Web3 applications</span> that keep <span>users’ private keys</span> and provide the necessary interface that allows people to interact with blockchain networks, track their transactional histories and crypto balances and make transactions. </p>,
+                    <p>Launch a platform where users can <span>store, transfer, and monitor virtual currencies</span>. With our Cryptocurrency <span>Wallet Development Services,</span> we offer world-class security and stability for your extensively scalable and robust payment integration solutions. Our <span>agile cryptocurrency</span> development team ensures to building of ultra-secure cryptocurrency wallets. </p>,
                 ]}
             />
             <MetaverseExperience/>

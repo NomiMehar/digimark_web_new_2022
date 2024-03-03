@@ -10,7 +10,7 @@ export default function DigimarkPartners() {
         <div className={style.technologies} data-aos="fade-right"
            data-aos-duration="2000">
             <h4>Why Partner With <br/> Digi<span>Mark</span> Developers?</h4>
-            <p>With over 18+ years of experience, Fingent is focused on engineering high-quality, robust, and budget-friendly web applications for clients globally. Our team of professionals is well expertise in a wide range of technologies to serve all modern business needs.</p>
+            <p>As a leading software company and digital partner of global enterprises and startups, we provide robust, and budget-friendly Web & App Development services. We integrate specific techniques to design advanced web systems development that meet business needs.</p>
             <ul className={`list-none flex flex-wrap`}>
         {partnersData.map(({ img }, index) => {
             return (

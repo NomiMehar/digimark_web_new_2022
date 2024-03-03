@@ -24,15 +24,7 @@ export default function NftDevelopment() {
           " Development ",
         ]}
         bannerTextWrap={[
-          <p>
-            We offer the NFT marketplace services that help users to launch a
-            feature-rich NFT marketplace on different blockchain networks, like
-            Ethereum, Avalanche and Polkadot.
-          </p>,
-          <p>
-            Our offerings include NFT creation, storefront exploration, wallet
-            integration, bid placing and NFT storage solution.
-          </p>,
+          <p>Commence your NFT marketplace by getting our <span>NFT Marketplace Development</span> Solutions. Enjoy earnings with our exceptional solutions that empower you to launch a cutting-edge marketplace for selling unique digital assets on top blockchain networks like <span>Ethereum, Avalanche, and Polkadot.</span></p>,
         ]}
       />
       <WhyChoose
@@ -58,6 +50,7 @@ export default function NftDevelopment() {
             },
           },
         }}
+        description="We provide the best NFT Marketplace Development Services by bringing innovation & providing a comprehensive portfolio of services tailored to your needs."
       />
       <NftWhyChoose />
       <Faqs />

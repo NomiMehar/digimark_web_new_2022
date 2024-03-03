@@ -16,7 +16,7 @@ export default function DefiTech (props) {
           <div className="container">
               <div className="section_title white">
                   <h2>Know <span>The DeFi Technologies</span> <br/>On Which We Work</h2>
-                  <p>Our crypto exchange software solutions come with a battery of attractive features and functionalities.</p>
+                  <p>Design and develop valuable digital assets as per your preferences for your DeFi platform.</p>
               </div>
               <ul className="list-none flex flex-wrap">
                   {

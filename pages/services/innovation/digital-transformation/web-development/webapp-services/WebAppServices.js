@@ -16,8 +16,8 @@ export default function WebAppServices() {
         <div className={style.web_app}>
             <div className="container">
                 <div className={`section_title ${style.section_title}`} data-aos="fade-up" data-aos-duration="2000">
-                    <h2>Impeccable WebApp <br/> <span>Development Services</span></h2>
-                    <p>We at DigiMark Developers provide unmatched WebApp development services to our clients.</p>
+                    <h2>Advanced Web App <br /> <span>Development Services</span></h2>
+                    <p>We aim to build web app solutions using the latest technologies to meet client’s requirements.</p>
                 </div>
             </div>
             <div className={style.webapp_background}>

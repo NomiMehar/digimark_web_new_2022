@@ -26,7 +26,7 @@ export default function CreativePcGame() {
                 <div className="container">
                     <div className="section_title">
                         <h2>Our <span>Creative PC Game</span> Projects</h2>
-                        <p>We have created many immersive and interactive games across various genres like adventure, action, board, arcing, shooting, real money games, etc.</p>
+                        <p>Our work speaks about us. Reach out to our experts and learn about our successful captivating gaming experiences that have helped a large audience.</p>
                     </div>
                 </div>
                 <div className={`creative_pc_slider ${style.creative_pc_slider}`}>

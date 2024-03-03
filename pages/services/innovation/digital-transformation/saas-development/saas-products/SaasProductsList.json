@@ -1,14 +1,14 @@
 [
   {
     "listTitle": "Software Package",
-    "listDescription": "This is the most visible element of SaaS: the actual product that performs the function it was designed to do. While its characteristics will vastly differ from project to project, high-quality software packages will always be designed to scale."
+    "listDescription": "The most apparent component of SaaS is the product itself, which performs its designated function. While the specifics of each project may vary, a well-designed software package will always be capable of scaling to meet increasing demand."
   },
   {
     "listTitle": "Management Suite",
-    "listDescription": "The management suite is the central hub from where the SaaS product owner can manage user accounts, requests, and payment options. It is also used to implement updates and take care of any other back-end aspect of SaaS."
+    "listDescription": "Management suite enables you to manage user accounts, requests, & payment options. Connect with the best SAAS Dev Company and manage business workloads effectively with the help of DigiMark Developers."
   },
   {
     "listTitle": "Front-End Platform",
-    "listDescription": "This is the connection point between the software package and its end-users. The front-end platform contains all the market information of the SaaS product and is designed to sell the experience to potential customers."
+    "listDescription": "Front-end platform acts as the intermediary between the software package & its users. It encompasses all of the market information related to the SaaS product & is designed to provide potential customers with an exceptional experience."
   }
 ]

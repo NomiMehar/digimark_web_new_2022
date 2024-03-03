@@ -17,8 +17,8 @@ export default function ProcessQualityAssurance() {
                         </section>
                         <section>
                             <h3>How is the <span>testing <br/>process</span> set up?</h3>
-                            <p>Assuming we are setting up everything the process we follow is this one.</p>
-                            <p>Otherwise if we are integrating with your current <span>QA team</span>, we’ll adapt to your current flow, methods and tools you currently have in use.</p>
+                            <p>If we are commencing the testing process from scratch, we will follow a customized methodology to fit your project needs.</p>
+                            <p>Contrary, if we are working alongside your <span>QA team,</span> we will adapt your existing workflows, methodologies, and toolsets.</p>
                         </section>
                     </div>
                 </div>

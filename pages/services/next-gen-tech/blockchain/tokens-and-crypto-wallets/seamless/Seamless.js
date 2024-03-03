@@ -17,7 +17,7 @@ export default function Seamless (props) {
                   <p>Enable fast and secure crypto payments with decentralized crypto wallets</p>
               </div> : <div className="section_title" data-aos="fade-up" data-aos-duration="2000">
                   <h2><span>Features</span> of Web <br/> Application Development</h2>
-                  <p>Here are some of the most critical features you can have in your web app.</p>
+                  <p>Adding these features to web applications can enhance functionality & user experience.</p>
               </div>}
               
               <ul className="list-none flex flex-wrap">

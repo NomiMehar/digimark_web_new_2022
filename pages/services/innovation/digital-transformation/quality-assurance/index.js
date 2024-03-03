@@ -24,7 +24,7 @@ export default function index() {
                <span><strong>Software Quality Assurance</strong></span>,  <br/> ," & Testing Services"
            ]}
            bannerTextWrap={[
-               <p>Deliver a solid customer experience with software that works <span>flawlessly</span>. This means: <span>solid performance, no bugs,</span> and <span>no security issues</span>. Add QA engineers to your team and scale your testing environment.</p>,
+               <p>Elevate the software development process with our advanced <span>QA & Testing services</span> at <span>DigiMark Developers.</span> Our team ensures seamless code deployment, and <span>streamlined development cycles</span>, all delivered quickly and precisely.</p>,
            ]}
            dynamicCTA={true}
            ctaText="Let’s Talk About Your Project"
@@ -36,7 +36,7 @@ export default function index() {
        <ServicesQualityAssurance/>
        <CallToQualityAssurance
            title={["Let DIGI",<span>MARK</span>," write Your Success Story"]}
-           description={[<p>DigiMark Developers can be your product’s bodyguard against bugs, quality’s vanguard, and reputation’s safeguard with our tested and proven Quality Assurance Services that bring the drive!</p>]}
+           description={[<p>We ensure the protection of your product from bugs, maintain the highest quality standards, and safeguard your brand's reputation. Our trusted and reliable Quality Assurance Services drive excellence.</p>]}
 
        />
        <TestQualityAssurance/>

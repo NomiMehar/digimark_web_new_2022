@@ -2,31 +2,31 @@
   {
     "imageIcon": "/assets/images/services/cloudserve1.svg",
     "title": "Infrastructure \nAutomation",
-    "description": "Develop and manage infrastructure as code to automate the provisioning, scaling, and management of IT resources."
+    "description": "Our experts develop & manage infrastructure as a code (IaC) to automate the provisioning, scaling, and management of IT resources."
   },
   {
     "imageIcon": "/assets/images/services/cloudserve2.svg",
     "title": "Continuous Integration and \nDeployment (CI/CD)",
-    "description": "Automate the building, testing, and deployment of software, using tools like Jenkins, Travis CI, and CircleCI."
+    "description": "Utilize tools like Jenkins, Travis CI, & CircleCI to automate the building, testing, and deployment of software."
   },
   {
     "imageIcon": "/assets/images/services/cloudserve3.svg",
     "title": "Containerization and \nOrchestration",
-    "description": "Package software in containers and manage those containers using orchestration tools like Docker and Kubernetes."
+    "description": "Transform software management with containerization! Utilize Docker & Kubernetes to package software in containers and manage them with powerful orchestration tools."
   },
   {
     "imageIcon": "/assets/images/services/cloudserve4.svg",
     "title": "Monitoring and Logging",
-    "description": "Monitor the performance and health of your applications and infrastructure, and to collect and analyze log data to troubleshoot issues."
+    "description": "Maintain the health of applications by monitoring their performance and analyzing log data. Keep your systems running smoothly!"
   },
   {
     "imageIcon": "/assets/images/services/cloudserve5.svg",
     "title": "Cloud Infrastructure \nManagement",
-    "description": "Manage and optimize the use of cloud-based infrastructure, such as Amazon Web Services (AWS), Microsoft Azure, or Google Cloud."
+    "description": "Maximize the potential of cloud-based infrastructure & gain a competitive edge with AWS, Microsoft Azure, or Google Cloud."
   },
   {
     "imageIcon": "/assets/images/services/cloudserve6.svg",
     "title": "Security and \nCompliance",
-    "description": "Ensure that your software development and deployment processes comply with security and regulatory requirements."
+    "description": "Prioritize security & regulatory compliance in software development and deployment processes to protect your organization and build trust with customers."
   }
 ]

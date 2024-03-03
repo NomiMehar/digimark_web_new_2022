@@ -12,7 +12,7 @@ export default function Journey() {
                 <div className={`flex items-center ${style.journey_about_cloud}`}>
                     <section>
                         <h2>Start Your DevOps Journey <br/> with Us</h2>
-                        <p>With our pool of Cloud & DevOps services, we help enterprises <br/>get better quality software and achieve higher efficiency.</p>
+                        <p>Providing a pool of Cloud & DevOps services, to develop top-notch software solutions for businesses that perfectly fit your needs.</p>
                         <Link href="#" className={`contact_btn ${style.contact_btn}`}>Let’s get started <Image src={whiteArrow} alt={whiteArrow} width={13} height={16} /></Link>
                     </section>
                     <Image src={aboutCloud} alt="aboutCloud"/>

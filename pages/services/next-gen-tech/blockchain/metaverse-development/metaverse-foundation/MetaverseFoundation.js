@@ -19,7 +19,7 @@ export default function MetaverseFoundation() {
                 Our <span>Technological Foundation</span>
                 </h2>
                 <p>
-                Leverage the latest technologies to create a secure, robust, and user-focused Metaverse that provide you exclusive access to dynamic virtual experiences. We aim to identify new innovations to keep your product competitive and scalable.
+                We utilize the latest technologies to provide robust, secure, and user-oriented Metaverse App Development Services that provide you exclusive access to interactive virtual experiences. We aim to identify and develop innovations to keep products market-competitive and scalable. 
                 </p>
             </div>
             <div className={`flex native_version ${style.native_version}`}>

@@ -13,7 +13,7 @@ export default function UnrealProjects(props) {
                 <div className="container">
                     <div className="white section_title">
                         <h2><span>Our Recent Projects</span></h2>
-                        <p>We’ve designed and developed tons of exciting titles that <br/>make gameplay fun for everyone.</p>
+                        <p>Take a look at our successful and top-notch gaming projects for better understanding.</p>
                     </div>
                     <div className={style.unreal_projects_list}>
                         <ul className="list-none flex flex-wrap">

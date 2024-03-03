@@ -1,26 +1,26 @@
 [
   {
     "title": "Automation",
-    "description": "Decentralized applications are powered by smart contracts – self-executing contracts written in code that provide automation."
+    "description": "DApps function using smart contracts, which are automatic and self-executing codes. This results in lower transaction costs and facilitates smooth transactions."
   },
   {
-    "title": "Automation",
-    "description": "Decentralized applications are powered by smart contracts – self-executing contracts written in code that provide automation."
+    "title": "Transparency",
+    "description": "DApp data is stored on a public ledger, where all information is recorded publicly. This ensures protection against any data manipulation & guarantees data integrity."
   },
   {
-    "title": "Automation",
-    "description": "Decentralized applications are powered by smart contracts – self-executing contracts written in code that provide automation."
+    "title": "Privacy",
+    "description": "The validation of dApp users is carried out through blockchain-validated cryptography techniques that enhance user privacy and make the process more user-friendly."
   },
   {
-    "title": "Automation",
-    "description": "Decentralized applications are powered by smart contracts – self-executing contracts written in code that provide automation."
+    "title": "User Governance",
+    "description": "The operation of dApps is based on a consensus mechanism, thereby preventing domination or the act of gatekeeping at all costs."
   },
   {
-    "title": "Automation",
-    "description": "Decentralized applications are powered by smart contracts – self-executing contracts written in code that provide automation."
+    "title": "Fault-tolerance",
+    "description": "As a decentralized application, dApps eliminate the existence of a single point of failure to ensure greater stability and safety compared to conventional applications."
   },
   {
-    "title": "Automation",
-    "description": "Decentralized applications are powered by smart contracts – self-executing contracts written in code that provide automation."
+    "title": "Incentivization",
+    "description": "DApps provide an incentivization mechanism in the form of tokens (or digital assets), which are utilized to incentivize blockchain users and validators."
   }
 ]

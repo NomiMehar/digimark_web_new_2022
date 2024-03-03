@@ -30,7 +30,7 @@ export default function index() {
                     dynamicCTA={true}
                     ctaText="Let’s Talk About Your Project"
                 bannerTextWrap={[
-                    <p>Gain full control over your product. Engage your customers with dedicated solutions they need. <span>Scale-up your business</span> by your software going <span>bespoke</span>.</p>,
+                    <p>Transform your business with <span>DigiMark Developer's Bespoke</span> Development services. Make use of <span>innovative software solutions</span> to make your business value.</p>,
                 ]}/>
     <BespokeMarquee/>
     <BespokeSoftware/>

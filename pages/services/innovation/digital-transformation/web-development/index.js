@@ -34,7 +34,7 @@ export default function index() {
                     dynamicCTA={true}
                     ctaText="Let’s Talk About Your Project"
         bannerTextWrap={[
-            <p>Helping Businesses <span>build secure</span> and <span>scalable Web Applications, Portals</span> and <span>Solutions</span>.</p>,
+            <p>Delivering custom web <span>applications, & solutions</span> that optimize workflows to <span>help businesses thrive</span>.</p>,
         ]}
     />
     {/*<LeadingEnterprises/>*/}

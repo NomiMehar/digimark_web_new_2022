@@ -17,7 +17,7 @@ export default function MetaverseAdvantage(props) {
                 <div className={`${style.nft_why_choose_text}`} data-aos="fade-right"
                     data-aos-duration="2000">
                     <h2>Why Choose Us</h2>
-                    <p>DigiMark Developers is proud to announce the launch of the Women’s Empowerment Initiative; an initiative</p>
+                    <p>The world of Metaverse has taken its place over the past few years and is making the buzz all around. We have 30+ expert developers and designers who create, execute, and accelerate the Metaverse venture of our clients.</p>
                     <ul className="list-none">
                         {
                             metaverseAdvantageList.map(({listItems},index)=>{

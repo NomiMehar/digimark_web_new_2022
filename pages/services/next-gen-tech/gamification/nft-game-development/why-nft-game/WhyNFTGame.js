@@ -11,36 +11,36 @@ export default function WhyNFTGame() {
                     <Image src={avatarImage} alt="avatarImage"/>
                     <div className={style.why_nft_game_list}>
                         <h2>Why Digi<span>Mark</span> Developers!</h2>
-                        <p>Our team of 150+ software engineers, artists and designers have immense experience in developing games for more than 7 years.</p>
+                        <p>We have more than 150 developers, artists, and designers who have amazing experience in developing games effectively.</p>
                         <ul className="list-none flex flex-wrap">
                             <li>
                                 <section>
-                                    <span>Experience in NFT Token Development – End-to-end NFT development for a wide range of collectibles and digital content</span>
+                                    <span>Vast experience in the NFT token development, end-to-end NFT development of several range collectibles and digital content</span>
                                 </section>
                             </li>
                             <li>
                                 <section>
-                                    <span>We guarantee the timely delivery of your project. This is a fundamental element that makes us a trusted choice for global clients</span>
+                                    <span>Timely delivery is guaranteed for your project. We are the trusted choice of clients globally.</span>
                                 </section>
                             </li>
                             <li>
                                 <section>
-                                    <span>A sizable team of certified specialists with successful projects under their belt</span>
+                                    <span>Connect with certified professionals with successful projects and great experience in the industry.</span>
                                 </section>
                             </li>
                             <li>
                                 <section>
-                                    <span>Guaranteed platform liquidity through calculated deployment protocols</span>
+                                    <span>We provide guaranteed platform liquidity by calculating deployment protocols.</span>
                                 </section>
                             </li>
                             <li>
                                 <section>
-                                    <span>Total transparency in designing, minting, and launching the Non-Fungible Tokens</span>
+                                    <span>We ensure transparency in minting, designing, and launching the NFT tokens.</span>
                                 </section>
                             </li>
                             <li>
                                 <section>
-                                    <span>Reduce your nft game development cost outsourcing the project, a product made by professionals.</span>
+                                    <span>We help minimize the NFT Game Development cost that is paid during outsourcing projects. The product is made by the experts.</span>
                                 </section>
                             </li>
                         </ul>
