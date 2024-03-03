@@ -7,12 +7,12 @@ import StreamLine from "./streamline/StreamLine";
 import ProductDevService from "./product-dev-service/ProductDevService";
 import ProductIndustries from "./product-industries/ProductIndustries";
 import ProductDelegate from "./product-delegate/ProductDelegate";
-import technologiesList from "../web-development/tools-technologies/ToolsTechnologiesList.json";
-import ToolsTechnologies from "../web-development/tools-technologies/ToolsTechnologies";
-import SoftwareProductsProcess from "./software-products-process/SoftwareProductsProcess";
+// import technologiesList from "../web-development/tools-technologies/ToolsTechnologiesList.json";
+// import ToolsTechnologies from "../web-development/tools-technologies/ToolsTechnologies";
+// import SoftwareProductsProcess from "./software-products-process/SoftwareProductsProcess";
 import PortfolioProducts from "./portfolio-of-products/PortfolioProducts";
 import ProTechnologies from "./pro-technologies/ProTechnologies";
-import softwareProductsProcessLists from "./software-products-process/softwareProductsProcessList.json";
+// import softwareProductsProcessLists from "./software-products-process/softwareProductsProcessList.json";
 export default function index() {
   return (
   <>

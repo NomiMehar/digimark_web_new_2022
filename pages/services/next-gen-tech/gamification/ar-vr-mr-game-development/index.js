@@ -3,9 +3,9 @@ import GetQuote from '../../../../../components/get-quote/GetQuote'
 import MobilityBanner from '../../../innovation/mobility/android-app-development/android-app-banner/MobilityBanner'
 import Faqs from '../../../innovation/mobility/android-app-development/faq/Faqs'
 import bannerSideImage from "../../../../../public/assets/images/services/pc-game.png"
-import EnterpriseServices
-    from "../../../innovation/digital-transformation/enterprise-software-development/enterprise-services/EnterpriseServices";
-import arserviceList from '../../../innovation/digital-transformation/enterprise-software-development/enterprise-services/arServicesList.json'
+// import EnterpriseServices
+//     from "../../../innovation/digital-transformation/enterprise-software-development/enterprise-services/EnterpriseServices";
+// import arserviceList from '../../../innovation/digital-transformation/enterprise-software-development/enterprise-services/arServicesList.json'
 import BenefitsSupport
     from "./benefits-support/BenefitsSupport";
 import PortfolioProducts
