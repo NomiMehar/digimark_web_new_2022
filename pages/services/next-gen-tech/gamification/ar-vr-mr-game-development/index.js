@@ -40,8 +40,7 @@ export default function index() {
    <EnterpriseServices
        extraClass="ar_vr_services"
        etitle={[
-        <span>AR/VR & MR App</span>, <br/>,
-        "Development Services"        
+        <h2><span>AR/VR & MR App</span> Development Services</h2>
        ]}
        edescription=""
        enterpriseServicesList={arserviceList}

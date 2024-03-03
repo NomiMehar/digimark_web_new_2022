@@ -7,7 +7,7 @@ export default function GameProcess(props) {
     <div className={` ${style[props.extraClass]} ${style.services_process}`}>
         <div className="container">
             <div className={`section_title`}>
-                <h2>{props.gtitle}</h2>
+                {props.gtitle}
                 <p>{props.gdescription}</p>
             </div>
             <div className={style.services_process_text}>

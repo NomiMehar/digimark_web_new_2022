@@ -57,8 +57,8 @@ export default function index() {
        <UnityWork/>
        <UnityRecentProject/>
        <UnityWorkBox 
-       utitle={["Why Digi ",<span>Mark</span>, " Developers.",
-        <span>The Best Unity Game Development Company</span>,"?"
+        utitle={[
+            <h2>Why Digi <span>Mark</span> Developers <span>The Best Unity Game Development Company?</span></h2>
         ]}
     unityWorkBoxList={unityWorkBoxLists}
      />
