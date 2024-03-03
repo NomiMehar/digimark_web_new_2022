@@ -1,0 +1,129 @@
+@import "../../../../../../styles/variables";
+.sass_partners {
+  background-color: #F3F6FF;
+  padding: 100px 0;
+  @media (max-width: $breakpoint_tablet) {
+    padding: 60px 0 60px;
+  }
+  .contact_btn {
+    max-width: 300px;
+  }
+  .section_title {
+    margin-bottom: 60px;
+    h2 {
+      font-size: 48px;
+      line-height: 1.5;
+      margin: 0 0 10px;
+      @media (max-width: $breakpoint_laptop) {
+        font-size: 38px;
+      }
+      @media (max-width: $breakpoint_mobile_landscape) {
+        br { display: none}
+        font-size: 34px;
+      }
+      span {
+        color: #6BB64A;
+      }
+    }
+    p {
+      margin: 0;
+      font-size: 24px;
+      line-height: 36px;
+      color: #969696;
+      opacity: 0.9;
+      @media (max-width: $breakpoint_laptop) {
+        font-size: 20px;
+        line-height: 30px;
+      }
+    }
+  }
+  .saas_partners_tabs {
+    width: 100%;
+    margin-bottom: 50px;
+    @media (max-width: $breakpoint_mobile_landscape) {
+      flex-direction: column;
+    }
+    .sass_partners_list {
+      max-width: 456px;
+      width: 100%;
+      @media (max-width: $breakpoint_tablet) {
+        min-width: 255px;
+      }
+      ul {
+        li {
+          margin-bottom: 20px;
+          &:last-child { margin-bottom: 0}
+          button {
+            font-family: 'CloverDisplay-Medium', sans-serif;
+            width: 100%;
+            height: 93px;
+            border: none;
+            padding-left: 18px;
+            border-radius: 10px;
+            font-size: 24px;
+            line-height: 28px;
+            text-align: left;
+            background-color: #E4E4E4;
+            @media (max-width: $breakpoint_laptop) {
+              height: 60px;
+              font-size: 18px;
+            }
+            &.active {
+              background: #6BB64A;
+              color: #FFFFFF;
+            }
+          }
+        }
+      }
+    }
+  }
+  .sass_partners_content_wrap {
+    padding-left: 23px;
+    @media (max-width: $breakpoint_mobile_landscape) {
+      padding-left: 0;
+      margin-top: 20px;
+    }
+    .sass_partners_content {
+      height: 100%;
+      border-radius: 10px;
+      background-size: cover;
+      padding: 80px 80px 80px 46px;
+      @media (max-width: $breakpoint_mobile_landscape) {
+        padding: 20px;
+      }
+      h3 {
+        font-size: 28px;
+        line-height: 36px;
+        margin: 0 0 30px;
+        color: #6BB64A;
+        position: relative;
+        padding: 0 0 10px;
+        font-family: "CloverDisplay-Medium", sans-serif;
+        @media (max-width: $breakpoint_laptop) {
+          font-size: 18px;
+          line-height: 28px;
+        }
+        &:before {
+          content: '';
+          position: absolute;
+          left: 0;
+          bottom: 0;
+          width: 128px;
+          height: 4px;
+          background-color: #6BB64A;
+        }
+      }
+      p {
+        margin: 0;
+        color: #FFFFFF;
+        font-size: 24px;
+        line-height: 36px;
+        font-family: "Apercu-Light", sans-serif;
+        @media (max-width: $breakpoint_mobile_landscape) {
+          font-size: 18px;
+          line-height: 28px;
+        }
+      }
+    }
+  }
+}

@@ -11,7 +11,7 @@ export default function SaasServices() {
             <div className="container flex">
                 <div className={`${style.section_title} section_title white`}>
                     <h2>Our <span>Services</span></h2>
-                    <p>Our <span>SaaS software development</span> company offers development for new apps and re-architecting current apps for the SaaS environment. We ensure that when the SaaS product is out, we will continue to develop new project features and maintain the entire SaaS application. Some of our SaaS product development company services include:</p>
+                    <p>Revolutionize business with high-performing <span>SAAS solutions</span> tailored to your needs. Being a top SAAS Dev Company in the USA, we specialize in developing apps and redesigning existing apps with the help of our qualified and experienced developers who will draw you a roadmap effectively. Take the next big step in your business</p>
                     <Link href="#" className={`contact_btn ${style.contact_btn}`}>Let’s discuss your project <Image src={whiteArrow} alt={whiteArrow} width={13} height={16} /></Link>
                 </div>
                 <div className={style.services_list}>

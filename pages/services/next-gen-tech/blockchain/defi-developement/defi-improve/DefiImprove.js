@@ -12,7 +12,7 @@ export default function DefiImprove(props) {
             <div className="container">
                 <div className="section_title" data-aos="fade-up" data-aos-duration="2000">
                     <h2>How Can <span>DeFi Development</span> <br/> Improve Your Business?</h2>
-                    <p style={{width: "100%"}}>Before diving into the details of our DeFi development services, let’s explore how exactly DeFi solutions can improve your business</p>
+                    <p style={{width: "100%"}}>Examine how DeFi solutions can enhance your business before delving into the specifics of our DeFi development services.</p>
                 </div>
                 <div className={style.defi_improve_text}>
                     <ul className="list-none flex flex-wrap">

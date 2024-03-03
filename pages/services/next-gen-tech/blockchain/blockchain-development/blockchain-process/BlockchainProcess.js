@@ -15,7 +15,7 @@ export default function BlockchainProcess() {
                 <div className="section_title" data-aos="fade-up"
                                         data-aos-duration="2000">
                     <h2><span>Process</span> of blockchain development</h2>
-                    <p>Support your aim for your product and business with decentralized, transparent technology and professionals who can help you meet your targets.</p>
+                    <p>We collaborate closely to grasp business needs as we are committed to providing top-notch outcomes & crafting personalized blockchain solutions.</p>
                 </div>
                 <div className="flex">
                     <div className={style.blockchain_process_list} data-aos="fade-left"

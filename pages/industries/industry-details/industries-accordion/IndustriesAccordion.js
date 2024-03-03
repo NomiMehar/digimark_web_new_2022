@@ -17,7 +17,7 @@ export default function IndustriesAccordion() {
             <div className="container flex flex-wrap">
                 <section>
                     <h2>Our <span>healthcare software</span> development services</h2>
-                    <p>We are ready to handle the full cycle of healthcare software development or join you at any stage of the project and help you.</p>
+                    <p>Our expertise in healthcare software development empowers us to seamlessly engage in projects at any stage, ensuring comprehensive support and success.</p>
                     <Image src={accordionBG} alt="image"/>
                 </section>
                 <section>
@@ -30,7 +30,7 @@ export default function IndustriesAccordion() {
                                 </AccordionItemButton>
                             </AccordionItemHeading>
                             <AccordionItemPanel>
-                                <p>Our consultants help medical organizations establish optimal digital environments by advising on the technologies that fit into your company’s ecosystem, helping choose solutions most suitable for your business, and drawing up an efficient plan for their implementation.</p>
+                                <p>We offer comprehensive consultancy services & our experienced consultants guide technology adoption, solution selection, and implementation planning, enabling you to establish optimal digital environments for enhanced operational efficiency and improved patient outcomes.</p>
                             </AccordionItemPanel>
                         </AccordionItem>
                         <AccordionItem>
@@ -41,7 +41,7 @@ export default function IndustriesAccordion() {
                                 </AccordionItemButton>
                             </AccordionItemHeading>
                             <AccordionItemPanel>
-                                <p>Our consultants help medical organizations establish optimal digital environments by advising on the technologies that fit into your company’s ecosystem, helping choose solutions most suitable for your business, and drawing up an efficient plan for their implementation.</p>
+                                <p>Our experts customize healthcare solutions that align with your business's objectives. We prioritize industry standards, security, and best practices to deliver high-quality applications tailored to your specific needs.</p>
                             </AccordionItemPanel>
                         </AccordionItem>
                         <AccordionItem>
@@ -52,7 +52,7 @@ export default function IndustriesAccordion() {
                                 </AccordionItemButton>
                             </AccordionItemHeading>
                             <AccordionItemPanel>
-                                <p>Our consultants help medical organizations establish optimal digital environments by advising on the technologies that fit into your company’s ecosystem, helping choose solutions most suitable for your business, and drawing up an efficient plan for their implementation.</p>
+                                <p>We enhance connectivity in healthcare IT systems by seamlessly integrating your software with external applications, prioritizing interoperability and data security. Our solutions streamline the adoption of future extensions, enabling value-driven enhancements in the long run.</p>
                             </AccordionItemPanel>
                         </AccordionItem>
                         <AccordionItem>
@@ -63,7 +63,7 @@ export default function IndustriesAccordion() {
                                 </AccordionItemButton>
                             </AccordionItemHeading>
                             <AccordionItemPanel>
-                                <p>Our consultants help medical organizations establish optimal digital environments by advising on the technologies that fit into your company’s ecosystem, helping choose solutions most suitable for your business, and drawing up an efficient plan for their implementation.</p>
+                                <p>We help healthcare companies maintain the optimal functionality, adaptability, and affordability of their software. We offer comprehensive support services, including continuous 24/7 performance monitoring, timely upgrades, and personalized enhancements.</p>
                             </AccordionItemPanel>
                         </AccordionItem>
                         <AccordionItem>
@@ -74,7 +74,7 @@ export default function IndustriesAccordion() {
                                 </AccordionItemButton>
                             </AccordionItemHeading>
                             <AccordionItemPanel>
-                                <p>Our consultants help medical organizations establish optimal digital environments by advising on the technologies that fit into your company’s ecosystem, helping choose solutions most suitable for your business, and drawing up an efficient plan for their implementation.</p>
+                                <p>We facilitate healthcare organizations in modernizing outdated systems through upgrades, enhancements, or complete transformations. Our skilled developers ensure improved security, reliability, and adherence to current industry standards, delivering enhanced software solutions</p>
                             </AccordionItemPanel>
                         </AccordionItem>
                     </Accordion>

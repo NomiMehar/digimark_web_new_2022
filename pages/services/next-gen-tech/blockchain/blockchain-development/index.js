@@ -26,7 +26,7 @@ export default function BlockchainDevelopment () {
                     </span>,
                 ]}
                 bannerTextWrap={[
-                    <p>We design and develop <span>custom blockchain solutions</span> using <span>Hyperledger, EVM, Solidity, Cosmos or Substrate</span>. Building business logic to running blockchain nodes, we understand how to develop a decentralized platform for NFTs, <span>bridges, DEX, metaverse, tokens and dApps</span>.</p>,
+                    <p>We offer <span>Blockchain development services</span> that help businesses maximize their effectiveness and data security. Unleash new opportunities with <span>DigiMark Developers,</span> streamline the operations of the business, and revolutionize your business for a better future.</p>,
                 ]}
             />
             <ShopSolutions/>

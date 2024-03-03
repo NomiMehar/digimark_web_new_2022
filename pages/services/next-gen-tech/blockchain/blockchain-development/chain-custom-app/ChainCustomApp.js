@@ -13,7 +13,7 @@ export default function ChainCustomApp() {
                 <div className={`section_title white ${style.title}`} data-aos="fade-left"
                                         data-aos-duration="2000">
                     <h2>Top <span>Blockchain Development</span> Company That Build’s Custom Apps</h2>
-                    <p>Lorem ipsum dolor sit amet consectetur. Et feugiat pretium ultricies purus ut nunc a. Proin neque amet sed dolor. Non integer arcu sit imperdiet vitae id purus. Nunc leo est ornare donec. Convallis non praesent tristique habitant duis bibendum. In fermentum nibh ultrices pharetra.</p>
+                    <p> Looking for experts to develop the Best Blockchain app? With extensive experience in cryptocurrency wallets, decentralized exchanges, and more, we offer complete support throughout the project life cycle. Our software solutions are designed with your business's growth in mind, ensuring scalability and robustness. Trust us to deliver results that meet your objectives!</p>
                 </div>
                 <div className={style.chain_custom_app}>
                     <ul className="list-none flex flex-wrap">

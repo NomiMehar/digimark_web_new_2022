@@ -19,7 +19,7 @@ export default function WhyAR() {
                         <Image src={mainImage} alt="mainImage"/>
                     </figure>
                     <div className={style.why_ar_content} data-aos="fade-right" data-aos-duration="2000">
-                        <p>The trending technologies with unmatchable features make wonders to multiple industry verticals. It enhances your business progress better, as compared to the other emerging technologies. Experience the digital and virtual world in the real world which brings the following importance to your business</p>
+                        <p>AR, VR, and MR are trending technologies with unmatched features that can bring significant benefits to various industries. By enabling businesses to experience the digital and virtual world in the real world, they can improve productivity, enhance customer engagement, and open up new opportunities for growth.</p>
                         <ul className="list-none">
                             <li><span>Enhance business efficiency</span></li>
                             <li><span>Enhance sales and generate revenue</span></li>

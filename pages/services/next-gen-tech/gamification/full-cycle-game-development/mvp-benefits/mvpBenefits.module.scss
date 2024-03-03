@@ -1,0 +1,110 @@
+@import "../../../../../../styles/variables";
+.mvp_benefits_wrap {
+  padding: 100px 0;
+  background-color: #F3F6FF;
+  @media (max-width: $breakpoint_tablet) {
+    padding: 60px 0 60px;
+  }
+  .mvp_benefits_list {
+    h2 {
+      margin: 0;
+      font-size: 48px;
+      line-height: 1.5;
+      @media (max-width: $breakpoint_laptop) {
+        font-size: 34px;
+      }
+      @media (max-width: $breakpoint_mobile_landscape) {
+        br { display: none}
+        font-size: 30px;
+      }
+      span {
+        background-color: #6BB64A;
+        padding: 0 5px;
+        color: #FFFFFF;
+      }
+    }
+    & > p {
+      margin: 0 0 68px;
+      font-size: 24px;
+      line-height: 36px;
+      width: 50%;
+      @media (max-width: $breakpoint_laptop) {
+        font-size: 20px;
+        line-height: 30px;
+      }
+      @media (max-width: $breakpoint_mobile_landscape) {
+        width: 100%;
+      }
+      span {
+        font-family: "Apercu-Bold", sans-serif;
+        color: #6BB64A;
+      }
+    }
+    ul {
+      margin: 0 -16px;
+      @media (max-width: $breakpoint_laptop) {
+        margin: 0 -10px;
+      }
+      li {
+        width: 20%;
+        padding: 0 16px;
+        margin: 10px 0;
+        @media (max-width: $breakpoint_laptop) {
+          padding: 0 10px;
+        }
+        @media (max-width: $breakpoint_tablet) {
+          width: 50%;
+          margin-bottom: 20px;
+        }
+        @media (max-width: $breakpoint_mobile_landscape) {
+          width: 100%;
+        }
+        &:nth-child(odd){
+          section {
+            background-color: #6BB64A;
+            h3,p,span {
+              color: #FFFFFF;
+            }
+          }
+        }
+        section {
+          height: 100%;
+          padding: 30px;
+          background-color: #FFFFFF;
+          box-shadow: 0 100px 80px rgba(0, 0, 0, 0.07), 0 30.1471px 24.1177px rgba(0, 0, 0, 0.0456112), 0 12.5216px 10.0172px rgba(0, 0, 0, 0.035), 0 4.5288px 3.62304px rgba(0, 0, 0, 0.0243888);
+          border-radius: 20px;
+          position: relative;
+          @media (max-width: $breakpoint_laptop) {
+            padding: 20px;
+          }
+          h3 {
+            font-size: 25px;
+            line-height: 36px;
+            margin: 0 0 10px;
+            @media (max-width: $breakpoint_laptop) {
+              br { display: none}
+              font-size: 20px;
+              line-height: 30px;
+            }
+          }
+          p {
+            margin: 0 0 15px;
+            font-size: 20px;
+            line-height: 30px;
+            @media (max-width: $breakpoint_laptop) {
+              font-size: 16px;
+              line-height: 26px;
+            }
+          }
+          span {
+            position: absolute;
+            right: 30px;
+            bottom: 20px;
+            color: #1D4354;
+            font-family: "Apercu", sans-serif;
+          }
+        }
+      }
+    }
+  }
+}

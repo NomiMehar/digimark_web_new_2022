@@ -15,12 +15,12 @@ export default function DefiBenefits (props) {
               <div className={style.defi_benefits}>
                   <div className={style.left_section}>
                       <ul className={`list-none flex flex-wrap ${style.benefits_boxes}`} data-aos="fade-left" data-aos-duration="2000">
-                          <li><section>Global Access</section></li>
-                          <li><section>Global Access</section></li>
-                          <li><section>Global Access</section></li>
-                          <li><section>Global Access</section></li>
-                          <li><section>Global Access</section></li>
-                          <li><section>Global Access</section></li>
+                          <li><section>Automation</section></li>
+                          <li><section>Smart Contract</section></li>
+                          <li><section>No Third Party Intervention</section></li>
+                          <li><section> High Security</section></li>
+                          <li><section> Investment Plans</section></li>
+                          <li><section>Pseudonymous Transactions</section></li>
                       </ul>
                   </div>
                   <div className={`section_title ${style.section_title}`} data-aos="fade-right" data-aos-duration="2000">
@@ -31,11 +31,11 @@ export default function DefiBenefits (props) {
               </div>
               <div className={style.benefits} data-aos="fade-down" data-aos-duration="2000">
                   <ul className={`list-none flex flex-wrap ${style.benefits_boxes}`}>
+                      <li><section>Transparent Protocols</section></li>
+                      <li><section>Interoperability</section></li>
                       <li><section>Global Access</section></li>
-                      <li><section>Global Access</section></li>
-                      <li><section>Global Access</section></li>
-                      <li><section>Global Access</section></li>
-                      <li><section>Global Access</section></li>
+                      <li><section>Faster Settlement</section></li>
+                      <li><section>Liquidity</section></li>
                   </ul>
               </div>
           </div>

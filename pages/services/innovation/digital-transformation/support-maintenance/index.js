@@ -24,7 +24,9 @@ export default function index() {
                <span><strong>Support & Maintenance</strong></span>
            ]}
            bannerTextWrap={[
-               <p>If you want to further scale your project, implement new features, or update legacy code with modern technologies, our <span>Customer Care department</span> is ready to help. Our application maintenance & support services have been created to improve and extend the lifetime of your solution.</p>,
+               <p>Scale your project with our dedicated Support team for any type of project expansion, feature integration, or technology upgrades. 
+               Our <span>maintenance and support services</span> are basically designed to enhance and prolong the lifespan of your solution.
+               </p>,
            ]}
            SideImage={true}
            dynamicCTA={true}
@@ -43,7 +45,7 @@ export default function index() {
            classes="ios_perks"
            exclass="support_wrapper"
            newTitle={[<h2>What we do in Software <span>Support & Maintenance</span></h2>]}
-           newDescription={[<p>We offer full-featured supplemental services to build agile solutions that offer continuous and flexible support to build the right bridge between software development and business operations.</p>]}
+           newDescription={[<p>We provide a wide array of additional services that enable the creation of agile solutions, delivering continuous & flexible support to establish a seamless connection between software development & the operational aspects of the business.</p>]}
            activeImage={true}
        />
        <MaintenanceSupport/>

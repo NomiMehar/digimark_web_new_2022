@@ -19,7 +19,7 @@ export default function NftTechStack() {
                             <h2>Our NFT Marketplace <br/>Development <span>Tech Stack</span></h2>
                         </div>
                         <p data-aos="fade-right"
-                    data-aos-duration="2000">Our NFT development company creates reliable NFT tokens and exchange platforms swiftly. Our NFT experts work together in different technological aspects towards the sole purpose of developing robust NFT platforms.</p>
+                    data-aos-duration="2000">DigiMark offers expertise in creating smart contracts tailored perfectly to diverse industries & business models.  Our skilled developers have extensive experience in creating an outstanding computer-based protocol to automate business agreements. </p>
                     </section>
                     <Link href="/" className={`contact_btn ${style.contact_btn}`} data-aos="fade-left"
                     data-aos-duration="2000">GET FREE CONSULTATION <img src="/assets/images/homepage/lets_talk/arrow.svg" alt="arrow" /></Link>

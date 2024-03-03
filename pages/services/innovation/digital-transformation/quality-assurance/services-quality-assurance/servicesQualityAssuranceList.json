@@ -1,32 +1,32 @@
 [
   {
     "title": "Functional & User Acceptance",
-    "description": "With a penetration test, we evaluate the security of an IT infrastructure by trying to exploit its vulnerabilities. The vulnerabilities may exist in the operating systems, services and application flaws, improper configurations, or end-user behaviour.",
+    "description": "During User Acceptance Testing, we document a series of test procedures to validate the fulfillment of specific application requirements. Our focus shifts to functional testing, where we thoroughly examine whether the software aligns with the prescribed specifications.",
     "list": [
-      "Decrease costs",
-      "Decrease costs",
-      "Decrease costs",
-      "Decrease costs"
+      "Imitating real-life scenarios",
+      "Facilitating SDLC",
+      "Better industry standards",
+      "Detecting and resolving issues"
     ]
   },
   {
     "title": "Automation Testing",
-    "description": "With a penetration test, we evaluate the security of an IT infrastructure by trying to exploit its vulnerabilities. The vulnerabilities may exist in the operating systems, services and application flaws, improper configurations, or end-user behaviour.",
+    "description": "To accelerate testing processes and ensure consistent outcomes, we leverage advanced automation tools and software. This approach guarantees reliable results while minimizing the time & effort required for manual testing.",
     "list": [
-      "Decrease costs",
-      "Decrease costs",
-      "Decrease costs",
-      "Decrease costs"
+      "Test automation roadmap",
+      "Optimal tool selection",
+      "Integration of automated test data preparation",
+      "Maintenance of automated test scripts"
     ]
   },
   {
     "title": "Web Services Testing",
-    "description": "With a penetration test, we evaluate the security of an IT infrastructure by trying to exploit its vulnerabilities. The vulnerabilities may exist in the operating systems, services and application flaws, improper configurations, or end-user behaviour.",
+    "description": "Web services undergo rigorous evaluation using advanced software tools. This testing phase focuses on ensuring the API's functionality, performance, reliability, and security, contributing to a robust and seamless user experience.",
     "list": [
-      "Decrease costs",
-      "Decrease costs",
-      "Decrease costs",
-      "Decrease costs"
+      "Assessing APIs functionality",
+      "Verifying performance",
+      "Testing end-to-end functionality",
+      "Conducting manual & automated tests"
     ]
   }
 ]

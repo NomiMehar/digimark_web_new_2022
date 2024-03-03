@@ -31,7 +31,7 @@ export default function index() {
                     dynamicCTA={true}
                     ctaText="Request a quote"
                     bannerTextWrap={[
-                        <p>We’re an industry leader in <span>mobile game development</span> with an established track record for delivering immersive.</p>,
+                        <p><span>DigiMark Developers</span> is the leading <span>NFT Game Development</span> Company that provides the best NFT gaming platform development to boost business growth.</p>,
                     ]}
                 />
                 <LeadingEnterprises
@@ -59,7 +59,12 @@ export default function index() {
                     0: {
                         slidesPerView: 1,
                     },
-                }} />
+                }}
+                description="Get the fun and interactive games with the help of DigiMark Developers. Our work speaks about our dedication and creativity. Connect now and enjoy immersive game opportunities."
+                title={[
+                    "Our", " ",<span>Creative NFT</span>," ", "Projects"
+                   ]}
+                />
                 <WhyNFTGame />
                 <Faqs />
                 <GetQuote />

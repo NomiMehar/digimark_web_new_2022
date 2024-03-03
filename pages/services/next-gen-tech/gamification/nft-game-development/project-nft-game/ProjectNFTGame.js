@@ -13,8 +13,8 @@ export default function ProjectNFTGame(props) {
             <div className={` ${style[props.extraClass]} ${style.project_nft_game}`}>
                 <div className="container">
                     <div className="section_title">
-                        <h2>Our <span>Creative NFT Game</span> Projects</h2>
-                        <p>We have created many immersive and interactive games across various genres like adventure, action, board, arcing, shooting, real money games, etc.</p>
+                        <h2>{props.title}</h2>
+                        <p>{props.description}</p>
                     </div>
                     <div className={`project_nft_slide ${style.project_nft_slide}`}>
                         <Swiper

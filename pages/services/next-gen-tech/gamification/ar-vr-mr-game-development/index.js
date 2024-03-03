@@ -5,8 +5,9 @@ import Faqs from '../../../innovation/mobility/android-app-development/faq/Faqs'
 import bannerSideImage from "../../../../../public/assets/images/services/pc-game.png"
 import EnterpriseServices
     from "../../../innovation/digital-transformation/enterprise-software-development/enterprise-services/EnterpriseServices";
+import arserviceList from '../../../innovation/digital-transformation/enterprise-software-development/enterprise-services/arServicesList.json'
 import BenefitsSupport
-    from "../../../innovation/digital-transformation/support-maintenance/benefits-support/BenefitsSupport";
+    from "./benefits-support/BenefitsSupport";
 import PortfolioProducts
     from "../../../innovation/digital-transformation/product-development/portfolio-of-products/PortfolioProducts";
     import ProcessPcGame from '../pc-game-development/process-pc-game/ProcessPcGame'
@@ -24,7 +25,7 @@ export default function index() {
         breadcrumChild="NFT Game Development"
         bannerTitle={[
             <span>
-                <strong>Unreal Engine</strong>
+                <strong>AR/VR/MR</strong>
             </span>, " Game", <br/>, " Development Company"
         ]}
         SideImage={true}
@@ -32,14 +33,25 @@ export default function index() {
         dynamicCTA={true}
         ctaText="Request a quote"
         bannerTextWrap={[
-            <p>We’re an industry leader in <span>mobile game development</span> with an established track record for delivering immersive  and captivating Mobile games for some of the largest and most cutting-edge businesses across the world</p>,
+            <p>Get the finest <span>AR/VR/MR game development</span> services to make your dreams come true. By getting <span>top-notch services</span> we assist all businesses to connect with the audience effectively. Elevate your brand image now!</p>,
         ]}
     />
    <BenefitsSupport extraClass="ar_vr_benefits" />
    <EnterpriseServices
        extraClass="ar_vr_services"
+       title={[
+        <span>AR/VR & MR App</span>, <br/>,
+        "Development Services"        
+       ]}
+       enterpriseServicesList={arserviceList}
    />
-   <UnrealStack/>
+   <UnrealStack 
+   title={[
+    "OUR AR/VR & MR ", <br/>,
+    <span>Technology Stack</span>
+    ]}
+    description="Our experts have years of experience in making AR/VR software solutions for iOS, Android, and other devices as well. We have the capability and brilliance in the advanced tools and technologies. Get in touch with our talented team and build the best app according to your requirements."   
+   />
        <PortfolioProducts classes="ar_vr_portfolio"/>
        <ProcessPcGame/>
        <ServicesCompany

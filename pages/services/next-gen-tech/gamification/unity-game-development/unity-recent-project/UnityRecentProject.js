@@ -14,7 +14,7 @@ export default function UnityRecentProject() {
             <div className={style.unity_recent_project}>
                 <div className="section_title">
                     <h2><span>Our Recent Projects</span></h2>
-                    <p>We’ve designed and developed tons of exciting titles that make <br/> gameplay fun for everyone.</p>
+                    <p>Take a look at our best services to learn more about us</p>
                 </div>
                 <div className={`unity_recent_slide ${style.unity_recent_slide}`}>
                     <Swiper

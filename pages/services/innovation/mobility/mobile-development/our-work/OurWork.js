@@ -18,7 +18,7 @@ export default function OurWork(props) {
                      data-aos-duration="1000"
                 >
                     <h2><span>Some of our works</span></h2>
-                    <p>Enjoy the benefits of owning a mobile application! Be relevant and competitive thanks to technology opportunities!</p>
+                    <p>{props.description}</p>
                 </div>
                 <div className={`work_slide ${style.work_slide}`}>
                     <Swiper

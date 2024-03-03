@@ -8,15 +8,18 @@ export default function AboutUnityGame() {
                 <div className="container">
                     <div className={`section_title ${style.section_title}`}>
                         <h2>Unity Game Development <br/><span>Advantages</span></h2>
-                        <p>We are a One-Stop-Shop Unity 3D Game Development Company that will transform your dream game into reality. With the help of innovative and relevant solutions, we deliver the client’s wishes and increase player engagement and game downloads.</p>
+                        <p>If you are aspiring to have an end-to-end game design with the best features support and maintenance then you have come to the right place. Reasons to get your Unity game development services from us.</p>
                     </div>
                     <section>
                         <ul className="list-none list-style-arrow-two">
-                            <li>Deep knowledge of Unreal game development.</li>
-                            <li>Rich Experience in Gaming Industry</li>
-                            <li>Faster Delivery</li>
-                            <li>Robust Technologies and advanced techniques</li>
-                            <li>Communication & Transparency</li>
+                            <li>Fast Unity Game Development Speed</li>
+                            <li>Enjoy Free and Paid versions</li>
+                            <li>Helpful Community</li>
+                            <li>High-Quality Visuals</li>
+                            <li>Augmented and Virtual Reality</li>
+                            <li>Provides multiple development tools</li>
+                            <li>Implementing game functionality</li>
+                            <li>Complete the tutorial and guide</li>
                         </ul>
                     </section>
                 </div>

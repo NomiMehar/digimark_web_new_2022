@@ -10,11 +10,10 @@ export default function AboutPcGame() {
                 <div className="container flex">
                     <section>
                         <h2>We develop excellent <span>games for PC</span></h2>
-                        <p>Brief Introduction to Computer Game Design and Development for PCs.Computer game design and development art is a long and complicated process. And it has a lot of various benefits when selling your game and making money.</p>
+                        <p>Being a PC Game Development Company, we are committed to providing amazing PC games and unforgettable gaming experiences. We ensure complete transparency, communication, & responsiveness. So, what are you waiting for? Contact now</p>
                         <ul className="list-none list-style-arrow-two">
-                            <li>Billions of people all around the world play games on their laptops and workstation. And each year this number grows faster and faster.</li>
-                            <li>That is impossible to ignore the market which has such a huge potential in the modern world.</li>
-                            <li>People spend more and more time online, more time playing games, more money on digital goods, for the youngest generation video games is an inalienable part of their lives.</li>
+                            <li> Millions of users are getting phenomenal gaming experiences and the number of users is increasing every year with DigiMark Developer’s services.</li>
+                            <li> Gaming has become an integral part of youngsters as they spend most of their time on mobile phones and laptops. However, At DigiMark Developers you get to experience a new world of gaming that keeps you engaged with every step of it.</li>
                         </ul>
                     </section>
                     <Image src={aboutImage} alt="img"/>

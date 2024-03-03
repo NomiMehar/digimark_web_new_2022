@@ -13,7 +13,7 @@ export default function SmartIndustries (props) {
            data-aos-duration="2000">
              <div className="container">
              <h2><span>Smart Contract Development</span> By Industries</h2>
-              <p>Let’s explore for what industries we provide smart contract development services</p>
+              <p>We are a trusted smart contract development company that has served worldwide clientele from diverse industry verticals.</p>
              </div>
           </div>
           <div className="container">

@@ -36,7 +36,8 @@ export default function CaseStudy(props) {
                                     <h3>{caseStudyTitle}</h3>
                                   {
                                     props.classProp === "ios_casestudy" ?
-                                        <p>Socio is a hyperlocal chatting platform that allows users to talk about anything that affects their daily lives, such as politics, sports, babysitters, groceries, sewage and drainage, crime, and so on.</p> : ""
+                                        <p>We successfully addressed client threats & offered them the best Custom Software Solutions where they were able to keep records of the patients, billing, appointments, and other administrative tasks. 
+                                        </p> : ""
                                   }
                                     <Link href="pages/services/innovation/mobility/android-app-development/case-study/CaseStudy#" className={`contact_btn ${style.contact_btn}`}>Read Our Case Study <Image src={whiteArrow} alt={whiteArrow} width={13} height={16} /></Link>
                                 </div>

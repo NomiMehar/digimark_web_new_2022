@@ -21,7 +21,7 @@ export default function DappDevelopment () {
                 breadcrumParent="Next-Gen Tech"
                 breadcrumChild="DApp Development"
                 bannerTitle={[
-                    "Providing Growth ", <br/>, <small>to Businesses With</small>, "Custom ", <span>DApp Services</span>,
+                    "EMPOWERING ", <br/>, <small> Businesses With</small>, "Custom ", <span>DApp Services</span>,
                 ]}
             />
             <DappBenefits/>

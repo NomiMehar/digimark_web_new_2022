@@ -25,7 +25,7 @@ export default function ArVrDevelopment () {
                     </span>," Development",
                 ]}
                 bannerTextWrap={[
-                    <p>Experience The Magic Of Reality-Based Technology For Your Company</p>,
+                    <p>Step into the magical world of AR/VR projects and elevate your business. </p>,
                 ]}
             />
             <WhyAR/>
@@ -34,7 +34,7 @@ export default function ArVrDevelopment () {
                     "Our Best ", <span>AR/VR & MR</span>, <br/>, " Development Services",
                 ]}
                 sectionDescription={[
-                    "We are a renowned AR & VR development company that merges experience with creativity to deliver highly-immersive applications.",
+                    "Being one of the leading Virtual Reality App Companies, we create highly immersive software solutions that raise the prestige of brands.",
                 ]}
                 serviceList={ArServicesList}
             />

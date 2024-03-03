@@ -15,7 +15,7 @@ export default function BespokeSolution() {
                         <h4>Why Do You Need Bespoke Software Solutions ? </h4>
                     </div >
                     <div className={style.bespoke_reason} data-aos="fade-top" data-aos-duration="2000">
-                        <p>Building bespoke software requires time and investment.Is it worth the effort and investment ? Here are the reasons why it is :</p>
+                        <p>Bespoke software development services offer authority over products, making it an ideal choice for those seeking to captivate customers with the best solutions.</p>
                     </div>
                     <ul className='flex flex-wrap list-none'>
                         {bespokeSolutionList.map(({img,description},index)=>{
@@ -27,7 +27,7 @@ export default function BespokeSolution() {
                             )
                         })}
                     </ul>
-                        <span data-aos="fade-right" data-aos-duration="2000">Our bespoke software development agency has all the required knowledge and experience to build a unique solution, allowing you to reap all those benefits.</span>
+                        <span data-aos="fade-right" data-aos-duration="2000">Our company excels in bespoke software development, leveraging skills & expertise to create a distinctive solution that unlocks numerous advantages for businesses.</span>
                 </div>
             </div >
         </>

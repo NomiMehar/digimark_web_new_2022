@@ -13,7 +13,7 @@ export default function SmartBenefits(props) {
           <div className="section_title" data-aos="fade-up"
                                         data-aos-duration="2000">
             <h2><span>Benefits of Smart Contracts</span><br/> for Your Business</h2>
-            <p>Embrace the power of smart contracts to automate the execution of operations in your organization.</p>
+            <p>Automate the operations within the business and leap to success with a Smart Contract Development Company.</p>
           </div>
           <div className={`${style.smart_contract_wrapper}`}>
             <ul className="list-none flex flex-wrap">

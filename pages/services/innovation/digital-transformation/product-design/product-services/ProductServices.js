@@ -37,7 +37,7 @@ export default function ProductServices (props) {
         <div className={`main_section_title white_title ${style.title}`}>
         <span>Our services</span>
         <h2>Maxmise your returns</h2>
-        <p>Improved usability. More leads. Sales growth. Business process automation. We help clients grow.</p>
+        <p>Unlock the full potential of YOUR business with our comprehensive range of services designed to maximize returns.</p>
         <Image className={style.xd} src="/assets/images/services/xd.svg" width={20} height={20} alt="xd"/>
         </div>
         <ul className='list-none flex flex-wrap'>

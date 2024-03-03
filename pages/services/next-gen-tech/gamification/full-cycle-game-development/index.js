@@ -3,16 +3,15 @@ import GetQuote from '../../../../../components/get-quote/GetQuote'
 import MobilityBanner from '../../../innovation/mobility/android-app-development/android-app-banner/MobilityBanner'
 import Faqs from '../../../innovation/mobility/android-app-development/faq/Faqs'
 import bannerSideImage from "../../../../../public/assets/images/services/ai-game.png"
-import MvpBenefits from '../../../innovation/digital-transformation/mvp-development/mvp-benefits/MvpBenefits'
-import ProcessPcGame from '../pc-game-development/process-pc-game/ProcessPcGame'
+import MvpBenefits from './mvp-benefits/MvpBenefits'
 import TechnologiesPcGame from '../pc-game-development/technologies-pc-game/TechnologiesPcGame'
 import ArCallAction from '../../blockchain/ar-vr-development/call-to-action/ArCallAction'
 import MetaverseExperience from '../../blockchain/metaverse-development/metaverse-experience/MetaverseExperience'
 import ArIndustries from '../../blockchain/ar-vr-development/ar-industries/ArIndustries'
-import NftProcess from '../../blockchain/nft-development/nft-process/NftProcess'
+import NftProcess from './nft-process/NftProcess'
 import OurWork from '../../../innovation/mobility/mobile-development/our-work/OurWork'
 import ourWorkList from '../../../innovation/mobility/mobile-development/our-work/OurWorkLists.json'
-import NftWhyChoose from '../../blockchain/nft-development/nft-why-choose/NftWhyChoose'
+import NftWhyChoose from './nft-why-choose/NftWhyChoose'
 export default function index() {
   return (
   <>
@@ -32,12 +31,11 @@ export default function index() {
         dynamicCTA={true}
         ctaText="Request a quote"
         bannerTextWrap={[
-            <p>Experts at every stage of <span>full cycle game development</span>, ranging from pre-production to certification, release and live-ops across all platforms</p>,
+            <p>Enjoy <span>Full-Cycle game development</span> services with <span>DigiMark Developers</span> that keep users coming back. <span>Connect with us</span> and let us lead your project through every stage till its release successfully.</p>,
         ]}
     />
     <MvpBenefits/>
-    <ProcessPcGame extraClass="bgColor"/>
-    <TechnologiesPcGame extraClass="cycle_technology" />
+    {/* <TechnologiesPcGame extraClass="cycle_technology" /> */}
     <ArCallAction
                 callTile={[
                     <h2>Have an idea and desire to release
@@ -65,8 +63,10 @@ export default function index() {
                 slidesPerView: 1,
               },
             },
-          }}/>
-        <NftWhyChoose classes="cycle_choose" />
+          }}
+          description="Welcome to the world of our work where we have shown our full-cycle game development services. Take a look and get stunned."
+          />
+        <NftWhyChoose description="DigiMark Developers needs to be your first choice as we have experts who develop full-cycle games of any industry. Following are the reasons you should contact us"  classes="cycle_choose" />
     <Faqs/>
     <GetQuote/>
     </div>

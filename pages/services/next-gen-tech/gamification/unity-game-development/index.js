@@ -11,7 +11,7 @@ import UnityGameStack from "./unity-game-stack/UnityGameStack";
 import UnityWork from "./unity-work/UnityWork";
 import UnityWorkBox from "./unity-work-box/UnityWorkBox";
 import UnityRecentProject from "./unity-recent-project/UnityRecentProject";
-
+import unityWorkBoxLists from './unity-work-box/unityWorkBoxList.json'
 export default function index() {
   return (
   <>
@@ -30,7 +30,7 @@ export default function index() {
         dynamicCTA={true}
         ctaText="Request a quote"
         bannerTextWrap={[
-            <p>Digi<span>Mark</span> Developers is a leading Unity 3D game development company. Our certified unity game developers turns creative gaming ideas into the reality and provide innovative gaming solutions with highly customized graphics for mobile, PC, browser, consoles, & AR/VR.</p>,
+            <p>Explore the <span>Unity Game Development</span> services at <span>DigiMark Developers</span> by our experts and enjoy a splendid gaming experience with ingenious solutions. Transform your dreams into a top-notch game application by giving advanced <span> gaming solutions and help.</span></p>,
         ]}
     />
        <AboutUnityGame/>
@@ -39,7 +39,7 @@ export default function index() {
            servicesProvidedList={servicesProvidedList}
            sectionTitle={[
                <h2>Bringing Innovation <br/>
-                   With <span>Our Services</span></h2>, <p>We develop <br/>world-class unity games</p>
+                   With <span>Our Services</span></h2>
            ]}
        />
        <div className="unreal_video_bg unity_video_bg">
@@ -56,7 +56,12 @@ export default function index() {
        <UnityGameStack/>
        <UnityWork/>
        <UnityRecentProject/>
-       <UnityWorkBox/>
+       <UnityWorkBox title={[
+                    "Why Digi ",<span>Mark</span>, " Developers.",
+                      <span>The Best Unity Game Development Company</span>,"?"
+                   ]}
+                   unityWorkBoxList={unityWorkBoxLists}
+                   />
     <Faqs/>
     <GetQuote/>
     </div>

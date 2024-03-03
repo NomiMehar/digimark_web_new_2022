@@ -70,8 +70,8 @@ export default function CaseStudyIosTwo () {
                         <div className="split left" data-aos="fade-left" data-aos-duration="1000">
                             <article className="centered content-wrapper">
                                 <span>Case Study</span>
-                                <h2>Food Ordering App For Restaurants Network</h2>
-                                <p>Socio is a hyperlocal chatting platform that allows users to talk about anything that affects their daily lives, such as politics, sports, babysitters, groceries, sewage and drainage, crime, and so on.</p>
+                                <h2>Optimized Healthcare Management System</h2>
+                                <p>We successfully addressed client threats & offered them the best Custom Software Solutions where they were able to keep records of the patients, billing, appointments, and other administrative tasks.</p>
                                 <Link href="/pages" className="contact_btn">Read Our Case Study <Image src={whiteArrow} alt={whiteArrow} width={13} height={16} /></Link>
                             </article>
                         </div>
@@ -83,8 +83,8 @@ export default function CaseStudyIosTwo () {
                         <div className="split left">
                             <article className="centered content-wrapper">
                                 <span>Case Study</span>
-                                <h2>Food Ordering App For Restaurants</h2>
-                                <p>Socio is a hyperlocal chatting platform that allows users to talk about anything that affects their daily lives, such as politics, sports, babysitters, groceries, sewage and drainage, crime, and so on.</p>
+                                <h2>Optimized Healthcare Management System</h2>
+                                <p>We successfully addressed client threats & offered them the best Custom Software Solutions where they were able to keep records of the patients, billing, appointments, and other administrative tasks.</p>
                                 <Link href="/pages" className="contact_btn">Read Our Case Study <Image src={whiteArrow} alt={whiteArrow} width={13} height={16} /></Link>
                             </article>
                         </div>
@@ -96,8 +96,8 @@ export default function CaseStudyIosTwo () {
                         <div className="split left">
                             <article className="centered content-wrapper">
                                 <span>Case Study</span>
-                                <h2>Food Ordering App For Network</h2>
-                                <p>Socio is a hyperlocal chatting platform that allows users to talk about anything that affects their daily lives, such as politics, sports, babysitters, groceries, sewage and drainage, crime, and so on.</p>
+                                <h2>Optimized Healthcare Management System</h2>
+                                <p>We successfully addressed client threats & offered them the best Custom Software Solutions where they were able to keep records of the patients, billing, appointments, and other administrative tasks.</p>
                                 <Link href="/pages" className="contact_btn">Read Our Case Study <Image src={whiteArrow} alt={whiteArrow} width={13} height={16} /></Link>
                             </article>
                         </div>

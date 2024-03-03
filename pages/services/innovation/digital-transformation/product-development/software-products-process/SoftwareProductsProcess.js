@@ -1,5 +1,4 @@
 import style from "./softwareProductsProcess.module.scss"
-import softwareProductsProcessList from "./softwareProductsProcessList.json"
 import Image from "next/image";
 
 export default function SoftwareProductsProcess(props) {
@@ -8,12 +7,12 @@ export default function SoftwareProductsProcess(props) {
             <div className={` ${style[props.extraClass]} ${style.software_products_process}`}>
                 <div className="container">
                     <div className={`section_title ${style.section_title}`}>
-                        <h2>How we develop <br/><span>software products</span></h2>
+                        <h2>{props.title}</h2>
                     </div>
                     <div className={`flex direction-column ${style.software_products_list}`}>
                         <ul className="list-none">
                             {
-                                softwareProductsProcessList.map(({iconImage,title,description}, index)=>{
+                                props.softwareProductsProcessList.map(({iconImage,title,description}, index)=>{
                                     return(
                                         <li key={`plist-${index}`}>
                                             <section>

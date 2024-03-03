@@ -10,7 +10,7 @@ export default function AboutCloud() {
                     <Image src={aboutCloud} alt="aboutCloud"/>
                     <section>
                         <h2>Cloud & DevOps</h2>
-                        <p>Our Cloud and DevOps solution help establish and run efficient development operations that can balance service reliability and delivery speed. We have experience and process to help you choose and execute the right Cloud strategy and build software delivery pipelines, deploy and monitor services, and manage and learn from incidents.</p>
+                        <p>With our Cloud & DevOps Solutions, establish and maintain agile development operations by choosing and executing the right strategy, building software delivery pipelines, deploying and monitoring services, managing incidents, and learning from them to balance service reliability and delivery speed.</p>
                         <ul className="list-none">
                             <li>Maintenance and Support</li>
                             <li>Cloud Migration</li>

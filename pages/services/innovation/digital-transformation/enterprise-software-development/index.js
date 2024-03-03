@@ -12,7 +12,7 @@ import LeadingEnterprises from "../web-development/leading-enterprises/LeadingEn
 import bannerSideImage from "../../../../../public/assets/images/services/enterprice_banner_bg.png"
 import EnterpriseServices from "./enterprise-services/EnterpriseServices";
 import EnterpriseTool from "./enterprise-tools/EnterpriseTool";
-
+import serviceList from "./enterprise-services/enterpriseServicesList.json"
 export default function index() {
   return (
   <>
@@ -22,7 +22,7 @@ export default function index() {
         breadcrumParent="Innovation"
         breadcrumChild="Enterprise Software Development"
         bannerTitle={[
-            "Enable your business with",
+            "Empower your business with",
             <span>
                 <strong>Enterprise Software Development</strong>
             </span>
@@ -32,16 +32,22 @@ export default function index() {
         SideImage={true}
         bannerSideImage={bannerSideImage}
         bannerTextWrap={[
-            <p>Leveraging our decade-long expertise in <span>enterprise software development</span>, we develop and deliver next-generation enterprise applications to streamline your business processes and enhance customer experience.</p>,
+            <p>Leveraging our expertise in <span>enterprise software development,</span> we are dedicated to developing and delivering innovative enterprise applications to streamline your business operations and enhance customer experience.</p>,
         ]}
     />
     <LeadingEnterprises
         extraClass="enterprise_bg"
     />
     <BenefitsEsd/>
-    <EnterpriseServices/>
+    <EnterpriseServices title={[
+        "What we do in", <br/>,
+        <span>Enterprise Application Development</span>
+       ]}
+       description="Maximize operational efficiency with cutting-edge enterprise software development"
+       enterpriseServicesList={serviceList}
+       />
     <EnterpriseTool/>
-    <ServeEsd/>
+    <ServeEsd description="With our deep industry knowledge, we cater to a wide range of sectors, providing customized solutions that perfectly align with specific business requirements."/>
     <CallToQualityAssurance
        title={["Are you looking for " ,<span>Enterprise Software?</span>," Let give us your project now."]}
        classes="enterprise_bg"
@@ -52,7 +58,7 @@ export default function index() {
        classes="ios_perks"
        exclass="process_enter_wrapper"
        newTitle={[<h2>Our <span>Enterprise Software Development</span> Process</h2>]}
-       newDescription={[<p>We offer the best practices and full cycle enterprise software development solutions in a structured and systematic way. We start with deep analysis of business requirements and nurture the relationship with post-launch support and maintenance.</p>]}
+       newDescription={[<p>Our approach to enterprise development encompasses industry best practices & a comprehensive, step-by-step process. We begin by thoroughly analyzing business requirements & continue to provide ongoing support & maintenance to foster long-lasting partnerships.</p>]}
     />
     <PortfolioEsd/>
     <Faqs

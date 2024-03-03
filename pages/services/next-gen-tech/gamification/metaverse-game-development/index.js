@@ -4,7 +4,7 @@ import MobilityBanner from '../../../innovation/mobility/android-app-development
 import Faqs from '../../../innovation/mobility/android-app-development/faq/Faqs'
 import bannerSideImage from "../../../../../public/assets/images/services/metaverse_game_slide.png"
 import ServicesProvided from '../mobile-game-development/services-provided/ServicesProvided'
-import servicesProvidedList from '../mobile-game-development/services-provided/servicesProvidedList.json'
+import servicesProvidedList from '../mobile-game-development/services-provided/metaServicesProvidedList.json'
 import ServeEsd from '../../../innovation/digital-transformation/enterprise-software-development/serve-esd/ServeEsd'
 import ProcessQualityAssurance from '../../../innovation/digital-transformation/quality-assurance/process-quality-assurance/ProcessQualityAssurance'
 import ProjectNFTGame from '../nft-game-development/project-nft-game/ProjectNFTGame'
@@ -30,18 +30,18 @@ export default function index() {
                     dynamicCTA={true}
                     ctaText="Request a quote"
                     bannerTextWrap={[
-                        <p>We offers end-to-end services for those looking to hire <span>Metaverse Game Development Companies experienced in Metaverse, Blockchain, Unity3D, Unreal, PlayCanvas, VR, NFT, metaverse,</span> and more.</p>,
+                        <p><span>DigiMark Developers</span> is the leading <span>Metaverse Game Development</span> Company that develops exciting games. Our experts provide the best <span>Metaverse Game Development</span> Services with high-end technologies.</p>,
                     ]}
                 />
                 <MetaverseAdvantage classes="meta_advantage" />
                 <ServicesProvided
                     classes="pc_services"
                     servicesProvidedList={servicesProvidedList}
-                    sectionTitle={[<h2>Our <span>Metaverse Game Development</span> Solutions</h2>]}
+                    sectionTitle={[<h2>Our <span>Metaverse Game Development</span> Services</h2>]}
                 />
-                <ServeEsd extraClass="blockchain_serve" />
+                <ServeEsd description="With our deep industry knowledge, we cater to a wide range of sectors, providing customized solutions that perfectly align with specific business requirements." extraClass="blockchain_serve" />
                 <QuickFacts />
-                <ProcessQualityAssurance />
+                {/* <ProcessQualityAssurance /> */}
                 <ProjectNFTGame perView={1} breakpoints={{
                     1200: {
                         slidesPerView: 1,
@@ -55,7 +55,12 @@ export default function index() {
                     0: {
                         slidesPerView: 1,
                     },
-                }} extraClass="ai_games" />
+                }} extraClass="ai_games"
+                description="Our goal has always been to provide quality services and we have delivered more than 100+ successful projects to our clients. Take a look at our projects and get to know about our work!"
+                title={[
+                    "Our", " ",<span>AI Game Development</span>," ", "Projects"
+                   ]}
+                />
                 <NftWhyChoose classes="meta_choose" />
                 <Faqs />
                 <GetQuote />

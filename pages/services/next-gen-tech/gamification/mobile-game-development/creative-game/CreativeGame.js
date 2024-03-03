@@ -14,7 +14,7 @@ export default function CreativeGame() {
         <div className="container">
             <div className={`section_title ${style.section_title}`}>
                 <h2>Our <span>Creative Game</span> Projects</h2>
-                <p>We have created many immersive and interactive games across various genres like adventure, action, board, arcing, shooting, real money games, etc. Our primary focus is to develop stunning mobile games yet be user-friendly simultaneously.</p>
+                <p>We create interactive and fun games across numerous genres like action, adventure, fun, and much more. DigiMark Developers streamline your game idea and turn it into reality by paying heed to next-gen mobile gaming applications.</p>
             </div>
         </div>
         <div className={`creative_game_slider ${style.creative_game_slider}`}>

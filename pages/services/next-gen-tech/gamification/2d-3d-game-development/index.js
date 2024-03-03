@@ -30,7 +30,7 @@ export default function index() {
         dynamicCTA={true}
         ctaText="Request a quote"
         bannerTextWrap={[
-            <p>We’re an industry leader in <span>mobile game development</span> with an established track record for delivering immersive  and captivating Mobile games for some of the largest and most cutting-edge businesses across the world</p>,
+            <p>Enjoy the best <span>2D/3D gaming</span> experience at <span>DigiMark Developers</span>. Our experts have a proven track record of delivering <span> high-quality and attractive games</span>. Create your dream video games now by connecting with us.</p>,
         ]}
     />
     <BenefitsEsd

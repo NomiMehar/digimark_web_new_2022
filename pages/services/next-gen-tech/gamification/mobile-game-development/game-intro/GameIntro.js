@@ -10,7 +10,7 @@ export default function GameIntro() {
         <div className="container">
             <div className={`section_title ${style.section_title}`}>
                 <h2>Industry Leading <span>Game dev</span> & <span>art outsourcing</span></h2>
-                <p>DigiMark Developers is a leading game development company, providing premium quality game art and game development services to publishers and game developers since 2017. We also have a quality range of flexible offerings, including cybersecurity, software development, video production, VFX, art and animation, and more. Our team is a tight-knit group of seasoned producers, developers, software engineers, designers, and senior artists that are ready to go the extra mile to deliver incredible results.</p>
+                <p>Welcome to DigiMark Developers where you experience the world of gaming. Being a leading Mobile Game Development Company we continue to attract millions of games players around the globe. Our experts ensure quality services and this is what sets DIGIMARK DEVELOPERS apart. Our team is highly skilled motivated and committed to delivering the best mobile game solutions, together we make things possible and go above and beyond to turn dreams into reality. Get in touch for the incredible results.</p>
             </div>
             <div className={style.game_intro_text}>
                 <figure>

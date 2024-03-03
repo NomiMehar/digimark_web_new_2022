@@ -12,7 +12,9 @@ import GameProcess from '../mobile-game-development/game-process/GameProcess'
 import UnityWorkBox from '../unity-game-development/unity-work-box/UnityWorkBox'
 import IndustriesWeServe from '../../../innovation/digital-transformation/web-development/industries-we-serve/IndustriesWeServe'
 import QuickFacts from './QuickFacts/QuickFacts'
-
+import aiServiceList from '../../../innovation/digital-transformation/enterprise-software-development/enterprise-services/aiServicesList.json'
+import aiProcessList from '../mobile-game-development/game-process/gameProcessList.json'
+import aiWorkBoxList from '../unity-game-development/unity-work-box/aiWorkBoxList.json'
 export default function index() {
     return (
         <>
@@ -31,12 +33,18 @@ export default function index() {
                     dynamicCTA={true}
                     ctaText="Request a quote"
                     bannerTextWrap={[
-                        <p>We offer full-cycle <span>artificial intelligence development services</span>, as well as individual services for the design and implementation of in-game analytics or finite-state machine models. </p>,
+                        <p>Take complete benefit from our unparalleled <span>AI Game Development</span> services and take your gaming product to new heights. Revolutionize gaming with advanced services from <span>DigiMark Developers.</span></p>,
                     ]}
                 />
                 <QuickFacts />
                 <EnterpriseServices
                     extraClass="ai_services"
+                    description="Maximize operational efficiency with cutting-edge enterprise software development"
+                    title={[
+                        "Benefits of Using", <br/>,
+                        <span>AI in Game Development</span>
+                       ]}
+                       enterpriseServicesList={aiServiceList}
                 />
                 <ReliablePcGame
                     imgSrc="/assets/images/services/ai_reliable.png"
@@ -44,7 +52,7 @@ export default function index() {
         title={["Looking for a ", <span>reliable AI
         game development Company</span>]}
         description={[
-            "Talk to our team and discover how we can be a comprehensive end-to-end solution that meets your budget and deadline requirements."
+            "Find out how DigiMark Developers can be helpful to you by connecting with us. Get perfect solutions that meet your budget and deadline needs."
         ]} classes="ai_reliable" />
                 <IndustriesWeServe classes="ai_industries" />
                 <ProjectNFTGame perView={2} breakpoints={{
@@ -60,9 +68,26 @@ export default function index() {
                     0: {
                         slidesPerView: 1,
                     },
-                }} extraClass="ai_games" />
-                <GameProcess extraClass="ai_services" />
-                <UnityWorkBox extraClass="ai_unity" />
+                }} extraClass="ai_games"
+                description="Our goal has always been to provide quality services and we have delivered more than 100+ successful projects to our clients. Take a look at our projects and get to know about our work!"
+                title={[
+                    "Our", " ",<span>AI Game Development</span>," ", "Projects"
+                   ]}
+                />
+                <GameProcess 
+                description="Know about our workflow and processes for a better understanding of our work and team."
+                title={[
+                    <span>Process of</span>, " AI", <br/>, "Game Development"
+                   ]}
+                   gameProcessList={aiProcessList}
+                extraClass="ai_services" />
+                <UnityWorkBox
+                title={[
+                    "Why Digi ",<span>Mark</span>, " Developers.",
+                      <span>The Best Unity Game Development Company</span>,"?"
+                   ]}
+                   unityWorkBoxList={aiWorkBoxList}
+                extraClass="ai_unity" />
                 <Faqs />
                 <GetQuote />
             </div>

@@ -28,7 +28,7 @@ export default function index() {
                 <strong>SaaS Solutions</strong></span>, <br/>, <strong> Development</strong>
         ]}
         bannerTextWrap={[
-            <p>Moving to the cloud? Become an industry leader with a cost-effective and highly scalable SaaS solution.</p>,
+            <p>Looking for expert SaaS Dev? Get in touch with us as we build scalable apps & help in maintaining software solutions.</p>,
         ]}
         SideImage={true}
         bannerSideImage={bannerSideImage}

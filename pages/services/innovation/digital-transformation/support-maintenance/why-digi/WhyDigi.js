@@ -12,17 +12,17 @@ export default function WhyDigi() {
                 </figure>
                 <div className={style.why_digi_content}>
                     <div className={`section_title ${style.section_title}`}>
-                        <h2>Why <span>DigiMark Developers</span></h2>
+                        <h2>Why Choose <span>DigiMark</span> Software Support & Maintenance?</h2>
                     </div>
-                    <p>Lorem ipsum dolor sit amet consectetur. Commodo elementum dictum metus placerat euismod scelerisque vitae praesent nulla. Sit feugiat pellentesque vivamus pharetra at donec amet mattis quis. Duis amet amet id at amet. Nibh morbi nibh vel orci euismod ut amet. Feugiat vitae erat nibh semper. Condimentum sed ornare egestas pellentesque.</p>
+                    <p>Wish to implement new features in your project, or update legacy code with modern technologies, our Customer Care department is ready to help. Our application maintenance & support services have been created to improve and extend the lifetime of your solution.
+                    Through our strategic service components, we offer effective solutions to streamline process timelines, enabling you to achieve greater efficiency and reduce cycle times.
+                    </p>
                     <ul className="list-none list-style-arrow">
                         <li>Flexibility</li>
                         <li>Scalability</li>
                         <li>Effectiveness</li>
                         <li>Proactive monitoring</li>
-                        <li>Lorem ipsum dolor sit amet</li>
-                        <li>Lorem ipsum dolor sit</li>
-                        <li>Lorem ipsum dolor sit amet</li>
+                        <li>Reliability</li>
                     </ul>
                 </div>
             </div>

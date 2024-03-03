@@ -17,28 +17,28 @@ export default function ApproachSupport() {
                             <Image src={approach1} alt="approach"/>
                             <section>
                                 <h3>Service Level Agreement</h3>
-                                <p>When starting a new project, our team creates an SLA (Service Level Agreement) that entails our response time and ensures the availability of our team to your needs.</p>
+                                <p>At the onset of a project, we establish a Service Level Agreement (SLA) outlining the team's responsiveness and availability to meet your requirements.</p>
                             </section>
                         </li>
                         <li>
                             <Image src={approach2} alt="approach"/>
                             <section>
-                                <h3>Service Level Agreement</h3>
-                                <p>When starting a new project, our team creates an SLA (Service Level Agreement) that entails our response time and ensures the availability of our team to your needs.</p>
+                                <h3>System Analysis</h3>
+                                <p>After review, we figure out the issue present in your software, assess the system thoroughly to pinpoint the underlying cause, & examine the code linked to the non-functional feature.</p>
                             </section>
                         </li>
                         <li>
                             <Image src={approach1} alt="approach"/>
                             <section>
-                                <h3>Service Level Agreement</h3>
-                                <p>When starting a new project, our team creates an SLA (Service Level Agreement) that entails our response time and ensures the availability of our team to your needs.</p>
+                                <h3>Implementation</h3>
+                                <p>By employing effective debugging techniques, we thoroughly examine the code, delve into detailed logs, & diligently resolve all reported issues outlined in support request.</p>
                             </section>
                         </li>
                         <li>
                             <Image src={approach2} alt="approach"/>
                             <section>
-                                <h3>Service Level Agreement</h3>
-                                <p>When starting a new project, our team creates an SLA (Service Level Agreement) that entails our response time and ensures the availability of our team to your needs.</p>
+                                <h3>Testing</h3>
+                                <p>In this, we assess the functionality of the software program completely and look for any bugs or gaps so that they can be fixed.</p>
                             </section>
                         </li>
                     </ul>

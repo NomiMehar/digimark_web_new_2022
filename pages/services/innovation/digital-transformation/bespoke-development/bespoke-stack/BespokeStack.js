@@ -14,7 +14,7 @@ export default function BespokeStack() {
             <div className="container">
                 <div className={`section_title white ${style.title}`} data-aos="fade-up" data-aos-duration="2000">
                     <h2>OUR <span>TECH STACK</span></h2>
-                    <p>Our bespoke software company recruits the best minds on the market and places them in an environment encouraging creativity and constant improvement. As a result, we can wield state-of-the-art frameworks and technologies for web and mobile development. Using those tools, our software development experts will exceed your expectations.</p>
+                    <p>At our bespoke software company, we hire top talent and foster a culture of creativity and continuous improvement to make the culture way better. This allows us to utilize cutting-edge frameworks and technologies for web and mobile development, delivering results that go beyond your expectations. Make DIGIMARK your partner now and enjoy wonders.</p>
                 </div>
                 <div className={style.bespoke_stack_list}>
                     <ul className="list-none flex flex-wrap">

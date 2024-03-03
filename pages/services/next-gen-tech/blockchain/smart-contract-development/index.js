@@ -28,8 +28,7 @@ export default function SmartContract() {
           " Development ",
         ]}
         bannerTextWrap={[
-          <p>
-            Whether you desire to boost your company’s workflows or bring a new smart contracts solution to the market, Digimark smart contracts developers have the skills and experience to make it happen. With full-cycle smart contract development services, we deliver efficient, and hack-proof smart contracts for all types of blockchain solutions.</p>,
+          <p>Aspiring to bring a new <span>smart contract</span> solution to the market? Well, <span>DigiMark</span> is a leading <span>Smart Contract</span> Development Company that takes your business to the next level by assisting you in designing, deploying, and developing smart contracts. We deliver efficient and hack-proof smart contracts for all types of blockchain solutions.</p>,
         ]}
       />
       <SmartBenefits/>
@@ -53,6 +52,7 @@ export default function SmartContract() {
               slidesPerView: 1,
             },
         }}
+          description="We provide the best Smart Contract Development Services by bringing innovation & providing a comprehensive portfolio of services tailored to your needs."
       />
       <NftWhyChoose classes="why_choose" />
       <Faqs />

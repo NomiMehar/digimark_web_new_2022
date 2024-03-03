@@ -13,13 +13,11 @@ export default function AboutUnrealGame() {
                 <div className="container flex items-center">
                     <Image src={aboutImage} alt="img"/>
                     <section>
-                        <h2>Check core <span>Benefits</span> you will gain by choosing Digi<span>Mark</span> Developers:</h2>
+                        <h2>Following are some of the advantages that come with our <span> unreal game development</span> services:</h2>
                         <ul className="list-none list-style-arrow-two">
-                            <li>Deep knowledge of Unreal game development.</li>
-                            <li><span>On-time delivery</span> — the highly-skilled crew will deliver the output as soon as possible.</li>
-                            <li><span>Transparent communication</span> — we keep clients updated on the ongoing development process. We do appreciate mutual trust.</li>
-                            <li><span>Top-level technologies</span> — in DigiMark Developers, we keep up with all the latest industry trends and tech solutions.</li>
-                            <li><span>Cost-efficiency</span> — forget about continuous budget expansion and receive the maximal quality for your request</li>
+                            <li><span>Visual Quality</span> — Our team ensures to provide top-notch quality graphics to proceed with the project successfully.</li>
+                            <li><span>Quick Delivery</span> — We provide quick delivery along with the best Video Game Maker services with complete transparency at every step. We keep clients in the loop about the development process.</li>
+                            <li><span>Cross-Platform Development</span> — It works on PCs, consoles, mobile phone devices, AR/VR, and much more. This does not just work but also helps in alleviating the development cost.</li>
                         </ul>
                     </section>
                 </div>

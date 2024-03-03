@@ -17,11 +17,11 @@ export default function IndustriesAdvantages() {
                         <h2><span>Advantages</span> of Healthcare software</h2>
                     </div>
                     <ul className="list-none flex flex-wrap">
-                        <li><span>Better health outcomes</span></li>
-                        <li><span>More engaged and <br/>loyal patients</span></li>
+                        <li><span>Optimal health outcomes</span></li>
+                        <li><span>Better patient <br /> engagement & loyalty</span></li>
                         <li><span>Reduced cost of care</span></li>
+                        <li><span>Streamlined business <br /> processes</span></li>
                         <li><span>Enhanced security</span></li>
-                        <li><span>Improved business <br/>efficiency</span></li>
                         <li><span>Data-driven decisions</span></li>
                     </ul>
                 </div>
