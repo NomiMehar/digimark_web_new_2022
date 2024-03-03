@@ -43,6 +43,7 @@ export default function index() {
         <span>AR/VR & MR App</span>, <br/>,
         "Development Services"        
        ]}
+       description=""
        enterpriseServicesList={arserviceList}
    />
    <UnrealStack 
