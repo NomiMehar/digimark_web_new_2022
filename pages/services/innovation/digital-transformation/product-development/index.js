@@ -37,9 +37,9 @@ export default function index() {
         <ProductIndustries/>
         <ProductDelegate/>
         <ProTechnologies/>
-        <SoftwareProductsProcess
+        {/* <SoftwareProductsProcess
         softwareProductsProcessList={softwareProductsProcessLists}
-        />
+        /> */}
         <PortfolioProducts/>
         <Faqs
             extraClass="bgColor"

@@ -37,14 +37,14 @@ export default function index() {
                     ]}
                 />
                 <QuickFacts />
-                <EnterpriseServices
+                {/* <EnterpriseServices
                     extraClass="ai_services"
                     edescription="Maximize operational efficiency with cutting-edge enterprise software development"
                        etitle={[
                         <h2>Benefits of Using <span>AI in Game Development</span></h2>
                        ]}
                        enterpriseServicesList={aiServiceList}
-                />
+                /> */}
                 <ReliablePcGame
                     imgSrc="/assets/images/services/ai_reliable.png"
                 dynamicTitle={true}
@@ -73,19 +73,19 @@ export default function index() {
                     "Our", " ",<span>AI Game Development</span>," ", "Projects"
                    ]}
                 />
-                <GameProcess 
+                {/* <GameProcess 
                 gdescription="Know about our workflow and processes for a better understanding of our work and team."
                    gtitle={[
                     <h2><span>Process of</span> AI <br /> Game Development</h2>
                    ]}
                    gameProcessList={aiProcessList}
-                extraClass="ai_services" />
-                <UnityWorkBox
+                extraClass="ai_services" /> */}
+                {/* <UnityWorkBox
                    utitle={[
                     <h2>Why Digi <span>Mark</span> Developers <span>The Best Ai Game Development Company?</span></h2>
                    ]}
                    unityWorkBoxList={aiWorkBoxList}
-                extraClass="ai_unity" />
+                extraClass="ai_unity" /> */}
                 <Faqs />
                 <GetQuote />
             </div>

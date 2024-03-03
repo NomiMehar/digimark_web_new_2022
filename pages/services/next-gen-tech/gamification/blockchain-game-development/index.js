@@ -52,9 +52,9 @@ export default function index() {
     ]}
     description="Below are the technologies that are used by our game development company."  />
     <UnityRecentProject/>
-    <SoftwareProductsProcess
+    {/* <SoftwareProductsProcess
     softwareProductsProcessList={blockchainProductLists}
-    extraClass="blockchain_develop" />
+    extraClass="blockchain_develop" /> */}
     <SaasPartners/>
     <Faqs/>
     <GetQuote/>
