@@ -37,14 +37,14 @@ export default function index() {
         ]}
     />
    <BenefitsSupport extraClass="ar_vr_benefits" />
-   <EnterpriseServices
+   {/* <EnterpriseServices
        extraClass="ar_vr_services"
        etitle={[
         <h2><span>AR/VR & MR App</span> Development Services</h2>
        ]}
        edescription=""
        enterpriseServicesList={arserviceList}
-   />
+   /> */}
    <UnrealStack 
    title={[
     "OUR AR/VR & MR ", <br/>,

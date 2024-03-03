@@ -50,13 +50,13 @@ export default function index() {
            industriesSectionList={industriesSectionList}
        />
        <GameTechnologies/>
-       <GameProcess 
+       {/* <GameProcess 
        gdescription="You are just simple four steps away to kick start your dream project with us"
           gtitle={[
             <h2><span>Process of</span> Mobile <br /> Game Development</h2>
           ]}
           gameProcessList={gamesProcessList}
-       />
+       /> */}
        <MiddleCallAction
            middleActionImage={middleActionImage}
            sectionTitle={[<h2>Looking for a <span>reliable mobile game development Company</span></h2>]}
