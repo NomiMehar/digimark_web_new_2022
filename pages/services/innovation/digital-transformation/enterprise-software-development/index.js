@@ -39,13 +39,13 @@ export default function index() {
         extraClass="enterprise_bg"
     />
     <BenefitsEsd/>
-    <EnterpriseServices
+    {/* <EnterpriseServices
        etitle={[
         <h2>What we do in <span>Enterprise Application Development</span></h2>
        ]}
        edescription="Maximize operational efficiency with cutting-edge enterprise software development"
        enterpriseServicesList={serviceList}
-       />
+       /> */}
     <EnterpriseTool/>
     <ServeEsd description="With our deep industry knowledge, we cater to a wide range of sectors, providing customized solutions that perfectly align with specific business requirements."/>
     <CallToQualityAssurance
