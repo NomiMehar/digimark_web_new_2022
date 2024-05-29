@@ -92,7 +92,10 @@ export default function MobileNav() {
                       <MenuItem><Link onClick={() => setsidebar(true)} href="/services/innovation/digital-transformation/support-maintenance">Support & Maintenance</Link></MenuItem>
                   </SubMenu>
                   <SubMenu className="third_menu" label="Engagement Models">
-                            <MenuItem><Link onClick={() => setsidebar(true)} href="/">Staff Augmentation</Link></MenuItem>
+                  <MenuItem><Link onClick={() => setsidebar(true)} href="/services/innovation/engagements-model/staff-augmentation">Staff Augmentation</Link></MenuItem>
+                            <MenuItem><Link onClick={() => setsidebar(true)} href="/services/innovation/engagements-model/generative-ai-development">Generative AI Development</Link></MenuItem>
+                      <MenuItem><Link onClick={() => setsidebar(true)} href="/services/innovation/engagements-model/data-engineering-services">Data Engineering Services</Link></MenuItem>
+                      <MenuItem><Link onClick={() => setsidebar(true)} href="/services/innovation/engagements-model/chatbot-development">Chatbot Development</Link></MenuItem>
                             <MenuItem><Link onClick={() => setsidebar(true)} href="/">Product Development</Link></MenuItem>
                             <MenuItem><Link onClick={() => setsidebar(true)} href="/">Project Outsource Model</Link></MenuItem>
                             <MenuItem><Link onClick={() => setsidebar(true)} href="/">Hourly Model</Link></MenuItem>

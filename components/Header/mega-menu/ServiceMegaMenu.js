@@ -59,11 +59,17 @@ export default function ServiceMegaMenu(props) {
                         </ul>
                     </section>
                     <section>
-                        <span className={style.nav_title}>Engagement ModelS</span>
+                        <span className={style.nav_title}>Engagement Models</span>
                         <ul className="list-none">
                             <li><Link onMouseEnter={handleMouseEnter}
-                      onMouseLeave={handleMouseLeave} href="/">Staff Augmentation</Link></li>
+                      onMouseLeave={handleMouseLeave} href="/services/innovation/engagements-model/staff-augmentation">Staff Augmentation</Link></li>
                             <li><Link onMouseEnter={handleMouseEnter}
+                      onMouseLeave={handleMouseLeave} href="/services/innovation/engagements-model/generative-ai-development">Generative AI Development</Link></li>
+                      <li><Link onMouseEnter={handleMouseEnter}
+                      onMouseLeave={handleMouseLeave} href="/services/innovation/engagements-model/data-engineering-services">Data Engineering Services</Link></li>
+                      <li><Link onMouseEnter={handleMouseEnter}
+                      onMouseLeave={handleMouseLeave} href="/services/innovation/engagements-model/chatbot-development">Chatbot Development</Link></li>
+                      <li><Link onMouseEnter={handleMouseEnter}
                       onMouseLeave={handleMouseLeave} href="/">Product Development</Link></li>
                             <li><Link onMouseEnter={handleMouseEnter}
                       onMouseLeave={handleMouseLeave} href="/">Project Outsource Model</Link></li>

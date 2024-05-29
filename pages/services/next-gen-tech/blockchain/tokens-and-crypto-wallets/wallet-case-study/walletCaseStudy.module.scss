@@ -8,6 +8,27 @@
   &.white-bg {
     background-color: #FFFFFF;
   }
+  &.data-engineering{
+    .wallet_case_content_wrap{
+      border: 0;
+      background-color: transparent;
+      box-shadow: none;
+      .wallet_case_content{
+        figure{
+          img{
+            filter: none;
+          }
+        }
+        p{
+          margin-bottom: 90px;
+        }
+        a{
+          display: none;
+        }
+        
+      }
+    }
+  }
   .wallet_case_content_wrap {
     background: #FFFFFF;
     border: 1px solid #CDCDCD;

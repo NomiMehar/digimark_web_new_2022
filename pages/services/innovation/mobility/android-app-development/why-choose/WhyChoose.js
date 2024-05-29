@@ -44,6 +44,17 @@ export default function WhyChoose(props) {
                     }
                 </>
             }
+            {props.dataEngineering === true ? 
+                <div
+                    className="section_title extend-title flex direction-column"
+                    data-aos="fade-up"
+                    data-aos-duration="1000"
+                >
+                    <h2>Our <span>Data Engineering</span> Services</h2>
+                    <p>{props.para}</p>
+                </div> : ""
+            }    
+        
             {props.metaverse === true ? 
                     <>
                         {
@@ -84,6 +95,7 @@ export default function WhyChoose(props) {
                                         data-aos="fade-up"
                                         data-aos-duration={duration}
                                     >
+                                        <span>0{index+1}</span>
                                         {
                                             props.mobileDev === true ? "" : <figure><Image src={whyChooseIcon} alt={whyChooseIcon} width={88} height={84} /></figure>
                                         }

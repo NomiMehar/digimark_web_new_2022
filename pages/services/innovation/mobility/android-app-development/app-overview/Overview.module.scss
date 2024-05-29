@@ -10,6 +10,36 @@
   &.white-layout{
     .overview_content {
       background: #FFFFFF;
+      z-index: 99;
+      & > span {color: #6BB64A}
+      & > h2 { color: #12262F}
+      & > p {color: #969696; opacity: 0.9;}
+      ul {
+        li {
+          &:before {
+            background-color: #A1A1A1;
+          }
+          figure {
+            background: #6BB64A;
+            img { filter: brightness(100)}
+          }
+          section {
+            span {
+              color: #12262F;
+            }
+            p {
+              color: #969696;
+            }
+          }
+        }
+      }
+    }
+  }
+  &.skin-layout{
+    background: #f8f8f8;
+    .overview_content {
+      background: #fff;
+      z-index: 99;
       & > span {color: #6BB64A}
       & > h2 { color: #12262F}
       & > p {color: #969696; opacity: 0.9;}

@@ -1,0 +1,22 @@
+[
+  {
+    "perksImage" : "/assets/images/services/aug1.svg",
+    "perksTitle" : "Cost-Effective Solution",
+    "perksDetail" : "We deliver highly cost-effective business solutions that meet the demands of the business."
+  },
+  {
+    "perksImage" : "/assets/images/services/aug2.svg",
+    "perksTitle" : "Scalability and Flexibility",
+    "perksDetail" : "Using micro-service architecture, we create easily extensive & scalable solutions."
+  },
+  {
+    "perksImage" : "/assets/images/services/aug3.svg",
+    "perksTitle" : "Support and Maintenance",
+    "perksDetail" : "We go above and beyond by offering 3 months of post-delivery maintenance & bug fixes to our valued clients."
+  },
+  {
+    "perksImage" : "/assets/images/services/aug4.svg",
+    "perksTitle" : "Complete Process Transparency",
+    "perksDetail" : "We keep clients in the loop by leveraging project management tools to track & communicate progress."
+  }
+]
