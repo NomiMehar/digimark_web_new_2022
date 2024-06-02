@@ -53,6 +53,16 @@ export default function WhyChoose(props) {
                     <h2>Our <span>Data Engineering</span> Services</h2>
                     <p>{props.para}</p>
                 </div> : ""
+            }  
+            {props.aiConsulting === true ? 
+                <div
+                    className="section_title extend-title flex direction-column"
+                    data-aos="fade-up"
+                    data-aos-duration="1000"
+                >
+                    <h2><span>AI consulting</span> Services</h2>
+                    <p>{props.para}</p>
+                </div> : ""
             }    
         
             {props.metaverse === true ? 

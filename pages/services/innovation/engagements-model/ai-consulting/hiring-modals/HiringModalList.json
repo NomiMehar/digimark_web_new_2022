@@ -1,0 +1,17 @@
+[
+  {
+    "whyChooseIcon" : "/assets/images/services/de1.svg",
+    "whyChooseTitle" : "Unmatched Data Expertise",
+    "whyChooseDesc":"Our accomplished GCP data engineers and scientists transform raw data into actionable insights, drawing from their extensive industry proficiency to provide valuable intelligence."
+  },
+  {
+    "whyChooseIcon" : "/assets/images/services/de2.svg",
+    "whyChooseTitle" : "Tailored Solutions for Your Objectives",
+    "whyChooseDesc":"We collaborate closely with you to devise custom data engineering solutions that precisely align with your unique business goals."
+  },
+  {
+    "whyChooseIcon" : "/assets/images/services/de3.svg",
+    "whyChooseTitle" : "Pioneering Data Engineering Excellence",
+    "whyChooseDesc":"Stay at the forefront of data engineering advancements with our dedication to cutting-edge technologies, ensuring innovative and efficient solutions for your data challenges."
+  }
+]

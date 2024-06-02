@@ -1,0 +1,37 @@
+[
+  {
+    "no": "01",
+    "coreTitle": "Assessment Phase",
+    "coreDescription": "We start by thoroughly assessing your business needs, current capabilities, and goals to determine the best AI and Machine Learning Consulting services for you."
+  },
+  {
+    "no": "02",
+    "coreTitle": "AI Strategy Consulting and Development",
+    "coreDescription": "Based on the assessment, we create a customized solution that outlines the roadmap for your AI and Machine Learning service, setting clear objectives and milestones."
+  },
+  {
+    "no": "03",
+    "coreTitle": "Data Collection and Preparation",
+    "coreDescription": "Data is the lifeblood of AI and ML. We gather and prepare your data, ensuring it's clean, relevant, and ready for analysis."
+  },
+  {
+    "no": "04",
+    "coreTitle": "Custom Model Development",
+    "coreDescription": "Our team of experts builds tailor-made AI and ML models that align with your strategy, using the prepared data to create powerful solutions."
+  },
+  {
+    "no": "05",
+    "coreTitle": "Model Integration/Solution Development",
+    "coreDescription": "Once models are developed, we seamlessly integrate them into your existing workflows or develop complete AI solutions to address specific challenges."
+  },
+  {
+    "no": "06",
+    "coreTitle": "Integration Into Workflows",
+    "coreDescription": "We ensure that AI and ML seamlessly fit into your operational workflows, optimizing processes and driving efficiency without disruption."
+  },
+  {
+    "no": "07",
+    "coreTitle": "Monitoring and Maintenance",
+    "coreDescription": "Our commitment doesn't end at implementation. We provide ongoing support, monitoring, and maintenance to keep your AI and ML solutions performing at their best."
+  }
+]

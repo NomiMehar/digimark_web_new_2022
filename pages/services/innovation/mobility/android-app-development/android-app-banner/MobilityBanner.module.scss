@@ -512,6 +512,35 @@
       }
     }
   }
+  &.ai-poc-mvp{
+    background-image: url("../../../../../../public/assets/images/services/ai-poc-mvp.jpg");
+    .service_banner_wrapper {
+      width: 100%;
+      @media (max-width: $breakpoint_tablet) {
+        width: 100%;
+      }
+    }
+    video{
+      display: none;
+    }
+    h1{
+      font-family: "CloverDisplay-ExtraBold", sans-serif !important;
+    }
+    p{
+      span{
+        text-decoration: underline;
+        color: #fff   ;
+      }
+    }
+    .breadcrumbs {
+      li {
+        small {
+          color: #fff;
+          text-decoration: underline;
+        }
+      }
+    }
+  }
 }
 .breadcrumbs {
   margin-bottom: 40px;

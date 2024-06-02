@@ -67,6 +67,10 @@ export default function ServiceMegaMenu(props) {
                       onMouseLeave={handleMouseLeave} href="/services/innovation/engagements-model/generative-ai-development">Generative AI Development</Link></li>
                       <li><Link onMouseEnter={handleMouseEnter}
                       onMouseLeave={handleMouseLeave} href="/services/innovation/engagements-model/data-engineering-services">Data Engineering Services</Link></li>
+                       <li><Link onMouseEnter={handleMouseEnter}
+                      onMouseLeave={handleMouseLeave} href="/services/innovation/engagements-model/ai-consulting">Ai Consulting</Link></li>
+                      <li><Link onMouseEnter={handleMouseEnter}
+                      onMouseLeave={handleMouseLeave} href="/services/innovation/engagements-model/ai-poc-mvp">AI PoC and AI MVP </Link></li>
                       <li><Link onMouseEnter={handleMouseEnter}
                       onMouseLeave={handleMouseLeave} href="/services/innovation/engagements-model/chatbot-development">Chatbot Development</Link></li>
                       <li><Link onMouseEnter={handleMouseEnter}
