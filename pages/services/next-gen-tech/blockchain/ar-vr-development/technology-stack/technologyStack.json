@@ -1,0 +1,44 @@
+[
+  {
+    "tab_button_icon": "./assets/images/services/",
+    "tab_button": "AR",
+    "listWrap": [
+      "ARToolKit",
+      "GOOGLE-ARCORE",
+      "APPLE ARKIT",
+      "VUFORIA",
+      "KUDAN",
+      "MAXST",
+      "DEEPAR",
+      "WIKITUDE"
+    ]
+  },
+  {
+    "tab_button_icon": "./assets/images/services/",
+    "tab_button": "VR",
+    "listWrap": [
+      "ARToolKit",
+      "GOOGLE-ARCORE",
+      "APPLE ARKIT",
+      "VUFORIA",
+      "KUDAN",
+      "MAXST",
+      "DEEPAR",
+      "WIKITUDE"
+    ]
+  },
+  {
+    "tab_button_icon": "./assets/images/services/",
+    "tab_button": "MR",
+    "listWrap": [
+      "ARToolKit",
+      "GOOGLE-ARCORE",
+      "APPLE ARKIT",
+      "VUFORIA",
+      "KUDAN",
+      "MAXST",
+      "DEEPAR",
+      "WIKITUDE"
+    ]
+  }
+]

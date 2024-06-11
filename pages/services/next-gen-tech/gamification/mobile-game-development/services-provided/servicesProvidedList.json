@@ -1,0 +1,32 @@
+[
+  {
+    "img": "/assets/images/services/sp-icon-1.svg",
+    "title":"PC Game\nDevelopment Consulting",
+    "desc":"Maintenance is crucial when it comes to developing the Best Game Making Software for PC. We offer utter support or guidance for any sort of issue or complexity."
+  },
+  {
+    "img": "/assets/images/services/sp-icon-2.svg",
+    "title":"PC End - to - End\nGame Development",
+    "desc":"Experience the most loved and enjoyable PC games at DigiMark Developers. Our PC Game Development services with a unique approach help you to increase your engagement and reach."
+  },
+  {
+    "img": "/assets/images/services/sp-icon-3.svg",
+    "title":"Unity & Unreal PC\nGame Development",
+    "desc":"We have the best experts at DigiMark Developers who work with renowned engines such as Unity and Unreal to offer attractive and engaging gaming experiences."
+  },
+  {
+    "img": "/assets/images/services/sp-icon-1.svg",
+    "title":"Game Porting to PC",
+    "desc":"Our professionals provide a great user practice as they can transfer from Playstation, Xbox’s users to PC users by giving them an attractive and smooth gaming experience."
+  },
+  {
+    "img": "/assets/images/services/sp-icon-2.svg",
+    "title":"Game Testing & QA",
+    "desc":"Get the quality analysis by our expert team for your game testing services. DigiMark Developers make sure that your game is of high quality and running successfully. We also provide numerous testing cycles to figure out and alleviate errors and glitches."
+  },
+  {
+    "img": "/assets/images/services/sp-icon-3.svg",
+    "title":"Desktop Game Designing",
+    "desc":"Are you wishing to assist your players to be involved with your PC Games by adding attentive game designs? Don’t worry we will help you out with this as we will visualize game art, styles, concepts, and mechanics in your PC games."
+  }
+]

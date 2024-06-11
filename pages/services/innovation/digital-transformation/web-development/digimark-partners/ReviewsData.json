@@ -1,0 +1,31 @@
+[
+  {
+    "img": "/assets/images/services/check1.svg",
+    "title":"4.9/5",
+    "desc":"Customer Rating"
+  },
+  {
+    "img": "/assets/images/services/green_check.svg",
+    "title":"800+",
+    "desc":"Completed \nProjects"
+  },
+  {
+    "img": "/assets/images/services/check2.svg",
+    "title":"500+",
+    "desc":"Qualified \nProfessionals"
+  },
+  {
+    "img": "/assets/images/services/check3.svg",
+    "title":"97%",
+    "desc":"Net Promoter Score \n(NPS)"
+  }
+  ,
+  {
+    "img": "/assets/images/services/check4.svg",
+    "desc":"Transparent Project \nManagement"
+  },
+  {
+    "img": "/assets/images/services/check5.svg",
+    "desc":"Dedicated QA \nPractices"
+  }
+]

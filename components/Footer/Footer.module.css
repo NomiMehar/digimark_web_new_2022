@@ -1,0 +1,201 @@
+.footer {
+  background-image: url("../../public/assets/images/footer/footer.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding-top: 80px;
+  position: relative;
+}
+@media (max-width: 1000px) {
+  .footer {
+    padding-top: 50px;
+  }
+}
+@media (max-width: 1000px) {
+  .footer .row {
+    flex-direction: column;
+  }
+}
+.footer .logo {
+  width: 17.777%;
+  padding: 0 15px;
+}
+.footer .logo img {
+  max-width: 163px;
+}
+@media (max-width: 1000px) {
+  .footer .logo {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 30px;
+  }
+}
+.footer .footer_links_wrap {
+  width: 50%;
+  padding-left: 30px;
+}
+@media (max-width: 1000px) {
+  .footer .footer_links_wrap {
+    display: none;
+  }
+}
+.footer .footer_links_wrap .footer_links {
+  width: 33.333%;
+  padding: 0 15px;
+}
+.footer .newsletter {
+  width: 33%;
+  padding: 0 15px 0 0;
+}
+@media (max-width: 1000px) {
+  .footer .newsletter {
+    width: 100%;
+    padding: 0 15px;
+  }
+}
+.footer .footer_links h4 {
+  font-size: 22px;
+  line-height: 39px;
+  text-decoration-line: underline;
+  color: #6bb64a;
+  text-transform: uppercase;
+  margin-bottom: 17px;
+}
+@media (max-width: 1600px) {
+  .footer .footer_links h4 {
+    font-size: 20px;
+  }
+}
+@media (max-width: 1000px) {
+  .footer .footer_links h4 {
+    margin-bottom: 10px;
+  }
+}
+.footer .footer_links ul li {
+  padding: 4px 0;
+}
+.footer .footer_links ul li a {
+  font-size: 16px;
+  line-height: 25px;
+  color: #ffffff;
+  font-family: CloverDisplay, sans-serif;
+  font-weight: 400;
+}
+@media (max-width: 1600px) {
+  .footer .footer_links ul li a {
+    font-size: 15px;
+  }
+}
+.footer .footer_links P {
+  font-size: 16px;
+  line-height: 26px;
+  color: #ECEFF3;
+  font-weight: 400;
+  font-family: CloverDisplay, sans-serif;
+}
+@media (max-width: 1600px) {
+  .footer .footer_links P {
+    font-size: 15px;
+  }
+}
+@media (max-width: 1000px) {
+  .footer .footer_links P {
+    font-size: 14px;
+    line-height: 24px;
+  }
+}
+.footer .input_group {
+  position: relative;
+  border-bottom: 2px solid rgba(255, 255, 255, 0.7);
+}
+.footer .input_group input {
+  background-color: transparent;
+  border: none;
+  font-family: CloverDisplay-Light, sans-serif;
+  padding: 0;
+  font-size: 13px;
+  height: 40px;
+  color: #ffffff !important;
+}
+.footer .input_group input::-moz-placeholder {
+  font-family: "CloverDisplay-Regular", sans-serif;
+  font-weight: 300;
+  color: white;
+}
+.footer .input_group input::placeholder {
+  font-family: "CloverDisplay-Regular", sans-serif;
+  font-weight: 300;
+  color: white;
+}
+.footer .input_group button {
+  position: absolute;
+  right: 0;
+  top: 50%;
+  transform: translate(0%, -50%);
+  border-radius: 4px;
+  height: 36px;
+  width: 100%;
+  max-width: 127px;
+  font-size: 16px;
+  display: flex;
+  font-family: CloverDisplay, sans-serif;
+  justify-content: center;
+  padding: 0;
+  align-items: center;
+}
+.footer .input_group button i {
+  font-size: 12px;
+  margin: 3px 0 0 6px;
+}
+.footer .footer_bottom {
+  border-top: 2px solid rgba(255, 255, 255, 0.1);
+  margin-top: 60px;
+  padding: 20px 0;
+}
+@media (max-width: 1000px) {
+  .footer .footer_bottom {
+    padding: 10px 0;
+  }
+}
+@media (max-width: 1000px) {
+  .footer .footer_bottom .grid_container_2 {
+    grid-template-columns: 1fr;
+    text-align: center;
+    gap: 5px;
+  }
+}
+@media (max-width: 1000px) {
+  .footer .footer_bottom ul {
+    justify-content: space-evenly;
+  }
+}
+.footer .footer_bottom ul li a, .footer .footer_bottom ul li span {
+  color: #ffffff;
+  margin-right: 19px;
+  text-decoration: underline;
+  font-weight: 400;
+  font-size: 16px;
+  font-family: CloverDisplay, sans-serif;
+}
+@media (max-width: 1000px) {
+  .footer .footer_bottom ul li a, .footer .footer_bottom ul li span {
+    font-size: 14px;
+    margin: 0;
+  }
+}
+.footer .footer_bottom ul li .margin_none {
+  margin: 0;
+}
+.footer .live_chat {
+  position: absolute;
+  bottom: 52px;
+  right: 30px;
+  display: none;
+}
+@media screen and (max-width: 1000px) {
+  .footer .live_chat {
+    bottom: 100px;
+  }
+}
+.footer .live_chat img {
+  width: 45px;
+}/*# sourceMappingURL=Footer.module.css.map */

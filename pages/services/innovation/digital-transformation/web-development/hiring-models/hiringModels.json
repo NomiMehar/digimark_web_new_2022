@@ -1,0 +1,38 @@
+[
+  {
+    "hiringModalIcon": "/assets/images/services/modal1.svg",
+    "hiringModalTitle": "Fixed Price",
+    "hiringModalDes": "If you represent a company with a\nproject that needs dedicated\nattention, ask about dedicated teams. It’s a pay-as-you-go monthly rolling contract.",
+    "hiringModalList": [
+      "Optimal flexibility",
+      "Agile team",
+      "Small projects",
+      "Complete control over budget"
+    ],
+    "hiringLink": "#"
+  },
+  {
+    "hiringModalIcon": "/assets/images/services/modal2.svg",
+    "hiringModalTitle": "Time Material",
+    "hiringModalDes": "If you represent a company with\nundefined projects and need ongoing work, ask about hourly. It’s a pay-as-you-go hour-wise rolling contract.",
+    "hiringModalList": [
+      "No hidden costs",
+      "Requirement based working",
+      "Monthly billing",
+      "Pay only for measurable work"
+    ],
+    "hiringLink": "#"
+  },
+  {
+    "hiringModalIcon": "/assets/images/services/modal3.svg",
+    "hiringModalTitle": "Dedicated Team",
+    "hiringModalDes": "If you represent a company with a\nproject that needs dedicated\nattention,ask about dedicated teams. It’s a pay-as-you-go monthly rolling contract.",
+    "hiringModalList": [
+      "No hidden costs",
+      "160 hours of assured work",
+      "Monthly billing",
+      "Pay only for measurable work"
+    ],
+    "hiringLink": "#"
+  }
+]

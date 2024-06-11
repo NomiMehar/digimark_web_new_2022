@@ -1,0 +1,58 @@
+[
+  {
+    "mainImage": "/assets/images/services/creative_game_image1.png",
+    "titleNumber": "2248",
+    "title": "Number Puzzle Game",
+    "description": "Juicy Fruits is game where the player manipulates tiles in order to make them disappear according to a matching criterion",
+    "list": [
+      {
+        "icon": "/assets/images/services/cg-1.svg",
+        "minTitle": "Work type:",
+        "detailText": "Full-cycle development"
+      },
+      {
+        "icon": "/assets/images/services/cg-1.svg",
+        "minTitle": "Game type:",
+        "detailText": "Match-three game"
+      },
+      {
+        "icon": "/assets/images/services/cg-1.svg",
+        "minTitle": "Technology:",
+        "detailText": "Unity"
+      },
+      {
+        "icon": "/assets/images/services/cg-1.svg",
+        "minTitle": "Platform:",
+        "detailText": "OS/Android smartphones and tablets"
+      }
+    ]
+  },
+  {
+    "mainImage": "/assets/images/services/creative_game_image1.png",
+    "titleNumber": "2248",
+    "title": "Number Puzzle Game",
+    "description": "Juicy Fruits is game where the player manipulates tiles in order to make them disappear according to a matching criterion",
+    "list": [
+      {
+        "icon": "/assets/images/services/cg-1.svg",
+        "minTitle": "Work type:",
+        "detailText": "Full-cycle development"
+      },
+      {
+        "icon": "/assets/images/services/cg-1.svg",
+        "minTitle": "Game type:",
+        "detailText": "Match-three game"
+      },
+      {
+        "icon": "/assets/images/services/cg-1.svg",
+        "minTitle": "Technology:",
+        "detailText": "Unity"
+      },
+      {
+        "icon": "/assets/images/services/cg-1.svg",
+        "minTitle": "Platform:",
+        "detailText": "OS/Android smartphones and tablets"
+      }
+    ]
+  }
+]

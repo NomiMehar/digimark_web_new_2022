@@ -1,0 +1,32 @@
+[
+  {
+    "img": "/assets/images/services/sp-icon-1.svg",
+    "title":"Mobile Game Development \nConsulting",
+    "desc":"Wish to stand out among all? At DigiMark Developers, we offer exceptional mobile game development consulting services along with advanced technology and new trends. Hire our game developers now."
+  },
+  {
+    "img": "/assets/images/services/sp-icon-2.svg",
+    "title":"Full-Cycle Mobile Game\nDevelopment",
+    "desc":"Get our full-cycle mobile game development services as we will be assisting you with every stage of the project with the help of our experts. Make your Mobile Game Development journey easy with DigiMark Developers."
+  },
+  {
+    "img": "/assets/images/services/sp-icon-3.svg",
+    "title":"Assets Creation",
+    "desc":"Our team of professionals adopts a creative methodology towards the process of the project to make captivating graphics, attractive animations, and engaging game assets that keep all the players hooked completely."
+  },
+  {
+    "img": "/assets/images/services/sp-icon-1.svg",
+    "title":"UX/UI Design",
+    "desc":"Are you ready to take your UI/UX design to the next level? We are here to help! DigiMark Developers offers an outstanding user experience that can help you elevate the status of your brand."
+  },
+  {
+    "img": "/assets/images/services/sp-icon-2.svg",
+    "title":"Mobile Game Testing",
+    "desc":"Wish to have accurate and efficient quality assurance results for mobile game testing? Contact DigiMark Developers, our experts make sure that the game is working well without any issues or bugs."
+  },
+  {
+    "img": "/assets/images/services/sp-icon-3.svg",
+    "title":"Support and Maintenance",
+    "desc":"DigiMark Developers provides complete support to its customers or clients once the product gets released. You can reach out to us anytime to ensure transparency and better communication."
+  }
+]

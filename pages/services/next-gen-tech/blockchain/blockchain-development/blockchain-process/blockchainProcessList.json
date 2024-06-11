@@ -1,0 +1,27 @@
+[
+  {
+    "processImg": "/assets/images/services/chain-process1.jpg",
+    "process_name": "Identifying the problem and business goals",
+    "process_description": "Our team takes the time to fully comprehend your vision and goals, ensuring that we create blockchain solutions that align with your strategic direction and deliver tangible results."
+  },
+  {
+    "processImg": "/assets/images/services/chain-process1.jpg",
+    "process_name": "Defining the suitable blockchain platform",
+    "process_description": "Choosing the right blockchain platform is crucial. Leveraging our extensive experience, we will help you to identify the optimal choice, taking into account scalability, security, and functionality."
+  },
+  {
+    "processImg": "/assets/images/services/chain-process1.jpg",
+    "process_name": "Ideation and proof-of-concept",
+    "process_description": "We brainstorm and create a prototype to validate your blockchain solution's feasibility. Through iterative refinement, we lay a solid foundation for further progress."
+  },
+  {
+    "processImg": "/assets/images/services/chain-process1.jpg",
+    "process_name": "Developing a blockchain product",
+    "process_description": "We adopt an agile methodology to develop blockchain products, ensuring they align seamlessly with business goals. We prioritize scalability, security, and usability throughout the entire development process."
+  },
+  {
+    "processImg": "/assets/images/services/chain-process1.jpg",
+    "process_name": "Deploying and updating",
+    "process_description": "After successful testing, we deploy the blockchain product on the chosen platform. We also provide regular updates and maintenance to ensure optimal performance and security."
+  }
+]

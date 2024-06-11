@@ -1,0 +1,193 @@
+.metaverse_foundation {
+  padding: 80px 0;
+  background: #1E4658 url("../../../../../../public/assets/images/services/custom-bg.svg");
+}
+@media (max-width: 1000px) {
+  .metaverse_foundation {
+    padding: 60px 0;
+  }
+}
+.metaverse_foundation .metaverse_title {
+  margin-left: 0;
+  text-align: start;
+  width: 100%;
+}
+.metaverse_foundation .metaverse_title h2 {
+  color: #fff;
+}
+.metaverse_foundation .metaverse_title p {
+  color: #fff;
+}
+.metaverse_foundation .native_version {
+  padding: 30px;
+  background: url("../../../../../../public/assets/images/services/lang-bg.jpg");
+}
+@media (max-width: 1000px) {
+  .metaverse_foundation .native_version {
+    padding: 40px 0;
+  }
+}
+@media (max-width: 600px) {
+  .metaverse_foundation .native_version .tech_part {
+    display: block;
+  }
+}
+.metaverse_foundation .native_version .tech_part .native_heading_version {
+  width: 50%;
+}
+@media (max-width: 1600px) {
+  .metaverse_foundation .native_version .tech_part .native_heading_version {
+    width: 42%;
+  }
+}
+@media (max-width: 767px) {
+  .metaverse_foundation .native_version .tech_part .native_heading_version {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+}
+.metaverse_foundation .native_version .tech_part .native_heading_version small {
+  color: #6BB64A;
+  font-family: "CloverDisplay-Bold", sans-serif;
+  font-size: 18px;
+  display: flex;
+  margin-bottom: 53px;
+  align-items: center;
+}
+@media (max-width: 1600px) {
+  .metaverse_foundation .native_version .tech_part .native_heading_version small {
+    margin-bottom: 30px;
+  }
+}
+.metaverse_foundation .native_version .tech_part .native_heading_version small:after {
+  content: "";
+  height: 2px;
+  width: 62px;
+  background: #6BB64A;
+  display: inline-block;
+  margin-left: 11px;
+}
+.metaverse_foundation .native_version .tech_part .native_heading_version h2 {
+  color: #FFFFFF;
+  font-size: 48px;
+  margin: 0;
+}
+@media (max-width: 1600px) {
+  .metaverse_foundation .native_version .tech_part .native_heading_version h2 {
+    font-size: 40px;
+  }
+}
+@media (max-width: 1000px) {
+  .metaverse_foundation .native_version .tech_part .native_heading_version h2 {
+    font-size: 24px;
+  }
+}
+.metaverse_foundation .native_version .tech_part .native_heading_version h2 span {
+  background: #6BB64A;
+  padding: 0 10px;
+}
+.metaverse_foundation .native_version .tech_part .lang_wrapper {
+  max-width: 480px;
+}
+@media (max-width: 767px) {
+  .metaverse_foundation .native_version .tech_part .lang_wrapper {
+    margin-left: unset;
+    width: 100%;
+  }
+}
+.metaverse_foundation .native_version .tech_part .lang_wrapper h2 {
+  font-size: 48px;
+  color: #FFFFFF;
+  margin: 0 0 50px;
+}
+@media (max-width: 1600px) {
+  .metaverse_foundation .native_version .tech_part .lang_wrapper h2 {
+    font-size: 40px;
+    margin-bottom: 40px;
+  }
+}
+@media (max-width: 1000px) {
+  .metaverse_foundation .native_version .tech_part .lang_wrapper h2 {
+    font-size: 32px;
+    margin-bottom: 25px;
+  }
+}
+@media (max-width: 767px) {
+  .metaverse_foundation .native_version .tech_part .lang_wrapper h2 {
+    font-size: 24px;
+  }
+}
+.metaverse_foundation .native_version .tech_part .lang_wrapper section {
+  margin-bottom: 40px;
+}
+@media (max-width: 1600px) {
+  .metaverse_foundation .native_version .tech_part .lang_wrapper section {
+    margin-bottom: 20px;
+  }
+}
+@media (max-width: 767px) {
+  .metaverse_foundation .native_version .tech_part .lang_wrapper section {
+    margin-bottom: 0;
+  }
+}
+.metaverse_foundation .native_version .tech_part .lang_wrapper section:last-child {
+  margin-bottom: 0;
+}
+.metaverse_foundation .native_version .tech_part .lang_wrapper section h4 {
+  margin: 0 0 14px;
+  font-size: 28px;
+  color: #6BB64A;
+  font-family: "CloverDisplay-bold", sans-serif;
+}
+@media (max-width: 1600px) {
+  .metaverse_foundation .native_version .tech_part .lang_wrapper section h4 {
+    font-size: 22px;
+  }
+}
+@media (max-width: 1000px) {
+  .metaverse_foundation .native_version .tech_part .lang_wrapper section h4 {
+    font-size: 18px;
+  }
+}
+.metaverse_foundation .native_version .tech_part .lang_wrapper section ul {
+  margin: 0 -15px;
+  flex-wrap: wrap;
+  justify-content: end;
+}
+@media (max-width: 600px) {
+  .metaverse_foundation .native_version .tech_part .lang_wrapper section ul {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}
+.metaverse_foundation .native_version .tech_part .lang_wrapper section ul li {
+  padding: 10px 0px;
+  text-align: center;
+  margin: 5px;
+  min-width: 31.33%;
+  width: 31.33%;
+  border: 1px solid #C6C7CB;
+  border-radius: 1px;
+}
+@media (max-width: 1000px) {
+  .metaverse_foundation .native_version .tech_part .lang_wrapper section ul li {
+    min-width: 28.33%;
+    width: 28.33%;
+  }
+}
+@media (max-width: 600px) {
+  .metaverse_foundation .native_version .tech_part .lang_wrapper section ul li {
+    min-width: 29.33%;
+    width: 29.33%;
+  }
+}
+.metaverse_foundation .native_version .tech_part .lang_wrapper section ul li img {
+  width: 85%;
+}
+.metaverse_foundation .native_version .line {
+  background-color: #627B86;
+  width: 100%;
+  height: 2px;
+  margin: 50px 0;
+  display: block;
+}/*# sourceMappingURL=MetaverseFoundation.module.css.map */

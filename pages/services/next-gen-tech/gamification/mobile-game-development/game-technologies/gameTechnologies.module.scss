@@ -1,0 +1,23 @@
+@import "../../../../../../styles/variables";
+.game_technologies {
+  background: url("../../../../../../public/assets/images/services/game-technologies-bg.jpg") center;
+  background-size: cover;
+  padding: 100px 0 40px;
+  .game_technologies_slider {
+    width: 50%;
+    @media (max-width: $breakpoint_laptop) {
+      max-width: 47%;
+    }
+    @media (max-width: $breakpoint_tablet) {
+      width: 100%;
+    }
+    img {
+      max-width: 100%;
+      height: auto;
+    }
+    .section_title {
+      width: 100%;
+      text-align: left;
+    }
+  }
+}

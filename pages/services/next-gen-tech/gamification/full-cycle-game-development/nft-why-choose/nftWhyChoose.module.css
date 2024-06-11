@@ -1,0 +1,207 @@
+.nft_why_choose {
+  background: #F3F6FF;
+  padding: 100px 0 80px;
+}
+@media (max-width: 1600px) {
+  .nft_why_choose {
+    padding: 80px 0;
+  }
+}
+@media (max-width: 600px) {
+  .nft_why_choose > div {
+    flex-direction: column;
+  }
+}
+@media (max-width: 1000px) {
+  .nft_why_choose {
+    padding: 60px 0 60px;
+  }
+  .nft_why_choose img {
+    max-width: 100%;
+    width: 50%;
+    height: auto;
+    margin-bottom: 30px;
+  }
+}
+@media (max-width: 1000px) and (max-width: 600px) {
+  .nft_why_choose img {
+    width: auto;
+  }
+}
+.nft_why_choose .nft_why_choose_text {
+  padding-left: 185px;
+  position: relative;
+}
+@media (max-width: 1000px) {
+  .nft_why_choose .nft_why_choose_text {
+    padding-left: 10px;
+    width: 50%;
+  }
+}
+@media (max-width: 600px) {
+  .nft_why_choose .nft_why_choose_text {
+    padding-left: 0;
+    width: 100%;
+  }
+}
+.nft_why_choose .nft_why_choose_text:before {
+  content: "";
+  position: absolute;
+  left: 90px;
+  top: 25px;
+  width: 54px;
+  height: 41px;
+  background: url("../../../../../../public/assets/images/services/choose-arrow.svg") no-repeat;
+  background-size: contain;
+}
+@media (max-width: 1000px) {
+  .nft_why_choose .nft_why_choose_text:before {
+    content: none;
+  }
+}
+.nft_why_choose .nft_why_choose_text h2 {
+  margin: 0 0 10px;
+  font-size: 48px;
+}
+@media (max-width: 1600px) {
+  .nft_why_choose .nft_why_choose_text h2 {
+    font-size: 35px;
+  }
+}
+@media (max-width: 1000px) {
+  .nft_why_choose .nft_why_choose_text h2 {
+    font-size: 28px;
+  }
+}
+.nft_why_choose .nft_why_choose_text p {
+  font-size: 24px;
+  line-height: 42px;
+  margin: 0 0 20px;
+  color: #969696;
+  opacity: 0.9;
+  font-family: "Apercu-Light", sans-serif;
+}
+@media (max-width: 1600px) {
+  .nft_why_choose .nft_why_choose_text p {
+    font-size: 19px;
+    line-height: 32px;
+  }
+}
+@media (max-width: 1000px) {
+  .nft_why_choose .nft_why_choose_text p {
+    font-size: 16px;
+    line-height: 24px;
+  }
+}
+.nft_why_choose .nft_why_choose_text ul li {
+  color: #1D4354;
+  font-size: 24px;
+  line-height: 42px;
+  margin-bottom: 15px;
+  padding-left: 37px;
+  position: relative;
+}
+@media (max-width: 1600px) {
+  .nft_why_choose .nft_why_choose_text ul li {
+    font-size: 19px;
+    line-height: 32px;
+    margin-bottom: 10px;
+  }
+}
+@media (max-width: 1000px) {
+  .nft_why_choose .nft_why_choose_text ul li {
+    font-size: 16px;
+    line-height: 22px;
+    margin-bottom: 15px;
+  }
+}
+.nft_why_choose .nft_why_choose_text ul li:before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 11px;
+  width: 17px;
+  height: 17px;
+  border-radius: 100%;
+  border: 1px solid #1D4354;
+}
+@media (max-width: 1600px) {
+  .nft_why_choose .nft_why_choose_text ul li:before {
+    top: 8px;
+    width: 15px;
+    height: 15px;
+  }
+}
+@media (max-width: 1000px) {
+  .nft_why_choose .nft_why_choose_text ul li:before {
+    top: 3px;
+  }
+}
+.nft_why_choose .nft_why_choose_text ul li:after {
+  content: "";
+  position: absolute;
+  left: 6px;
+  top: 17px;
+  width: 7px;
+  height: 7px;
+  border-radius: 100%;
+  background: #6BB64A;
+}
+@media (max-width: 1600px) {
+  .nft_why_choose .nft_why_choose_text ul li:after {
+    left: 5px;
+    top: 13px;
+  }
+}
+@media (max-width: 1000px) {
+  .nft_why_choose .nft_why_choose_text ul li:after {
+    top: 8px;
+  }
+}
+.nft_why_choose.why_choose {
+  background: #1D4354 url("../../../../../../public/assets/images/services/custom-bg.svg");
+}
+.nft_why_choose.why_choose > div {
+  flex-direction: row-reverse;
+}
+@media (max-width: 600px) {
+  .nft_why_choose.why_choose > div {
+    flex-direction: column-reverse;
+  }
+}
+.nft_why_choose.why_choose > div .nft_why_choose_text {
+  padding-right: 185px;
+  padding-left: 0;
+}
+@media (max-width: 1000px) {
+  .nft_why_choose.why_choose > div .nft_why_choose_text {
+    padding-right: 10px;
+    width: 50%;
+  }
+}
+@media (max-width: 600px) {
+  .nft_why_choose.why_choose > div .nft_why_choose_text {
+    padding-right: 0;
+    width: 100%;
+  }
+}
+.nft_why_choose.why_choose > div .nft_why_choose_text::before {
+  right: 90px;
+  left: auto;
+  transform: rotate(180deg);
+}
+.nft_why_choose.why_choose > div .nft_why_choose_text h2 {
+  color: #fff;
+}
+.nft_why_choose.why_choose > div .nft_why_choose_text p {
+  color: #E4E4E4;
+}
+.nft_why_choose.why_choose > div .nft_why_choose_text ul li {
+  color: #E4E4E4;
+}
+@media (max-width: 600px) {
+  .nft_why_choose.why_choose > div img {
+    margin-top: 30px;
+    margin-bottom: 0;
+  }
+}/*# sourceMappingURL=nftWhyChoose.module.css.map */

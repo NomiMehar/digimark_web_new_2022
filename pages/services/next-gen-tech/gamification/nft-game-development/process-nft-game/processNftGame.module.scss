@@ -1,0 +1,15 @@
+@import "../../../../../../styles/variables";
+.process_nft_game {
+  background: url('../../../../../../public/assets/images/services/nft-process-bg.png');
+  background-size: 100% 100%;
+  padding: 150px 0;
+  @media (max-width: $breakpoint_laptop) {
+    padding: 100px 0 110px;
+  }
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+}
+
+

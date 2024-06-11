@@ -1,0 +1,17 @@
+[
+    {
+        "bespokeImg":"/assets/images/services/react_g.svg"
+    },
+    {
+        "bespokeImg":"/assets/images/services/angular_g.svg"
+    },
+    {
+        "bespokeImg":"/assets/images/services/aws_g.svg"
+    },
+    {
+        "bespokeImg":"/assets/images/services/vue_g.svg"
+    },
+    {
+        "bespokeImg":"/assets/images/services/django_g.svg"
+    }
+]

@@ -1,0 +1,32 @@
+[
+  {
+    "whyChooseIcon" : "/assets/images/services/datae1.svg",
+    "whyChooseTitle" : "Data Gathering & Preprocessing",
+    "whyChooseDetail" : "We understand that data comes in various formats and from diverse sources. Our GCP data engineer is skilled in collecting, cleaning, and preprocessing data to ensure its quality and reliability. Our meticulous approach involves data validation, transformation, and enrichment, resulting in a clean dataset ready for analysis."
+  },
+  {
+    "whyChooseIcon" : "/assets/images/services/datae2.svg",
+    "whyChooseTitle" : "Data Annotation",
+    "whyChooseDetail" : "High-quality training data is the backbone of any machine learning model. Our AWS data engineer specializes in data annotation services, involving labeling data for supervised learning, semantic segmentation for computer vision tasks, and more. Our experts ensure that your models are trained on accurate and relevant data."
+  },
+  {
+    "whyChooseIcon" : "/assets/images/services/datae3.svg",
+    "whyChooseTitle" : "Algorithm Selection and Hyperparameter Tuning",
+    "whyChooseDetail" : "Choosing the right algorithm and optimizing its parameters are critical steps in the model development process. Our AWS data engineer evaluates various algorithms and fine-tunes hyperparameters to ensure optimal model performance."
+  },
+  {
+    "whyChooseIcon" : "/assets/images/services/datae4.svg",
+    "whyChooseTitle" : "Model Training and Validation",
+    "whyChooseDetail" : "We specialize in training machine learning models using state-of-the-art techniques. Our AWS data engineer employs their expertise in supervised, unsupervised, and reinforcement learning to develop models that accurately address your business challenges."
+  },
+  {
+    "whyChooseIcon" : "/assets/images/services/datae5.svg",
+    "whyChooseTitle" : "Model Evaluation",
+    "whyChooseDetail" : "Evaluating model performance is essential to ensure its effectiveness. Our experts of data engineering services use advanced metrics and validation techniques to assess model accuracy, precision, recall, and more."
+  },
+  {
+    "whyChooseIcon" : "/assets/images/services/datae6.svg",
+    "whyChooseTitle" : "Consultancy",
+    "whyChooseDetail" : "Navigating the complex landscape of data engineering and machine learning can be daunting. Our consultancy services provide you with strategic guidance, helping you make informed decisions and choose the right technological solutions for your needs."
+  }
+]

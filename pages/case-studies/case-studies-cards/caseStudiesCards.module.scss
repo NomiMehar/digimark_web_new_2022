@@ -1,0 +1,168 @@
+@import "../../../styles/variables";
+.case_studies_cards {
+  background: #F3F6FF;
+  padding: 150px 0;
+  & > div {
+    & > ul {
+      margin: 0 -15px;
+      & > li {
+        padding: 0 15px;
+        width: 33.333%;
+        margin-bottom: 60px;
+        @media (max-width: $breakpoint_tablet) {
+          width: 50%;
+          margin-bottom:30px;
+        }
+        @media (max-width: $breakpoint_mobile_landscape) {
+          width: 100%;
+        }
+        .case_studies {
+          border-radius: 20px;
+          overflow: hidden;
+          transition: all 0.4s ease-in-out;
+          @media (max-width: $breakpoint_tablet) {
+            background: #FFFFFF;
+            box-shadow: 0 2.767256498336792px 2.2138051986694336px 0 rgba(0, 0, 0, 0.02), 0 6.650102138519287px 5.32008171081543px 0 rgba(0, 0, 0, 0.03), 0 12.521552085876465px 10.017241477966309px 0 rgba(0, 0, 0, 0.04), 0 22.3363094329834px 17.869047164916992px 0 rgba(0, 0, 0, 0.04), 0 41.777610778808594px 33.422088623046875px 0 rgba(0, 0, 0, 0.05), 0 100px 80px 0 rgba(0, 0, 0, 0.07);
+          }
+          &:hover {
+            background: #FFFFFF;
+            box-shadow: 0 2.767256498336792px 2.2138051986694336px 0 rgba(0, 0, 0, 0.02), 0 6.650102138519287px 5.32008171081543px 0 rgba(0, 0, 0, 0.03), 0 12.521552085876465px 10.017241477966309px 0 rgba(0, 0, 0, 0.04), 0 22.3363094329834px 17.869047164916992px 0 rgba(0, 0, 0, 0.04), 0 41.777610778808594px 33.422088623046875px 0 rgba(0, 0, 0, 0.05), 0 100px 80px 0 rgba(0, 0, 0, 0.07);
+          }
+          figure{
+            margin: 0;
+            img {
+              height: auto;
+              width: 100%;
+            }
+          }
+          section {
+            padding: 23px 28px;
+            h2 {
+              text-transform: uppercase;
+              font-size: 28px;
+              margin: 0 0 10px;
+              @media (max-width: $breakpoint_laptop) {
+                font-size: 24px;
+              }
+            }
+            p {
+              margin: 0 0 14px;
+              font-size: 24px;
+              color: #969696;
+              line-height: 36px;
+              @media (max-width: $breakpoint_laptop) {
+                font-size: 18px;
+                line-height: 28px;
+              }
+            }
+            ul {
+              margin: 0 -5px 13px;
+              li {
+                padding: 0 5px;
+                margin-bottom: 8px;
+                span {
+                  font-size: 13px;
+                  height: 29px;
+                  padding: 0 15px;
+                  display: flex;
+                  align-items: center;
+                  text-align: center;
+                  background: rgba(107, 182, 74, 0.16);
+                  color: #6BB64A;
+                  @media (max-width: $breakpoint_laptop) {
+                    font-size: 12px;
+                    height: 25px;
+                    padding: 0 10px;
+                  }
+                }
+              }
+            }
+            a {
+              display: flex;
+              gap: 15px;
+              align-items: center;
+              font-size: 18px;
+              color: #1D4354;
+              font-family: "CloverDisplay-SemiBold", sans-serif;
+              transition: all 0.4s ease-in-out;
+              img {transition: all 0.4s ease-in-out;}
+              &:hover {
+                color: #6BB64A;
+                img {
+                  transform: rotate(45deg);
+                }
+              }
+              @media (max-width: $breakpoint_laptop) {
+                font-size: 16px;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+.case_filter {
+  margin-bottom: -75px;
+  position: relative;
+  .case_filter_bg {
+    border-radius: 20px;
+    background: #FFF;
+    position: relative;
+    border: 1px solid #6BB64A;
+    padding: 40px 40px 30px;
+    box-shadow: 0 2.767256498336792px 2.2138051986694336px 0 rgba(0, 0, 0, 0.07), 0 6.650102138519287px 5.32008171081543px 0 rgba(0, 0, 0, 0.05), 0 12.521552085876465px 10.017241477966309px 0 rgba(0, 0, 0, 0.04), 0 22.3363094329834px 17.869047164916992px 0 rgba(0, 0, 0, 0.04), 0 41.777610778808594px 33.422088623046875px 0 rgba(0, 0, 0, 0.03), 0 100px 80px 0 rgba(0, 0, 0, 0.02);
+    & > span {
+      position: absolute;
+      left: 35px;
+      top: -20px;
+      color: #FFFFFF;
+      font-size: 18px;
+      height: 39px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border-radius: 33.5px;
+      border: 1px solid #FFF;
+      background: #6BB64A;
+      padding: 0 24px;
+    }
+  }
+  button {
+    color: #1D4354;
+    text-decoration: underline;
+    margin-left: auto;
+    font-size: 16px;
+    text-transform: uppercase;
+    border: none;
+    background: transparent;
+    font-family: "CloverDisplay", sans-serif;
+  }
+  ul {
+    @media (max-width: $breakpoint_mobile_portrait) {
+      flex-direction: column;
+    }
+    li {
+      display: flex;
+      flex-direction: column;
+      @media (max-width: $breakpoint_mobile_portrait) {
+        margin: 5px 0;
+      }
+      label {
+        color: #A9A9A9;
+        font-size: 16px;
+        margin: 0;
+        line-height: 0.7;
+        opacity: 0.9;
+      }
+      select {
+        font-family: "Apercu-Medium", sans-serif;
+        color: #12262F;
+        padding: 0;
+        border: none;
+        background: transparent;
+        width: 160px;
+      }
+    }
+  }
+}

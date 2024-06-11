@@ -1,0 +1,132 @@
+@import "../../../styles/variables";
+.who_we_are {
+  background: #F3F6FF url("../../../public/assets/images/homepage/hwo-we-are-bg.png") center;
+  background-size: cover;
+  padding: 100px 0 90px;
+  position: relative;
+  overflow: hidden;
+  @media (max-width: $breakpoint_laptop) {
+    padding: 80px 0 65px;
+  }
+  &:before {
+    content: '';
+    position: absolute;
+    bottom: 53px;
+    right: -123px;
+    width: 590px;
+    height: 590px;
+    background-image: url("../../../public/assets/images/homepage/who_we_are/animation.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    animation: moveBounce 10s linear infinite;
+    @media (max-width: $breakpoint_laptop) {
+      width: 480px;
+      height: 480px;
+      bottom: 57px;
+      right: -115px;
+    }
+    @media (max-width: $breakpoint_tablet) {
+      display: none;
+    }
+  }
+  @keyframes moveBounce {
+    0% { transform: rotate(0deg)}
+    25% {transform: rotate(-90deg)}
+    50% {transform: rotate(-180deg)}
+    750% {transform: rotate(-270deg)}
+    100% {transform: rotate(-360deg)}
+  }
+  @media (max-width: $breakpoint_tablet) {
+    padding-top: 50px;
+  }
+  .container {
+    max-width: 1570px;
+  }
+  .our_slider {
+    margin-top: -30px;
+    @media (max-width: $breakpoint_tablet) {
+      margin-top: 0;
+      padding-top: 30px;
+    }
+  }
+  .slider_grid {
+    width: 100%;
+    @media (max-width: $breakpoint_mobile_portrait) {
+      flex-direction: column-reverse;
+    }
+    .slider_content {
+      padding: 0 30px 0 222px;
+      width: 60%;
+      margin: 0 auto;
+      text-align: initial;
+      @media (max-width: $breakpoint_tablet) {
+        width: 100%;
+        padding: 0;
+      }
+      @media (max-width: $breakpoint_mobile_portrait) {
+        text-align: center;
+      }
+      h2 {
+        font-size: 48px;
+        color: $green_color;
+        margin: 0 0 20px;
+        text-transform: uppercase;
+        @media (max-width: $breakpoint_laptop) {
+          font-size: 38px;
+        }
+        @media screen and (max-width: $breakpoint_tablet) {
+          display: block;
+          font-size: 28px;
+          line-height: 40px;
+          margin-bottom: 10px;
+        }
+        span {
+          color: #12262F;
+          display: block;
+        }
+      }
+      p {
+        font-size: 24px;
+        line-height: 40px;
+        color: #969696;
+        opacity: 0.9;
+        margin: 0;
+        max-width: 90%;
+        @media (max-width: $breakpoint_laptop) {
+          font-size: 20px;
+          line-height: 32px;
+        }
+        @media (max-width: $breakpoint_tablet) {
+          font-size: 18px;
+          line-height: 30px;
+          margin-bottom: 30px;
+        }
+      }
+    }
+    .side_img {
+      text-align: center;
+      width: 35%;
+      @media (max-width: $breakpoint_laptop) {
+        width: 45%;
+        text-align: center;
+      }
+      @media (max-width: $breakpoint_tablet) {
+        width: 100%;
+        margin-bottom: 20px;
+      }
+      img {
+        width: 100%;
+        max-width: 458px;
+        border-radius: 30px;
+        box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+        @media (max-width: $breakpoint_laptop) {
+          max-width: 350px;
+        }
+        @media (max-width: $breakpoint_tablet) {
+          max-height: 280px;
+        }
+      }
+    }
+  }
+}

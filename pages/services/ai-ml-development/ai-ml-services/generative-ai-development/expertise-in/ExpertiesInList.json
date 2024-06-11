@@ -1,0 +1,50 @@
+[
+  {
+    "techImage": "/assets/images/services/experties1.svg",
+    "techName": "GPT-3"
+  },
+  {
+    "techImage": "/assets/images/services/experties1.svg",
+    "techName": "GPT-3.5"
+  },
+  {
+    "techImage": "/assets/images/services/experties1.svg",
+    "techName": "GPT-4"
+  },
+  {
+    "techImage": "/assets/images/services/experties1.svg",
+    "techName": "DALL·E"
+  },
+  {
+    "techImage": "/assets/images/services/experties1.svg",
+    "techName": "Whisper"
+  },
+  {
+    "techImage": "/assets/images/services/experties1.svg",
+    "techName": "Embeddings"
+  },
+  {
+    "techImage": "/assets/images/services/experties1.svg",
+    "techName": "Moderation"
+  },
+  {
+    "techImage": "/assets/images/services/experties2.svg",
+    "techName": "Stable diffusion"
+  },
+  {
+    "techImage": "/assets/images/services/experties2.svg",
+    "techName": "Midjourney"
+  },
+  {
+    "techImage": "/assets/images/services/experties3.svg",
+    "techName": "BERT"
+  },
+  {
+    "techImage": "/assets/images/services/experties4.svg",
+    "techName": "LLaMA"
+  },
+  {
+    "techImage": "/assets/images/services/experties1.svg",
+    "techName": "Claude"
+  }
+]

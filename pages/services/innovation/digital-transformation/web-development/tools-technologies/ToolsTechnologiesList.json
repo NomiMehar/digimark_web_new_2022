@@ -1,0 +1,62 @@
+[
+    {
+      "techTitle": "Front-End",
+      "techIcons": [
+        {
+          "iconImage": "/assets/images/services/tools_1.svg"
+        },
+        {
+          "iconImage": "/assets/images/services/tools_2.svg"
+        },
+        {
+          "iconImage": "/assets/images/services/tools_3.svg"
+        },
+        {
+          "iconImage": "/assets/images/services/tools_4.svg"
+        },
+        {
+          "iconImage": "/assets/images/services/tools_5.svg"
+        }
+      ]
+    },
+    {
+      "techTitle": "Back-end",
+      "techIcons": [
+        {
+          "iconImage": "/assets/images/services/tools_6.svg"
+        },
+        {
+            "iconImage": "/assets/images/services/tools_7.svg"
+        },
+        {
+          "iconImage": "/assets/images/services/tools_8.svg"
+        },
+        {
+          "iconImage": "/assets/images/services/tools_9.svg"
+        },
+        {
+          "iconImage": "/assets/images/services/tools_10.svg"
+        },
+        {
+          "iconImage": "/assets/images/services/tools_10.1.svg"
+        }
+      ]
+    },
+    {
+      "techTitle": "Database",
+      "techIcons": [
+          {
+            "iconImage": "/assets/images/services/tools_11.svg"
+          },
+          {
+            "iconImage": "/assets/images/services/tools_12.svg"
+          },
+        {
+          "iconImage": "/assets/images/services/tools_13.svg"
+        },
+        {
+          "iconImage": "/assets/images/services/tools_14.svg"
+        }
+      ]
+    }
+  ]

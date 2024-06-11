@@ -1,0 +1,56 @@
+@import "../../../../../../styles/variables";
+.call_unreal_game {
+  padding: 169px 0 129px;
+  background: url("../../../../../../public/assets/images/services/unreal-call-action-bg.png") center;
+  background-size: 100% 100%;
+  margin-bottom: -150px;
+  position: relative;
+  @media (max-width: $breakpoint_tablet) {
+    background: linear-gradient(180deg, #6BB64A 0%, #1D4354 100%);
+    text-align: center;
+    padding: 80px 0;
+    margin-bottom: 0;
+  }
+  &.unity_call_action {
+    background: url("../../../../../../public/assets/images/services/unity_call_action_bg.png") center;
+    background-size: 100% 100%;
+    margin: 0;
+    padding: 110px 0 175px;
+    @media (max-width: $breakpoint_laptop) {
+      padding: 80px 0 140px;
+    }
+    @media (max-width: $breakpoint_tablet) {
+      background: linear-gradient(180deg, #6BB64A 0%, #1D4354 100%);
+      text-align: center;
+      padding: 80px 0;
+    }
+  }
+  h2 {
+    font-size: 48px;
+    color: #FFFFFF;
+    margin: 0 0 40px;
+    @media (max-width: $breakpoint_laptop) {
+      font-size: 32px;
+      margin: 0 0 28px;
+    }
+    @media (max-width: $breakpoint_tablet) {
+      font-size: 28px;
+      br {
+        display: none;
+      }
+    }
+    span {
+      color: #6BB64A;
+    }
+  }
+  a {
+    background: transparent;
+    border: 1px solid #FFFFFF;
+    box-shadow: none;
+    @media (max-width: $breakpoint_tablet) {
+      margin: 0 auto;
+    }
+  }
+}
+
+

@@ -1,0 +1,55 @@
+[
+  {
+    "listImage": "/assets/images/services/blue_shape1.svg",
+    "listImageText": "Analysis",
+    "lists": [
+      "Product Owner",
+      "Project Manager",
+      "Business Analyst",
+      "CTO"
+    ]
+  },
+  {
+    "listImage": "/assets/images/services/green_shape.svg",
+    "listImageText": "Design",
+    "lists": [
+      "System Architect",
+      "UX/UI Designer"
+    ]
+  },
+  {
+    "listImage": "/assets/images/services/blue_shape.svg",
+    "listImageText": "Development",
+    "lists": [
+      "Front-end Dev",
+      "Back-end Dev"
+    ]
+  },
+  {
+    "listImage": "/assets/images/services/green_shape.svg",
+    "listImageText": "Testing",
+    "lists": [
+      "Solution Architect",
+      "QA Engineer",
+      "Tester",
+      "DevOps"
+    ]
+  },
+  {
+    "listImage": "/assets/images/services/blue_shape.svg",
+    "listImageText": "Deployment",
+    "lists": [
+      "Data Administration",
+      "DevOps"
+    ]
+  },
+  {
+    "listImage": "/assets/images/services/green_shape.svg",
+    "listImageText": "Maintenance",
+    "lists": [
+      "Users",
+      "Testers",
+      "Support Managers"
+    ]
+  }
+]

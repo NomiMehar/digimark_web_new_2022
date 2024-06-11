@@ -1,0 +1,22 @@
+[
+  {
+    "whyChooseIcon" : "/assets/images/services/metaversecompany1.svg",
+    "whyChooseTitle" : "AR Compatible",
+    "whyChooseDetail" : " We have leveraged our proficiency in developing Metaverse solutions for businesses to incorporate AR capabilities into our products."
+  },
+  {
+    "whyChooseIcon" : "/assets/images/services/metaversecompany2.svg",
+    "whyChooseTitle" : "Advanced VR",
+    "whyChooseDetail" : "With the world of immersive design technology, we are adopting advanced VR solutions to facilitate users with exceptional experiences."
+  },
+  {
+    "whyChooseIcon" : "/assets/images/services/metaversecompany3.svg",
+    "whyChooseTitle" : "Digital Economies",
+    "whyChooseDetail" : "With the integration of innovative technologies, we enable clients to take a significant stride toward a fully decentralized economy."
+  },
+  {
+    "whyChooseIcon" : "/assets/images/services/metaversecompany4.svg",
+    "whyChooseTitle" : "Secure Storage",
+    "whyChooseDetail" : "To thrive in complex & ever-changing infrastructure, we made secure storage solutions a top priority in our development and utilization efforts."
+  }
+]

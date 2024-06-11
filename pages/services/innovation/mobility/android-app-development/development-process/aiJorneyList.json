@@ -1,0 +1,37 @@
+[
+  {
+    "process_number": "01",
+    "process_name": "Discovery & design",
+    "process_list": [
+      "Outline your business objectives and identify potential AI solutions through brainstorming and analysis."
+    ]
+  },
+  {
+    "process_number": "02",
+    "process_name": "Build data foundations",
+    "process_list": [
+      "Establish the necessary data infrastructure and protocols required for your AI solution with data engineerings."
+    ]
+  },
+  {
+    "process_number": "03",
+    "process_name": "Proof of concept building",
+    "process_list": [
+      "Develop a proof of concept to test and validate the feasibility of your AI solution."
+    ]
+  },
+  {
+    "process_number": "04",
+    "process_name": "Deploy and optimize",
+    "process_list": [
+      "Implement the AI solution into your operational workflow and optimize for peak performance."
+    ]
+  },
+  {
+    "process_number": "05",
+    "process_name": "Monitor & improve",
+    "process_list": [
+      "Continually monitor the performance of your AI solution and make necessary improvements to enhance its effectiveness."
+    ]
+  }
+]

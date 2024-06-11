@@ -1,0 +1,22 @@
+[
+  {
+    "galleryImage": "/assets/images/company/game.jpg",
+    "galleryTitle": "Playing Games",
+    "galleryDescription": "Bringing a playful twist to the workplace with some fun-filled games"
+  },
+  {
+    "galleryImage": "/assets/images/company/birthday.png",
+    "galleryTitle": "Birthday Celebrations",
+    "galleryDescription": "Making employee’s birthdays at work extra special with cake, & confetti,"
+  },
+  {
+    "galleryImage": "/assets/images/company/gallery-image3.jpg",
+    "galleryTitle": "Special Occasions",
+    "galleryDescription": "Creating memories & turning special occasions into unforgettable moments..."
+  },
+  {
+    "galleryImage": "/assets/images/company/pool.png",
+    "galleryTitle": "Outdoor Gatherings",
+    "galleryDescription": "Taking team-building to the great outdoors for a memorable cheer-up."
+  }
+]

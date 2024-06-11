@@ -1,0 +1,26 @@
+[
+  {
+    "imageIcon": "/assets/images/services/cloud-process1.svg",
+    "title": "Discovery &\nAnalysis"
+  },
+  {
+    "imageIcon": "/assets/images/services/cloud-process2.svg",
+    "title": "Build"
+  },
+  {
+    "imageIcon": "/assets/images/services/cloud-process3.svg",
+    "title": "Testing"
+  },
+  {
+    "imageIcon": "/assets/images/services/cloud-process4.svg",
+    "title": "Release"
+  },
+  {
+    "imageIcon": "/assets/images/services/cloud-process5.svg",
+    "title": "Deploy &\nOperate"
+  },
+  {
+    "imageIcon": "/assets/images/services/cloud-process6.svg",
+    "title": "Performance\n& Monitoring"
+  }
+]

@@ -1,0 +1,47 @@
+[
+  {
+    "whyChooseIcon" : "/assets/images/services/ai1.png",
+    "whyChooseTitle" : "AI Technology Consulting",
+    "whyChooseDetail" : "Navigating the intricate landscape of AI, we offer expert guidance to help you harness its potential for your unique business needs."
+  },
+  {
+    "whyChooseIcon" : "/assets/images/services/ai2.png",
+    "whyChooseTitle" : "Custom AI Solutions",
+    "whyChooseDetail" : "We craft bespoke AI solutions, aligning our expertise with your specific challenges to yield transformative results."
+  },
+  {
+    "whyChooseIcon" : "/assets/images/services/ai3.png",
+    "whyChooseTitle" : "Predictive Analytics",
+    "whyChooseDetail" : "Utilizing advanced statistical & machine learning algorithms, our predictive analysis solutions ensure accurate predictions of forthcoming events & outcomes."
+  },
+  {
+    "whyChooseIcon" : "/assets/images/services/ai4.png",
+    "whyChooseTitle" : "Machine learning",
+    "whyChooseDetail" : "As a leading AI ML development company, our machine learning service use data-driven algorithms to unlock actionable insights and drive transformative solutions for your business."
+  },
+  {
+    "whyChooseIcon" : "/assets/images/services/ai5.png",
+    "whyChooseTitle" : "Deep Learning",
+    "whyChooseDetail" : "Deep learning services use neural networks and attention models to automatically learn and improve from data, enabling machines to recognize patterns & make intelligent decisions."
+  },
+  {
+    "whyChooseIcon" : "/assets/images/services/ai6.png",
+    "whyChooseTitle" : "Natural Language Processing",
+    "whyChooseDetail" : "NLP solutions enable machines to understand and interpret human language, allowing more efficient communication and decision-making."
+  },
+  {
+    "whyChooseIcon" : "/assets/images/services/ai7.png",
+    "whyChooseTitle" : "Generative Models",
+    "whyChooseDetail" : "The generative model solutions use ML as a service to generate new content. It is usable in a wide range of applications."
+  },
+  {
+    "whyChooseIcon" : "/assets/images/services/ai8.png",
+    "whyChooseTitle" : "AI Model Integration and Optimization",
+    "whyChooseDetail" : "Seamlessly integrating AI models into your operations, we fine-tune them to ensure maximum efficiency & value."
+  },
+  {
+    "whyChooseIcon" : "/assets/images/services/ai9.png",
+    "whyChooseTitle" : "Fine-Tuning Models",
+    "whyChooseDetail" : "We optimize AI models for peak performance, ensuring they evolve in alignment with your evolving business objectives."
+  }
+]

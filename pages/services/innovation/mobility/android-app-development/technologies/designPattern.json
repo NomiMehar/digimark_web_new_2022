@@ -1,0 +1,14 @@
+[
+  {
+    "langIcon" : "/assets/images/services/lang1.svg",
+    "langTitle" : "MVVM"
+  },
+  {
+    "langIcon" : "/assets/images/services/lang2.svg",
+    "langTitle" : "MVC"
+  },
+  {
+    "langIcon" : "/assets/images/services/lang2.svg",
+    "langTitle" : "MVP"
+  }
+]

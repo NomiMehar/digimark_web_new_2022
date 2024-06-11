@@ -1,0 +1,81 @@
+@import "../../../../../../styles/variables";
+.hiring_models {
+  padding: 100px 0 130px;
+  @media (max-width: $breakpoint_mobile_landscape) {
+    padding: 60px 0 50px;
+  }
+  .hiring_models_wrap {
+    & > ul {
+      margin: 0 -19px;
+      & > li {
+        width: 33.333%;
+        padding: 0 19px;
+        @media (max-width: $breakpoint_mobile_landscape) {
+          width: 100%;
+          margin-bottom: 50px;
+        }
+        section {
+          background: #FFFFFF;
+          border: 3px solid #DBDBDB;
+          box-shadow: 0 13px 38px rgba(153, 153, 153, 0.28);
+          border-radius: 20px;
+          padding: 30px 30px 0;
+          img { margin-bottom: 16px;}
+          h3 {
+            margin: 0 0 11px;
+            color: #1D4354;
+            font-size: 28px;
+          }
+          p{
+            margin: 0 0 16px;
+            font-size: 24px;
+            line-height: 36px;
+            @media (max-width: $breakpoint_laptop) {
+              font-size: 16px;
+              line-height: 26px;
+            }
+          }
+          ul {
+            margin-bottom: 31px;
+            li {
+              font-size: 24px;
+              line-height: 36px;
+              position: relative;
+              display: flex;
+              align-items: flex-start;
+              color: #1D4354;
+              font-weight: 400;
+              margin-bottom: 3px;
+              font-family: "Apercu", sans-serif;
+              @media (max-width: $breakpoint_laptop) {
+                font-size: 18px;
+                line-height: 30px;
+              }
+              &:before {
+                content: '';
+                background: url("../../../../../../public/assets/images/services/check.svg");
+                width: 18px;
+                height: 13px;
+                margin-right: 11px;
+                background-size: 100% 100%;
+                margin-top: 13px;
+              }
+            }
+          }
+          a {
+            background: #6BB64A;
+            color: #FFFFFF;
+            padding: 18px 50px;
+            border-radius: 5px;
+            font-size: 22px;
+            transition: all 0.4s ease-in-out;
+            margin-bottom: -30px;
+            &:hover {
+              background-color: #1d435a;
+            }
+          }
+        }
+      }
+    }
+  }
+}

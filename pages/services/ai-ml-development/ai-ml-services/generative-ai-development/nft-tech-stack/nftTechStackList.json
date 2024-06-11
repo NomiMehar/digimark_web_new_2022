@@ -1,0 +1,57 @@
+[
+  {
+    "techTitle": "DL Frameworks:",
+    "techIcons": [
+      {
+        "iconImage": "/assets/images/services/tech1.svg"
+      },
+      {
+        "iconImage": "/assets/images/services/tech6.svg"
+      },
+      {
+        "iconImage": "/assets/images/services/tech33.svg"
+      },
+      {
+        "iconImage": "/assets/images/services/tech34.svg"
+      },
+      {
+        "iconImage": "/assets/images/services/tech35.svg"
+      },
+      {
+        "iconImage": "/assets/images/services/tech16.svg" 
+           }
+    ]
+  },
+  {
+    "techTitle": "Front-End Frameworks:",
+    "techIcons": [
+      {
+        "iconImage": "/assets/images/services/tech9.svg"
+      },
+      {
+        "iconImage": "/assets/images/services/tech8.svg"
+      
+      },
+      {
+        "iconImage": "/assets/images/services/tech7.svg"
+      }
+    ]
+  },
+  {
+    "techTitle": "Token Standards:",
+    "techIcons": [
+      {
+        "iconImage": "/assets/images/services/tech17.svg"
+      },
+      {
+        "iconImage": "/assets/images/services/tech17.svg"
+      },
+      {
+        "iconImage": "/assets/images/services/tech17.svg"
+      },
+      {
+        "iconImage": "/assets/images/services/tech18.svg"
+      }
+    ]
+  }
+]

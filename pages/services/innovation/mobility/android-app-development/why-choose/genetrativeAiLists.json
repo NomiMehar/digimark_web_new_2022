@@ -1,0 +1,32 @@
+[
+  {
+    "whyChooseIcon" : "/assets/images/services/ai1.png",
+    "whyChooseTitle" : "Data Processing",
+    "whyChooseDetail" : "one of the top generative AI companies offers data processing services that involve organizing, cleaning."
+  },
+  {
+    "whyChooseIcon" : "/assets/images/services/ai2.png",
+    "whyChooseTitle" : "Training Data Collection",
+    "whyChooseDetail" : "Our team uses exacting data collection methods to make sure that the information utilized to develop your AI models."
+  },
+  {
+    "whyChooseIcon" : "/assets/images/services/ai3.png",
+    "whyChooseTitle" : "Developing Custom AI Models",
+    "whyChooseDetail" : "As one of the leading top generative AI companies, Kodexo Labs specializes in developing unique AI models"
+  },
+  {
+    "whyChooseIcon" : "/assets/images/services/ai4.png",
+    "whyChooseTitle" : "Algorithm Development",
+    "whyChooseDetail" : "our skilled team specializes in algorithm development, utilizing cutting-edge approaches and techniques to create AI algorithms that can recognize patterns."
+  },
+  {
+    "whyChooseIcon" : "/assets/images/services/ai5.png",
+    "whyChooseTitle" : "Fine-Tuning",
+    "whyChooseDetail" : "To increase the precision and speed of your AI models, our model optimization services entail fine-tuning the parameters"
+  },
+  {
+    "whyChooseIcon" : "/assets/images/services/ai6.png",
+    "whyChooseTitle" : "Deployment & Maintenance",
+    "whyChooseDetail" : "When your AI models are prepared, we guarantee a smooth deployment into your current infrastructure."
+  }
+]

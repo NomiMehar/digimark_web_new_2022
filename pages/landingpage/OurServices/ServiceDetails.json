@@ -1,0 +1,165 @@
+[
+  {
+    "id": 1,
+    "tabsName": "AI & ML",
+    "allServicesLink": "#",
+    "innerDate": [
+      {
+        "buttonText": "AI/ML",
+        "buttonLink": ""
+      },
+      {
+        "buttonText": "Generative \nAI",
+        "buttonLink": "/services/innovation/engagements-model/generative-ai-development"
+      },
+      {
+        "buttonText": "Chatbot \ndevelopment",
+        "buttonLink": "/services/innovation/engagements-model/chatbot-development"
+      },
+      {
+        "buttonText": "Computer \nVision",
+        "buttonLink": ""
+      },
+      {
+        "buttonText": "Data \nScience",
+        "buttonLink": ""
+      },
+      {
+        "buttonText": "AI PoC \n& AI MVP",
+        "buttonLink": "/services/innovation/engagements-model/ai-poc-mvp"
+      },
+      {
+        "buttonText": "NLP",
+        "buttonLink": ""
+      },
+      {
+        "buttonText": "Data \nEngineering",
+        "buttonLink": "/services/innovation/engagements-model/data-engineering-services"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "tabsName": "Gamification",
+    "allServicesLink": "/services/next-gen-tech/blockchain/nft-development",
+    "innerDate": [
+      {
+        "buttonText": "Mobile/PC Game \nDevelopment",
+        "buttonLink": ""
+      },
+      {
+        "buttonText": "Blockchain/Metaverse \nGame Development",
+        "buttonLink": ""
+      },
+      {
+        "buttonText": "2D / 3D Game \nDevelopment",
+        "buttonLink": ""
+      },
+      {
+        "buttonText": "AI Game \nDevelopment",
+        "buttonLink": ""
+      },
+      {
+        "buttonText": "NFT Game \nDevelopment",
+        "buttonLink": ""
+      },
+      {
+        "buttonText": "AR/VR/MR Game\nDevelopment",
+        "buttonLink": ""
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "tabsName": "Bespoke Development",
+    "allServicesLink": "/services/next-gen-tech/blockchain/ar-vr-development",
+    "innerDate": [
+      {
+        "buttonText": "Web App \nDevelopment",
+        "buttonLink": ""
+      },
+      {
+        "buttonText": "Bespoke Software\nDevelopment",
+        "buttonLink": ""
+      },
+      {
+        "buttonText": "MVP\nDevelopment",
+        "buttonLink": ""
+      },
+      {
+        "buttonText": "Product\nDevelopment",
+        "buttonLink": ""
+      },
+      {
+        "buttonText": "SaaS \nDevelopment",
+        "buttonLink": ""
+      },
+      {
+        "buttonText": "Cloud &\nDevOps",
+        "buttonLink": ""
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "tabsName": "Mobile App Development",
+    "allServicesLink": "/services/next-gen-tech/blockchain/metaverse-development",
+    "innerDate": [
+      {
+        "buttonText": "Mobile \nDevelopment",
+        "buttonLink": ""
+      },
+      {
+        "buttonText": "Android App\nDevelopment",
+        "buttonLink": ""
+      },
+      {
+        "buttonText": "iOS App\nDevelopment",
+        "buttonLink": ""
+      },
+      {
+        "buttonText": "React Native App\nDevelopment",
+        "buttonLink": ""
+      },
+      {
+        "buttonText": "Ionic \nDevelopment",
+        "buttonLink": ""
+      },
+      {
+        "buttonText": "Support & \nMaintenance",
+        "buttonLink": ""
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "tabsName": "Blockchain",
+    "allServicesLink": "/services/next-gen-tech/blockchain/blockchain-development",
+    "innerDate": [
+      {
+        "buttonText": "Blockchain \nDevelopment",
+        "buttonLink": ""
+      },
+      {
+        "buttonText": "NFT \nDevelopment",
+        "buttonLink": ""
+      },
+      {
+        "buttonText": "Smart \nContract",
+        "buttonLink": ""
+      },
+      {
+        "buttonText": "Metaverse \nDevelopment",
+        "buttonLink": ""
+      },
+      {
+        "buttonText": "AR/VR \nDevelopment",
+        "buttonLink": ""
+      },
+      {
+        "buttonText": "DApp \nDevelopment",
+        "buttonLink": ""
+      }
+    ]
+  }
+]

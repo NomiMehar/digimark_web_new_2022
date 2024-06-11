@@ -1,0 +1,69 @@
+@import "../../../../../../styles/variables";
+.benefits_cloud_wrapper {
+  padding: 100px 0 70px;
+  background: rgba(243, 246, 255, 1);
+  position: relative;
+  .benefits_cloud {
+    ul {
+      margin: 0 -20px;
+      @media (max-width: $breakpoint_tablet) {
+        justify-content: center;
+      }
+      li {
+        width: 33.333%;
+        padding: 0 20px;
+        margin-bottom: 30px;
+        @media (max-width: $breakpoint_tablet) {
+          width: 50%;
+        }
+        @media (max-width: $breakpoint_mobile_landscape) {
+          width: 100%;
+        }
+        .benefits_cloud_text {
+          border-radius: 20px;
+          background: #FFF;
+          overflow: hidden;
+          box-shadow: 0 10px 40px 0 rgba(0, 0, 128, 0.05);
+          img {
+            width: 100%;
+            height: auto;
+          }
+          section {
+            padding: 30px;
+            p {
+              margin: 0 0 28px;
+              font-size: 24px;
+              line-height: 36px;
+              @media (max-width: $breakpoint_laptop) {
+                font-size: 18px;
+                line-height: 28px;
+              }
+            }
+            h3 {
+              margin: 0 0 15px;
+              font-size: 28px;
+              @media (max-width: $breakpoint_laptop) {
+                font-size: 22px;
+              }
+            }
+            span {
+              display: flex;
+              flex-wrap: wrap;
+              small {
+                margin-right: 6px;
+                margin-bottom: 10px;
+                font-size: 14px;
+                color: #6BB64A;
+                border-radius: 24px;
+                background: rgba(107, 182, 74, 0.10);
+                display: inline-flex;
+                padding: 4px 11.375px 4px 12px;
+                align-items: flex-start;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

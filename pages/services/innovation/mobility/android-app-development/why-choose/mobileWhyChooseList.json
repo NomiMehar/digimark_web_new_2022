@@ -1,0 +1,27 @@
+[
+  {
+    "whyChooseTitle" : "Flexible",
+    "whyChooseDetail" : "Our apps are designed to be versatile, ensuring that they run smoothly on multiple platforms, including iOS, Android, and Windows, saving you time and best user experience.",
+    "duration": 1000
+  },
+  {
+    "whyChooseTitle" : "Innovative",
+    "whyChooseDetail" : "We provide the latest technological advancements in our software solutions to deliver a tailored experience for our clients and their users, providing the relevant functionality and the best possible outcomes.",
+    "duration": 1500
+  },
+  {
+    "whyChooseTitle" : "Scalable",
+    "whyChooseDetail" : "Scalability is key for an application to accommodate a growing user base amazingly. Our team focuses on building flexible and high-performance software architecture to ensure seamless scalability.",
+    "duration": 1400
+  },
+  {
+    "whyChooseTitle" : "User-friendly",
+    "whyChooseDetail" : "We prioritize user-friendly design by creating intuitive interfaces & streamlined workflows. Our goal is to build high-quality custom mobile app development services that are easy to use and secure.",
+    "duration": 1000
+  },
+  {
+    "whyChooseTitle" : "Flawless",
+    "whyChooseDetail" : "We are committed to delivering flawless applications that exceed our clients' expectations. Our experts employ rigorous testing and QA processes to ensure that our applications are error-free and perform seamlessly.",
+    "duration": 1500
+  }
+]

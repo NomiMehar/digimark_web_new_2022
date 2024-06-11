@@ -1,0 +1,629 @@
+@import "../../../../../../styles/variables";
+.product_banner_wrapper {
+  height: calc(100vh);
+  padding: 173px 0 0;
+  background: url("../../../../../../public/assets/images/services/app-bg.jpg") fixed center;
+  background-size: cover;
+  position: relative;
+  & > div { z-index: 1}
+  @media (max-width: $breakpoint_laptop) {
+    padding: 127px 0 0;
+  }
+  @media (max-width: $breakpoint_tablet) {
+    height: auto;
+    padding: 130px 0 60px;
+  }
+  &.unity_nft_banner {
+    background: url("../../../../../../public/assets/images/services/unity-banner-bg.jpg") fixed center;
+    background-size: cover;
+    .app_banner_video { display: none}
+    .service_banner_wrapper {
+      p {
+        max-width: 695px;
+      }
+    }
+  }
+  &.game_nft_banner {
+    padding: 173px 0 0;
+    background: url("../../../../../../public/assets/images/services/nft-game-banner-bg.jpg") fixed center;
+    background-size: cover;
+    @media (max-width: $breakpoint_tablet) {
+      padding-bottom: 30px;
+    }
+    .app_banner_video { display: none}
+    .service_banner_wrapper {
+      p {
+        max-width: 60%;
+        @media (max-width: $breakpoint_tablet) {
+          max-width: 100%;
+        }
+      }
+    }
+  }
+  &.unreal_nft_banner {
+    background: url("../../../../../../public/assets/images/services/unreal_game_bg.jpg") right center no-repeat;
+    padding: 173px 0 0;
+    background-size: cover ;
+    // @media (max-width: $breakpoint_tablet) {
+    //   background: #FFFFFF;
+    // }
+    .app_banner_video { display: none}
+    .breadcrumbs {
+      li {
+        color: #1D4354;
+        img {
+          filter: brightness(0);
+        }
+        &:before {
+          background-color: #1D4354;
+        }
+      }
+    }
+    .service_banner_wrapper {
+      h1 {
+        color: #1D4354;
+        span {
+          color: #FFFFFF;
+        }
+      }
+      p {
+        max-width: 580px;
+        color: #1D4354;
+      }
+      .banner_btn {
+        border-color: #1D4354;
+        color: #1D4354;
+        img { filter: brightness(0)}
+      }
+    }
+  }
+  &.ai_game_development{
+    background: url("../../../../../../public/assets/images/services/ai-game.png") right center no-repeat;
+    padding: 173px 0 0;
+    background-size: cover ;
+    // @media (max-width: $breakpoint_tablet) {
+    //   background: #FFFFFF;
+    // }
+    .app_banner_video { display: none}
+    .service_banner_wrapper {
+      p {
+        max-width: 580px;
+      }
+    }
+  }
+  &.blockchain_game_development{
+    background: url("../../../../../../public/assets/images/services/blockchain_game.png") center no-repeat;
+    padding: 173px 0 0;
+    background-size: cover ;
+    // @media (max-width: $breakpoint_tablet) {
+    //   background: #FFFFFF;
+    // }
+    .app_banner_video { display: none}
+    .service_banner_wrapper {
+      p {
+        max-width: 580px;
+      }
+    }
+  }
+  &.metaverse_game_development{
+    background: url("../../../../../../public/assets/images/services/metaverse_game.png") right center no-repeat;
+    padding: 173px 0 0;
+    background-size: cover ;
+    // @media (max-width: $breakpoint_tablet) {
+    //   background: #FFFFFF;
+    // }
+    & > div {justify-content: space-between;}
+    .service_banner_wrapper {
+      p {
+        max-width: 580px;
+      }
+    }
+  }
+  &.fullCyle_game_development{
+    background: url("../../../../../../public/assets/images/services/full_cycle.png") right center no-repeat;
+    padding: 173px 0 0;
+    background-size: cover ;
+    // @media (max-width: $breakpoint_tablet) {
+    //   background: #FFFFFF;
+    // }
+    .app_banner_video { display: none}
+    .service_banner_wrapper {
+      p {
+        max-width: 580px;
+      }
+    }
+  }
+  &.game_pc_banner {
+    height: 1000px;
+    padding-bottom: 100px;
+    @media (max-width: $breakpoint_laptop) {
+      height: 700px;
+    }
+  }
+  &.game_dev_banner {
+    & > div {
+      video { display: none}
+      .service_banner_wrapper {
+        p {
+          max-width: 49%;
+          @media (max-width: $breakpoint_tablet) {
+            max-width: 100%;
+          }
+        }
+      }
+    }
+  }
+  .banner_bg_video {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  &.saas_managment,
+  &.product_design_banner,
+  &.support_app_banner {
+    background: #12262F;
+  }
+  &.cloud_banner_wrapper {
+    background: #12262F url("../../../../../../public/assets/images/services/cloud-banner-bg.jpg") no-repeat center right;
+    background-blend-mode: lighten;
+    @media (max-width: $breakpoint_mobile_landscape) {
+      background: #12262F;
+    }
+    .service_banner_wrapper {
+      p {
+        max-width: 47%;
+        @media (max-width: $breakpoint_mobile_landscape) {
+          max-width: 100%;
+        }
+      }
+    }
+    video { display: none}
+  }
+  &.product_banner_development {
+    background: #12262F url("../../../../../../public/assets/images/services/product_dev_bg.png") no-repeat center right;
+    video { display: none}
+  }
+  &.mvp_app_banner {
+    position: relative;
+    background: #12262F;
+    img {
+      &.app_banner_video {
+        border-radius: 55px;
+      }
+    }
+    &:before {
+      content: '';
+      position: absolute;
+      left: 0;
+      bottom: -24px;
+      width: 100%;
+      height: 128px;
+      background: url("../../../../../../public/assets/images/services/sub_tract.svg") center;
+      background-size: cover;
+    }
+  }
+  &.token_banner {
+    padding-bottom: 0;
+  }
+  &.support_banner {
+    background-image: url("../../../../../../public/assets/images/support/support-bg.jpg");
+    .service_banner_wrapper {
+      width: 50%;
+      @media (max-width: $breakpoint_tablet) {
+        width: 100%;
+      }
+    }
+  }
+  &.dapp_banner {
+    background: #12262F;
+    .app_banner_video { display: none;}
+    padding-bottom: 0;
+    .service_banner_wrapper {
+      width: 100%;
+      .banner_btn {display: none}
+      h1 {
+        text-transform: uppercase;
+        font-size: 65px;
+        background: url("../../../../../../public/assets/images/services/banner-dots.png") no-repeat top left;
+        padding-left: 200px;
+        padding-top: 50px;
+        margin: 0;
+        @media (max-width: $breakpoint_laptop) {
+          font-size: 50px;
+        }
+        @media (max-width: $breakpoint_tablet) {
+          padding-bottom: 60px;
+          text-align: center;
+          font-size: 35px;
+          padding-left: 0;
+        }
+        @media (max-width: $breakpoint_mobile_portrait) {
+          font-size: 30px;
+        }
+        small {
+          margin: 9px 0 9px 100px;
+          font-size: 65px;
+          display: block;
+          @media (max-width: $breakpoint_laptop) {
+            font-size: 50px;
+          }
+          @media (max-width: $breakpoint_tablet) {
+            font-size: 35px;
+            margin: 0;
+          }
+          @media (max-width: $breakpoint_mobile_portrait) {
+            font-size: 30px;
+          }
+        }
+        span {
+          padding: 0;
+          background: none;
+          color: #6BB64A;
+          font-family: "CloverDisplay-Bold", sans-serif;
+        }
+      }
+    }
+  }
+  &.blockchain_banner {
+    background-image: url("../../../../../../public/assets/images/services/blockchain-bg.jpg");
+    .app_banner_video { display: none;}
+    padding-bottom: 0;
+    .service_banner_wrapper {
+      width: 50%;
+      @media (max-width: $breakpoint_tablet) {
+        width: 100%;
+      }
+      p { max-width: 100%;}
+    }
+  }
+  &.arvr_banner {
+    background-image: url("../../../../../../public/assets/images/services/ar-banner.jpg");
+    .app_banner_video { display: none;}
+    padding-bottom: 0;
+    .service_banner_wrapper {
+      width: 50%;
+      @media (max-width: $breakpoint_tablet) {
+        width: 100%;
+      }
+      p { max-width: 100%;}
+    }
+  }
+  &.defi_banner {
+    background-image: url("../../../../../../public/assets/images/services/defi_banner.jpg");
+    .app_banner_video { display: none;}
+    padding-bottom: 0;
+    .service_banner_wrapper {
+      width: 50%;
+      @media (max-width: $breakpoint_tablet) {
+        width: 100%;
+      }
+      p { max-width: 100%;}
+    }
+  }
+  .service_banner_wrapper {
+    h1 {
+      margin: 0 0 30px;
+      font-size: 48px;
+      font-family: 'CloverDisplay-Light', sans-serif;
+      line-height: 1.3;
+      color: $white_color;
+      @media (max-width: $breakpoint_laptop){
+        font-size: 36px;
+        margin: 0 0 10px;
+      }
+      @media (max-width: $breakpoint_tablet) {
+        font-size: 28px;
+      }
+      @media (max-width: $breakpoint_mobile_landscape) {
+        br { display: none}
+      }
+      span {
+        display: inline-block;
+        background: $green_color;
+        white-space: nowrap;
+        padding: 0 5px;
+        @media (max-width: $breakpoint_mobile_landscape) {
+          white-space: normal;
+          display: inline;
+        }
+        strong {
+          font-family: 'CloverDisplay-ExtraBold', sans-serif;
+        }
+      }
+    }
+    p {
+      font-size: 24px;
+      line-height: 40px;
+      color: $white_color;
+      opacity: 0.9;
+      max-width: 80%;
+      margin: 0 0 50px;
+      span {
+        color: #6BB64A;
+        font-family: "Apercu-Medium", sans-serif;
+      }
+      @media (max-width: $breakpoint_laptop){
+        font-size: 18px;
+        line-height: 30px;
+        max-width: 75%;
+        margin: 0 0 25px;
+      }
+      @media (max-width: $breakpoint_tablet) {
+        max-width: 100%;
+        font-size: 16px;
+        line-height: 28px;
+      }
+    }
+    .banner_btn {
+      color: $white_color;
+      display: flex;
+      align-items: center;
+      border: 1px solid $white_color;
+      border-radius: 10px;
+      font-size: 18px;
+      justify-content: center;
+      margin-right: auto;
+      height: 52px;
+      padding: 0 20px;
+      text-transform: uppercase;
+      transition: all 0.4s ease-in-out;
+      font-family: "CloverDisplay-bold", sans-serif;
+      @media (max-width: $breakpoint_laptop) {
+        font-size: 16px;
+        height: 48px;
+      }
+      @media (max-width: $breakpoint_tablet) {
+        font-size: 14px;
+        height: 45px;
+        margin-bottom: 30px;
+      }
+      img {
+        transition: all 0.4s ease-in-out;
+        margin-left: 15px;
+      }
+      &:hover {
+        background: $white_color;
+        color: $dark_color;
+        img { filter: brightness(0)}
+      }
+    }
+  }
+  .app_banner_video {
+    margin: 0;
+    width: 100%;
+    max-width: 600px;
+    height: auto;
+    @media (max-width: $breakpoint_laptop){
+      max-width: 375px;
+    }
+    @media (max-width: $breakpoint_tablet){
+      max-width: 275px;
+      padding-left: 20px;
+    }
+    @media (max-width: $breakpoint_mobile_portrait){
+      padding-left: 0;
+    }
+  }
+  &.metaverse_development{
+    background: url("../../../../../../public/assets/images/services/metaverse-bg.jpg") fixed center;
+   .service_banner_wrapper{
+    text-align: center;
+    align-items: center;
+   }
+    .app_banner_video{
+      display: none;
+    }
+    .banner_btn{
+      margin: 0 auto;
+    }
+  }
+  &.web_app_banner{
+    background: #F3F6FF;
+    h1{
+      color: #12262F !important;
+      font-family: "CloverDisplay-ExtraBold", sans-serif !important;
+      span{
+        color: #ffff !important;
+      }
+    }
+    p{
+      color: #12262F !important;
+    }
+    a{ 
+      color: #12262F !important;
+      border: 1px solid #12262F !important;
+      img {
+        filter: invert(1);
+       }
+    }
+    .breadcrumbs {
+      li {
+        color: #12262F;
+        img {
+         filter: invert(1);
+        }
+        &:before {
+          background: #12262F;
+        }
+        //small {
+        //  color: #12262F;
+        //}
+      }
+    }
+  }
+  &.bespoke_banner{
+    background-image: url("../../../../../../public/assets/images/services/bespoke-bg.png");
+    .service_banner_wrapper {
+      width: 50%;
+      @media (max-width: $breakpoint_tablet) {
+        width: 100%;
+      }
+    }
+    video{
+      display: none;
+    }
+    h1{
+      font-family: "CloverDisplay-ExtraBold", sans-serif !important;
+    }
+    p{
+      span{
+        text-decoration: underline;
+        color: #fff   ;
+      }
+    }
+    .breadcrumbs {
+      li {
+        small {
+          color: #fff;
+          text-decoration: underline;
+        }
+      }
+    }
+  }
+  &.augmentation_banner{
+    background-image: url("../../../../../../public/assets/images/services/app-bg.jpg");
+    .service_banner_wrapper {
+      width: 100%;
+      @media (max-width: $breakpoint_tablet) {
+        width: 100%;
+      }
+    }
+    video{
+      display: none;
+    }
+    h1{
+      font-family: "CloverDisplay-ExtraBold", sans-serif !important;
+    }
+    p{
+      span{
+        text-decoration: underline;
+        color: #fff   ;
+      }
+    }
+    .breadcrumbs {
+      li {
+        small {
+          color: #fff;
+          text-decoration: underline;
+        }
+      }
+    }
+  }
+  &.ai-poc-mvp{
+    background-image: url("../../../../../../public/assets/images/services/ai-poc-mvp.jpg");
+    .service_banner_wrapper {
+      width: 100%;
+      @media (max-width: $breakpoint_tablet) {
+        width: 100%;
+      }
+    }
+    video{
+      display: none;
+    }
+    h1{
+      font-family: "CloverDisplay-ExtraBold", sans-serif !important;
+    }
+    p{
+      span{
+        text-decoration: underline;
+        color: #fff   ;
+      }
+    }
+    .breadcrumbs {
+      li {
+        small {
+          color: #fff;
+          text-decoration: underline;
+        }
+      }
+    }
+  }
+  &.computer-vision{
+    background-image: url("../../../../../../public/assets/images/services/computer-vision.png");
+    .service_banner_wrapper {
+      width: 100%;
+      @media (max-width: $breakpoint_tablet) {
+        width: 100%;
+      }
+    }
+    video{
+      display: none;
+    }
+    h1{
+      font-family: "CloverDisplay-ExtraBold", sans-serif !important;
+    }
+    p{
+      span{
+        text-decoration: underline;
+        color: #fff   ;
+      }
+    }
+    .breadcrumbs {
+      li {
+        small {
+          color: #fff;
+          text-decoration: underline;
+        }
+      }
+    }
+  }
+}
+.breadcrumbs {
+  margin-bottom: 40px;
+  @media (max-width: $breakpoint_laptop){
+    margin: 0 0 20px
+  }
+  @media (max-width: $breakpoint_tablet) {
+    display: none;
+  }
+  li {
+    display: flex;
+    align-items: center;
+    color: $white_color;
+    font-family: 'Apercu', sans-serif;
+    font-size: 24px;
+    position: $position_rel;
+    padding-right: 15px;
+    margin-right: 13px;
+    @media (max-width: $breakpoint_laptop) {
+      font-size: 15px;
+    }
+    &:last-child{
+      padding-right: 0;
+      margin-right: 0;
+      &:before { display: none;}
+    }
+    img {
+      margin-right: 13px;
+      @media (max-width: $breakpoint_laptop) {
+        width: 20px;
+      }
+    }
+    &:before {
+      content: "";
+      position: $position_abs;
+      right: 0;
+      top: 0;
+      width: 2px;
+      height: 28px;
+      background: $white_color;
+      opacity: 0.9;
+      transform: rotate(20deg);
+      @media (max-width: $breakpoint_laptop) {
+        top: 5px;
+        height: 18px;
+      }
+    }
+    small {
+      font-size: 24px;
+      color: $green_color;
+      font-family: 'Apercu-Medium', sans-serif;
+      @media (max-width: $breakpoint_laptop) {
+        font-size: 15px;
+      }
+    }
+  }
+}

@@ -1,0 +1,105 @@
+@import "../../../styles/variables";
+.industries_serve_wrap {
+  padding: 100px 0 70px;
+  background: #1D4354;
+  @media (max-width: $breakpoint_laptop) {
+    padding: 80px 0 50px;
+  }
+  @media (max-width: $breakpoint_tablet) {
+    padding: 60px 0 30px;
+  }
+  .industries_serve {
+    ul {
+      margin: 0 -10px;
+      li {
+        width: 33.333%;
+        padding: 0 10px;
+        margin-bottom: 30px;
+        @media (max-width: $breakpoint_tablet) {
+          width: 50%;
+        }
+        @media (max-width: $breakpoint_mobile_portrait) {
+          width: 100%;
+        }
+        .industries_serve_text {
+          background: #FFFFFF;
+          padding: 22px;
+          border-radius: 20px;
+          &:hover {
+            a {
+              background: #6BB64A;
+              color: #FFFFFF;
+              img {
+                filter: brightness(10);
+              }
+            }
+          }
+          figure {
+            margin: 0 0 35px;
+            border-radius: 20px;
+            overflow: hidden;
+            position: relative;
+            @media (max-width: $breakpoint_laptop) {
+              margin-bottom: 25px;
+            }
+            &:before {
+              content: '';
+              position: absolute;
+              left: -1px;
+              bottom: -1px;
+              border-bottom: 70px solid #FFFFFF;
+              border-right: 70px solid transparent;
+            }
+            img {
+              border-radius: 20px;
+              width: 100%;
+              height: auto;
+            }
+          }
+          section {
+            padding: 0 18px;
+            h3 {
+              margin: 0 0 10px;
+              font-size: 28px;
+              text-transform: uppercase;
+              @media (max-width: $breakpoint_laptop) {
+                font-size: 24px;
+              }
+            }
+            p {
+              font-size: 24px;
+              line-height: 36px;
+              margin: 0 0 36px;
+              @media (max-width: $breakpoint_laptop) {
+                font-size: 18px;
+                line-height: 28px;
+                margin-bottom: 26px;
+              }
+            }
+            a {
+              text-transform: uppercase;
+              display: flex;
+              margin-left: auto;
+              width: fit-content;
+              border: 1px solid #6BB64A;
+              color: #6BB64A;
+              align-items: center;
+              gap: 18px;
+              position: relative;
+              right: -40px;
+              border-radius: 5px 0 0 5px;
+              font-size: 18px;
+              font-family: "CloverDisplay-bold", sans-serif;
+              padding: 15px 28px;
+              transition: all 0.4s ease-in-out;
+              @media (max-width: $breakpoint_laptop) {
+                font-size: 15px;
+                padding: 12px 22px;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

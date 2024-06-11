@@ -1,0 +1,46 @@
+.product_benefits {
+  padding: 100px 0 65px;
+  background: #F3F6FF;
+}
+.product_benefits .benefits ul {
+  margin: 0 -20px;
+}
+.product_benefits .benefits ul li {
+  padding: 0 20px;
+  width: 25%;
+  margin: 0 0 45px;
+  position: relative;
+}
+.product_benefits .benefits ul li:hover h4 {
+  color: #6bb64a;
+}
+.product_benefits .benefits ul li h4 {
+  transition: all 0.4s ease-in-out;
+  font-size: 84px;
+  line-height: 78px;
+  color: #E6EBF5;
+  margin-bottom: 0;
+}
+@media (max-width: 1600px) {
+  .product_benefits .benefits ul li h4 {
+    font-size: 45px;
+    line-height: 60px;
+  }
+}
+.product_benefits .benefits ul li p {
+  transition: all 0.4s ease-in-out;
+  font-size: 28px;
+  line-height: 36px;
+  color: #1D4354;
+  opacity: 0.9;
+  margin: 0;
+  position: absolute;
+  top: 25%;
+  white-space: pre;
+}
+@media (max-width: 1600px) {
+  .product_benefits .benefits ul li p {
+    font-size: 18px;
+    line-height: 28px;
+  }
+}/*# sourceMappingURL=ProductBenefits.module.css.map */

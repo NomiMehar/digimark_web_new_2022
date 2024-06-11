@@ -1,0 +1,26 @@
+[
+  {
+    "overViewImage" : "/assets/images/services/overview1.svg",
+    "overViewCount" : "03",
+    "overViewSign" : "+ Years",
+    "overViewDescription" : "Experience"
+  },
+  {
+    "overViewImage" : "/assets/images/services/overview3.svg",
+    "overViewCount" : "27",
+    "overViewSign" : "+",
+    "overViewDescription" : "Professionals"
+  },
+  {
+    "overViewImage" : "/assets/images/services/overview4.svg",
+    "overViewCount" : "65",
+    "overViewSign" : "+",
+    "overViewDescription" : "Projects Delivered"
+  },
+  {
+    "overViewImage" : "/assets/images/services/overview2.svg",
+    "overViewCount" : "05",
+    "overViewSign" : "+",
+    "overViewDescription" : "AI Solutions"
+  }
+]

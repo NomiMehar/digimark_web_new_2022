@@ -1,0 +1,26 @@
+[
+  {
+    "title": "Gathering dApp Requirements & Analysis",
+    "description": "Our Blockchain dapp development process starts with requirement gathering. Our experts create a document followed by technological components and business entities."
+  },
+  {
+    "title": "Develop a Roadmap",
+    "description": "After requirements, a roadmap stating the project development journey is detailed. The roadmap has been divided into steps and is shared with the technical team."
+  },
+  {
+    "title": "Proof of Concept",
+    "description": "We then recommend the best blockchain technology & devise a Proof of Concept (POC) to obtain approval before commencing the process of dApp development."
+  },
+  {
+    "title": "Design",
+    "description": "Our developers will make your application appear user-friendly, innovative, and unique by devising dApp architecture and adding features."
+  },
+  {
+    "title": "dApp Development",
+    "description": "Once the design prototype is created and gets client approval, we commence the dApp development process and deliver results according to the technical team’s timeframe.  "
+  },
+  {
+    "title": "dApp Deployment",
+    "description": "The dApp will be deployed on the blockchain platform of your choice. From porting to testing, we perform steps to ensure the successful deployment of dApps."
+  }
+]

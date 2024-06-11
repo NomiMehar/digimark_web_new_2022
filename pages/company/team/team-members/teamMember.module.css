@@ -1,0 +1,116 @@
+.team_member {
+  padding: 100px 0 50px;
+  background: #1D4354 url("../../../../public/assets/images/services/custom-bg.svg");
+}
+@media screen and (max-width: 1000px) {
+  .team_member {
+    padding: 60px 0 40px;
+  }
+}
+.team_member ul {
+  margin: 0 -18px;
+}
+@media screen and (max-width: 1000px) {
+  .team_member ul {
+    margin: 0 -10px;
+  }
+}
+.team_member ul li {
+  width: 25%;
+  padding: 0 18px;
+  margin-bottom: 40px;
+}
+@media screen and (max-width: 1000px) {
+  .team_member ul li {
+    margin-bottom: 20px;
+    padding: 0 10px;
+  }
+}
+@media screen and (max-width: 767px) {
+  .team_member ul li {
+    width: 50%;
+  }
+}
+.team_member ul li:hover .team_member_text figure img {
+  border-radius: 10px;
+  filter: grayscale(0);
+  transform: rotate(5deg) scale(0.9);
+}
+.team_member ul li:hover .team_member_text section h2 {
+  color: #6BB64A;
+}
+.team_member ul li:hover .team_member_text section span a {
+  transform: rotate(10deg);
+}
+.team_member ul li .team_member_text figure {
+  margin: 0 0 20px;
+}
+.team_member ul li .team_member_text figure img {
+  width: 100%;
+  height: auto;
+  filter: grayscale(1);
+  transition: all 0.4s ease-in-out;
+}
+.team_member ul li .team_member_text section h2 {
+  color: #FFFFFF;
+  transition: all 0.4s ease-in-out;
+  margin: 0 0 5px;
+  font-size: 28px;
+}
+@media (max-width: 1600px) {
+  .team_member ul li .team_member_text section h2 {
+    font-size: 22px;
+  }
+}
+@media screen and (max-width: 1000px) {
+  .team_member ul li .team_member_text section h2 {
+    font-size: 18px;
+    margin-bottom: 5px;
+  }
+}
+.team_member ul li .team_member_text section span {
+  font-size: 24px;
+  color: #969696;
+  font-family: "Apercu-Light", sans-serif;
+  display: flex;
+}
+@media (max-width: 1600px) {
+  .team_member ul li .team_member_text section span {
+    font-size: 20px;
+  }
+}
+@media screen and (max-width: 1000px) {
+  .team_member ul li .team_member_text section span {
+    font-size: 17px;
+  }
+}
+.team_member ul li .team_member_text section span a {
+  transition: all 0.4s ease-in-out;
+  margin-left: auto;
+  display: flex;
+  width: 50px;
+  height: 50px;
+  margin-top: -30px;
+  border-radius: 5px;
+  background: #F6F7FB;
+  align-items: center;
+  justify-content: center;
+}
+@media (max-width: 1600px) {
+  .team_member ul li .team_member_text section span a {
+    width: 42px;
+    height: 42px;
+  }
+}
+@media screen and (max-width: 1000px) {
+  .team_member ul li .team_member_text section span a {
+    margin-top: 0;
+    width: 30px;
+    height: 30px;
+    padding: 8px;
+  }
+  .team_member ul li .team_member_text section span a img {
+    max-width: 100%;
+    height: auto;
+  }
+}/*# sourceMappingURL=teamMember.module.css.map */

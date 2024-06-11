@@ -1,0 +1,117 @@
+@import "../../../../../../styles/variables";
+.ar_industries_wrap {
+  background-color: #F3F6FF;
+  padding: 100px 0 70px;
+  @media (max-width: $breakpoint_laptop) {
+    padding: 80px 0 50px;
+  }
+  @media (max-width: $breakpoint_tablet) {
+    padding: 60px 0 30px;
+  }
+  .industries_list {
+    & > ul {
+      & > li {
+        width: 25%;
+        margin-bottom: 30px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        @media (max-width: $breakpoint_tablet) {
+          width: 50%;
+        }
+        @media (max-width: $breakpoint_mobile_portrait) {
+          width: 100%;
+        }
+        figure {
+          margin: 0;
+          img {
+            border-radius: 15px;
+            margin: 0 0 9px;
+            @media (max-width: $breakpoint_laptop) {
+              width: 225px;
+            }
+            @media (max-width: $breakpoint_tablet) {
+              width: 320px;
+            }
+            @media (max-width: $breakpoint_mobile_portrait) {
+              width: 290px;
+            }
+          }
+          h3 {
+            margin: 0;
+            text-align: center;
+            font-family: "CloverDisplay", sans-serif;
+            font-size: 28px;
+            @media (max-width: $breakpoint_laptop) {
+              font-size: 20px;
+            }
+          }
+        }
+        section {
+          transition: all 0.4s ease-in-out;
+          transform: scale(0.5);
+          background: #1D4354;
+          border-radius: 15px;
+          position: absolute;
+          opacity: 0;
+          visibility: hidden;
+          padding: 20px;
+          max-width: 330px;
+          width: 100%;
+          @media (max-width: $breakpoint_laptop) {
+            max-width: 250px;
+          }
+          @media (max-width: $breakpoint_tablet) {
+            max-width: 320px;
+          }
+          @media (max-width: $breakpoint_mobile_portrait) {
+            max-width: 290px;
+          }
+          ul {
+            margin-bottom: 30px;
+            @media (max-width: $breakpoint_laptop) {
+              margin-bottom: 27px;
+            }
+            li {
+              color: #FFFFFF;
+              font-size: 24px;
+              line-height: 42px;
+              display: flex;
+              font-family: "Apercu-Light", sans-serif;
+              align-items: center;
+              @media (max-width: $breakpoint_laptop) {
+                font-size: 18px;
+                line-height: 39px;
+              }
+              &:before {
+                margin-right: 20px;
+                content: '';
+                display: flex;
+                width: 16px;
+                height: 16px;
+                background: url("../../../../../../public/assets/images/services/list-icon.svg");
+              }
+            }
+          }
+          h4 {
+            margin: 0;
+            color: #6BB64A;
+            font-size: 28px;
+            text-align: center;
+            @media (max-width: $breakpoint_laptop) {
+              font-size: 20px;
+            }
+          }
+        }
+        &:hover {
+          section {
+            opacity: 1;
+            visibility: visible;
+            transform: scale(1);
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,30 @@
+[
+  {
+    "benefitIcon": "/assets/images/services/saasBIcon1.svg",
+    "benefitTitle": "Reduced time and costs",
+    "benefitDescription": "Drive cost-effectiveness through SAAS adoption. The benefit of getting in touch with Dev SAAS Company is flexibility, scalability, & minimized costs. With SAAS Solution at DigiMark Developers, get a complete profit margin, and allocate resources effectively, and products. \n\nBy integrating the SAAS solution, companies can alleviate operational costs & increase overall effectiveness to stay ahead of the curve.",
+    "mainImage": "/assets/images/services/saasImage1.jpg",
+    "subMainImage": "/assets/images/services/saassubImage1.jpg"
+  },
+  {
+    "benefitIcon": "/assets/images/services/saasBIcon2.svg",
+    "benefitTitle": "Upgrades",
+    "benefitDescription": "SaaS providers handle software upgrades automatically, making them readily available to their clients. Clients will be able to upgrade to the latest version easily. \n\nThis approach eliminates the need for customers to pay for specialized services to perform upgrades. By taking this responsibility, SaaS providers help reduce the costs & effort linked with software upgrades & new releases, giving clients a more streamlined experience.",
+    "mainImage": "/assets/images/services/saasImage1.jpg",
+    "subMainImage": "/assets/images/services/saassubImage1.jpg"
+  },
+  {
+    "benefitIcon": "/assets/images/services/saasBIcon3.svg",
+    "benefitTitle": "Flexibility",
+    "benefitDescription": "SAAS solutions provide flexibility to the customers to modify subscriptions anytime, as this software solution permits them to solely pay for the product while using it. Customers can easily upgrade services without any hassle to enjoy different features as required. \n\nIf you want to experience flexibility and make processes efficient, then connect with DigiMark Developers and take your business to the next level. ",
+    "mainImage": "/assets/images/services/saasImage1.jpg",
+    "subMainImage": "/assets/images/services/saassubImage1.jpg"
+  },
+  {
+    "benefitIcon": "/assets/images/services/saasBIcon3.svg",
+    "benefitTitle": "Scalability and integration",
+    "benefitDescription": "Scale up your SAAS game with DigiMark Developers and it operates within scalable cloud environments and offers integrations with SAAS offerings. Businesses can modify their usage plan without having any issues and the solution can be accessed from anywhere in the world. \n\nWith the help of SAAS, users will be able to access the data & work efficiently, and make solutions easy for all the people who work on different sites.",
+    "mainImage": "/assets/images/services/saasImage1.jpg",
+    "subMainImage": "/assets/images/services/saassubImage1.jpg"
+  }
+]

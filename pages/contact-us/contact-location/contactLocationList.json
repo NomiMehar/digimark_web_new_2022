@@ -1,0 +1,17 @@
+[
+  {
+    "icon": "/assets/images/contact/uk-flag.png",
+    "title": "United Kingdom",
+    "description": "71 – 75 Shelton St, London, \nWC2H 9JQ"
+  },
+  {
+    "icon": "/assets/images/contact/usa-flag.png",
+    "title": "United States of America",
+    "description": "728 West 28th Street \nLos Angeles, CA 90007"
+  },
+  {
+    "icon": "/assets/images/contact/pak-flag.png",
+    "title": "Pakistan",
+    "description": "362 N-Block, Johar \nTown, Lahore"
+  }
+]

@@ -1,0 +1,58 @@
+[
+  {
+    "quickIcon" : "/assets/images/company/quick1.svg",
+    "quickTitle" : "AI Solution",
+    "quickCount" : "50",
+    "quickCountSign" : "+",
+    "data_aos": "flip-right"
+  },
+  {
+    "quickIcon" : "/assets/images/company/quick2.svg",
+    "quickTitle" : "Software Developed",
+    "quickCount" : "200",
+    "quickCountSign" : "+",
+    "data_aos": "flip-right"
+  },
+  {
+    "quickIcon" : "/assets/images/company/quick3.svg",
+    "quickTitle" : "Blockchain Solutions",
+    "quickCount" : "10",
+    "quickCountSign" : "+",
+    "data_aos": "flip-left"
+  },
+  {
+    "quickIcon" : "/assets/images/company/quick4.svg",
+    "quickTitle" : "Game Developed",
+    "quickCount" : "50",
+    "quickCountSign" : "+",
+    "data_aos": "flip-left"
+  },
+  {
+    "quickIcon" : "/assets/images/company/quick1.svg",
+    "quickTitle" : "Client Retention",
+    "quickCount" : "90",
+    "quickCountSign" : "+",
+    "data_aos": "flip-right"
+  },
+  {
+    "quickIcon" : "/assets/images/company/quick2.svg",
+    "quickTitle" : "Long-Term Strategic\nPartners",
+    "quickCount" : "20",
+    "quickCountSign" : "+",
+    "data_aos": "flip-right"
+  },
+  {
+    "quickIcon" : "/assets/images/company/quick3.svg",
+    "quickTitle" : "Clients Served",
+    "quickCount" : "250",
+    "quickCountSign" : "+",
+    "data_aos": "flip-left"
+  },
+  {
+    "quickIcon" : "/assets/images/company/quick4.svg",
+    "quickTitle" : "Presence in 4 \nCountries",
+    "quickCount" : "4",
+    "quickCountSign" : "",
+    "data_aos": "flip-left"
+  }
+]

@@ -1,0 +1,32 @@
+[
+  {
+    "whyChooseIcon" : "/assets/images/services/datae1.svg",
+    "whyChooseTitle" : "Use Case Identification and Assessment",
+    "whyChooseDetail" : "Our thorough approach helps identify and assess the most promising AI and Machine learning consulting services aligned with your business objectives. As one of the leading AI and Machine Learning consulting companies, we'll guide you in pinpointing the areas where these technologies can have the greatest impact."
+  },
+  {
+    "whyChooseIcon" : "/assets/images/services/datae2.svg",
+    "whyChooseTitle" : "Domain-Specific Model Development",
+    "whyChooseDetail" : "Our seasoned data scientists and engineers excel in developing domain-specific AI strategy consulting and ML models. These models are not only tailored to your industry but also fine-tuned to your unique requirements, ensuring optimal performance."
+  },
+  {
+    "whyChooseIcon" : "/assets/images/services/datae3.svg",
+    "whyChooseTitle" : "AI Strategy consulting and Integration",
+    "whyChooseDetail" : "Seamlessly integrating AI strategy consulting and outstanding solutions into your existing systems and workflows is our forte. We ensure that the implementation process is smooth and efficient, minimizing disruptions while maximizing benefits."
+  },
+  {
+    "whyChooseIcon" : "/assets/images/services/datae4.svg",
+    "whyChooseTitle" : "Use Case Identification and Assessment",
+    "whyChooseDetail" : "Our thorough approach helps identify and assess the most promising AI and Machine learning consulting services aligned with your business objectives. As one of the leading AI and Machine Learning consulting companies, we'll guide you in pinpointing the areas where these technologies can have the greatest impact."
+  },
+  {
+    "whyChooseIcon" : "/assets/images/services/datae5.svg",
+    "whyChooseTitle" : "Predictive Analytics",
+    "whyChooseDetail" : "Predictive analytics is at the core of our AI and machine learning consulting services. We help you anticipate market trends, customer behaviors, and operational needs, allowing you to proactively strategize and stay ahead of the competition."
+  },
+  {
+    "whyChooseIcon" : "/assets/images/services/datae6.svg",
+    "whyChooseTitle" : "AI Solutions Development",
+    "whyChooseDetail" : "From ideation to deployment, we take charge of developing comprehensive AI solutions for your business. Whether it's automating processes or enhancing customer experiences, we deliver end-to-end solutions that make a difference."
+  }
+]

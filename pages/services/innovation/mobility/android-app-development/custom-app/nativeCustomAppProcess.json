@@ -1,0 +1,38 @@
+[
+  {
+    "customAppNumber": "01",
+    "customAppIcon" : "/assets/images/services/native1.png",
+    "customAppTitle" : "React Native Android App Development",
+    "customAppDetail" : "Our white-label Android apps cater to diverse industries, including business, lifestyle & entertainment."
+  },
+  {
+    "customAppNumber": "02",
+    "customAppIcon" : "/assets/images/services/native2.png",
+    "customAppTitle" : "React Native iOS App Development",
+    "customAppDetail" : "Get a unique white-label iOS app crafted from scratch by our expert developers."
+  },
+  {
+    "customAppNumber": "03",
+    "customAppIcon" : "/assets/images/services/native3.png",
+    "customAppTitle" : "Cross-platform Migration Services",
+    "customAppDetail" : "DigiMark React Native specialists can create the twin of your existing application on another platform."
+  },
+  {
+    "customAppNumber": "04",
+    "customAppIcon" : "/assets/images/services/native4.png",
+    "customAppTitle" : "React Native App UX/UI Design Services",
+    "customAppDetail" : "Elevate the app's visual appearance & brand identity with expert rebranding services."
+  },
+  {
+    "customAppNumber": "05",
+    "customAppIcon" : "/assets/images/services/native5.png",
+    "customAppTitle" : "React Native App Customization Services",
+    "customAppDetail" : "Our skilled React Native Android engineers tailor your app to fit your unique business requirements."
+  },
+  {
+    "customAppNumber": "06",
+    "customAppIcon" : "/assets/images/services/native6.png",
+    "customAppTitle" : "React Native Consulting & Support",
+    "customAppDetail" : "We offer professional guidance to make your React Native mobile app development journey better."
+  }
+]

@@ -1,0 +1,179 @@
+@import "../../../../../../styles/variables";
+.nft_process {
+  background: url("../../../../../../public/assets/images/services/nft-process.jpg") center fixed;
+  background-size: cover;
+  padding: 100px 0 0;
+  @media (max-width: $breakpoint_tablet) {
+   padding: 60px 0 0;
+  }
+  .nft_process_text {
+    @media (max-width: $breakpoint_tablet) {
+      margin-top: 80px;
+    }
+    section {
+      &:first-child {
+        width: 82%;
+        @media (max-width: $breakpoint_tablet) {
+          width: 100%;
+          margin: 0 auto;
+        }
+      }
+      width: 100%;
+      position: relative;
+      padding-left: 67px;
+      margin-bottom: 68px;
+      @media (max-width: $breakpoint_tablet) {
+       padding-left: 0;
+      }
+      p {
+        color: #EFEFEF;
+        opacity: 0.9;
+        font-size: 24px;
+        line-height: 40px;
+        margin: 0;
+        font-family: 'Apercu-Light', sans-serif;
+        @media (max-width: $breakpoint_laptop) {
+          font-size: 18px;
+          line-height: 32px;
+        }
+        @media (max-width: $breakpoint_tablet) {
+          margin-top: 20px;
+        }
+      }
+      span {
+        background-color: #AAFF86;
+        border-radius: 50px;
+        color: #1D4354;
+        font-size: 28px;
+        line-height: 39px;
+        padding: 13px 40px;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        font-family: 'CloverDisplay', sans-serif;
+        min-height: 83px;
+        position: relative;
+        margin-bottom: 6px;
+        transition: all 0.4s ease-in-out;
+        &:hover {
+          background: #C8FFB0;
+          small {
+            background: #C8FFB0;
+          }
+        }
+        @media (max-width: $breakpoint_laptop) {
+          min-height: 55px;
+          font-size: 22px;
+          line-height: 30px;
+          padding: 10px 40px;
+        }
+        @media (max-width: $breakpoint_tablet) {
+          font-size: 20px;
+        }
+        small {
+          position: absolute;
+          transition: all 0.4s ease-in-out;
+          left: -67px;
+          background-color: #AAFF86;
+          width: 47px;
+          height: 47px;
+          border-radius: 100%;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          top: 50%;
+          transform: translateY(-50%);
+          @media (max-width: $breakpoint_tablet) {
+            left: 0;
+            top: -16px;
+          }
+        }
+      }
+      ul {
+        li {
+          position: relative;
+          padding-left: 67px;
+          margin-bottom: 60px;
+          width: 74%;
+          @media (max-width: $breakpoint_laptop) {
+            margin-bottom: 60px;
+          }
+          @media (max-width: $breakpoint_tablet) {
+            width: 100%;
+            padding-left: 0;
+          }
+          &:hover {
+            span {
+              background: #C8FFB0;
+              small {
+                background: #C8FFB0;
+              }
+            }
+          }
+          &:last-child {
+            padding-right: 67px;
+            width: 100%;
+            @media (max-width: $breakpoint_tablet) {
+             padding-right: 0;
+            }
+            span {
+              small {
+                right: -67px;
+                left: unset;
+                @media (max-width: $breakpoint_tablet) {
+                  right: 0;
+                  left: 0;
+                }
+              }
+            }
+          }
+        }
+      }
+      &.left_section {
+        width: 26%;
+        float: left;
+        padding-left: 0;
+        @media (max-width: $breakpoint_laptop) {
+          width: 30%;
+        }
+        @media (max-width: $breakpoint_tablet) {
+          width: 100%;
+          margin: 0 auto 60px auto;
+          float: initial;
+        }
+        &:before {
+          content: '';
+          position: absolute;
+          left: -5px;
+          top: -35px;
+          pointer-events: none;
+          width: 432px;
+          height: 600px;
+          background: url("../../../../../../public/assets/images/services/dot_line.svg");
+          @media (max-width: $breakpoint_tablet) {
+           content: none;
+          }
+          @media (max-width: $breakpoint_mini_laptop) {
+            left: -66px;
+           }
+        }
+      }
+      &.right_section {
+        width: 74%;
+        float: right;
+        padding-left: 40px;
+        @media (max-width: $breakpoint_laptop) {
+          width: 70%;
+        }
+        @media (max-width: $breakpoint_tablet) {
+          width: 100%;
+    padding-left: 0;
+    float: initial;
+    margin: 0 auto;
+        }
+      }
+    }
+  }
+}

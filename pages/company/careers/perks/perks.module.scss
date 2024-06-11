@@ -1,0 +1,60 @@
+@import "../../../../styles/variables";
+.perks_wrapper  {
+  padding: 100px 0 80px;
+  @media screen and (max-width: $breakpoint_tablet) {
+    padding: 60px 0 40px;
+  }
+  ul {
+    margin: 0 -9px;
+    li {
+      padding: 0 9px;
+      margin: 0 0 18px;
+      width: 20%;
+      @media screen and (max-width: $breakpoint_mobile_landscape) {
+        width: 33.333%;
+      }
+      @media screen and (max-width: $breakpoint_mobile_portrait) {
+        width: 50%;
+      }
+      &:hover {
+        section {
+          transform: scale(0.9) rotate(-5deg);
+          box-shadow: 0 0 30px rgba(0,0,0,0.1);
+        }
+      }
+      section {
+        background: #d0d4d5;
+        border-radius: 10px;
+        height: 188px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        transition: all 0.4s ease-in-out;
+        padding: 15px;
+        @media screen and (max-width: $breakpoint_tablet) {
+          height: 130px;
+          img {
+            width: 50px;
+            height: 50px;
+          }
+        }
+        @media screen and (max-width: $breakpoint_mobile_landscape) {
+          height: 150px;
+        }
+        h3 {
+          margin: 23px 0 0;
+          color: #252B33;
+          font-family: "CloverDisplay", sans-serif;
+          font-size: 15px;
+          word-break: break-all;
+          text-align: center;
+          @media screen and (max-width: $breakpoint_tablet) {
+            font-size: 18px;
+            margin-top: 12px;
+          }
+        }
+      }
+    }
+  }
+}

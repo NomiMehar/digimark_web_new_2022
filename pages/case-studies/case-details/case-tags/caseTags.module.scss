@@ -1,0 +1,49 @@
+@import "../../../../styles/variables";
+.case_tags_wrap {
+  background: #F3F6FF;
+  padding: 100px 0;
+  @media (max-width: $breakpoint_laptop) {
+    padding: 80px 0;
+  }
+  @media (max-width: $breakpoint_tablet) {
+    padding: 60px 0;
+  }
+  section {
+    width: 34%;
+    padding: 0 10px;
+    @media (max-width: $breakpoint_tablet) {
+      width: 50% !important;
+    }
+    @media (max-width: $breakpoint_mobile_portrait) {
+      width: 100% !important;
+      margin-bottom: 20px;
+    }
+    a { max-width: 285px; margin-top: 20px;}
+    &:first-child,
+    &:nth-child(2){
+      width: 16%;
+    }
+    span {
+      font-size: 24px;
+      color: #969696;
+      display: block;
+      @media (max-width: $breakpoint_laptop) {
+        font-size: 18px;
+      }
+    }
+    ul {
+      margin: 0 -7px;
+      li {
+        padding: 0 7px;
+        margin: 0 0 10px;
+        span {
+          border: 2px solid #000;
+          padding: 12px 22px;
+          @media (max-width: $breakpoint_laptop) {
+            padding: 8px 18px;
+          }
+        }
+      }
+    }
+  }
+}

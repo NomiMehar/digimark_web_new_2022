@@ -1,0 +1,47 @@
+@import "../../../../../../styles/variables";
+.product_delegat {
+  display: flex;
+  align-items: center;
+  padding: 100px 0;
+  @media (max-width: $breakpoint_mobile_landscape) {
+    padding: 60px 0;
+    flex-direction: column;
+  }
+  .product_delegat_text {
+    width: 45%;
+    display: flex;
+    justify-content: flex-end;
+    @media (max-width: $breakpoint_laptop) {
+      padding-left: 60px;
+    }
+    @media (max-width: $breakpoint_mobile_landscape) {
+      width: 100%;
+      padding-left: 0;
+      text-align: center;
+      a {
+        margin: 0 auto 50px;
+      }
+    }
+    section {
+      max-width: 510px;
+      h2 {
+        font-size: 48px;
+        margin: 0 0 40px;
+        text-transform: capitalize;
+        @media (max-width: $breakpoint_laptop) {
+          font-size: 30px;
+          margin-bottom: 30px;
+          br { display: none}
+        }
+        span {
+          background: #6BB64A;
+          color: #FFFFFF;
+          padding: 0 10px;
+        }
+      }
+    }
+  }
+  & > img {
+    margin-left: auto;
+  }
+}

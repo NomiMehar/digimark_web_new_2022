@@ -1,0 +1,82 @@
+[
+    {
+      "techTitle": "Programming language",
+      "techIcons": [
+        {
+          "iconImage": "/assets/images/services/tools_7.svg"
+        },
+        {
+          "iconImage": "/assets/images/services/tools_10.svg"
+        },
+        {
+          "iconImage": "/assets/images/services/tt1.svg"
+        },
+        {
+          "iconImage": "/assets/images/services/tt2.svg"
+        },
+        {
+          "iconImage": "/assets/images/services/tt3.svg"
+        }
+      ]
+    },
+    {
+      "techTitle": "Front-End",
+      "techIcons": [
+        {
+          "iconImage": "/assets/images/services/tt4.svg"
+        },
+        {
+            "iconImage": "/assets/images/services/tt5.svg"
+        },
+        {
+          "iconImage": "/assets/images/services/tt6.svg"
+        },
+        {
+          "iconImage": "/assets/images/services/tt7.svg"
+        },
+        {
+          "iconImage": "/assets/images/services/tt8.svg"
+        },
+        {
+          "iconImage": "/assets/images/services/tt9.svg"
+        }
+      ]
+    },
+    {
+      "techTitle": "Frameworks",
+      "techIcons": [
+        {
+          "iconImage": "/assets/images/services/tt10.svg"
+        },
+        {
+          "iconImage": "/assets/images/services/tt14.svg"
+        },
+        {
+          "iconImage": "/assets/images/services/tt11.svg"
+        },
+        {
+          "iconImage": "/assets/images/services/tt12.svg"
+        },
+        {
+          "iconImage": "/assets/images/services/tt13.svg"
+        }
+      ]
+    },
+    {
+      "techTitle": "Database",
+      "techIcons": [
+          {
+            "iconImage": "/assets/images/services/tools_11.svg"
+          },
+          {
+            "iconImage": "/assets/images/services/tools_12.svg"
+          },
+        {
+          "iconImage": "/assets/images/services/tools_13.svg"
+        },
+        {
+          "iconImage": "/assets/images/services/tools_14.svg"
+        }
+      ]
+    }
+  ]

@@ -1,0 +1,99 @@
+@import "../../../../../../styles/variables";
+.appraoch_support {
+  padding: 100px 0 70px;
+  @media (max-width: $breakpoint_tablet) {
+    padding: 60px 0 40px;
+  }
+  .appraoch_support_content {
+    ul {
+      position: relative;
+      li {
+        display: flex;
+        gap: 30px;
+        justify-content: flex-end;
+        padding-left: 23%;
+        position: relative;
+        &:last-child {
+          &:after { display: none}
+        }
+        &:after {
+          content: '';
+          position: absolute;
+          left: 50%;
+          top: 20px;
+          width: 2px;
+          background: #8E8E8E;
+          height: 100%;
+          @media (max-width: $breakpoint_mobile_landscape) {
+            display: none;
+          }
+        }
+        &:hover {
+          &:before {
+            background-color: #FFFFFF;
+            border-color: #6BB64A;
+          }
+        }
+        &:before {
+          @media (max-width: $breakpoint_mobile_landscape) {
+            display: none;
+          }
+          content: '';
+          z-index: 1;
+          transition: all 0.4s ease-in-out;
+          position: absolute;
+          left: 50%;
+          width: 28px;
+          top: 20px;
+          background: #8E8E8E;
+          border: 5px solid #8E8E8E;
+          height: 28px;
+          border-radius: 100%;
+          transform: translateX(-50%);
+        }
+        @media (max-width: $breakpoint_tablet) {
+          padding-left: 0;
+          justify-content: flex-start;
+          margin-bottom: 20px;
+        }
+        &:nth-child(odd) {
+          padding-left: 0;
+          padding-right: 23%;
+          flex-direction: row-reverse;
+          @media (max-width: $breakpoint_tablet) {
+            padding-right: 0;
+            flex-direction: row;
+          }
+          section {
+            text-align: right;
+            @media (max-width: $breakpoint_tablet) {
+              text-align: left;
+            }
+          }
+        }
+        section {
+          width: 50%;
+          @media (max-width: $breakpoint_tablet) {
+            width: 100%;
+          }
+          h3 {
+            margin: 0;
+            font-size: 28px;
+            @media (max-width: $breakpoint_laptop) {
+              font-size: 25px;
+            }
+          }
+          p {
+            font-size: 24px;
+            line-height: 36px;
+            margin: 0;
+            @media (max-width: $breakpoint_laptop) {
+              font-size: 18px;
+              line-height: 28px;
+            }
+          }
+        }
+      }
+    }
+  }
+}

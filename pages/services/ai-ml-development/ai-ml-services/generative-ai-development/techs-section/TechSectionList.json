@@ -1,0 +1,38 @@
+[
+  {
+    "title": "Image Classification Models",
+    "techs":[
+      "VGG-16",
+      "ResNet50",
+      "Inceptionv3",
+      "EfficientNet"
+    ]
+  },
+  {
+    "title": "Generative AI Models",
+    "techs":[
+      "Supervised/Unsupervised Learning",
+      "Transformer models (GPT3 , GPT 3.5 Turbo, LaMDA , Wu-Dao)"
+    ]
+  },
+  {
+    "title": "Algorithms",
+    "techs":[
+      "Supervised/Unsupervised Learning",
+      "Clustering",
+      "Metric Learning",
+      "Fewshot Learning"
+    ]
+  },
+  {
+    "title": "Neural Networks",
+    "techs":[
+      "CNN",
+      "RNN",
+      "Representation Learning",
+      "Manifold Learning",
+      "Variational Autoencorders",
+      "Bayesian Network"
+    ]
+  }
+]

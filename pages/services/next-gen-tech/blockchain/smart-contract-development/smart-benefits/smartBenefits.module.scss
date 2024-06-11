@@ -1,0 +1,55 @@
+@import "../../../../../../styles/variables";
+.smart_contract_wrap {
+  padding: 100px 0 50px;
+  @media (max-width: $breakpoint_tablet) {
+    padding: 60px 0 30px;
+   }
+  .smart_contract_wrapper {
+    ul {
+      @media (max-width: $breakpoint_mobile_portrait) {
+        display: block;
+       }
+      li {
+        color: #1D4354;
+        font-size: 27px;
+        margin-right: 70px;
+        display: flex;
+        margin-bottom: 50px;
+        align-items: center;
+        @media (max-width: $breakpoint_tablet) {
+          font-size: 18px;
+          margin-bottom: 35px;
+         }
+        @media (max-width: $breakpoint_mobile_portrait) {
+          font-size: 16px;
+          margin-right: 0;
+          display: flex;
+          margin-bottom: 30px;
+         }
+        &:before {
+          content: '';
+          display: inline-block;
+          width: 20px;
+          transform: rotate(15deg);
+          height: 20px;
+          margin-right: 40px;
+          background: #6BB64A;
+          transition: all 0.4s ease-in-out;
+          @media (max-width: $breakpoint_mobile_portrait) {
+            margin-right: 16px;
+           }
+        }
+        &:hover {
+          &:before {
+            transform: rotate(0deg);
+          }
+        }
+        &:nth-child(even) {
+          &:before {
+            background: #1D4354;
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,32 @@
+[
+  {
+    "img": "/assets/images/services/sp-icon-1.svg",
+    "title":"Custom Game Development",
+    "desc":"Get experienced blockchain developers who ensure quality games. Build a brand’s customization by collaborating with us and enjoy next-gen web3 and Metaverse features according to the user requirements."
+  },
+  {
+    "img": "/assets/images/services/sp-icon-2.svg",
+    "title":"In Game Token Creation",
+    "desc":"Enjoy tradable tokens and in-game assets at DigiMark Developers to use them in the premium version of games. Play the game of your choice and manage your in-game assets yourself. Connect now for the exciting opportunities."
+  },
+  {
+    "img": "/assets/images/services/sp-icon-3.svg",
+    "title":"Avatar Creation",
+    "desc":"DigiMark Developers make 2D & 3D characters so that you can achieve your blockchain gaming project goals. However, we provide customized avatars, multiple games, and much more."
+  },
+  {
+    "img": "/assets/images/services/sp-icon-1.svg",
+    "title":"NFT Marketplace Creation",
+    "desc":"We also assist in developing an NFT marketplace that helps gamers play the games safely and transact their in-game assets easily. Get a complete user-friendly, and attractive brand image with our help."
+  },
+  {
+    "img": "/assets/images/services/sp-icon-2.svg",
+    "title":"Wallet Integration",
+    "desc":"DigiMark Developers provides crypto wallet development and integration services for multiple blockchain games that make users able to protect, send, and get crypto tokens. Experience the game like never before."
+  },
+  {
+    "img": "/assets/images/services/sp-icon-3.svg",
+    "title":"Maintenance & Support",
+    "desc":"We are always ready to help you out with any support services to make sure that the gaming platform is working properly. Our experts will assist you in case of any bugs or errors. Reach out to us and enjoy our complete maintenance and upgrade services. "
+  }
+]

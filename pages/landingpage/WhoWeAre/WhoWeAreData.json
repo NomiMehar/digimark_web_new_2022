@@ -1,0 +1,30 @@
+[
+  {
+    "id": 1,
+    "darkTitle": "Sustainable",
+    "lightTitle": "Growth with AI",
+    "para": "We build AI Solutions that can drive sustainable growth by creating innovative solutions, optimizing production processes, and enabling personalized experiences, thereby reducing resource consumption and enhancing efficiency across various sectors.",
+    "img": "/assets/images/homepage/who_we_are/whowe1.jpg"
+  },
+  {
+    "id": 2,
+    "darkTitle": "Drive Business",
+    "lightTitle": "Scalability",
+    "para": "We focus on growth objectives with emerging technologies that simplify business operations and optimize efficiency.",
+    "img": "/assets/images/homepage/who_we_are/whowe2.jpg"
+  },
+  {
+    "id": 3,
+    "darkTitle": "Lead With",
+    "lightTitle": "Innovation",
+    "para": "Outpace the competition and take the lead with technology infrastructure that’s equal parts scalable and efficient.",
+    "img": "/assets/images/homepage/who_we_are/whowe3.jpg"
+  },
+  {
+    "id": 4,
+    "darkTitle": "Win the",
+    "lightTitle": "Customer Game",
+    "para": "We empower businesses to gain more customers through smart digital solutions and streamlined user experiences.",
+    "img": "/assets/images/homepage/who_we_are/whowe4.jpg"
+  }
+]

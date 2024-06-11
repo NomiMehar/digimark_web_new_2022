@@ -1,0 +1,45 @@
+[
+  {
+    "id": 1,
+    "title": "Strong focus on client’s domain",
+    "lineBox": "/assets/images/services/pd-1.svg"
+      },
+  {
+    "id": 2,
+    "title": "Team resilience & adaptability",
+    "lineBox": "/assets/images/services/pd-2.svg"
+      },
+  {
+    "id": 3,
+    "title": "Holistic approach & 100% challenge resolution",
+    "lineBox": "/assets/images/services/pd-3.svg"
+      },
+  {
+    "id": 4,
+    "title": "Progress accountability & transparency",
+    "lineBox": "/assets/images/services/pd-4.svg"
+      },
+  {
+    "id": 5,
+    "title": "Progress accountability & transparency",
+    "lineBox": "/assets/images/services/pd-5.svg"
+      }
+      ,
+  {
+    "id": 6,
+    "title": "Progress accountability & transparency",
+    "lineBox": "/assets/images/services/pd-6.svg"
+      }
+      ,
+  {
+    "id": 7,
+    "title": "Progress accountability & transparency",
+    "lineBox": "/assets/images/services/pd-7.svg"
+      }
+      ,
+  {
+    "id": 8,
+    "title": "Progress accountability & transparency",
+    "lineBox": "/assets/images/services/pd-8.svg"
+      }
+]

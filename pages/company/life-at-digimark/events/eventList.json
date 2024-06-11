@@ -1,0 +1,18 @@
+[
+  {
+    "eventImage": "/assets/images/company/event1.jpg",
+    "eventTitle": "14 August Celebration"
+  },
+  {
+    "eventImage": "/assets/images/company/woman1.png",
+    "eventTitle": "Women's Day Celebration"
+  },
+  {
+    "eventImage": "/assets/images/company/birthday.png",
+    "eventTitle": "Birthday Celebration"
+  },
+  {
+    "eventImage": "/assets/images/company/pool.png",
+    "eventTitle": "Pool Party"
+  }
+]

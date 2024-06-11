@@ -1,0 +1,102 @@
+[
+  {
+    "title": "Cloud Platforms",
+    "list": [
+      "/assets/images/services/tools_1.svg",
+      "/assets/images/services/tools_2.svg",
+      "/assets/images/services/tools_3.svg",
+      "/assets/images/services/tools_4.svg",
+      "/assets/images/services/tools_5.svg"
+    ]
+  },
+  {
+    "title": "Log Management",
+    "list": [
+      "/assets/images/services/tools_1.svg",
+      "/assets/images/services/tools_2.svg",
+      "/assets/images/services/tools_3.svg",
+      "/assets/images/services/tools_4.svg",
+      "/assets/images/services/tools_5.svg"
+    ]
+  },
+  {
+    "title": "Databases",
+    "list": [
+      "/assets/images/services/tools_1.svg",
+      "/assets/images/services/tools_2.svg",
+      "/assets/images/services/tools_3.svg",
+      "/assets/images/services/tools_4.svg",
+      "/assets/images/services/tools_5.svg"
+    ]
+  },
+  {
+    "title": "Source Code Management",
+    "list": [
+      "/assets/images/services/tools_1.svg",
+      "/assets/images/services/tools_2.svg",
+      "/assets/images/services/tools_3.svg",
+      "/assets/images/services/tools_4.svg",
+      "/assets/images/services/tools_5.svg"
+    ]
+  },
+  {
+    "title": "Build Automation",
+    "list": [
+      "/assets/images/services/tools_1.svg",
+      "/assets/images/services/tools_2.svg",
+      "/assets/images/services/tools_3.svg",
+      "/assets/images/services/tools_4.svg",
+      "/assets/images/services/tools_5.svg"
+    ]
+  },
+  {
+    "title": "Configuration Management",
+    "list": [
+      "/assets/images/services/tools_1.svg",
+      "/assets/images/services/tools_2.svg",
+      "/assets/images/services/tools_3.svg",
+      "/assets/images/services/tools_4.svg",
+      "/assets/images/services/tools_5.svg"
+    ]
+  },
+  {
+    "title": "Performance & Security",
+    "list": [
+      "/assets/images/services/tools_1.svg",
+      "/assets/images/services/tools_2.svg",
+      "/assets/images/services/tools_3.svg",
+      "/assets/images/services/tools_4.svg",
+      "/assets/images/services/tools_5.svg"
+    ]
+  },
+  {
+    "title": "Scripting languages",
+    "list": [
+      "/assets/images/services/tools_1.svg",
+      "/assets/images/services/tools_2.svg",
+      "/assets/images/services/tools_3.svg",
+      "/assets/images/services/tools_4.svg",
+      "/assets/images/services/tools_5.svg"
+    ]
+  },
+  {
+    "title": "Microservices &\nArchitectures Management",
+    "list": [
+      "/assets/images/services/tools_1.svg",
+      "/assets/images/services/tools_2.svg",
+      "/assets/images/services/tools_3.svg",
+      "/assets/images/services/tools_4.svg",
+      "/assets/images/services/tools_5.svg"
+    ]
+  },
+  {
+    "title": "Alerting & Monitoring",
+    "list": [
+      "/assets/images/services/tools_1.svg",
+      "/assets/images/services/tools_2.svg",
+      "/assets/images/services/tools_3.svg",
+      "/assets/images/services/tools_4.svg",
+      "/assets/images/services/tools_5.svg"
+    ]
+  }
+]

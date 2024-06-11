@@ -1,0 +1,48 @@
+@import "../../../styles/animation.css";
+.our_product {
+  padding: 0 0 49px;
+  background-color: #F3F6FF;
+}
+@media (max-width: 1600px) {
+  .our_product {
+    padding: 0 0 10px;
+  }
+}
+@media (max-width: 1000px) {
+  .our_product {
+    padding: 0 0 30px;
+  }
+}
+@media (max-width: 600px) {
+  .our_product {
+    padding-top: 30px;
+  }
+}
+.our_product ul {
+  margin: 0 -65px;
+}
+@media (max-width: 1000px) {
+  .our_product ul {
+    margin: 0 -15px;
+  }
+}
+.our_product ul li {
+  padding: 30px 65px;
+  width: 25%;
+}
+@media (max-width: 1000px) {
+  .our_product ul li {
+    padding: 0 15px;
+    margin: 10px 0;
+  }
+}
+@media (max-width: 600px) {
+  .our_product ul li {
+    width: 50%;
+  }
+}
+.our_product ul li img {
+  width: 100%;
+  display: inline-block;
+  filter: grayscale(1);
+}/*# sourceMappingURL=OurProducts.module.css.map */

@@ -1,0 +1,22 @@
+.divider_wrapper {
+  margin: -121px 0 0;
+  position: relative;
+  z-index: 1;
+}
+.divider_wrapper .divider_content {
+  width: 100%;
+  max-width: 1043px;
+  margin: 0 auto;
+  padding: 75px 60px;
+  border-radius: 20px;
+  background: url("../../../../../../public/assets/images/services/devidir-bg.jpg");
+}
+.divider_wrapper .divider_content .divider_title h2 {
+  margin: 0;
+  font-size: 28px;
+  color: #FFFFFF;
+}
+.divider_wrapper .divider_content .contact_btn {
+  max-width: 300px;
+  margin-left: auto;
+}/*# sourceMappingURL=dviderSection.module.css.map */

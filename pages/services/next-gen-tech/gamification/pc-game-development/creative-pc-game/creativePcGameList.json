@@ -1,0 +1,32 @@
+[
+  {
+    "slideImage": "/assets/images/services/slide2.jpg",
+    "slideTitle": "# Action and\nAction-Adventure",
+    "description": "Prepare your eyes and reflexes to keep up with the dynamic gameplay of these fast-paced games with interesting tasks, intense battles, treasures and dangerous obstacles."
+  },
+  {
+    "slideImage": "/assets/images/services/slide1.jpg",
+    "slideTitle": "# Educational",
+    "description": "Our developers play up the educational component in such a way that it does not cause either boredom or rejection, and is organically woven into an original and exciting plot."
+  },
+  {
+    "slideImage": "/assets/images/services/slide3.jpg",
+    "slideTitle": "# Puzzle",
+    "description": "We develop the most dizzying and exciting puzzles that will capture the player for a long time with gradually increasing complexity, striking design and simple gameplay."
+  },
+  {
+    "slideImage": "/assets/images/services/slide4.jpg",
+    "slideTitle": "# RPG",
+    "description": "Our RPG games feature a superbly thought-out storyline, a colorful jaw-dropping game world and impressive character development options in the best traditions of the genre."
+  },
+  {
+    "slideImage": "/assets/images/services/slide5.jpg",
+    "slideTitle": "# Slot and Card",
+    "description": "Our best slot and card games offer players dynamic gameplay, bright design and absolute triumph of probability with slots, or logic coupled with luck with card games."
+  },
+  {
+    "slideImage": "/assets/images/services/slide1.jpg",
+    "slideTitle": "# Educational",
+    "description": "Our developers play up the educational component in such a way that it does not cause either boredom or rejection, and is organically woven into an original and exciting plot."
+  }
+]

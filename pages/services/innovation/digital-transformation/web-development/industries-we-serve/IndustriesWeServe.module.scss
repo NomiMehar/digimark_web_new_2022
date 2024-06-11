@@ -1,0 +1,137 @@
+@import "../../../../../../styles/variables";
+.industries_wrapper {
+  background: #fff;
+  padding: 100px 0;
+  @media (max-width: $breakpoint_laptop) {
+    padding: 80px 0 60px;
+  }
+  @media (max-width: $breakpoint_tablet) {
+    padding: 60px 0 40px;
+  }
+  .ar_tech_stack_wrapper {
+    width: 100%;
+    max-width: 1170px;
+    margin: 0 auto;
+    background: #FFFFFF;
+    border: 1px solid #DDDDDD;
+    box-shadow: 0 100px 80px rgba(0, 0, 0, 0.07), 0 41.7776px 33.4221px rgba(0, 0, 0, 0.0503198), 0 22.3363px 17.869px rgba(0, 0, 0, 0.0417275), 0 12.5216px 10.0172px rgba(0, 0, 0, 0.035), 0 6.6501px 5.32008px rgba(0, 0, 0, 0.0282725), 0 2.76726px 2.21381px rgba(0, 0, 0, 0.0196802);
+    border-radius: 20px;
+    padding: 50px 35px 35px;
+    .ar_tech_stack {
+      margin-bottom: 100px;
+      @media (max-width: $breakpoint_laptop) {
+        margin-bottom: 50px;
+      }
+      ul {
+        position: relative;
+        justify-content: space-between;
+        overflow-x: scroll;
+        &::-webkit-scrollbar {
+          height: 0;
+        }
+        li {
+          text-align: center;
+          margin-right: 30px;
+          @media (max-width: $breakpoint_mobile_portrait) {
+            max-width: max-content;
+            margin-right: 10px;
+            width: auto;
+           }
+          button {
+            width: 180px;
+            background: rgba(29, 67, 84, 0.03);
+            border: 1px solid #D1EDEB;
+            border-radius: 10px;
+            font-size: 24px;
+            position: relative;
+            display: flex;
+            line-height: 1;
+            justify-content: center;
+            align-items: center;
+            color: #999999;
+            transition: all 0.4s ease-in-out;
+            font-family: "CloverDisplay-Medium", sans-serif;
+            height: 76px;  
+            @media (max-width: $breakpoint_laptop) {
+              font-size: 20px;
+              height: 65px;
+             }    
+            @media (max-width: $breakpoint_tablet) {
+              font-size: 16px;
+              height: 50px;
+             }      
+            &:hover {
+              color: #6BB64A;
+            }
+            &.active {
+              color: #fff;
+              background: #6BB64A;
+              border: 1px solid #D1EDEB;
+              &:before {
+                width: 100%;
+                left: 0;
+              }
+            }
+          }
+        }
+      }
+    }
+    .ar_tech_list {
+      ul {
+        li {
+          @media (max-width: $breakpoint_mobile_landscape) {
+            flex-direction: column;
+          }
+          @media (max-width: $breakpoint_tablet) {
+            flex-wrap: wrap;
+          }
+          section {
+            padding-right: 63px;
+            @media (max-width: $breakpoint_mobile_landscape) {
+              padding-right: 0;
+              margin-bottom: 20px;
+            }
+            h3 {
+              font-size: 28px;
+              line-height: 39px;
+              margin: 0 0 26px;
+              @media (max-width: $breakpoint_laptop) {
+                font-size: 24px;
+              }
+              @media (max-width: $breakpoint_mobile_landscape) {
+                line-height: 1.4;
+              }
+            }
+            p {
+              margin: 0;
+              font-size: 24px;
+              line-height: 40px;
+              @media (max-width: $breakpoint_laptop) {
+                font-size: 18px;
+                line-height: 28px;
+              }
+            }
+          }
+          img{
+            height: 267px;
+            width: 100%;
+            object-fit: cover;
+            border-radius: 5px;
+            @media (max-width: $breakpoint_tablet) {
+             margin-top: 30px;
+            }
+          }
+        }
+      }
+    }
+  }
+  &.ai_industries{
+    background: url("../../../../../../public/assets/images/services/blockchain_develop.png") center;
+    background-size: cover;
+    .section_title{
+      h2{
+        color: #fff;
+      }
+    }
+  }
+}

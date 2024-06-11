@@ -1,0 +1,22 @@
+[
+  {
+    "id": 1,
+    "tabsName": "AI & ML"
+  },
+  {
+    "id": 2,
+    "tabsName": "Gamification"
+  },
+  {
+    "id": 3,
+    "tabsName": "Bespoke Development"
+  },
+  {
+    "id": 4,
+    "tabsName": "Mobile App Development"
+  },
+  {
+    "id": 5,
+    "tabsName": "Blockchain"
+  }
+]

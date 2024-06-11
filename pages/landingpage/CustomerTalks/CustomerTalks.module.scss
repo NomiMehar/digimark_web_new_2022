@@ -1,0 +1,268 @@
+@import "../../../styles/variables";
+.customer_talk {
+  padding: 100px 0 50px;
+  background: #F3F6FF;
+  @media (max-width: $breakpoint_laptop) {
+    padding: 70px 0 30px;
+  }
+  @media (max-width: $breakpoint_tablet) {
+    padding: 50px 0 0;
+    margin-bottom: 0;
+  }
+  .customer_tabs {
+    @media (max-width: $breakpoint_tablet) {
+      flex-direction: column;
+    }
+    .tabs_list {
+      width: 23%;
+      @media (max-width: $breakpoint_tablet) {
+        width: auto;
+        background-color: #1d4354;
+        overflow: auto;
+        margin: 0 -18px;
+        &::-webkit-scrollbar {height: 0}
+      }
+      ul {
+        border-left: 2px solid #E2E2E2;
+        @media (max-width: $breakpoint_tablet) {
+          flex-direction: row;
+        }
+        li {
+          margin-bottom: 30px;
+          @media (max-width: $breakpoint_laptop) {
+            margin-bottom: 15px;
+          }
+          @media (max-width: $breakpoint_tablet) {
+            margin-bottom: 0;
+          }
+          .tab_btn {
+            display: inline-block;
+            background: transparent;
+            border: none;
+            color: #969696 !important;
+            position: $position_rel;
+            font-size: 22px;
+            line-height: 40px;
+            padding: 0 0 0 10px;
+            text-align: left;
+            font-family: 'CloverDisplay-Light', sans-serif;
+            @media (max-width: $breakpoint_laptop) {
+              font-size: 20px;
+            }
+            @media (max-width: $breakpoint_tablet) {
+              font-size: 20px;
+              padding: 5px 0;
+              margin: 0 12px;
+              color: #CFCFCF !important;
+            }
+            &.active {
+              color: $dark_color !important;
+              font-family: 'CloverDisplay-Medium', sans-serif;
+              @media (max-width: $breakpoint_tablet) {
+                color: #FFFFFF !important;
+              }
+              &:before {
+                height: 100%;
+                @media (max-width: $breakpoint_tablet) {
+                  height: 4px;
+                  width: 100%;
+                }
+              }
+            }
+            &:before {
+              content: '';
+              position: absolute;
+              left: -3px;
+              top: 0;
+              width: 4px;
+              height: 0;
+              background-color: $green_color;
+              border-radius: 10px;
+              transition: all 0.4s ease-in-out;
+              @media (max-width: $breakpoint_tablet) {
+                width: 0;
+                height: 4px !important;
+                top: unset;
+                bottom: 0;
+              }
+            }
+          }
+          &:last-child { margin-bottom: 0}
+        }
+      }
+    }
+    .tabs_content {
+      width: 77%;
+      @media (max-width: $breakpoint_tablet) {
+        width: 100%;
+        flex-direction: column;
+      }
+      @media (max-width: $breakpoint_mobile_portrait) {
+        & > div {
+          flex-direction: column;
+        }
+      }
+      .tabs_content_text{
+        @media (max-width: $breakpoint_tablet) {
+          padding: 20px 0 30px;
+        }
+        h3 {
+          margin: 0 0 33px;
+          font-size: 28px;
+          @media (max-width: $breakpoint_laptop) {
+            margin: 0 0 20px;
+          }
+        }
+        p {
+          font-family: 'Apercu-Light', sans-serif;
+          font-size: 24px;
+          line-height: 40px;
+          color: #969696;
+          margin: 0 0 30px;
+          max-width: 90%;
+          opacity: 0.9;
+          @media (max-width: $breakpoint_laptop) {
+            margin-bottom: 30px;
+            font-size: 20px;
+            line-height: 30px;
+          }
+          @media (max-width: $breakpoint_tablet) {
+            margin: 0 0 20px;
+            font-size: 18px;
+            line-height: 30px;
+          }
+        }
+        .detail_link {
+          font-size: 18px;
+          display: flex;
+          align-items: center;
+          margin-bottom: 33px;
+          text-transform: uppercase;
+          font-family: 'Apercu-Bold', sans-serif;
+          transition: all 0.4s ease-in-out;
+          img {
+            margin-left: 10px;
+            transition: all 0.4s ease-in-out;
+          }
+          @media (max-width: $breakpoint_laptop) {
+            margin-bottom: 25px;
+          }
+          @media (max-width: $breakpoint_tablet) {
+            margin-bottom: 20px;
+          }
+          &:hover {
+            color: $green_color;
+            img { margin-left: 13px;}
+          }
+        }
+        ul {
+          display: flex;
+          flex-direction: column;
+          margin-bottom: 13px;
+          li {
+            color: $dark_color;
+            margin-bottom: 19px;
+            @media (max-width: $breakpoint_laptop) {
+              margin-bottom: 10px;
+            }
+            @media (max-width: $breakpoint_tablet) {
+              margin-bottom: 5px;
+            }
+            span {
+              font-size: 24px;
+              line-height: 34px;
+              width: 145px;
+              margin-right: 50px;
+              font-family: 'Apercu-Medium', sans-serif;
+              @media (max-width: $breakpoint_laptop) {
+                font-size: 22px;
+                width: 145px;
+              }
+              @media (max-width: $breakpoint_tablet) {
+                font-size: 18px;
+                width: 145px;
+                margin-right: 0;
+              }
+            }
+            small {
+              font-family: 'CloverDisplay', sans-serif;
+              font-size: 20px;
+              line-height: 28px;
+              @media (max-width: $breakpoint_laptop) {
+                display: flex;
+                align-items: center;
+                font-size: 18px;
+                img {
+                  height: auto;
+                  width: 30px;
+                  margin-right: 10px;
+                }
+              }
+              @media (max-width: $breakpoint_tablet) {
+                font-size: 16px;
+                display: flex;
+                align-items: center;
+              }
+            }
+          }
+        }
+      }
+      .customer_video {
+        max-width: 455px;
+        flex: 0 0 455px;
+        overflow: hidden;
+        @media (max-width: $breakpoint_laptop) {
+          flex: 0 0 370px;
+        }
+        @media (max-width: $breakpoint_mobile_landscape) {
+          flex: unset;
+          max-width: 100%;
+          width: 100%;
+          margin: 0 auto;
+        }
+        section {
+          position: relative;
+          height: 485px;
+          @media (max-width: $breakpoint_laptop) {
+            height: 400px;
+          }
+          @media (max-width: $breakpoint_tablet) {
+            height: 400px;
+            margin-top: 30px;
+          }
+          video {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            border-radius: 15px;
+          }
+          .custom_controls {
+            position: absolute;
+            bottom: 10px;
+            left: 0;
+            display: flex;
+            gap: 10px;
+            justify-content: space-between;
+            width: 100%;
+            padding: 0 15px;        
+            button {
+              background-color: rgba(0, 0, 0, 0.7);
+              color: white;
+              border: none;
+              padding: 10px;
+              border-radius: 100px;
+              cursor: pointer;
+              &:hover {
+                background-color: rgba(0, 0, 0, 0.9);
+              }
+              img{
+                width: 20px;
+                height: 20px;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

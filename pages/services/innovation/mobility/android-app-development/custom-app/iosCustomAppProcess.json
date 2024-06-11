@@ -1,0 +1,26 @@
+[
+  {
+    "customAppNumber": "01",
+    "customAppIcon" : "/assets/images/services/list1.svg",
+    "customAppTitle" : "iOS App UX/UI Design",
+    "customAppDetail" : "Create an exceptional prototype that provides a clear picture of how your iOS software will look and function. Our experts work closely with clients to comprehend their requirements about their target audience, & brand."
+  },
+  {
+    "customAppNumber": "02",
+    "customAppIcon" : "/assets/images/services/list2.svg",
+    "customAppTitle" : "iOS Application Development",
+    "customAppDetail" : "We aim to develop fully functional, scalable, and secure tangible software products using the selected technology framework. We are sheerly dedicated to providing innovative and custom app solutions."
+  },
+  {
+    "customAppNumber": "03",
+    "customAppIcon" : "/assets/images/services/list3.svg",
+    "customAppTitle" : "iOS App Testing",
+    "customAppDetail" : "To ensure high-quality iOS software development, we perform regular evaluations at each stage of development, detecting defects and reporting them for re-testing so that you can get the desired results."
+  },
+  {
+    "customAppNumber": "04",
+    "customAppIcon" : "/assets/images/services/list4.svg",
+    "customAppTitle" : "iOS App Maintenance & Support",
+    "customAppDetail" : "Our after-release support and maintenance service includes optimization of performance, enhancement of functionality, and bug fixes, if necessary. Reach out to us anytime for assistance, if you face any difficulty"
+  }
+]

@@ -1,0 +1,105 @@
+.devprocesses_wrap {
+  background: url("../../../../../../public/assets/images/services/smart-processes.jpg") center fixed;
+  background-size: cover;
+  padding: 100px 0;
+}
+@media (max-width: 1000px) {
+  .devprocesses_wrap {
+    padding: 60px 0;
+  }
+}
+@media (max-width: 600px) {
+  .devprocesses_wrap .devprocess_list {
+    display: block;
+  }
+}
+.devprocesses_wrap .devprocess_list ul {
+  width: 42%;
+  position: relative;
+}
+@media (max-width: 1000px) {
+  .devprocesses_wrap .devprocess_list ul {
+    width: 80%;
+  }
+}
+@media (max-width: 600px) {
+  .devprocesses_wrap .devprocess_list ul {
+    width: 100%;
+  }
+}
+.devprocesses_wrap .devprocess_list ul li {
+  padding: 0 0 13px;
+  position: relative;
+}
+.devprocesses_wrap .devprocess_list ul li:last-child:after {
+  content: none;
+}
+.devprocesses_wrap .devprocess_list ul li:after {
+  content: "";
+  position: absolute;
+  left: 3.6px;
+  top: 15px;
+  width: 1px;
+  height: 100%;
+  background-color: #FFFFFF;
+}
+.devprocesses_wrap .devprocess_list ul li:before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 15px;
+  width: 8px;
+  height: 8px;
+  background-color: #FFFFFF;
+  border-radius: 100%;
+}
+@media (max-width: 1000px) {
+  .devprocesses_wrap .devprocess_list ul li:before {
+    top: 7px;
+  }
+}
+.devprocesses_wrap .devprocess_list ul li button {
+  max-width: 70%;
+  border: none;
+  background: transparent;
+  padding-left: 40px;
+  text-align: left;
+  color: #FFFFFF;
+  font-size: 28px;
+  line-height: 39px;
+  font-family: "CloverDisplay", sans-serif;
+}
+@media (max-width: 1000px) {
+  .devprocesses_wrap .devprocess_list ul li button {
+    font-size: 18px;
+    line-height: 23px;
+    max-width: 100%;
+  }
+}
+.devprocesses_wrap .devprocess_list ul li button.active {
+  font-family: "CloverDisplay-bold", sans-serif;
+}
+.devprocesses_wrap .devprocess_list p {
+  opacity: 0.9;
+  font-size: 24px;
+  line-height: 42px;
+  font-family: "Apercu-Light", sans-serif;
+  white-space: pre-wrap;
+  margin: 0;
+  width: 100%;
+  max-width: 610px;
+  color: #fff;
+}
+@media (max-width: 1000px) {
+  .devprocesses_wrap .devprocess_list p {
+    max-width: 440px;
+    font-size: 16px;
+    line-height: 25px;
+  }
+}
+@media (max-width: 600px) {
+  .devprocesses_wrap .devprocess_list p {
+    margin-top: 20px;
+    max-width: 100%;
+  }
+}/*# sourceMappingURL=devProcesses.module.css.map */

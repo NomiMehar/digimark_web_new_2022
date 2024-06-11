@@ -1,0 +1,102 @@
+.why_ar_wrapper {
+  padding: 100px 0 80px;
+}
+@media (max-width: 1600px) {
+  .why_ar_wrapper {
+    padding: 80px 0 60px;
+  }
+}
+@media (max-width: 1000px) {
+  .why_ar_wrapper {
+    padding: 60px 0 60px;
+  }
+}
+@media (max-width: 1600px) {
+  .why_ar_wrapper .why_ar_wrap {
+    align-items: center;
+  }
+}
+@media (max-width: 1000px) {
+  .why_ar_wrapper .why_ar_wrap {
+    flex-direction: column;
+  }
+}
+.why_ar_wrapper .why_ar_wrap figure {
+  width: 50%;
+  margin: 0;
+}
+@media (max-width: 1600px) {
+  .why_ar_wrapper .why_ar_wrap figure {
+    width: 30%;
+  }
+  .why_ar_wrapper .why_ar_wrap figure img {
+    max-width: 100%;
+    height: auto;
+  }
+}
+@media (max-width: 1000px) {
+  .why_ar_wrapper .why_ar_wrap figure {
+    width: 300px;
+    display: flex;
+    margin: 25px auto 35px;
+  }
+}
+.why_ar_wrapper .why_ar_wrap .why_ar_content {
+  width: 50%;
+}
+@media (max-width: 1600px) {
+  .why_ar_wrapper .why_ar_wrap .why_ar_content {
+    width: 60%;
+    margin-left: auto;
+  }
+}
+@media (max-width: 1000px) {
+  .why_ar_wrapper .why_ar_wrap .why_ar_content {
+    width: 100%;
+    margin-left: 0;
+  }
+}
+.why_ar_wrapper .why_ar_wrap .why_ar_content p {
+  font-family: "Apercu-Light", sans-serif;
+  margin: 0 0 20px;
+  font-size: 24px;
+  line-height: 36px;
+}
+@media (max-width: 1600px) {
+  .why_ar_wrapper .why_ar_wrap .why_ar_content p {
+    font-size: 19px;
+    line-height: 30px;
+  }
+}
+@media (max-width: 1600px) {
+  .why_ar_wrapper .why_ar_wrap .why_ar_content ul {
+    margin: 0 -5px;
+  }
+}
+.why_ar_wrapper .why_ar_wrap .why_ar_content ul li {
+  margin-bottom: 20px;
+}
+@media (max-width: 1600px) {
+  .why_ar_wrapper .why_ar_wrap .why_ar_content ul li {
+    margin-bottom: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 5px;
+  }
+}
+.why_ar_wrapper .why_ar_wrap .why_ar_content ul li span {
+  color: #1D4354;
+  border-radius: 10px;
+  display: inline-block;
+  background: #F3F6FF;
+  font-size: 24px;
+  line-height: 42px;
+  font-family: "Apercu-Light", sans-serif;
+  padding: 7px 20px;
+}
+@media (max-width: 1600px) {
+  .why_ar_wrapper .why_ar_wrap .why_ar_content ul li span {
+    font-size: 17px;
+    line-height: 30px;
+  }
+}/*# sourceMappingURL=whyAR.module.css.map */

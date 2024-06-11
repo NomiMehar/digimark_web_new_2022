@@ -1,0 +1,68 @@
+.service_wrap {
+  background: #F3F6FF;
+  padding: 100px 0 60px;
+}
+@media (max-width: 1600px) {
+  .service_wrap {
+    padding: 80px 0 50px;
+  }
+}
+@media (max-width: 1000px) {
+  .service_wrap {
+    padding: 60px 0 20px;
+  }
+}
+.service_wrap .service_list ul {
+  margin: 0 -10px;
+}
+.service_wrap .service_list ul li {
+  padding: 0 10px;
+  margin: 0 0 40px;
+  width: 33.333%;
+}
+@media (max-width: 1000px) {
+  .service_wrap .service_list ul li {
+    width: 50%;
+  }
+}
+@media (max-width: 767px) {
+  .service_wrap .service_list ul li {
+    width: 100%;
+  }
+}
+.service_wrap .service_list ul li section {
+  padding: 26px 28px;
+  background: #FFFFFF;
+  height: 100%;
+  box-shadow: 15px 15px 25px rgba(71, 83, 102, 0.1);
+}
+.service_wrap .service_list ul li section figure {
+  margin: 0 0 10px;
+  display: flex;
+  align-items: center;
+}
+.service_wrap .service_list ul li section figure img {
+  margin-right: 15px;
+}
+.service_wrap .service_list ul li section figure figcaption h3 {
+  font-size: 28px;
+  margin: 0;
+}
+@media (max-width: 1600px) {
+  .service_wrap .service_list ul li section figure figcaption h3 {
+    font-size: 22px;
+  }
+}
+.service_wrap .service_list ul li section p {
+  color: #626262;
+  font-size: 24px;
+  line-height: 36px;
+  margin: 0;
+  font-family: "Apercu-Light", sans-serif;
+}
+@media (max-width: 1600px) {
+  .service_wrap .service_list ul li section p {
+    font-size: 18px;
+    line-height: 28px;
+  }
+}/*# sourceMappingURL=arServices.module.css.map */

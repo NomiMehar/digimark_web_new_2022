@@ -1,0 +1,32 @@
+[
+  {
+    "whyChooseIcon" : "/assets/images/services/solutionchoose1.svg",
+    "whyChooseTitle" : "Expand distribution",
+    "whyChooseDetail" : "Connect with a global audience of online buyers & supercharge sales with our software solutions.",
+    "duration": 1000
+  },
+  {
+    "whyChooseIcon" : "/assets/images/services/solutionchoose2.svg",
+    "whyChooseTitle" : "Increase brand exposure",
+    "whyChooseDetail" : "Reach out to customers by joining 90% of online smartphone activity with our mobile apps.",
+    "duration": 1500
+  },
+  {
+    "whyChooseIcon" : "/assets/images/services/solutionchoose3.svg",
+    "whyChooseTitle" : "Build engagement",
+    "whyChooseDetail" : "Maximize customer engagement & retention with targeted marketing messages with scalable software solutions.",
+    "duration": 2000
+  },
+  {
+    "whyChooseIcon" : "/assets/images/services/solutionchoose4.svg",
+    "whyChooseTitle" : "Optimize tactics & processes",
+    "whyChooseDetail" : "Streamline business operations & boost the bottom line with insights and optimization solutions.",
+    "duration": 1000
+  },
+  {
+    "whyChooseIcon" : "/assets/images/services/solutionchoose4.svg",
+    "whyChooseTitle" : "Result-oriented",
+    "whyChooseDetail" : "We put our customers first, tailoring each project to their unique needs and developing solutions that help them reach their goals. Connect with us and reach new heights.",
+    "duration": 1500
+  }
+]

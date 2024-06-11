@@ -1,0 +1,32 @@
+[
+  {
+    "perksNumber" : "01",
+    "perksTitle" : "Smart \nContract Architecture",
+    "perksDetail" : "We implement industry-leading practices in NFT smart contract development to deliver robust and bug-free codes to our clients."
+  },
+  {
+    "perksNumber" : "02",
+    "perksTitle" : "Smart Contract \nDesign & Development",
+    "perksDetail" : "Our Blockchain Smart Contract Development services offer self-executing smart contracts designed for custom purposes for ultimate success."
+  },
+  {
+    "perksNumber" : "03",
+    "perksTitle" : "Smart Contract \nAudit & Optimization",
+    "perksDetail" : "To help businesses fix any errors in their smart contracts, we offer audit services that involve going through the code line by line."
+  },
+  {
+    "perksNumber" : "04",
+    "perksTitle" : "Smart \nContracts For DApps",
+    "perksDetail" : "Our smart contract development services encode business logic & facilitate direct interaction, enabling the development of smart contracts for DApps."
+  },
+  {
+    "perksNumber" : "05",
+    "perksTitle" : "Smart \nContracts For DEX",
+    "perksDetail" : "Utilizing smart contract development to power DEX enables decentralized businesses to ensure privacy within their ecosystems."
+  },
+  {
+    "perksNumber" : "06",
+    "perksTitle" : "Smart Contract \nFor Digital Wallets",
+    "perksDetail" : "Our team creates top-notch solutions for digital wallets that enable businesses to execute fast and trustworthy transactions."
+  }
+]

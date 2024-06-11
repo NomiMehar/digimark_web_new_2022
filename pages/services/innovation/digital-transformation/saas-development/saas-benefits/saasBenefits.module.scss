@@ -1,0 +1,181 @@
+@import "../../../../../../styles/variables";
+.sass_benefits {
+  padding: 100px 0;
+  @media (max-width: $breakpoint_laptop) {
+    padding: 80px 0;
+  }
+}
+.sass_benefits_tabs {
+  margin-bottom: 80px;
+  @media (max-width: $breakpoint_mobile_landscape) {
+    margin-bottom: 40px;
+    overflow: auto;
+  }
+  ul {
+    @media (max-width: $breakpoint_mobile_landscape) {
+      width: 1000px;
+    }
+    li {
+      button {
+        background: none;
+        border: none;
+        padding: 0 30px 14px;
+        font-family: "CloverDisplay-bold", sans-serif;
+        position: relative;
+        @media (max-width: $breakpoint_laptop) {
+          padding: 0 20px 10px;
+          img {
+            @media (max-width: $breakpoint_laptop) {
+              margin-bottom: 10px;
+            }
+          }
+        }
+        &:before {
+          content: "";
+          position: absolute;
+          left: 50%;
+          bottom: 0;
+          width: 0;
+          height: 4px;
+          background: #6BB64A;
+          transition: all 0.4s ease-in-out;
+          box-shadow: 0 8px 22px rgba(0, 188, 180, 0.3);
+        }
+        &.active {
+          &:before {
+            width: 100%;
+            left: 0;
+          }
+        }
+        span {
+          font-size: 28px;
+          color: #1D4354;
+          line-height: 43px;
+          @media (max-width: $breakpoint_laptop) {
+            font-size: 22px;
+            line-height: 1.3;
+          }
+        }
+      }
+    }
+  }
+}
+.sass_benefits_content_wrap {
+  margin: 0 0 30px;
+  figure {
+    margin: 0;
+    transform: translateX(36%);
+    position: relative;
+    @media (max-width: $breakpoint_mobile_landscape) {
+      display: none;
+    }
+    img {
+      max-width: unset;
+      width: auto;
+      border-radius: 20px;
+    }
+    .subImage {
+      border-radius: 5px;
+      position: absolute;
+      left: -100px;
+      top: 50%;
+      transform: translateY(-50%);
+      box-shadow: 0 60px 135px rgba(0, 0, 0, 0.14), 0 15px 65px rgba(0, 0, 0, 0.14);
+    }
+  }
+  .sass_benefits_content {
+    h3 {
+      margin: 0 0 20px;
+      color: #6BB64A;
+      font-weight: 700;
+      font-size: 28px;;
+    }
+    p {
+      font-size: 24px;
+      margin: 0;
+      line-height: 36px;
+      font-family: "Apercu-Light", sans-serif;
+      white-space: pre-line;
+      @media (max-width: $breakpoint_laptop) {
+        font-size: 18px;
+        line-height: 26px;
+      }
+    }
+  }
+}
+.sass_benefits_boxes {
+  margin: 0 -50px;
+  align-items: center;
+  @media (max-width: $breakpoint_mobile_landscape) {
+    flex-direction: column;
+  }
+  ul {
+    padding: 0 50px;
+    margin: -90px 0 0;
+    @media (max-width: $breakpoint_mobile_landscape) {
+      margin: 0 !important;
+    }
+    &:first-child {
+      margin: -200px 0 0;
+    }
+    &:last-child { margin: 0}
+    li {
+      margin-bottom: 20px;
+      section {
+        background: #F3F6FF;
+        border: 1px solid #6BB64A;
+        box-shadow: 0 100px 80px rgba(0, 0, 0, 0.07), 0 22.3363px 17.869px rgba(0, 0, 0, 0.0417275), 0 6.6501px 5.32008px rgba(0, 0, 0, 0.0282725);
+        border-radius: 20px;
+        padding: 30px 30px 16px;
+        transition: all 0.4s ease-in-out;
+        &:hover {
+          background: #6BB64A;
+          h4,p {
+            color: #FFFFFF;
+          }
+          figure {
+            img {
+              &.white_check {
+                opacity: 1;
+              }
+            }
+          }
+        }
+        figure {
+          margin: 0 0 6px;
+          position: relative;
+          img {
+            @media (max-width: $breakpoint_laptop) {
+              width: 30px;
+              height: 30px;
+            }
+            &.white_check {
+              margin-left: -44px;
+              opacity: 0;
+            }
+            transition: all 0.4s ease-in-out;
+          }
+        }
+        h4 {
+          margin: 0;
+          font-size: 40px;
+          transition: all 0.4s ease-in-out;
+          @media (max-width: $breakpoint_laptop) {
+            font-size: 30px;
+          }
+        }
+        p {
+          transition: all 0.4s ease-in-out;
+          margin: 0;
+          color: #1D4354;
+          font-size: 20px;
+          line-height: 30px;
+          @media (max-width: $breakpoint_laptop) {
+            font-size: 17px;
+            line-height: 26px;
+          }
+        }
+      }
+    }
+  }
+}

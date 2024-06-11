@@ -1,0 +1,27 @@
+[
+  {
+    "processImage": "/assets/images/services/pros1.png",
+    "processName": " Planning & \nAnalysis",
+    "processDes": "We specify requirements, define project scope, set budgets, & establish timelines to make DeFi dreams a reality."
+  },
+  {
+    "processImage": "/assets/images/services/pros1.png",
+    "processName": "Smart Contract Development",
+    "processDes": "Our experts create, test, & deploy smart contracts that automate financial transactions and govern the rules of the DeFi platform."
+  },
+  {
+    "processImage": "/assets/images/services/pros1.png",
+    "processName": "User Interface Design",
+    "processDes": "Once the smart contracts are developed, the team focuses on designing a user-friendly and intuitive interface for the DeFi platform."
+  },
+  {
+    "processImage": "/assets/images/services/pros1.png",
+    "processName": "Integration & Testing",
+    "processDes": "After the user interface is designed, the team integrates all the components of the DeFi platform, tests the system thoroughly, and ensures security."
+  },
+  {
+    "processImage": "/assets/images/services/pros1.png",
+    "processName": "Deployment & Maintenance",
+    "processDes": " Our team optimizes the platform, ensuring seamless performance. Regular updates introduce new features & promptly resolve encountered bugs."
+  }
+]

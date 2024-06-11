@@ -1,0 +1,22 @@
+[
+  {
+    "perksNumber": "01",
+    "perksTitle": "Planning & Research",
+    "perksDetail": "Our development process begins with getting the necessary information and a clear definition of the project scope. We create custom enterprise software solutions that perfectly match your business needs."
+  },
+  {
+    "perksNumber": "02",
+    "perksTitle": "Design & Development",
+    "perksDetail": "Our team of experts diligently prepares the necessary documents, defines the system architecture, and selects the appropriate technology stack to ensure a seamless enterprise solution."
+  },
+  {
+    "perksNumber": "03",
+    "perksTitle": "Testing & Deployment",
+    "perksDetail": "Our expert testers conduct comprehensive unit tests to identify and fix software issues. After that, we release and carefully check the final product for any potential deployment challenges."
+  },
+  {
+    "perksNumber": "04",
+    "perksTitle": "Maintenance & Support",
+    "perksDetail": "As per the agreed terms, we provide maintenance services including corrective, perfective, and adaptive measures to uphold the optimal performance of the enterprise system."
+  }
+]

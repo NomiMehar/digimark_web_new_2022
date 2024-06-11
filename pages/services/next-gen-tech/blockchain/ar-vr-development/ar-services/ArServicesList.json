@@ -1,0 +1,42 @@
+[
+  {
+    "serviceIcon" : "/assets/images/services/ar-service1.svg",
+    "serviceTitle" : "AR/VR App Development",
+    "serviceDetail" : "We lead the industry with our innovative and next-gen solutions embedded with advanced features and functionality to maximize the potential for revenue generation. We provide exceptional services that turn your dream into reality."
+  },
+  {
+    "serviceIcon" : "/assets/images/services/ar-service2.svg",
+    "serviceTitle" : "Mixed Reality Apps",
+    "serviceDetail" : "Mixed Reality Apps are also known as Hybrid Reality apps, they allow users to secure physical and digital objects in new environments at an affordable price. Get in touch with DigiMark Developers now to know more about mixed reality apps and get a complete advantage from this as we deliver highly immersive applications."
+  },
+  {
+    "serviceIcon" : "/assets/images/services/ar-service3.svg",
+    "serviceTitle" : " IOT + AR/VR Development",
+    "serviceDetail" : "DigiMark Developers provide the seamless experience of connecting multiple devices with the power of AR/VR with IoT. Enhance the user experience by connecting with us."
+  },
+  {
+    "serviceIcon" : "/assets/images/services/ar-service1.svg",
+    "serviceTitle" : " AR/VR App Consultation",
+    "serviceDetail" : "Our skillful consulting team provides you with insights into trending AR and VR technologies and what best fits your business. Learn about trends from DigiMark Developers and take your business upwards."
+  },
+  {
+    "serviceIcon" : "/assets/images/services/ar-service2.svg",
+    "serviceTitle" : "VFX + VR Development",
+    "serviceDetail" : "At DigiMark Developers, our 3D artists, graphic designers, and developers work together to build your superlative real-time facial-capturing VR solutions. Enhance your VR experience by taking the help of our professionals as we bring virtual experiences to life."
+  },
+  {
+    "serviceIcon" : "/assets/images/services/ar-service3.svg",
+    "serviceTitle" : "3D Data Visualization Platform",
+    "serviceDetail" : "DigiMark provides depth, breadth, and height perception solutions that deliver the object's qualitative and quantitative information."
+  },
+  {
+    "serviceIcon" : "/assets/images/services/ar-service1.svg",
+    "serviceTitle" : "Virtual Reality Development",
+    "serviceDetail" : "At DigiMark Developers, we provide the best AR/VR services that take users to a different world. Experience the virtual world like never before by getting unparalleled services. Get ready for a remarkable journey with DigiMark Developers and enjoy the virtual world utterly."
+  },
+  {
+    "serviceIcon" : "/assets/images/services/ar-service2.svg",
+    "serviceTitle" : "Training Solutions",
+    "serviceDetail" : "In case of need, we provide complete training experiences and learning opportunities for your business growth. Make learning experiences engaging and efficient with the help of DigiMark Developers and drive good results. Contact us today to learn more about the workflow and services so that you can make decisions accordingly."
+  }
+]

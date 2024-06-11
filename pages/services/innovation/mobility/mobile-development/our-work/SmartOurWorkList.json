@@ -1,0 +1,14 @@
+[
+  {
+    "projectNo": "01",
+    "projectImage": "/assets/images/services/smart-project1.jpg",
+    "projectTitle": "cost-effective solution",
+    "productName": "Fintech Product"
+  },
+  {
+    "projectNo": "02",
+    "projectImage": "/assets/images/services/smart-project1.jpg",
+    "projectTitle": "cost-effective solution",
+    "productName": "Fintech Product"
+  }
+]

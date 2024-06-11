@@ -1,0 +1,32 @@
+[
+  {
+    "imageIcon": "/assets/images/services/cloudserve1.svg",
+    "title": "Infrastructure \nAutomation",
+    "description": "Our experts develop & manage infrastructure as a code (IaC) to automate the provisioning, scaling, and management of IT resources."
+  },
+  {
+    "imageIcon": "/assets/images/services/cloudserve2.svg",
+    "title": "Continuous Integration and \nDeployment (CI/CD)",
+    "description": "Utilize tools like Jenkins, Travis CI, & CircleCI to automate the building, testing, and deployment of software."
+  },
+  {
+    "imageIcon": "/assets/images/services/cloudserve3.svg",
+    "title": "Containerization and \nOrchestration",
+    "description": "Transform software management with containerization! Utilize Docker & Kubernetes to package software in containers and manage them with powerful orchestration tools."
+  },
+  {
+    "imageIcon": "/assets/images/services/cloudserve4.svg",
+    "title": "Monitoring and Logging",
+    "description": "Maintain the health of applications by monitoring their performance and analyzing log data. Keep your systems running smoothly!"
+  },
+  {
+    "imageIcon": "/assets/images/services/cloudserve5.svg",
+    "title": "Cloud Infrastructure \nManagement",
+    "description": "Maximize the potential of cloud-based infrastructure & gain a competitive edge with AWS, Microsoft Azure, or Google Cloud."
+  },
+  {
+    "imageIcon": "/assets/images/services/cloudserve6.svg",
+    "title": "Security and \nCompliance",
+    "description": "Prioritize security & regulatory compliance in software development and deployment processes to protect your organization and build trust with customers."
+  }
+]

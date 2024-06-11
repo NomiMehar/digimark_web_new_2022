@@ -1,0 +1,26 @@
+[
+  {
+    "title": "Product & Research",
+    "description": "Comprehensive analysis of target audience, trends, size, and interests."
+  },
+  {
+    "title": "Concepting",
+    "description": "We make compelling gaming concepts with complete game design documentation."
+  },
+  {
+    "title": "Prototyping",
+    "description": "It is designed specifically to validate a set of games and its mechanics."
+  },
+  {
+    "title": "Production",
+    "description": "We split the project into manageable sprints with QA at every stage."
+  },
+  {
+    "title": "Submission",
+    "description": "We provide complete support according to Nintendo, Xbox & PlayStation store needs."
+  },
+  {
+    "title": "Live Ops",
+    "description": "Get the support after the post-production that includes more content, levels, project economy audit, and game balance."
+  }
+]

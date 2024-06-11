@@ -1,0 +1,18 @@
+[
+  {
+    "blockProcessImage": "/assets/images/services/silde1.png",
+    "blockProcessTitle": "Custom CRM Development for Healthcare Company",
+    "blockProcessDescription": "Case study on the development of a custom CRM for the healthcare industry with customized.",
+    "location": "USA, Los Angeles",
+    "teamSize": "6",
+    "tech": "PHP JavaScript Laravel Vue.js SPA architecture"
+  },
+  {
+    "blockProcessImage": "/assets/images/services/silde1.png",
+    "blockProcessTitle": "Custom CRM Development for Healthcare Company",
+    "blockProcessDescription": "Case study on the development of a custom CRM for the healthcare industry with customized.",
+    "location": "USA, Los Angeles",
+    "teamSize": "6",
+    "tech": "PHP JavaScript Laravel Vue.js SPA architecture"
+  }
+]

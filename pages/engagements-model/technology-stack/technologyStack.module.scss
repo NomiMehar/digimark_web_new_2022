@@ -1,0 +1,155 @@
+@import "../../../styles/variables";
+.technology_stack_wrapper {
+  background: #1D4354 url('../../../public/assets/images/services/custom-bg.svg');
+  padding: 100px 0 80px;
+  @media (max-width: $breakpoint_laptop) {
+    padding: 80px 0 60px;
+  }
+  @media (max-width: $breakpoint_tablet) {
+    padding: 60px 0 40px;
+  }
+  .ar_tech_stack_wrapper {
+    width: 100%;
+    max-width: 950px;
+    margin: 0 auto;
+    .ar_tech_stack {
+      margin-bottom: 45px;
+      @media (max-width: $breakpoint_laptop) {
+        margin-bottom: 30px;
+      }
+      ul {
+        position: relative;
+        @media (max-width: $breakpoint_mobile_landscape) {
+          overflow-x: auto;
+          white-space: nowrap;
+       
+        }
+        &:before {
+          content: '';
+          position: absolute;
+          left: 0;
+          bottom: 0;
+          width: 100%;
+          height: 7px;
+          background-color: #E2E2E2;
+          border-radius: 10px;
+          @media (max-width: $breakpoint_laptop) {
+            height: 4px;
+          }
+          @media (max-width: $breakpoint_mobile_landscape) {
+           display: none;
+          }
+        }
+        li {
+          width: 33.333%;
+          text-align: center;
+          @media (max-width: $breakpoint_mobile_landscape) {
+            width: 100%;
+            text-align: center;
+            white-space: pre;
+            margin: 0 20px;
+          }
+          button {
+            width: 100%;
+            background: transparent;
+            border: none;
+            font-size: 18px;
+            position: relative;
+            display: flex;
+            padding: 0 0 25px;
+            line-height: 1;
+            justify-content: center;
+            align-items: center;
+            color: #999999;
+            transition: all 0.4s ease-in-out;
+            font-family: "CloverDisplay-Medium", sans-serif;
+            @media (max-width: $breakpoint_laptop) {
+              font-size: 16px;
+              padding-bottom: 20px;
+            }
+            &:before {
+              content: '';
+              position: absolute;
+              left: 50%;
+              bottom: 0;
+              width: 0;
+              height: 7px;
+              background-color: #6BB64A;
+              border-radius: 10px;
+              transition: all 0.4s ease-in-out;
+              @media (max-width: $breakpoint_laptop) {
+                height: 4px;
+              }
+              @media (max-width: $breakpoint_mobile_landscape) {
+                display: none;
+               }
+            }
+            &:hover {
+              color: #f5f5f5;
+            }
+            &.active {
+              color: #6BB64A;
+              &:before {
+                width: 100%;
+                left: 0;
+              }
+            }
+          }
+        }
+      }
+    }
+    .ar_tech_list {
+      ul {
+        margin: 0 -10px;
+        li {
+          width: 25%;
+          padding: 0 10px;
+          margin-bottom: 20px;
+          @media (max-width: $breakpoint_mobile_landscape) {
+            width: 50%;
+          }
+          section {
+            height: 190px;
+            width: 100%;
+            padding: 0 10px;
+            border: 1px solid #E2E2E2;
+            background-color: white;
+            border-radius: 10px;
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+            gap: 15px;
+            text-align: center;
+            justify-content: center;
+            transition: all 0.4s ease-in-out;
+            box-shadow: 0px 4.53px 3.62px 0px #00000006;
+            p{
+              margin: 0;
+              font-size: 22px;
+            color: #000;
+            font-family: "CloverDisplay-Medium", sans-serif;
+            }
+            @media (max-width: $breakpoint_laptop) {
+              height: 180px;
+              p{
+                font-size: 20px;
+              }
+            }
+            @media (max-width: $breakpoint_tablet) {
+              p{
+                font-size: 18px;
+              }
+            }
+            &:hover {
+              border-color: #FFFFFF;
+              background: rgba(114, 113, 113, 0.491);
+              p{
+                color: #FFFFFF;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
