@@ -103,8 +103,6 @@ export default function CustomerTalks(props) {
                                                     onMouseLeave={handleMouseLeave}
                                                     className={style.detail_link} href={project_detail_link}>Project Details <Image src={darkArrow} alt="darkArrow" width={13} height={16} /></Link>
                                                 <ul className={`list-none`}>
-                                                <li className="flex items-center"><span>Project Name:</span> <small>
-                                                         {project_name}</small></li>
                                                     <li className="flex items-center"><span>Country:</span> <small>
                                                         {/* <Image src={flagImage} alt="flagImage" width={45} height={30} /> */}
                                                          {customer_country}</small></li>
@@ -113,7 +111,7 @@ export default function CustomerTalks(props) {
                                                 <Link
                                                     onMouseEnter={handleMouseEnter}
                                                     onMouseLeave={handleMouseLeave}
-                                                    className="contact_btn" href="#">Contact Us <Image src={whiteArrow} alt="whiteArrow" width={13} height={16} /></Link>
+                                                    className="contact_btn" href="/contact-us/#contactForm">Contact Us <Image src={whiteArrow} alt="whiteArrow" width={13} height={16} /></Link>
                                             </div>
                                             <div className={`${style.customer_video}`}>
                                                 <section>

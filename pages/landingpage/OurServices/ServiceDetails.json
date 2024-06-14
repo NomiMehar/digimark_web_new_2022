@@ -5,16 +5,12 @@
     "allServicesLink": "#",
     "innerDate": [
       {
-        "buttonText": "AI/ML",
-        "buttonLink": ""
+        "buttonText": "Chatbot \ndevelopment",
+        "buttonLink": "/services/innovation/engagements-model/chatbot-development"
       },
       {
         "buttonText": "Generative \nAI",
         "buttonLink": "/services/innovation/engagements-model/generative-ai-development"
-      },
-      {
-        "buttonText": "Chatbot \ndevelopment",
-        "buttonLink": "/services/innovation/engagements-model/chatbot-development"
       },
       {
         "buttonText": "Computer \nVision",
@@ -27,10 +23,6 @@
       {
         "buttonText": "AI PoC \n& AI MVP",
         "buttonLink": "/services/innovation/engagements-model/ai-poc-mvp"
-      },
-      {
-        "buttonText": "NLP",
-        "buttonLink": ""
       },
       {
         "buttonText": "Data \nEngineering",

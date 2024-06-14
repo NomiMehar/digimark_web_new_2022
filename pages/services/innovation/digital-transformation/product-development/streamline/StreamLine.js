@@ -10,7 +10,7 @@ export default function StreamLine() {
                 <div className="container">
                     <div className={`flex items-center justify-between ${style.streamline_text}`}>
                         <h2>Streamline your software <span>product development!</span></h2>
-                        <Link href="#" className={`contact_btn`}>Reach out <Image src={whiteArrow} alt={whiteArrow} width={13} height={16} /></Link>
+                        <Link href="/contact-us/#contactForm" className={`contact_btn`}>Reach out <Image src={whiteArrow} alt={whiteArrow} width={13} height={16} /></Link>
                     </div>
                 </div>
             </div>

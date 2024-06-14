@@ -14,7 +14,7 @@ export default function AboutNFTGame() {
                     <section>
                         <h2><span>NFT</span> Game Development</h2>
                         <p>There has been an immense demand for NFT Game Development Services as many people are always looking for something exciting. DigiMark Developers would be your best choice as it’s one of the leading NFT game development companies and developing a reliable and protected NFT-based gaming place along with breakthrough tools and technologies. DigiMark Developers go through the complete market research for a perfect gaming strategy. Partner with us now and get the best development experience.</p>
-                        <Link href="#" className={`contact_btn ${style.contact_btn}`}>Get a quote now <Image src={whiteArrow} alt={whiteArrow} width={13} height={16} /></Link>
+                        <Link href="/contact-us/#contactForm" className={`contact_btn ${style.contact_btn}`}>Get a quote now <Image src={whiteArrow} alt={whiteArrow} width={13} height={16} /></Link>
                     </section>
                 </div>
             </div>

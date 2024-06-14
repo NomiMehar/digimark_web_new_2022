@@ -25,7 +25,7 @@ function Footer() {
                         <Link
                             onMouseEnter={handleMouseEnter}
                             onMouseLeave={handleMouseLeave}
-                            href="/">Artificial Intelligence</Link>
+                            href="/services/ai-ml-development/ai-ml-services/generative-ai-development">Artificial Intelligence</Link>
                       </li>
                       <li>
                         <Link
@@ -51,12 +51,12 @@ function Footer() {
                             onMouseLeave={handleMouseLeave}
                             href="/services/next-gen-tech/gamification/mobile-game-development">Gaming</Link>
                       </li>
-                      <li>
+                      {/* <li>
                         <Link
                             onMouseEnter={handleMouseEnter}
                             onMouseLeave={handleMouseLeave}
                             href="/company/about-us">Branding</Link>
-                      </li>
+                      </li> */}
                     </ul>
                   </div>
                   <div className={style.footer_links} style={{paddingLeft: 25}}>

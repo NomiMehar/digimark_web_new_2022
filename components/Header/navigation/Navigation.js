@@ -48,9 +48,9 @@ export default function Navigation() {
                       <li><Link
                   onMouseEnter={handleMouseEnter}
                   onMouseLeave={handleMouseLeave} href="/company/team">Our Team</Link></li>
-                      <li><Link
+                      {/* <li><Link
                   onMouseEnter={handleMouseEnter}
-                  onMouseLeave={handleMouseLeave} href="/company/careers">Our Careers</Link></li>
+                  onMouseLeave={handleMouseLeave} href="/company/careers">Our Careers</Link></li> */}
                       <li><Link
                   onMouseEnter={handleMouseEnter}
                   onMouseLeave={handleMouseLeave} href="/company/women-empowerment">Women Empowerment</Link></li>
@@ -78,10 +78,10 @@ export default function Navigation() {
               <Link
                   onMouseEnter={handleMouseEnter}
                   onMouseLeave={handleMouseLeave} href="/engagements-model">
-                  ENGAGEMENTS MODEL
+                  ENGAGEMENT MODELS
               </Link>
           </li>
-          <li>
+          {/* <li>
               <Link
                   onMouseEnter={handleMouseEnter}
                   onMouseLeave={handleMouseLeave} href="/industries">
@@ -94,7 +94,7 @@ export default function Navigation() {
                   onMouseLeave={handleMouseLeave} href="/case-studies">
                   CASE STUDIES
               </Link>
-          </li>
+          </li> */}
       </ul>
   );
 }

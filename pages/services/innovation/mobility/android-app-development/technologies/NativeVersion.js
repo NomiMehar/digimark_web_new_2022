@@ -1,6 +1,7 @@
 import React, {useEffect} from "react";
 import style from "./Technologies.module.scss";
 import programLanguagesList from "./programLanguagesList.json"
+import thirdpartyLanguagesList from "./thirdpartyLanguagesList.json"
 import AOS from 'aos';
 export default function NativeVersion(props) {
     useEffect(() => {
@@ -34,7 +35,7 @@ export default function NativeVersion(props) {
                         <h4 data-aos="fade-left" data-aos-duration="1000">Third-Party Integration</h4>
                         <ul className="list-none flex">
                             {
-                                programLanguagesList.map(({langTitle,langIcon},index)=>{
+                                thirdpartyLanguagesList.map(({langTitle,langIcon},index)=>{
                                     return(
                                         <li key={index} data-aos="flip-left" data-aos-duration="1000">
                                             <img src={langIcon} alt={langIcon}/>

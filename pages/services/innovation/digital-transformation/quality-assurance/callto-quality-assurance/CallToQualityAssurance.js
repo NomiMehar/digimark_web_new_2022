@@ -13,7 +13,7 @@ export default function CallToQualityAssurance(props) {
                         <section>
                             <h2>{props.title}</h2>
                             {props.description}
-                            <Link href="#" className={`contact_btn ${style.contact_btn}`}>Let’s get started <Image src={whiteArrow} alt={whiteArrow} width={13} height={16} /></Link>
+                            <Link href="/contact-us/#contactForm" className={`contact_btn ${style.contact_btn}`}>Let’s get started <Image src={whiteArrow} alt={whiteArrow} width={13} height={16} /></Link>
                         </section>
                     </div>
                 </div>

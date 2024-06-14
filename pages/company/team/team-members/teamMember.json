@@ -1,50 +1,8 @@
 [
   {
-    "teamImage": "/assets/images/company/team1.jpg",
-    "teamName": "Pavlo Terletsky",
+    "teamImage": "/assets/images/services/ceo.jpg",
+    "teamName": "Muhammad Abdullah",
     "teamDesignation": "CEO",
-    "linkedinLink": "#"
-  },
-  {
-    "teamImage": "/assets/images/company/team2.jpg",
-    "teamName": "Pavlo Terletsky",
-    "teamDesignation": "CEO",
-    "linkedinLink": "#"
-  },
-  {
-    "teamImage": "/assets/images/company/team3.jpg",
-    "teamName": "Pavlo Terletsky",
-    "teamDesignation": "CEO",
-    "linkedinLink": "#"
-  },
-  {
-    "teamImage": "/assets/images/company/team4.jpg",
-    "teamName": "Pavlo Terletsky",
-    "teamDesignation": "CEO",
-    "linkedinLink": "#"
-  },
-  {
-    "teamImage": "/assets/images/company/team1.jpg",
-    "teamName": "Pavlo Terletsky",
-    "teamDesignation": "CEO",
-    "linkedinLink": "#"
-  },
-  {
-    "teamImage": "/assets/images/company/team2.jpg",
-    "teamName": "Pavlo Terletsky",
-    "teamDesignation": "CEO",
-    "linkedinLink": "#"
-  },
-  {
-    "teamImage": "/assets/images/company/team3.jpg",
-    "teamName": "Pavlo Terletsky",
-    "teamDesignation": "CEO",
-    "linkedinLink": "#"
-  },
-  {
-    "teamImage": "/assets/images/company/team4.jpg",
-    "teamName": "Pavlo Terletsky",
-    "teamDesignation": "CEO",
-    "linkedinLink": "#"
+    "linkedinLink": "https://www.linkedin.com/in/muhammad-abdullah-a2488981/overlay/photo/"
   }
 ]

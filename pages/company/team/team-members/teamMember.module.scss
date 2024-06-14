@@ -49,6 +49,8 @@
             width: 100%;
             height: auto;
             filter: grayscale(1);
+            height: 382px;
+            object-fit: cover;
             transition: all 0.4s ease-in-out;
           }
         }

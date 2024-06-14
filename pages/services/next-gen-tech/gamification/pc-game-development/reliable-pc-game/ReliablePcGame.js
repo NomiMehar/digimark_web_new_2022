@@ -18,7 +18,7 @@ export default function ReliablePcGame(props) {
                         {
                             props.description ? <p>{props.description}</p> : <p>Talk to our team and discover how we can be a comprehensive end-to-end solution that meets your budget and deadline requirements.</p>
                         }
-                        <Link href="#" className={`contact_btn ${style.contact_btn}`}>Let’s Connect <Image src={whiteArrow} alt={whiteArrow} width={13} height={16} /></Link>
+                        <Link href="/contact-us/#contactForm" className={`contact_btn ${style.contact_btn}`}>Let’s Connect <Image src={whiteArrow} alt={whiteArrow} width={13} height={16} /></Link>
                     </section>
                 </div>
             </div>

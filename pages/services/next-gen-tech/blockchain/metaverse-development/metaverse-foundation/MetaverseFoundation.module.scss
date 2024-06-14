@@ -116,7 +116,7 @@
           ul {
             margin: 0 -15px;
             flex-wrap: wrap;
-            justify-content: end;
+            justify-content: flex-start;
             @media (max-width: $breakpoint_mobile_portrait) {
               flex-wrap: wrap;
               justify-content: center;
@@ -138,7 +138,8 @@
                 width: 29.33%;
               }
               img {
-                width: 85%;
+                width: 60%;
+                height: 50px;
               }
             }
           }

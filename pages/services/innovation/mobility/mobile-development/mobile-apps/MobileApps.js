@@ -68,7 +68,7 @@ export default function MobileApps() {
                                                 }
                                             </ul>
                                             <section className="flex">
-                                                <Link href="/contact-us#contactForm" className="transparent-btn">Let Build with us <Image src={greenArrow} alt={greenArrow} width={13} height={16}/></Link>
+                                                <Link href="/contact-us/#contactForm" className="transparent-btn">Let Build with us <Image src={greenArrow} alt={greenArrow} width={13} height={16}/></Link>
                                                 {/* <Link href={learn_more_link} className="transparent-btn learnmore">Learn More <Image src={greenArrow} alt={greenArrow} width={13} height={16}/></Link> */}
                                             </section>
                                         </div>

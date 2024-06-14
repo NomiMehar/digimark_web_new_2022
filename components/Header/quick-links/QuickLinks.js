@@ -15,7 +15,7 @@ export default function QuickLinks() {
           <ul
               className="list-none flex-between-center"
           >
-              {QuickNav.map(({quickTitle,quickImage,quickLink},index) => {
+              {/* {QuickNav.map(({quickTitle,quickImage,quickLink},index) => {
                   return (
                       <li key={`quickLink-${index}`}>
                           <Link
@@ -27,7 +27,7 @@ export default function QuickLinks() {
                           </Link>
                       </li>
                   );
-              })}
+              })} */}
           </ul>
           <Link href="/contact-us"
               onMouseEnter={handleMouseEnter}

@@ -11,7 +11,7 @@ export default function MiddleCallAction(props) {
             <section>
                 {props.sectionTitle}
                 {props.sectionDescription}
-                <Link href="#" className={`contact_btn ${style.transparent}`}>Let’s Connect <Image src={whiteArrow} alt={whiteArrow} width={13} height={16} /></Link>
+                <Link href="/contact-us/#contactForm" className={`contact_btn ${style.transparent}`}>Let’s Connect <Image src={whiteArrow} alt={whiteArrow} width={13} height={16} /></Link>
             </section>
             <Image src={props.middleActionImage} alt="image"/>
         </div>

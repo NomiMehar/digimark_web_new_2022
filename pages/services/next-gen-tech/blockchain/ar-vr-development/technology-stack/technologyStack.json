@@ -17,28 +17,28 @@
     "tab_button_icon": "./assets/images/services/",
     "tab_button": "VR",
     "listWrap": [
-      "ARToolKit",
-      "GOOGLE-ARCORE",
-      "APPLE ARKIT",
-      "VUFORIA",
-      "KUDAN",
-      "MAXST",
-      "DEEPAR",
-      "WIKITUDE"
+      "UNITY 3D",
+      "UNREAL ENGINE",
+      "CRY ENGINE",
+      "BLENDER",
+      "GOOGLE SKETCH UP",
+      "Tilt Brush",
+      "AppGameKit VR",
+      "LibGDX"
     ]
   },
   {
     "tab_button_icon": "./assets/images/services/",
     "tab_button": "MR",
     "listWrap": [
+      "UNITY 3D",
+      "UNREAL ENGINE",
+      "Amazon Sumerian",
+      "Spark AR",
+      "Oculus",
+      "Vuforia",
       "ARToolKit",
-      "GOOGLE-ARCORE",
-      "APPLE ARKIT",
-      "VUFORIA",
-      "KUDAN",
-      "MAXST",
-      "DEEPAR",
-      "WIKITUDE"
+      "ARcore"
     ]
   }
 ]

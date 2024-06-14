@@ -12,7 +12,7 @@ export default function ProductDelegate() {
                 <div className={style.product_delegat_text}>
                     <section>
                         <h2><span>Delegate your project</span> to a team of <br/>experts.</h2>
-                        <Link href="#" className={`contact_btn`}>Book a Call <Image src={whiteArrow} alt={whiteArrow} width={13} height={16} /></Link>
+                        <Link href="/contact-us/#contactForm" className={`contact_btn`}>Book a Call <Image src={whiteArrow} alt={whiteArrow} width={13} height={16} /></Link>
                     </section>
                 </div>
                 <Image src={Image1} alt="Image1"/>

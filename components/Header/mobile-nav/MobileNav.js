@@ -65,7 +65,7 @@ export default function MobileNav() {
                       <MenuItem><Link onClick={() => setsidebar(true)} href="/company/about-us">About Company</Link></MenuItem>
                       <MenuItem><Link onClick={() => setsidebar(true)} href="/company/how-we-are">How We Work</Link></MenuItem>
                       <MenuItem><Link onClick={() => setsidebar(true)} href="/company/team">Our Team</Link></MenuItem>
-                      <MenuItem><Link onClick={() => setsidebar(true)} href="/company/careers">Our Careers</Link></MenuItem>
+                      {/* <MenuItem><Link onClick={() => setsidebar(true)} href="/company/careers">Our Careers</Link></MenuItem> */}
                       <MenuItem><Link onClick={() => setsidebar(true)} href="/company/women-empowerment">Women Empowerment</Link></MenuItem>
                       <MenuItem><Link onClick={() => setsidebar(true)} href="/company/life-at-digimark">Life @DigiMark</Link></MenuItem>
                   </SubMenu>
@@ -94,7 +94,7 @@ export default function MobileNav() {
                   </SubMenu>
                   {/* <SubMenu className="second_menu" label="Growth">              
                   </SubMenu> */}
-                  <SubMenu className="second_menu" label="Next-Gen Tech">
+                  {/* <SubMenu className="second_menu" label="Next-Gen Tech">
                   <SubMenu className="third_menu" label="Blockchain">
                       <MenuItem><Link onClick={() => setsidebar(true)} href="/services/next-gen-tech/blockchain/blockchain-development">Blockchain Development</Link></MenuItem>
                       <MenuItem><Link onClick={() => setsidebar(true)} href="/services/next-gen-tech/blockchain/nft-development">NFT Development</Link></MenuItem>
@@ -119,7 +119,7 @@ export default function MobileNav() {
                             <MenuItem><Link onClick={() => setsidebar(true)} href="/services/next-gen-tech/gamification/metaverse-game-development">Metaverse Game Development</Link></MenuItem>
                             <MenuItem><Link onClick={() => setsidebar(true)} href="/services/next-gen-tech/gamification/full-cycle-game-development">Full Cycle Game Development</Link></MenuItem>
                   </SubMenu>
-                  </SubMenu>
+                  </SubMenu> */}
                   <SubMenu className="second_menu" label="AI & ML">  
                   <SubMenu className="third_menu" label="AI & ML Development">
                   <MenuItem><Link onClick={() => setsidebar(true)} href="/services/ai-ml-development/ai-ml-services/engagements-model/generative-ai-development">Generative AI Development</Link></MenuItem>
@@ -133,14 +133,14 @@ export default function MobileNav() {
                   </SubMenu>
                   </SubMenu>
                   <MenuItem>
+                      <Link onClick={() => setsidebar(true)} href="/engagements-model">Engagement Models</Link>
+                  </MenuItem>
+                  {/* <MenuItem>
                       <Link onClick={() => setsidebar(true)} href="/industries">Industries</Link>
                   </MenuItem>
                   <MenuItem>
-                      <Link onClick={() => setsidebar(true)} href="/engagements-model">Engagements Model</Link>
-                  </MenuItem>
-                  <MenuItem>
                       <Link onClick={() => setsidebar(true)} href="/case-studies">Case Studies</Link>
-                  </MenuItem>
+                  </MenuItem> */}
               </Menu>
               <div className="menuSocial flex-between-center">
                   <Link onClick={() => setsidebar(true)}

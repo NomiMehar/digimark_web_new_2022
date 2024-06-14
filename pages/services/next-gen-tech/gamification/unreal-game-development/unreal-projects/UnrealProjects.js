@@ -25,7 +25,7 @@ export default function UnrealProjects(props) {
                                                 <figcaption>
                                                     <h3>{projectTitle}</h3>
                                                     <p>{projectDescription}</p>
-                                                    <Link href="#" className={`contact_btn`}>Contact Us <Image src={whiteArrow} alt={whiteArrow} width={13} height={16} /></Link>
+                                                    <Link href="/contact-us/#contactForm" className={`contact_btn`}>Contact Us <Image src={whiteArrow} alt={whiteArrow} width={13} height={16} /></Link>
                                                 </figcaption>
                                             </figure>
                                         </li>

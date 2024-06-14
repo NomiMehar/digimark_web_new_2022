@@ -1,7 +1,7 @@
 import React, {useEffect} from "react";
 import style from "./OurStory.module.scss"
-import storyImage from "../../../../public/assets/images/company/woman1.png"
-import visionImage from "../../../../public/assets/images/company/vision-image.png"
+import storyImage from "../../../../public/assets/images/services/story.png"
+import visionImage from "../../../../public/assets/images/services/vision-image.png"
 import Image from "next/image";
 import AOS from 'aos';
 
@@ -25,7 +25,7 @@ export default function OurStory (props) {
                         data-aos="fade-left"
                         data-aos-duration="2000"
                     >
-                        <Image src={storyImage} alt={storyImage} />
+                        <Image className={style.storyImg} src={storyImage} alt={storyImage} />
                     </figure>
                 </div>
             </div>

@@ -1,5 +1,6 @@
 import style from "./MetaverseFoundation.module.scss";
 import metaverseFoundationList from "./MetaverseFoundationList.json";
+import MetaverseFoundationTwoList from "./MetaverseFoundationTwoList.json";
 import AOS from "aos";
 import { useEffect } from "react";
 
@@ -70,7 +71,7 @@ export default function MetaverseFoundation() {
                         >
                             <section>
                                 <ul className="list-none flex">
-                                    {metaverseFoundationList.map(({ langIcon }, index) => {
+                                    {MetaverseFoundationTwoList.map(({ langIcon }, index) => {
                                         return (
                                             <li
                                                 key={index}

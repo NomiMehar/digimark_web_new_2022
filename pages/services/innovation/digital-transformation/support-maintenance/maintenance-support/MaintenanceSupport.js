@@ -14,49 +14,49 @@ export default function MaintenanceSupport() {
                         <li>
                             <section className="flex justify-between">
                                 <h3>Retail</h3>
-                                <Link href="#">Read More</Link>
+                                <Link href="/industries/industry-details">Read More</Link>
                             </section>
                         </li>
                         <li>
                             <section className="flex justify-between">
                                 <h3>Healthcare</h3>
-                                <Link href="#">Read More</Link>
+                                <Link href="/industries/industry-details">Read More</Link>
                             </section>
                         </li>
                         <li>
                             <section className="flex justify-between">
                                 <h3>Fintech</h3>
-                                <Link href="#">Read More</Link>
+                                <Link href="/industries/industry-details">Read More</Link>
                             </section>
                         </li>
                         <li>
                             <section className="flex justify-between">
                                 <h3>Education</h3>
-                                <Link href="#">Read More</Link>
+                                <Link href="/industries/industry-details">Read More</Link>
                             </section>
                         </li>
                         <li>
                             <section className="flex justify-between">
                                 <h3>Hospitality</h3>
-                                <Link href="#">Read More</Link>
+                                <Link href="/industries/industry-details">Read More</Link>
                             </section>
                         </li>
                         <li>
                             <section className="flex justify-between">
                                 <h3>Tour & Travel</h3>
-                                <Link href="#">Read More</Link>
+                                <Link href="/industries/industry-details">Read More</Link>
                             </section>
                         </li>
                         <li>
                             <section className="flex justify-between">
                                 <h3>Transport</h3>
-                                <Link href="#">Read More</Link>
+                                <Link href="/industries/industry-details">Read More</Link>
                             </section>
                         </li>
                         <li>
                             <section className="flex justify-between">
                                 <h3>Insurance</h3>
-                                <Link href="#">Read More</Link>
+                                <Link href="/industries/industry-details">Read More</Link>
                             </section>
                         </li>
                     </ul>

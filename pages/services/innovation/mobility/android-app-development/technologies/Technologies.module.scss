@@ -114,12 +114,13 @@
     .lang_wrapper {
       h2 {
         color: #1D4354;
-      }
-      h5 {
+        }
+        h5 {
+        display: none;
         color: #12262F;
       }
       img {
-        filter: brightness(0);
+        // filter: brightness(0);
       }
     }
   }

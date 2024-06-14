@@ -25,7 +25,7 @@ export default function BlockchainEnterprise (props) {
                   <h2>ADVANCING YOUR BLOCKCHAIN ENTERPRISE TECHNOLOGY</h2>
                  </div>
                  }
-                  <Link href="/" className={`contact_btn ${style.contact_btn}`}>GET A QUOTE <Image src={whiteArrow} alt={whiteArrow} width={13} height={16} /></Link>
+                  <Link href="/contact-us/#contactForm" className={`contact_btn ${style.contact_btn}`}>GET A QUOTE <Image src={whiteArrow} alt={whiteArrow} width={13} height={16} /></Link>
               </div>
           </div>
       </div>

@@ -57,7 +57,16 @@
       max-width: 100%;
       height: auto;
       border-radius: 10px;
-    }
+      }
+      .storyImg{
+          max-width: 100%;
+          height: 700px;
+          object-fit: cover;
+          border-radius: 10px;
+          @media screen and (max-width: $breakpoint_tablet) {
+            height: auto;
+          }
+      }
     @media screen and (max-width: $breakpoint_tablet) {
       margin: 0 auto;
     }
@@ -75,15 +84,16 @@
   }
   figure {
     margin: 0 auto 0 0;
+    width: 44%;
+    padding-right: 40px;
+    @media screen and (max-width: $breakpoint_mobile_landscape) {
+      padding-right: 0;
+      width: 100%;
+      margin-top: 30px;
+    }
     img {
       max-width: 100%;
       height: auto;
-      @media screen and (max-width: $breakpoint_tablet) {
-        padding-right: 40px;
-      }
-      @media screen and (max-width: $breakpoint_mobile_landscape) {
-        padding-right: 0;
-      }
     }
   }
   .story_text {

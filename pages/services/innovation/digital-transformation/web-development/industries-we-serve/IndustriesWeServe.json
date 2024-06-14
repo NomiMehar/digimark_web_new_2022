@@ -1,32 +1,32 @@
 [
   {
-    "tab_button": "Finance",
-    "tab_title": "Bank Analytics Web Platform",
-    "tab_content": "A networking platform that leverages personal relationships and social circles to connect pet owners with pet sitters, boarding schools & veterinarians.",
-    "tabImg": "/assets/images/services/industries_1.png"
-  },
-  {
-    "tab_button": "Software",
-    "tab_title": "Bank Analytics Web Platform",
-    "tab_content": "A networking platform that leverages personal relationships and social circles to connect pet owners with pet sitters, boarding schools & veterinarians.",
-    "tabImg": "/assets/images/services/industries_1.png"
-  },
-  {
     "tab_button": "Healthcare",
-    "tab_title": "Bank Analytics Web Platform",
-    "tab_content": "A networking platform that leverages personal relationships and social circles to connect pet owners with pet sitters, boarding schools & veterinarians.",
-    "tabImg": "/assets/images/services/industries_1.png"
+    "tab_title": "Healthcare",
+    "tab_content": "One-stop shop for all your healthcare software development and marketing needs.",
+    "tabImg": "/assets/images/homepage/our-industries/healthcare.jpg"
   },
   {
-    "tab_button": "Consumer",
-    "tab_title": "Bank Analytics Web Platform",
-    "tab_content": "A networking platform that leverages personal relationships and social circles to connect pet owners with pet sitters, boarding schools & veterinarians.",
-    "tabImg": "/assets/images/services/industries_1.png"
+    "tab_button": "Blockchain",
+    "tab_title": "Blockchain",
+    "tab_content": "We build secure & stellar products with expert blockchain engineers for global web3 startups.",
+    "tabImg": "/assets/images/homepage/our-industries/blockchain.jpg"
   },
   {
-    "tab_button": "Education",
-    "tab_title": "Bank Analytics Web Platform",
-    "tab_content": "A networking platform that leverages personal relationships and social circles to connect pet owners with pet sitters, boarding schools & veterinarians.",
-    "tabImg": "/assets/images/services/industries_1.png"
+    "tab_button": "EdTech",
+    "tab_title": "EdTech",
+    "tab_content": "We harness the power of technology to enhance student engagement and outcomes.",
+    "tabImg": "/assets/images/homepage/our-industries/edtech.jpg"
+  },
+  {
+    "tab_button": "Fintech",
+    "tab_title": "Fintech",
+    "tab_content": "We ensure secure, bespoke & AI-powered solutions to streamline Fintech workflows.",
+    "tabImg": "/assets/images/homepage/our-industries/fintech.jpg"
+  },
+  {
+    "tab_button": "Retail",
+    "tab_title": "Retail",
+    "tab_content": "Increase sales by offering ease to your customers through solutions tailored to the retail industry",
+    "tabImg": "/assets/images/homepage/our-industries/retail.jpg"
   }
 ]

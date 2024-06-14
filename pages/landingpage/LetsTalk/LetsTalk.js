@@ -1,9 +1,14 @@
 import Link from "next/link";
-import React, {useEffect} from "react";
+import React, { useEffect, useRef } from "react";
 import ContactMap from "./ContactMap";
 import style from "./LetsTalk.module.scss";
 import AOS from 'aos';
 import 'aos/dist/aos.css';
+import emailjs from '@emailjs/browser';
+import Swal from 'sweetalert2';
+import withReactContent from 'sweetalert2-react-content';
+
+const MySwal = withReactContent(Swal);
 
 export default function LetsTalk(props) {
   const handleMouseEnter = () => {
@@ -12,9 +17,39 @@ export default function LetsTalk(props) {
   const handleMouseLeave = () => {
     document.body.classList.remove('hovered');
   };
+  
   useEffect(() => {
     AOS.init();
-  }, [])
+  }, []);
+  
+  const form = useRef();
+
+  function sendEmail(e) {
+    e.preventDefault();
+
+    emailjs
+      .sendForm('service_0cy2mz9', 'template_qg0nmnb', e.target, 'Qt8fP3ncR9DvbW6L7')
+      .then(
+        () => {
+          MySwal.fire({
+            title: 'Success!',
+            text: 'Your message has been sent.',
+            icon: 'success',
+            confirmButtonText: 'OK'
+          });
+        },
+        (error) => {
+          MySwal.fire({
+            title: 'Error!',
+            text: 'Failed to send your message. Please try again.',
+            icon: 'error',
+            confirmButtonText: 'OK'
+          });
+        }
+      );
+    e.target.reset();
+  }
+
   return (
     <div id="contactForm" className={`flex direction-column lets_talk ${style[props.extraClass]} ${style.lets_talk}`}>
       <div className="container">
@@ -31,59 +66,58 @@ export default function LetsTalk(props) {
               data-aos-easing="ease-in-sine"
               data-aos-duration="1000"
           >
-            <li>
-              <input
-                type="text"
-                placeholder="Name*"
-                name=""
-              />
-            </li>
-            <li>
-              <input
-                type="email"
-                placeholder="Email"
-                name=""
-              />
-            </li>
-            <li>
-              <select>
-                <option>Please specify your needs?</option>
-                <option>Consultaiton AI</option>
-                <option>Gaming</option>
-                <option>Blockchian</option>
-                <option>Mobile</option>
-                <option>Web</option>
-                <option>Staff augmentation</option>
-                <option>Team Augmentation</option>
-                <option>Design</option>
-                <option>QA</option>
-                <option>Other</option>
-              </select>
-            </li>
-            <li>
-              <textarea
-                placeholder="Write your message..."
-              />
-            </li>
-            <li className="flex-between-center">
-              <p>Recaptcha </p>
-              <button
-                  onMouseEnter={handleMouseEnter}
-                  onMouseLeave={handleMouseLeave}
-                  className="contact_btn">
-                Send Message{" "}
-                <img src="/assets/images/homepage/lets_talk/arrow.svg" alt="arrow" />
-              </button>
-            </li>
-            {/* <li>
-              <p>
-                By submitting this form you accept our{" "}
-                <Link
-                    onMouseEnter={handleMouseEnter}
-                    onMouseLeave={handleMouseLeave}
-                    href="#">Terms and Privacy Policy</Link>
-              </p>
-            </li> */}
+            <form ref={form} onSubmit={sendEmail}>
+              <li>
+                <input
+                  type="text"
+                  placeholder="Name*"
+                  name="name"
+                  required
+                />
+              </li>
+              <li>
+                <input
+                  type="email"
+                  placeholder="Email"
+                  name="email"
+                  required
+                />
+              </li>
+              <li>
+                <input
+                  type="text"
+                  placeholder="Subject"
+                  name="subject"
+                  required
+                />
+              </li>
+              <li>
+                <select name="needs" required>
+                  <option value="">Please specify your needs?</option>
+                  <option value="Consultation AI">Consultation AI</option>
+                  <option value="Gaming">Gaming</option>
+                  <option value="Blockchain">Blockchain</option>
+                  <option value="Mobile">Mobile</option>
+                  <option value="Web">Web</option>
+                  <option value="Staff augmentation">Staff augmentation</option>
+                  <option value="Team Augmentation">Team Augmentation</option>
+                  <option value="Design">Design</option>
+                  <option value="QA">QA</option>
+                  <option value="Other">Other</option>
+                </select>
+              </li>
+              <li>
+                <textarea
+                  placeholder="Write your message..."
+                  name="message"
+                  required
+                />
+              </li>
+              <li className="flex-between-center">
+                <p>Recaptcha</p>
+                <input type="submit" className="contact_btn" value="Send message" />
+              </li>
+            </form>
           </ul>
           <div className="map"
                data-aos="fade-left"

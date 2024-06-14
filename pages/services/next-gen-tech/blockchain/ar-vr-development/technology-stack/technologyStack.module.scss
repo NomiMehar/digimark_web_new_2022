@@ -105,6 +105,7 @@
             font-family: "CloverDisplay-Medium", sans-serif;
             justify-content: center;
             transition: all 0.4s ease-in-out;
+            text-transform: uppercase;
             @media (max-width: $breakpoint_laptop) {
               height: 140px;
               font-size: 20px;

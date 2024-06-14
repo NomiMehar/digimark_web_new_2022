@@ -62,7 +62,7 @@ export default function ExpertiseNFTGame() {
                     </div>
                     <div className={style.expert_action}>
                         <h2>We’re ready to build your dream NFT game</h2>
-+                        <Link href="#" className={`contact_btn ${style.contact_btn}`}>Contact us <Image src={whiteArrow} alt={whiteArrow} width={13} height={16} /></Link>
++                        <Link href="/contact-us/#contactForm" className={`contact_btn ${style.contact_btn}`}>Contact us <Image src={whiteArrow} alt={whiteArrow} width={13} height={16} /></Link>
                     </div>
                 </div>
             </div>

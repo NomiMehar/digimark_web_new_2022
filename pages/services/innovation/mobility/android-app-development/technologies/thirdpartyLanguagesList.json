@@ -1,0 +1,22 @@
+[
+  {
+    "langIcon" : "/assets/images/services/techicon6.svg",
+    "langTitle" : "Social Media Integration"
+  },
+  {
+    "langIcon" : "/assets/images/services/techicon7.svg",
+    "langTitle" : "Stripe Integration"
+  },
+  {
+    "langIcon" : "/assets/images/services/techicon8.svg",
+    "langTitle" : "PayPal Integration"
+  },
+  {
+    "langIcon" : "/assets/images/services/techicon9.svg",
+    "langTitle" : "Video Call Integration"
+  },
+  {
+    "langIcon" : "/assets/images/services/techicon10.svg",
+    "langTitle" : "Chat Integration"
+  }
+]

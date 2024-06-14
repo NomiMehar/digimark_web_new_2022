@@ -46,7 +46,7 @@ export default function SaasPartners() {
                     </div>
                 </div>
                 <div className="flex justify-center">
-                    <Link href="#" className={`contact_btn ${style.contact_btn}`}>Let’s discuss your project <Image src={whiteArrow} alt={whiteArrow} width={13} height={16} /></Link>
+                    <Link href="/contact-us/#contactForm" className={`contact_btn ${style.contact_btn}`}>Let’s discuss your project <Image src={whiteArrow} alt={whiteArrow} width={13} height={16} /></Link>
                 </div>
             </div>
         </div>

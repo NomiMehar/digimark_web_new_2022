@@ -20,7 +20,7 @@ export default function DviderSection (props) {
                     {props.dividerTitle}
                     {props.dividerDescription}
                  </div>
-                  <Link href="/" className={`contact_btn ${style.contact_btn}`}>{props.dividerButton} <Image src={whiteArrow} alt={whiteArrow} width={13} height={16} /></Link>
+                  <Link href="/contact-us/#contactForm" className={`contact_btn ${style.contact_btn}`}>{props.dividerButton} <Image src={whiteArrow} alt={whiteArrow} width={13} height={16} /></Link>
               </div>
           </div>
       </div>
