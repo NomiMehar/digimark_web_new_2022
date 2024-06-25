@@ -6,15 +6,15 @@
     "innerDate": [
       {
         "buttonText": "Chatbot \ndevelopment",
-        "buttonLink": "/services/innovation/engagements-model/chatbot-development"
+        "buttonLink": "/services/ai-ml-development/ai-ml-services/chatbot-development"
       },
       {
         "buttonText": "Generative \nAI",
-        "buttonLink": "/services/innovation/engagements-model/generative-ai-development"
+        "buttonLink": "/services/ai-ml-development/ai-ml-services/generative-ai-development"
       },
       {
         "buttonText": "Computer \nVision",
-        "buttonLink": ""
+        "buttonLink": "/services/ai-ml-development/ai-ml-services/computer-vision"
       },
       {
         "buttonText": "Data \nScience",
@@ -22,11 +22,11 @@
       },
       {
         "buttonText": "AI PoC \n& AI MVP",
-        "buttonLink": "/services/innovation/engagements-model/ai-poc-mvp"
+        "buttonLink": "/services/ai-ml-development/ai-ml-services/ai-poc-mvp"
       },
       {
         "buttonText": "Data \nEngineering",
-        "buttonLink": "/services/innovation/engagements-model/data-engineering-services"
+        "buttonLink": "/services/ai-ml-development/ai-ml-services/data-engineering-services"
       }
     ]
   },
@@ -37,27 +37,27 @@
     "innerDate": [
       {
         "buttonText": "Mobile/PC Game \nDevelopment",
-        "buttonLink": ""
+        "buttonLink": "/services/next-gen-tech/gamification/mobile-game-development"
       },
       {
         "buttonText": "Blockchain/Metaverse \nGame Development",
-        "buttonLink": ""
+        "buttonLink": "/services/next-gen-tech/gamification/blockchain-game-development"
       },
       {
         "buttonText": "2D / 3D Game \nDevelopment",
-        "buttonLink": ""
+        "buttonLink": "/services/next-gen-tech/gamification/2d-3d-game-development"
       },
       {
         "buttonText": "AI Game \nDevelopment",
-        "buttonLink": ""
+        "buttonLink": "/services/next-gen-tech/gamification/ai-game-development"
       },
       {
         "buttonText": "NFT Game \nDevelopment",
-        "buttonLink": ""
+        "buttonLink": "/services/next-gen-tech/gamification/nft-game-development"
       },
       {
         "buttonText": "AR/VR/MR Game\nDevelopment",
-        "buttonLink": ""
+        "buttonLink": "/services/next-gen-tech/gamification/ar-vr-mr-game-development"
       }
     ]
   },
@@ -68,27 +68,27 @@
     "innerDate": [
       {
         "buttonText": "Web App \nDevelopment",
-        "buttonLink": ""
+        "buttonLink": "/services/innovation/digital-transformation/web-development"
       },
       {
         "buttonText": "Bespoke Software\nDevelopment",
-        "buttonLink": ""
+        "buttonLink": "/services/innovation/digital-transformation/bespoke-development"
       },
       {
         "buttonText": "MVP\nDevelopment",
-        "buttonLink": ""
+        "buttonLink": "/services/innovation/digital-transformation/mvp-development"
       },
       {
         "buttonText": "Product\nDevelopment",
-        "buttonLink": ""
+        "buttonLink": "/services/innovation/digital-transformation/product-development"
       },
       {
         "buttonText": "SaaS \nDevelopment",
-        "buttonLink": ""
+        "buttonLink": "/services/innovation/digital-transformation/saas-development"
       },
       {
         "buttonText": "Cloud &\nDevOps",
-        "buttonLink": ""
+        "buttonLink": "/services/innovation/digital-transformation/cloud-devops"
       }
     ]
   },
@@ -99,27 +99,27 @@
     "innerDate": [
       {
         "buttonText": "Mobile \nDevelopment",
-        "buttonLink": ""
+        "buttonLink": "/services/innovation/mobility/mobile-development"
       },
       {
         "buttonText": "Android App\nDevelopment",
-        "buttonLink": ""
+        "buttonLink": "/services/innovation/mobility/android-app-development"
       },
       {
         "buttonText": "iOS App\nDevelopment",
-        "buttonLink": ""
+        "buttonLink": "/services/innovation/mobility/android-ios-development"
       },
       {
         "buttonText": "React Native App\nDevelopment",
-        "buttonLink": ""
+        "buttonLink": "/services/innovation/mobility/react-native-development"
       },
       {
         "buttonText": "Ionic \nDevelopment",
-        "buttonLink": ""
+        "buttonLink": "/services/innovation/mobility/ionic-development"
       },
       {
         "buttonText": "Support & \nMaintenance",
-        "buttonLink": ""
+        "buttonLink": "/support"
       }
     ]
   },
@@ -130,27 +130,27 @@
     "innerDate": [
       {
         "buttonText": "Blockchain \nDevelopment",
-        "buttonLink": ""
+        "buttonLink": "/services/next-gen-tech/blockchain/blockchain-development"
       },
       {
         "buttonText": "NFT \nDevelopment",
-        "buttonLink": ""
+        "buttonLink": "/services/next-gen-tech/blockchain/nft-development"
       },
       {
         "buttonText": "Smart \nContract",
-        "buttonLink": ""
+        "buttonLink": "/services/next-gen-tech/blockchain/smart-contract-development"
       },
       {
         "buttonText": "Metaverse \nDevelopment",
-        "buttonLink": ""
+        "buttonLink": "/services/next-gen-tech/blockchain/metaverse-development"
       },
       {
         "buttonText": "AR/VR \nDevelopment",
-        "buttonLink": ""
+        "buttonLink": "/services/next-gen-tech/blockchain/ar-vr-development"
       },
       {
         "buttonText": "DApp \nDevelopment",
-        "buttonLink": ""
+        "buttonLink": "/services/next-gen-tech/blockchain/dapp-development"
       }
     ]
   }

@@ -21,12 +21,12 @@
   },
   {
     "tab_button": "On-Demand Development",
-    "customer_name": "ON-Demand Development",
-    "customer_description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sodales in sit arcu dictumst hendrerit faucibus dignissim aenean quam.",
+    "customer_name": "Proof & Trust",
+    "customer_description": "Proof & Trust empower small and medium enterprises, providing an affordable solution that streamlines the assessment process without the need for specialized experts, allowing businesses to navigate vendor relationships with confidence and ease.",
     "project_detail_link": "#",
-    "customer_country": "United Kingdom",
+    "customer_country": "Serbia",
     "flagImage": "/assets/images/homepage/customer_talk/uk.png",
-    "customer_tech": "Node.js, Angular 9, AWS",
-    "customer_video_Link": "/assets/images/homepage/banner/banner_video1.mp4"
+    "customer_tech": "Node.Js, Laravel, ReactJs, AWS, AI",
+    "customer_video_Link": "/assets/images/homepage/banner/video_banner2.mp4"
   }
 ]

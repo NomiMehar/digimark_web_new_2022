@@ -31,9 +31,9 @@ const LahoreOffice = () => {
                     <Link href="tel:923200000000">+92 320 0000000</Link>
                     <Link href="mailto:info@digimarkdevelopers.com">info@digimarkdevelopers.com</Link>
                     <div className={`flex items-center ${style.button_wrapper}`}>
-                        <Link className={style.modal_btn} href="/" target="_blank">Book a call <Image src={whiteArrow} alt={whiteArrow} width={13} height={16}/></Link>
+                        <Link className={style.modal_btn} href="https://calendly.com/digimark-developers" target="_blank">Book a call <Image src={whiteArrow} alt={whiteArrow} width={13} height={16}/></Link>
                         <small>or</small>
-                        <Link className={style.modal_btn} href="/" target="_blank"><Image src={telegrameImage} alt={telegrameImage}/></Link>
+                        <Link className={style.modal_btn} href="/contact-us"><Image src={telegrameImage} alt={telegrameImage}/></Link>
                     </div>
                 </section>
             </div>

@@ -81,7 +81,7 @@ export default function Navigation() {
                   ENGAGEMENT MODELS
               </Link>
           </li>
-          {/* <li>
+        <li>
               <Link
                   onMouseEnter={handleMouseEnter}
                   onMouseLeave={handleMouseLeave} href="/industries">
@@ -94,7 +94,7 @@ export default function Navigation() {
                   onMouseLeave={handleMouseLeave} href="/case-studies">
                   CASE STUDIES
               </Link>
-          </li> */}
+          </li> 
       </ul>
   );
 }

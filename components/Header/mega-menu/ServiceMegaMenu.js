@@ -27,8 +27,8 @@ export default function ServiceMegaMenu(props) {
                       onMouseLeave={handleMouseLeave} href="/services/innovation/mobility/android-ios-development">IOS App Development</Link></li>
                             <li><Link onMouseEnter={handleMouseEnter}
                       onMouseLeave={handleMouseLeave} href="/services/innovation/mobility/react-native-development">React Native App</Link></li>
-                            {/* <li><Link onMouseEnter={handleMouseEnter}
-                      onMouseLeave={handleMouseLeave} href="/services/innovation/mobility/ionic-development">Ionic Development</Link></li> */}
+                            <li><Link onMouseEnter={handleMouseEnter}
+                      onMouseLeave={handleMouseLeave} href="/services/innovation/mobility/ionic-development">Ionic Development</Link></li>
                             <li><Link onMouseEnter={handleMouseEnter}
                       onMouseLeave={handleMouseLeave} href="/support">Support & Maintenance</Link></li>
                         </ul>
@@ -52,8 +52,8 @@ export default function ServiceMegaMenu(props) {
                       onMouseLeave={handleMouseLeave} href="/services/innovation/digital-transformation/product-design">Product Design</Link></li>
                             <li><Link onMouseEnter={handleMouseEnter}
                       onMouseLeave={handleMouseLeave} href="/services/innovation/digital-transformation/quality-assurance">QA & Testing</Link></li>
-                            {/* <li><Link onMouseEnter={handleMouseEnter}
-                      onMouseLeave={handleMouseLeave} href="/services/innovation/digital-transformation/enterprise-software-development">Enterprise Software Development</Link></li> */}
+                            <li><Link onMouseEnter={handleMouseEnter}
+                      onMouseLeave={handleMouseLeave} href="/services/innovation/digital-transformation/enterprise-software-development">Enterprise Software Development</Link></li>
                             <li><Link onMouseEnter={handleMouseEnter}
                       onMouseLeave={handleMouseLeave} href="/services/innovation/digital-transformation/support-maintenance">Support & Maintenance</Link></li>
                         </ul>
@@ -64,7 +64,7 @@ export default function ServiceMegaMenu(props) {
                 <Link onMouseEnter={handleMouseEnter}
                       onMouseLeave={handleMouseLeave} className={activeId === 1 ? `${style.active}` : null} onClick={() => setActiveId(1)} href="javascript:void(0)"><Image src={headerIcon2} alt={headerIcon2} width={31} height={35} />Growth</Link>
             </li> */}
-            {/* <li className="flex">
+            <li className="flex">
                 <Link onMouseEnter={handleMouseEnter}
                       onMouseLeave={handleMouseLeave} className={activeId === 2 ? `${style.active}` : null} onClick={() => setActiveId(2)} href="javascript:void(0)"><Image src={headerIcon3} alt={headerIcon3} width={31} height={35} />Next-Gen Tech</Link>
                 <div  onClick={props.onClick} className={`flex ${style.mega_sub_menu}`}>
@@ -108,7 +108,7 @@ export default function ServiceMegaMenu(props) {
                         </ul>
                     </section>
                 </div>
-            </li> */}
+            </li>
             <li className="flex">
                 <Link onMouseEnter={handleMouseEnter}
                       onMouseLeave={handleMouseLeave} className={activeId === 3 ? `${style.active}` : null} onClick={() => setActiveId(3)} href="javascript:void(0)"><Image src={headerIcon2} alt={headerIcon2} width={31} height={35} />AI & ML</Link>

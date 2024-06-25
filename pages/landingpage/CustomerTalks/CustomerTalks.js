@@ -46,6 +46,23 @@ export default function CustomerTalks(props) {
         setIsMuted(video.muted);
     };
 
+    useEffect(() => {
+        // Ensure video autoplay and mute settings on mount
+        const video = videoRef.current;
+        if (video) {
+            video.muted = isMuted;
+            video.play();
+        }
+    }, [isMuted]);
+
+    useEffect(() => {
+        const video = videoRef.current;
+        if (video) {
+            video.muted = true; // Ensure the video is muted to comply with autoplay policies
+            video.play();
+        }
+    }, [tabs]);
+
     return (
         <div className={`flex direction-column ${props.classProp} ${style.customer_talk}`}>
             <div className="container">
@@ -91,7 +108,7 @@ export default function CustomerTalks(props) {
                          data-aos-duration="1000"
                     >
                         {
-                            CustomerTalksData.map(({ customer_name, customer_video_Link, customer_description, project_detail_link,project_name, customer_country, flagImage, customer_tech }, index) => {
+                            CustomerTalksData.map(({ customer_name, customer_video_Link, customer_description, project_detail_link, project_name, customer_country, flagImage, customer_tech }, index) => {
                                 if (tabs === index) {
                                     return (
                                         <div className="flex" key={`tab-content-${index}`}>
@@ -111,7 +128,7 @@ export default function CustomerTalks(props) {
                                                 <Link
                                                     onMouseEnter={handleMouseEnter}
                                                     onMouseLeave={handleMouseLeave}
-                                                    className="contact_btn" href="/contact-us/#contactForm">Contact Us <Image src={whiteArrow} alt="whiteArrow" width={13} height={16} /></Link>
+                                                    className="contact_btn" target="_blank" href="https://calendly.com/digimark-developers">Contact Us <Image src={whiteArrow} alt="whiteArrow" width={13} height={16} /></Link>
                                             </div>
                                             <div className={`${style.customer_video}`}>
                                                 <section>
