@@ -10,19 +10,33 @@ import OurIndustries from "./landingpage/OurIndustries/OurIndustries";
 import Expertise from "./landingpage/Banner/Expertise";
 import React from "react";
 import LetsTalk from "./landingpage/LetsTalk/LetsTalk";
+import Head from 'next/head';
 
 const HomePage = () => {
   return (
     <>
+      <Head>
+        <title>Digimark Developers</title>
+        <meta name="description" content="Your Innovative Solution Partner." />
+        <link rel="shortcut icon" href="/assets/images/header/favicon.png" type="image/x-icon" />
+        <meta property="og:title" content="Digimark Developers" />
+        <meta property="og:description" content="Your Innovative Solution Partner." />
+        <meta property="og:image" content="/path/to/your/image.jpg" />
+        <meta property="og:url" content="https://yourwebsite.com" />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content="Digimark Developers" />
+        <meta name="twitter:description" content="Your Innovative Solution Partner." />
+        <meta name="twitter:image" content="/path/to/your/image.jpg" />
+      </Head>
       <Banner />
-      <Expertise/>
+      <Expertise />
       <WhoWeAre />
       <OurServices />
       <div
         data-aos="fade-in"
         data-aos-easing="ease-in-sine"
         data-aos-duration="2000"
-        >
+      >
         <OurIndustries />
       </div>
       <Companies />
