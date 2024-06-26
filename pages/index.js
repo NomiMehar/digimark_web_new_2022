@@ -21,12 +21,10 @@ const HomePage = () => {
         <link rel="shortcut icon" href="/assets/images/header/favicon.png" type="image/x-icon" />
         <meta property="og:title" content="Digimark Developers" />
         <meta property="og:description" content="Your Innovative Solution Partner." />
-        <meta property="og:image" content="/path/to/your/image.jpg" />
-        <meta property="og:url" content="https://yourwebsite.com" />
-        <meta name="twitter:card" content="summary_large_image" />
+        <meta property="og:image" content="/assets/images/header/favicon.png" />
         <meta name="twitter:title" content="Digimark Developers" />
         <meta name="twitter:description" content="Your Innovative Solution Partner." />
-        <meta name="twitter:image" content="/path/to/your/image.jpg" />
+        <meta name="twitter:image" content="/assets/images/header/favicon.png" />
       </Head>
       <Banner />
       <Expertise />
