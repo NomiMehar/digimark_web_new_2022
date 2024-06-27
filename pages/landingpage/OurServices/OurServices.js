@@ -73,14 +73,14 @@ export default function OurServices() {
                                 className={`flex items-start w-100 ${style.tabs_name}`}
                               >
                                 <h2>{tabsName}</h2>
-                                <Link
+                                {/* <Link
                                     onMouseEnter={handleMouseEnter}
                                     onMouseLeave={handleMouseLeave}
                                     className={style.all_services} href={allServicesLink}
                                 >
                                   All Services
                                   <Image src={arrow} alt={arrow} width={22} height={25} />
-                                </Link>
+                                </Link> */}
                               </div>
                               <ul className={`list-none flex flex-wrap ${style.btns_wrapper}`}>
                                 {innerDate.map(
