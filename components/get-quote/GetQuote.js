@@ -12,7 +12,7 @@ export default function GetQuote (props) {
               <div className={style.get_quote_content}>
                   <h2>Let’s Create Big Stories <span>Together</span></h2>
                   <p>Mobile is in our nerves. We don’t just build apps, we create brand. Choosing us will be your best decision.</p>
-                  <Link href="/contact-us" className={`contact_btn ${style.contact_btn}`}>GET A QUOTE <Image src={whiteArrow} alt={whiteArrow} width={13} height={16} /></Link>
+                  <Link href="/contact-us#contactForm" className={`contact_btn ${style.contact_btn}`}>GET A QUOTE <Image src={whiteArrow} alt={whiteArrow} width={13} height={16} /></Link>
               </div>
           </div>
       </div>

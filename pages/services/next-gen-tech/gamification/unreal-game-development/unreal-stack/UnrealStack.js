@@ -16,30 +16,29 @@ export default function UnrealStack(props) {
                         <section>
                             <h3>Design Tools</h3>
                             <ul className="list-none flex flex-wrap">
-                                <li><Image src={stack1} alt="stack"/></li>
-                                <li><Image src={stack1} alt="stack"/></li>
-                                <li><Image src={stack1} alt="stack"/></li>
-                                <li><Image src={stack1} alt="stack"/></li>
-                                <li><Image src={stack1} alt="stack"/></li>
-                                <li><Image src={stack1} alt="stack"/></li>
+                                <li><Image src="/assets/images/services/stack1.png" width={100} height={100} alt="stack"/></li>
+                                <li><Image src="/assets/images/services/stack2.png" width={100} height={100} alt="stack"/></li>
+                                <li><Image src="/assets/images/services/stack3.png" width={100} height={100} alt="stack"/></li>
+                                <li><Image src="/assets/images/services/stack4.png" width={100} height={100} alt="stack"/></li>
+                                <li><Image src="/assets/images/services/stack5.png" width={100} height={100} alt="stack"/></li>
                             </ul>
                         </section>
                         <section>
-                            <h3>Design Tools</h3>
+                            <h3>Development Tools</h3>
                             <ul className="list-none flex flex-wrap">
-                                <li><Image src={stack1} alt="stack"/></li>
-                                <li><Image src={stack1} alt="stack"/></li>
-                                <li><Image src={stack1} alt="stack"/></li>
-                                <li><Image src={stack1} alt="stack"/></li>
-                                <li><Image src={stack1} alt="stack"/></li>
-                                <li><Image src={stack1} alt="stack"/></li>
-                                <li><Image src={stack1} alt="stack"/></li>
-                                <li><Image src={stack1} alt="stack"/></li>
-                                <li><Image src={stack1} alt="stack"/></li>
-                                <li><Image src={stack1} alt="stack"/></li>
-                                <li><Image src={stack1} alt="stack"/></li>
-                                <li><Image src={stack1} alt="stack"/></li>
-                                <li><Image src={stack1} alt="stack"/></li>
+                                <li><Image src="/assets/images/services/stack6.png" width={100} height={100} alt="stack"/></li>
+                                <li><Image src="/assets/images/services/stack7.png" width={100} height={100} alt="stack"/></li>
+                                <li><Image src="/assets/images/services/stack8.png" width={100} height={100} alt="stack"/></li>
+                                <li><Image src="/assets/images/services/stack9.png" width={100} height={100} alt="stack"/></li>
+                                <li><Image src="/assets/images/services/stack10.png" width={100} height={100} alt="stack"/></li>
+                                <li><Image src="/assets/images/services/stack11.png" width={100} height={100} alt="stack"/></li>
+                                <li><Image src="/assets/images/services/stack12.png" width={100} height={100} alt="stack"/></li>
+                                <li><Image src="/assets/images/services/stack13.png" width={100} height={100} alt="stack"/></li>
+                                <li><Image src="/assets/images/services/stack14.png" width={100} height={100} alt="stack"/></li>
+                                <li><Image src="/assets/images/services/stack15.png" width={100} height={100} alt="stack"/></li>
+                                <li><Image src="/assets/images/services/stack16.png" width={100} height={100} alt="stack"/></li>
+                                <li><Image src="/assets/images/services/stack17.png" width={100} height={100} alt="stack"/></li>
+                                <li><Image src="/assets/images/services/stack18.png" width={100} height={100} alt="stack"/></li>
                             </ul>
                         </section>
                     </div>

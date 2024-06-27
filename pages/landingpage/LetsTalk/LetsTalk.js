@@ -26,11 +26,14 @@ export default function LetsTalk(props) {
 
   function sendEmail(e) {
     e.preventDefault();
-
+  
+    console.log("Form submitted");
+  
     emailjs
-      .sendForm('service_0cy2mz9', 'template_qg0nmnb', e.target, 'Qt8fP3ncR9DvbW6L7')
+      .sendForm('service_0cy2mz9', 'template_qg0nmnb', e.target, '-zIr-xxgJVGgVJ96-')
       .then(
-        () => {
+        (result) => {
+          console.log("Email sent successfully", result);
           MySwal.fire({
             title: 'Success!',
             text: 'Your message has been sent.',
@@ -39,6 +42,7 @@ export default function LetsTalk(props) {
           });
         },
         (error) => {
+          console.error("Error sending email", error);
           MySwal.fire({
             title: 'Error!',
             text: 'Failed to send your message. Please try again.',
@@ -47,8 +51,10 @@ export default function LetsTalk(props) {
           });
         }
       );
+  
     e.target.reset();
   }
+  
 
   return (
     <div id="contactForm" className={`flex direction-column lets_talk ${style[props.extraClass]} ${style.lets_talk}`}>

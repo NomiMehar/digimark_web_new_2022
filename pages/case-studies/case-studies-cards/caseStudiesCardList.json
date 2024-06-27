@@ -1,68 +1,14 @@
 [
   {
-    "cardImage": "/assets/images/case-study/case1.png",
-    "title": "Web Design",
-    "description": "Pulvinar sapien et ligula ullamcorper malesuada proin libero.",
+    "cardImage": "/assets/images/industries/deflyballCard.jpg",
+    "title": "Defly Ball",
+    "description": "The First Ever Flyball Dogs Metaverse Racing Game On BNB Smart Chain.",
     "tags": [
-      "Postgre SQL",
-      "NGINX",
-      "Ruby on Rails",
-      "jQuery"
-    ]
-  },
-  {
-    "cardImage": "/assets/images/case-study/case2.png",
-    "title": "App Design",
-    "description": "Pulvinar sapien et ligula ullamcorper malesuada proin libero.",
-    "tags": [
-      "Phusion Passenger",
-      "Postgre SQL",
-      "NGINX",
-      "jQuery"
-    ]
-  },
-  {
-    "cardImage": "/assets/images/case-study/case3.png",
-    "title": "Illustration",
-    "description": "Pulvinar sapien et ligula ullamcorper malesuada proin libero.",
-    "tags": [
-      "Phusion Passenger",
-      "NGINX",
-      "Ruby on Rails",
-      "jQuery"
-    ]
-  },
-  {
-    "cardImage": "/assets/images/case-study/case4.png",
-    "title": "App Design",
-    "description": "Pulvinar sapien et ligula ullamcorper malesuada proin libero.",
-    "tags": [
-      "Phusion Passenger",
-      "Postgre SQL",
-      "NGINX",
-      "Ruby on Rails"
-    ]
-  },
-  {
-    "cardImage": "/assets/images/case-study/case5.png",
-    "title": "App Design",
-    "description": "Pulvinar sapien et ligula ullamcorper malesuada proin libero.",
-    "tags": [
-      "Phusion Passenger",
-      "Postgre SQL",
-      "Ruby on Rails",
-      "jQuery"
-    ]
-  },
-  {
-    "cardImage": "/assets/images/case-study/case6.png",
-    "title": "Illustration",
-    "description": "Pulvinar sapien et ligula ullamcorper malesuada proin libero.",
-    "tags": [
-      "Postgre SQL",
-      "NGINX",
-      "Ruby on Rails",
-      "jQuery"
+      "Blockchain",
+      "Nfts",
+      "BSC",
+      "Game",
+      "Metaverse"
     ]
   }
 ]

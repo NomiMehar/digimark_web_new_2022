@@ -7,28 +7,26 @@ import moreArrow from "../../../public/assets/images/case-study/arrow.svg";
 import whiteArrow from "../../../public/assets/images/homepage/customer_talk/white-arrow.svg";
 
 export default function CaseStudiesCards() {
-    const [titleFilter, setTitleFilter] = useState("");
     const [industryFilter, setIndustryFilter] = useState("");
     const [serviceFilter, setServiceFilter] = useState("");
+    const [solutionFilter, setSolutionFilter] = useState("");
     const [filteredCaseStudies, setFilteredCaseStudies] = useState(caseStudiesCardList);
 
     useEffect(() => {
-        const filtered = caseStudiesCardList.filter(({ title, tags }) => {
-            const titleMatch = titleFilter ? title === titleFilter : true;
+        const filtered = caseStudiesCardList.filter(({ tags }) => {
             const industryMatch = industryFilter ? tags.includes(industryFilter) : true;
             const serviceMatch = serviceFilter ? tags.includes(serviceFilter) : true;
-            return titleMatch && industryMatch && serviceMatch;
+            const solutionMatch = solutionFilter ? tags.includes(solutionFilter) : true;
+            return industryMatch && serviceMatch && solutionMatch;
         });
         setFilteredCaseStudies(filtered);
-    }, [titleFilter, industryFilter, serviceFilter]);
+    }, [industryFilter, serviceFilter, solutionFilter]);
 
     const handleClearFilters = () => {
-        setTitleFilter("");
         setIndustryFilter("");
         setServiceFilter("");
+        setSolutionFilter("");
     };
-
-    const uniqueTitles = [...new Set(caseStudiesCardList.map(({ title }) => title))];
 
     return (
         <>
@@ -39,37 +37,47 @@ export default function CaseStudiesCards() {
                         <section>
                             <ul className="list-none flex">
                                 <li>
-                                    <label htmlFor="titles">Titles</label>
-                                    <select name="titles" id="titles" value={titleFilter} onChange={(e) => setTitleFilter(e.target.value)}>
-                                        <option value="">All Titles</option>
-                                        {uniqueTitles.map((title, index) => (
-                                            <option key={index} value={title}>{title}</option>
-                                        ))}
-                                    </select>
-                                </li>
-                                <li>
                                     <label htmlFor="industries">Industries</label>
                                     <select name="industries" id="industries" value={industryFilter} onChange={(e) => setIndustryFilter(e.target.value)}>
                                         <option value="">All Industries</option>
                                         <option value="Healthcare">Healthcare</option>
+                                        <option value="EdTech">EdTech</option>
                                         <option value="Fintech">Fintech</option>
-                                        <option value="Retail">Retail</option>
-                                        <option value="Education">Education</option>
-                                        <option value="Hospitality">Hospitality</option>
-                                        <option value="Tour & travel">Tour & travel</option>
-                                        <option value="Transport">Transport</option>
-                                        <option value="Insurance">Insurance</option>
+                                        <option value="Blockchain">Blockchain</option>
+                                        <option value="Gaming">Gaming</option>
+                                        <option value="E-commerce">E-commerce</option>
+                                        <option value="Marketing">Marketing</option>
+                                        <option value="Others">Others</option>
                                     </select>
                                 </li>
                                 <li>
                                     <label htmlFor="services">Services</label>
                                     <select name="services" id="services" value={serviceFilter} onChange={(e) => setServiceFilter(e.target.value)}>
                                         <option value="">All Services</option>
-                                        <option value="Phusion Passenger">Phusion Passenger</option>
-                                        <option value="Postgre SQL">Postgre SQL</option>
-                                        <option value="NGINX">NGINX</option>
-                                        <option value="Ruby on Rails">Ruby on Rails</option>
-                                        <option value="jQuery">jQuery</option>
+                                        <option value="User Experience">User Experience</option>
+                                        <option value="User Interface">User Interface</option>
+                                        <option value="Mobile Development">Mobile Development</option>
+                                        <option value="Web Application">Web Application</option>
+                                        <option value="SaaS Development">SaaS Development</option>
+                                        <option value="AI & ML Development">AI & ML Development</option>
+                                        <option value="AI Consulting">AI Consulting</option>
+                                        <option value="ChatBot Development">ChatBot Development</option>
+                                        <option value="Computer Vision">Computer Vision</option>
+                                        <option value="Data Science">Data Science</option>
+                                        <option value="Data Engineering">Data Engineering</option>
+                                        <option value="Generative AI">Generative AI</option>
+                                        <option value="DevOps">DevOps</option>
+                                        <option value="Branding">Branding</option>
+                                        <option value="Marketing">Marketing</option>
+                                    </select>
+                                </li>
+                                <li>
+                                    <label htmlFor="solutions">Solutions</label>
+                                    <select name="solutions" id="solutions" value={solutionFilter} onChange={(e) => setSolutionFilter(e.target.value)}>
+                                        <option value="">All Solutions</option>
+                                        <option value="Sales Automation">Sales Automation</option>
+                                        <option value="Business Process Automation">Business Process Automation</option>
+                                        <option value="Data Analysis">Data Analysis</option>
                                     </select>
                                 </li>
                             </ul>

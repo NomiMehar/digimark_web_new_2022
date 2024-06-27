@@ -36,7 +36,7 @@ export default function CaseDetails({ caseStudy }) {
             <CaseTags tags={caseStudy.tags} />
             <div className="case_video_section">
                 <video className={style.banner_video} autoPlay loop muted poster="/assets/images/homepage/banner/banner-poster.jpg">
-                    <source src="/assets/images/homepage/banner/intro.mp4" type="video/mp4" />
+                    <source src="/assets/images/industries/deflyball.mp4" type="video/mp4" />
                 </video>
             </div>
             <TableOfContents />

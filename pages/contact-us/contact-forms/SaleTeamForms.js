@@ -144,7 +144,7 @@ export default function SaleTeamForms() {
                         </li>
                         <li><button className={`contact_btn ${style.contact_btn}`}>Send Message <Image src={whiteArrow} alt={whiteArrow} width={13} height={16} /></button></li>
                         <li className="w-100">
-                            <p><span>or</span><Link href="/" target="_blank">Let’s Schedule a Call with Us.</Link></p>
+                            <p><span>or</span><Link href="https://calendly.com/digimark-developers" target="_blank">Let’s Schedule a Call with Us.</Link></p>
                         </li>
                     </ul>
                 </div>

@@ -13,10 +13,10 @@ export default function CaseTags() {
                         <h2>Industry</h2>
                         <span>Real Estate</span>
                     </section>
-                    <section>
+                    {/* <section>
                         <h2>Country</h2>
                         <span>UK</span>
-                    </section>
+                    </section> */}
                     <section>
                         <h2>Technologies</h2>
                         <ul className="list-none flex flex-wrap">

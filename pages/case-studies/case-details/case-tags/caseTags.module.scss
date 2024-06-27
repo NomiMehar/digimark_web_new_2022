@@ -9,7 +9,7 @@
     padding: 60px 0;
   }
   section {
-    width: 34%;
+    width: 50%;
     padding: 0 10px;
     @media (max-width: $breakpoint_tablet) {
       width: 50% !important;
@@ -19,9 +19,11 @@
       margin-bottom: 20px;
     }
     a { max-width: 285px; margin-top: 20px;}
-    &:first-child,
+    &:first-child{
+      width: 13%;
+    }
     &:nth-child(2){
-      width: 16%;
+      width: 36%;
     }
     span {
       font-size: 24px;

@@ -19,14 +19,14 @@ export default function ContactForms() {
                                     className={`${ activeTab === "tab1" ? `${style.active}` : ""}`}
                                 >Talk to Our Sales Team</button>
                             </li>
-                            <li>
+                            {/* <li>
                                 <button
                                     onClick={() => {
                                         setActiveTab("tab2");
                                     }}
                                     className={`${ activeTab === "tab2" ? `${style.active}` : ""}`}
                                 >Join Our Team</button>
-                            </li>
+                            </li> */}
                         </ul>
                     </div>
                     {activeTab === "tab1" ? (

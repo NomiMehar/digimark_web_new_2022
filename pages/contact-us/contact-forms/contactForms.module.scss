@@ -11,10 +11,12 @@
     margin-bottom: 60px;
     ul {
       border-radius: 10px;
-      border: 1px solid #C6C6C6;
-      background: #FCFCFC;
+      // border: 1px solid #C6C6C6;
+      // background: #FCFCFC;
       max-width: 695px;
       width: 100%;
+      margin: 0 auto;
+      justify-content: center;
       li {
         width: 50%;
         button {
