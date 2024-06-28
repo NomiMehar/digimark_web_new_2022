@@ -4,7 +4,7 @@ import style from '../about-client/aboutClient.module.scss';
 
 export default function CaseSolution({ caseSolution }) {
     if (!caseSolution) return null;
-    const { solution, ImgUrl,finalConclusion } = caseSolution;
+    const { solution = [], ImgUrl, finalConclusion = "" } = caseSolution; // Default values
     return (
         <>
             <div className={style.case_solution}>

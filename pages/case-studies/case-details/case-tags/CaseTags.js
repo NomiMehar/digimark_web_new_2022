@@ -7,7 +7,7 @@ import whiteArrow from '../../../../public/assets/images/homepage/customer_talk/
 
 export default function CaseTags({ tags }) {
     if (!tags) return null;
-  const { industry, techStack, servicesUsed } = tags;
+    const { industry = "", techStack = [], servicesUsed = [] } = tags;
     return (
         <div className={style.case_tags_wrap}>
             <div className="container flex flex-wrap">

@@ -5,7 +5,7 @@ import mapImage from "../../../../public/assets/images/case-study/map.png"
 
 export default function AboutClient({ aboutClient }) {
     if (!aboutClient) return null;
-    const { overview, challenges } = aboutClient;
+    const { overview = "", challenges = [] } = aboutClient; // Default values
     return (
         <>
             <div className={style.case_about_client}>
