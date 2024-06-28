@@ -15,7 +15,7 @@
     }
   }
   section {
-    width: 50%;
+    width: 100%;
     padding-right: 10px;
     @media (max-width: $breakpoint_tablet) {
       width: 100%;
@@ -32,7 +32,8 @@
     p {
       font-size: 24px;
       line-height: 36px;
-      margin: 0 0 36px;
+      margin: 0 0 ;
+      white-space: pre-wrap;
       color: #FFFFFF;
       @media (max-width: $breakpoint_laptop) {
         font-size: 18px;
@@ -70,7 +71,7 @@
 }
 .challenges_faced {
   background: #F3F6FF;
-  padding: 100px 0 70px;
+  padding: 70px 0 20px;
   @media (max-width: $breakpoint_tablet) {
     padding: 60px 0 40px;
   }
@@ -125,6 +126,7 @@
     margin: 0 0 28px;
     font-size: 24px;
     line-height: 36px;
+    white-space: pre-wrap;
     @media (max-width: $breakpoint_tablet) {
       font-size: 18px;
       line-height: 28px;
@@ -178,6 +180,10 @@
   padding: 100px 0 0;
   @media (max-width: $breakpoint_tablet) {
     padding: 60px 0 0;
+  }
+  img{
+    width: 100%;
+    height: auto;
   }
   video {
     width: 100%;

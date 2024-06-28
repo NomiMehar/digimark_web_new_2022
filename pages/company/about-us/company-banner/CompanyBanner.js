@@ -7,6 +7,7 @@ import monoGramText from "../../../../public/assets/images/company/text_black.sv
 import companyBanner from "../../../../public/assets/images/company/company_banner.png";
 import careersImage from "../../../../public/assets/images/company/join.jpg";
 import companyStyle from "./CompanyBanner.module.scss"
+import Link from "next/link";
 
 export default function CompanyBanner (props) {
     return (
@@ -33,7 +34,7 @@ export default function CompanyBanner (props) {
                                 <Image src={monoGramText} alt={monoGramText} height={383} width={383} />
                                 <figcaption>
                                     {
-                                        props.dynamicImage === true ? <Image src={props.dynamicImageUrl} alt="image" height={221} width={221} /> : <Image src={monoGram} alt={monoGram} height={83} width={83} />
+                                        props.dynamicImage === true ? <a target="_blank" href={props.productLink}><Image src={props.dynamicImageUrl} alt="image" height={221} width={221} /></a> : <Image src={monoGram} alt={monoGram} height={83} width={83} />
                                     }
                                 </figcaption>
                             </figure>

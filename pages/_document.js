@@ -12,7 +12,7 @@ class MyDocument extends Document {
             crossOrigin="anonymous"
             referrerPolicy="no-referrer"
           />
-        <title>Digimark Developers</title>
+        <title>Digimark Developers | Your Innovative Solution Partner</title>
         <meta name="description" content="Your Innovative Solution Partner." />
         <link rel="shortcut icon" href="/assets/images/header/favicon.png" type="image/x-icon" />
         <meta property="og:title" content="Digimark Developers" />

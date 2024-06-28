@@ -3,7 +3,7 @@ import React from "react";
 import LetsTalk from "../landingpage/LetsTalk/LetsTalk";
 import dynamicImageUrl from "../../public/assets/images/services/monowithimage.png"
 import CaseStudiesCards from "./case-studies-cards/CaseStudiesCards";
-import ValuableClients from "./valuable-clients/ValuableClients";
+import OurProducts from "../landingpage/OurProducts/OurProducts";
 
 export default function CaseStudies () {
     return (
@@ -21,7 +21,7 @@ export default function CaseStudies () {
                 bannerTitle={["We have helped ", <span>200+</span>, <br/>, "companies progress with ", <span>tech solutions</span>]}
             />
             <CaseStudiesCards/>
-            <ValuableClients/>
+            <OurProducts/>
             <LetsTalk/>
         </div>
     )

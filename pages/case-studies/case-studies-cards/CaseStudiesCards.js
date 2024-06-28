@@ -47,6 +47,7 @@ export default function CaseStudiesCards() {
                                         <option value="Gaming">Gaming</option>
                                         <option value="E-commerce">E-commerce</option>
                                         <option value="Marketing">Marketing</option>
+                                        <option value="Social">Social</option>
                                         <option value="Others">Others</option>
                                     </select>
                                 </li>
@@ -68,6 +69,7 @@ export default function CaseStudiesCards() {
                                         <option value="Generative AI">Generative AI</option>
                                         <option value="DevOps">DevOps</option>
                                         <option value="Branding">Branding</option>
+                                        <option value="Gamification">Gamification</option>
                                         <option value="Marketing">Marketing</option>
                                     </select>
                                 </li>
@@ -78,6 +80,7 @@ export default function CaseStudiesCards() {
                                         <option value="Sales Automation">Sales Automation</option>
                                         <option value="Business Process Automation">Business Process Automation</option>
                                         <option value="Data Analysis">Data Analysis</option>
+                                        <option value="On-Demand">On-Demand</option>
                                     </select>
                                 </li>
                             </ul>
@@ -92,7 +95,8 @@ export default function CaseStudiesCards() {
                         {
                             filteredCaseStudies.map(({ cardImage, title, tags, description }, index) => {
                                 return (
-                                    <li key={index}>
+                                    <Link key={index} href={`/case-studies/case-details/${title.replace(/ /g, '-').toLowerCase()}`}>
+                                    <li>
                                         <div className={style.case_studies}>
                                             <figure><Image width={452} height={461} src={cardImage} alt="card" /></figure>
                                             <section>
@@ -109,6 +113,7 @@ export default function CaseStudiesCards() {
                                             </section>
                                         </div>
                                     </li>
+                                    </Link>
                                 )
                             })
                         }

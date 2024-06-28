@@ -10,7 +10,7 @@ export default function IndustriesAbout() {
             <div className="container flex justify-between">
                 <section>
                     <h2>Every <span>Industry</span> Is Unique</h2>
-                    <span>we provide <span>custom software solutions</span> to meet the unique demands of your industry.</span>
+                    <span>we provide <span>custom software solutions</span> to meet the tailored demands of your industry.</span>
                 </section>
                 <section>
                     <p>We excel at cutting-edge solutions and personalized software services to meet the distinct requirements of various industries.</p>

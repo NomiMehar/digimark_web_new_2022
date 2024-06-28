@@ -52,7 +52,9 @@ export default function OurProducts(props) {
         <ul className="flex flex-wrap list-none">
             {OurProductsData.map(({ img }, index) => {
                 return (
-                    <li className="item" key={index} data-aos="zoom-in-right" data-aos-duration="1000"><Image src={img} alt="products_img" width={266} height={94} /></li>
+                    <li className="item" key={index} data-aos="zoom-in-right" data-aos-duration="1000">
+                        <Image src={img} alt="products_img" width={266} height={94} />
+                        </li>
                 );
             })}
         </ul>
