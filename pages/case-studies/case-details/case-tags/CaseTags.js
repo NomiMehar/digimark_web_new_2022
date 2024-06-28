@@ -6,6 +6,7 @@ import Link from 'next/link';
 import whiteArrow from '../../../../public/assets/images/homepage/customer_talk/white-arrow.svg';
 
 export default function CaseTags({ tags }) {
+    if (!tags) return null;
   const { industry, techStack, servicesUsed } = tags;
     return (
         <div className={style.case_tags_wrap}>

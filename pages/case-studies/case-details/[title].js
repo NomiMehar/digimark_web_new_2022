@@ -3,11 +3,11 @@ import React from "react";
 import { useRouter } from 'next/router';
 import GetQuote from "../../../components/get-quote/GetQuote";
 import style from "../../landingpage/Banner/Banner.module.scss";
-import CaseTags from "./case-tags/CaseTags";
-import TableOfContents from "./table-of-contents/TableOfContents";
-import AboutClient from "./about-client/AboutClient";
-import CaseSolution from "./case-solution/CaseSolution";
-import caseStudiesCardList from "./caseStudyDetail.json";
+import CaseTags from "../case-details/case-tags/CaseTags";
+import TableOfContents from "../case-details/table-of-contents/TableOfContents";
+import AboutClient from "../case-details/about-client/AboutClient";
+import CaseSolution from "../case-details/case-solution/CaseSolution";
+import caseStudiesCardList from "../case-details/caseStudyDetail.json";
 
 export default function CaseDetails({ caseStudy }) {
     const router = useRouter();
@@ -64,6 +64,10 @@ export async function getStaticPaths() {
 export async function getStaticProps({ params }) {
     const title = params.title.replace(/-/g, ' ').toLowerCase();
     const caseStudy = caseStudiesCardList.find(caseStudy => caseStudy.title.toLowerCase() === title);
+
+    if (!caseStudy) {
+        return { notFound: true };
+    }
 
     return {
         props: { caseStudy },

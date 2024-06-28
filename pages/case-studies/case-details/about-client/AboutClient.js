@@ -4,6 +4,7 @@ import Image from "next/image";
 import mapImage from "../../../../public/assets/images/case-study/map.png"
 
 export default function AboutClient({ aboutClient }) {
+    if (!aboutClient) return null;
     const { overview, challenges } = aboutClient;
     return (
         <>

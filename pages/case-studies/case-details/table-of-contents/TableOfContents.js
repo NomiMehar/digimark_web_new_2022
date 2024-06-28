@@ -3,6 +3,7 @@ import React from 'react';
 import style from './tableOfContents.module.scss';
 
 export default function TableOfContents({ contents }) {
+    if (!contents) return null;
     return (
         <div className={style.case_table_contents}>
             <div className="container items-center flex flex-wrap">
