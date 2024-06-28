@@ -3,7 +3,9 @@ import React from 'react';
 import style from '../about-client/aboutClient.module.scss';
 
 export default function CaseSolution({ caseSolution }) {
-    if (!caseSolution) return null;
+    if (!caseSolution) {
+        return <p>Data is not available.</p>;
+    }
     const { solution = [], ImgUrl, finalConclusion = "" } = caseSolution; // Default values
     return (
         <>
