@@ -16,13 +16,14 @@
         width: 33.333%;
         padding: 0 10px;
         margin-bottom: 30px;
+        @media (max-width: $breakpoint_tablet) {
+          width: 50%;
+        }
+        @media (max-width: $breakpoint_mobile_portrait) {
+          width: 100%;
+        }
         li {
-          @media (max-width: $breakpoint_tablet) {
-            width: 50%;
-          }
-          @media (max-width: $breakpoint_mobile_portrait) {
-            width: 100%;
-          }
+         
           .industries_serve_text {
             background: #FFFFFF;
             padding: 22px;

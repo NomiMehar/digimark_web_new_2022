@@ -12,6 +12,7 @@
   .row {
     @media (max-width: $breakpoint_tablet) {
       flex-direction: column;
+      gap: 20px;
     }
   }
   .logo  {
@@ -23,14 +24,15 @@
     @media (max-width: $breakpoint_tablet) {
       width: 100%;
       text-align: center;
-      margin-bottom: 30px;
+      margin-bottom: 10px;
     }
   }
   .footer_links_wrap {
     width: 50%;
     padding-left: 30px;
     @media (max-width: $breakpoint_tablet) {
-      display: none;
+      width: 100%;
+      padding-left: 15px;
     }
     .footer_links {
       width: 50%;

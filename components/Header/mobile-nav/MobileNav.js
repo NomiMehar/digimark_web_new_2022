@@ -25,11 +25,13 @@ export default function MobileNav() {
           >
               <div className="container">
                   <div className={`flex-between-center ${style.mobile_header_padd}`}>
+                      <a href="/">
                       <img
                           className={style.mobile_logo}
                           src="/assets/images/header/mobile_logo.svg"
                           alt="logo"
                       />
+                      </a>
                       <img
                           className={style.toggle_img}
                           onClick={() => setsidebar(false)}
@@ -45,7 +47,7 @@ export default function MobileNav() {
               }}
           >
           <Sidebar
-              className="d-xl-none"
+              className="d-xl-none sidebar"
               collapsed={sidebar}
               collapsedWidth="0px"
               width="295px"
@@ -88,13 +90,13 @@ export default function MobileNav() {
                       <MenuItem><Link onClick={() => setsidebar(true)} href="/services/innovation/digital-transformation/cloud-devops">Cloud & DevOps</Link></MenuItem>
                       <MenuItem><Link onClick={() => setsidebar(true)} href="/services/innovation/digital-transformation/product-design">Product Design</Link></MenuItem>
                       <MenuItem><Link onClick={() => setsidebar(true)} href="/services/innovation/digital-transformation/quality-assurance">QA & Testing</Link></MenuItem>
-                      {/* <MenuItem><Link onClick={() => setsidebar(true)} href="/services/innovation/digital-transformation/enterprise-software-development">Enterprise Software Development</Link></MenuItem> */}
+                      <MenuItem><Link onClick={() => setsidebar(true)} href="/services/innovation/digital-transformation/enterprise-software-development">Enterprise Software Development</Link></MenuItem>
                       <MenuItem><Link onClick={() => setsidebar(true)} href="/services/innovation/digital-transformation/support-maintenance">Support & Maintenance</Link></MenuItem>
                   </SubMenu>
                   </SubMenu>
                   {/* <SubMenu className="second_menu" label="Growth">              
                   </SubMenu> */}
-                  {/* <SubMenu className="second_menu" label="Next-Gen Tech">
+                  <SubMenu className="second_menu" label="Next-Gen Tech">
                   <SubMenu className="third_menu" label="Blockchain">
                       <MenuItem><Link onClick={() => setsidebar(true)} href="/services/next-gen-tech/blockchain/blockchain-development">Blockchain Development</Link></MenuItem>
                       <MenuItem><Link onClick={() => setsidebar(true)} href="/services/next-gen-tech/blockchain/nft-development">NFT Development</Link></MenuItem>
@@ -119,7 +121,7 @@ export default function MobileNav() {
                             <MenuItem><Link onClick={() => setsidebar(true)} href="/services/next-gen-tech/gamification/metaverse-game-development">Metaverse Game Development</Link></MenuItem>
                             <MenuItem><Link onClick={() => setsidebar(true)} href="/services/next-gen-tech/gamification/full-cycle-game-development">Full Cycle Game Development</Link></MenuItem>
                   </SubMenu>
-                  </SubMenu> */}
+                  </SubMenu>
                   <SubMenu className="second_menu" label="AI & ML">  
                   <SubMenu className="third_menu" label="AI & ML Development">
                   <MenuItem><Link onClick={() => setsidebar(true)} href="/services/ai-ml-development/ai-ml-services/engagements-model/generative-ai-development">Generative AI Development</Link></MenuItem>
@@ -135,12 +137,12 @@ export default function MobileNav() {
                   <MenuItem>
                       <Link onClick={() => setsidebar(true)} href="/engagements-model">Engagement Models</Link>
                   </MenuItem>
-                  {/* <MenuItem>
+                  <MenuItem>
                       <Link onClick={() => setsidebar(true)} href="/industries">Industries</Link>
                   </MenuItem>
                   <MenuItem>
                       <Link onClick={() => setsidebar(true)} href="/case-studies">Case Studies</Link>
-                  </MenuItem> */}
+                  </MenuItem>
               </Menu>
               <div className="menuSocial flex-between-center">
                   <Link onClick={() => setsidebar(true)}
