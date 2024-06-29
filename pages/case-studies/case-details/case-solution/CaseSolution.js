@@ -6,7 +6,7 @@ export default function CaseSolution({ caseSolution }) {
     if (!caseSolution) {
         return <p>Data is not available.</p>;
     }
-    const { solution = [], ImgUrl, finalConclusion = "" } = caseSolution; // Default values
+    const { solution = [], ImgUrl, finalConclusion = [] } = caseSolution; // Default values
     return (
         <>
             <div className={style.case_solution}>
@@ -27,7 +27,11 @@ export default function CaseSolution({ caseSolution }) {
             <div className={style.challenges_faced}>
             <div className="container">
                 <h2><span>Final Conclusion & Results</span></h2>
-                <p>{finalConclusion}</p>
+                <ul className="list-none">
+                    {finalConclusion.map((tech, index) => (
+                            <li key={index}><p>{tech}</p></li>
+                        ))}
+                    </ul>
             </div>
         </div>
         </>

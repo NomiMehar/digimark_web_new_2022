@@ -16,7 +16,7 @@
   },
   {
     "serveImage": "/assets/images/industries/serve4.jpg",
-    "serveTitle": "Education",
+    "serveTitle": "EdTech",
     "serveDescription": "Our comprehensive eLearning software solutions embrace the latest educational technology advancements, enabling you to elevate business & teaching practices."
   },
   {
@@ -31,12 +31,12 @@
   },
   {
     "serveImage": "/assets/images/industries/serve7.jpg",
-    "serveTitle": "Transport",
+    "serveTitle": "On-Demand",
     "serveDescription": "Elevate your transportation business with our cutting-edge software solutions, driving efficiency, innovation, and cost savings."
   },
   {
     "serveImage": "/assets/images/industries/serve8.jpg",
-    "serveTitle": "Insurance",
+    "serveTitle": "Social",
     "serveDescription": "We offer effective financial services sector solutions focusing on data integrity and security."
   }
 ]

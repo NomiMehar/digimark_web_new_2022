@@ -10,7 +10,9 @@ export default function CaseStudiesCards() {
     const [industryFilter, setIndustryFilter] = useState("");
     const [serviceFilter, setServiceFilter] = useState("");
     const [solutionFilter, setSolutionFilter] = useState("");
-    const [filteredCaseStudies, setFilteredCaseStudies] = useState(caseStudiesCardList);
+    const [filteredCaseStudies, setFilteredCaseStudies] = useState([]);
+    const [showAll, setShowAll] = useState(false);
+    const initialDisplayCount = 3;
 
     useEffect(() => {
         const filtered = caseStudiesCardList.filter(({ tags }) => {
@@ -19,7 +21,7 @@ export default function CaseStudiesCards() {
             const solutionMatch = solutionFilter ? tags.includes(solutionFilter) : true;
             return industryMatch && serviceMatch && solutionMatch;
         });
-        setFilteredCaseStudies(filtered);
+        setFilteredCaseStudies(filtered.slice(0, initialDisplayCount));
     }, [industryFilter, serviceFilter, solutionFilter]);
 
     const handleClearFilters = () => {
@@ -28,6 +30,19 @@ export default function CaseStudiesCards() {
         setSolutionFilter("");
     };
 
+    const handleShowMore = () => {
+        if (showAll) {
+            setFilteredCaseStudies(filteredCaseStudies.slice(0, initialDisplayCount));
+        } else {
+            setFilteredCaseStudies(filteredCaseStudies.concat(caseStudiesCardList.filter(({ tags }) => {
+                const industryMatch = industryFilter ? tags.includes(industryFilter) : true;
+                const serviceMatch = serviceFilter ? tags.includes(serviceFilter) : true;
+                const solutionMatch = solutionFilter ? tags.includes(solutionFilter) : true;
+                return industryMatch && serviceMatch && solutionMatch;
+            }).slice(initialDisplayCount)));
+        }
+        setShowAll(!showAll);
+    };
     return (
         <>
             <div className={style.case_filter}>
@@ -119,7 +134,10 @@ export default function CaseStudiesCards() {
                         }
                     </ul>
                     <div className="center">
-                        <Link href="#" className={`contact_btn ${style.simple_btn}`}>Show More <Image src={whiteArrow} alt={whiteArrow} width={13} height={16} /></Link>
+                        <button className={`contact_btn ${style.simple_btn}`} onClick={handleShowMore}>
+                            {showAll ? 'Show Less' : 'Show More'}
+                            <Image src={whiteArrow} alt={whiteArrow} width={13} height={16} />
+                        </button>
                     </div>
                 </div>
             </div>

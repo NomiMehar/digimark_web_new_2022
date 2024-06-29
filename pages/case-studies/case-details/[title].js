@@ -8,6 +8,7 @@ import TableOfContents from "../case-details/table-of-contents/TableOfContents";
 import AboutClient from "../case-details/about-client/AboutClient";
 import CaseSolution from "../case-details/case-solution/CaseSolution";
 import caseStudiesCardList from "../case-details/caseStudyDetail.json";
+import OurProducts from "../../landingpage/OurProducts/OurProducts";
 
 export default function CaseDetails({ caseStudy }) {
     const router = useRouter();
@@ -40,13 +41,18 @@ export default function CaseDetails({ caseStudy }) {
                 servicesUsed: caseStudy.servicesUsed
             }} />
                 <div className="case_video_section">
-                    <video className={style.banner_video} autoPlay loop muted poster="/assets/images/homepage/banner/banner-poster.jpg">
+                    {caseStudy.videoLink ? (
+                        <video className={style.banner_video} autoPlay loop muted poster="/assets/images/homepage/banner/banner-poster.jpg">
                         <source src={caseStudy.videoLink} type="video/mp4" />
-                    </video>
-                </div>
+                        </video>
+                    ) : (
+                        <img src={caseStudy.mainImg} alt="Default Image" />
+                    )}
+                    </div>
             <TableOfContents contents={caseStudy.tableOfContents} />
             <AboutClient aboutClient={{ overview: caseStudy.overview, challenges: caseStudy.challenges }} />
             <CaseSolution caseSolution={{ solution: caseStudy.solution, ImgUrl: caseStudy.ImgUrl, finalConclusion:caseStudy.finalConclusion }} />
+            <OurProducts/>
             <GetQuote />
         </div>
     );

@@ -4,8 +4,7 @@ import React from "react";
 import IndustriesAbout from "./industries-about/IndustriesAbout";
 import IndustriesServe from "./industries-serve/IndustriesServe";
 import LetsTalk from "../landingpage/LetsTalk/LetsTalk";
-import IndustriesLogo from "./industries-logo/IndustriesLogo";
-
+import OurProducts from "../landingpage/OurProducts/OurProducts";
 export default function Industries() {
     return(
         <>
@@ -25,7 +24,7 @@ export default function Industries() {
             />
             <IndustriesAbout/>
             <IndustriesServe/>
-            <IndustriesLogo/>
+            <OurProducts />
             <LetsTalk
                 extraClass="change_bg"
             />

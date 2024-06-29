@@ -20,7 +20,7 @@ export default function AboutClient({ aboutClient }) {
             </div>
             <div className={style.challenges_faced}>
                 <div className="container">
-                    <h2><span>Client Expectations</span></h2>
+                    <h2><span>Challenges & Expectations</span></h2>
                     <ul className="list-none">
                     {challenges.map((tech, index) => (
                             <li key={index}><p>{tech}</p></li>

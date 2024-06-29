@@ -14,7 +14,7 @@ export default function IndustriesAbout() {
                 </section>
                 <section>
                     <p>We excel at cutting-edge solutions and personalized software services to meet the distinct requirements of various industries.</p>
-                    <Link href="#contactForm" className={`contact_btn ${style.contact_btn}`}>Talk to our expert <Image src={whiteArrow} alt={whiteArrow} width={13} height={16} /></Link>
+                    <Link href="https://calendly.com/digimark-developers" target="_blank" className={`contact_btn ${style.contact_btn}`}>Talk to our expert <Image src={whiteArrow} alt={whiteArrow} width={13} height={16} /></Link>
                 </section>
             </div>
         </div>

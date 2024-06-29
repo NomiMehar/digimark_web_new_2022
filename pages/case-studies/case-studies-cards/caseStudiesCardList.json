@@ -1,14 +1,45 @@
 [
   {
-    "cardImage": "/assets/images/industries/deflyballCard.jpg",
+    "cardImage": "/assets/images/case-study/deflyballCard.jpg",
     "title": "Defly Ball",
     "description": "The First Ever Flyball Dogs Metaverse Racing Game On BNB Smart Chain.",
     "tags": [
       "Blockchain",
       "Nfts",
       "BSC",
-      "Game",
+      "Gaming",
       "Metaverse"
     ]
+  },
+  {
+    "cardImage": "/assets/images/case-study/vocalCoach.png",
+    "title": "The Vocal Coach",
+    "description": "Sing your best with the ultimate vocal lesson app.",
+    "tags": [
+      "Music",
+      "Mobile App",
+      "EdTech",
+      "Coaching "
+      ]
+  },
+  {
+    "cardImage": "/assets/images/case-study/petluvsCard.png",
+    "title": "Petluvs App",
+    "description": "Allows enthusiasts to connect with other pet lovers.",
+    "tags": [
+      "React Native",
+      "Social",
+      "Marketplace"]
+  },
+  {
+    "cardImage": "/assets/images/case-study/vocalCoach.png",
+    "title": "The Vocal Coach",
+    "description": "Sing your best with the ultimate vocal lesson app.",
+    "tags": [
+      "Music",
+      "Mobile App",
+      "EdTech",
+      "Coaching "
+      ]
   }
 ]

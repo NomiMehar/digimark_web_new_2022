@@ -2281,6 +2281,11 @@ select {
       height: 400px;
     }
   }
+  img{
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+  }
 }
 .checkbox {
   padding: 0 10px;
