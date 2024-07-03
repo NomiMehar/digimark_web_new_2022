@@ -2,12 +2,12 @@
   {
     "serveImage": "/assets/images/industries/serve1.jpg",
     "serveTitle": "Healthcare",
-    "serveDescription": "We prioritize user satisfaction, data privacy, operational efficiency, system integration, and cost-effectiveness for healthcare providers and medical researchers."
+    "serveDescription": "Imagine getting top-notch care from anywhere! Digital healthcare makes clinics run smoother, lets doctors see you remotely, and keeps everyone healthier."
   },
   {
     "serveImage": "/assets/images/industries/serve2.jpg",
     "serveTitle": "Fintech",
-    "serveDescription": "We offer affordable and reliable custom software solutions to companies of all sizes, operating in various jurisdictions."
+    "serveDescription": "Fintech automates routine procedures and improves outcomes. AI enables threats, prevents fraud, automates everyday tasks, and enhances the quality of service."
   },
   {
     "serveImage": "/assets/images/industries/serve3.jpg",
@@ -17,7 +17,7 @@
   {
     "serveImage": "/assets/images/industries/serve4.jpg",
     "serveTitle": "EdTech",
-    "serveDescription": "Our comprehensive eLearning software solutions embrace the latest educational technology advancements, enabling you to elevate business & teaching practices."
+    "serveDescription": "E-learning offers interactive content, personalization, cost savings, increased employee performance, and faster ROI."
   },
   {
     "serveImage": "/assets/images/industries/serve5.jpg",
@@ -30,13 +30,13 @@
     "serveDescription": "Our tailored software solutions empower Travel & Hospitality businesses to optimize operations and maximize revenue in a dynamic market."
   },
   {
-    "serveImage": "/assets/images/industries/serve7.png",
+    "serveImage": "/assets/images/industries/serve7.jpg",
     "serveTitle": "On-Demand",
-    "serveDescription": "Elevate your transportation business with our cutting-edge software solutions, driving efficiency, innovation, and cost savings."
+    "serveDescription": "We offer tailored solutions that seamlessly connect businesses with their users in real time."
   },
   {
-    "serveImage": "/assets/images/industries/serve8.png",
+    "serveImage": "/assets/images/industries/serve8.jpg",
     "serveTitle": "Social",
-    "serveDescription": "We offer effective financial services sector solutions focusing on data integrity and security."
+    "serveDescription": "We build App that helps to create networks, analyze user insights and experiences."
   }
 ]
