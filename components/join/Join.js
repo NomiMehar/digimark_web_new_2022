@@ -20,7 +20,7 @@ export default function Join () {
                 >
                     <h2>Join the <span>DigiMark Developers</span> Team!</h2>
                     <p>We would love to bring your next ideas to life. Schedule a time with our founders and know the solution now.</p>
-                    <Link href="/#contactForm" className={`contact_btn`}>Apply Now <Image src={whiteArrow} alt={whiteArrow} width={13} height={16} /></Link>
+                    {/* <Link href="/#contactForm" className={`contact_btn`}>Apply Now <Image src={whiteArrow} alt={whiteArrow} width={13} height={16} /></Link> */}
                 </div>
                 <Image
                     className={style.join_image}

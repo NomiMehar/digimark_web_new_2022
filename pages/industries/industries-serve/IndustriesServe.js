@@ -18,7 +18,7 @@ export default function IndustriesServe() {
                             industriesServeList.map(({serveImage,serveTitle,serveDescription},index)=>{
                                 return(
                                     // href="/industries/industry-details"
-                                    <Link href="">
+                                    // <Link href="">
                                     <li key={index}>
                                         <div className={style.industries_serve_text}>
                                             <figure>
@@ -31,7 +31,7 @@ export default function IndustriesServe() {
                                             </section>
                                         </div>
                                     </li>
-                                    </Link>
+                                    // </Link>
                                 )
                             })
                         }

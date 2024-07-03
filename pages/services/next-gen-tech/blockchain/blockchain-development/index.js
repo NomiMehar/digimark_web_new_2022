@@ -19,7 +19,7 @@ export default function BlockchainDevelopment () {
                 classes="blockchain_banner"
                 dynamicBanner={true}
                 breadcrumParent="Next-Gen Tech"
-                breadcrumChild="Tokens & Crypto Wallets"
+                breadcrumChild="Blockchain Development"
                 bannerTitle={[
                     <span>
                         <strong>Blockchain Development</strong>

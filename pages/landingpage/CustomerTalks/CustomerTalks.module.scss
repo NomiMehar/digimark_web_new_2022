@@ -45,6 +45,7 @@
             line-height: 40px;
             padding: 0 0 0 10px;
             text-align: left;
+            white-space: nowrap;
             font-family: 'CloverDisplay-Light', sans-serif;
             @media (max-width: $breakpoint_laptop) {
               font-size: 20px;

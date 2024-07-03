@@ -10,14 +10,15 @@
         padding: 0 15px;
         width: 33.333%;
         margin-bottom: 60px;
+        @media (max-width: $breakpoint_tablet) {
+          width: 50%;
+          margin-bottom:30px;
+        }
+        @media (max-width: $breakpoint_mobile_landscape) {
+          width: 100%;
+        }
         & > li {
-          @media (max-width: $breakpoint_tablet) {
-            width: 50%;
-            margin-bottom:30px;
-          }
-          @media (max-width: $breakpoint_mobile_landscape) {
-            width: 100%;
-          }
+
           .case_studies {
             border-radius: 20px;
             overflow: hidden;
@@ -37,11 +38,7 @@
                 height: 380px;
                 width: 100%;
                 border-radius: 20px;
-                object-fit: cover;
-                @media (max-width: $breakpoint_tablet) {
-                  height: 200px;
-                }
-                
+                object-fit: cover;              
               }
             }
             section {

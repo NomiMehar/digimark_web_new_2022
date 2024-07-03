@@ -5,6 +5,7 @@
   background: url("../../../../../../public/assets/images/services/app-bg.jpg") fixed center;
   background-size: cover;
   position: relative;
+
   & > div { z-index: 1}
   @media (max-width: $breakpoint_laptop) {
     padding: 127px 0 0;
@@ -44,36 +45,76 @@
     background: url("../../../../../../public/assets/images/services/unreal_game_bg.jpg") right center no-repeat;
     padding: 173px 0 0;
     background-size: cover ;
+    @media (max-width: $breakpoint_mobile_portrait){
+      &::after{
+        content: "";
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        background: rgba(0,0,0,0.5);
+        z-index: 0;
+      }
+    }
     // @media (max-width: $breakpoint_tablet) {
     //   background: #FFFFFF;
     // }
     .app_banner_video { display: none}
     .breadcrumbs {
       li {
-        color: #1D4354;
+        color: #12262F;
         img {
           filter: brightness(0);
         }
         &:before {
-          background-color: #1D4354;
+          background-color: #12262F;
         }
       }
     }
     .service_banner_wrapper {
       h1 {
-        color: #1D4354;
+        color: #12262F;
         span {
           color: #FFFFFF;
         }
       }
       p {
         max-width: 580px;
-        color: #1D4354;
+        color: #12262F;
       }
       .banner_btn {
-        border-color: #1D4354;
-        color: #1D4354;
-        img { filter: brightness(0)}
+        border-color: #12262F;
+        color: #12262F;
+      }
+    }
+    @media (max-width: $breakpoint_mobile_portrait){
+      .breadcrumbs {
+        li {
+          color: #fff;
+          img {
+            filter: brightness(0);
+          }
+          &:before {
+            background-color: #fff;
+          }
+        }
+      }
+      .service_banner_wrapper {
+        h1 {
+          color: #fff;
+          span {
+            color: #FFFFFF;
+          }
+        }
+        p {
+          max-width: 580px;
+          color: #fff;
+        }
+        .banner_btn {
+          border-color: #fff;
+          color: #fff;
+        }
       }
     }
   }
@@ -81,6 +122,18 @@
     background: url("../../../../../../public/assets/images/services/ai-game.png") right center no-repeat;
     padding: 173px 0 0;
     background-size: cover ;
+    @media (max-width: $breakpoint_mobile_portrait){
+      &::after{
+        content: "";
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        background: rgba(0,0,0,0.5);
+        z-index: 0;
+      }
+    }
     // @media (max-width: $breakpoint_tablet) {
     //   background: #FFFFFF;
     // }
@@ -98,6 +151,18 @@
     // @media (max-width: $breakpoint_tablet) {
     //   background: #FFFFFF;
     // }
+    @media (max-width: $breakpoint_mobile_portrait){
+      &::after{
+        content: "";
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        background: rgba(0,0,0,0.5);
+        z-index: 0;
+      }
+    }
     .app_banner_video { display: none}
     .service_banner_wrapper {
       p {

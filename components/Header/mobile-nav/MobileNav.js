@@ -124,13 +124,13 @@ export default function MobileNav() {
                   </SubMenu>
                   <SubMenu className="second_menu" label="AI & ML">  
                   <SubMenu className="third_menu" label="AI & ML Development">
-                  <MenuItem><Link onClick={() => setsidebar(true)} href="/services/ai-ml-development/ai-ml-services/engagements-model/generative-ai-development">Generative AI Development</Link></MenuItem>
-                            <MenuItem><Link onClick={() => setsidebar(true)} href="/services/ai-ml-development/ai-ml-services/engagements-model/ai-ml-development">AI & ML Development</Link></MenuItem>
-                      <MenuItem><Link onClick={() => setsidebar(true)} href="/services/ai-ml-development/ai-ml-services/engagements-model/data-engineering-services">Data Engineering Services</Link></MenuItem>
-                      <MenuItem><Link onClick={() => setsidebar(true)} href="/services/ai-ml-development/ai-ml-services/engagements-model/ai-consulting">Ai Consulting</Link></MenuItem>
-                      <MenuItem><Link onClick={() => setsidebar(true)} href="/services/ai-ml-development/ai-ml-services/engagements-model/ai-poc-mvp">AI PoC and AI MVP </Link></MenuItem>
-                      <MenuItem><Link onClick={() => setsidebar(true)} href="/services/ai-ml-development/ai-ml-services/engagements-model/chatbot-development">Chatbot Development</Link></MenuItem>
-                            <MenuItem><Link onClick={() => setsidebar(true)} href="/services/ai-ml-development/ai-ml-services/engagements-model/computer-vision">Computer Vision</Link></MenuItem>              
+                  <MenuItem><Link onClick={() => setsidebar(true)} href="/services/ai-ml-development/ai-ml-services/generative-ai-development">Generative AI Development</Link></MenuItem>
+                            <MenuItem><Link onClick={() => setsidebar(true)} href="/services/ai-ml-development/ai-ml-services/ai-ml-development">AI & ML Development</Link></MenuItem>
+                      <MenuItem><Link onClick={() => setsidebar(true)} href="/services/ai-ml-development/ai-ml-services/data-engineering-services">Data Engineering Services</Link></MenuItem>
+                      <MenuItem><Link onClick={() => setsidebar(true)} href="/services/ai-ml-development/ai-ml-services/ai-consulting">Ai Consulting</Link></MenuItem>
+                      <MenuItem><Link onClick={() => setsidebar(true)} href="/services/ai-ml-development/ai-ml-services/ai-poc-mvp">AI PoC and AI MVP </Link></MenuItem>
+                      <MenuItem><Link onClick={() => setsidebar(true)} href="/services/ai-ml-development/ai-ml-services/chatbot-development">Chatbot Development</Link></MenuItem>
+                            <MenuItem><Link onClick={() => setsidebar(true)} href="/services/ai-ml-development/ai-ml-services/computer-vision">Computer Vision</Link></MenuItem>              
                   </SubMenu>            
                   </SubMenu>
                   </SubMenu>

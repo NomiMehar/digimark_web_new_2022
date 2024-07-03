@@ -1,4 +1,4 @@
-import { useState, useEffect } from "react";
+import { useState, useEffect, useRef } from "react";
 import style from "./caseStudiesCards.module.scss";
 import caseStudiesCardList from "./caseStudiesCardList.json";
 import Image from "next/image";
@@ -13,6 +13,8 @@ export default function CaseStudiesCards() {
     const [filteredCaseStudies, setFilteredCaseStudies] = useState([]);
     const [showAll, setShowAll] = useState(false);
     const initialDisplayCount = 3;
+
+    const caseStudiesSectionRef = useRef(null);
 
     useEffect(() => {
         const filtered = caseStudiesCardList.filter(({ tags }) => {
@@ -33,6 +35,7 @@ export default function CaseStudiesCards() {
     const handleShowMore = () => {
         if (showAll) {
             setFilteredCaseStudies(filteredCaseStudies.slice(0, initialDisplayCount));
+            caseStudiesSectionRef.current.scrollIntoView({ behavior: "smooth" });
         } else {
             setFilteredCaseStudies(filteredCaseStudies.concat(caseStudiesCardList.filter(({ tags }) => {
                 const industryMatch = industryFilter ? tags.includes(industryFilter) : true;
@@ -43,6 +46,7 @@ export default function CaseStudiesCards() {
         }
         setShowAll(!showAll);
     };
+
     return (
         <>
             <div className={style.case_filter}>
@@ -104,7 +108,7 @@ export default function CaseStudiesCards() {
                     </div>
                 </div>
             </div>
-            <div className={style.case_studies_cards}>
+            <div className={style.case_studies_cards} ref={caseStudiesSectionRef}>
                 <div className="container">
                     <ul className="list-none flex flex-wrap">
                         {
