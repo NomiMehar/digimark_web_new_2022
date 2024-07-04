@@ -87,6 +87,9 @@
         border-color: #12262F;
         color: #12262F;
       }
+      img{
+        filter: invert(1);
+      }
     }
     @media (max-width: $breakpoint_mobile_portrait){
       .breadcrumbs {
@@ -114,6 +117,9 @@
         .banner_btn {
           border-color: #fff;
           color: #fff;
+        }
+        img{
+          filter: invert(0);
         }
       }
     }

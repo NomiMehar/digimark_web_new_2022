@@ -1,0 +1,37 @@
+[
+  {
+    "process_number": "01",
+    "process_name": "Evaluate Use Cases",
+    "process_list": [
+      "We analyze the applicable use case,  business goals, and market segment, to determine the implementation framework."
+    ]
+  },
+  {
+    "process_number": "02",
+    "process_name": "Design the conversation",
+    "process_list": [
+      "At this point, We Design the chatbot flow, Give your bot a persona and a tone of voice, write conversation scenarios."
+    ]
+  },
+  {
+    "process_number": "03",
+    "process_name": "Training Chatbot",
+    "process_list": [
+      "we trained the chatbot through RA technology based on the data your business has already collected from multiple channels."
+    ]
+  },
+  {
+    "process_number": "04",
+    "process_name": "Test the experience",
+    "process_list": [
+      "We test the bot’s behavior throughout the conversation flow by sending different queries  to make the chatbot respond in a specific way."
+    ]
+  },
+  {
+    "process_number": "05",
+    "process_name": "Deploy and maintain",
+    "process_list": [
+      "The intelligent bot we  deploy on the customer's hosting and analyzes conversation logs, and usage insights to improve customer experience."
+    ]
+  }
+]

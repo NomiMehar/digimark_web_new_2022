@@ -9,7 +9,7 @@ import chatBotOverViewList from '../../../innovation/mobility/android-app-develo
 import Overview from '../../../innovation/mobility/android-app-development/app-overview/Overview'
 import MaintenanceServices from './maintenance-services/MaintenanceServices'
 import DevelopmentProcess from '../../../innovation/mobility/android-app-development/development-process/DevelopmentProcess'
-import aiJorneyList from '../../../innovation/mobility/android-app-development/development-process/aiJorneyList.json'
+import chatBotList from '../../../innovation/mobility/android-app-development/development-process/chatBotList.json'
 import NftWhyChoose from './nft-why-choose/NftWhyChoose'
 import Technologies from './technologies/Technologies'
 import CoreValue from './core-value/CoreValue'
@@ -50,8 +50,9 @@ export default function index() {
             />
             <Technologies/>
            <DevelopmentProcess
-                appName={[<span>DigiMark Developers</span>, " AI journey"]}
-                DevelopmentProcessList={aiJorneyList}
+                appName={["How We ", <span>Work?</span>]}
+                DevelopmentProcessList={chatBotList}
+                name="While building a chatbot, we prioritize business goals, automate tasks across channels, and ensure a natural conversation flow to meet client expectations for tone, tasks, and implementation."
             />
             
     <Faqs/>
