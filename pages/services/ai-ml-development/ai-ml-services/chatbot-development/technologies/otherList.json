@@ -1,18 +1,18 @@
 [
   {
     "langIcon" : "/assets/images/services/other1.svg",
-    "langTitle" : "Google AR/VR"
+    "langTitle" : "NLP"
   },
   {
     "langIcon" : "/assets/images/services/other2.svg",
-    "langTitle" : "Firebase"
+    "langTitle" : "OCR"
   },
   {
     "langIcon" : "/assets/images/services/other3.svg",
-    "langTitle" : "Google Cloud"
+    "langTitle" : "ML"
   },
   {
     "langIcon" : "/assets/images/services/other4.svg",
-    "langTitle" : "Analytics"
+    "langTitle" : "Speech recognition"
   }
 ]

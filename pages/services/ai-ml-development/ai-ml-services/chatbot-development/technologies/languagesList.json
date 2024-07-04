@@ -1,10 +1,18 @@
 [
   {
     "langIcon" : "/assets/images/services/lang1.svg",
-    "langTitle" : "Kotlin"
+    "langTitle" : "Python"
   },
   {
     "langIcon" : "/assets/images/services/lang2.svg",
-    "langTitle" : "Java"
+    "langTitle" : "Node.js"
+  },
+  {
+    "langIcon" : "/assets/images/services/lang2.svg",
+    "langTitle" : "Django"
+  },
+  {
+    "langIcon" : "/assets/images/services/lang2.svg",
+    "langTitle" : "Flask"
   }
 ]

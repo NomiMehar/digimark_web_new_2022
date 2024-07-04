@@ -5,7 +5,7 @@ import Faqs from '../../../innovation/mobility/android-app-development/faq/Faqs'
 import bannerSideImage from '../../../../../public/assets/images/services/augmentation.svg'
 import WalletCaseStudy from '../../../next-gen-tech/blockchain/tokens-and-crypto-wallets/wallet-case-study/WalletCaseStudy'
 import WalletCaseStudyList from '../../../next-gen-tech/blockchain/tokens-and-crypto-wallets/wallet-case-study/walletCaseStudyList.json'
-import alMlOverViewList from '../../../innovation/mobility/android-app-development/app-overview/alMlOverViewList.json'
+import chatBotOverViewList from '../../../innovation/mobility/android-app-development/app-overview/chatBotOverViewList.json'
 import Overview from '../../../innovation/mobility/android-app-development/app-overview/Overview'
 import MaintenanceServices from './maintenance-services/MaintenanceServices'
 import DevelopmentProcess from '../../../innovation/mobility/android-app-development/development-process/DevelopmentProcess'
@@ -32,12 +32,12 @@ export default function index() {
                     SideImage={true}
                     bannerSideImage={bannerSideImage}
                 bannerTextWrap={[
-                    <p>We’re interacting with chatbots day in and day out. These virtual assistants can accelerate every task they take on, from personalized support to lead generation, sales, onboarding, and more. And best of all – they’re not overly chatty (unlike some people).</p>,
+                    <p> Boost customer engagement, and streamline communication using predictive intelligence and analytics. Our chatbots enhance and improve the customer journey, provide 24/7 automated support, and help to build a customer ecosystem.</p>,
     ]}/>
     <Overview
                     overviewTitle="Chatbot Development"
-                    overviewDescription="one of the top generative AI companies, specializes in providing cutting-edge Generative AI Development Services. By utilizing the power of innovative algorithms and our expertise in artificial intelligence and machine learning, we provide cutting-edge solutions for companies in a variety of industries."
-                    overViewList={alMlOverViewList}
+                    overviewDescription="We create intelligent & voice assistant chatbots that easily access and use customer interaction data. Solutions that are customer-focused by using natural language understanding (NLU), which understands customer experience quickly."
+                    overViewList={chatBotOverViewList}
                     classesProp="skin-layout"
                 />
             <MaintenanceServices />

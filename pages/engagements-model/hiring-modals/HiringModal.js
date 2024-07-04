@@ -14,8 +14,8 @@ export default function HiringModal() {
                 <div className="section_title" data-aos="fade-up"
              data-aos-easing="ease-in-sine"
              data-aos-duration="1000">
-                    <h2><span>NFT Development</span> Services</h2>
-                    <p>Unlock your true potential, leverage the best of technology, and create applications based on a modern algorithm with our experts.</p>
+                    <h2><span>Engagement Models</span> We Offer</h2>
+                    <p>We aim to offer flexible, cost-effective development models to meet your tailored project requirements within a timeline.</p>
                 </div>
                 <div className={style.choose_services}>
                     <ul className="list-none flex flex-wrap">

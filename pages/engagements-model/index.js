@@ -4,7 +4,7 @@ import MobilityBanner from '../services/innovation/mobility/android-app-developm
 import Faqs from '../services/innovation/mobility/android-app-development/faq/Faqs'
 import bannerSideImage from '../../public/assets/images/services/augmentation.svg'
 import Overview from '../services/innovation/mobility/android-app-development/app-overview/Overview'
-import augmentOverViewList from '../services/innovation/mobility/android-app-development/app-overview/augmentOverViewList.json'
+import engangementOverViewList from '../services/innovation/mobility/android-app-development/app-overview/engangementOverViewList.json'
 import HiringModal from './hiring-modals/HiringModal'
 import PerksOfWorking from './perks-of-working/PerksOfWorking'
 import DedicatedTeam from './dedicated-team/DedicatedTeam'
@@ -18,9 +18,9 @@ export default function index() {
                     breadcrumParent="Innovation"
                     breadcrumChild="AI Consulting"
                     bannerTitle={[
-                        "Augment your IT team with", <br />,
+                        "Our Software Development ", <br />,
                         <span>
-                            <strong>DigiMark Developers</strong>
+                            <strong>Engagement Models</strong>
                         </span>
                     ]}
                     dynamicCTA={true}
@@ -28,12 +28,12 @@ export default function index() {
                     SideImage={true}
                     bannerSideImage={bannerSideImage}
                     bannerTextWrap={[
-                        <p>Need skilled software teams to fill talent gaps? Our IT Staff Augmentation offers ready-to-go AI teams for your business needs.</p>,
+                        <p>We offer flexible cooperation models and diverse engagement models to ensure delivering high-performance solutions through a transparent workflow.</p>,
                     ]} />
                 <Overview
-                    overviewTitle="Our Impact In Numbers"
-                    overviewDescription="This highlights our skills, experience, and quality of work, demonstrating our commitment to excellence."
-                    overViewList={augmentOverViewList}
+                    overviewTitle="Success Measured: A Look at Our Impact"
+                    overviewDescription="We showcase our expertise and proven track record through exceptional deliverables."
+                    overViewList={engangementOverViewList}
                     classesProp="skin-layout"
                 />
                 <HiringModal />

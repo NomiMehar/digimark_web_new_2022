@@ -14,7 +14,7 @@ export default function MaintenanceServices () {
         <div className="container">
             <div className={`customs_app_title flex direction-column ${style.customs_app_title}`} data-aos="fade-right" data-aos-duration="1000">
                 <h2>Our AI <span>Chatbot Development</span> Services</h2>
-                <p>Chatbots are simple and minimalist, and we like to keep it that way. With our chatbot development services, we develop chatbots that are easy to integrate with any platform and provide precise responses to customers. </p>
+                <p>We build custom chatbots that learn, chat naturally, and automate tasks for business growth. It’s easy to integrate with any platform and provide precise responses to customers.</p>
             </div>
             <div className={`${style.services_list}`}>
                 <ul className="list-none flex flex-wrap">
