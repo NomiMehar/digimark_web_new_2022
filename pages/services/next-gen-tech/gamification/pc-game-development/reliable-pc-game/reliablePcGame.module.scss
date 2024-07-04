@@ -70,7 +70,7 @@
       transform: translate(-10%);
       width: 50%;
       @media (max-width: $breakpoint_mobile_portrait) {
-        transform: none;
+        transform: scale(1.1);
         width: 100%;
         margin-bottom: 30px;
       }

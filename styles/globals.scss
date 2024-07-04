@@ -455,8 +455,9 @@ select {
     height: 370px;
   }
   @media (max-width: $breakpoint_mobile_portrait) {
-    height: 450px;
+    height: 650px;
   }
+
 }
 .our_slider .swiper-slide {
   align-items: center;
@@ -478,6 +479,9 @@ select {
     position: relative;
     bottom: -130px !important;
     transform: rotate(90deg) !important;
+  }
+  @media (max-width: $breakpoint_small_portrait){
+    bottom: -100px !important;
   }
 }
 .our_slider .swiper-pagination-bullet {

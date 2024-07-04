@@ -41,7 +41,7 @@ export default function index() {
                     classesProp="skin-layout"
                 />
             <MaintenanceServices />
-            <CoreValue/>
+            {/* <CoreValue/> */}
             <WalletCaseStudy
                 class="data-engineering"
                 WalletCaseStudyList={WalletCaseStudyList}

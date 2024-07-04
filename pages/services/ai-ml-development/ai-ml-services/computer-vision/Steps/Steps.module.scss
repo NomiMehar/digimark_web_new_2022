@@ -3,16 +3,16 @@
   padding: 100px 0;
   background: #f8f8f8;
   @media screen and (max-width: $breakpoint_tablet) {
-    padding: 60px 0;
+    padding: 60px 0 20px;
   }
+  & > div {
+    gap: 40px;
   @media screen and (max-width: $breakpoint_tablet) {
-    & > div {
       flex-direction: column;
     }
   }
   .story_text {
     width: 50%;
-    margin-right: 40px;
     @media screen and (max-width: $breakpoint_tablet) {
       width: 100%;
     }
@@ -56,6 +56,10 @@
   }
   figure {
     margin: 0 0 0 auto;
+    width: 50%;
+    @media screen and (max-width: $breakpoint_tablet) {
+      width: 100%;
+    }
     img {
       max-width: 100%;
       height: auto;
@@ -68,15 +72,20 @@
 .step1 {
   padding: 100px 0;
   @media screen and (max-width: $breakpoint_tablet) {
-    padding: 60px 0;
+    padding: 20px 0 60px;
   }
+  & > div {
+    gap: 40px;
   @media screen and (max-width: $breakpoint_mobile_landscape) {
-    & > div {
       flex-direction: column-reverse;
     }
   }
   figure {
     margin: 0 auto 0 0;
+    width: 50%;
+    @media screen and (max-width: $breakpoint_tablet) {
+      width: 100%;
+    }
     img {
       max-width: 100%;
       height: auto;
@@ -89,8 +98,7 @@
     }
   }
   .story_text {
-    width: 70%;
-    margin-left: 40px;
+    width: 50%;
     @media screen and (max-width: $breakpoint_mobile_landscape) {
       width: 100%;
     }
@@ -143,16 +151,16 @@
   padding: 100px 0;
   background: #1D4354 url('../../../../../../public/assets/images/services/custom-bg.svg');
   @media screen and (max-width: $breakpoint_tablet) {
-    padding: 60px 0;
+    padding: 60px 0 20px;
   }
+  & > div {
+    gap: 40px;
   @media screen and (max-width: $breakpoint_tablet) {
-    & > div {
       flex-direction: column;
     }
   }
   .story_text {
-    width: 70%;
-    margin-right: 40px;
+    width: 50%;
     @media screen and (max-width: $breakpoint_tablet) {
       width: 100%;
     }
@@ -201,6 +209,10 @@
   }
   figure {
     margin: 0 0 0 auto;
+    width: 50%;
+    @media screen and (max-width: $breakpoint_tablet) {
+      width: 100%;
+    }
     img {
       max-width: 100%;
       height: auto;
@@ -214,10 +226,11 @@
   padding: 100px 0;
   background: url('../../../../../../public/assets/images/services/custom-bg3.svg');
   @media screen and (max-width: $breakpoint_tablet) {
-    padding: 60px 0;
+    padding: 20px 0 60px;
   }
+  & > div {
+    gap: 40px;
   @media screen and (max-width: $breakpoint_mobile_landscape) {
-    & > div {
       flex-direction: column-reverse;
     }
   }
@@ -235,8 +248,7 @@
     }
   }
   .story_text {
-    width: 70%;
-    margin-left: 40px;
+    width: 50%;
     @media screen and (max-width: $breakpoint_mobile_landscape) {
       width: 100%;
     }

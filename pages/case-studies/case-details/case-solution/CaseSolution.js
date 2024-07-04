@@ -10,9 +10,7 @@ export default function CaseSolution({ caseSolution }) {
     return (
         <>
             <div className={style.case_solution}>
-                <div className="container">
                     <img src={ImgUrl} alt="ImgUrl" />
-                </div>
             </div>
             <div className={style.challenges_faced}>
                 <div className="container">

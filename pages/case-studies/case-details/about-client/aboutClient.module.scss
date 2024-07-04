@@ -179,18 +179,11 @@
   }
 }
 .case_solution {
-  padding: 100px 0 0;
-  @media (max-width: $breakpoint_tablet) {
-    padding: 60px 0 0;
-  }
-  @media screen and (max-width: $breakpoint_mobile_portrait) {
-    & > div {
-      padding: 0;
-    }
-  }
+background-color: #F3F6FF;
   img{
     width: 100%;
     height: auto;
+    object-fit: cover;
   }
   video {
     width: 100%;

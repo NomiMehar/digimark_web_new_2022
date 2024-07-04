@@ -10,11 +10,19 @@
     padding: 75px 60px;
     border-radius: 20px;
     background: url("../../../../../../public/assets/images/services/devidir-bg.jpg");
+    @media screen and (max-width: $breakpoint_tablet) {
+      padding: 50px 30px;
+      flex-direction: column;
+    }
     .divider_title {
       h2 {
         margin: 0;
         font-size: 28px;
         color: #FFFFFF;
+      }
+      @media screen and (max-width: $breakpoint_tablet) {
+        margin-bottom: 20px;
+        text-align: center;
       }
     }
     .contact_btn {

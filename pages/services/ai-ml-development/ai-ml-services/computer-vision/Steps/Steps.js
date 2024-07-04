@@ -21,7 +21,6 @@ export default function Steps (props) {
                 <h2>Computer Vision Solutions Across the Industries</h2>
                 <p>The main advantage of Data Science for business is an accurate solution based on analyzing a massive amount of data that cannot be processed manually.</p>
             </div>
-            <div className={`flex direction-column`}>
                 <div className="container flex items-center">
                     <div
                         className={style.story_text}
@@ -48,7 +47,6 @@ export default function Steps (props) {
                         <Image src={step7} alt={step7} />
                     </figure>
                 </div>
-            </div>
         </div>
             <div className={`flex direction-column ${style.step1}`}>
                         <div className="container flex items-center">
@@ -133,7 +131,7 @@ export default function Steps (props) {
             <div className={`flex direction-column ${style.step1}`}>
                         <div className="container flex items-center">
                             <div
-                                className={`mr-40 ${style.story_text}`}
+                                className={`mr-fourty ${style.story_text}`}
                                 data-aos="fade-right"
                                 data-aos-duration="2000"
                             >
@@ -164,7 +162,7 @@ export default function Steps (props) {
                         <Image src={step5} alt={step5} />
                     </figure>
                     <div
-                        className={`ml-40 ${style.story_text}`}
+                        className={`ml-fourty ${style.story_text}`}
                         data-aos="fade-right"
                         data-aos-duration="2000"
                     >
@@ -187,7 +185,7 @@ export default function Steps (props) {
             <div className={`flex direction-column ${style.step3}`}>
                         <div className="container flex items-center">
                             <div
-                                className={`mr-40 ${style.story_text}`}
+                                className={`mr-fourty ${style.story_text}`}
                                 data-aos="fade-right"
                                 data-aos-duration="2000"
                             >

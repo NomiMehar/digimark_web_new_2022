@@ -26,7 +26,7 @@ export default function DefiBenefits (props) {
                   <div className={`section_title ${style.section_title}`} data-aos="fade-right" data-aos-duration="2000">
                       <h2>Benefits of <span>DeFi Development </span></h2>
                       <p>Get the perfect defi solutions for your financial revolution in the crypto industry from DigiMark Developers.</p>
-                      <Link href="/" className={`contact_btn ${style.contact_btn}`}>Talk to our expert <Image src={whiteArrow} alt={whiteArrow} width={13} height={16} /></Link>
+                      <Link href="/contact-us/#contactForm" className={`contact_btn ${style.contact_btn}`}>Talk to our expert <Image src={whiteArrow} alt={whiteArrow} width={13} height={16} /></Link>
                   </div>
               </div>
               <div className={style.benefits} data-aos="fade-down" data-aos-duration="2000">

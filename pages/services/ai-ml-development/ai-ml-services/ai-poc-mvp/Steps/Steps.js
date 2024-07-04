@@ -107,7 +107,7 @@ export default function Steps (props) {
             <div className={`flex direction-column ${style.step1}`}>
                         <div className="container flex items-center">
                             <div
-                                className={`mr-40 ${style.story_text}`}
+                                className={` ${style.story_text}`}
                                 data-aos="fade-right"
                                 data-aos-duration="2000"
                             >
@@ -133,7 +133,7 @@ export default function Steps (props) {
                         <Image src={step5} alt={step5} />
                     </figure>
                     <div
-                        className={`ml-40 ${style.story_text}`}
+                        className={` ${style.story_text}`}
                         data-aos="fade-right"
                         data-aos-duration="2000"
                     >
@@ -151,7 +151,7 @@ export default function Steps (props) {
             <div className={`flex direction-column ${style.step3}`}>
                         <div className="container flex items-center">
                             <div
-                                className={`mr-40 ${style.story_text}`}
+                                className={` ${style.story_text}`}
                                 data-aos="fade-right"
                                 data-aos-duration="2000"
                             >

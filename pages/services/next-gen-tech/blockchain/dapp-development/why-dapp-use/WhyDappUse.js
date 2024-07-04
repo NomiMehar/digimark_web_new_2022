@@ -17,12 +17,11 @@ export default function WhyDappUse() {
                 <div className={style.dapp_use_list}>
                     <ul className="list-none flex flex-wrap">
                         {
-                            whyDappUseList.map(({title, icon},index)=>{
+                            whyDappUseList.map(({title},index)=>{
                                 return(
                                     <li key={index} data-aos="fade-down" data-aos-duration="2000">
                                         <section className="flex items-center">
                                             <h3>{title}</h3>
-                                            <img src={icon} alt="icon"/>
                                         </section>
                                     </li>
                                 )

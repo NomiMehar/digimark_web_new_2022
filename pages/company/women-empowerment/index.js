@@ -23,7 +23,7 @@ export default function WomenEmpowerment () {
                     <p>We take pride in our predominantly female leadership roles, showcasing our dedication to gender diversity. We firmly believe that investing in women's potential is advantageous for our company and society as a whole.</p>]}
             />
             <WomenPerks/>
-            <WomenInDigimark/>
+            {/* <WomenInDigimark/> */}
             <Join/>
             <GetQuote classProp="about_wrap"/>
         </div>

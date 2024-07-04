@@ -319,7 +319,7 @@
             display: flex;
             gap: 25px;
             @media (max-width: $breakpoint_tablet) {
-              padding: 20px 25px 25px 80px;
+              // padding: 20px 25px 25px 80px;
             }
             @media (max-width: $breakpoint_mobile_portrait) {
               padding: 50px 20px 20px;
