@@ -6,8 +6,9 @@ import bannerSideImage from '../../../../../public/assets/images/services/augmen
 import WhyChoose from '../../../innovation/mobility/android-app-development/why-choose/WhyChoose'
 import aiConsultingServices from '../../../innovation/mobility/android-app-development/why-choose/aiConsultingServicesList.json'
 import Overview from '../../../innovation/mobility/android-app-development/app-overview/Overview'
-import augmentOverViewList from '../../../innovation/mobility/android-app-development/app-overview/augmentOverViewList.json'
+import aiConsultingOverViewList from '../../../innovation/mobility/android-app-development/app-overview/aiConsultingOverViewList.json'
 import CoreValues from './core-value/CoreValue'
+import WebAppServices from './webapp-services/WebAppServices'
 export default function index() {
   return (
   <>
@@ -27,12 +28,12 @@ export default function index() {
                     SideImage={true}
                     bannerSideImage={bannerSideImage}
                 bannerTextWrap={[
-                    <p>Machine Learning and AI consulting services have become essential for businesses looking to leverage the power of artificial intelligence and machine learning. At Kodexo Labs, one of the AI and Machine Learning Consulting Companies, we are your trusted partner in navigating this transformative journey.</p>,
+                    <p>Leverage our AI consulting to unlock operational excellence and product innovation. We tailor AI strategies to your needs, guiding you from demystifying AI to implementing transformative solutions that deliver real business results. We guide you through every step of your AI journey.</p>,
     ]}/>
     <Overview
                     overviewTitle="AI Consulting"
-                    overviewDescription="oday Artificial Intelligence and Machine Learning are the most accelerators of every aspect of a business, from Chatbots being set up to help businesses to AI-driven platforms being bound to automate sales processes. The field of AI has made machines intelligent, self-reliant, and far more imaginative than people ever thought they could be."
-                    overViewList={augmentOverViewList}
+                    overviewDescription="AI consulting offers tailored approaches that align with client demand and goals. Our experts help businesses to understand the value and risks, capabilities needed for your organization to adopt and scale AI."
+                    overViewList={aiConsultingOverViewList}
                     classesProp="gray-layout"
                 />
     <WhyChoose
@@ -43,6 +44,7 @@ export default function index() {
                 ionicShow={true}
                 classesProp="data_engineering"
             />
+            <WebAppServices/>
             <CoreValues />
     <Faqs/>
     <GetQuote/>

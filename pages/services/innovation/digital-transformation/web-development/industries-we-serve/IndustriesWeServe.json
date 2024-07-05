@@ -2,31 +2,49 @@
   {
     "tab_button": "Healthcare",
     "tab_title": "Healthcare",
-    "tab_content": "One-stop shop for all your healthcare software development and marketing needs.",
-    "tabImg": "/assets/images/homepage/our-industries/healthcare.jpg"
-  },
-  {
-    "tab_button": "Blockchain",
-    "tab_title": "Blockchain",
-    "tab_content": "We build secure & stellar products with expert blockchain engineers for global web3 startups.",
-    "tabImg": "/assets/images/homepage/our-industries/blockchain.jpg"
-  },
-  {
-    "tab_button": "EdTech",
-    "tab_title": "EdTech",
-    "tab_content": "We harness the power of technology to enhance student engagement and outcomes.",
-    "tabImg": "/assets/images/homepage/our-industries/edtech.jpg"
+    "tab_content": "Imagine getting top-notch care from anywhere! Digital healthcare makes clinics run smoother, lets doctors see you remotely, and keeps everyone healthier.",
+    "tabImg": "/assets/images/industries/serve1.jpg"
   },
   {
     "tab_button": "Fintech",
     "tab_title": "Fintech",
-    "tab_content": "We ensure secure, bespoke & AI-powered solutions to streamline Fintech workflows.",
-    "tabImg": "/assets/images/homepage/our-industries/fintech.jpg"
+    "tab_content": "Fintech automates routine procedures and improves outcomes. AI enables threats, prevents fraud, automates everyday tasks, and enhances the quality of service.",
+    "tabImg": "/assets/images/industries/serve2.jpg"
   },
   {
     "tab_button": "Retail",
     "tab_title": "Retail",
-    "tab_content": "Increase sales by offering ease to your customers through solutions tailored to the retail industry",
-    "tabImg": "/assets/images/homepage/our-industries/retail.jpg"
+    "tab_content": "Retail businesses partner with us to unlock new opportunities, drive revenue growth, and expand their customer base.",
+    "tabImg": "/assets/images/industries/serve3.jpg"
+  },
+  {
+    "tab_button": "EdTech",
+    "tab_title": "EdTech",
+    "tab_content": "E-learning offers interactive content, personalization, cost savings, increased employee performance, and faster ROI.",
+    "tabImg": "/assets/images/industries/serve4.jpg"
+  },
+  {
+    "tab_button": "Hospitality",
+    "tab_title": "Hospitality",
+    "tab_content": "Elevate the hospitality business with our cutting-edge technology solutions and drive business success.",
+    "tabImg": "/assets/images/industries/serve5.jpg"
+  },
+  {
+    "tab_button": "Tour & travel",
+    "tab_title": "Tour & travel",
+    "tabImg": "/assets/images/industries/serve6.jpg",
+    "tab_content": "Our tailored software solutions empower Travel & Hospitality businesses to optimize operations and maximize revenue in a dynamic market."
+  },
+  {
+    "tabImg": "/assets/images/industries/serve7.jpg",
+    "tab_button": "On-Demand",
+    "tab_title": "On-Demand",
+    "tab_content": "We offer tailored solutions that seamlessly connect businesses with their users in real time."
+  },
+  {
+    "tabImg": "/assets/images/industries/serve8.jpg",
+    "tab_button": "Social",
+    "tab_title": "Social",
+    "tab_content": "We build App that helps to create networks, analyze user insights and experiences."
   }
 ]

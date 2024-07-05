@@ -852,6 +852,8 @@ select {
 .overview_bg_layer {
   background: url("../public/assets/images/services/overview-bg.png") center;
   background-size: cover;
+  z-index: 9;
+  position: relative;
   &.overview_native_layer {
     background: #F3F6FF url("../public/assets/images/services/native-bg.png") center;
   }
@@ -1610,10 +1612,13 @@ select {
   background-position: center;
   background-attachment: fixed;
   background-size: cover;
-  height: 100vh;
+  height: 75vh;
   &.two {
     background: none;
     width: 100%;
+  }
+  @media (max-width: $breakpoint_mobile_portrait) {
+    height: 50vh;
   }
 }
 .wallet_case_wrapper{
@@ -1747,14 +1752,14 @@ select {
       width: 100%;
       height: 558px;
       max-height: 558px !important;
-      object-fit: fill;
+      object-fit: cover;
       @media (max-width: $breakpoint_tablet) {
         height: auto;
       }
     }
   }
   img {
-    border-radius: 30px;
+    border-radius: 10px;
     border: none;
   }
   .image-gallery-play-button {
@@ -1776,7 +1781,8 @@ select {
   }
   .image-gallery-thumbnail-image {
     width: 100%;
-    height: 179px;
+    height: 100px;
+    object-fit: cover;
   }
   .image-gallery-thumbnail.active {
     border: none;
@@ -1810,6 +1816,7 @@ select {
   }
   .image-gallery-thumbnail {
     width: 100% !important;
+    border: none !important;
   }
   .image-gallery-right-nav{
     &::after{

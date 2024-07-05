@@ -19,7 +19,6 @@ export default function WalletStack(props) {
                 <div className={style.wallet_tech_wrap}>
                     <div
                         className={style.wallet_tech}
-                        data-aos="fade-up"
                     >
                         <ul className="list-none flex">
                             {
@@ -47,8 +46,7 @@ export default function WalletStack(props) {
                                                 {
                                                     listWrap.map(({img, name}, index)=>{
                                                         return(
-                                                            <li key={index}  data-aos="flip-up"
-                                                            data-aos-duration="1000">
+                                                            <li key={index}>
                                                                 <section>
                                                                     <Image src={img} width={40} height={40} alt="img"/>
                                                                     <span>{name}</span>

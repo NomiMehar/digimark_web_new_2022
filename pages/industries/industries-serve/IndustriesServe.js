@@ -27,7 +27,7 @@ export default function IndustriesServe() {
                                             <section>
                                                 <h3>{serveTitle}</h3>
                                                 <p>{serveDescription}</p>
-                                                <Link href="" className="learnmore">Learn more <Image src={whiteArrow} alt="arrow"/></Link>
+                                                {/* <Link href="" className="learnmore">Learn more <Image src={whiteArrow} alt="arrow"/></Link> */}
                                             </section>
                                         </div>
                                     </li>

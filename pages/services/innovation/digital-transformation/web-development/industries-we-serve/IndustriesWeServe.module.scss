@@ -26,8 +26,9 @@
         position: relative;
         justify-content: space-between;
         overflow-x: scroll;
+        padding-bottom: 10px;
         &::-webkit-scrollbar {
-          height: 0;
+          height: 2px;
         }
         li {
           text-align: center;

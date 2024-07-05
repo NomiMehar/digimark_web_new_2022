@@ -16,7 +16,9 @@
   img{
     transform: translate(-15%);
     height: auto;
-
+    @media (max-width: $breakpoint_mobile_portrait) {
+      transform: translate(0);
+    }
   }
   @media (max-width: $breakpoint_tablet) {
     img{

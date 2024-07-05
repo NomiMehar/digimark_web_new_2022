@@ -1,32 +1,32 @@
 [
   {
     "whyChooseIcon" : "/assets/images/services/datae1.svg",
-    "whyChooseTitle" : "Use Case Identification and Assessment",
-    "whyChooseDetail" : "Our thorough approach helps identify and assess the most promising AI and Machine learning consulting services aligned with your business objectives. As one of the leading AI and Machine Learning consulting companies, we'll guide you in pinpointing the areas where these technologies can have the greatest impact."
+    "whyChooseTitle" : "AI Consulting Services",
+    "whyChooseDetail" : "At DigiMark Developers, a top AI and machine learning specialist, we bring the future to your fingertips with cutting-edge AI and machine learning engineering solutions."
   },
   {
     "whyChooseIcon" : "/assets/images/services/datae2.svg",
-    "whyChooseTitle" : "Domain-Specific Model Development",
-    "whyChooseDetail" : "Our seasoned data scientists and engineers excel in developing domain-specific AI strategy consulting and ML models. These models are not only tailored to your industry but also fine-tuned to your unique requirements, ensuring optimal performance."
+    "whyChooseTitle" : "First-time AI Adoption",
+    "whyChooseDetail" : "Wondering if AI is a good fit for your business? Our AI expert identifies areas where automation can streamline your workflows. We'll guide you through the whole process, from figuring out what you can automate to building the AI tool and making sure everyone loves using it."
   },
   {
     "whyChooseIcon" : "/assets/images/services/datae3.svg",
-    "whyChooseTitle" : "AI Strategy consulting and Integration",
-    "whyChooseDetail" : "Seamlessly integrating AI strategy consulting and outstanding solutions into your existing systems and workflows is our forte. We ensure that the implementation process is smooth and efficient, minimizing disruptions while maximizing benefits."
+    "whyChooseTitle" : "AI Audit & Reengineering",
+    "whyChooseDetail" : "If you are not getting the expected result from your AI system, We'll review your system's design, logic, and user experience to identify any issues. We can fix, update, or rebuild your AI to get it on track for future growth as your AI needs to evolve."
   },
   {
     "whyChooseIcon" : "/assets/images/services/datae4.svg",
-    "whyChooseTitle" : "Use Case Identification and Assessment",
-    "whyChooseDetail" : "Our thorough approach helps identify and assess the most promising AI and Machine learning consulting services aligned with your business objectives. As one of the leading AI and Machine Learning consulting companies, we'll guide you in pinpointing the areas where these technologies can have the greatest impact."
+    "whyChooseTitle" : "Predictive Analytics",
+    "whyChooseDetail" : "We use cutting-edge data analysis tools to help you see what's coming. This lets you make smarter decisions about your market trends, customers, and operations. By planning ahead, you can stay one step ahead of the competition."
   },
   {
     "whyChooseIcon" : "/assets/images/services/datae5.svg",
-    "whyChooseTitle" : "Predictive Analytics",
-    "whyChooseDetail" : "Predictive analytics is at the core of our AI and machine learning consulting services. We help you anticipate market trends, customer behaviors, and operational needs, allowing you to proactively strategize and stay ahead of the competition."
+    "whyChooseTitle" : "AI Solutions Development",
+    "whyChooseDetail" : "We can help you implement AI in your business, from start to finish. We can automate tasks, improve customer service, and give you a powerful advantage.  We'll handle everything, so you can focus on what matters most."
   },
   {
     "whyChooseIcon" : "/assets/images/services/datae6.svg",
-    "whyChooseTitle" : "AI Solutions Development",
-    "whyChooseDetail" : "From ideation to deployment, we take charge of developing comprehensive AI solutions for your business. Whether it's automating processes or enhancing customer experiences, we deliver end-to-end solutions that make a difference."
+    "whyChooseTitle" : "Domain-specific Model Development",
+    "whyChooseDetail" : "Our data science team crafts AI strategies and custom ML models tailored to your industry and unique needs. We leverage leading foundation models and integrate them with your data, ensuring optimal performance through rigorous testing and validation."
   }
 ]

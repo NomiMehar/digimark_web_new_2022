@@ -1,0 +1,51 @@
+[
+  {
+    "processImg": "/assets/images/services/chain-process1.jpg",
+    "process_name": "Data-driven Decision Making",
+    "process_description": "We develop intelligent systems that leverage artificial intelligence to analyze operational processes. These systems identify trends, anomalies, and potential growth hacking opportunities. This comprehensive analysis empowers executives to make informed decisions at the highest level.",
+    "process_list": [
+      "Risk analytics",
+      "Operational forecasting",
+      "Demand prediction",
+      "Recruiting recommendations",
+      "Predictive maintenance"
+    ]
+  },
+  {
+    "processImg": "/assets/images/services/chain-process1.jpg",
+    "process_name": "Marketing and Sales",
+    "process_description": "We empower businesses to achieve superior customer acquisition, retention, and brand campaign relevance through the application of advanced intelligence.",
+    "process_list": [
+      "Customer segmentation",
+      "Lead scoring",
+      "Customer behavior analytics",
+      "Personalization",
+      "Sales forecasting",
+      "Churn prediction",
+      "Brand sentiment analysis"
+    ]
+  },
+  {
+    "processImg": "/assets/images/services/chain-process1.jpg",
+    "process_name": "Customer Service",
+    "process_description": "Level up your customer service! We use AI to analyze data and build chatbots that take care of your customers, freeing you to focus on more complex issues.",
+    "process_list": [
+      "Contextual recommendations",
+      "Chatbots",
+      "Cognitive assistants",
+      "Voice-first interfaces",
+      "Intelligent self-service options"
+    ]
+  },
+  {
+    "processImg": "/assets/images/services/chain-process1.jpg",
+    "process_name": "Physical and Cybersecurity",
+    "process_description": "We leverage cutting-edge artificial intelligence to safeguard physical perimeters, data integrity, and user identities. Our solutions encompass advanced machine learning models for fraud prevention and sophisticated biometric recognition technologies. This comprehensive approach proactively addresses both established and evolving security threats.",
+    "process_list": [
+      "Biometric identification",
+      "Fraud detection",
+      "Access management",
+      "Theft and misuse detection"
+    ]
+  }
+]

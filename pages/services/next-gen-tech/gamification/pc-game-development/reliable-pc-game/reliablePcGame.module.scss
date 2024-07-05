@@ -5,11 +5,13 @@
   background: url("../../../../../../public/assets/images/services/reliable_bg.jpg") center;
   background-size: cover;
   @media (max-width: $breakpoint_mobile_portrait) {
+    padding: 0 0 50px;
    >div{
     flex-wrap: wrap;
     justify-content: center;
     img{
       width: 100%;
+      margin: 20px 0;
     }
     section{
       padding: 0;
