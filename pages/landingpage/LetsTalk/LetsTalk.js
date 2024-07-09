@@ -1,4 +1,4 @@
-import React, { useState, useRef } from "react";
+import React, { useState } from "react";
 import ContactMap from "./ContactMap";
 import style from "./LetsTalk.module.scss";
 import AOS from 'aos';
@@ -16,30 +16,30 @@ export default function LetsTalk(props) {
     subject: '',
     needs: '',
     message: '',
-});
+  });
 
-const handleSubmit = async (e) => {
+  const handleChange = (e) => {
+    setFormData({ ...formData, [e.target.name]: e.target.value });
+  };
+
+  const handleSubmit = async (e) => {
     e.preventDefault();
     try {
-        await sendEmail(formData);
-        alert('Email sent successfully!');
-        // Clear form data after submission
-        setFormData({
-            name: '',
-            email: '',
-            subject: '',
-            needs: '',
-            message: '',
-        });
+      await sendEmail(formData);
+      alert('Email sent successfully!');
+      // Clear form data after submission
+      setFormData({
+        name: '',
+        email: '',
+        subject: '',
+        needs: '',
+        message: '',
+      });
     } catch (error) {
-        alert('Failed to send email. Please try again later.');
-        console.error('Error sending email:', error);
+      alert('Failed to send email. Please try again later.');
+      console.error('Error sending email:', error);
     }
-};
-
-const handleChange = (e) => {
-    setFormData({ ...formData, [e.target.name]: e.target.value });
-};
+  };
 
   return (
     <div id="contactForm" className={`flex direction-column lets_talk ${style[props.extraClass]} ${style.lets_talk}`}>
@@ -63,6 +63,8 @@ const handleChange = (e) => {
                   type="text"
                   placeholder="Name*"
                   name="name"
+                  value={formData.name}
+                  onChange={handleChange}
                   required
                 />
               </li>
@@ -71,6 +73,8 @@ const handleChange = (e) => {
                   type="email"
                   placeholder="Email"
                   name="email"
+                  value={formData.email}
+                  onChange={handleChange}
                   required
                 />
               </li>
@@ -79,11 +83,18 @@ const handleChange = (e) => {
                   type="text"
                   placeholder="Subject"
                   name="subject"
+                  value={formData.subject}
+                  onChange={handleChange}
                   required
                 />
               </li>
               <li>
-                <select name="needs" required>
+                <select
+                  name="needs"
+                  value={formData.needs}
+                  onChange={handleChange}
+                  required
+                >
                   <option value="">Please specify your needs?</option>
                   <option value="Consultation AI">Consultation AI</option>
                   <option value="Gaming">Gaming</option>
@@ -101,6 +112,8 @@ const handleChange = (e) => {
                 <textarea
                   placeholder="Write your message..."
                   name="message"
+                  value={formData.message}
+                  onChange={handleChange}
                   required
                 />
               </li>

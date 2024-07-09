@@ -9,9 +9,9 @@ const mailerSend = new MailerSend({
 async function sendEmail({ name, email, subject, needs, message }) {
     try {
         
-        const sentFrom = new Sender('nomimehar667@gmail.com', 'Development'); // Update with your email and name
+        const sentFrom = new Sender('info@trial-351ndgwmjpnlzqx8.mlsender.net', 'Development'); // Update with your email and name
         const recipients = [
-            new Recipient('recipient@example.com', 'Recipient Name'), // Replace with your recipient's email and name
+            new Recipient('nomimehar667@gmail.com', 'Recipient Name'), // Replace with your recipient's email and name
         ];
 
         const emailParams = new EmailParams()
