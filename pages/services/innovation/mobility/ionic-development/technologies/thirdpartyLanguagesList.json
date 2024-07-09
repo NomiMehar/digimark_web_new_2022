@@ -1,0 +1,22 @@
+[
+  {
+    "langIcon" : "/assets/images/services/techicons6.svg",
+    "langTitle" : "NodeJS"
+  },
+  {
+    "langIcon" : "/assets/images/services/techicons7.svg",
+    "langTitle" : "TypeScript"
+  },
+  {
+    "langIcon" : "/assets/images/services/techicons8.svg",
+    "langTitle" : "Cordova"
+  },
+  {
+    "langIcon" : "/assets/images/services/techicons9.svg",
+    "langTitle" : "Firebase"
+  },
+  {
+    "langIcon" : "/assets/images/services/techicons10.svg",
+    "langTitle" : "Angular"
+  }
+]

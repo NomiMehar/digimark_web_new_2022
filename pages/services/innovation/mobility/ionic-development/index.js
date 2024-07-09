@@ -8,7 +8,7 @@ import Overview from "../android-app-development/app-overview/Overview";
 import iosOverViewList from "../android-app-development/app-overview/iosOverViewList.json";
 import ionicCustomAppProcess from "../android-app-development/custom-app/ionicCustomAppProcess.json";
 import ionicWhyChooseList from "../android-app-development/why-choose/ionicWhyChooseList.json";
-import NativeVersion from "../android-app-development/technologies/NativeVersion";
+import NativeVersion from "./technologies/NativeVersion";
 import IonicBenefit from "../android-app-development/benefits/IonicBenefit";
 import GetQuote from "../../../../../components/get-quote/GetQuote";
 import React from "react";

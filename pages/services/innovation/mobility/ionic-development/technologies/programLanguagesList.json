@@ -1,0 +1,18 @@
+[
+  {
+    "langIcon" : "/assets/images/services/techicon1.svg",
+    "langTitle" : "JavaScript"
+  },
+  {
+    "langIcon" : "/assets/images/services/techicon2.svg",
+    "langTitle" : "TypeScript"
+  },
+  {
+    "langIcon" : "/assets/images/services/techicon3.svg",
+    "langTitle" : "HTML"
+  },
+  {
+    "langIcon" : "/assets/images/services/techicon4.svg",
+    "langTitle" : "CSS"
+  }
+]

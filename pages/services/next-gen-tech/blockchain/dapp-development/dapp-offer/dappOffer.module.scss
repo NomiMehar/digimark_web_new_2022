@@ -52,18 +52,18 @@
           }
           img {
             position: absolute;
-            right: 55px;
-            top: 32px;
+            right: 22px;
+            top: 22px;
             transition: all 0.4s ease-in-out;
             @media (max-width: $breakpoint_laptop) {
               width: 70px;
             }
             &.dapp_img {
-              opacity: 0.4;
-              filter: blur(4.60256px);
+              opacity: 0.3;
+              filter: blur(1.60256px);
               transform: scale(1.3);
-              right: 30px;
-              top: 25px;
+              right: 17px;
+              top: 22px;
             }
           }
           h3 {

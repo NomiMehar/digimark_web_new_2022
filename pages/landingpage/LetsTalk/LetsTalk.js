@@ -1,60 +1,45 @@
-import Link from "next/link";
-import React, { useEffect, useRef } from "react";
+import React, { useState, useRef } from "react";
 import ContactMap from "./ContactMap";
 import style from "./LetsTalk.module.scss";
 import AOS from 'aos';
 import 'aos/dist/aos.css';
-import emailjs from '@emailjs/browser';
 import Swal from 'sweetalert2';
 import withReactContent from 'sweetalert2-react-content';
+import { sendEmail } from "./sendEmail";
 
 const MySwal = withReactContent(Swal);
 
 export default function LetsTalk(props) {
-  const handleMouseEnter = () => {
-    document.body.classList.add('hovered');
-  };
-  const handleMouseLeave = () => {
-    document.body.classList.remove('hovered');
-  };
-  
-  useEffect(() => {
-    AOS.init();
-  }, []);
-  
-  const form = useRef();
+  const [formData, setFormData] = useState({
+    name: '',
+    email: '',
+    subject: '',
+    needs: '',
+    message: '',
+});
 
-  function sendEmail(e) {
+const handleSubmit = async (e) => {
     e.preventDefault();
-  
-    console.log("Form submitted");
-  
-    emailjs
-      .sendForm('service_0cy2mz9', 'template_qg0nmnb', e.target, '-zIr-xxgJVGgVJ96-')
-      .then(
-        (result) => {
-          console.log("Email sent successfully", result);
-          MySwal.fire({
-            title: 'Success!',
-            text: 'Your message has been sent.',
-            icon: 'success',
-            confirmButtonText: 'OK'
-          });
-        },
-        (error) => {
-          console.error("Error sending email", error);
-          MySwal.fire({
-            title: 'Error!',
-            text: 'Failed to send your message. Please try again.',
-            icon: 'error',
-            confirmButtonText: 'OK'
-          });
-        }
-      );
-  
-    e.target.reset();
-  }
-  
+    try {
+        await sendEmail(formData);
+        alert('Email sent successfully!');
+        // Clear form data after submission
+        setFormData({
+            name: '',
+            email: '',
+            subject: '',
+            needs: '',
+            message: '',
+        });
+    } catch (error) {
+        alert('Failed to send email. Please try again later.');
+        console.error('Error sending email:', error);
+    }
+};
+
+const handleChange = (e) => {
+    setFormData({ ...formData, [e.target.name]: e.target.value });
+};
 
   return (
     <div id="contactForm" className={`flex direction-column lets_talk ${style[props.extraClass]} ${style.lets_talk}`}>
@@ -72,7 +57,7 @@ export default function LetsTalk(props) {
               data-aos-easing="ease-in-sine"
               data-aos-duration="1000"
           >
-            <form ref={form} onSubmit={sendEmail}>
+            <form onSubmit={handleSubmit}>
               <li>
                 <input
                   type="text"
