@@ -5,7 +5,7 @@ import AOS from 'aos';
 import 'aos/dist/aos.css';
 import Swal from 'sweetalert2';
 import withReactContent from 'sweetalert2-react-content';
-import { sendEmail } from "./sendEmail";
+import { sendEmail } from "../../../utils/sendEmail";
 
 const MySwal = withReactContent(Swal);
 
