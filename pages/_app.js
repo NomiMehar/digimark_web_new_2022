@@ -4,8 +4,7 @@ import "../styles/animation.css";
 import Layout from "../components/Layout";
 import React, {useEffect} from "react";
 import AOS from "aos";
-import { SpeedInsights } from "@vercel/speed-insights/next"
-
+import { Insights } from "./insights";
 function MyApp({ Component, pageProps }) {
   useEffect(() => {
     AOS.init();
@@ -14,6 +13,7 @@ function MyApp({ Component, pageProps }) {
   return (
     <Layout>
       <Component {...pageProps} />
+      <Insights />
     </Layout>
   );
 }
