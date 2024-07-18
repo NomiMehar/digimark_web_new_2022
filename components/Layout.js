@@ -1,11 +1,13 @@
 import Navbar from "./Header/Header";
 import Footer from "./Footer/Footer";
 import WithCursorPoint from "./WithCursorPoint";
+import {Insights} from "./insights";
 function Layout({ children }) {
   return (
     <div id="layout_wrapper">
       <Navbar />
         {children}
+        <Insights />
       <Footer />
     </div>
   );
