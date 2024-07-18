@@ -42,7 +42,7 @@ export default function EngagementModels() {
              data-aos-duration="1000"
         >
           <Link
-            href="/engagements-model"
+            href="/engagement-models"
             className={`font-white engagement_link ${style.engagement_link}`}
           >
             Learn more <i className="fa fa-arrow-right"></i>

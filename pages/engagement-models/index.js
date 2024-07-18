@@ -13,10 +13,10 @@ export default function index() {
     return (
         <>
             <div className="android-app-development ionic-app-dev">
-                <MobilityBanner classes="augmentation_banner"
+                <MobilityBanner classes="engagementsModel"
                     dynamicBanner={true}
-                    breadcrumParent="Innovation"
-                    breadcrumChild="AI Consulting"
+                    breadcrumParent="Home"
+                    breadcrumChild="Engagement Models"
                     bannerTitle={[
                         "Our Software Development ", <br />,
                         <span>

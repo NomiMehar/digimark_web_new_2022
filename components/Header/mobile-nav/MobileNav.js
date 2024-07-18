@@ -135,7 +135,7 @@ export default function MobileNav() {
                   </SubMenu>
                   </SubMenu>
                   <MenuItem>
-                      <Link onClick={() => setsidebar(true)} href="/engagements-model">Engagement Models</Link>
+                      <Link onClick={() => setsidebar(true)} href="/engagement-models">Engagement Models</Link>
                   </MenuItem>
                   <MenuItem>
                       <Link onClick={() => setsidebar(true)} href="/industries">Industries</Link>

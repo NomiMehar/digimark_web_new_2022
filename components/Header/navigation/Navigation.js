@@ -77,7 +77,7 @@ export default function Navigation() {
           <li>
               <Link
                   onMouseEnter={handleMouseEnter}
-                  onMouseLeave={handleMouseLeave} href="/engagements-model">
+                  onMouseLeave={handleMouseLeave} href="/engagement-models">
                   ENGAGEMENT MODELS
               </Link>
           </li>

@@ -1,45 +1,60 @@
-import React, { useState } from "react";
+import Link from "next/link";
+import React, { useEffect, useRef } from "react";
 import ContactMap from "./ContactMap";
 import style from "./LetsTalk.module.scss";
 import AOS from 'aos';
 import 'aos/dist/aos.css';
+import emailjs from '@emailjs/browser';
 import Swal from 'sweetalert2';
 import withReactContent from 'sweetalert2-react-content';
-import { sendEmail } from "../../../utils/sendEmail";
 
 const MySwal = withReactContent(Swal);
 
 export default function LetsTalk(props) {
-  const [formData, setFormData] = useState({
-    name: '',
-    email: '',
-    subject: '',
-    needs: '',
-    message: '',
-  });
-
-  const handleChange = (e) => {
-    setFormData({ ...formData, [e.target.name]: e.target.value });
+  const handleMouseEnter = () => {
+    document.body.classList.add('hovered');
   };
+  const handleMouseLeave = () => {
+    document.body.classList.remove('hovered');
+  };
+  
+  useEffect(() => {
+    AOS.init();
+  }, []);
+  
+  const form = useRef();
 
-  const handleSubmit = async (e) => {
+  function sendEmail(e) {
     e.preventDefault();
-    try {
-      await sendEmail(formData);
-      alert('Email sent successfully!');
-      // Clear form data after submission
-      setFormData({
-        name: '',
-        email: '',
-        subject: '',
-        needs: '',
-        message: '',
-      });
-    } catch (error) {
-      alert('Failed to send email. Please try again later.');
-      console.error('Error sending email:', error);
-    }
-  };
+  
+    console.log("Form submitted");
+  
+    emailjs
+      .sendForm('service_0cy2mz9', 'template_qg0nmnb', e.target, '-zIr-xxgJVGgVJ96-')
+      .then(
+        (result) => {
+          console.log("Email sent successfully", result);
+          MySwal.fire({
+            title: 'Success!',
+            text: 'Your message has been sent.',
+            icon: 'success',
+            confirmButtonText: 'OK'
+          });
+        },
+        (error) => {
+          console.error("Error sending email", error);
+          MySwal.fire({
+            title: 'Error!',
+            text: 'Failed to send your message. Please try again.',
+            icon: 'error',
+            confirmButtonText: 'OK'
+          });
+        }
+      );
+  
+    e.target.reset();
+  }
+  
 
   return (
     <div id="contactForm" className={`flex direction-column lets_talk ${style[props.extraClass]} ${style.lets_talk}`}>
@@ -57,14 +72,12 @@ export default function LetsTalk(props) {
               data-aos-easing="ease-in-sine"
               data-aos-duration="1000"
           >
-            <form onSubmit={handleSubmit}>
+            <form ref={form} onSubmit={sendEmail}>
               <li>
                 <input
                   type="text"
                   placeholder="Name*"
                   name="name"
-                  value={formData.name}
-                  onChange={handleChange}
                   required
                 />
               </li>
@@ -73,8 +86,6 @@ export default function LetsTalk(props) {
                   type="email"
                   placeholder="Email"
                   name="email"
-                  value={formData.email}
-                  onChange={handleChange}
                   required
                 />
               </li>
@@ -83,18 +94,11 @@ export default function LetsTalk(props) {
                   type="text"
                   placeholder="Subject"
                   name="subject"
-                  value={formData.subject}
-                  onChange={handleChange}
                   required
                 />
               </li>
               <li>
-                <select
-                  name="needs"
-                  value={formData.needs}
-                  onChange={handleChange}
-                  required
-                >
+                <select name="needs" required>
                   <option value="">Please specify your needs?</option>
                   <option value="Consultation AI">Consultation AI</option>
                   <option value="Gaming">Gaming</option>
@@ -112,8 +116,6 @@ export default function LetsTalk(props) {
                 <textarea
                   placeholder="Write your message..."
                   name="message"
-                  value={formData.message}
-                  onChange={handleChange}
                   required
                 />
               </li>

@@ -583,6 +583,42 @@
       }
     }
   }
+  &.engagementsModel{
+    background-image: url("../../../../../../public/assets/images/services/app-bg.jpg");
+    .service_banner_wrapper {
+      width: 100%;
+      @media (max-width: $breakpoint_tablet) {
+        width: 100%;
+      }
+      .breadcrumbs {
+        li {
+          &:first-child {
+           display: none;
+          }
+        }
+      }
+    }
+    video{
+      display: none;
+    }
+    h1{
+      font-family: "CloverDisplay-ExtraBold", sans-serif !important;
+    }
+    p{
+      span{
+        text-decoration: underline;
+        color: #fff   ;
+      }
+    }
+    .breadcrumbs {
+      li {
+        small {
+          color: #fff;
+          text-decoration: underline;
+        }
+      }
+    }
+  }
   &.ai-poc-mvp{
     background-image: url("../../../../../../public/assets/images/services/ai-poc-mvp.jpg");
     .service_banner_wrapper {
