@@ -6,7 +6,7 @@ import bannerSideImage from '../../../../../public/assets/images/services/augmen
 import WhyChoose from '../../../innovation/mobility/android-app-development/why-choose/WhyChoose'
 import dataAIMLLists from '../../../innovation/mobility/android-app-development/why-choose/aiMlLists.json'
 import WalletCaseStudy from '../../../next-gen-tech/blockchain/tokens-and-crypto-wallets/wallet-case-study/WalletCaseStudy'
-import WalletCaseStudyAiMlDevList from '../../../next-gen-tech/blockchain/tokens-and-crypto-wallets/wallet-case-study/walletCaseStudyAiMlDevList.json'
+import WalletCaseStudyAiMlDev from '../../../next-gen-tech/blockchain/tokens-and-crypto-wallets/wallet-case-study/WalletCaseStudyAiMlDevList.json'
 import ApproachSupport from './approach-support/ApproachSupport'
 import alMlOverViewList from '../../../innovation/mobility/android-app-development/app-overview/alMlOverViewList.json'
 import Overview from '../../../innovation/mobility/android-app-development/app-overview/Overview'
@@ -53,7 +53,7 @@ export default function index() {
             />
             <WalletCaseStudy
                 class="data-engineering"
-                WalletCaseStudyList={WalletCaseStudyAiMlDevList}
+                WalletCaseStudyList={WalletCaseStudyAiMlDev}
             />
             <ApproachSupport/>
             <ToolsTechnologies  toolsTechnologiesList={technologiesList} />
