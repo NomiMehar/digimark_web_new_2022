@@ -1,0 +1,60 @@
+@import "../../../../../../styles/variables";
+.faq_wrapper {
+  padding: 100px 0 40px;
+  background: url("../../../../../../public/assets/images/services/overview-bg.png") center;
+  background-size: cover;
+  &.bgColor {
+    background: #F3F6FF;
+  }
+  @media (max-width: $breakpoint_tablet) {
+    padding: 60px 0 30px;
+  }
+  .faq_wrapper_title {
+    max-width: 530px;
+    width: 100%;
+    @media (max-width: $breakpoint_tablet) {
+      max-width: 100%;
+      margin-bottom: 30px;
+    }
+    h2 {
+      font-size: 48px;
+      font-family: 'CloverDisplay-Bold', sans-serif;
+      margin-bottom: 20px;
+      @media (max-width: $breakpoint_laptop) {
+        font-size: 40px;
+      }
+      @media (max-width: $breakpoint_tablet) {
+        font-size: 28px;
+        margin-bottom: 10px;
+      }
+    }
+    p {
+      color: #969696;
+      font-size: 28px;
+      line-height: 42px;
+      margin: 0 0 49px;
+      font-family: 'Apercu-Light', sans-serif;
+      @media (max-width: $breakpoint_laptop) {
+        font-size: 24px;
+        line-height: 38px;
+        margin-bottom: 40px;
+      }
+      @media (max-width: $breakpoint_tablet) {
+        font-size: 16px;
+        line-height: 30px;
+        margin-bottom: 25px;
+      }
+      a {
+        color: #1D5454;
+        font-family: 'Apercu-Medium', sans-serif;
+        text-decoration: underline;
+      }
+    }
+    .contact_btn {
+      max-width: 393px;
+      @media (max-width: $breakpoint_tablet) {
+        font-size: 14px;
+      }
+    }
+  }
+}

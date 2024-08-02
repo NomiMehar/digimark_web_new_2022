@@ -1,0 +1,16 @@
+[
+  {
+    "caseImage": "/assets/images/services/dex_mobile.jpg",
+    "caseLogo": "/assets/images/services/dex_mobile.svg",
+    "caseTitle": "DEX mobile wallet: mobile experience for DEX users",
+    "caseDes": "For the users of our self-developed decentralized exchange, we developed a mobile wallet app for iOS and Android. It allows securely checking account balance, transaction history, and other relevant data, managing transactions by sending and withdrawing funds and canceling orders, and exchanging assets between users.",
+    "caseButtonLink": "/case-studies/case-details"
+  },
+  {
+    "caseImage": "/assets/images/services/dex_mobile.jpg",
+    "caseLogo": "/assets/images/services/dex_mobile.svg",
+    "caseTitle": "DEX mobile wallet: mobile experience for DEX users",
+    "caseDes": "For the users of our self-developed decentralized exchange, we developed a mobile wallet app for iOS and Android. It allows securely checking account balance, transaction history, and other relevant data, managing transactions by sending and withdrawing funds and canceling orders, and exchanging assets between users.",
+    "caseButtonLink": "/case-studies/case-details"
+  }
+]

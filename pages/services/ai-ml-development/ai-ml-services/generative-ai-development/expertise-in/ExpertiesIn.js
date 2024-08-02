@@ -16,7 +16,7 @@ export default function ExpertiesIn (props) {
           <div className="container">
               <div className="section_title white">
                   <h2>AI Models We Have <span>Expertise In</span></h2>
-                  <p>Enjoy the benefits of owning a mobile application! Be relevant and competitive thanks to technology opportunities!</p>
+                  <p>Our expertise lies on sophisticated artificial intelligence models, encompassing picture creation, natural language processing, and predictive analytics for a range of uses. </p>
               </div>
               <ul className="list-none flex flex-wrap">
                   {

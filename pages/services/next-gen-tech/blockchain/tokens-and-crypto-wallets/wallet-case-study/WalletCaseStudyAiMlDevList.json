@@ -1,0 +1,16 @@
+[
+  {
+    "caseImage": "/assets/images/services/dex_mobile.jpg",
+    "caseLogo": "/assets/images/services/dex_mobile.svg",
+    "caseTitle": "Incredible Projects That Our AI/ML Developers Are Developing",
+    "caseDes": "Our AI and ML developers work on exciting projects including health care diagnostics driven by AI, retail predictive analytics among others. They are developing sophisticated techniques of image recognition, smart automation systems and personalized recommendations for enhancing client experiences. Every project stretches boundaries of innovation and realises its impact across several industries.",
+    "caseButtonLink": "/case-studies/case-details"
+  },
+  {
+    "caseImage": "/assets/images/services/dex_mobile.jpg",
+    "caseLogo": "/assets/images/services/dex_mobile.svg",
+    "caseTitle": "Your Ideal AI & ML Software Development Company",
+    "caseDes": "A strong commitment to comprehending your business goals along with in-depth technological experience characterises the ideal AI & ML software development company. They ought to give priority to data protection, provide end-to-end support, and offer customised solutions. Seek a partner who is a constant innovator to guarantee that your AI and ML projects have the most possible impact and value. ",
+    "caseButtonLink": "/case-studies/case-details"
+  }
+]

@@ -59,7 +59,7 @@ export default function WhyChoose(props) {
                     data-aos="fade-up"
                     data-aos-duration="1000"
                 >
-                    <h2><span>DigiMark Developers</span> contributes to the advancement of AI</h2>
+                    <h2>How We Provide <span> AI & ML</span> Development Services</h2>
                     <p>{props.para}</p>
                 </div> : ""
                 }
@@ -68,7 +68,7 @@ export default function WhyChoose(props) {
                     data-aos="fade-up"
                     data-aos-duration="1000"
                 >
-                    <h2>Generative<span> AI Development </span>Services</h2>
+                    <h2>Our Services for Developing <span>Generative AI</span> and Large Language Models</h2>
                     <p>{props.para}</p>
                 </div> : ""
                 }

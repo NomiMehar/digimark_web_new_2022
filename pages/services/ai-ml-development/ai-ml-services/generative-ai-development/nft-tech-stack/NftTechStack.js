@@ -15,10 +15,10 @@ export default function NftTechStack() {
                     <section className={`flex ${style.nft_tech_title}`}>
                         <div className="section_title" data-aos="fade-left"
                     data-aos-duration="2000">
-                            <h2>Next-Generation Tech-Stack Connection for the Top <br /> <span>Generative AI</span> Companies</h2>
+                            <h2>Why Choose Digimark For <span>Generative AI</span> Development?</h2>
                         </div>
                         <p data-aos="fade-right"
-                    data-aos-duration="2000">Our NFT development company creates reliable NFT tokens and exchange platforms swiftly. Our NFT experts work together in different technological aspects towards the sole purpose of developing robust NFT platforms.</p>
+                    data-aos-duration="2000">Select Digimark for Development of Generative AI for our specialization, advanced technology, customized answers, and dedication to advancing your success and creativity. </p>
                     </section>
                 </div>
                 <ul className="list-none flex flex-wrap">

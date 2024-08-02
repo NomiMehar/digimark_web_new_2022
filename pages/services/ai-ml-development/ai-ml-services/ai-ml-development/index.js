@@ -1,12 +1,12 @@
 import React from 'react'
 import GetQuote from '../../../../../components/get-quote/GetQuote'
 import MobilityBanner from '../../../innovation/mobility/android-app-development/android-app-banner/MobilityBanner'
-import Faqs from '../../../innovation/mobility/android-app-development/faq/Faqs'
+import Faqs from './faq/Faqs'
 import bannerSideImage from '../../../../../public/assets/images/services/augmentation.svg'
 import WhyChoose from '../../../innovation/mobility/android-app-development/why-choose/WhyChoose'
 import dataAIMLLists from '../../../innovation/mobility/android-app-development/why-choose/aiMlLists.json'
 import WalletCaseStudy from '../../../next-gen-tech/blockchain/tokens-and-crypto-wallets/wallet-case-study/WalletCaseStudy'
-import WalletCaseStudyList from '../../../next-gen-tech/blockchain/tokens-and-crypto-wallets/wallet-case-study/walletCaseStudyList.json'
+import WalletCaseStudyAiMlDevList from '../../../next-gen-tech/blockchain/tokens-and-crypto-wallets/wallet-case-study/walletCaseStudyAiMlDevList.json'
 import ApproachSupport from './approach-support/ApproachSupport'
 import alMlOverViewList from '../../../innovation/mobility/android-app-development/app-overview/alMlOverViewList.json'
 import Overview from '../../../innovation/mobility/android-app-development/app-overview/Overview'
@@ -23,21 +23,22 @@ export default function index() {
                 breadcrumParent="AI & ML"
                 breadcrumChild="AI & ML Development"
                 bannerTitle={[
+                    "Top-Rated ",
                     <span>
                     <strong>AI & ML</strong>
                 </span>, <br />,
-                    "Development"                 
+                    "Development Services"                 
                 ]}
                     dynamicCTA={true}
                     ctaText="Let’s Talk About Your Project"
                     SideImage={true}
                     bannerSideImage={bannerSideImage}
                 bannerTextWrap={[
-                    <p>In an era where technological advancements are shaping the future, our dedicated team of experts harnesses the power of AI and Machine Learning to drive innovation, efficiency, and growth for businesses across various industries.</p>,
+                    <p>Find the best AI and ML development services to grow your company. We have a skillful and experienced team that gives you every option according to your choices, creating something new, and calculated results. Transform your ideas today.</p>,
     ]}/>
     <Overview
-                    overviewTitle="AI & ML Development"
-                    overviewDescription="Today Artificial Intelligence and Machine Learning are the most accelerators of every aspect of a business, from Chatbots being set up to help businesses to AI-driven platforms being bound to automate sales processes. The field of AI has made machines intelligent, self-reliant, and far more imaginative than people ever thought they could be."
+                    overviewTitle="Our AI & ML Development Services Fulfil Your Changing Requirements for Business Automation"
+                    overviewDescription="Our AI & ML development services are made to adapt to your changing needs for business automation. We offer customised solutions that advance productivity and creativity while responding to your particular problems. Our knowledgeable staff makes sure your company stays ahead of the competition with everything from clever automation to predictive analytics. Boost your development with our state-of-the-art equipment. "
                     overViewList={alMlOverViewList}
                     classesProp="skin-layout"
                 />
@@ -46,17 +47,17 @@ export default function index() {
                 whyChooseList={dataAIMLLists}
                 aiMl={true}
                 appName="Data Engineering"
-                para="At DigiMark Developers, one of the top AI and machine learning specialists, we bring the future to your fingertips with cutting-edge AI and machine learning engineering solutions."
+                para="Through a collaborative strategy that combines cutting-edge technology with in-depth industry knowledge, we offer AI and ML development services that maximise business impact and foster creativity."
                 ionicShow={true}
                 classesProp="ai_ml"
             />
             <WalletCaseStudy
                 class="data-engineering"
-                WalletCaseStudyList={WalletCaseStudyList}
+                WalletCaseStudyList={WalletCaseStudyAiMlDevList}
             />
             <ApproachSupport/>
             <ToolsTechnologies  toolsTechnologiesList={technologiesList} />
-            <NftWhyChoose description="DigiMark Developers needs to be your first choice as we have experts who develop full-cycle games of any industry. Following are the reasons you should contact us"  classes="cycle_choose" />
+            <NftWhyChoose classes="cycle_choose" />
     <Faqs/>
     <GetQuote/>
     </div>

@@ -17,28 +17,24 @@ export default function Challenge() {
                     </figure>
                     <div className={style.challenge_content} data-aos="fade-right" data-aos-duration="2000">
                     <div className={style.section_title} data-aos="fade-up" data-aos-duration="2000">
-                    <h2>Challenges we solve</h2>
+                    <h2>Technology We Use For AI & ML Development</h2>
                 </div>
                         <ul className="list-none">
                             <li>
-                                <span>Maximize customer satisfaction</span>
-                                <p>Employ personalized recommendations based on customer behavior, history,
-                                and preferences</p>
+                                <span>TensorFlow and PyTorch</span>
+                                <p>We utilise these frameworks for developing advanced machine learning and deep learning models.</p>
                             </li>
                             <li>
-                                <span>Mitigate risks and minimize losses</span>
-                                <p>Eliminate fraudulent activity through real-time detection and flagging of
-                                suspicious actions</p>
+                                <span>AWS and Google Cloud</span>
+                                <p> We leverage cloud platforms for scalable computing power and efficient model deployment.</p>
                             </li>
                             <li>
-                                <span>Enhance operational efficiency</span>
-                                <p>Address supply chain issues through accurate demand forecasting and optimized
-                                inventory management, utilizing historical data and market trends</p>
+                                <span>Keras and Scikit-Learn</span>
+                                <p>Quick prototypes for a wide variety of AI/ML algorithms</p>
                             </li>
                             <li>
-                                <span>Strengthen business image</span>
-                                <p>Monitor and improve your brand perception through analysis of data from social media,
-                                customer reviews, and other sources</p>
+                                <span>NLP Tools</span>
+                                <p>We utilize these frameworks to construct advanced language models, as well as applications driven by artificial intelligence.</p>
                             </li>
                         </ul>
                     </div>

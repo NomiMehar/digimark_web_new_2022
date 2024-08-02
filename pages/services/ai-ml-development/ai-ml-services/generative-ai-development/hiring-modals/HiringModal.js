@@ -14,8 +14,8 @@ export default function HiringModal() {
                 <div className="section_title white" data-aos="fade-up"
              data-aos-easing="ease-in-sine"
              data-aos-duration="1000">
-                    <h2>Our <span>Engagement Model</span></h2>
-                    <p>Unlock your true potential, leverage the best of technology, and create applications based on a modern algorithm with our experts.</p>
+                    <h2>Our <span>Proven System</span> Building Process </h2>
+                    <p>Our tried-and-true system-building methodology guarantees dependable, scalable, and effective solutions made to fit your particular set of business requirements.</p>
                 </div>
                 <div className={style.choose_services}>
                     <ul className="list-none flex flex-wrap">

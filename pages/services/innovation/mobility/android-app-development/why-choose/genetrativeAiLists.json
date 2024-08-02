@@ -1,32 +1,32 @@
 [
   {
     "whyChooseIcon" : "/assets/images/services/ai1.png",
-    "whyChooseTitle" : "Data Processing",
-    "whyChooseDetail" : "one of the top generative AI companies offers data processing services that involve organizing, cleaning."
+    "whyChooseTitle" : "Personalised AI Solutions",
+    "whyChooseDetail" : "We create AI models that generate content tailored to your company's needs."
   },
   {
     "whyChooseIcon" : "/assets/images/services/ai2.png",
-    "whyChooseTitle" : "Training Data Collection",
-    "whyChooseDetail" : "Our team uses exacting data collection methods to make sure that the information utilized to develop your AI models."
+    "whyChooseTitle" : "Advanced Language Models",
+    "whyChooseDetail" : "Our extensive language models provide excellent, contextually correct results for a range of uses."
   },
   {
     "whyChooseIcon" : "/assets/images/services/ai3.png",
-    "whyChooseTitle" : "Developing Custom AI Models",
-    "whyChooseDetail" : "As one of the leading top generative AI companies, Kodexo Labs specializes in developing unique AI models"
+    "whyChooseTitle" : "Services That Are Scalable",
+    "whyChooseDetail" : "Our AI development services are made to evolve with your expanding company needs."
   },
   {
     "whyChooseIcon" : "/assets/images/services/ai4.png",
-    "whyChooseTitle" : "Algorithm Development",
-    "whyChooseDetail" : "our skilled team specializes in algorithm development, utilizing cutting-edge approaches and techniques to create AI algorithms that can recognize patterns."
+    "whyChooseTitle" : "Team of Experts",
+    "whyChooseDetail" : "For your Generative AI Development projects, our skilled AI specialists guarantee state-of-the-art solutions."
   },
   {
     "whyChooseIcon" : "/assets/images/services/ai5.png",
-    "whyChooseTitle" : "Fine-Tuning",
-    "whyChooseDetail" : "To increase the precision and speed of your AI models, our model optimization services entail fine-tuning the parameters"
+    "whyChooseTitle" : "Innovative Technology",
+    "whyChooseDetail" : "In this technology, we have state-of-the-art language model services using recent AI advancements."
   },
   {
     "whyChooseIcon" : "/assets/images/services/ai6.png",
-    "whyChooseTitle" : "Deployment & Maintenance",
-    "whyChooseDetail" : "When your AI models are prepared, we guarantee a smooth deployment into your current infrastructure."
+    "whyChooseTitle" : "All-inclusive Support",
+    "whyChooseDetail" : "We also ensure that there is smooth integration of AI solutions by giving end-to-end support from the development stage to deployment."
   }
 ]

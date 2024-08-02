@@ -1,0 +1,37 @@
+[
+  {
+    "process_number": "01",
+    "process_name": "Retail Optimisation",
+    "process_list": [
+      "Personalised marketing plans, consumer insights, and inventory management are all improved by customised AI solutions."
+    ]
+  },
+  {
+    "process_number": "02",
+    "process_name": "Healthcare Innovation",
+    "process_list": [
+      "Our AI services are designed to accelerate diagnosis support, treatment recommendations and patient data analysis in order to achieve better patient outcomes."
+    ]
+  },
+  {
+    "process_number": "03",
+    "process_name": "Financial Analysis",
+    "process_list": [
+      "Advanced artificial intelligence (AI) models within finance provide accurate risk profiling, fraud detection, and investment tips."
+    ]
+  },
+  {
+    "process_number": "04",
+    "process_name": "Education Enhancement",
+    "process_list": [
+      "Curriculum development, automated grading, and personalised learning are all provided by customised AI solutions to educational institutions."
+    ]
+  },
+  {
+    "process_number": "05",
+    "process_name": "Manufacturing Efficiency",
+    "process_list": [
+      "For the manufacturing sector, our AI services optimise supply chain management, predictive maintenance, and production processes."
+    ]
+  }
+]

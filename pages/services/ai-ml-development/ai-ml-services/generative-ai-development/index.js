@@ -1,22 +1,22 @@
 import React from 'react'
 import GetQuote from '../../../../../components/get-quote/GetQuote'
 import MobilityBanner from '../../../innovation/mobility/android-app-development/android-app-banner/MobilityBanner'
-import Faqs from '../../../innovation/mobility/android-app-development/faq/Faqs'
+import Faqs from './faq/Faqs'
 import bannerSideImage from '../../../../../public/assets/images/services/augmentation.svg'
 import WhyChoose from '../../../innovation/mobility/android-app-development/why-choose/WhyChoose'
 import dataAIMLLists from '../../../innovation/mobility/android-app-development/why-choose/genetrativeAiLists.json'
 import WalletCaseStudy from '../../../next-gen-tech/blockchain/tokens-and-crypto-wallets/wallet-case-study/WalletCaseStudy'
-import WalletCaseStudyList from '../../../next-gen-tech/blockchain/tokens-and-crypto-wallets/wallet-case-study/walletCaseStudyList.json'
+import WalletCaseStudyGenAiList from '../../../next-gen-tech/blockchain/tokens-and-crypto-wallets/wallet-case-study/walletCaseStudyList.json'
 import alMlOverViewList from '../../../innovation/mobility/android-app-development/app-overview/alMlOverViewList.json'
 import Overview from '../../../innovation/mobility/android-app-development/app-overview/Overview'
 import HiringModal from './hiring-modals/HiringModal'
 import ExpertiesIn from './expertise-in/ExpertiesIn'
 import TechSection from './techs-section/TechSection'
 import TechSectionList from './techs-section/TechSectionList.json'
-import MaintenanceServices from '../../../../support/maintenance-services/MaintenanceServices'
+import MaintenanceServices from './maintenance-services/MaintenanceServices'
 import NftTechStack from './nft-tech-stack/NftTechStack'
 import DevelopmentProcess from '../../../innovation/mobility/android-app-development/development-process/DevelopmentProcess'
-import aiJorneyList from '../../../innovation/mobility/android-app-development/development-process/aiJorneyList.json'
+import GenAiList from '../../../innovation/mobility/android-app-development/development-process/GenAiList.json'
 export default function index() {
   return (
   <>
@@ -29,18 +29,18 @@ export default function index() {
                     <span>
                     <strong>Generative AI</strong>
                 </span>, <br />,
-                    "Development"                 
+                    "Development Services"                 
                 ]}
                     dynamicCTA={true}
                     ctaText="Let’s Talk About Your Project"
                     SideImage={true}
                     bannerSideImage={bannerSideImage}
                 bannerTextWrap={[
-                    <p>One of the top generative AI companies, specializes in providing cutting-edge Generative AI Development Services.</p>,
+                    <p>With the help of our generative AI development services, unlock the future. Enhance innovation, productivity, and originality with personalized AI solutions designed to meet your specific needs. </p>,
     ]}/>
     <Overview
-                    overviewTitle="Generative AI Development"
-                    overviewDescription="One of the top generative AI companies, specializes in providing cutting-edge Generative AI Development Services. By utilizing the power of innovative algorithms and our expertise in artificial intelligence and machine learning, we provide cutting-edge solutions for companies in a variety of industries."
+                    overviewTitle="With Our Skilled Professionals, Launch A Generative AI Development Company"
+                    overviewDescription="Make the transition to a top Creation of Generative AI firm with our knowledgeable staff. Our group provides the expertise and support needed to maximize the potential of AI, promoting effectiveness and innovation. Collaborate with us on Generative AI Development solutions customised for your company's requirements, guaranteeing a competitive advantage in the marketplace. "
                     overViewList={alMlOverViewList}
                     classesProp="skin-layout"
                 />
@@ -48,7 +48,7 @@ export default function index() {
                 whyChooseList={dataAIMLLists}
                 generativeAi={true}
                 appName="Generative AI Development Services"
-                para="At DigiMark Developers, one of the top AI and machine learning specialists, we bring the future to your fingertips with cutting-edge AI and machine learning engineering solutions."
+                para="With our services for large language models and creation of generative AI, you can experience the technology of the future. Boost creativity, simplify procedures, and open up new company opportunities."
                 ionicShow={true}
                 classesProp="ai_ml"
             />
@@ -56,11 +56,12 @@ export default function index() {
             <HiringModal />
             <WalletCaseStudy
                 class="data-engineering"
-                WalletCaseStudyList={WalletCaseStudyList}
+                WalletCaseStudyList={WalletCaseStudyGenAiList}
             />
             <DevelopmentProcess
-                appName={[<span>DigiMark Developers</span>, " AI journey"]}
-                DevelopmentProcessList={aiJorneyList}
+                appName={["Our Industry-Based ",<span>Generative AI</span>, " Services"]}
+                name="Our industry-based Generative AI Development services provide specialised solutions that drive efficiency and creativity in response to the particular demands and difficulties faced by your industry."
+                DevelopmentProcessList={GenAiList}
             />
             <NftTechStack/>
             <ExpertiesIn/>

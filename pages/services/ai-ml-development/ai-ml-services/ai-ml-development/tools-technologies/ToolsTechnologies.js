@@ -7,8 +7,8 @@ export default function ToolsTechnologies(props) {
     <div className={`${style.tools_technologies} ${style[props.classes]}`}>
         <div className='container'>
             <div className="section_title white" data-aos="fade-up" data-aos-duration="2000">
-                <h2>Our Expertise In Tools And <span>Technologies</span></h2>
-                <p>We employ the proven combination of the latest and classic trusted technologies, having the following technology stack as our basis.</p>
+                <h2>Technology Stack Our <span>AI ML Experts</span> are Proficient In</h2>
+                <p>To create state-of-the-art solutions, our AI & ML Development professionals skillfully leverage a comprehensive technology stack that includes cloud platforms like AWS and Google Cloud, Python, TensorFlow, PyTorch, and Keras. </p>
             </div>
             {
                 props.toolsTechnologiesList?.map(({techTitle,techIcons}, index)=>{

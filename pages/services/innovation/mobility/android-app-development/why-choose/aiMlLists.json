@@ -1,47 +1,42 @@
 [
   {
     "whyChooseIcon" : "/assets/images/services/ai1.png",
-    "whyChooseTitle" : "AI Technology Consulting",
-    "whyChooseDetail" : "Navigating the intricate landscape of AI, we offer expert guidance to help you harness its potential for your unique business needs."
+    "whyChooseTitle" : "Data-Driven Insights",
+    "whyChooseDetail" : " Our AI and ML services facilitate well-thought-out decision-making and strategic planning by extracting valuable insights using cutting-edge algorithms from your data."
   },
   {
     "whyChooseIcon" : "/assets/images/services/ai2.png",
-    "whyChooseTitle" : "Custom AI Solutions",
-    "whyChooseDetail" : "We craft bespoke AI solutions, aligning our expertise with your specific challenges to yield transformative results."
+    "whyChooseTitle" : "End-to-End Support",
+    "whyChooseDetail" : "Through our comprehensive services starting with initial consultation to maintenance, we ensure that your AI and ML solutions keep up with the growth of your organization."
   },
   {
     "whyChooseIcon" : "/assets/images/services/ai3.png",
-    "whyChooseTitle" : "Predictive Analytics",
-    "whyChooseDetail" : "Utilizing advanced statistical & machine learning algorithms, our predictive analysis solutions ensure accurate predictions of forthcoming events & outcomes."
+    "whyChooseTitle" : "Scalable Models",
+    "whyChooseDetail" : "Creating AI and ML models that scale with the business assists continuous optimization and flexibility in adapting to changing customer needs."
   },
   {
     "whyChooseIcon" : "/assets/images/services/ai4.png",
-    "whyChooseTitle" : "Machine learning",
-    "whyChooseDetail" : "As a leading AI ML development company, our machine learning service use data-driven algorithms to unlock actionable insights and drive transformative solutions for your business."
+    "whyChooseTitle" : "Cross-Industry Experience",
+    "whyChooseDetail" : "We operate in various industries including manufacturing, healthcare, finance, retail among others applying AI & ML best practices."
   },
   {
     "whyChooseIcon" : "/assets/images/services/ai5.png",
-    "whyChooseTitle" : "Deep Learning",
-    "whyChooseDetail" : "Deep learning services use neural networks and attention models to automatically learn and improve from data, enabling machines to recognize patterns & make intelligent decisions."
+    "whyChooseTitle" : "Cutting-Edge Technology",
+    "whyChooseDetail" : "We remain current on the latest developments in the AI and ML field so as to offer state-of-the-art solutions through employing recent tools for these areas."
   },
   {
     "whyChooseIcon" : "/assets/images/services/ai6.png",
-    "whyChooseTitle" : "Natural Language Processing",
-    "whyChooseDetail" : "NLP solutions enable machines to understand and interpret human language, allowing more efficient communication and decision-making."
+    "whyChooseTitle" : "Collaborative Development",
+    "whyChooseDetail" : "In providing input into the development process of our company’s AI & ML solutions, we work closely with you towards ensuring they are aligned with business objectives and vision."
   },
   {
     "whyChooseIcon" : "/assets/images/services/ai7.png",
-    "whyChooseTitle" : "Generative Models",
-    "whyChooseDetail" : "The generative model solutions use ML as a service to generate new content. It is usable in a wide range of applications."
+    "whyChooseTitle" : "Security-Conscious",
+    "whyChooseDetail" : "In the development of our AI systems or ML algorithms, privacy is something we're always considering."
   },
   {
     "whyChooseIcon" : "/assets/images/services/ai8.png",
-    "whyChooseTitle" : "AI Model Integration and Optimization",
-    "whyChooseDetail" : "Seamlessly integrating AI models into your operations, we fine-tune them to ensure maximum efficiency & value."
-  },
-  {
-    "whyChooseIcon" : "/assets/images/services/ai9.png",
-    "whyChooseTitle" : "Fine-Tuning Models",
-    "whyChooseDetail" : "We optimize AI models for peak performance, ensuring they evolve in alignment with your evolving business objectives."
+    "whyChooseTitle" : "Always Learning",
+    "whyChooseDetail" : "Our AI & ML Development Services are designed to learn and improve over time in response to new data and changing business needs."
   }
 ]

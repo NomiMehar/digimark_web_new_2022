@@ -18,7 +18,7 @@ export default function NftWhyChoose(props) {
                     data-aos-duration="2000">
                     <h2>Why Choose us <br />
                     For AI/ML Services?</h2>
-                    <p>HData Systems team uses our vast experience and wealth of subject-matter knowledge to help businesses over the world get more out of their machines.</p>
+                    <p>Select us for your AI/ML needs because we provide specialised solutions, extensive industry knowledge, cutting-edge technology, and a dedication to producing quantifiable business effect.</p>
                     <ul className="list-none">
                         {
                             nftWhyChooseList.map(({listItems},index)=>{
