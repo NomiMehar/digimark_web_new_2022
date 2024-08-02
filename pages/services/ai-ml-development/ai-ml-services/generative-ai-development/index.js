@@ -6,7 +6,7 @@ import bannerSideImage from '../../../../../public/assets/images/services/augmen
 import WhyChoose from '../../../innovation/mobility/android-app-development/why-choose/WhyChoose'
 import dataAIMLLists from '../../../innovation/mobility/android-app-development/why-choose/genetrativeAiLists.json'
 import WalletCaseStudy from '../../../next-gen-tech/blockchain/tokens-and-crypto-wallets/wallet-case-study/WalletCaseStudy'
-import WalletCaseStudyGenAiList from '../../../next-gen-tech/blockchain/tokens-and-crypto-wallets/wallet-case-study/walletCaseStudyList.json'
+import WalletCaseStudyGenAiList from '../../../next-gen-tech/blockchain/tokens-and-crypto-wallets/wallet-case-study/WalletCaseStudyGenAiList.json'
 import alMlOverViewList from '../../../innovation/mobility/android-app-development/app-overview/alMlOverViewList.json'
 import Overview from '../../../innovation/mobility/android-app-development/app-overview/Overview'
 import HiringModal from './hiring-modals/HiringModal'
