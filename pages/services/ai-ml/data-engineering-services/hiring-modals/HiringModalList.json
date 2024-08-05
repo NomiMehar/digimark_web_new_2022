@@ -1,0 +1,17 @@
+[
+  {
+    "whyChooseIcon" : "/assets/images/services/de1.svg",
+    "whyChooseTitle" : "Quick Adjustments via Agile Methods",
+    "whyChooseDesc":"With an agile approach, we make fast iterative changes to fine-tune our data engineering services according to dynamic business requirements."
+  },
+  {
+    "whyChooseIcon" : "/assets/images/services/de2.svg",
+    "whyChooseTitle" : "Complete Data Automation",
+    "whyChooseDesc":"Automating each phase from gathering to analyzing ensures higher efficiency and fewer errors in our process. This way you get accurate data swiftly for key decision-making."
+  },
+  {
+    "whyChooseIcon" : "/assets/images/services/de3.svg",
+    "whyChooseTitle" : "Scalability as the Main Focus",
+    "whyChooseDesc":"Our data engineering solutions are built with scalability as a top priority, guaranteeing that your data infrastructure can grow with your company and effectively handle increasing data volumes."
+  }
+]

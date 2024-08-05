@@ -119,13 +119,13 @@ export default function ServiceMegaMenu(props) {
           <section>
             <span className={style.nav_title}>AI & ML Development</span>
             <ul className="list-none">
-              <li><Link onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave} href="/services/ai-ml-development/ai-ml-services/generative-ai-development">Generative AI Development</Link></li>
-              <li><Link onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave} href="/services/ai-ml-development/ai-ml-services/ai-ml-development">AI & ML Development</Link></li>
-              <li><Link onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave} href="/services/ai-ml-development/ai-ml-services/data-engineering-services">Data Engineering Services</Link></li>
-              <li><Link onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave} href="/services/ai-ml-development/ai-ml-services/ai-consulting">AI Consulting</Link></li>
-              <li><Link onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave} href="/services/ai-ml-development/ai-ml-services/ai-poc-mvp">AI PoC and AI MVP</Link></li>
-              <li><Link onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave} href="/services/ai-ml-development/ai-ml-services/chatbot-development">Chatbot Development</Link></li>
-              <li><Link onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave} href="/services/ai-ml-development/ai-ml-services/computer-vision">Computer Vision</Link></li>
+              <li><Link onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave} href="/services/ai-ml/generative-ai-development">Generative AI Development</Link></li>
+              <li><Link onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave} href="/services/ai-ml/ai-ml-development">AI & ML Development</Link></li>
+              <li><Link onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave} href="/services/ai-ml/data-engineering-services">Data Engineering Services</Link></li>
+              <li><Link onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave} href="/services/ai-ml/ai-consulting">AI Consulting</Link></li>
+              <li><Link onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave} href="/services/ai-ml/ai-poc-mvp">AI PoC and AI MVP</Link></li>
+              <li><Link onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave} href="/services/ai-ml/chatbot-development">Chatbot Development</Link></li>
+              <li><Link onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave} href="/services/ai-ml/computer-vision">Computer Vision</Link></li>
             </ul>
           </section>
         </div>

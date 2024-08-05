@@ -1,0 +1,63 @@
+@import "../../../../../styles/variables";
+.nft_services_wrapper {
+  padding: 100px 0 60px;
+  background: #1D4354 url('../../../../../public/assets/images/services/custom-bg.svg');
+  @media (max-width: $breakpoint_tablet) {
+    padding: 60px 0 40px;
+  }
+  .choose_services {
+    margin-top: 100px;
+    ul {
+      margin: 0 -20px;
+      li {
+        padding: 0 25px;
+        width: 33.333%;
+        margin: 0 0 70px;
+        @media (max-width: $breakpoint_laptop) {
+          margin-bottom: 30px;
+        }
+        @media (max-width: $breakpoint_tablet) {
+          width: 50%;
+        }
+        @media (max-width: $breakpoint_mobile_portrait) {
+          width: 100%;
+          opacity: 1 !important;
+          transform: translateZ(0) !important;
+        }
+        &:hover {
+          h3 { color: $green_color;}
+        }
+        h3 {
+          margin: 0 0 30px;
+          white-space: pre;
+          margin-right: auto !important;
+          padding-left: 10px;
+          text-transform: capitalize;
+          font-size: 28px;
+          color: white;
+          transition: all 0.4s ease-in-out;
+          border-left: 7px solid #6BB64A;
+          @media (max-width: $breakpoint_laptop) {
+            margin: 0 0 10px;
+            font-size: 24px;
+          }
+        }
+      p{
+        margin: 0;
+          font-size: 24px;
+          line-height: 36px;
+          padding: 0;
+          list-style: disc;
+          color: #E4E4E4;
+          @media (max-width: $breakpoint_laptop) {
+            font-size: 18px;
+            line-height: 28px;
+          }
+          @media (max-width: $breakpoint_tablet) {
+            font-size: 16px;
+          }
+      }
+      }
+    }
+  }
+}

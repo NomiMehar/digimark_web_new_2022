@@ -1,0 +1,101 @@
+@import "../../../../../styles/variables";
+.challenge_wrapper {
+  padding: 100px 0 80px;
+  @media (max-width: $breakpoint_laptop) {
+    padding: 80px 0 60px;
+  }
+  @media (max-width: $breakpoint_tablet) {
+    padding: 60px 0 60px;
+  }
+  .challenge_wrap {
+    @media (max-width: $breakpoint_laptop) {
+      align-items: center;
+    }
+    @media (max-width: $breakpoint_tablet) {
+      flex-direction: column;
+    }
+    figure {
+      width: 50%;
+      margin: 0;
+      @media (max-width: $breakpoint_laptop) {
+        width: 30%;
+        img {
+          max-width: 100%;
+          height: auto;
+        }
+      }
+      @media (max-width: $breakpoint_tablet) {
+        width: 300px;
+        display: flex;
+        margin: 25px auto 35px;
+      }
+    }
+    .challenge_content {
+      width: 50%;
+      @media (max-width: $breakpoint_laptop) {
+        width: 60%;
+        margin-left: auto;
+      }
+      @media (max-width: $breakpoint_tablet) {
+        width: 100%;
+        margin-left: 0;
+      }
+      .section_title{
+        margin-bottom: 20px;
+        h2 {
+          font-size: 48px;
+          line-height: 60px;
+          font-family: "CloverDisplay-Bold", sans-serif;
+          @media (max-width: $breakpoint_laptop) {
+            font-size: 36px;
+            line-height: 48px;
+          }
+        }
+      }
+     
+      ul {
+        padding-left: 50px;
+        @media (max-width: $breakpoint_laptop) {
+          margin: 0 -5px;
+        }
+        li {
+          position: relative;
+          margin-bottom: 30px;
+          &::after{
+            content: url('../../../../../public/assets/images/services/challengeCircle.svg');
+            position: absolute;
+            left: -50px;
+            top: 10px;
+          }
+          @media (max-width: $breakpoint_laptop) {
+            margin-bottom: 10px;
+            display: flex;
+            flex-wrap: wrap;
+            padding: 0 5px;
+          }
+          span {
+            color: #12262F;
+            border-radius: 10px;
+            display: inline-block;
+            font-size: 24px;
+            line-height: 42px;
+            font-family: "Apercu-Bold", sans-serif;
+            @media (max-width: $breakpoint_tablet) {
+              font-size: 17px;
+              line-height: 30px;
+            }
+          }
+          p {
+            font-family: "Apercu-Light", sans-serif;
+            margin: 0 0 20px;
+            font-size: 18px;
+            line-height: 24px;
+            @media (max-width: $breakpoint_tablet) {
+              font-size: 16px;
+            }
+          }
+        }
+      }
+    }
+  }
+}

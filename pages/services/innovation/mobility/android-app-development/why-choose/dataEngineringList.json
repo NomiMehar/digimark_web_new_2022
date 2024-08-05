@@ -1,32 +1,32 @@
 [
   {
     "whyChooseIcon" : "/assets/images/services/datae1.svg",
-    "whyChooseTitle" : "Data Gathering & Preprocessing",
-    "whyChooseDetail" : "We understand that data comes in various formats and from diverse sources. Our GCP data engineer is skilled in collecting, cleaning, and preprocessing data to ensure its quality and reliability. Our meticulous approach involves data validation, transformation, and enrichment, resulting in a clean dataset ready for analysis."
+    "whyChooseTitle" : "Advanced Data Pipelines",
+    "whyChooseDetail" : "To guarantee effective and scalable data flow across systems and provide real-time data availability for critical business insights, advanced data pipelines employ state-of-the-art solutions like Apache Airflow and Luigi."
   },
   {
     "whyChooseIcon" : "/assets/images/services/datae2.svg",
-    "whyChooseTitle" : "Data Annotation",
-    "whyChooseDetail" : "High-quality training data is the backbone of any machine learning model. Our AWS data engineer specializes in data annotation services, involving labeling data for supervised learning, semantic segmentation for computer vision tasks, and more. Our experts ensure that your models are trained on accurate and relevant data."
+    "whyChooseTitle" : "Robust Data Warehousing",
+    "whyChooseDetail" : "Our expertise with Snowflake and Amazon Redshift ensures effective data warehousing solutions that offer speedy query execution, extensible storage, and secure data handling for large volumes of both structured and unstructured data."
   },
   {
     "whyChooseIcon" : "/assets/images/services/datae3.svg",
-    "whyChooseTitle" : "Algorithm Selection and Hyperparameter Tuning",
-    "whyChooseDetail" : "Choosing the right algorithm and optimizing its parameters are critical steps in the model development process. Our AWS data engineer evaluates various algorithms and fine-tunes hyperparameters to ensure optimal model performance."
+    "whyChooseTitle" : "Expertise in Data Integration",
+    "whyChooseDetail" : "Our use of Talend and Apache NiFi tools enables the seamless integration of various data sources to maintain data accuracy and dependability throughout your organization, accommodating both batch and real-time data processing requirements."
   },
   {
     "whyChooseIcon" : "/assets/images/services/datae4.svg",
-    "whyChooseTitle" : "Model Training and Validation",
-    "whyChooseDetail" : "We specialize in training machine learning models using state-of-the-art techniques. Our AWS data engineer employs their expertise in supervised, unsupervised, and reinforcement learning to develop models that accurately address your business challenges."
+    "whyChooseTitle" : "Big Data Processing",
+    "whyChooseDetail" : "Utilizing Apache Hadoop and Spark, we efficiently manage huge datasets for real-time analytics, machine learning, and large-scale data processing, empowering informed decision-making and business expansion."
   },
   {
     "whyChooseIcon" : "/assets/images/services/datae5.svg",
-    "whyChooseTitle" : "Model Evaluation",
-    "whyChooseDetail" : "Evaluating model performance is essential to ensure its effectiveness. Our experts of data engineering services use advanced metrics and validation techniques to assess model accuracy, precision, recall, and more."
+    "whyChooseTitle" : "Streamlined ETL Processes",
+    "whyChooseDetail" : "Efficient ETL processes are achieved through tools such as Apache Kafka and AWS Glue, ensuring accurate transformation and loading of data into your systems for optimal performance."
   },
   {
     "whyChooseIcon" : "/assets/images/services/datae6.svg",
-    "whyChooseTitle" : "Consultancy",
-    "whyChooseDetail" : "Navigating the complex landscape of data engineering and machine learning can be daunting. Our consultancy services provide you with strategic guidance, helping you make informed decisions and choose the right technological solutions for your needs."
+    "whyChooseTitle" : "Data Quality and Governance",
+    "whyChooseDetail" : "By utilizing tools such as Informatica and DataRobot, we uphold high data integrity while enforcing strict governance practices to guarantee compliance, security, and reliability in all data engineering procedures."
   }
 ]

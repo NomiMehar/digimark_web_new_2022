@@ -1,0 +1,49 @@
+@import "../../../../../styles/variables";
+.defi_tech_wrapper {
+  background: #1D4354 url('../../../../../public/assets/images/services/custom-bg.svg');
+  padding: 100px 0 80px;
+  @media (max-width: $breakpoint_tablet) {
+    padding: 60px 0 40px;
+  }
+  ul {
+    margin: 0 -14px;
+    li {
+      width: 16.6667%;
+      margin-bottom: 20px;
+      padding: 0 14px;
+      text-align: center;
+      @media (max-width: $breakpoint_tablet) {
+        width: 25%;
+      }
+      @media (max-width: $breakpoint_mobile_portrait) {
+        width: 50%;
+      }
+      section {
+        width: 100%;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        min-height: 138px;
+        border-radius: 10px;
+        border: 1px dashed #607894;
+        margin-bottom: 10px;
+        &:hover {
+          img {
+            transform: scaleX(-1);
+          }
+        }
+        img {
+          transition: all 0.4s ease-in-out;
+        }
+       
+      }
+       h3 {
+          margin: 0;
+          color: #FFFFFF;
+          font-size: 14px;
+        }
+    }
+  }
+}

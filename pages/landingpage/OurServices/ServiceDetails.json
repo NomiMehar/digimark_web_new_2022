@@ -6,15 +6,15 @@
     "innerDate": [
       {
         "buttonText": "Chatbot \ndevelopment",
-        "buttonLink": "/services/ai-ml-development/ai-ml-services/chatbot-development"
+        "buttonLink": "/services/ai-ml/chatbot-development"
       },
       {
         "buttonText": "Generative \nAI",
-        "buttonLink": "/services/ai-ml-development/ai-ml-services/generative-ai-development"
+        "buttonLink": "/services/ai-ml/generative-ai-development"
       },
       {
         "buttonText": "Computer \nVision",
-        "buttonLink": "/services/ai-ml-development/ai-ml-services/computer-vision"
+        "buttonLink": "/services/ai-ml/computer-vision"
       },
       {
         "buttonText": "Data \nScience",
@@ -22,11 +22,11 @@
       },
       {
         "buttonText": "AI PoC \n& AI MVP",
-        "buttonLink": "/services/ai-ml-development/ai-ml-services/ai-poc-mvp"
+        "buttonLink": "/services/ai-ml/ai-poc-mvp"
       },
       {
         "buttonText": "Data \nEngineering",
-        "buttonLink": "/services/ai-ml-development/ai-ml-services/data-engineering-services"
+        "buttonLink": "/services/ai-ml/data-engineering-services"
       }
     ]
   },

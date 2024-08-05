@@ -25,7 +25,7 @@ function Footer() {
                         <Link
                             onMouseEnter={handleMouseEnter}
                             onMouseLeave={handleMouseLeave}
-                            href="/services/ai-ml-development/ai-ml-services/ai-consulting">Artificial Intelligence</Link>
+                            href="/services/ai-ml/ai-consulting">Artificial Intelligence</Link>
                       </li>
                       <li>
                         <Link
@@ -37,7 +37,7 @@ function Footer() {
                         <Link
                             onMouseEnter={handleMouseEnter}
                             onMouseLeave={handleMouseLeave}
-                            href="/services/ai-ml-development/ai-ml-services/generative-ai-development">Generative AI</Link>
+                            href="/services/ai-ml/generative-ai-development">Generative AI</Link>
                       </li>
                       <li>
                         <Link
