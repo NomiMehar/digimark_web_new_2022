@@ -1,32 +1,32 @@
 [
   {
     "whyChooseIcon" : "/assets/images/services/datae1.svg",
-    "whyChooseTitle" : "AI Consulting Services",
-    "whyChooseDetail" : "At DigiMark Developers, a top AI and machine learning specialist, we bring the future to your fingertips with cutting-edge AI and machine learning engineering solutions."
+    "whyChooseTitle" : "AI-Related Consulting Services",
+    "whyChooseDetail" : "With state-of-the-art AI and machine learning engineering solutions, we at DigiMark Developers, a leading AI and machine learning specialist, put the future at your fingers."
   },
   {
     "whyChooseIcon" : "/assets/images/services/datae2.svg",
-    "whyChooseTitle" : "First-time AI Adoption",
-    "whyChooseDetail" : "Wondering if AI is a good fit for your business? Our AI expert identifies areas where automation can streamline your workflows. We'll guide you through the whole process, from figuring out what you can automate to building the AI tool and making sure everyone loves using it."
+    "whyChooseTitle" : "First-Time Adoption of AI",
+    "whyChooseDetail" : "Are you unsure if AI is a good fit for your company? Our AI specialist finds places in your workflows where automation might improve efficiency. We'll walk you through every step of the process, from identifying the tasks you can automate to developing the AI tool and ensuring its smooth operation."
   },
   {
     "whyChooseIcon" : "/assets/images/services/datae3.svg",
-    "whyChooseTitle" : "AI Audit & Reengineering",
-    "whyChooseDetail" : "If you are not getting the expected result from your AI system, We'll review your system's design, logic, and user experience to identify any issues. We can fix, update, or rebuild your AI to get it on track for future growth as your AI needs to evolve."
+    "whyChooseTitle" : "AI Evaluation and Redesign",
+    "whyChooseDetail" : "We'll examine the architecture, logic, and user interface of your AI system to find any problems if it isn't producing the desired results. Your AI needs to adapt, and we can rebuild, update, or fix it to put it back on track for future growth."
   },
   {
     "whyChooseIcon" : "/assets/images/services/datae4.svg",
-    "whyChooseTitle" : "Predictive Analytics",
-    "whyChooseDetail" : "We use cutting-edge data analysis tools to help you see what's coming. This lets you make smarter decisions about your market trends, customers, and operations. By planning ahead, you can stay one step ahead of the competition."
+    "whyChooseTitle" : "Analytics for Predictive",
+    "whyChooseDetail" : "Modern data analysis tools are what we utilise to help you see what's ahead. This enables you to make more informed choices regarding company operations, clients, and industry trends. You can keep one step ahead of the competition by making advance plans."
   },
   {
     "whyChooseIcon" : "/assets/images/services/datae5.svg",
-    "whyChooseTitle" : "AI Solutions Development",
-    "whyChooseDetail" : "We can help you implement AI in your business, from start to finish. We can automate tasks, improve customer service, and give you a powerful advantage.  We'll handle everything, so you can focus on what matters most."
+    "whyChooseTitle" : "Development of AI Solutions",
+    "whyChooseDetail" : "We can assist you with every step of the AI implementation process in your company. We can provide you a significant edge, automate tasks, and enhance customer service. You may concentrate on what really matters; we'll take care of everything else."
   },
   {
     "whyChooseIcon" : "/assets/images/services/datae6.svg",
-    "whyChooseTitle" : "Domain-specific Model Development",
-    "whyChooseDetail" : "Our data science team crafts AI strategies and custom ML models tailored to your industry and unique needs. We leverage leading foundation models and integrate them with your data, ensuring optimal performance through rigorous testing and validation."
+    "whyChooseTitle" : "Domain-Specific Model Construction",
+    "whyChooseDetail" : "Our data science team develops AI plans and unique ML models based on your sector and specific requirements. By combining cutting-edge foundation models with your data and rigorously testing and validating them, we guarantee peak performance."
   }
 ]

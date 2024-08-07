@@ -17,7 +17,7 @@ export default function NftWhyChoose(props) {
                 <div className={`${style.nft_why_choose_text}`} data-aos="fade-right"
                     data-aos-duration="2000">
                     <h2>Why Choose us</h2>
-                    <p>DigiMark Developers is proud to announce the launch of the Women’s Empowerment Initiative; an initiative</p>
+                    <p>With great pride, DigiMark Developers announces the introduction of the Women's Empowerment Initiative.</p>
                     <ul className="list-none">
                         {
                             nftWhyChooseList.map(({listItems},index)=>{

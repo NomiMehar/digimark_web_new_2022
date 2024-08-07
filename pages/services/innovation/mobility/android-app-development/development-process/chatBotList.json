@@ -1,37 +1,37 @@
 [
   {
     "process_number": "01",
-    "process_name": "Evaluate Use Cases",
+    "process_name": "Consider Use Cases",
     "process_list": [
-      "We analyze the applicable use case,  business goals, and market segment, to determine the implementation framework."
+      "The appropriate use case, corporate objectives, and market segment are examined to ascertain the implementation framework."
     ]
   },
   {
     "process_number": "02",
-    "process_name": "Design the conversation",
+    "process_name": "Plan the dialogue",
     "process_list": [
-      "At this point, We Design the chatbot flow, Give your bot a persona and a tone of voice, write conversation scenarios."
+      "Currently, we are designing a chatbot's flow. Give your bot a voice and an identity, and create dialogue sequences."
     ]
   },
   {
     "process_number": "03",
-    "process_name": "Training Chatbot",
+    "process_name": "Chatbot training",
     "process_list": [
-      "we trained the chatbot through RA technology based on the data your business has already collected from multiple channels."
+      "Using RA technology, we educated the chatbot using the data that your company has already gathered through a variety of sources."
     ]
   },
   {
     "process_number": "04",
-    "process_name": "Test the experience",
+    "process_name": "Examine the encounter",
     "process_list": [
-      "We test the bot’s behavior throughout the conversation flow by sending different queries  to make the chatbot respond in a specific way."
+      "We send several queries to the chatbot to elicit varied responses from it, so we can test its behaviour throughout the conversation flow."
     ]
   },
   {
     "process_number": "05",
-    "process_name": "Deploy and maintain",
+    "process_name": "Implement and uphold",
     "process_list": [
-      "The intelligent bot we  deploy on the customer's hosting and analyzes conversation logs, and usage insights to improve customer experience."
+      "To enhance the customer experience, we install an intelligent bot on the customer's hosting account, which examines user data and chat logs."
     ]
   }
 ]

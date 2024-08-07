@@ -1,38 +1,38 @@
 [
   {
-    "whyChooseIcon" : "/assets/images/services/t1.svg",
-    "whyChooseTitle" : "Dedicated Team",
-    "whyChooseDetail" : [
-      "No Hiring efforts",
-      "Autonomous Operation",
-      "Comprehensive Skill Set",
-      "Save Operation Cost",
-      "No Timezone Barriers",
-      "Long-Term Collaboration"
+    "whyChooseIcon": "/assets/images/services/t1.svg",
+    "whyChooseTitle": "Committed Group",
+    "whyChooseDetail": [
+      "No attempts to hire",
+      "Independent Functioning",
+      "Entire Skill Set",
+      "Reduce operating expenses",
+      "Absence of Timezone Barriers",
+      "Extended Cooperation"
     ]
   },
   {
-    "whyChooseIcon" : "/assets/images/services/t2.svg",
-    "whyChooseTitle" : "Staff Augmentation",
-    "whyChooseDetail" : [
-      "Cost Effective",
-      "Transparency",
-      "Timezone Flexibility",
-      "Speedy Onboarding",
-      "Flexibility in scaling",
-      "Task Focused Expertise"
+    "whyChooseIcon": "/assets/images/services/t2.svg",
+    "whyChooseTitle": "Employee Extension",
+    "whyChooseDetail": [
+      "Economical",
+      "Openness",
+      "Flexibility in Time Zones",
+      "Quick Onboarding",
+      "Adaptability while scaling",
+      "Task-Oriented Proficiency"
     ]
   },
   {
-    "whyChooseIcon" : "/assets/images/services/t3.svg",
-    "whyChooseTitle" : "Project Outsourcing",
-    "whyChooseDetail" : [
-      "Transparency",
-      "Cost Effectiveness",
-      "Faster time-to-market",
-      "No extra Management",
-      "Round-the-clock support",
-      "Predictable pricing & timeline"
+    "whyChooseIcon": "/assets/images/services/t3.svg",
+    "whyChooseTitle": "Project Delegation",
+    "whyChooseDetail": [
+      "Objectivity",
+      "Economy of Cost",
+      "Accelerated time to market",
+      "Absence of additional Management",
+      "24/7 assistance",
+      "Timeline and price predictability"
     ]
   }
 ]

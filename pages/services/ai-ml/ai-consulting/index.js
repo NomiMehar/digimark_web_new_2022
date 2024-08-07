@@ -1,7 +1,7 @@
 import React from 'react'
 import GetQuote from '../../../../components/get-quote/GetQuote'
 import MobilityBanner from '../../innovation/mobility/android-app-development/android-app-banner/MobilityBanner'
-import Faqs from '../../innovation/mobility/android-app-development/faq/Faqs'
+import Faqs from './faq/Faqs'
 import bannerSideImage from '../../../../public/assets/images/services/augmentation.svg'
 import WhyChoose from '../../innovation/mobility/android-app-development/why-choose/WhyChoose'
 import aiConsultingServices from '../../innovation/mobility/android-app-development/why-choose/aiConsultingServicesList.json'
@@ -18,29 +18,28 @@ export default function index() {
                 breadcrumParent="AI & ML"
                 breadcrumChild="AI Consulting"
                 bannerTitle={[
-                    
-                    "AI "  ,<span>
-                    <strong>Consulting</strong>
-                </span>               
+                    <span>
+                    <strong>Artificial Intelligence</strong>
+                </span>," Directions"               
                 ]}
                     dynamicCTA={true}
                     ctaText="Let’s Talk About Your Project"
                     SideImage={true}
                     bannerSideImage={bannerSideImage}
                 bannerTextWrap={[
-                    <p>Leverage our AI consulting to unlock operational excellence and product innovation. We tailor AI strategies to your needs, guiding you from demystifying AI to implementing transformative solutions that deliver real business results. We guide you through every step of your AI journey.</p>,
+                    <p>Utilise our AI consultancy to foster product innovation and operational success. Our customised AI strategies help you go from demystifying AI to putting revolutionary solutions into practice that really produce tangible business results. We walk you through the entire AI process.</p>,
     ]}/>
     <Overview
-                    overviewTitle="AI Consulting"
-                    overviewDescription="AI consulting offers tailored approaches that align with client demand and goals. Our experts help businesses to understand the value and risks, capabilities needed for your organization to adopt and scale AI."
+                    overviewTitle="Summary"
+                    overviewDescription="AI consulting provides customised strategies that meet the needs and objectives of clients. Our specialists assist companies in comprehending the benefits, hazards, and skills required for your company to implement and grow artificial intelligence."
                     overViewList={aiConsultingOverViewList}
                     classesProp="gray-layout"
                 />
     <WhyChoose
                 whyChooseList={aiConsultingServices}
                 aiConsulting={true}
-                appName="AI consulting services"
-                para="At DigiMark Developers, one of the top AI and machine learning specialists, we bring the future to your fingertips with cutting-edge AI and machine learning engineering solutions."
+                appName="AI-Related Consulting Services"
+                para="With state-of-the-art AI and machine learning engineering solutions, we at DigiMark Developers, one of the leading experts in these fields, put the future at your fingers."
                 ionicShow={true}
                 classesProp="data_engineering"
             />

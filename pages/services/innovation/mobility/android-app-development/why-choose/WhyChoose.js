@@ -78,7 +78,7 @@ export default function WhyChoose(props) {
                     data-aos="fade-up"
                     data-aos-duration="1000"
                 >
-                    <h2><span>AI consulting</span> Services</h2>
+                    <h2>AI-Related <span>Consulting</span> Services</h2>
                     <p>{props.para}</p>
                 </div> : ""
             }    

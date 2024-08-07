@@ -1,22 +1,22 @@
 [
   {
-    "perksImage" : "/assets/images/services/aug1.svg",
-    "perksTitle" : "Cost-Effective Solution",
-    "perksDetail" : "We deliver highly cost-effective business solutions that meet the demands of the business."
+    "perksImage": "/assets/images/services/aug1.svg",
+    "perksTitle": "Economical Resolution",
+    "perksDetail": "We provide incredibly affordable business solutions that satisfy the needs of the industry."
   },
   {
-    "perksImage" : "/assets/images/services/aug2.svg",
-    "perksTitle" : "Scalability and Flexibility",
-    "perksDetail" : "Using micro-service architecture, we create easily extensive & scalable solutions."
+    "perksImage": "/assets/images/services/aug2.svg",
+    "perksTitle": "Flexibility and Scalability",
+    "perksDetail": "We can quickly and simply construct comprehensive and scalable solutions with microservice architecture."
   },
   {
-    "perksImage" : "/assets/images/services/aug3.svg",
-    "perksTitle" : "Support and Maintenance",
-    "perksDetail" : "We go above and beyond by offering 3 months of post-delivery maintenance & bug fixes to our valued clients."
+    "perksImage": "/assets/images/services/aug3.svg",
+    "perksTitle": "Assistance and Upkeep",
+    "perksDetail": "We go above and above by providing our esteemed clients with three months of post-delivery maintenance and bug patches."
   },
   {
-    "perksImage" : "/assets/images/services/aug4.svg",
-    "perksTitle" : "Complete Process Transparency",
-    "perksDetail" : "We keep clients in the loop by leveraging project management tools to track & communicate progress."
+    "perksImage": "/assets/images/services/aug4.svg",
+    "perksTitle": "Total Openness of the Process",
+    "perksDetail": "We track and report progress using project management technologies to keep our clients informed."
   }
 ]

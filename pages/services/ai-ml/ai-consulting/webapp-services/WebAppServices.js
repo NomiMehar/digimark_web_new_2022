@@ -16,8 +16,8 @@ export default function WebAppServices() {
         <div className={style.web_app}>
             <div className="container">
                 <div className={`section_title ${style.section_title}`} data-aos="fade-up" data-aos-duration="2000">
-                    <h2>We Implement AI Across <br /> <span>Various Industries</span></h2>
-                    <p>We continuously optimize business processes through the strategic implementation of AI, leading to increased efficiency and cost reduction.</p>
+                    <h2>We <span>Use AI</span> in a Range of Industries</h2>
+                    <p>By strategically implementing AI, we continuously improve business processes, which lowers costs and increases efficiency.</p>
                 </div>
             </div>
             <div className={style.webapp_background}>

@@ -17,8 +17,8 @@ export default function CoreValue () {
                             data-aos="fade-right"
                             data-aos-duration="2000"
                         >
-                            <h2>The <span>Approach</span> We Use for AI</h2>
-                            <p>Combine custom tech solutions and business objectives to reach the world’s largest mobile app market</p>
+                            <h2>Our <span>AI Approach</span></h2>
+                            <p>Integrate specialised technology with corporate goals to penetrate the largest mobile app market globally.</p>
                         </li>
                         {
                             coreValueList.map(({no,coreTitle,coreDescription},index)=>{

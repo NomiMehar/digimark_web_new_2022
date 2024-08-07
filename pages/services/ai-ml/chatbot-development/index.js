@@ -1,10 +1,10 @@
 import React from 'react'
 import GetQuote from '../../../../components/get-quote/GetQuote'
 import MobilityBanner from '../../innovation/mobility/android-app-development/android-app-banner/MobilityBanner'
-import Faqs from '../../innovation/mobility/android-app-development/faq/Faqs'
+import Faqs from './faq/Faqs'
 import bannerSideImage from '../../../../public/assets/images/services/augmentation.svg'
 import WalletCaseStudy from '../../next-gen-tech/blockchain/tokens-and-crypto-wallets/wallet-case-study/WalletCaseStudy'
-import WalletCaseStudyList from '../../next-gen-tech/blockchain/tokens-and-crypto-wallets/wallet-case-study/walletCaseStudyList.json'
+import WalletCaseStudyChatbotList from '../../next-gen-tech/blockchain/tokens-and-crypto-wallets/wallet-case-study/WalletCaseStudyChatbotsList.json'
 import chatBotOverViewList from '../../innovation/mobility/android-app-development/app-overview/chatBotOverViewList.json'
 import Overview from '../../innovation/mobility/android-app-development/app-overview/Overview'
 import MaintenanceServices from './maintenance-services/MaintenanceServices'
@@ -22,21 +22,21 @@ export default function index() {
                 breadcrumParent="AI & ML"
                 breadcrumChild="Chatbot Development"
                 bannerTitle={[
+                    "Creation of ",
                     <span>
-                    <strong>Chatbot</strong>
-                </span>, <br />,
-                    "Development"                 
+                    <strong>Chatbots</strong>
+                </span>              
                 ]}
                     dynamicCTA={true}
                     ctaText="Let’s Talk About Your Project"
                     SideImage={true}
                     bannerSideImage={bannerSideImage}
                 bannerTextWrap={[
-                    <p> Boost customer engagement, and streamline communication using predictive intelligence and analytics. Our chatbots enhance and improve the customer journey, provide 24/7 automated support, and help to build a customer ecosystem.</p>,
+                    <p>Predictive intelligence and analytics can be used to improve customer engagement and expedite communication. Our chatbots help create a customer ecosystem, offer automated service around-the-clock, and improve the customer journey.Predictive intelligence and analytics can be used to improve customer engagement and expedite communication. Our chatbots help create a customer ecosystem, offer automated service around-the-clock, and improve the customer journey.</p>,
     ]}/>
     <Overview
                     overviewTitle="Chatbot Development"
-                    overviewDescription="We create intelligent & voice assistant chatbots that easily access and use customer interaction data. Solutions that are customer-focused by using natural language understanding (NLU), which understands customer experience quickly."
+                    overviewDescription="We develop voice-activated and intelligent chatbots that can readily access and utilise client interaction data. Natural language understanding (NLU) can be utilised to provide customer-focused solutions by rapidly understanding the customer experience."
                     overViewList={chatBotOverViewList}
                     classesProp="skin-layout"
                 />
@@ -44,15 +44,15 @@ export default function index() {
             {/* <CoreValue/> */}
             <WalletCaseStudy
                 class="data-engineering"
-                WalletCaseStudyList={WalletCaseStudyList}
+                WalletCaseStudyList={WalletCaseStudyChatbotList}
             />
             <NftWhyChoose className="nft_choose"
             />
             <Technologies/>
            <DevelopmentProcess
-                appName={["How We ", <span>Work?</span>]}
+                appName={["Our Methods of ", <span>Operation?</span>]}
                 DevelopmentProcessList={chatBotList}
-                name="While building a chatbot, we prioritize business goals, automate tasks across channels, and ensure a natural conversation flow to meet client expectations for tone, tasks, and implementation."
+                name="In order to match customer expectations for tone, tasks, and execution, we prioritise business goals, automate tasks across channels, and guarantee a natural conversation flow while designing a chatbot."
             />
             
     <Faqs/>
