@@ -1,9 +1,9 @@
 import React from 'react'
+import Faqs from './faq/Faqs'
 import GetQuote from '../../../../components/get-quote/GetQuote'
 import MobilityBanner from '../../innovation/mobility/android-app-development/android-app-banner/MobilityBanner'
-import Faqs from '../../innovation/mobility/android-app-development/faq/Faqs'
 import WalletCaseStudy from '../../next-gen-tech/blockchain/tokens-and-crypto-wallets/wallet-case-study/WalletCaseStudy'
-import WalletCaseStudyList from '../../next-gen-tech/blockchain/tokens-and-crypto-wallets/wallet-case-study/walletCaseStudyList.json'
+import WalletCaseStudypocList from '../../next-gen-tech/blockchain/tokens-and-crypto-wallets/wallet-case-study/walletCaseStudyPocList.json'
 import HiringModal from './hiring-modals/HiringModal'
 import Overview from '../../innovation/mobility/android-app-development/app-overview/Overview'
 import augmentOverViewList from '../../innovation/mobility/android-app-development/app-overview/augmentOverViewList.json'
@@ -24,12 +24,11 @@ export default function index() {
                     dynamicCTA={true}
                     ctaText="Let’s Talk About Your Project"
                 bannerTextWrap={[
-                    <p>While digital transformation has been a key growth concept for startups and SMBs since the mid-2010s, recent leaps forward in artificial intelligence (AI) and machine learning (ML) technologies have been a sharp wake-up call for companies pressing snooze on implementation.</p>,
+                    <p>While since the mid-2010s, digital transformation has been a fundamental growth idea for startups and SMBs, firms that have been sluggish to adopt it have been rudely awakened by the rapid advancements in artificial intelligence (AI) and machine learning (ML) technology.</p>,
     ]}/>
     <Overview
-                    overviewTitle="Make good decisions"
-                    overviewDescription="By creating a Proof of Concept (PoC) of your AI or ML product you verify the idea on an early stage of development.
-                    With the AI & ML engineers engaged in the R&D phase you plan your product development on data not hypotheses. And this ensures the high ROI better decisions in your project."
+                    overviewTitle="A Brief"
+                    overviewDescription="You can validate the concept early in the development process by developing a Proof of Concept (PoC) for your AI or ML product. The R&D phase's AI and ML professionals help you plan your product development based on data rather than guesswork. Also, it guarantees a good return on investment and wiser choices for your project."
                     overViewList={augmentOverViewList}
                     classesProp="skin-layout"
                 />
@@ -37,9 +36,10 @@ export default function index() {
             <HiringModal/>
             <WalletCaseStudy
                 class="data-engineering"
-                WalletCaseStudyList={WalletCaseStudyList}
+                WalletCaseStudyList={WalletCaseStudypocList}
             />
-    <Faqs/>
+    <Faqs
+    />
     <GetQuote/>
     </div>
   </>

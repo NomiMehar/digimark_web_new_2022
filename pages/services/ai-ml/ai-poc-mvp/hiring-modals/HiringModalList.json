@@ -1,22 +1,22 @@
 [
   {
     "whyChooseIcon" : "/assets/images/services/de1.svg",
-    "whyChooseTitle" : "AI Primer Exploration Workshop",
-    "whyChooseDesc":"Free 6-hr AI exploration workshop: Analyze your business, explore AI applications, get personalized insights & adoption roadmap."
+    "whyChooseTitle" : "Seminar for AI Basic Research",
+    "whyChooseDesc":"Free 6-hour workshop on exploring AI: Examine AI apps, analyse your company, and receive individualised insights and an adoption strategy."
   },
   {
     "whyChooseIcon" : "/assets/images/services/de2.svg",
-    "whyChooseTitle" : "AI Solution Design Sprint",
-    "whyChooseDesc":"Intensive 2-day workshop that will help you translate concepts into implementable AI solutions with integration plans, data governance, risk mitigation"
+    "whyChooseTitle" : "AI Solution Creation Workshop",
+    "whyChooseDesc":"A two-day intensive session that will assist you in transforming ideas into workable AI solutions that include risk mitigation, data governance, and integration plans."
   },
   {
     "whyChooseIcon" : "/assets/images/services/metaversecompany3.svg",
-    "whyChooseTitle" : "AI Proof-of-Concept",
-    "whyChooseDesc" : "Our service ensures structured AI validation, managing risks, reducing financial burden, and accelerating ML projects with proof-of-concept and detailed recommendations."
+    "whyChooseTitle" : "Demonstrations of concept for AI",
+    "whyChooseDesc" : "Our solution guarantees organised AI validation, risk management, cost savings, and ML project acceleration through thorough recommendations and proof-of-concept."
   },
   {
     "whyChooseIcon" : "/assets/images/services/de3.svg",
-    "whyChooseTitle" : "AI MVP Implementation",
-    "whyChooseDesc":"Our implementation practice for machine learning models ensures a smooth transition from prototype to to a fully developed solution ready for production."
+    "whyChooseTitle" : "Implementing AI MVP",
+    "whyChooseDesc":"Our method of creating machine learning models ensures a smooth transition from initial design to a final product ready for large-scale manufacturing."
   }
 ]

@@ -1,19 +1,20 @@
 import React, {useEffect} from "react";
-import style from "./Steps.module.scss"
-import roadmap from "../../../../../public/assets/images/services/roadmap-image.png"
-import step1 from "../../../../../public/assets/images/services/step1.png"
-import step2 from "../../../../../public/assets/images/services/step2.png"
-import step3 from "../../../../../public/assets/images/services/step3.png"
-import step4 from "../../../../../public/assets/images/services/step4.png"
-import step5 from "../../../../../public/assets/images/services/step5.png"
-import step6 from "../../../../../public/assets/images/services/step6.png"
+import style from "./Steps.module.scss";
+import roadmap from "../../../../../public/assets/images/services/roadmap-image.png";
+import step1 from "../../../../../public/assets/images/services/step1.png";
+import step2 from "../../../../../public/assets/images/services/step2.png";
+import step3 from "../../../../../public/assets/images/services/step3.png";
+import step4 from "../../../../../public/assets/images/services/step4.png";
+import step5 from "../../../../../public/assets/images/services/step5.png";
+import step6 from "../../../../../public/assets/images/services/step6.png";
 import Image from "next/image";
 import AOS from 'aos';
 
-export default function Steps (props) {
+export default function Steps(props) {
     useEffect(() => {
         AOS.init();
-    }, [])
+    }, []);
+
     return (
         <>
             <div className={`flex direction-column ${style.our_story_wrapper}`}>
@@ -23,13 +24,10 @@ export default function Steps (props) {
                         data-aos="fade-right"
                         data-aos-duration="2000"
                     >
-                        <h2>From First Concept to MVP - <span>The Roadmap</span></h2>
-                        <p>The process we’ve developed for taking an AI/ML project from conception to delivery spans 3 full days, broken down into 6 distinct steps.
-                        </p>
-                        <p>We call this our Cloud Accelerator Programme - and businesses are generally surprised to discover that it’s completely cost neutral for clients whose digital transformation project will require a $750 monthly spend on the Amazon Web Services (AWS) platform moving forward.</p>
-                        <p>
-                        Here, we’ll take a look at what each of those steps entails - as well as the time investment required for each part of the process.
-                        </p>
+                        <h2>Validate and Scale Your AI Vision: From PoC to MVP Success</h2>
+                        <p>Starting with a focused Proof of Concept (PoC) lets you evaluate the viability of your idea in a controlled setting before scaling and validating your AI vision. Before going on to the next stage, a Proof of Concept helps identify potential problems and optimise solutions by concentrating on the main goals.</p>
+                        <p>After validation, the process moves forward with the creation of a Minimum Viable Product (MVP), where your AI solution is improved, scaled up, and ready for wider use.</p>
+                        <p>This procedure guarantees that your AI project will be scalable and useful, producing observable commercial outcomes.</p>
                     </div>
                     <figure
                         data-aos="fade-left"
@@ -40,24 +38,24 @@ export default function Steps (props) {
                 </div>
             </div>
             <div className={`flex direction-column ${style.step1}`}>
-                        <div className="container flex items-center">
-                            <figure
-                                data-aos="fade-left"
-                                data-aos-duration="2000"
-                            >
-                                <Image src={step1} alt={step1} />
-                            </figure>
-                            <div
-                                className={style.story_text}
-                                data-aos="fade-right"
-                                data-aos-duration="2000"
-                            >
-                                <span className={style.subline}>Step 1:</span>
-                                <h2>Discovery Call - <span>Exploring Ideas (1 Hour)</span></h2>
-                                <p>If you’re reading this, you’re thinking about what artificial intelligence or machine learning could bring to your business. We can transition into your process at any stage, whether you’ve got fleshed-out ideas about how you could use AI/ML, some work done with another provider, or even if you’re just beginning to be aware of a buzz around AI in your industry and want to make sure you’re keeping pace.</p>
-                                <p>However developed your ideas are, we recommend starting with a ‘discovery’ call. This is a chance for us to get to know your product, the technical capabilities you have in-house or through an external service provider, and your vision for how AI or ML can be deployed and scaled.</p>
-                            </div>
-                        </div>
+                <div className="container flex items-center">
+                    <figure
+                        data-aos="fade-left"
+                        data-aos-duration="2000"
+                    >
+                        <Image src={step1} alt={step1} />
+                    </figure>
+                    <div
+                        className={style.story_text}
+                        data-aos="fade-right"
+                        data-aos-duration="2000"
+                    >
+                        <span className={style.subline}>The First Phase:</span>
+                        <h2>An Hour-Long Discovery Call To Explore Ideas</h2>
+                        <p>When you've come to this, you're probably considering how machine learning and artificial intelligence could benefit your company. We can integrate into your process at any point, regardless of whether you've completed work with another supplier, have had ideas about how you could utilise AI/ML, or are just starting to hear about the buzz around AI in your sector and want to make sure you're keeping up.</p>
+                        <p>Regardless of how developed your ideas are, we advise beginning with a "discovery" call. This is our opportunity to learn more about your product, the technical skills you possess internally or through an outside service provider, and your plans for scaling and implementing AI and ML.</p>
+                    </div>
+                </div>
             </div>
             <div className={`flex direction-column ${style.step2}`}>
                 <div className="container flex items-center">
@@ -66,14 +64,11 @@ export default function Steps (props) {
                         data-aos="fade-right"
                         data-aos-duration="2000"
                     >
-                         <span className={style.subline}>Step 2:</span>
-                        <h2>From First Concept to MVP - <span>The Roadmap</span></h2>
-                        <p>The process we’ve developed for taking an AI/ML project from conception to delivery spans 3 full days, broken down into 6 distinct steps.
-                        </p>
-                        <p>We call this our Cloud Accelerator Programme - and businesses are generally surprised to discover that it’s completely cost neutral for clients whose digital transformation project will require a $750 monthly spend on the Amazon Web Services (AWS) platform moving forward.</p>
-                        <p>
-                        Here, we’ll take a look at what each of those steps entails - as well as the time investment required for each part of the process.
-                        </p>
+                        <span className={style.subline}>The Second Phase:</span>
+                        <h2>The Roadmap: From Initial Concept to MVP</h2>
+                        <p>We've built a 3-day method that consists of 6 separate processes to take an AI/ML project from idea to delivery.</p>
+                        <p>Our program is known as the Cloud Accelerator Program, and companies are usually taken aback to learn that it is entirely free for customers whose digital transformation initiative necessitates a $750 monthly expenditure on the Amazon Web Services (AWS) platform going ahead.</p>
+                        <p>We'll examine the contents of each of those phases as well as the time commitment needed for each step in this section.</p>
                     </div>
                     <figure
                         data-aos="fade-left"
@@ -84,45 +79,45 @@ export default function Steps (props) {
                 </div>
             </div>
             <div className={`flex direction-column ${style.step3}`}>
-                        <div className="container flex items-center">
-                            <figure
-                                data-aos="fade-left"
-                                data-aos-duration="2000"
-                            >
-                                <Image src={step3} alt={step3} />
-                            </figure>
-                            <div
-                                className={style.story_text}
-                                data-aos="fade-right"
-                                data-aos-duration="2000"
-                            >
-                                <span className={style.subline}>Step 3:</span>
-                                <h2>Best Practices - Safeguarding Your  <span>Digital Transformation</span> (2 Hours)</h2>
-                                <p>AI and ML solutions are almost certainly going to be working hand-in-hand with intellectual property and sensitive data. As such, it’s never too early to think about best practices around security and recovery.</p>
-                                <p>At this stage, we’ll connect again to discuss your existing security, disaster recovery, and data integrity infrastructure and compare it to the best practices and automation we’ve created to develop and streamline these essential factors. </p>
-                                <p>Of course, managing future billing and cost optimisation in cloud-based AI/ML is also a crucial part of any decision-making process.</p>
-                            </div>
-                        </div>
+                <div className="container flex items-center">
+                    <figure
+                        data-aos="fade-left"
+                        data-aos-duration="2000"
+                    >
+                        <Image src={step3} alt={step3} />
+                    </figure>
+                    <div
+                        className={style.story_text}
+                        data-aos="fade-right"
+                        data-aos-duration="2000"
+                    >
+                        <span className={style.subline}>The Third Phase:</span>
+                        <h2>Optimal Approaches - Preserving Your Digital Revolution (2 Hours)</h2>
+                        <p>Solutions based on AI and ML will most likely collaborate with sensitive data and intellectual property. Therefore, it's never too early to consider security and recovery best practices.</p>
+                        <p>At this point, we'll get in touch once more to talk about your current disaster recovery, security, and data integrity setup and contrast it with the best practices and automation we've developed to establish and optimise these crucial components.</p>
+                        <p>Naturally, a critical component of any decision-making process in cloud-based AI/ML is handling future invoicing and cost optimisation.</p>
+                    </div>
+                </div>
             </div>
             <div className={`flex direction-column ${style.step1}`}>
-                        <div className="container flex items-center">
-                            <div
-                                className={` ${style.story_text}`}
-                                data-aos="fade-right"
-                                data-aos-duration="2000"
-                            >
-                                <span className={style.subline}>Step 4:</span>
-                                <h2>Immersion - Aligning Technology and <span>Knowledge (4 Hours)</span></h2>
-                                <p>Embarking on an AI/ML project isn’t just about having the right tools - it’s about making sure your team is fully equipped to use them.</p>
-                                <p>To ensure this is the case, we’ll design a half-day immersion programme specifically designed for your in-house team. The session will focus on relevant technologies that are part of your AI/ML journey and will blend theoretical understanding with hands-on practice.</p>
-                            </div>
-                            <figure
-                                data-aos="fade-left"
-                                data-aos-duration="2000"
-                            >
-                                <Image src={step4} alt={step4} />
-                            </figure>
-                        </div>
+                <div className="container flex items-center">
+                    <div
+                        className={style.story_text}
+                        data-aos="fade-right"
+                        data-aos-duration="2000"
+                    >
+                        <span className={style.subline}>The Fourth Phase:</span>
+                        <h2>Participation: Matching Information and Technology (4 Hours)</h2>
+                        <p>Starting an AI/ML project requires more than simply possessing the appropriate tools; it also requires that your team is prepared to use them.</p>
+                        <p>We'll create a half-day immersion program especially for your internal staff to make sure this is the case. This seminar will combine academic knowledge with practical application, with an emphasis on pertinent technologies that are part of your AI/ML journey.</p>
+                    </div>
+                    <figure
+                        data-aos="fade-left"
+                        data-aos-duration="2000"
+                    >
+                        <Image src={step4} alt={step4} />
+                    </figure>
+                </div>
             </div>
             <div className={`flex direction-column ${style.step2}`}>
                 <div className="container flex items-center">
@@ -133,41 +128,38 @@ export default function Steps (props) {
                         <Image src={step5} alt={step5} />
                     </figure>
                     <div
-                        className={` ${style.story_text}`}
+                        className={style.story_text}
                         data-aos="fade-right"
                         data-aos-duration="2000"
                     >
-                         <span className={style.subline}>Step 5:</span>
-                        <h2>POC Delivery - Bringing Ideas <span>To Life (1 Day)</span></h2>
-                        <p>With ideas developed, proven best practices in place and your team’s knowledge honed, we’ll spend a full day creating a tangible, working model of your AI/ML project within your AWS environment.
-                        </p>
-                        <p>We’ll work with you to make sure the proof of concept (POC) or minimum viable product (MVP) that’s delivered aligns perfectly with your digital transformation objectives.</p>
-                        <p>
-                        This stage also includes forward thinking about efficacy and scalability of your AI/ML solution.
-                        </p>
+                        <span className={style.subline}>The Fifth Phase:</span>
+                        <h2>POC Shipping: Envisioning Concepts Into Reality (1 Day)</h2>
+                        <p>Having developed concepts, implemented tested best practices, and sharpened team expertise, we'll dedicate an entire day to building a physical, functional model of your AI/ML project inside your AWS environment.</p>
+                        <p>We will collaborate with you to ensure that the given minimal viable product (MVP) or proof of concept (POC) completely satisfies your goals for the digital transformation.</p>
+                        <p>This phase also entails planning forward for your AI/ML solution's scalability and efficacy.</p>
                     </div>
                 </div>
             </div>
             <div className={`flex direction-column ${style.step3}`}>
-                        <div className="container flex items-center">
-                            <div
-                                className={` ${style.story_text}`}
-                                data-aos="fade-right"
-                                data-aos-duration="2000"
-                            >
-                                <span className={style.subline}>Step 6:</span>
-                                <h2>Well Architectured Framework Review <span>Process (1 Day)</span></h2>
-                                <p>Where prior immersion training was a simulator session, the final step of the process sees your project take flight and focuses on handing over the controls to your team.</p>
-                                <p>To do this, we’ll use AWS’s exceptionally effective “Well Architectured Framework Review” (WAFR). The process looks at key concepts, design principles and structural best practices for running AI/ML workloads in the cloud.</p>
-                            </div>
-                            <figure
-                                data-aos="fade-left"
-                                data-aos-duration="2000"
-                            >
-                                <Image src={step6} alt={step6} />
-                            </figure>
-                        </div>
+                <div className="container flex items-center">
+                    <div
+                        className={style.story_text}
+                        data-aos="fade-right"
+                        data-aos-duration="2000"
+                    >
+                        <span className={style.subline}>The Sixth Phase:</span>
+                        <h2>Examining a Well-Architectured Foundation (1 Day)</h2>
+                        <p>The last part of the process involves letting your project take off and focuses on giving your team control, unlike the previous immersion training, which was a simulator session.</p>
+                        <p>We'll use AWS's incredibly useful "Well Architectured Framework Review" (WAFR) to do this. The procedure examines fundamental ideas, design tenets, and organisational best practices for executing AI/ML workloads on the cloud.</p>
+                    </div>
+                    <figure
+                        data-aos="fade-left"
+                        data-aos-duration="2000"
+                    >
+                        <Image src={step6} alt={step6} />
+                    </figure>
+                </div>
             </div>
         </>
     );
-};
+}

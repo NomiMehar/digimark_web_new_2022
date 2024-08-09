@@ -14,8 +14,8 @@ export default function HiringModal() {
                 <div className="section_title white" style={{textAlign:"left", width:"100%"}} data-aos="fade-up"
              data-aos-easing="ease-in-sine"
              data-aos-duration="1000">
-                    <h2>AI PoC and <span>AI MVP Services</span></h2>
-                    <p style={{marginLeft:"0",maxWidth:"80%"}}>Step into the future of innovation with our bespoke AI solutions. From preliminary exploration to full-scale implementation, we're committed to your successful AI transformation journey.</p>
+                    <h2>Services For <span>AI MVPs And PoCs</span></h2>
+                    <p style={{marginLeft:"0",maxWidth:"80%"}}>With the help of our custom AI solutions, venture into the future of innovation. We are dedicated to your successful AI transformation journey, from initial investigation to full-scale implementation.</p>
                 </div>
                 <div className={style.choose_services}>
                     <ul className="list-none flex flex-wrap">
