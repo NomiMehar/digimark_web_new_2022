@@ -10,7 +10,7 @@ export default function Faqs(props) {
     useEffect(() => {
         AOS.init();
     }, [])
-    const data = {
+    const defaultData  = {
         rows: [
             {
                 title: "Will we sign an NDA to keep my Android app idea confidential?",
@@ -34,6 +34,7 @@ export default function Faqs(props) {
             }
         ],
     };
+    const data = props.data || defaultData;
     const styles = {
         rowTitleColor: "#252B33",
         rowContentColor: 'rgba(37,43,51,0.6)',

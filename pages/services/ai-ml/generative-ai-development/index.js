@@ -1,7 +1,7 @@
 import React from 'react'
 import GetQuote from '../../../../components/get-quote/GetQuote'
 import MobilityBanner from '../../innovation/mobility/android-app-development/android-app-banner/MobilityBanner'
-import Faqs from './faq/Faqs'
+import Faqs from '../../innovation/mobility/android-app-development/faq/Faqs'
 import bannerSideImage from '../../../../public/assets/images/services/augmentation.svg'
 import WhyChoose from '../../innovation/mobility/android-app-development/why-choose/WhyChoose'
 import dataAIMLLists from '../../innovation/mobility/android-app-development/why-choose/genetrativeAiLists.json'
@@ -18,6 +18,30 @@ import NftTechStack from './nft-tech-stack/NftTechStack'
 import DevelopmentProcess from '../../innovation/mobility/android-app-development/development-process/DevelopmentProcess'
 import GenAiList from '../../innovation/mobility/android-app-development/development-process/GenAiList.json'
 export default function index() {
+    const genFaqs = {
+        rows: [
+            {
+                title: "What is the evolution of generative AI?",
+                content: `The process of developing generative AI systems is teaching them to recognise patterns and inputs in existing data to produce new material, such as writing, graphics, or music.`,
+            },
+            {
+                title: "How will generative AI make the company profitable?",
+                content: `By creating data-guided insights that suit your firm’s needs, generative AI can foster creativity, automate content generation, deliver personalized consumer experiences and enhance decision-making.`,
+            },
+            {
+                title: "Which industries are expected to benefit from generative AI?",
+                content: `From retail, healthcare, banking, education to entertainment; both these areas could be applied with generative for innovation purposes, improved customer engagement or the optimization of procedures.`,
+            },
+            {
+                title: "How do we ensure reliability and quality of generative AI models?",
+                content: `In order to create trustworthy AI solutions, we maintain quality through stringent testing, ongoing model improvement, and validation against real-world scenarios. We also eliminate any biases and increase accuracy.`,
+            },
+            {
+                title: "What is the typical time frame for creating a solution with generative AI?",
+                content: `The complexity of the project and data amount requirements as well as customization affect the time frame. On average it may take several weeks to several months which includes planning, development as well as testing processes.`,
+            }
+        ],
+    };
   return (
   <>
    <div className="android-app-development ionic-app-dev">
@@ -68,7 +92,7 @@ export default function index() {
             <TechSection
                 TechSectionList={TechSectionList}
             />
-    <Faqs/>
+    <Faqs data={genFaqs}/>
     <GetQuote/>
     </div>
   </>
