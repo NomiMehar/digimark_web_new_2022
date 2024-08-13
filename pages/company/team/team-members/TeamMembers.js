@@ -1,7 +1,7 @@
 import React, {useEffect} from "react";
 import teamMemberList from "./teamMember.json"
 import style from "./teamMember.module.scss"
-import linkedinIcon from "../../../../public/assets/images/company/linkedin.webp"
+import linkedinIcon from "../../../../public/assets/images/company/linkedin.svg"
 import Image from "next/image";
 import Link from "next/link";
 import AOS from 'aos';

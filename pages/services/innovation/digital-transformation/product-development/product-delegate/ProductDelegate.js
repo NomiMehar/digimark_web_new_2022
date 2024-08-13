@@ -1,6 +1,6 @@
 import style from "./productDelegate.module.scss"
 import Image from "next/image";
-import Image1 from "../../../../../../public/assets/images/services/delegat-img.webps"
+import Image1 from "../../../../../../public/assets/images/services/delegat-img.webp"
 import whiteArrow from "../../../../../../public/assets/images/homepage/customer_talk/white-arrow.svg";
 import Link from "next/link";
 import React from "react";
