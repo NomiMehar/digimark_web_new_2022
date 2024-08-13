@@ -1,25 +1,25 @@
 [
   {
     "projectNo": "01",
-    "projectImage": "/assets/images/services/project1.jpg",
+    "projectImage": "/assets/images/services/project1.webp",
     "projectTitle": "cost-effective solution",
     "productName": "Fintech Product"
   },
   {
     "projectNo": "02",
-    "projectImage": "/assets/images/services/project2.jpg",
+    "projectImage": "/assets/images/services/project2.webp",
     "projectTitle": "cost-effective solution",
     "productName": "Fintech Product"
   },
   {
     "projectNo": "03",
-    "projectImage": "/assets/images/services/project3.jpg",
+    "projectImage": "/assets/images/services/project3.webp",
     "projectTitle": "cost-effective solution",
     "productName": "Fintech Product"
   },
   {
     "projectNo": "04",
-    "projectImage": "/assets/images/services/project4.jpg",
+    "projectImage": "/assets/images/services/project4.webp",
     "projectTitle": "cost-effective solution",
     "productName": "Fintech Product"
   }

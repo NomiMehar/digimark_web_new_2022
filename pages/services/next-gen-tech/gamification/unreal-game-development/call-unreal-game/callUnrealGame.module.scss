@@ -1,7 +1,7 @@
 @import "../../../../../../styles/variables";
 .call_unreal_game {
   padding: 169px 0 129px;
-  background: url("../../../../../../public/assets/images/services/unreal-call-action-bg.png") center;
+  background: url("../../../../../../public/assets/images/services/unreal-call-action-bg.webp") center;
   background-size: 100% 100%;
   margin-bottom: -150px;
   position: relative;
@@ -12,7 +12,7 @@
     margin-bottom: 0;
   }
   &.unity_call_action {
-    background: url("../../../../../../public/assets/images/services/unity_call_action_bg.png") center;
+    background: url("../../../../../../public/assets/images/services/unity_call_action_bg.webp") center;
     background-size: 100% 100%;
     margin: 0;
     padding: 110px 0 175px;

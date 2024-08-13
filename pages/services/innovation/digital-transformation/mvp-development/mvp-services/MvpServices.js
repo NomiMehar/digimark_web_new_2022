@@ -1,6 +1,6 @@
 import style from "./mvpServices.module.scss"
 import mvpServices from "./mvpServices.json"
-import letSolveImage from "../../../../../../public/assets/images/services/let-solve.png"
+import letSolveImage from "../../../../../../public/assets/images/services/let-solve.webp"
 import Image from "next/image";
 
 export default function MvpServices() {

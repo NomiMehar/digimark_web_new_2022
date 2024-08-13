@@ -11,7 +11,7 @@ import GameTechnologies from "./game-technologies/GameTechnologies";
 // import GameProcess from "./game-process/GameProcess";
 // import gamesProcessList from './game-process/gameProcessList.json';
 import MiddleCallAction from "./middle-call-action/MiddleCallAction";
-import middleActionImage from "../../../../../public/assets/images/services/middleactionimage1.png";
+import middleActionImage from "../../../../../public/assets/images/services/middleactionimage1.webp";
 import CreativeGame from "./creative-game/CreativeGame";
 import ServicesCompany from "./services-company/ServicesCompany";
 import servicesCompanyList from "./services-company/servicesCompanyList.json";
@@ -22,7 +22,7 @@ export default function index() {
    <div className="android-app-development ionic-app-dev">
     <MobilityBanner classes="game_dev_banner"
         backgroundVideo={true}
-        bg_video_poster="/assets/images/services/gamedev-poster.jpg"
+        bg_video_poster="/assets/images/services/gamedev-poster.webp"
         bg_bannerUrl="/assets/images/services/gamedev.mp4"
         dynamicBanner={true}
         breadcrumParent="Next-Gen Tech"

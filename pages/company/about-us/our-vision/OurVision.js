@@ -1,6 +1,6 @@
 import React, {useEffect} from "react";
 import style from "./OurVision.module.scss"
-import storyImage from "../../../../public/assets/images/company/vision-img.png"
+import storyImage from "../../../../public/assets/images/company/vision-img.webp"
 import missionImage from "../../../../public/assets/images/company/mission-img.svg"
 import Image from "next/image";
 import AOS from 'aos';

@@ -6,8 +6,8 @@ import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
 import Image from "next/image";
-import gameImage1 from "../../../../../../public/assets/images/services/gameIcon1.png"
-import gameImage2 from "../../../../../../public/assets/images/services/gameIcon2.png"
+import gameImage1 from "../../../../../../public/assets/images/services/gameIcon1.webp"
+import gameImage2 from "../../../../../../public/assets/images/services/gameIcon2.webp"
 
 export default function GameTechnologies() {
   return (

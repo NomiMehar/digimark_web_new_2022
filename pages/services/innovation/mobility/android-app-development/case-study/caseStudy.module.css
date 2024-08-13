@@ -7,7 +7,7 @@
 }
 .case_study_wrapper.ios_casestudy .box_cases .case_clip {
   width: 57%;
-  background: url("../../../../../../public/assets/images/services/case-study-1.jpg") center fixed;
+  background: url("../../../../../../public/assets/images/services/case-study-1.webp") center fixed;
   background-size: cover;
   left: unset;
 }

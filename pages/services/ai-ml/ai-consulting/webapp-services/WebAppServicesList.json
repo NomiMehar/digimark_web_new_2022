@@ -1,6 +1,6 @@
 [
   {
-    "processImg": "/assets/images/services/chain-process1.jpg",
+    "processImg": "/assets/images/services/chain-process1.webp",
     "process_name": "Data-Informed Decision Making",
     "process_description": "We create sophisticated solutions that analyse operational procedures by utilising artificial intelligence. These tools spot patterns, oddities, and possible openings for growth hacking. Executives are empowered to make well-informed decisions at the highest level because of this thorough investigation.",
     "process_list": [
@@ -12,7 +12,7 @@
     ]
   },
   {
-    "processImg": "/assets/images/services/chain-process1.jpg",
+    "processImg": "/assets/images/services/chain-process1.webp",
     "process_name": "Sales and Marketing",
     "process_description": "By applying cutting-edge intelligence, we enable businesses to achieve improved customer acquisition, retention, and brand campaign relevance.",
     "process_list": [
@@ -26,7 +26,7 @@
     ]
   },
   {
-    "processImg": "/assets/images/services/chain-process1.jpg",
+    "processImg": "/assets/images/services/chain-process1.webp",
     "process_name": "Client Support",
     "process_description": "Boost the quality of your client support! We create chatbots that handle customer service using artificial intelligence (AI), freeing you up to work on more difficult problems.",
     "process_list": [
@@ -38,7 +38,7 @@
     ]
   },
   {
-    "processImg": "/assets/images/services/chain-process1.jpg",
+    "processImg": "/assets/images/services/chain-process1.webp",
     "process_name": "Cybersecurity and Physical",
     "process_description": "We use state-of-the-art artificial intelligence to protect user identities, data integrity, and physical boundaries. Our solutions include sophisticated biometric recognition technology and advanced machine learning algorithms for fraud prevention. This all-encompassing strategy proactively tackles security threats that are both known and emerging.",
     "process_list": [

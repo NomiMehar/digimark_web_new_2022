@@ -2,7 +2,7 @@ import React, {useState} from "react";
 import GoogleMapReact from "google-map-react";
 import style from "./LetsTalk.module.scss";
 import Image from "next/image";
-import marukhImage from "../../../public/assets/images/homepage/lets_talk/marukh.png";
+import marukhImage from "../../../public/assets/images/homepage/lets_talk/marukh.webp";
 import telegrameImage from "../../../public/assets/images/homepage/lets_talk/telegram.svg";
 import whiteArrow from "../../../public/assets/images/homepage/customer_talk/white-arrow.svg";
 import Link from "next/link";

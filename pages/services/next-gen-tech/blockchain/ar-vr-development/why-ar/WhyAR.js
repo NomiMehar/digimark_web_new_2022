@@ -1,5 +1,5 @@
 import style from "./whyAR.module.scss"
-import mainImage from "../../../../../../public/assets/images/services/why-ar.png"
+import mainImage from "../../../../../../public/assets/images/services/why-ar.webp"
 import Image from "next/image";
 import React, {useEffect} from "react";
 import AOS from 'aos';

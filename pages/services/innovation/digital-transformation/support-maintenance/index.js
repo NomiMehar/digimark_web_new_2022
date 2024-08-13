@@ -10,7 +10,7 @@ import maintenanceSupportList from "./benefits-support/maintenanceSupportList.js
 import PerksOfWorking from "../../mobility/android-app-development/perks-of-working/PerksOfWorking";
 import MaintenanceSupport from "./maintenance-support/MaintenanceSupport";
 import ApproachSupport from "./approach-support/ApproachSupport";
-import bannerSideImage from "../../../../../public/assets/images/services/support_banner_bg.png";
+import bannerSideImage from "../../../../../public/assets/images/services/support_banner_bg.webp";
 
 export default function index() {
   return (

@@ -1,6 +1,6 @@
 import style from "./processNftGame.module.scss"
 import React from "react";
-import processImage from "../../../../../../public/assets/images/services/processImage.png"
+import processImage from "../../../../../../public/assets/images/services/processImage.webp"
 import Image from "next/image";
 
 export default function ProcessNFTGame() {

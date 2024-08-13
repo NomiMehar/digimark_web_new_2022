@@ -18,13 +18,13 @@ const HomePage = () => {
       <Head>
         <title>Digimark Developers | Your Innovative Solution Partner</title>
         <meta name="description" content="Your Innovative Solution Partner." />
-        <link rel="shortcut icon" href="/assets/images/header/favicon.png" type="image/x-icon" />
+        <link rel="shortcut icon" href="/assets/images/header/favicon.webp" type="image/x-icon" />
         <meta property="og:title" content="Digimark Developers" />
         <meta property="og:description" content="Your Innovative Solution Partner." />
-        <meta property="og:image" content="/assets/images/header/favicon.png" />
+        <meta property="og:image" content="/assets/images/header/favicon.webp" />
         <meta name="twitter:title" content="Digimark Developers" />
         <meta name="twitter:description" content="Your Innovative Solution Partner." />
-        <meta name="twitter:image" content="/assets/images/header/favicon.png" />
+        <meta name="twitter:image" content="/assets/images/header/favicon.webp" />
       </Head>
       <Banner />
       <Expertise />

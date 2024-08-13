@@ -1,6 +1,6 @@
 import style from "./aboutCloud.module.scss"
 import Image from "next/image";
-import aboutCloud from "../../../../../../public/assets/images/services/cloud-about-img.png"
+import aboutCloud from "../../../../../../public/assets/images/services/cloud-about-img.webp"
 
 export default function AboutCloud() {
     return(

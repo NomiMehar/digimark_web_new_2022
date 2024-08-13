@@ -19,7 +19,7 @@
     position: relative;
     padding: 50px 0;
     margin: -50px 0 0;
-    background: url("../../../../../../public/assets/images/services/nft-logs-bg.png") center;
+    background: url("../../../../../../public/assets/images/services/nft-logs-bg.webp") center;
     background-size: 100% 100%;
     ul {
       width: 100%;
@@ -41,7 +41,7 @@
   &.enterprise_bg {
     position: relative;
     &:before {
-      background: url('../../../../../../public/assets/images/services/enterprise-logo-shape.png') center bottom;
+      background: url('../../../../../../public/assets/images/services/enterprise-logo-shape.webp') center bottom;
       background-size: cover;
       height: 114px;
       top: -114px;

@@ -1,7 +1,7 @@
 import CompanyBanner from "../company/about-us/company-banner/CompanyBanner";
 import React from "react";
 import LetsTalk from "../landingpage/LetsTalk/LetsTalk";
-import dynamicImageUrl from "../../public/assets/images/services/monowithimage.png"
+import dynamicImageUrl from "../../public/assets/images/services/monowithimage.webp"
 import CaseStudiesCards from "./case-studies-cards/CaseStudiesCards";
 import OurProducts from "../landingpage/OurProducts/OurProducts";
 

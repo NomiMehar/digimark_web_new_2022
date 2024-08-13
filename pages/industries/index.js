@@ -1,4 +1,4 @@
-import dynamicImageUrl from "../../public/assets/images/services/monowithimage.png";
+import dynamicImageUrl from "../../public/assets/images/services/monowithimage.webp";
 import CompanyBanner from "../company/about-us/company-banner/CompanyBanner";
 import React from "react";
 import IndustriesAbout from "./industries-about/IndustriesAbout";

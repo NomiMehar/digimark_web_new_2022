@@ -9,7 +9,7 @@ import CallToQualityAssurance from "./callto-quality-assurance/CallToQualityAssu
 import TestQualityAssurance from "./test-quality-assurance/TestQualityAssurance";
 import UseQualityAssurance from "./use-quality-assurance/UseQualityAssurance";
 import ProcessQualityAssurance from "./process-quality-assurance/ProcessQualityAssurance";
-import bannerSideImage from "../../../../../public/assets/images/services/qa_banner_image.png"
+import bannerSideImage from "../../../../../public/assets/images/services/qa_banner_image.webp"
 import WorkQualityAssurance from "./work-quality-assurance/WorkQualityAssurance";
 
 export default function index() {

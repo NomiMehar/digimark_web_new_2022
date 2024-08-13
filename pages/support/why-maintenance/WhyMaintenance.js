@@ -1,6 +1,6 @@
 import React, {useEffect} from "react";
 import style from "./whyMaintenance.module.scss"
-import MaintenanceImage from "../../../public/assets/images/support/maintenance.png"
+import MaintenanceImage from "../../../public/assets/images/support/maintenance.webp"
 import Image from "next/image";
 import AOS from 'aos';
 

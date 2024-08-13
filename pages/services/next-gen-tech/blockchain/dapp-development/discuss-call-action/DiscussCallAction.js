@@ -1,6 +1,6 @@
 import React, {useEffect} from "react";
 import style from "./discussCallAction.module.scss";
-import discussImage from "../../../../../../public/assets/images/services/discuss-action-img.jpg"
+import discussImage from "../../../../../../public/assets/images/services/discuss-action-img.webp"
 import AOS from 'aos';
 import Image from "next/image";
 import whiteArrow from "../../../../../../public/assets/images/homepage/customer_talk/white-arrow.svg";

@@ -1,7 +1,7 @@
 import style from "./productDevService.module.scss"
 import productDevServiceList from "./productDevServiceList.json"
 import Image from "next/image";
-import serviceImg from "../../../../../../public/assets/images/services/dev_serviceimg.jpg";
+import serviceImg from "../../../../../../public/assets/images/services/dev_serviceimg.webp";
 
 export default function ProductDevService() {
     return(

@@ -1,6 +1,6 @@
 import style from "./productIndustries.module.scss"
 import Image from "next/image";
-import galleryImage1 from "../../../../../../public/assets/images/services/indust-gallery1.jpg"
+import galleryImage1 from "../../../../../../public/assets/images/services/indust-gallery1.webp"
 
 export default function ProductIndustries() {
     return(

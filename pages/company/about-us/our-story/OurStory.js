@@ -1,7 +1,7 @@
 import React, {useEffect} from "react";
 import style from "./OurStory.module.scss"
-import storyImage from "../../../../public/assets/images/services/story.png"
-import visionImage from "../../../../public/assets/images/services/vision-image.png"
+import storyImage from "../../../../public/assets/images/services/story.webp"
+import visionImage from "../../../../public/assets/images/services/vision-image.webp"
 import Image from "next/image";
 import AOS from 'aos';
 

@@ -1,5 +1,5 @@
 import style from "./achieveSuccess.module.scss"
-import achieveSuccess from "../../../../public/assets/images/company/scrum.png"
+import achieveSuccess from "../../../../public/assets/images/company/scrum.webp"
 import Image from "next/image";
 
 export default function AchieveSuccess () {

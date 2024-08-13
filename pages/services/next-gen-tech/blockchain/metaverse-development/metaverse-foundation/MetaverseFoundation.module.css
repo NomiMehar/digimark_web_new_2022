@@ -20,7 +20,7 @@
 }
 .metaverse_foundation .native_version {
   padding: 30px;
-  background: url("../../../../../../public/assets/images/services/lang-bg.jpg");
+  background: url("../../../../../../public/assets/images/services/lang-bg.webp");
 }
 @media (max-width: 1000px) {
   .metaverse_foundation .native_version {

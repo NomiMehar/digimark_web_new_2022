@@ -42,7 +42,7 @@ export default function CaseDetails({ caseStudy }) {
             }} />
                 <div className="case_video_section">
                     {caseStudy.videoLink ? (
-                        <video className={style.banner_video} autoPlay loop muted poster="/assets/images/homepage/banner/banner-poster.jpg">
+                        <video className={style.banner_video} autoPlay loop muted poster="/assets/images/homepage/banner/banner-poster.webp">
                         <source src={caseStudy.videoLink} type="video/mp4" />
                         </video>
                     ) : (

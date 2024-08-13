@@ -1,12 +1,12 @@
 import React, {useEffect} from "react";
 import style from "./Steps.module.scss"
-import step1 from "../../../../../public/assets/images/services/cstep1.png"
-import step2 from "../../../../../public/assets/images/services/cstep2.png"
-import step3 from "../../../../../public/assets/images/services/cstep3.png"
-import step4 from "../../../../../public/assets/images/services/cstep4.png"
-import step5 from "../../../../../public/assets/images/services/cstep5.png"
-import step6 from "../../../../../public/assets/images/services/cstep6.png"
-import step7 from "../../../../../public/assets/images/services/cstep7.png"
+import step1 from "../../../../../public/assets/images/services/cstep1.webp"
+import step2 from "../../../../../public/assets/images/services/cstep2.webp"
+import step3 from "../../../../../public/assets/images/services/cstep3.webp"
+import step4 from "../../../../../public/assets/images/services/cstep4.webp"
+import step5 from "../../../../../public/assets/images/services/cstep5.webp"
+import step6 from "../../../../../public/assets/images/services/cstep6.webp"
+import step7 from "../../../../../public/assets/images/services/cstep7.webp"
 import Image from "next/image";
 import AOS from 'aos';
 

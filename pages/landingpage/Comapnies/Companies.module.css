@@ -3,7 +3,7 @@
   background-color: #FFFFFF;
 }
 .companies_logo.colored_bg {
-  background: #F3F6FF url("../../../public/assets/images/company/quick_layer.png");
+  background: #F3F6FF url("../../../public/assets/images/company/quick_layer.webp");
 }
 @media screen and (max-width: 1000px) {
   .companies_logo .company_logos {

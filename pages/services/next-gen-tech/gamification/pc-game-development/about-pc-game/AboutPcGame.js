@@ -1,6 +1,6 @@
 import style from "./aboutPcGame.module.scss"
 import Image from "next/image";
-import aboutImage from "../../../../../../public/assets/images/services/pc-image.png"
+import aboutImage from "../../../../../../public/assets/images/services/pc-image.webp"
 import grayShape from "../../../../../../public/assets/images/services/gray-shape.svg"
 
 export default function AboutPcGame() {

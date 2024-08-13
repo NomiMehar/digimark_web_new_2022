@@ -48,7 +48,7 @@
   width: 100%;
   height: 100%;
   pointer-events: none;
-  background: #1E4658 url("../../../../../../public/assets/images/services/box-shadow.png") no-repeat top right;
+  background: #1E4658 url("../../../../../../public/assets/images/services/box-shadow.webp") no-repeat top right;
 }
 .offer_wrapper .offer_list ul li section:hover img {
   transform: rotate(20deg) scale(1.1);

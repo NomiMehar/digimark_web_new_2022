@@ -1,7 +1,7 @@
 import React,{useEffect} from "react";
 import style from "./MetaverseAdvantage.module.scss"
 import Image from "next/image";
-import chooseImage from "../../../../../../public/assets/images/services/meta_advantage.png"
+import chooseImage from "../../../../../../public/assets/images/services/meta_advantage.webp"
 import metaverseAdvantageList from "./MetaverseAdvantageList.json"
 import AOS from 'aos';
 

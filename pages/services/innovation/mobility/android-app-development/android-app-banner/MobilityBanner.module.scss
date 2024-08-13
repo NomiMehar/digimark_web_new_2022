@@ -2,7 +2,7 @@
 .product_banner_wrapper {
   height: calc(100vh);
   padding: 173px 0 0;
-  background: url("../../../../../../public/assets/images/services/app-bg.jpg") fixed center;
+  background: url("../../../../../../public/assets/images/services/app-bg.webp") fixed center;
   background-size: cover;
   position: relative;
 
@@ -15,7 +15,7 @@
     padding: 130px 0 60px;
   }
   &.unity_nft_banner {
-    background: url("../../../../../../public/assets/images/services/unity-banner-bg.jpg") fixed center;
+    background: url("../../../../../../public/assets/images/services/unity-banner-bg.webp") fixed center;
     background-size: cover;
     .app_banner_video { display: none}
     .service_banner_wrapper {
@@ -26,7 +26,7 @@
   }
   &.game_nft_banner {
     padding: 173px 0 0;
-    background: url("../../../../../../public/assets/images/services/nft-game-banner-bg.jpg") fixed center;
+    background: url("../../../../../../public/assets/images/services/nft-game-banner-bg.webp") fixed center;
     background-size: cover;
     @media (max-width: $breakpoint_tablet) {
       padding-bottom: 30px;
@@ -42,7 +42,7 @@
     }
   }
   &.unreal_nft_banner {
-    background: url("../../../../../../public/assets/images/services/unreal_game_bg.jpg") right center no-repeat;
+    background: url("../../../../../../public/assets/images/services/unreal_game_bg.webp") right center no-repeat;
     padding: 173px 0 0;
     background-size: cover ;
     @media (max-width: $breakpoint_mobile_portrait){
@@ -125,7 +125,7 @@
     }
   }
   &.ai_game_development{
-    background: url("../../../../../../public/assets/images/services/ai-game.png") right center no-repeat;
+    background: url("../../../../../../public/assets/images/services/ai-game.webp") right center no-repeat;
     padding: 173px 0 0;
     background-size: cover ;
     @media (max-width: $breakpoint_mobile_portrait){
@@ -151,7 +151,7 @@
     }
   }
   &.blockchain_game_development{
-    background: url("../../../../../../public/assets/images/services/blockchain_game.png") center no-repeat;
+    background: url("../../../../../../public/assets/images/services/blockchain_game.webp") center no-repeat;
     padding: 173px 0 0;
     background-size: cover ;
     // @media (max-width: $breakpoint_tablet) {
@@ -177,7 +177,7 @@
     }
   }
   &.metaverse_game_development{
-    background: url("../../../../../../public/assets/images/services/metaverse_game.png") right center no-repeat;
+    background: url("../../../../../../public/assets/images/services/metaverse_game.webp") right center no-repeat;
     padding: 173px 0 0;
     background-size: cover ;
     // @media (max-width: $breakpoint_tablet) {
@@ -191,7 +191,7 @@
     }
   }
   &.fullCyle_game_development{
-    background: url("../../../../../../public/assets/images/services/full_cycle.png") right center no-repeat;
+    background: url("../../../../../../public/assets/images/services/full_cycle.webp") right center no-repeat;
     padding: 173px 0 0;
     background-size: cover ;
     // @media (max-width: $breakpoint_tablet) {
@@ -238,7 +238,7 @@
     background: #12262F;
   }
   &.cloud_banner_wrapper {
-    background: #12262F url("../../../../../../public/assets/images/services/cloud-banner-bg.jpg") no-repeat center right;
+    background: #12262F url("../../../../../../public/assets/images/services/cloud-banner-bg.webp") no-repeat center right;
     background-blend-mode: lighten;
     @media (max-width: $breakpoint_mobile_landscape) {
       background: #12262F;
@@ -254,7 +254,7 @@
     video { display: none}
   }
   &.product_banner_development {
-    background: #12262F url("../../../../../../public/assets/images/services/product_dev_bg.png") no-repeat center right;
+    background: #12262F url("../../../../../../public/assets/images/services/product_dev_bg.webp") no-repeat center right;
     video { display: none}
   }
   &.mvp_app_banner {
@@ -280,7 +280,7 @@
     padding-bottom: 0;
   }
   &.support_banner {
-    background-image: url("../../../../../../public/assets/images/support/support-bg.jpg");
+    background-image: url("../../../../../../public/assets/images/support/support-bg.webp");
     .service_banner_wrapper {
       width: 50%;
       @media (max-width: $breakpoint_tablet) {
@@ -298,7 +298,7 @@
       h1 {
         text-transform: uppercase;
         font-size: 65px;
-        background: url("../../../../../../public/assets/images/services/banner-dots.png") no-repeat top left;
+        background: url("../../../../../../public/assets/images/services/banner-dots.webp") no-repeat top left;
         padding-left: 200px;
         padding-top: 50px;
         margin: 0;
@@ -339,7 +339,7 @@
     }
   }
   &.blockchain_banner {
-    background-image: url("../../../../../../public/assets/images/services/blockchain-bg.jpg");
+    background-image: url("../../../../../../public/assets/images/services/blockchain-bg.webp");
     .app_banner_video { display: none;}
     padding-bottom: 0;
     .service_banner_wrapper {
@@ -351,7 +351,7 @@
     }
   }
   &.arvr_banner {
-    background-image: url("../../../../../../public/assets/images/services/ar-banner.jpg");
+    background-image: url("../../../../../../public/assets/images/services/ar-banner.webp");
     .app_banner_video { display: none;}
     padding-bottom: 0;
     .service_banner_wrapper {
@@ -363,7 +363,7 @@
     }
   }
   &.defi_banner {
-    background-image: url("../../../../../../public/assets/images/services/defi_banner.jpg");
+    background-image: url("../../../../../../public/assets/images/services/defi_banner.webp");
     .app_banner_video { display: none;}
     padding-bottom: 0;
     .service_banner_wrapper {
@@ -479,7 +479,7 @@
     }
   }
   &.metaverse_development{
-    background: url("../../../../../../public/assets/images/services/metaverse-bg.jpg") fixed center;
+    background: url("../../../../../../public/assets/images/services/metaverse-bg.webp") fixed center;
    .service_banner_wrapper{
     text-align: center;
     align-items: center;
@@ -526,7 +526,7 @@
     }
   }
   &.bespoke_banner{
-    background-image: url("../../../../../../public/assets/images/services/bespoke-bg.png");
+    background-image: url("../../../../../../public/assets/images/services/bespoke-bg.webp");
     .service_banner_wrapper {
       width: 50%;
       @media (max-width: $breakpoint_tablet) {
@@ -555,7 +555,7 @@
     }
   }
   &.augmentation_banner{
-    background-image: url("../../../../../../public/assets/images/services/app-bg.jpg");
+    background-image: url("../../../../../../public/assets/images/services/app-bg.webp");
     .service_banner_wrapper {
       width: 100%;
       @media (max-width: $breakpoint_tablet) {
@@ -584,7 +584,7 @@
     }
   }
   &.engagementsModel{
-    background-image: url("../../../../../../public/assets/images/services/app-bg.jpg");
+    background-image: url("../../../../../../public/assets/images/services/app-bg.webp");
     .service_banner_wrapper {
       width: 100%;
       @media (max-width: $breakpoint_tablet) {
@@ -620,7 +620,7 @@
     }
   }
   &.ai-poc-mvp{
-    background-image: url("../../../../../../public/assets/images/services/ai-poc-mvp.jpg");
+    background-image: url("../../../../../../public/assets/images/services/ai-poc-mvp.webp");
     .service_banner_wrapper {
       width: 100%;
       @media (max-width: $breakpoint_tablet) {
@@ -649,7 +649,7 @@
     }
   }
   &.computer-vision{
-    background-image: url("../../../../../../public/assets/images/services/computer-vision.png");
+    background-image: url("../../../../../../public/assets/images/services/computer-vision.webp");
     .service_banner_wrapper {
       width: 100%;
       @media (max-width: $breakpoint_tablet) {

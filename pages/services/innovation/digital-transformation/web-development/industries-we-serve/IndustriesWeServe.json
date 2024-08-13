@@ -3,46 +3,46 @@
     "tab_button": "Healthcare",
     "tab_title": "Healthcare",
     "tab_content": "Imagine getting top-notch care from anywhere! Digital healthcare makes clinics run smoother, lets doctors see you remotely, and keeps everyone healthier.",
-    "tabImg": "/assets/images/industries/serve1.jpg"
+    "tabImg": "/assets/images/industries/serve1.webp"
   },
   {
     "tab_button": "Fintech",
     "tab_title": "Fintech",
     "tab_content": "Fintech automates routine procedures and improves outcomes. AI enables threats, prevents fraud, automates everyday tasks, and enhances the quality of service.",
-    "tabImg": "/assets/images/industries/serve2.jpg"
+    "tabImg": "/assets/images/industries/serve2.webp"
   },
   {
     "tab_button": "Retail",
     "tab_title": "Retail",
     "tab_content": "Retail businesses partner with us to unlock new opportunities, drive revenue growth, and expand their customer base.",
-    "tabImg": "/assets/images/industries/serve3.jpg"
+    "tabImg": "/assets/images/industries/serve3.webp"
   },
   {
     "tab_button": "EdTech",
     "tab_title": "EdTech",
     "tab_content": "E-learning offers interactive content, personalization, cost savings, increased employee performance, and faster ROI.",
-    "tabImg": "/assets/images/industries/serve4.jpg"
+    "tabImg": "/assets/images/industries/serve4.webp"
   },
   {
     "tab_button": "Hospitality",
     "tab_title": "Hospitality",
     "tab_content": "Elevate the hospitality business with our cutting-edge technology solutions and drive business success.",
-    "tabImg": "/assets/images/industries/serve5.jpg"
+    "tabImg": "/assets/images/industries/serve5.webp"
   },
   {
     "tab_button": "Tour & travel",
     "tab_title": "Tour & travel",
-    "tabImg": "/assets/images/industries/serve6.jpg",
+    "tabImg": "/assets/images/industries/serve6.webp",
     "tab_content": "Our tailored software solutions empower Travel & Hospitality businesses to optimize operations and maximize revenue in a dynamic market."
   },
   {
-    "tabImg": "/assets/images/industries/serve7.jpg",
+    "tabImg": "/assets/images/industries/serve7.webp",
     "tab_button": "On-Demand",
     "tab_title": "On-Demand",
     "tab_content": "We offer tailored solutions that seamlessly connect businesses with their users in real time."
   },
   {
-    "tabImg": "/assets/images/industries/serve8.jpg",
+    "tabImg": "/assets/images/industries/serve8.webp",
     "tab_button": "Social",
     "tab_title": "Social",
     "tab_content": "We build App that helps to create networks, analyze user insights and experiences."

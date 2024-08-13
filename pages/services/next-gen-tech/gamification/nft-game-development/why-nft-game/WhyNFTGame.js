@@ -1,6 +1,6 @@
 import style from "./whyNftGame.module.scss"
 import React from "react";
-import avatarImage from "../../../../../../public/assets/images/services/nft-avatar.png"
+import avatarImage from "../../../../../../public/assets/images/services/nft-avatar.webp"
 import Image from "next/image";
 
 export default function WhyNFTGame() {

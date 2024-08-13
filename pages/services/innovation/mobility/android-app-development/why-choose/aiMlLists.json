@@ -1,41 +1,41 @@
 [
   {
-    "whyChooseIcon" : "/assets/images/services/ai1.png",
+    "whyChooseIcon" : "/assets/images/services/ai1.webp",
     "whyChooseTitle" : "Data-Driven Insights",
     "whyChooseDetail" : " Our AI and ML services facilitate well-thought-out decision-making and strategic planning by extracting valuable insights using cutting-edge algorithms from your data."
   },
   {
-    "whyChooseIcon" : "/assets/images/services/ai2.png",
+    "whyChooseIcon" : "/assets/images/services/ai2.webp",
     "whyChooseTitle" : "End-to-End Support",
     "whyChooseDetail" : "Through our comprehensive services starting with initial consultation to maintenance, we ensure that your AI and ML solutions keep up with the growth of your organization."
   },
   {
-    "whyChooseIcon" : "/assets/images/services/ai3.png",
+    "whyChooseIcon" : "/assets/images/services/ai3.webp",
     "whyChooseTitle" : "Scalable Models",
     "whyChooseDetail" : "Creating AI and ML models that scale with the business assists continuous optimization and flexibility in adapting to changing customer needs."
   },
   {
-    "whyChooseIcon" : "/assets/images/services/ai4.png",
+    "whyChooseIcon" : "/assets/images/services/ai4.webp",
     "whyChooseTitle" : "Cross-Industry Experience",
     "whyChooseDetail" : "We operate in various industries including manufacturing, healthcare, finance, retail among others applying AI & ML best practices."
   },
   {
-    "whyChooseIcon" : "/assets/images/services/ai5.png",
+    "whyChooseIcon" : "/assets/images/services/ai5.webp",
     "whyChooseTitle" : "Cutting-Edge Technology",
     "whyChooseDetail" : "We remain current on the latest developments in the AI and ML field so as to offer state-of-the-art solutions through employing recent tools for these areas."
   },
   {
-    "whyChooseIcon" : "/assets/images/services/ai6.png",
+    "whyChooseIcon" : "/assets/images/services/ai6.webp",
     "whyChooseTitle" : "Collaborative Development",
     "whyChooseDetail" : "In providing input into the development process of our company’s AI & ML solutions, we work closely with you towards ensuring they are aligned with business objectives and vision."
   },
   {
-    "whyChooseIcon" : "/assets/images/services/ai7.png",
+    "whyChooseIcon" : "/assets/images/services/ai7.webp",
     "whyChooseTitle" : "Security-Conscious",
     "whyChooseDetail" : "In the development of our AI systems or ML algorithms, privacy is something we're always considering."
   },
   {
-    "whyChooseIcon" : "/assets/images/services/ai8.png",
+    "whyChooseIcon" : "/assets/images/services/ai8.webp",
     "whyChooseTitle" : "Always Learning",
     "whyChooseDetail" : "Our AI & ML Development Services are designed to learn and improve over time in response to new data and changing business needs."
   }

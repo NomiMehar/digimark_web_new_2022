@@ -2,7 +2,7 @@ import React from 'react'
 import GetQuote from '../../../../../components/get-quote/GetQuote'
 import MobilityBanner from '../../../innovation/mobility/android-app-development/android-app-banner/MobilityBanner'
 import Faqs from '../../../innovation/mobility/android-app-development/faq/Faqs'
-import bannerSideImage from "../../../../../public/assets/images/services/pc-game.png"
+import bannerSideImage from "../../../../../public/assets/images/services/pc-game.webp"
 import servicesProvidedList from "../mobile-game-development/services-provided/nftServicesProvidedList.json";
 import ServicesProvided from "../mobile-game-development/services-provided/ServicesProvided";
 import LeadingEnterprises from "../../../innovation/digital-transformation/web-development/leading-enterprises/LeadingEnterprises";

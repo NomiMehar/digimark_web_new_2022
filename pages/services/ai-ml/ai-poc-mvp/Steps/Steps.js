@@ -1,12 +1,12 @@
 import React, {useEffect} from "react";
 import style from "./Steps.module.scss";
-import roadmap from "../../../../../public/assets/images/services/roadmap-image.png";
-import step1 from "../../../../../public/assets/images/services/step1.png";
-import step2 from "../../../../../public/assets/images/services/step2.png";
-import step3 from "../../../../../public/assets/images/services/step3.png";
-import step4 from "../../../../../public/assets/images/services/step4.png";
-import step5 from "../../../../../public/assets/images/services/step5.png";
-import step6 from "../../../../../public/assets/images/services/step6.png";
+import roadmap from "../../../../../public/assets/images/services/roadmap-image.webp";
+import step1 from "../../../../../public/assets/images/services/step1.webp";
+import step2 from "../../../../../public/assets/images/services/step2.webp";
+import step3 from "../../../../../public/assets/images/services/step3.webp";
+import step4 from "../../../../../public/assets/images/services/step4.webp";
+import step5 from "../../../../../public/assets/images/services/step5.webp";
+import step6 from "../../../../../public/assets/images/services/step6.webp";
 import Image from "next/image";
 import AOS from 'aos';
 

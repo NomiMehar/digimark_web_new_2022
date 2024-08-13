@@ -2,10 +2,10 @@ import style from "./industriesHealth.module.scss";
 import Image from "next/image";
 import React from "react";
 import whiteArrow from "../../../../public/assets/images/homepage/customer_talk/white-arrow.svg";
-import healthImage1 from "../../../../public/assets/images/industries/health1.jpg";
-import healthImage2 from "../../../../public/assets/images/industries/health2.jpg";
-import healthImage3 from "../../../../public/assets/images/industries/health3.jpg";
-import healthImage4 from "../../../../public/assets/images/industries/health4.jpg";
+import healthImage1 from "../../../../public/assets/images/industries/health1.webp";
+import healthImage2 from "../../../../public/assets/images/industries/health2.webp";
+import healthImage3 from "../../../../public/assets/images/industries/health3.webp";
+import healthImage4 from "../../../../public/assets/images/industries/health4.webp";
 import Link from "next/link";
 
 export default function IndustriesHealth() {

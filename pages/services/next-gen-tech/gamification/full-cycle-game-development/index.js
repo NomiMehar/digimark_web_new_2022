@@ -2,7 +2,7 @@ import React from 'react'
 import GetQuote from '../../../../../components/get-quote/GetQuote'
 import MobilityBanner from '../../../innovation/mobility/android-app-development/android-app-banner/MobilityBanner'
 import Faqs from '../../../innovation/mobility/android-app-development/faq/Faqs'
-import bannerSideImage from "../../../../../public/assets/images/services/ai-game.png"
+import bannerSideImage from "../../../../../public/assets/images/services/ai-game.webp"
 import MvpBenefits from './mvp-benefits/MvpBenefits'
 import TechnologiesPcGame from '../pc-game-development/technologies-pc-game/TechnologiesPcGame'
 import ArCallAction from '../../blockchain/ar-vr-development/call-to-action/ArCallAction'

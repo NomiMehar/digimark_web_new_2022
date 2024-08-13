@@ -4,16 +4,16 @@ import ImageGallery from 'react-image-gallery';
 
 const images = [
     {
-      original: '/assets/images/services/pdesign1.png',
-      thumbnail: '/assets/images/services/pdesign1.png',
+      original: '/assets/images/services/pdesign1.webp',
+      thumbnail: '/assets/images/services/pdesign1.webp',
     },
     {
-      original: '/assets/images/services/pdesign2.png',
-      thumbnail: '/assets/images/services/pdesign2.png',
+      original: '/assets/images/services/pdesign2.webp',
+      thumbnail: '/assets/images/services/pdesign2.webp',
     },
     {
-      original: '/assets/images/services/pdesign3.png',
-      thumbnail: '/assets/images/services/pdesign3.png',
+      original: '/assets/images/services/pdesign3.webp',
+      thumbnail: '/assets/images/services/pdesign3.webp',
     },
   ];
 

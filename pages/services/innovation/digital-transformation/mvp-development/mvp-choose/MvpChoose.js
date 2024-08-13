@@ -1,5 +1,5 @@
 import style from "./mvpChoose.module.scss"
-import unionImage from "../../../../../../public/assets/images/services/union.png"
+import unionImage from "../../../../../../public/assets/images/services/union.webp"
 import Image from "next/image";
 
 export default function MvpChoose() {

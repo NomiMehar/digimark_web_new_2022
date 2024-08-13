@@ -1,6 +1,6 @@
 import React, {useEffect} from "react";
 import style from "./shopSolutions.module.scss"
-import shopImage from "../../../../../../public/assets/images/services/shop-solution-image.png"
+import shopImage from "../../../../../../public/assets/images/services/shop-solution-image.webp"
 import Image from "next/image";
 import AOS from 'aos';
 

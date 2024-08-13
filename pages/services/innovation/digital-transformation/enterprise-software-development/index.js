@@ -9,7 +9,7 @@ import PortfolioEsd from "./portfolio-esd/PortfolioEsd";
 import ServeEsd from "./serve-esd/ServeEsd";
 import CallToQualityAssurance from "../quality-assurance/callto-quality-assurance/CallToQualityAssurance";
 import LeadingEnterprises from "../web-development/leading-enterprises/LeadingEnterprises";
-import bannerSideImage from "../../../../../public/assets/images/services/enterprice_banner_bg.png"
+import bannerSideImage from "../../../../../public/assets/images/services/enterprice_banner_bg.webp"
 // import EnterpriseServices from "./enterprise-services/EnterpriseServices";
 import EnterpriseTool from "./enterprise-tools/EnterpriseTool";
 // import serviceList from "./enterprise-services/enterpriseServicesList.json"

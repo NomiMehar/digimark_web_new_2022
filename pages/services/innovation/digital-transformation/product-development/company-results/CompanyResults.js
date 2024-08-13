@@ -1,10 +1,10 @@
 import style from "./companyResults.module.scss"
 import Image from "next/image";
-import icon1 from "../../../../../../public/assets/images/services/csvg1.png"
-import icon2 from "../../../../../../public/assets/images/services/csvg2.png"
-import icon3 from "../../../../../../public/assets/images/services/csvg3.png"
-import icon4 from "../../../../../../public/assets/images/services/csvg4.png"
-import icon5 from "../../../../../../public/assets/images/services/csvg5.png"
+import icon1 from "../../../../../../public/assets/images/services/csvg1.webp"
+import icon2 from "../../../../../../public/assets/images/services/csvg2.webp"
+import icon3 from "../../../../../../public/assets/images/services/csvg3.webp"
+import icon4 from "../../../../../../public/assets/images/services/csvg4.webp"
+import icon5 from "../../../../../../public/assets/images/services/csvg5.webp"
 
 export default function CompanyResults() {
     return (

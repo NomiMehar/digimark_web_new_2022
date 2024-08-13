@@ -1,7 +1,7 @@
 import React, {useEffect} from "react";
 import style from "./perksOfWorking.module.scss";
 import Image from "next/image";
-import perkImage from "../../../../../../public/assets/images/services/perks.jpg";
+import perkImage from "../../../../../../public/assets/images/services/perks.webp";
 import AOS from 'aos';
 
 export default function PerksOfWorking(props) {

@@ -2,7 +2,7 @@ import React from 'react'
 import GetQuote from '../../../../../components/get-quote/GetQuote'
 import MobilityBanner from '../../../innovation/mobility/android-app-development/android-app-banner/MobilityBanner'
 import Faqs from '../../../innovation/mobility/android-app-development/faq/Faqs'
-import bannerSideImage from "../../../../../public/assets/images/services/metaverse_game_slide.png"
+import bannerSideImage from "../../../../../public/assets/images/services/metaverse_game_slide.webp"
 import ServicesProvided from '../mobile-game-development/services-provided/ServicesProvided'
 import servicesProvidedList from '../mobile-game-development/services-provided/metaServicesProvidedList.json'
 import ServeEsd from '../../../innovation/digital-transformation/enterprise-software-development/serve-esd/ServeEsd'

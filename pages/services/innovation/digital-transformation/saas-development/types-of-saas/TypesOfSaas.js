@@ -1,5 +1,5 @@
 import style from "./typesOfSaas.module.scss";
-import typeOfImage from "../../../../../../public/assets/images/services/type-of-saas.png"
+import typeOfImage from "../../../../../../public/assets/images/services/type-of-saas.webp"
 import React from "react";
 import Image from "next/image";
 

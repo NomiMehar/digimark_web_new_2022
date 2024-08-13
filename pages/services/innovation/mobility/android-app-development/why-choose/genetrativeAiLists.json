@@ -1,31 +1,31 @@
 [
   {
-    "whyChooseIcon" : "/assets/images/services/ai1.png",
+    "whyChooseIcon" : "/assets/images/services/ai1.webp",
     "whyChooseTitle" : "Personalised AI Solutions",
     "whyChooseDetail" : "We create AI models that generate content tailored to your company's needs."
   },
   {
-    "whyChooseIcon" : "/assets/images/services/ai2.png",
+    "whyChooseIcon" : "/assets/images/services/ai2.webp",
     "whyChooseTitle" : "Advanced Language Models",
     "whyChooseDetail" : "Our extensive language models provide excellent, contextually correct results for a range of uses."
   },
   {
-    "whyChooseIcon" : "/assets/images/services/ai3.png",
+    "whyChooseIcon" : "/assets/images/services/ai3.webp",
     "whyChooseTitle" : "Services That Are Scalable",
     "whyChooseDetail" : "Our AI development services are made to evolve with your expanding company needs."
   },
   {
-    "whyChooseIcon" : "/assets/images/services/ai4.png",
+    "whyChooseIcon" : "/assets/images/services/ai4.webp",
     "whyChooseTitle" : "Team of Experts",
     "whyChooseDetail" : "For your Generative AI Development projects, our skilled AI specialists guarantee state-of-the-art solutions."
   },
   {
-    "whyChooseIcon" : "/assets/images/services/ai5.png",
+    "whyChooseIcon" : "/assets/images/services/ai5.webp",
     "whyChooseTitle" : "Innovative Technology",
     "whyChooseDetail" : "In this technology, we have state-of-the-art language model services using recent AI advancements."
   },
   {
-    "whyChooseIcon" : "/assets/images/services/ai6.png",
+    "whyChooseIcon" : "/assets/images/services/ai6.webp",
     "whyChooseTitle" : "All-inclusive Support",
     "whyChooseDetail" : "We also ensure that there is smooth integration of AI solutions by giving end-to-end support from the development stage to deployment."
   }

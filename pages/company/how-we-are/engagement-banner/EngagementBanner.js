@@ -1,5 +1,5 @@
 import style from "./engagementBanner.module.scss"
-import Banner from "../../../../public/assets/images/company/engagement_banner.png"
+import Banner from "../../../../public/assets/images/company/engagement_banner.webp"
 import Image from "next/image";
 
 export default function EngagementBanner () {

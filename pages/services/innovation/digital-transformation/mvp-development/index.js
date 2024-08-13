@@ -11,7 +11,7 @@ import MvpStack from "./mvp-stack/MvpStack";
 import MvpDevelopmentProcess from "./mvp-development-process/MvpDevelopmentProcess";
 import MvpChoose from "./mvp-choose/MvpChoose";
 import OutSourced from "./out-sourced/OutSourced";
-import bannerSideImage from "../../../../../public/assets/images/services/mvp_banner_Image.png"
+import bannerSideImage from "../../../../../public/assets/images/services/mvp_banner_Image.webp"
 
 export default function index() {
   return (

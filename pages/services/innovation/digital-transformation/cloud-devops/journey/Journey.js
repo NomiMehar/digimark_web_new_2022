@@ -1,6 +1,6 @@
 import style from "./journey.module.scss"
 import Image from "next/image";
-import aboutCloud from "../../../../../../public/assets/images/services/journey_image.png"
+import aboutCloud from "../../../../../../public/assets/images/services/journey_image.webp"
 import whiteArrow from "../../../../../../public/assets/images/homepage/customer_talk/white-arrow.svg";
 import Link from "next/link";
 import React from "react";

@@ -1,6 +1,6 @@
 [
   {
-    "cardImage": "/assets/images/case-study/deflyballCard.jpg",
+    "cardImage": "/assets/images/case-study/deflyballCard.webp",
     "title": "Defly Ball",
     "description": "The First Ever Flyball Dogs Metaverse Racing Game On BNB Smart Chain.",
     "tags": [
@@ -12,7 +12,7 @@
     ]
   },
   {
-    "cardImage": "/assets/images/case-study/vocalCoach.png",
+    "cardImage": "/assets/images/case-study/vocalCoach.webp",
     "title": "The Vocal Coach",
     "description": "Sing your best with the ultimate vocal lesson app.",
     "tags": [
@@ -23,7 +23,7 @@
       ]
   },
   {
-    "cardImage": "/assets/images/case-study/petluvsCard.png",
+    "cardImage": "/assets/images/case-study/petluvsCard.webp",
     "title": "Petluvs App",
     "description": "Allows enthusiasts to connect with other pet lovers.",
     "tags": [
@@ -32,7 +32,7 @@
       "Marketplace"]
   },
   {
-    "cardImage": "/assets/images/case-study/vocalCoach.png",
+    "cardImage": "/assets/images/case-study/vocalCoach.webp",
     "title": "The Vocal Coach",
     "description": "Sing your best with the ultimate vocal lesson app.",
     "tags": [

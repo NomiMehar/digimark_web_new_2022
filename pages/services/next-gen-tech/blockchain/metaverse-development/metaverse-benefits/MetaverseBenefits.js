@@ -1,5 +1,5 @@
 import style from "./MetaverseBenefits.module.scss"
-import perkImage from "../../../../../../public/assets/images/services/benefits-img.jpg";
+import perkImage from "../../../../../../public/assets/images/services/benefits-img.webp";
 import futureImage from "../../../../../../public/assets/images/services/future_metaverse.svg";
 import greenLine from "../../../../../../public/assets/images/services/green-line.svg";
 import Image from "next/image";

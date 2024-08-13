@@ -1,7 +1,7 @@
 import style from "./aboutClient.module.scss"
 import React from "react";
 import Image from "next/image";
-import mapImage from "../../../../public/assets/images/case-study/map.png"
+import mapImage from "../../../../public/assets/images/case-study/map.webp"
 
 export default function AboutClient({ aboutClient }) {
     if (!aboutClient) {

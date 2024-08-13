@@ -11,7 +11,7 @@ import ProductProcess from './product-process/ProductProcess'
 import ProductServices from './product-services/ProductServices'
 import StandoutVideo from './standout-video/StandoutVideo'
 import TopAgency from './top-agency/TopAgency'
-import bannerSideImage from "../../../../../public/assets/images/services/open-lightbox.png";
+import bannerSideImage from "../../../../../public/assets/images/services/open-lightbox.webp";
 
 export default function index() {
   return (

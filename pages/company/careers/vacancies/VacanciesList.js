@@ -9,7 +9,7 @@ import {
 } from 'react-accessible-accordion';
 import 'react-accessible-accordion/dist/fancy-example.css';
 import Image from "next/image";
-import downArrow from "../../../../public/assets/images/company/down-arrow.png";
+import downArrow from "../../../../public/assets/images/company/down-arrow.webp";
 import whiteArrow from "../../../../public/assets/images/homepage/customer_talk/white-arrow.svg";
 import Link from "next/link";
 import NewVacanciesList from "./VacanciesList.json"

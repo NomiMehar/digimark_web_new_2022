@@ -1,5 +1,5 @@
 import style from "./Challenge.module.scss"
-import mainImage from "../../../../../public/assets/images/services/challenge.png"
+import mainImage from "../../../../../public/assets/images/services/challenge.webp"
 import Image from "next/image";
 import React, {useEffect} from "react";
 import AOS from 'aos';

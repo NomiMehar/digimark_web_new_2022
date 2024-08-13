@@ -80,7 +80,7 @@
       top: 0;
       width: calc(100% - 70px);
       height: 100%;
-      background: url("../../../../public/assets/images/industries/banner-bg.jpg") center;
+      background: url("../../../../public/assets/images/industries/banner-bg.webp") center;
       background-size: cover;
       @media (max-width: $breakpoint_tablet) {
         width: calc(100%);
@@ -188,7 +188,7 @@
           top: 0;
           width: 999em;
           height: 100%;
-          background: url("../../../../public/assets/images/company/careers-layer.jpg");
+          background: url("../../../../public/assets/images/company/careers-layer.webp");
         }
         span {
           color: #FFFFFF;
@@ -223,7 +223,7 @@
   }
   &.women_banner {
     height: 100vh;
-    background: #f7f3e7 url("../../../../public/assets/images/women-empowerment/women-banner.jpg") no-repeat center bottom;
+    background: #f7f3e7 url("../../../../public/assets/images/women-empowerment/women-banner.webp") no-repeat center bottom;
     background-size: contain;
     @media screen and (max-width: $breakpoint_tablet) {
       height: 400px;

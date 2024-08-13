@@ -9,7 +9,7 @@
     top: 100px;
     width: 341px;
     height: 123px;
-    background: url("../../../../../../public/assets/images/services/groupimages1.png") center no-repeat;
+    background: url("../../../../../../public/assets/images/services/groupimages1.webp") center no-repeat;
     background-size: contain;
     @media (max-width: $breakpoint_laptop) {
       width: 200px;
@@ -26,7 +26,7 @@
     top: 100px;
     width: 341px;
     height: 123px;
-    background: url("../../../../../../public/assets/images/services/groupimages2.png") center no-repeat;
+    background: url("../../../../../../public/assets/images/services/groupimages2.webp") center no-repeat;
     background-size: contain;
     @media (max-width: $breakpoint_laptop) {
       width: 200px;
@@ -119,7 +119,7 @@
   }
   &.blockchain_develop{
     padding: 60px 0 60px;
-    background: rgba(29, 67, 84, 1) url("../../../../../../public/assets/images/services/blockchain_develop.png") no-repeat center center;
+    background: rgba(29, 67, 84, 1) url("../../../../../../public/assets/images/services/blockchain_develop.webp") no-repeat center center;
     &::after, &::before{
       display: none;
     }

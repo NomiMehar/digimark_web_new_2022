@@ -13,7 +13,7 @@ import ToolsTechnologies from "../web-development/tools-technologies/ToolsTechno
 import SaasTechnologiesList from "../web-development/tools-technologies/SaasTechnologiesList.json";
 import SaasPartners from "./saas-partners/SaasPartners";
 import SaasRecentWork from "./saas-recent-work/SaasRecentWork";
-import bannerSideImage from "../../../../../public/assets/images/services/saas_illustration.png"
+import bannerSideImage from "../../../../../public/assets/images/services/saas_illustration.webp"
 
 export default function index() {
   return (

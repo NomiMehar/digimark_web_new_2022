@@ -1,13 +1,13 @@
 [
   {
-    "caseImage": "/assets/images/services/dex_mobile.jpg",
+    "caseImage": "/assets/images/services/dex_mobile.webp",
     "caseLogo": "/assets/images/services/dex_mobile.svg",
     "caseTitle": "AI PoC",
     "caseDes": "In essence, an AI Proof of Concept serves as your idea's 'testing ground.' Here, you assess whether the AI solution satisfies your business goals and is technically possible. Here, the emphasis is on low-cost core functionality validation, which enables you to assess whether the AI can produce the desired results before extending its use.",
     "caseButtonLink": "/case-studies/case-details"
   },
   {
-    "caseImage": "/assets/images/services/dex_mobile.jpg",
+    "caseImage": "/assets/images/services/dex_mobile.webp",
     "caseLogo": "/assets/images/services/dex_mobile.svg",
     "caseTitle": "AI MVP",
     "caseDes": "The next step is to develop an AI Minimum Viable Product, which aims to market a functional but simplified version of the AI solution, if the AI Proof of Concept is successful. The AI MVP should only include the most crucial functions and provide end users with real value. This method assists in early real-world feedback collection, which may be applied to improve and hone the solution in later iterations.",

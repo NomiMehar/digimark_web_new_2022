@@ -1,8 +1,8 @@
 import React from "react";
 import style from "./gameIntro.module.scss";
 import Image from "next/image";
-import Intro from "../../../../../../public/assets/images/services/game-intro.png"
-import gameCreator from "../../../../../../public/assets/images/services/game-creator.png"
+import Intro from "../../../../../../public/assets/images/services/game-intro.webp"
+import gameCreator from "../../../../../../public/assets/images/services/game-creator.webp"
 
 export default function GameIntro() {
   return (

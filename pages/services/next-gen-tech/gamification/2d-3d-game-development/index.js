@@ -2,7 +2,7 @@ import React from 'react'
 import GetQuote from '../../../../../components/get-quote/GetQuote'
 import MobilityBanner from '../../../innovation/mobility/android-app-development/android-app-banner/MobilityBanner'
 import Faqs from '../../../innovation/mobility/android-app-development/faq/Faqs'
-import bannerSideImage from "../../../../../public/assets/images/services/pc-game.png"
+import bannerSideImage from "../../../../../public/assets/images/services/pc-game.webp"
 import BenefitsEsd
     from "../../../innovation/digital-transformation/enterprise-software-development/benefits-esd/BenefitsEsd";
 import DevelopmentServices from "./development-services/DevelopmentServices";
@@ -40,7 +40,7 @@ export default function index() {
     />
     <DevelopmentServices/>
     <ReliablePcGame
-        imgSrc="/assets/images/services/reliable_img.png"
+        imgSrc="/assets/images/services/reliable_img.webp"
         dynamicTitle={true}
         title={["Looking for a ", <span>2D/3D game development Company</span>]}
         description={[

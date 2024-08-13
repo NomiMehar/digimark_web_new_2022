@@ -70,7 +70,7 @@
   background-color: #FFFFFF;
 }
 .development_wrapper.ios_development_process:before {
-  background-image: url("../../../../../../public/assets/images/services/ios-dev-pros.png");
+  background-image: url("../../../../../../public/assets/images/services/ios-dev-pros.webp");
 }
 .development_wrapper.ios_development_process .process_tabs {
   padding: 95px 110px 0;

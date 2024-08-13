@@ -1,7 +1,7 @@
 import style from "./processQualityAssurance.module.scss"
 import React from "react";
 import Image from "next/image";
-import image from "../../../../../../public/assets/images/services/qa-process-img.png"
+import image from "../../../../../../public/assets/images/services/qa-process-img.webp"
 
 export default function ProcessQualityAssurance() {
     return(

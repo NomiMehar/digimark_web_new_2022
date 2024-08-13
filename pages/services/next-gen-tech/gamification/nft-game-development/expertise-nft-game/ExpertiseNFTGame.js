@@ -1,6 +1,6 @@
 import style from "./expertiseNFTGame.module.scss"
 import Image from "next/image";
-import etIcon1 from "../../../../../../public/assets/images/services/et-icon1.png"
+import etIcon1 from "../../../../../../public/assets/images/services/et-icon1.webp"
 import React from "react";
 import whiteArrow from "../../../../../../public/assets/images/homepage/customer_talk/white-arrow.svg";
 import Link from "next/link";

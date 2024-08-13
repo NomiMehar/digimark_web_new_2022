@@ -1,21 +1,21 @@
 [
   {
-    "iconImage": "/assets/images/services/pIcon1.png",
+    "iconImage": "/assets/images/services/pIcon1.webp",
     "title": "Ideation",
     "description": "DigiMark Developers explains the complete game concept and its mechanics, it will have blockchain integration. We ensure that we know the problem of the user."
   },
   {
-    "iconImage": "/assets/images/services/pIcon2.png",
+    "iconImage": "/assets/images/services/pIcon2.webp",
     "title": "Design",
     "description": "A detailed document will be provided which will cover the in-game assets, rules, and the use of blockchain technology."
   },
   {
-    "iconImage": "/assets/images/services/pIcon3.png",
+    "iconImage": "/assets/images/services/pIcon3.webp",
     "title": "Testing",
     "description": "We provide complete testing and to optimize this process, the checks can be done through automatic testing easily. Don’t expect the quality of the game, if you do not go through the auto and manual testing."
   },
   {
-    "iconImage": "/assets/images/services/pIcon4.png",
+    "iconImage": "/assets/images/services/pIcon4.webp",
     "title": "Deployment",
     "description": "In this phase, the game is published to the store or offered it to the business proprietors. Moreover, it is easy to fix any issue before releasing it, instead of fixing the problem again and again later."
   }

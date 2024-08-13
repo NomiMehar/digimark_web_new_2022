@@ -109,7 +109,7 @@ export default function BespokeServices() {
             </div>
             <div className="container flex items-start">
                 <div className={style.bespoke_Img}>
-                    <Image src="/assets/images/services/bespoke_service_img.jpg" width={656} height={599} alt='bespokeImg' />
+                    <Image src="/assets/images/services/bespoke_service_img.webp" width={656} height={599} alt='bespokeImg' />
                 </div>
                <div className={style.bespoke_accordion}>
                    <div className="flex faq_wrapper_content bespoke_service" data-aos="fade-left" data-aos-duration="1000">

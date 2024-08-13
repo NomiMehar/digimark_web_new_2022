@@ -1,6 +1,6 @@
 import style from "./aboutUnrealGame.module.scss"
 import Image from "next/image";
-import aboutImage from "../../../../../../public/assets/images/services/unreal-about-img.png"
+import aboutImage from "../../../../../../public/assets/images/services/unreal-about-img.webp"
 
 export default function AboutUnrealGame() {
     return(

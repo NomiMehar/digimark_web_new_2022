@@ -1,6 +1,6 @@
 import style from "./whyDappUse.module.scss"
 import whyDappUseList from "./whyDappUseList.json"
-import whyDappImage from "../../../../../../public/assets/images/services/why-dapp-image.jpg"
+import whyDappImage from "../../../../../../public/assets/images/services/why-dapp-image.webp"
 import Image from "next/image";
 import React, {useEffect} from "react";
 import AOS from 'aos';

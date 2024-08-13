@@ -1,7 +1,7 @@
 import React, {useEffect} from "react";
 import style from "./join.module.scss"
 import Image from "next/image";
-import joinImage from "../../public/assets/images/company/join.jpg"
+import joinImage from "../../public/assets/images/company/join.webp"
 import whiteArrow from "../../public/assets/images/homepage/customer_talk/white-arrow.svg";
 import Link from "next/link";
 import AOS from 'aos';

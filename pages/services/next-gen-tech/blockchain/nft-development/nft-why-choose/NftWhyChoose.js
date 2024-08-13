@@ -1,7 +1,7 @@
 import React,{useEffect} from "react";
 import style from "./nftWhyChoose.module.scss"
 import Image from "next/image";
-import chooseImage from "../../../../../../public/assets/images/services/whyChoose.png"
+import chooseImage from "../../../../../../public/assets/images/services/whyChoose.webp"
 import nftWhyChooseList from "./NftWhyChooseList.json"
 import AOS from 'aos';
 

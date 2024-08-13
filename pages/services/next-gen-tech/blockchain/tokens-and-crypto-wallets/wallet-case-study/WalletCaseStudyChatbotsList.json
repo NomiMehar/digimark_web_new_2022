@@ -1,13 +1,13 @@
 [
   {
-    "caseImage": "/assets/images/services/dex_mobile.jpg",
+    "caseImage": "/assets/images/services/dex_mobile.webp",
     "caseLogo": "/assets/images/services/dex_mobile.svg",
     "caseTitle": "Bridging Technology and Empathy",
     "caseDes": "Bridging technology and empathy in chatbot design means going beyond mere functionality. It’s about creating interactions that resonate on a human level, where chatbots understand context, respond with emotional intelligence, and adapt to individual needs. The intention is to create real connections through technology by giving consumers a sense of being heard, understood, and appreciated.",
     "caseButtonLink": "/case-studies/case-details"
   },
   {
-    "caseImage": "/assets/images/services/dex_mobile.jpg",
+    "caseImage": "/assets/images/services/dex_mobile.webp",
     "caseLogo": "/assets/images/services/dex_mobile.svg",
     "caseTitle": "Detailed Instructions",
     "caseDes": "Creating a chatbot involves several key steps. Start with defining the chatbot's purpose and audience. Then, design conversation flows that mimic natural human dialogue. Incorporate NLP to understand and respond to user input effectively. Finally, test extensively, refine based on feedback, and continuously update the chatbot to improve its performance and user experience.",

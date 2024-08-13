@@ -1,7 +1,7 @@
 @import "../../../../../../styles/variables";
 .unity_work_box {
   padding: 121px 0 150px;
-  background: url("../../../../../../public/assets/images/services/unity-box-bg.png") center top;
+  background: url("../../../../../../public/assets/images/services/unity-box-bg.webp") center top;
   background-size: cover;
   position: relative;
   @media (max-width: $breakpoint_tablet) {
@@ -14,7 +14,7 @@
     bottom: 0;
     width: 100%;
     height: 88px;
-    background: url("../../../../../../public/assets/images/services/tyre-shape.png") center;
+    background: url("../../../../../../public/assets/images/services/tyre-shape.webp") center;
     filter: brightness(10);
   }
   .section_title {
@@ -81,7 +81,7 @@
     }
   }
   &.ai_unity{
-    background: url("../../../../../../public/assets/images/services/ai_unity.png") center top;
+    background: url("../../../../../../public/assets/images/services/ai_unity.webp") center top;
     padding: 100px 0 100px;
     @media (max-width: $breakpoint_tablet) {
      padding: 60px 0 40px;

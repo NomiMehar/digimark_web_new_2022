@@ -1,5 +1,5 @@
 import style from "./outSourced.module.scss"
-import mvptabsImage from "../../../../../../public/assets/images/services/mvptabs.png"
+import mvptabsImage from "../../../../../../public/assets/images/services/mvptabs.webp"
 import Image from "next/image";
 import {
     Accordion,

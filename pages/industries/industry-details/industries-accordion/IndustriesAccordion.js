@@ -9,7 +9,7 @@ import {
     AccordionItemPanel
 } from "react-accessible-accordion";
 import downArrow from "../../../../public/assets/images/services/green_arrow.svg";
-import accordionBG from "../../../../public/assets/images/industries/accordion-bg.jpg";
+import accordionBG from "../../../../public/assets/images/industries/accordion-bg.webp";
 
 export default function IndustriesAccordion() {
     return(

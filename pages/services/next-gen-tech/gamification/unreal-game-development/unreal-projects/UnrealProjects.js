@@ -2,7 +2,7 @@ import style from "./unrealProjects.module.scss"
 import unrealProjectList from "./unrealProjectList.json"
 import React from "react";
 import Image from "next/image";
-import stack1 from "../../../../../../public/assets/images/services/stack1.png"
+import stack1 from "../../../../../../public/assets/images/services/stack1.webp"
 import whiteArrow from "../../../../../../public/assets/images/homepage/customer_talk/white-arrow.svg";
 import Link from "next/link";
 

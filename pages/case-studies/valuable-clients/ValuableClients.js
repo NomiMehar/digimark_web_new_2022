@@ -1,9 +1,9 @@
 import style from "./valuableClients.module.scss"
 import Image from "next/image";
-import logo1 from "../../../public/assets/images/case-study/logo1.png"
-import logo2 from "../../../public/assets/images/case-study/logo2.png"
-import logo3 from "../../../public/assets/images/case-study/logo3.png"
-import logo4 from "../../../public/assets/images/case-study/logo4.png"
+import logo1 from "../../../public/assets/images/case-study/logo1.webp"
+import logo2 from "../../../public/assets/images/case-study/logo2.webp"
+import logo3 from "../../../public/assets/images/case-study/logo3.webp"
+import logo4 from "../../../public/assets/images/case-study/logo4.webp"
 
 export default function ValuableClients() {
     return(

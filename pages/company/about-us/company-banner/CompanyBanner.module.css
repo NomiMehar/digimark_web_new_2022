@@ -42,7 +42,7 @@
   top: 0;
   width: 999em;
   height: 100%;
-  background: url("../../../../public/assets/images/company/careers-layer.jpg");
+  background: url("../../../../public/assets/images/company/careers-layer.webp");
 }
 .company_banner.careers_wrapper .banner_content .company_text span {
   color: #FFFFFF;
@@ -78,7 +78,7 @@
 }
 .company_banner.women_banner {
   height: 100vh;
-  background: #f7f3e7 url("../../../../public/assets/images/women-empowerment/women-banner.jpg") no-repeat center bottom;
+  background: #f7f3e7 url("../../../../public/assets/images/women-empowerment/women-banner.webp") no-repeat center bottom;
   background-size: contain;
 }
 @media screen and (max-width: 1000px) {

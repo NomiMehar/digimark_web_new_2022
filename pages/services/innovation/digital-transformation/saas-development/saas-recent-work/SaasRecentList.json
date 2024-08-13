@@ -2,7 +2,7 @@
   {
     "projectTitle": "Graphical user interface for robot operation",
     "projectDescription": "SumatoSoft developed a graphic user interface (GUI) that helps to communicate with the robot Alfred, an automated robotic arm.",
-    "mainImage": "/assets/images/services/recentside-img1.png",
+    "mainImage": "/assets/images/services/recentside-img1.webp",
     "projectLogo": "/assets/images/services/nika_logo.svg",
     "tags": [
       "redis",
@@ -15,7 +15,7 @@
   {
     "projectTitle": "Web networking platform for online marketers",
     "projectDescription": "A web platform for finding online marketing partners with multiple monetization ways, scalable architecture, advanced search & social network.",
-    "mainImage": "/assets/images/services/recentside-img2.png",
+    "mainImage": "/assets/images/services/recentside-img2.webp",
     "projectLogo": "/assets/images/services/nika_logo.svg",
     "tags": [
       "redis",
@@ -28,7 +28,7 @@
   {
     "projectTitle": "Innovative big data trading platform",
     "projectDescription": "A blockchain-based web and mobile platform that allows companies and individuals to buy and sell big data sets securely through a private digital identity and pay with Bitcoin.",
-    "mainImage": "/assets/images/services/recentside-img3.png",
+    "mainImage": "/assets/images/services/recentside-img3.webp",
     "projectLogo": "/assets/images/services/nika_logo.svg",
     "tags": [
       "Amazon Services",

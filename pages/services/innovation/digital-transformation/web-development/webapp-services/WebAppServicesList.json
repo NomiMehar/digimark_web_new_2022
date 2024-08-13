@@ -1,6 +1,6 @@
 [
   {
-    "processImg": "/assets/images/services/chain-process1.jpg",
+    "processImg": "/assets/images/services/chain-process1.webp",
     "process_name": "Web Application Development",
     "process_description": "We provide our clients with bespoke, & reliable web applications within the set timeframe and budget.",
     "process_list":[
@@ -12,7 +12,7 @@
     ]
   },
   {
-    "processImg": "/assets/images/services/chain-process1.jpg",
+    "processImg": "/assets/images/services/chain-process1.webp",
     "process_name": "Web Application Modernization",
     "process_description": "Have the customized and completely protected web applications within the given budget & time.",
      "process_list":[
@@ -24,7 +24,7 @@
     ]
   },
   {
-    "processImg": "/assets/images/services/chain-process1.jpg",
+    "processImg": "/assets/images/services/chain-process1.webp",
     "process_name": "Web Design Services",
     "process_description": "Invest in responsive web design to grab the attention of the customer and enjoy leads.",
      "process_list":[
@@ -36,7 +36,7 @@
     ]
   },
   {
-    "processImg": "/assets/images/services/chain-process1.jpg",
+    "processImg": "/assets/images/services/chain-process1.webp",
     "process_name": "Open Source Web Development \nand Re-engineering",
     "process_description": "We provide open-source and web development services to clients to reach heights.",
      "process_list":[
@@ -49,7 +49,7 @@
     ]
   },
   {
-    "processImg": "/assets/images/services/chain-process1.jpg",
+    "processImg": "/assets/images/services/chain-process1.webp",
     "process_name": "Web Application Support & \nMaintenance",
     "process_description": "We assist customers with maintaining browser compatibility and design so can run their businesses smoothly.",
      "process_list":[

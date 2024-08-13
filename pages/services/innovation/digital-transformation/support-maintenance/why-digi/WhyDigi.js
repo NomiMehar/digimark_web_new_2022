@@ -1,7 +1,7 @@
 import style from "./whyDigi.module.scss";
 import {useState} from "react";
 import Image from "next/image";
-import image from "../../../../../../public/assets/images/services/why-digi.png"
+import image from "../../../../../../public/assets/images/services/why-digi.webp"
 
 export default function WhyDigi() {
     return(

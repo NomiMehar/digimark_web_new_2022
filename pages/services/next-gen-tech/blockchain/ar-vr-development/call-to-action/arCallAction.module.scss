@@ -1,6 +1,6 @@
 @import "../../../../../../styles/variables";
 .ar_calltoaction {
-  background: url("../../../../../../public/assets/images/services/call-to-action.jpg") center fixed;
+  background: url("../../../../../../public/assets/images/services/call-to-action.webp") center fixed;
   text-align: center;
   background-size: cover;
   padding: 115px 0;
@@ -40,7 +40,7 @@
   }
   &.bespoke_question{
     margin-top: 50px;
-    background: url("../../../../../../public/assets/images/services/bespoke_question.png") center fixed;
+    background: url("../../../../../../public/assets/images/services/bespoke_question.webp") center fixed;
     h2{
       span{
         background-color: #1D4354;
@@ -54,7 +54,7 @@
     }
   }
   &.cycle_ar_call{
-    background: url("../../../../../../public/assets/images/services/cycle_ar.png") center fixed;
+    background: url("../../../../../../public/assets/images/services/cycle_ar.webp") center fixed;
     h2{
       max-width: 650px;
       margin: 0 auto;

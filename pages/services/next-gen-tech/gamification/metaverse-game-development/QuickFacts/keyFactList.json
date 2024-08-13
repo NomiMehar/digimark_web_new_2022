@@ -1,18 +1,18 @@
 [
   {
-    "img": "/assets/images/services/techStack1.png",
+    "img": "/assets/images/services/techStack1.webp",
     "description": "AR/VR Development"
   },
   {
-    "img": "/assets/images/services/techStack2.png",
+    "img": "/assets/images/services/techStack2.webp",
     "description": "3d Modeling & Animation"
   },
   {
-    "img": "/assets/images/services/techStack3.png",
+    "img": "/assets/images/services/techStack3.webp",
     "description": "Blockchain"
   },
   {
-    "img": "/assets/images/services/techStack4.png",
+    "img": "/assets/images/services/techStack4.webp",
     "description": "Unity"
   }
 ]

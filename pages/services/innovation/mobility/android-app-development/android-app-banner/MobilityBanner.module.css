@@ -1,7 +1,7 @@
 .product_banner_wrapper {
   height: 100vh;
   padding: 173px 0 0;
-  background: url("../../../../../../public/assets/images/services/app-bg.jpg") fixed center;
+  background: url("../../../../../../public/assets/images/services/app-bg.webp") fixed center;
   background-size: cover;
 }
 @media (max-width: 1600px) {
@@ -19,7 +19,7 @@
   padding-bottom: 0;
 }
 .product_banner_wrapper.support_banner {
-  background-image: url("../../../../../../public/assets/images/support/support-bg.jpg");
+  background-image: url("../../../../../../public/assets/images/support/support-bg.webp");
 }
 .product_banner_wrapper.support_banner .service_banner_wrapper {
   width: 50%;
@@ -45,7 +45,7 @@
 .product_banner_wrapper.dapp_banner .service_banner_wrapper h1 {
   text-transform: uppercase;
   font-size: 65px;
-  background: url("../../../../../../public/assets/images/services/banner-dots.png") no-repeat top left;
+  background: url("../../../../../../public/assets/images/services/banner-dots.webp") no-repeat top left;
   padding-left: 200px;
   padding-top: 50px;
   margin: 0;
@@ -96,7 +96,7 @@
   font-family: "CloverDisplay-Bold", sans-serif;
 }
 .product_banner_wrapper.blockchain_banner {
-  background-image: url("../../../../../../public/assets/images/services/blockchain-bg.jpg");
+  background-image: url("../../../../../../public/assets/images/services/blockchain-bg.webp");
   padding-bottom: 0;
 }
 .product_banner_wrapper.blockchain_banner .app_banner_video {
@@ -114,7 +114,7 @@
   max-width: 100%;
 }
 .product_banner_wrapper.arvr_banner {
-  background-image: url("../../../../../../public/assets/images/services/ar-banner.jpg");
+  background-image: url("../../../../../../public/assets/images/services/ar-banner.webp");
   padding-bottom: 0;
 }
 .product_banner_wrapper.arvr_banner .app_banner_video {
@@ -132,7 +132,7 @@
   max-width: 100%;
 }
 .product_banner_wrapper.defi_banner {
-  background-image: url("../../../../../../public/assets/images/services/defi_banner.jpg");
+  background-image: url("../../../../../../public/assets/images/services/defi_banner.webp");
   padding-bottom: 0;
 }
 .product_banner_wrapper.defi_banner .app_banner_video {
@@ -267,7 +267,7 @@
   }
 }
 .product_banner_wrapper.metaverse_development {
-  background: url("../../../../../../public/assets/images/services/metaverse-bg.jpg") fixed center;
+  background: url("../../../../../../public/assets/images/services/metaverse-bg.webp") fixed center;
 }
 .product_banner_wrapper.metaverse_development .service_banner_wrapper {
   text-align: center;

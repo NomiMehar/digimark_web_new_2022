@@ -1,6 +1,6 @@
 .call_to_action {
   padding: 170px 0;
-  background: url("../../public/assets/images/services/smart-calltoaction.jpg");
+  background: url("../../public/assets/images/services/smart-calltoaction.webp");
 }
 @media (max-width: 1000px) {
   .call_to_action {
@@ -23,7 +23,7 @@
   color: #6BB64A;
 }
 .call_to_action.metaverse_banner {
-  background: url("../../public/assets/images/services/metaverse_banner.png");
+  background: url("../../public/assets/images/services/metaverse_banner.webp");
   background-attachment: fixed;
   background-size: cover;
   background-repeat: no-repeat;

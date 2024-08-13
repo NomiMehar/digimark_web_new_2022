@@ -1,6 +1,6 @@
 import style from "./portfolioProducts.module.scss"
 import Image from "next/image";
-import portImage1 from "../../../../../../public/assets/images/services/port-image1.png";
+import portImage1 from "../../../../../../public/assets/images/services/port-image1.webp";
 import Link from "next/link";
 import {Autoplay, Navigation, Pagination} from "swiper";
 import "swiper/css";

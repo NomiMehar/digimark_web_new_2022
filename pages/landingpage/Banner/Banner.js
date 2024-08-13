@@ -11,7 +11,7 @@ export default function Banner() {
     };
   return (
     <div className={`flex direction-column justify-center ${style.banner_wrapper}`}>
-      <video className={style.banner_video} autoPlay loop muted poster="/assets/images/homepage/banner/banner-poster.jpg">
+      <video className={style.banner_video} autoPlay loop muted poster="/assets/images/homepage/banner/banner-poster.webp">
         <source src="/assets/images/homepage/banner/intro.mp4" type="video/mp4" />
       </video>
       <div className="flex direction-column container">

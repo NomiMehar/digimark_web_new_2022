@@ -1,6 +1,6 @@
 import style from "./aboutNftGame.module.scss"
 import Image from "next/image";
-import aboutImage from "../../../../../../public/assets/images/services/nft-game-about.png"
+import aboutImage from "../../../../../../public/assets/images/services/nft-game-about.webp"
 import whiteArrow from "../../../../../../public/assets/images/homepage/customer_talk/white-arrow.svg";
 import Link from "next/link";
 import React from "react";

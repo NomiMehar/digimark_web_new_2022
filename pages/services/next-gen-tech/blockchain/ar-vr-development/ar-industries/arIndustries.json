@@ -1,6 +1,6 @@
 [
   {
-    "arImage": "/assets/images/services/industries1.jpg",
+    "arImage": "/assets/images/services/industries1.webp",
     "arTitle": "Healthcare",
     "arTitleList": [
       "Virtual Store",
@@ -11,7 +11,7 @@
     ]
   },
   {
-    "arImage": "/assets/images/services/industries2.jpg",
+    "arImage": "/assets/images/services/industries2.webp",
     "arTitle": "Game development",
     "arTitleList": [
       "Virtual Store",
@@ -22,7 +22,7 @@
     ]
   },
   {
-    "arImage": "/assets/images/services/industries3.jpg",
+    "arImage": "/assets/images/services/industries3.webp",
     "arTitle": "Game development",
     "arTitleList": [
       "Virtual Store",
@@ -33,7 +33,7 @@
     ]
   },
   {
-    "arImage": "/assets/images/services/industries4.jpg",
+    "arImage": "/assets/images/services/industries4.webp",
     "arTitle": "Game development",
     "arTitleList": [
       "Virtual Store",
@@ -44,7 +44,7 @@
     ]
   },
   {
-    "arImage": "/assets/images/services/industries5.jpg",
+    "arImage": "/assets/images/services/industries5.webp",
     "arTitle": "Game development",
     "arTitleList": [
       "Virtual Store",
@@ -55,7 +55,7 @@
     ]
   },
   {
-    "arImage": "/assets/images/services/industries4.jpg",
+    "arImage": "/assets/images/services/industries4.webp",
     "arTitle": "Game development",
     "arTitleList": [
       "Virtual Store",
@@ -66,7 +66,7 @@
     ]
   },
   {
-    "arImage": "/assets/images/services/industries6.jpg",
+    "arImage": "/assets/images/services/industries6.webp",
     "arTitle": "Game development",
     "arTitleList": [
       "Virtual Store",
@@ -77,7 +77,7 @@
     ]
   },
   {
-    "arImage": "/assets/images/services/industries7.jpg",
+    "arImage": "/assets/images/services/industries7.webp",
     "arTitle": "Game development",
     "arTitleList": [
       "Virtual Store",
@@ -88,7 +88,7 @@
     ]
   },
   {
-    "arImage": "/assets/images/services/industries8.jpg",
+    "arImage": "/assets/images/services/industries8.webp",
     "arTitle": "Game development",
     "arTitleList": [
       "Virtual Store",

@@ -1,48 +1,48 @@
 [
   {
-    "industriesImage": "/assets/images/homepage/our-industries/healthcare.jpg",
+    "industriesImage": "/assets/images/homepage/our-industries/healthcare.webp",
     "industriesTitle": "Healthcare",
     "industriesDescription": "Imagine getting top-notch care from anywhere! Digital healthcare makes clinics run smoother, lets doctors see you remotely, and keeps everyone healthier.",
     "industriesLink": "#"
   },
   {
-    "industriesImage": "/assets/images/homepage/our-industries/fintech.jpg",
+    "industriesImage": "/assets/images/homepage/our-industries/fintech.webp",
     "industriesTitle": "Fintech",
     "industriesDescription": "Fintech automates routine procedures and improves outcomes. AI enables threats, prevents fraud, automates everyday tasks, and enhances the quality of service",
     "industriesLink": "#"
   },
   {
-    "industriesImage": "/assets/images/homepage/our-industries/retail.jpg",
+    "industriesImage": "/assets/images/homepage/our-industries/retail.webp",
     "industriesTitle": "Retail",
     "industriesDescription": "Retail businesses partner with us to unlock new opportunities, drive revenue growth, and expand their customer base.",
     "industriesLink": "#"
   },
   {
-    "industriesImage": "/assets/images/homepage/our-industries/edtech.jpg",
+    "industriesImage": "/assets/images/homepage/our-industries/edtech.webp",
     "industriesTitle": "EdTech",
     "industriesDescription": "E-learning offers interactive content, personalization, cost savings, increased employee performance, and faster ROI",
     "industriesLink": "#"
   },
   {
-    "industriesImage": "/assets/images/industries/serve5.jpg",
+    "industriesImage": "/assets/images/industries/serve5.webp",
     "industriesTitle": "Hospitality",
     "industriesDescription": "Elevate the hospitality business with our cutting-edge technology solutions and drive business success.",
     "industriesLink": "#"
   },
   {
-    "industriesImage": "/assets/images/industries/serve6.jpg",
+    "industriesImage": "/assets/images/industries/serve6.webp",
     "industriesTitle": "Tour & Travel",
     "industriesDescription": "Our tailored software solutions empower Travel & Hospitality businesses to optimize operations and maximize revenue in a dynamic market.",
     "industriesLink": "#"
   },
   {
-    "industriesImage": "/assets/images/industries/serve8.jpg",
+    "industriesImage": "/assets/images/industries/serve8.webp",
     "industriesTitle": "Social",
     "industriesDescription": "We build App that helps to create networks, analyze user insights and experiences.",
     "industriesLink": "#"
   },
   {
-    "industriesImage": "/assets/images/industries/serve7.jpg",
+    "industriesImage": "/assets/images/industries/serve7.webp",
     "industriesTitle": "On-Demand",
     "industriesDescription": "We offer tailored solutions that seamlessly connect businesses with their users in real time.",
     "industriesLink": "#"

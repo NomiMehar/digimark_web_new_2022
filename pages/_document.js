@@ -14,7 +14,7 @@ class MyDocument extends Document {
           />
         <title>Digimark Developers | Your Innovative Solution Partner</title>
         <meta name="description" content="Your Innovative Solution Partner." />
-        <link rel="shortcut icon" href="/assets/images/header/favicon.png" type="image/x-icon" />
+        <link rel="shortcut icon" href="/assets/images/header/favicon.webp" type="image/x-icon" />
         <meta property="og:title" content="Digimark Developers" />
         <meta property="og:description" content="Your Innovative Solution Partner." />
         <meta name="twitter:title" content="Digimark Developers" />

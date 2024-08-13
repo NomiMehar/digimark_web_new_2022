@@ -1,8 +1,8 @@
 import style from "./benefitsNftGame.module.scss"
 import beneNFTGame from "./beneNFTGame.json"
 import Image from "next/image";
-import aboutImage from "../../../../../../public/assets/images/services/bene_nft_img.png"
-import sectionShapeImage from "../../../../../../public/assets/images/services/section_shape_bg.png"
+import aboutImage from "../../../../../../public/assets/images/services/bene_nft_img.webp"
+import sectionShapeImage from "../../../../../../public/assets/images/services/section_shape_bg.webp"
 import Link from "next/link";
 import React from "react";
 

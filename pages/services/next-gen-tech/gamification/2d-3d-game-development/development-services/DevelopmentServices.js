@@ -1,5 +1,5 @@
 import Image from "next/image";
-import ImageOne from "../../../../../../public/assets/images/services/dsImage.png"
+import ImageOne from "../../../../../../public/assets/images/services/dsImage.webp"
 import style from "./developmentServices.module.scss"
 
 export default function DevelopmentServices() {

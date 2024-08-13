@@ -1,7 +1,7 @@
 @import "../../styles/variables";
 .call_to_action {
   padding: 170px 0;
-  background: url("../../public/assets/images/services/smart-calltoaction.jpg");
+  background: url("../../public/assets/images/services/smart-calltoaction.webp");
   @media (max-width: $breakpoint_tablet) {
     padding: 60px 0;
     margin-top: 60px;
@@ -19,7 +19,7 @@
     }
   }
   &.metaverse_banner{
-    background: url("../../public/assets/images/services/metaverse_banner.png");
+    background: url("../../public/assets/images/services/metaverse_banner.webp");
     background-attachment: fixed;
     background-size: cover;
     background-repeat: no-repeat;

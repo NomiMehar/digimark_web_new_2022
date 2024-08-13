@@ -1,6 +1,6 @@
 [
   {
-    "listImage": "/assets/images/services/blue_shape1.svg",
+    "listImage": "/assets/images/services/blue_shape1.webp",
     "listImageText": "Analysis",
     "lists": [
       "Product Owner",
@@ -10,7 +10,7 @@
     ]
   },
   {
-    "listImage": "/assets/images/services/green_shape.svg",
+    "listImage": "/assets/images/services/green_shape.webp",
     "listImageText": "Design",
     "lists": [
       "System Architect",
@@ -18,7 +18,7 @@
     ]
   },
   {
-    "listImage": "/assets/images/services/blue_shape.svg",
+    "listImage": "/assets/images/services/blue_shape.webp",
     "listImageText": "Development",
     "lists": [
       "Front-end Dev",
@@ -26,7 +26,7 @@
     ]
   },
   {
-    "listImage": "/assets/images/services/green_shape.svg",
+    "listImage": "/assets/images/services/green_shape.webp",
     "listImageText": "Testing",
     "lists": [
       "Solution Architect",
@@ -36,7 +36,7 @@
     ]
   },
   {
-    "listImage": "/assets/images/services/blue_shape.svg",
+    "listImage": "/assets/images/services/blue_shape.webp",
     "listImageText": "Deployment",
     "lists": [
       "Data Administration",
@@ -44,7 +44,7 @@
     ]
   },
   {
-    "listImage": "/assets/images/services/green_shape.svg",
+    "listImage": "/assets/images/services/green_shape.webp",
     "listImageText": "Maintenance",
     "lists": [
       "Users",

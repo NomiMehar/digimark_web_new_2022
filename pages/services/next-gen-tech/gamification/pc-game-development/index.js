@@ -3,7 +3,7 @@ import GetQuote from '../../../../../components/get-quote/GetQuote'
 import MobilityBanner from '../../../innovation/mobility/android-app-development/android-app-banner/MobilityBanner'
 import Faqs from '../../../innovation/mobility/android-app-development/faq/Faqs'
 import AboutPcGame from "./about-pc-game/AboutPcGame";
-import bannerSideImage from "../../../../../public/assets/images/services/pc-game.png"
+import bannerSideImage from "../../../../../public/assets/images/services/pc-game.webp"
 import GalleryPcGame from "./gallery-pc-game/GalleryPcGame";
 import servicesProvidedList from "../mobile-game-development/services-provided/servicesProvidedList.json";
 import ServicesProvided from "../mobile-game-development/services-provided/ServicesProvided";
@@ -20,7 +20,7 @@ export default function index() {
    <div className="android-app-development ionic-app-dev">
     <MobilityBanner classes="game_pc_banner"
         backgroundVideo={true}
-        bg_video_poster="/assets/images/services/gamedev-poster.jpg"
+        bg_video_poster="/assets/images/services/gamedev-poster.webp"
         bg_bannerUrl="/assets/images/services/gamedev.mp4"
         dynamicBanner={true}
         breadcrumParent="Next-Gen Tech"
@@ -48,7 +48,7 @@ export default function index() {
            sectionTitle={[<h2><span>PC Games Development</span><br/>Services We provide</h2>]}
        />
        <TechnologiesPcGame/>
-       <ReliablePcGame description="Turn your gaming dream into reality with the help of the Game Design PC services of our experts Let’s create magic together" imgSrc="/assets/images/services/reliable_img.png" />
+       <ReliablePcGame description="Turn your gaming dream into reality with the help of the Game Design PC services of our experts Let’s create magic together" imgSrc="/assets/images/services/reliable_img.webp" />
        <ProcessPcGame/>
        <CreativePcGame/>
        <ServicesCompany

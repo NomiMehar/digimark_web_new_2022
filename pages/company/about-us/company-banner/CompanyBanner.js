@@ -4,8 +4,8 @@ import Image from "next/image";
 import backArrow from "../../../../public/assets/images/services/back.svg";
 import monoGram from "../../../../public/assets/images/company/logo_monogram.svg";
 import monoGramText from "../../../../public/assets/images/company/text_black.svg";
-import companyBanner from "../../../../public/assets/images/company/company_banner.png";
-import careersImage from "../../../../public/assets/images/company/join.jpg";
+import companyBanner from "../../../../public/assets/images/company/company_banner.webp";
+import careersImage from "../../../../public/assets/images/company/join.webp";
 import companyStyle from "./CompanyBanner.module.scss"
 import Link from "next/link";
 

@@ -1,6 +1,6 @@
 import React, {useEffect} from "react";
 import style from "./blockchainBenefits.module.scss"
-import benefitWrap from "../../../../../../public/assets/images/services/banenfit-mobile.png"
+import benefitWrap from "../../../../../../public/assets/images/services/banenfit-mobile.webp"
 import benefitIcon from "../../../../../../public/assets/images/services/chainIcon1.svg"
 import Image from "next/image";
 import AOS from 'aos';
