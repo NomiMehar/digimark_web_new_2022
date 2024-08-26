@@ -15,8 +15,8 @@ export default function CreativePcGame() {
         centerMode: true,
         slidesToShow: 4.4,
         slidesToScroll: 1,
-        prevArrow: <span><Image src="/assets/images/services/angle-arrow.svg" width={10} height={15} alt=""/></span>,
-        nextArrow: <span><Image src="/assets/images/services/angle-arrow.svg" width={10} height={15} alt=""/></span>,
+        prevArrow: <span><Image src="/assets/images/services/angle-arrow.svg" width={10} height={15} alt="image"/></span>,
+        nextArrow: <span><Image src="/assets/images/services/angle-arrow.svg" width={10} height={15} alt="image"/></span>,
         autoplay: true,
         autoplaySpeed: 2000,
     };

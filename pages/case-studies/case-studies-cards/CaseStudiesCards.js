@@ -128,7 +128,7 @@ export default function CaseStudiesCards() {
                                                         ))
                                                     }
                                                 </ul>
-                                                <Link className="explore_btn" href={`/case-studies/case-details/${title.replace(/ /g, '-').toLowerCase()}`}>Explore More <Image src={moreArrow} alt="" /></Link>
+                                                <Link className="explore_btn" href={`/case-studies/case-details/${title.replace(/ /g, '-').toLowerCase()}`}>Explore More <Image src={moreArrow} alt="image" /></Link>
                                             </section>
                                         </div>
                                     </li>
