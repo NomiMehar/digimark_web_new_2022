@@ -5,6 +5,7 @@ import { Autoplay } from "swiper";
 import "swiper/css";
 import {useEffect} from "react";
 import AOS from 'aos';
+import Image from "next/image";
 
 export default function OurWork(props) {
     useEffect(() => {

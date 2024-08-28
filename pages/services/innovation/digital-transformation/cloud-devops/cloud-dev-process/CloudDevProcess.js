@@ -1,5 +1,6 @@
 import style from "./cloudDevProcess.module.scss"
 import cloudDevProcessList from "./cloudDevProcessList.json"
+import Image from "next/image";
 
 export default function CloudDevProcess() {
     return(

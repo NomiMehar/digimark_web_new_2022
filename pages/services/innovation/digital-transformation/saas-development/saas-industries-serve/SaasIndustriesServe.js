@@ -1,6 +1,7 @@
 import style from "./saasIndustriesServe.module.scss";
 import saasIndustriesList from "./SaasIndustriesServeLists.json"
 import React from "react";
+import Image from "next/image";
 
 export default function SaasIndustriesServe() {
     return(

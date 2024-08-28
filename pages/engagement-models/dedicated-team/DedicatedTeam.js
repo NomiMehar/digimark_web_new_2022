@@ -1,6 +1,7 @@
 import React,{ useEffect } from "react";
 import style from './DedicatedTeam.module.scss'
 import AOS from 'aos';
+import Image from "next/image";
 
 function DedicatedTeam() {
     useEffect(() => {

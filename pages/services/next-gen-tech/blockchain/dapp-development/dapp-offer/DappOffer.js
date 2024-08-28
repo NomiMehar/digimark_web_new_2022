@@ -2,6 +2,8 @@ import style from "./dappOffer.module.scss"
 import dappBenefitsList from "./dappOfferList.json"
 import React, {useEffect} from "react";
 import AOS from 'aos';
+import Image from "next/image";
+
 export default function DappOffer() {
     useEffect(() => {
         AOS.init();

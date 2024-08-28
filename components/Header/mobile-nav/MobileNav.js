@@ -4,6 +4,7 @@ import {useState} from "react";
 import style from "../Header.module.scss";
 import {useRouter} from "next/router";
 import OutsideClickHandler from 'react-outside-click-handler';
+import Image from "next/image";
 
 export default function MobileNav() {
     const [sidebar, setsidebar] = useState(true);

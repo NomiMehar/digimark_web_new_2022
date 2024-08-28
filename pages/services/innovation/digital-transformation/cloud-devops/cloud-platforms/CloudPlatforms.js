@@ -8,6 +8,8 @@ import {
     AccordionItemHeading,
     AccordionItemPanel
 } from "react-accessible-accordion";
+import Image from "next/image";
+
 
 export default function CloudPlatforms() {
     const [activeItem, setActiveItem] = useState(null);

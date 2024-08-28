@@ -1,5 +1,6 @@
 import style from "./cloudServices.module.scss"
 import cloudServicesList from "./cloudServicesList.json"
+import Image from "next/image";
 
 export default function CloudServices() {
     return(

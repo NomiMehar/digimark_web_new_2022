@@ -1,5 +1,6 @@
 import style from "./cloudFeaturedWork.module.scss"
 import cloudFeaturedWorkList from "./cloudFeaturedWorkList.json"
+import Image from "next/image";
 
 export default function CloudFeaturedWork() {
     return(

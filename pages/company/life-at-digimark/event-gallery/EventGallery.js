@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
 import eventGalleryList from "./EventGalleryList.json"
 import style from "./eventGallery.module.scss"
+import Image from "next/image";
 
 export default function EventGallery () {
     const imagePerRow = 4;

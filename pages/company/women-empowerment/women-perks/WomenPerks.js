@@ -5,6 +5,7 @@ import "swiper/css";
 import "swiper/css/effect-fade";
 import "swiper/css/pagination";
 import {Swiper, SwiperSlide} from "swiper/react";
+import Image from "next/image";
 
 export default function WomenPerks () {
     return(

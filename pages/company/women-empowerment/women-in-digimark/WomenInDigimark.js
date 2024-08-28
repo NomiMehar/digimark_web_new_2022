@@ -1,5 +1,6 @@
 import style from "./womenInDigimark.module.scss"
 import WomenDigimarkList from "./WomenDigimarkList.json"
+import Image from "next/image";
 
 export default function WomenInDigimark() {
     return(

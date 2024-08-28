@@ -3,6 +3,7 @@ import {useState} from "react";
 import style from "./blockchainProcess.module.scss"
 import blockchainProcessList from "./blockchainProcessList.json"
 import AOS from 'aos';
+import Image from "next/image";
 
 export default function BlockchainProcess() {
     const [tabs, setTabs] = useState(0);

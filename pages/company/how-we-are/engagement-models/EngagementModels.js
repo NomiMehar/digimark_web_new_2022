@@ -1,5 +1,6 @@
 import style from "./engagementModels.module.scss"
 import EngagementModelsList from "./EngagementModelsList.json"
+import Image from "next/image";
 
 export default function EngagementModels () {
     return(

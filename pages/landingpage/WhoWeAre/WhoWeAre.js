@@ -8,6 +8,7 @@ SwiperCore.use([Mousewheel, Pagination, Autoplay, EffectCube]);
 import WhoWeAreData from "./WhoWeAreData.json";
 import style from "./WhoWeAre.module.scss";
 import AOS from "aos";
+import Image from "next/image";
 
 function WhoWeAre() {
     useEffect(() => {

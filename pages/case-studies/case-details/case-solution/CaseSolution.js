@@ -1,6 +1,7 @@
 // components/case-details/case-solution/CaseSolution.js
 import React from 'react';
 import style from '../about-client/aboutClient.module.scss';
+import Image from "next/image";
 
 export default function CaseSolution({ caseSolution }) {
     if (!caseSolution) {

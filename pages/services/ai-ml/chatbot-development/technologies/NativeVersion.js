@@ -2,6 +2,8 @@ import React, {useEffect} from "react";
 import style from "./Technologies.module.scss";
 import programLanguagesList from "./programLanguagesList.json"
 import AOS from 'aos';
+import Image from "next/image";
+
 export default function NativeVersion(props) {
     useEffect(() => {
         AOS.init();

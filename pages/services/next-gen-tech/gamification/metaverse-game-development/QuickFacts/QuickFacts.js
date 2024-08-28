@@ -1,5 +1,6 @@
 import style from "./QuickFacts.module.scss"
 import keyFactList from "./keyFactList.json"
+import Image from "next/image";
 
 export default function QuickFacts() {
     return(

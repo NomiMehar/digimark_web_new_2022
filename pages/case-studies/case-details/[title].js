@@ -9,6 +9,7 @@ import AboutClient from "../case-details/about-client/AboutClient";
 import CaseSolution from "../case-details/case-solution/CaseSolution";
 import caseStudiesCardList from "../case-details/caseStudyDetail.json";
 import OurProducts from "../../landingpage/OurProducts/OurProducts";
+import Image from "next/image";
 
 export default function CaseDetails({ caseStudy }) {
     const router = useRouter();

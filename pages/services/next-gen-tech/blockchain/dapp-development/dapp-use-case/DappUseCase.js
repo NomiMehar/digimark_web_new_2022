@@ -2,6 +2,8 @@ import style from "./dappUseCase.module.scss"
 import dappUseCaseList from "./dappUseCaseList.json"
 import React, {useEffect} from "react";
 import AOS from 'aos';
+import Image from "next/image";
+
 export default function DappUseCase() {
     useEffect(() => {
         AOS.init();

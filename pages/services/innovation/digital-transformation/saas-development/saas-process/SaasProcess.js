@@ -1,6 +1,7 @@
 import style from "./saasProcess.module.scss";
 import saasProcessList from "./SaasProcessLists.json"
 import React from "react";
+import Image from "next/image";
 
 export default function SaasProcess() {
     return(

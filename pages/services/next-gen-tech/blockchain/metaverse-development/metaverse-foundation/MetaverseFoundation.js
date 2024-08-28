@@ -3,6 +3,7 @@ import metaverseFoundationList from "./MetaverseFoundationList.json";
 import MetaverseFoundationTwoList from "./MetaverseFoundationTwoList.json";
 import AOS from "aos";
 import { useEffect } from "react";
+import Image from "next/image";
 
 export default function MetaverseFoundation() {
     useEffect(() => {

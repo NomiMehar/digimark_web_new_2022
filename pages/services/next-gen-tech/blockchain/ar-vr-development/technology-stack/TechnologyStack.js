@@ -2,6 +2,7 @@ import style from "./technologyStack.module.scss";
 import React, {useEffect, useState} from "react";
 import technologyStackList from "./technologyStack.json"
 import AOS from "aos";
+import Image from "next/image";
 
 export default function TechnologyStack(props) {
     const [tabs, setTabs] = useState(0);

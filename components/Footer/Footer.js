@@ -1,6 +1,8 @@
 import Link from "next/link";
 import React  from "react";
 import style from "./Footer.module.scss";
+import Image from "next/image";
+
 function Footer() {
   const handleMouseEnter = () => {
     document.body.classList.add('hovered');

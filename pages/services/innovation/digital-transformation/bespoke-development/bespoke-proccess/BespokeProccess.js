@@ -2,6 +2,8 @@ import style from "./BespokeProccess.module.scss"
 import bespokeProccessList from "./BespokeProccessList.json"
 import React, {useEffect} from "react";
 import AOS from 'aos';
+import Image from "next/image";
+
 export default function BespokeProccess() {
     useEffect(() => {
         AOS.init();
