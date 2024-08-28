@@ -9,7 +9,6 @@ import step6 from "../../../../../public/assets/images/services/cstep6.webp"
 import step7 from "../../../../../public/assets/images/services/cstep7.webp"
 import Image from "next/image";
 import AOS from 'aos';
-import Image from "next/image";
 
 export default function Steps (props) {
     useEffect(() => {
