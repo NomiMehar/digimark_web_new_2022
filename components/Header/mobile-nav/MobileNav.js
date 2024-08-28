@@ -27,13 +27,13 @@ export default function MobileNav() {
               <div className="container">
                   <div className={`flex-between-center ${style.mobile_header_padd}`}>
                       <a href="/">
-                      <img
+                      <Image width={100} height={100}
                           className={style.mobile_logo}
                           src="/assets/images/header/mobile_logo.svg"
                           alt="logo"
                       />
                       </a>
-                      <img
+                      <Image width={100} height={100}
                           className={style.toggle_img}
                           onClick={() => setsidebar(false)}
                           src="/assets/images/header/toggle.svg"
@@ -54,7 +54,7 @@ export default function MobileNav() {
               width="295px"
           >
               <div className="flex justify-between align-center d-block">
-                  <img src="/assets/images/header/mobile_logo.svg" alt="logo" />
+                  <Image width={100} height={100} src="/assets/images/header/mobile_logo.svg" alt="logo" />
                   <i
                       className="fa fa-times font-color-green"
                       onClick={() => setsidebar(true)}

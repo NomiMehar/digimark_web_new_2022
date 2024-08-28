@@ -45,7 +45,7 @@ export default function BlockchainProcess() {
                                 if(tabs===index) {
                                     return (
                                         <div className="flex direction-column" key={`tab-content-${index}`}>
-                                            <img src={processImg} alt="processImg"/>
+                                            <Image width={100} height={100} src={processImg} alt="processImg"/>
                                             <p>{process_description}</p>
                                         </div>
                                     )

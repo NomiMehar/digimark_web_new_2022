@@ -16,7 +16,7 @@ export default function WomenInDigimark() {
                                 return(
                                     <li key={index}>
                                         <figure>
-                                            <img src={womenImage} alt={womenImage}/>
+                                            <Image width={100} height={100} src={womenImage} alt={womenImage}/>
                                             <figcaption>
                                                 <h3>{womenTitle}</h3>
                                                 <p>{womenDescription}</p>

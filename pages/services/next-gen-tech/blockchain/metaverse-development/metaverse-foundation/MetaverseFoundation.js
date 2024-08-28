@@ -48,7 +48,7 @@ export default function MetaverseFoundation() {
                                                 data-aos="flip-left"
                                                 data-aos-duration="1000"
                                             >
-                                                <img src={langIcon} alt={langIcon} />
+                                                <Image width={100} height={100} src={langIcon} alt={langIcon} />
                                             </li>
                                         );
                                     })}
@@ -79,7 +79,7 @@ export default function MetaverseFoundation() {
                                                 data-aos="flip-left"
                                                 data-aos-duration="1000"
                                             >
-                                                <img src={langIcon} alt={langIcon} />
+                                                <Image width={100} height={100} src={langIcon} alt={langIcon} />
                                             </li>
                                         );
                                     })}

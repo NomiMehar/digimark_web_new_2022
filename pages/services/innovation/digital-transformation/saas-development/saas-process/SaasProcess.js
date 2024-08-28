@@ -17,7 +17,7 @@ export default function SaasProcess() {
                                 return(
                                     <section key={index}>
                                         <figure>
-                                            <img src={listImage} alt="listImage"/>
+                                            <Image width={100} height={100} src={listImage} alt="listImage"/>
                                             <span>{listImageText}</span>
                                         </figure>
                                         <ul className="list-none">

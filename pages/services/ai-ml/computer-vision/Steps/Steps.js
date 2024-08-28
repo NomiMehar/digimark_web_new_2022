@@ -38,7 +38,7 @@ export default function Steps (props) {
                         <button
                             className="contact_btn">
                            Boost productivity & Profitability
-                            <img src="/assets/images/homepage/lets_talk/arrow.svg" alt="arrow" />
+                            <Image width={100} height={100} src="/assets/images/homepage/lets_talk/arrow.svg" alt="arrow" />
                         </button>
                     </div>
                     <figure
@@ -69,7 +69,7 @@ export default function Steps (props) {
                                 <button
                             className="contact_btn">
                            Boost productivity & Profitability
-                            <img src="/assets/images/homepage/lets_talk/arrow.svg" alt="arrow" />
+                            <Image width={100} height={100} src="/assets/images/homepage/lets_talk/arrow.svg" alt="arrow" />
                         </button>
                             </div>
                         </div>
@@ -92,7 +92,7 @@ export default function Steps (props) {
                         <button
                             className="contact_btn">
                            Boost productivity & Profitability
-                            <img src="/assets/images/homepage/lets_talk/arrow.svg" alt="arrow" />
+                            <Image width={100} height={100} src="/assets/images/homepage/lets_talk/arrow.svg" alt="arrow" />
                         </button>
                     </div>
                     <figure
@@ -124,7 +124,7 @@ export default function Steps (props) {
                                 <button
                             className="contact_btn">
                            Boost productivity & Profitability
-                            <img src="/assets/images/homepage/lets_talk/arrow.svg" alt="arrow" />
+                            <Image width={100} height={100} src="/assets/images/homepage/lets_talk/arrow.svg" alt="arrow" />
                         </button>
                             </div>
                         </div>
@@ -143,7 +143,7 @@ export default function Steps (props) {
                                 <button
                             className="contact_btn">
                            Boost productivity & Profitability
-                            <img src="/assets/images/homepage/lets_talk/arrow.svg" alt="arrow" />
+                            <Image width={100} height={100} src="/assets/images/homepage/lets_talk/arrow.svg" alt="arrow" />
                         </button>
                             </div>
                             <figure
@@ -178,7 +178,7 @@ export default function Steps (props) {
                         <button
                             className="contact_btn">
                            Boost productivity & Profitability
-                            <img src="/assets/images/homepage/lets_talk/arrow.svg" alt="arrow" />
+                            <Image width={100} height={100} src="/assets/images/homepage/lets_talk/arrow.svg" alt="arrow" />
                         </button>
                     </div>
                 </div>
@@ -197,7 +197,7 @@ export default function Steps (props) {
                                 <button
                             className="contact_btn">
                            Boost productivity & Profitability
-                            <img src="/assets/images/homepage/lets_talk/arrow.svg" alt="arrow" />
+                            <Image width={100} height={100} src="/assets/images/homepage/lets_talk/arrow.svg" alt="arrow" />
                         </button>
                             </div>
                             <figure

@@ -52,7 +52,7 @@ export default function CloudPlatforms() {
                                                         list.map((list,index)=>{
                                                             return(
                                                                 <li key={`index-${index}`}>
-                                                                    <img src={list} alt="logo"/>
+                                                                    <Image width={100} height={100} src={list} alt="logo"/>
                                                                 </li>
                                                             )
                                                         })
@@ -85,7 +85,7 @@ export default function CloudPlatforms() {
                                                         list.map((list,index)=>{
                                                             return(
                                                                 <li key={`index-${index}`}>
-                                                                    <img src={list} alt="logo"/>
+                                                                    <Image width={100} height={100} src={list} alt="logo"/>
                                                                 </li>
                                                             )
                                                         })

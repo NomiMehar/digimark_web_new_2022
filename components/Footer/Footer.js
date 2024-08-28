@@ -16,7 +16,7 @@ function Footer() {
           <div className="container">
             <div className={`row flex ${style.row}`}>
               <div className={style.logo}>
-                <img src="/assets/images/footer/logo.svg" alt="logo" />
+                <Image width={100} height={100} src="/assets/images/footer/logo.svg" alt="logo" />
               </div>
               <div className={style.footer_links_wrap}>
                 <div className="row flex">
@@ -147,7 +147,7 @@ function Footer() {
               </div>
             </div>
             <div className={style.live_chat}>
-              <img
+              <Image width={100} height={100}
                   src="/assets/images/footer/live-chat-icon.svg"
                   alt="live-chat-icon"
               />

@@ -11,7 +11,7 @@ export default function CaseSolution({ caseSolution }) {
     return (
         <>
             <div className={style.case_solution}>
-                    <img src={ImgUrl} alt="ImgUrl" />
+                    <Image width={100} height={100} src={ImgUrl} alt="ImgUrl" />
             </div>
             <div className={style.challenges_faced}>
                 <div className="container">

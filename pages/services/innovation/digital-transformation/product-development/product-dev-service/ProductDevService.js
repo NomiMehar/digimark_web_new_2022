@@ -19,7 +19,7 @@ export default function ProductDevService() {
                                     return(
                                         <li key={`list-${index}`}>
                                             <div className={`flex items-start ${style.product_dev_text}`}>
-                                                <img src={icon} alt="icon"/>
+                                                <Image width={100} height={100} src={icon} alt="icon"/>
                                                 <section>
                                                     <h2>{title}</h2>
                                                     <p>{description}</p>

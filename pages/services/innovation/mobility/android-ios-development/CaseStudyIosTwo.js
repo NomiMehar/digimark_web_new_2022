@@ -76,7 +76,7 @@ export default function CaseStudyIosTwo () {
                             </article>
                         </div>
                         <div className="split right">
-                            <img src="/assets/images/services/case-study-1.webp" alt="random" />
+                            <Image width={100} height={100} src="/assets/images/services/case-study-1.webp" alt="random" />
                         </div>
                     </div>
                     <div className="point">
@@ -89,7 +89,7 @@ export default function CaseStudyIosTwo () {
                             </article>
                         </div>
                         <div className="split right">
-                            <img src="/assets/images/services/case-study-1.webp" alt="random"/>
+                            <Image width={100} height={100} src="/assets/images/services/case-study-1.webp" alt="random"/>
                         </div>
                     </div>
                     <div className="point">
@@ -102,7 +102,7 @@ export default function CaseStudyIosTwo () {
                             </article>
                         </div>
                         <div className="split right">
-                            <img src="/assets/images/services/case-study-1.webp" alt="random"/>
+                            <Image width={100} height={100} src="/assets/images/services/case-study-1.webp" alt="random"/>
                         </div>
                     </div>
                 </div>

@@ -16,7 +16,7 @@ export default function EngagementModels () {
                             EngagementModelsList.map(({modalIcon,modelSubTitle,modelSubDescription,modelDescription,modelTitle}, index)=>{
                                 return (
                                     <li key={index}>
-                                        <img src={modalIcon} alt="image"/>
+                                        <Image width={100} height={100} src={modalIcon} alt="image"/>
                                         <h3>{modelTitle}</h3>
                                         <p>{modelDescription}</p>
                                         <hr/>

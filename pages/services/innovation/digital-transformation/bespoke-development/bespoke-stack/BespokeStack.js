@@ -22,7 +22,7 @@ export default function BespokeStack() {
                             bespokeStackList.map(({title, icon},index)=>{
                                 return(
                                     <li key={index} data-aos="fade-down" data-aos-duration="2000">
-                                        <section><img src={icon} alt="icon"/></section>
+                                        <section><Image width={100} height={100} src={icon} alt="icon"/></section>
                                         <p>{title}</p>
                                     </li>
                                 )

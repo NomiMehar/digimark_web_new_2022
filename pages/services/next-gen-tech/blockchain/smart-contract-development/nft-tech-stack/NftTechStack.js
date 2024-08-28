@@ -22,7 +22,7 @@ export default function NftTechStack() {
                     data-aos-duration="2000">DigiMark offers expertise in creating smart contracts tailored perfectly to diverse industries & business models.  Our skilled developers have extensive experience in creating an outstanding computer-based protocol to automate business agreements. </p>
                     </section>
                     <Link href="/" className={`contact_btn ${style.contact_btn}`} data-aos="fade-left"
-                    data-aos-duration="2000">GET FREE CONSULTATION <img src="/assets/images/homepage/lets_talk/arrow.svg" alt="arrow" /></Link>
+                    data-aos-duration="2000">GET FREE CONSULTATION <Image width={100} height={100} src="/assets/images/homepage/lets_talk/arrow.svg" alt="arrow" /></Link>
                 </div>
                 <ul className="list-none flex flex-wrap">
                     {

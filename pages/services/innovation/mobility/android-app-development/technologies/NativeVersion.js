@@ -25,7 +25,7 @@ export default function NativeVersion(props) {
                                 programLanguagesList.map(({langTitle,langIcon},index)=>{
                                     return(
                                         <li key={index} data-aos="flip-left" data-aos-duration="1000">
-                                            <img src={langIcon} alt={langIcon}/>
+                                            <Image width={100} height={100} src={langIcon} alt={langIcon}/>
                                             <h5>{langTitle}</h5>
                                         </li>
                                     )
@@ -40,7 +40,7 @@ export default function NativeVersion(props) {
                                 thirdpartyLanguagesList.map(({langTitle,langIcon},index)=>{
                                     return(
                                         <li key={index} data-aos="flip-left" data-aos-duration="1000">
-                                            <img src={langIcon} alt={langIcon}/>
+                                            <Image width={100} height={100} src={langIcon} alt={langIcon}/>
                                             <h5>{langTitle}</h5>
                                         </li>
                                     )

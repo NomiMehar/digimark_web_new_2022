@@ -9,7 +9,7 @@ export default function ReliablePcGame(props) {
         <>
             <div className={`${style.reliable_pc_game} ${style[props.classes]}`}>
                 <div className={`container flex justify-between items-center ${style.flex}`}>
-                    <img src={props.imgSrc} alt="img"/>
+                    <Image width={100} height={100} src={props.imgSrc} alt="img"/>
                     <section>
                         {
                             props.dynamicTitle ? <h2>{props.title}</h2>: <h2>Looking for a <span>reliable PC

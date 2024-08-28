@@ -51,7 +51,7 @@ export default function OurWork(props) {
                                 return(
                                     <SwiperSlide key={index}>
                                         <div className={style.project_list}>
-                                            <img src={projectImage} alt={projectImage}/>
+                                            <Image width={100} height={100} src={projectImage} alt={projectImage}/>
                                             <section>
                                                 <small>{projectNo}</small>
                                                 <h3>{projectTitle}</h3>

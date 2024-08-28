@@ -21,7 +21,7 @@ export default function SubBanner() {
                                 return(
                                     <li key={`list-${index}`}>
                                         <div className={style.key_list}>
-                                            <figure><img src={image} alt="image"/></figure>
+                                            <figure><Image width={100} height={100} src={image} alt="image"/></figure>
                                             <section>
                                                 <h3>{title}</h3>
                                                 <p>{description}</p>

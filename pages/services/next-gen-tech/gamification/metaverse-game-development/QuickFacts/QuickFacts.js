@@ -17,7 +17,7 @@ export default function QuickFacts() {
                                     <li key={`list-${index}`}>
                                         <div className={style.key_list}>
                                             <section>
-                                               <img src={img} alt="techStack" />
+                                               <Image width={100} height={100} src={img} alt="techStack" />
                                                 <h2>{description}</h2>
                                             </section>
                                         </div>

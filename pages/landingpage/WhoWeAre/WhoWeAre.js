@@ -75,7 +75,7 @@ function WhoWeAre() {
                       <p className="font-white">{para}</p>
                     </div>
                     <div className={style.side_img}>
-                      <img src={img} alt="slider_Img" />
+                      <Image width={100} height={100} src={img} alt="slider_Img" />
                     </div>
                   </div>
                 </SwiperSlide>

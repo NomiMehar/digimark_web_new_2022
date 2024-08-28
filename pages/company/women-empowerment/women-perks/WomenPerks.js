@@ -35,7 +35,7 @@ export default function WomenPerks () {
                                     <SwiperSlide key={index}>
                                         <div className={`flex items-end ${style.women_perks_content}`}>
                                             <figure>
-                                                <img src={perksImage} alt={perksImage}/>
+                                                <Image width={100} height={100} src={perksImage} alt={perksImage}/>
                                             </figure>
                                             <section>
                                                 <h3>{perksTitle}</h3>

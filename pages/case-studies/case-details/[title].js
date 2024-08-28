@@ -47,7 +47,7 @@ export default function CaseDetails({ caseStudy }) {
                         <source src={caseStudy.videoLink} type="video/mp4" />
                         </video>
                     ) : (
-                        <img src={caseStudy.mainImg} alt="Default Image" />
+                        <Image width={100} height={100} src={caseStudy.mainImg} alt="Default Image" />
                     )}
                     </div>
             <TableOfContents contents={caseStudy.tableOfContents} />

@@ -31,7 +31,7 @@ export default function TechnologyStack(props) {
                                                 onClick={() => setTabs(index)}
                                                 className={`${ tabs === index ? `${style.active}` : ""}`}
                                             >
-                                                <img src={tab_button_icon} alt="image"/>{tab_button}
+                                                <Image width={100} height={100} src={tab_button_icon} alt="image"/>{tab_button}
                                             </button>
                                         </li>
                                     )

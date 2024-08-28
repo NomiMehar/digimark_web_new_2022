@@ -22,7 +22,7 @@ export default function NftTechStack() {
                     data-aos-duration="2000">Empower your digital assets by partnering with DigiMark Developers, the best NFT Development Agency. Our NFT solutions are expertly crafted to provide you with secure and robust NFT tokens and exchange platforms.</p>
                     </section>
                     <Link href="/contact-us/#contactForm" className={`contact_btn ${style.contact_btn}`} data-aos="fade-left"
-                    data-aos-duration="2000">GET FREE CONSULTATION <img src="/assets/images/homepage/lets_talk/arrow.svg" alt="arrow" /></Link>
+                    data-aos-duration="2000">GET FREE CONSULTATION <Image width={100} height={100} src="/assets/images/homepage/lets_talk/arrow.svg" alt="arrow" /></Link>
                 </div>
                 <ul className="list-none flex flex-wrap">
                     {

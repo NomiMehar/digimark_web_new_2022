@@ -16,7 +16,7 @@ export default function CloudFeaturedWork() {
                                 return(
                                     <li key={`b-${index}`}>
                                         <div className={style.benefits_cloud_text}>
-                                            <img src={image} alt="img"/>
+                                            <Image width={100} height={100} src={image} alt="img"/>
                                             <section>
                                                 <h3>{title}</h3>
                                                 <p>{description}</p>

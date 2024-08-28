@@ -21,7 +21,7 @@ export default function SaasServices() {
                                 return(
                                     <li key={index}>
                                         <section>
-                                            <img src={listIcon} alt="listIcon"/>
+                                            <Image width={100} height={100} src={listIcon} alt="listIcon"/>
                                             <h3>{listTitle}</h3>
                                         </section>
                                     </li>

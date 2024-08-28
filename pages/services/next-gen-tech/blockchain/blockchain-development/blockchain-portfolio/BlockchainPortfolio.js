@@ -59,7 +59,7 @@ export default function BlockchainPortfolio() {
                                 return(
                                     <SwiperSlide key={index}>
                                         <div className={`flex items-center ${style.portfolio_wrap}`}>
-                                            <img className={style.procimg} src={blockProcessImage} alt="blockProcessImage"/>
+                                            <Image width={100} height={100} className={style.procimg} src={blockProcessImage} alt="blockProcessImage"/>
                                             <section>
                                                 <h3>{blockProcessTitle}</h3>
                                                 <p>{blockProcessDescription}</p>

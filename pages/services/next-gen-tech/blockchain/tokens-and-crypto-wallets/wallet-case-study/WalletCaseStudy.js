@@ -46,7 +46,7 @@ export default function WalletCaseStudy (props) {
                                   <SwiperSlide>
                                       <div className={`flex  ${style.wallet_case_content}`} key={index}>
                                           <figure>
-                                              <img src={caseImage} alt="caseImage"/>
+                                              <Image width={100} height={100} src={caseImage} alt="caseImage"/>
                                           </figure>
                                           <section>
                                               {

@@ -30,7 +30,7 @@ export default function NativeCaseStudy() {
                             nativeCaseStudy.map(({sliderImage},index)=>{
                                 return(
                                     <SwiperSlide key={index}>
-                                        <img src={sliderImage} alt={sliderImage}/>
+                                        <Image width={100} height={100} src={sliderImage} alt={sliderImage}/>
                                     </SwiperSlide>
                                 )
                             })

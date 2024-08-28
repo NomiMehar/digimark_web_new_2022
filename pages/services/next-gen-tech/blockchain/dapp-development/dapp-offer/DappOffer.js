@@ -22,8 +22,8 @@ export default function DappOffer() {
                                 return(
                                     <li key={index} data-aos="flip-left" data-aos-duration="2000">
                                         <section>
-                                            <img src={img} alt="img"/>
-                                            <img className={style.dapp_img} src={img} alt="img"/>
+                                            <Image width={100} height={100} src={img} alt="img"/>
+                                            <Image width={100} height={100} className={style.dapp_img} src={img} alt="img"/>
                                             <h3>{title}</h3>
                                             <p>{description}</p>
                                         </section>

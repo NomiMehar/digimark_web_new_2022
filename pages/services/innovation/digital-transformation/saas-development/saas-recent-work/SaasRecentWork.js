@@ -15,7 +15,7 @@ export default function SaasRecentWork() {
                             return(
                                 <div key={`text-${index}`} className={`flex ${style.sass_recent_content}`}>
                                     <figure>
-                                        <img src={mainImage} alt="mainImage"/>
+                                        <Image width={100} height={100} src={mainImage} alt="mainImage"/>
                                     </figure>
                                     <section>
                                         <Image src={projectLogo} width={138} height={60} alt="projectLogo"/>

@@ -16,7 +16,7 @@ export default function CloudServices() {
                                 return(
                                     <li key={`a-${index}`}>
                                         <section>
-                                            <img src={imageIcon} alt="icon"/>
+                                            <Image width={100} height={100} src={imageIcon} alt="icon"/>
                                             <h3>{title}</h3>
                                             <p>{description}</p>
                                         </section>

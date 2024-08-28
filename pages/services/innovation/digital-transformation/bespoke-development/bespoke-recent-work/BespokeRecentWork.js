@@ -69,7 +69,7 @@ export default function BespokeRecentWork (props) {
                                               <button className="contact_btn">Read the Story <Image src={whiteArrow} alt={whiteArrow} width={13} height={16} /></button> 
                                           </section>
                                           <figure>
-                                              <img src={caseImage} alt="caseImage"/>
+                                              <Image width={100} height={100} src={caseImage} alt="caseImage"/>
                                           </figure>
                                       </div>
                                   </SwiperSlide>

@@ -26,7 +26,7 @@ export default function EventGallery () {
                                         data-aos-duration="1000"
                                     >
                                         <figure>
-                                            <img src={galleryImage} alt="gallery"/>
+                                            <Image width={100} height={100} src={galleryImage} alt="gallery"/>
                                             <figcaption>
                                                 <h3>{galleryTitle}</h3>
                                                 <p>{galleryDescription}</p>

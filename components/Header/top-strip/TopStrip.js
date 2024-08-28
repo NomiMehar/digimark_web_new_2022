@@ -12,7 +12,7 @@ export default function TopStrip() {
                   <TopStripInfo/>
                   <div className={style.logo}>
                   <Link href="/">
-                    <img src="/assets/images/header/logo.svg" alt="logo" />
+                    <Image width={100} height={100} src="/assets/images/header/logo.svg" alt="logo" />
                     </Link>
                   </div>
                   <QuickLinks/>

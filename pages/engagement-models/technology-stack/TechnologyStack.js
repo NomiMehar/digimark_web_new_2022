@@ -41,7 +41,7 @@ export default function TechnologyStack(props) {
                             {technologyStackList[tabs].listItems.map(({ name, icon }, index) => (
                                 <li key={index}>
                                     <section>
-                                        <img src={icon} alt={name} />
+                                        <Image width={100} height={100} src={icon} alt={name} />
                                         <p>{name}</p>
                                     </section>
                                 </li>

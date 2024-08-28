@@ -21,7 +21,7 @@ export default function SaasBenefits() {
                                 return(
                                     <li key={`button-${index}`}>
                                         <button onClick={() => setTabs(index)} className={`flex direction-column items-center ${ tabs === index ? `${style.active}` : ""}`}>
-                                            <img src={benefitIcon} alt="benefitIcon"/>
+                                            <Image width={100} height={100} src={benefitIcon} alt="benefitIcon"/>
                                             <span>{benefitTitle}</span>
                                         </button>
                                     </li>
@@ -40,8 +40,8 @@ export default function SaasBenefits() {
                                         <p>{benefitDescription}</p>
                                     </div>
                                     <figure>
-                                        <img src={mainImage} alt="mainImage"/>
-                                        <img className={style.subImage} src={subMainImage} alt="subMainImage"/>
+                                        <Image width={100} height={100} src={mainImage} alt="mainImage"/>
+                                        <Image width={100} height={100} className={style.subImage} src={subMainImage} alt="subMainImage"/>
                                     </figure>
                                 </div>
                             )
