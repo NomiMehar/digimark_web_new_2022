@@ -2,15 +2,30 @@ import "../styles/globals.scss";
 import "../styles/icomoon-fonts.css";
 import "../styles/animation.css";
 import Layout from "../components/Layout";
-import React, {useEffect} from "react";
+import React, { useEffect } from "react";
 import AOS from "aos";
+import Script from "next/script";
+
 function MyApp({ Component, pageProps }) {
   useEffect(() => {
     AOS.init();
-}, [])
+  }, []);
+
+  useEffect(() => {
+    window.dataLayer = window.dataLayer || [];
+    function gtag() {
+      window.dataLayer.push(arguments);
+    }
+    gtag('js', new Date());
+    gtag('config', 'G-98MNYYGR9R');
+  }, []);
 
   return (
     <Layout>
+      <Script
+        src="https://www.googletagmanager.com/gtag/js?id=G-98MNYYGR9R"
+        strategy="afterInteractive"
+      />
       <Component {...pageProps} />
     </Layout>
   );
