@@ -18,7 +18,7 @@ export default function Banner() {
         <section className={style.banner_content}>
           <h1 className="font-white">
               Bridging the Gap Between
-            <span className="font-extra-bold font-green">
+            {/* <span className="font-extra-bold font-green">
                  <Typewriter
                      options={{
                          strings: ['Business & Technology', 'Business & Digital Solutions'],
@@ -26,7 +26,7 @@ export default function Banner() {
                          loop: true,
                      }}
                  />
-            </span>
+            </span> */}
               with Our Innovative Solutions!
           </h1>
           <p className="font-white">
