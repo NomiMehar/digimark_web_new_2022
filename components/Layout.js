@@ -7,6 +7,7 @@ function Layout({ children }) {
     <div id="layout_wrapper">
         {children}
         <Insights />
+      <Footer />
     </div>
   );
 }
