@@ -27,8 +27,8 @@ const HomePage = () => {
         <meta name="twitter:image" content="/assets/images/header/favicon.webp" />
       </Head>
       <Banner />
-      {/* <Expertise /> */}
-      <WhoWeAre />
+      <Expertise />
+      {/* <WhoWeAre /> */}
       <OurServices />
       <div
         data-aos="fade-in"
