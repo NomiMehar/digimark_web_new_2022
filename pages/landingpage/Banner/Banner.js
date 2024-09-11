@@ -19,13 +19,13 @@ export default function Banner() {
           <h1 className="font-white">
               Bridging the Gap Between
             <span className="font-extra-bold font-green">
-                 {/* <Typewriter
+                 <Typewriter
                      options={{
                          strings: ['Business & Technology', 'Business & Digital Solutions'],
                          autoStart: true,
                          loop: true,
                      }}
-                 /> */}
+                 />
             </span>
               with Our Innovative Solutions!
           </h1>
