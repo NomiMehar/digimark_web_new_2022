@@ -43,7 +43,7 @@ export default function OurIndustries() {
                   {OurIndustriesData.map(({ industriesImage }, index) => {
                       return (
                           <SwiperSlide key={`industries-${index}`}>
-                              <Image className={style.industries_image} src={industriesImage} width={1920} height={1080} alt="industriesImage"/>
+                              <Image className={style.industries_image} src={industriesImage} width={100} height={100} alt="industriesImage"/>
                           </SwiperSlide>
                       );
                   })}
