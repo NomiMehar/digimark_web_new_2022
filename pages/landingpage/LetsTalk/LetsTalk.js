@@ -130,7 +130,7 @@ export default function LetsTalk(props) {
                data-aos-easing="ease-in-sine"
                data-aos-duration="1000"
           >
-            {/* <ContactMap /> */}
+            <ContactMap />
           </div>
         </div>
       </div>

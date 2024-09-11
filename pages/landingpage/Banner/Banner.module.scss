@@ -4,7 +4,6 @@
   height: calc(100vh);
   overflow: hidden;
   padding-top: 89px;
-  display: none;
   @media (max-width: $breakpoint_laptop) {
     padding-top: 63px;
   }
@@ -54,7 +53,7 @@
         font-size: 50px;
       }
       @media screen and (max-width: $breakpoint_tablet) {
-        font-size: 26px;
+        font-size: 36px;
       }
       span {
         display: block;
@@ -92,8 +91,6 @@
 }
 .business_list {
   padding: 20px 40px;
-  display: none;
-
   background: $green_color;
   @media (max-width: $breakpoint_laptop) {
     padding: 15px 40px;

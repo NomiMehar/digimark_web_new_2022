@@ -5,10 +5,8 @@ import {Insights} from "./insights";
 function Layout({ children }) {
   return (
     <div id="layout_wrapper">
-      <Navbar />
         {children}
         <Insights />
-      <Footer />
     </div>
   );
 }
