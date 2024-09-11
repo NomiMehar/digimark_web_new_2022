@@ -5,7 +5,7 @@ import MobileNav from "./mobile-nav/MobileNav";
 import SocialNetwork from "./social-network/SocialNetwork";
 import Navigation from "./navigation/Navigation";
 import Link from "next/link";
-
+import Image from "next/image";
 function Header() {
   useEffect(() => {
     window.addEventListener("scroll", isSticky);
@@ -29,7 +29,7 @@ function Header() {
         <div className="container">
           <div className={`flex-between-center ${style.navigation_content}`}>
             <Link href="/">
-            <img src="/assets/images/header/logo.svg" alt="logo" />
+            <Image src="/assets/images/header/logo.svg" width={100} height={100} alt="logo" />
             </Link>
             <Navigation/>
             <div className={`flex items-center ${style.header_social_wrapper}`}>
