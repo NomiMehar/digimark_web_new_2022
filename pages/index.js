@@ -26,7 +26,7 @@ const HomePage = () => {
         <meta name="twitter:description" content="Your Innovative Solution Partner." />
         <meta name="twitter:image" content="/assets/images/header/favicon.webp" />
       </Head>
-      <Banner />
+      {/* <Banner /> */}
       <Expertise />
       <WhoWeAre />
       <OurServices />
