@@ -16,9 +16,9 @@ export default function Banner() {
       </video>
       <div className="flex direction-column container">
         <section className={style.banner_content}>
-          <h1 className="font-white">
+          <h2 className="font-white">
               Bridging the Gap Between with Our Innovative Solutions!
-          </h1>
+          </h2>
           <p className="font-white">
           We create <span>Digital Solutions</span> that meet business objectives and ensure impactful transformation towards a better future.          </p>
           {/* <button
