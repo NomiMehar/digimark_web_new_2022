@@ -4,6 +4,7 @@
   height: calc(100vh);
   overflow: hidden;
   padding-top: 89px;
+  display: none;
   @media (max-width: $breakpoint_laptop) {
     padding-top: 63px;
   }
@@ -91,6 +92,8 @@
 }
 .business_list {
   padding: 20px 40px;
+  display: none;
+
   background: $green_color;
   @media (max-width: $breakpoint_laptop) {
     padding: 15px 40px;
