@@ -1,187 +1,188 @@
 import Link from "next/link";
-import {Menu, MenuItem, Sidebar, SubMenu} from "react-pro-sidebar";
-import {useState} from "react";
+import { Menu, MenuItem, Sidebar, SubMenu } from "react-pro-sidebar";
+import { useState } from "react";
 import style from "../Header.module.scss";
-import {useRouter} from "next/router";
+import { useRouter } from "next/router";
 import OutsideClickHandler from 'react-outside-click-handler';
 import Image from "next/image";
 
-export default function MobileNav() {
-    const [sidebar, setsidebar] = useState(true);
-    const router = useRouter();
+const menuData = [
+    { label: "Home", href: "/" },
+    {
+      label: "Company",
+      subMenu: [
+        { label: "About Us", href: "/company/about-us" },
+        { label: "How We Work", href: "/company/how-we-are" },
+        { label: "Our Team", href: "/company/team" },
+        { label: "Women Empowerment", href: "/company/women-empowerment" },
+        { label: "Life @DigiMark", href: "/company/life-at-digimark" },
+        // { label: "Careers", href: "/company/careers" },
+      ],
+    },
+    {
+      label: "Services",
+      subMenu: [
+        {
+          label: "Innovation",
+          subMenu: [
+            {
+              label: "Mobility",
+              subMenu: [
+                { label: "Mobile Development", href: "/services/innovation/mobility/mobile-development" },
+                { label: "Android App Development", href: "/services/innovation/mobility/android-app-development" },
+                { label: "IOS App Development", href: "/services/innovation/mobility/android-ios-development" },
+                { label: "React Native App", href: "/services/innovation/mobility/react-native-development" },
+                { label: "Ionic Development", href: "/services/innovation/mobility/ionic-development" },
+                { label: "Support & Maintenance", href: "/support" },
+              ],
+            },
+            {
+              label: "Digital Transformation",
+              subMenu: [
+                { label: "Web App Development", href: "/services/innovation/digital-transformation/web-development" },
+                { label: "Bespoke Development", href: "/services/innovation/digital-transformation/bespoke-development" },
+                { label: "SAAS Development", href: "/services/innovation/digital-transformation/saas-development" },
+                { label: "MVP Development", href: "/services/innovation/digital-transformation/mvp-development" },
+                { label: "Product Development", href: "/services/innovation/digital-transformation/product-development" },
+                { label: "Cloud & DevOps", href: "/services/innovation/digital-transformation/cloud-devops" },
+                { label: "Product Design", href: "/services/innovation/digital-transformation/product-design" },
+                { label: "QA & Testing", href: "/services/innovation/digital-transformation/quality-assurance" },
+                { label: "Enterprise Software Development", href: "/services/innovation/digital-transformation/enterprise-software-development" },
+                { label: "Support & Maintenance", href: "/services/innovation/digital-transformation/support-maintenance" },
+              ],
+            },
+          ],
+        },
+        {
+          label: "Next-Gen Tech",
+          subMenu: [
+            {
+              label: "Blockchain",
+              subMenu: [
+                { label: "Blockchain Development", href: "/services/next-gen-tech/blockchain/blockchain-development" },
+                { label: "NFT Development", href: "/services/next-gen-tech/blockchain/nft-development" },
+                { label: "NFT Marketplace", href: "/services/next-gen-tech/blockchain/nft-marketplace" },
+                { label: "Smart Contract", href: "/services/next-gen-tech/blockchain/smart-contract-development" },
+                { label: "Metaverse Development", href: "/services/next-gen-tech/blockchain/metaverse-development" },
+                { label: "AR & VR", href: "/services/next-gen-tech/blockchain/ar-vr-development" },
+                { label: "DeFi Development", href: "/services/next-gen-tech/blockchain/defi-developement" },
+                { label: "DApp Development", href: "/services/next-gen-tech/blockchain/dapp-development" },
+                { label: "Tokens & Crypto Wallets", href: "/services/next-gen-tech/blockchain/tokens-and-crypto-wallets" },
+              ],
+            },
+            {
+              label: "Gamification",
+              subMenu: [
+                { label: "Mobile Game Development", href: "/services/next-gen-tech/gamification/mobile-game-development" },
+                { label: "PC Game Development", href: "/services/next-gen-tech/gamification/pc-game-development" },
+                { label: "2D/3D Game Development", href: "/services/next-gen-tech/gamification/2d-3d-game-development" },
+                { label: "Unreal Engine Game Dev", href: "/services/next-gen-tech/gamification/unreal-game-development" },
+                { label: "Unity Game Development", href: "/services/next-gen-tech/gamification/unity-game-development" },
+                { label: "AR/VR & MR Game Development", href: "/services/next-gen-tech/gamification/ar-vr-mr-game-development" },
+                { label: "AI Game Development", href: "/services/next-gen-tech/gamification/ai-game-development" },
+                { label: "NFT Game Development", href: "/services/next-gen-tech/gamification/nft-game-development" },
+                { label: "Blockchain Game Development", href: "/services/next-gen-tech/gamification/blockchain-game-development" },
+                { label: "Metaverse Game Development", href: "/services/next-gen-tech/gamification/metaverse-game-development" },
+                { label: "Full Cycle Game Development", href: "/services/next-gen-tech/gamification/full-cycle-game-development" },
+              ],
+            },
+          ],
+        },
+        {
+          label: "AI & ML",
+          subMenu: [
+            { label: "Generative AI Development", href: "/services/ai-ml/generative-ai-development" },
+            { label: "AI & ML Development", href: "/services/ai-ml/ai-ml-development" },
+            { label: "Data Engineering Services", href: "/services/ai-ml/data-engineering-services" },
+            { label: "AI Consulting", href: "/services/ai-ml/ai-consulting" },
+            { label: "AI PoC and AI MVP", href: "/services/ai-ml/ai-poc-mvp" },
+            { label: "Chatbot Development", href: "/services/ai-ml/chatbot-development" },
+            { label: "Computer Vision", href: "/services/ai-ml/computer-vision" },
+          ],
+        },
+      ],
+    },
+    { label: "Engagement Models", href: "/engagement-models" },
+    { label: "Industries", href: "/industries" },
+    { label: "Case Studies", href: "/case-studies" },
+  ];
+  
 
-  return (
+  export default function MobileNav() {
+    const [sidebar, setSidebar] = useState(true);
+    const router = useRouter();
+  
+    const isCompanyPage = [
+      "/company/about-us",
+      "/company/how-we-are",
+      "/company/team",
+      "/company/women-empowerment",
+      "/company/life-at-digimark",
+    ].includes(router.pathname);
+  
+    const toggleSidebar = () => setSidebar(!sidebar);
+  
+    const renderSubMenu = (menu) =>
+        menu.subMenu ? (
+          <SubMenu key={menu.label} label={menu.label}>
+            {menu.subMenu.map((sub) => (sub.subMenu ? renderSubMenu(sub) : (
+              <MenuItem key={sub.href}>
+                <Link href={sub.href} passHref>
+                  <span onClick={toggleSidebar}>{sub.label}</span>
+                </Link>
+              </MenuItem>
+            )))}
+          </SubMenu>
+        ) : (
+          <MenuItem key={menu.href}>
+            <Link href={menu.href} passHref>
+              <span onClick={toggleSidebar}>{menu.label}</span>
+            </Link>
+          </MenuItem>
+        );
+  
+    return (
       <>
-          <div className={`
-            ${
-              router.pathname ===
-              "/company/about-us" &&
-              "/company/how-we-are" &&
-              "/company/team" &&
-              "/company/careers" &&
-              "/company/women-empowerment" &&
-              "/company/life-at-digimark" ? `${style.change_bg}` : ""
-            }
-            ${style.mobile_header}`}
-          >
-              <div className="container">
-                  <div className={`flex-between-center ${style.mobile_header_padd}`}>
-                      <a href="/">
-                      <Image width={100} height={100}
-                          className={style.mobile_logo}
-                          src="/assets/images/header/mobile_logo.svg"
-                          alt="logo"
-                      />
-                      </a>
-                      <Image width={100} height={100}
-                          className={style.toggle_img}
-                          onClick={() => setsidebar(false)}
-                          src="/assets/images/header/toggle.svg"
-                          alt="toggle"
-                      />
-                  </div>
-              </div>
+        <div className={`${isCompanyPage ? style.change_bg : ""} ${style.mobile_header}`}>
+          <div className="container">
+            <div className={`flex-between-center ${style.mobile_header_padd}`}>
+              <Link href="/">
+                <Image width={100} height={100} className={style.mobile_logo} src="/assets/images/header/mobile_logo.svg" alt="logo" priority />
+              </Link>
+              <Image width={100} height={100} className={style.toggle_img} onClick={toggleSidebar} src="/assets/images/header/toggle.svg" alt="toggle" />
+            </div>
           </div>
-          <OutsideClickHandler
-              onOutsideClick={() => {
-                  setsidebar(true);
-              }}
-          >
-          <Sidebar
-              className="d-xl-none sidebar"
-              collapsed={sidebar}
-              collapsedWidth="0px"
-              width="295px"
-          >
-              <div className="flex justify-between align-center d-block">
-                  <Image width={100} height={100} src="/assets/images/header/mobile_logo.svg" alt="logo" />
-                  <i
-                      className="fa fa-times font-color-green"
-                      onClick={() => setsidebar(true)}
-                  ></i>
-              </div>
-              <Menu iconshape="square">
-                  <MenuItem>
-                      <Link onClick={() => setsidebar(true)} href="/">Home</Link>
-                  </MenuItem>
-                  <SubMenu label="Company">
-                      <MenuItem><Link onClick={() => setsidebar(true)} href="/company/about-us">About Company</Link></MenuItem>
-                      <MenuItem><Link onClick={() => setsidebar(true)} href="/company/how-we-are">How We Work</Link></MenuItem>
-                      <MenuItem><Link onClick={() => setsidebar(true)} href="/company/team">Our Team</Link></MenuItem>
-                      {/* <MenuItem><Link onClick={() => setsidebar(true)} href="/company/careers">Our Careers</Link></MenuItem> */}
-                      <MenuItem><Link onClick={() => setsidebar(true)} href="/company/women-empowerment">Women Empowerment</Link></MenuItem>
-                      <MenuItem><Link onClick={() => setsidebar(true)} href="/company/life-at-digimark">Life @DigiMark</Link></MenuItem>
-                  </SubMenu>
-                  <SubMenu label="Services">
-                  <SubMenu className="second_menu" label="Innovation">
-                  <SubMenu className="third_menu" label="Mobility">
-                            <MenuItem><Link onClick={() => setsidebar(true)} href="/services/innovation/mobility/mobile-development">Mobile Development</Link></MenuItem>
-                            <MenuItem><Link onClick={() => setsidebar(true)} href="/services/innovation/mobility/android-app-development">Android App Development</Link></MenuItem>
-                            <MenuItem><Link onClick={() => setsidebar(true)} href="/services/innovation/mobility/android-ios-development">IOS App Development</Link></MenuItem>
-                            <MenuItem><Link onClick={() => setsidebar(true)} href="/services/innovation/mobility/react-native-development">React Native App</Link></MenuItem>
-                            <MenuItem><Link onClick={() => setsidebar(true)} href="/services/innovation/mobility/ionic-development">Ionic Development</Link></MenuItem>
-                            <MenuItem><Link onClick={() => setsidebar(true)} href="/support">Support & Maintenance</Link></MenuItem>
-                  </SubMenu>
-                  <SubMenu className="third_menu" label="Digital Transformation">
-                      <MenuItem><Link onClick={() => setsidebar(true)} href="/services/innovation/digital-transformation/web-development">Web App Development</Link></MenuItem>
-                      <MenuItem><Link onClick={() => setsidebar(true)} href="/services/innovation/digital-transformation/bespoke-development">Bespoke Development</Link></MenuItem>
-                      <MenuItem><Link onClick={() => setsidebar(true)} href="/services/innovation/digital-transformation/saas-development">SAAS Development</Link></MenuItem>
-                      <MenuItem><Link onClick={() => setsidebar(true)} href="/services/innovation/digital-transformation/mvp-development">MVP Development</Link></MenuItem>
-                      <MenuItem><Link onClick={() => setsidebar(true)} href="/services/innovation/digital-transformation/product-development">Product Development</Link></MenuItem>
-                      <MenuItem><Link onClick={() => setsidebar(true)} href="/services/innovation/digital-transformation/cloud-devops">Cloud & DevOps</Link></MenuItem>
-                      <MenuItem><Link onClick={() => setsidebar(true)} href="/services/innovation/digital-transformation/product-design">Product Design</Link></MenuItem>
-                      <MenuItem><Link onClick={() => setsidebar(true)} href="/services/innovation/digital-transformation/quality-assurance">QA & Testing</Link></MenuItem>
-                      <MenuItem><Link onClick={() => setsidebar(true)} href="/services/innovation/digital-transformation/enterprise-software-development">Enterprise Software Development</Link></MenuItem>
-                      <MenuItem><Link onClick={() => setsidebar(true)} href="/services/innovation/digital-transformation/support-maintenance">Support & Maintenance</Link></MenuItem>
-                  </SubMenu>
-                  </SubMenu>
-                  {/* <SubMenu className="second_menu" label="Growth">              
-                  </SubMenu> */}
-                  <SubMenu className="second_menu" label="Next-Gen Tech">
-                  <SubMenu className="third_menu" label="Blockchain">
-                      <MenuItem><Link onClick={() => setsidebar(true)} href="/services/next-gen-tech/blockchain/blockchain-development">Blockchain Development</Link></MenuItem>
-                      <MenuItem><Link onClick={() => setsidebar(true)} href="/services/next-gen-tech/blockchain/nft-development">NFT Development</Link></MenuItem>
-                      <MenuItem><Link onClick={() => setsidebar(true)} href="/services/next-gen-tech/blockchain/nft-marketplace">NFT Marketplace</Link></MenuItem>
-                      <MenuItem><Link onClick={() => setsidebar(true)} href="/services/next-gen-tech/blockchain/smart-contract-development">Smart Contract</Link></MenuItem>
-                      <MenuItem><Link onClick={() => setsidebar(true)} href="/services/next-gen-tech/blockchain/metaverse-development">Metaverse Development</Link></MenuItem>
-                      <MenuItem><Link onClick={() => setsidebar(true)} href="/services/next-gen-tech/blockchain/ar-vr-development">AR & VR</Link></MenuItem>
-                      <MenuItem><Link onClick={() => setsidebar(true)} href="/services/next-gen-tech/blockchain/defi-developement">DeFi Development</Link></MenuItem>
-                      <MenuItem><Link onClick={() => setsidebar(true)} href="/services/next-gen-tech/blockchain/dapp-development">DApp Development</Link></MenuItem>
-                      <MenuItem><Link onClick={() => setsidebar(true)} href="/services/next-gen-tech/blockchain/tokens-and-crypto-wallets">Tokens & Crypto Wallets</Link></MenuItem>
-                  </SubMenu>
-                  <SubMenu className="third_menu" label="Gamefication">
-                  <MenuItem><Link onClick={() => setsidebar(true)} href="/services/next-gen-tech/gamification/mobile-game-development">Mobile Game Development</Link></MenuItem>
-                            <MenuItem><Link onClick={() => setsidebar(true)} href="/services/next-gen-tech/gamification/pc-game-development">PC Game Development</Link></MenuItem>
-                            <MenuItem><Link onClick={() => setsidebar(true)} href="/services/next-gen-tech/gamification/2d-3d-game-development">2D/3D Game Development</Link></MenuItem>
-                            <MenuItem><Link onClick={() => setsidebar(true)} href="/services/next-gen-tech/gamification/unreal-game-development">Unreal Engine Game Dev</Link></MenuItem>
-                            <MenuItem><Link onClick={() => setsidebar(true)} href="/services/next-gen-tech/gamification/unity-game-development">Unity Game Development</Link></MenuItem>
-                            <MenuItem><Link onClick={() => setsidebar(true)} href="/services/next-gen-tech/gamification/ar-vr-mr-game-development">AR/VR & MR Game Development</Link></MenuItem>
-                            <MenuItem><Link onClick={() => setsidebar(true)} href="/services/next-gen-tech/gamification/ai-game-development">AI Game Development</Link></MenuItem>
-                            <MenuItem><Link onClick={() => setsidebar(true)} href="/services/next-gen-tech/gamification/nft-game-development">NFT Game Development</Link></MenuItem>
-                            <MenuItem><Link onClick={() => setsidebar(true)} href="/services/next-gen-tech/gamification/blockchain-game-development">Blockchain Game Development</Link></MenuItem>
-                            <MenuItem><Link onClick={() => setsidebar(true)} href="/services/next-gen-tech/gamification/metaverse-game-development">Metaverse Game Development</Link></MenuItem>
-                            <MenuItem><Link onClick={() => setsidebar(true)} href="/services/next-gen-tech/gamification/full-cycle-game-development">Full Cycle Game Development</Link></MenuItem>
-                  </SubMenu>
-                  </SubMenu>
-                  <SubMenu className="second_menu" label="AI & ML">  
-                  <SubMenu className="third_menu" label="AI & ML Development">
-                  <MenuItem><Link onClick={() => setsidebar(true)} href="/services/ai-ml/generative-ai-development">Generative AI Development</Link></MenuItem>
-                            <MenuItem><Link onClick={() => setsidebar(true)} href="/services/ai-ml/ai-ml-development">AI & ML Development</Link></MenuItem>
-                      <MenuItem><Link onClick={() => setsidebar(true)} href="/services/ai-ml/data-engineering-services">Data Engineering Services</Link></MenuItem>
-                      <MenuItem><Link onClick={() => setsidebar(true)} href="/services/ai-ml/ai-consulting">Ai Consulting</Link></MenuItem>
-                      <MenuItem><Link onClick={() => setsidebar(true)} href="/services/ai-ml/ai-poc-mvp">AI PoC and AI MVP </Link></MenuItem>
-                      <MenuItem><Link onClick={() => setsidebar(true)} href="/services/ai-ml/chatbot-development">Chatbot Development</Link></MenuItem>
-                            <MenuItem><Link onClick={() => setsidebar(true)} href="/services/ai-ml/computer-vision">Computer Vision</Link></MenuItem>              
-                  </SubMenu>            
-                  </SubMenu>
-                  </SubMenu>
-                  <MenuItem>
-                      <Link onClick={() => setsidebar(true)} href="/engagement-models">Engagement Models</Link>
-                  </MenuItem>
-                  <MenuItem>
-                      <Link onClick={() => setsidebar(true)} href="/industries">Industries</Link>
-                  </MenuItem>
-                  <MenuItem>
-                      <Link onClick={() => setsidebar(true)} href="/case-studies">Case Studies</Link>
-                  </MenuItem>
-              </Menu>
-              <div className="menuSocial flex-between-center">
-                  <Link onClick={() => setsidebar(true)}
-                      href="https://www.facebook.com/digimarkdevelopers"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                  >
-                      <i className="fab fa-facebook-f stky-h-n-link text-dark mx-2"></i>
-                  </Link>
-                  <Link onClick={() => setsidebar(true)}
-                      href="https://www.instagram.com/digimark_developers/"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                  >
-                      <i className="fab fa-instagram stky-h-n-link text-dark mx-2"></i>
-                  </Link>
-                  <Link onClick={() => setsidebar(true)}
-                      href="https://www.linkedin.com/company/digimarkdevelopers/mycompany/"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                  >
-                      <i className="fab fa-linkedin-in stky-h-n-link text-dark mx-2"></i>
-                  </Link>
-                  <Link onClick={() => setsidebar(true)}
-                      href="https://www.behance.net/digimarkdevelopers"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                  >
-                      <i className="fab fa-behance stky-h-n-link text-dark mx-2 pr-xxl-3"></i>
-                  </Link>
-              </div>
-              <div className="mb-3 text-center d-lg-none d-block">
-                  <Link onClick={() => setsidebar(true)} href="/contact-us" className="footerContact">
-                      <span className="text-white text-center d-block">Contact Us</span>
-                  </Link>
-              </div>
+        </div>
+        <OutsideClickHandler onOutsideClick={() => setSidebar(true)}>
+          <Sidebar className="d-xl-none sidebar" collapsed={sidebar} collapsedWidth="0px" width="295px">
+            <div className="flex justify-between align-center d-block">
+              <Image width={100} height={100} src="/assets/images/header/mobile_logo.svg" alt="logo" priority />
+              <i className="fa fa-times font-color-green" onClick={toggleSidebar}></i>
+            </div>
+            <Menu iconShape="square">
+              {menuData.map(renderSubMenu)}
+            </Menu>
+            <div className="menuSocial flex-between-center">
+              <Link href="https://www.facebook.com/digimarkdevelopers" target="_blank" rel="noopener noreferrer">
+                <i className="fab fa-facebook-f stky-h-n-link text-dark mx-2"></i>
+              </Link>
+              <Link href="https://www.instagram.com/digimark_developers/" target="_blank" rel="noopener noreferrer">
+                <i className="fab fa-instagram stky-h-n-link text-dark mx-2"></i>
+              </Link>
+              <Link href="https://www.linkedin.com/company/digimarkdevelopers/mycompany/" target="_blank" rel="noopener noreferrer">
+                <i className="fab fa-linkedin-in stky-h-n-link text-dark mx-2"></i>
+              </Link>
+              <Link href="https://www.behance.net/digimarkdevelopers" target="_blank" rel="noopener noreferrer">
+                <i className="fab fa-behance stky-h-n-link text-dark mx-2 pr-xxl-3"></i>
+              </Link>
+            </div>
+            <div className="mb-3 text-center d-lg-none d-block">
+              <Link href="/contact-us" className="footerContact" passHref>
+                <span className="text-white text-center d-block">Contact Us</span>
+              </Link>
+            </div>
           </Sidebar>
-          </OutsideClickHandler>
+        </OutsideClickHandler>
       </>
-  );
-}
+    );
+  }
