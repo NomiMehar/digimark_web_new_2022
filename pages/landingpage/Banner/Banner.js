@@ -19,7 +19,7 @@ export default function Banner() {
                 <section className={style.banner_content}>
                     <h1 className="font-white">
                         Bridging the Gap Between
-                        <span className="font-extra-bold font-green">
+                        {/* <span className="font-extra-bold font-green">
                             <CustomTypewriter
                                 strings={['Business & Technology', 'Business & Digital Solutions']}
                                 typingSpeed={100}
@@ -27,7 +27,7 @@ export default function Banner() {
                                 delay={1500}
                                 loop={true}
                             />
-                        </span>
+                        </span> */}
                         with Our Innovative Solutions!
                     </h1>
                     <p className="font-white">
