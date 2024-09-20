@@ -19,7 +19,7 @@ export default function ContactCards() {
                                                 <figure><Image width={40} height={49} src={icon} alt="icon"/></figure>
                                                 <h2>{title}</h2>
                                                 <p>{description}</p>
-                                                <Link href="/">{linkText} <Image src={arrowIcon} alt="icon"/></Link>
+                                                <Link href="/contact-us#contactForm">{linkText} <Image src={arrowIcon} alt="icon"/></Link>
                                             </section>
                                         </li>
                                     )
@@ -27,7 +27,7 @@ export default function ContactCards() {
                             }
                         </ul>
                         <div className="center">
-                            <span>You can also email us at <Link href="">info@digimarkdevelopers.com</Link></span>
+                            <span>You can also email us at <Link href="mailto:info@digimarkdevelopers.com">info@digimarkdevelopers.com</Link></span>
                         </div>
                     </div>
                 </div>
