@@ -123,24 +123,28 @@ const menuData = [
     const toggleSidebar = () => setSidebar(!sidebar);
   
     const renderSubMenu = (menu) =>
-        menu.subMenu ? (
-          <SubMenu key={menu.label} label={menu.label}>
-            {menu.subMenu.map((sub) => (sub.subMenu ? renderSubMenu(sub) : (
+      menu.subMenu ? (
+        <SubMenu key={menu.label} label={menu.label}>
+          {menu.subMenu.map((sub) =>
+            sub.subMenu ? (
+              renderSubMenu(sub)
+            ) : (
               <MenuItem key={sub.href}>
                 <Link href={sub.href} passHref>
-                  <span onClick={toggleSidebar}>{sub.label}</span>
+                  {sub.label} {/* Directly render the label */}
                 </Link>
               </MenuItem>
-            )))}
-          </SubMenu>
-        ) : (
-          <MenuItem key={menu.href}>
-            <Link href={menu.href} passHref>
-              <span onClick={toggleSidebar}>{menu.label}</span>
-            </Link>
-          </MenuItem>
-        );
-  
+            )
+          )}
+        </SubMenu>
+      ) : (
+        <MenuItem key={menu.href}>
+          <Link href={menu.href} passHref>
+            {menu.label} {/* Directly render the label */}
+          </Link>
+        </MenuItem>
+      );
+    
     return (
       <>
         <div className={`${isCompanyPage ? style.change_bg : ""} ${style.mobile_header}`}>
