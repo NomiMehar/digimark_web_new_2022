@@ -14,37 +14,198 @@
     display: block;
   }
 }
-.mobile_header {
+.mobileHeader {
+  background-color: rgba(18,38,47,.8);
+  padding: 10px 20px;
+  position: relative;
+  z-index: 1000;
   display: none;
-  background-color: rgba(18, 38, 47, 0.8);
-  padding-bottom: 20px;
   @media screen and (max-width: $breakpoint_tablet) {
-    display: flex;
+    display: block;
     position: fixed;
     width: 100%;
     z-index: 3;
   }
-  &.change_bg {
-    margin: 0;
-    background: #1D4354;
-    .mobile_header_padd {
-      padding: 15px 0;
-    }
+
+  .mobileHeaderPadding {
+    padding: 15px 0;
+    display: flex;
+    justify-content: space-between;
   }
-  .mobile_header_padd {
-    @media screen and (max-width: $breakpoint_tablet) {
-      padding-top: 30px;
-    }
-    .mobile_logo {
-      width: 180px;
-      height: 40px;
-    }
-    .toggle_img {
-      width: 42px;
-      height: auto;
-    }
+
+  .mobileLogo {
+    width: auto;
+    height: 35px;
+    cursor: pointer;
+  }
+
+  .toggleImg {
+    cursor: pointer;
+    width: 40px;
+    height: 40px;
   }
 }
+
+/* Header.module.scss */
+
+
+
+.sidebar {
+  position: fixed;
+  top: 0;
+  right: -100%;
+  width: 295px;
+  height: 100%;
+  background:#1D4354 url('../../public/assets/images/header/menu-bg.webp');
+  background-size: cover;
+  background-position: center;
+  transition: right 0.3s ease;
+  color: #fff;
+  z-index: 1000;
+  overflow-y: auto;
+  padding: 30px;
+  display: none;
+  @media screen and (max-width: $breakpoint_tablet) {
+    display: block;
+  }
+
+  &.active {
+    right: 0;
+  }
+
+  .sidebarHeader {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 15px;
+
+    a{
+      img {
+        cursor: pointer;
+        width: auto;
+        height: 30px;
+      }
+    }
+
+    i {
+      font-weight: 900;
+      color: #fff;
+      background: #6bb64a;
+      padding: 8px 11px;
+      font-size: 13px;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+  }
+
+  .menu {
+    a {
+      color: #fff;
+      margin: 0 auto;
+      border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+      padding: 17px 0;
+      font-size: 14px;
+      display: block;
+      text-decoration: none;
+
+      &:hover {
+        background-color: transparent;
+      }
+    }
+  }
+
+  .subMenu {
+    span {
+      cursor: pointer;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 17px 0;
+      font-size: 14px;
+      border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+
+      &:hover {
+        background-color: transparent;
+      }
+
+      .expandIcon {
+        transform: rotate(-45deg);
+        border-right: 2px solid currentcolor;
+        border-bottom: 2px solid currentcolor;
+        width: 5px;
+        height: 5px;
+        transition: transform 0.3s;
+
+        &.open {
+          transform: rotate(44deg);
+        }
+      }
+    }
+
+    .subMenuContent {
+      a {
+        color: #fff;
+        padding: 17px 0;
+        font-size: 14px;
+        display: block;
+        text-decoration: none;
+      }
+    }
+  }
+
+  .socialLinks {
+    padding: 17px 0;
+    display: flex;
+    justify-content: space-around;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+
+    a {
+      text-align: center;
+
+      i {
+        font-size: 21px;
+        color: #fff;
+        cursor: pointer;
+      }
+    }
+  }
+
+  .footerContact{
+    height: 40px !important;
+  padding: 5px !important;
+  line-height: 1px !important;
+  font-size: 12px !important;
+  width: 81% !important;
+  font-weight: 100 !important;
+  background-color: #6bb64a !important;
+  border-radius: 20px !important;
+  display: flex !important;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  padding-top: 7px !important;
+  margin-top: 20px !important;
+  a{
+    color: #fff !important;
+  }
+  }
+}
+
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  z-index: 999;
+  cursor: pointer;
+  display: none;
+  @media screen and (max-width: $breakpoint_tablet) {
+    display: block;
+  }
+}
+
+
 .header_widget {
   position: relative;
   padding: 20px 0;

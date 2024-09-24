@@ -1,6 +1,6 @@
 import Link from "next/link";
 import { Menu, MenuItem, Sidebar, SubMenu } from "react-pro-sidebar";
-import { useState } from "react";
+import { useState,useEffect } from "react";
 import style from "../Header.module.scss";
 import { useRouter } from "next/router";
 import OutsideClickHandler from 'react-outside-click-handler';
@@ -109,84 +109,124 @@ const menuData = [
   
 
   export default function MobileNav() {
-    const [sidebar, setSidebar] = useState(true);
+    const [isSidebarOpen, setIsSidebarOpen] = useState(false);
+    const [expandedMenus, setExpandedMenus] = useState({});
     const router = useRouter();
   
-    const isCompanyPage = [
-      "/company/about-us",
-      "/company/how-we-are",
-      "/company/team",
-      "/company/women-empowerment",
-      "/company/life-at-digimark",
-    ].includes(router.pathname);
+    const toggleSidebar = () => setIsSidebarOpen(!isSidebarOpen);
   
-    const toggleSidebar = () => setSidebar(!sidebar);
+    // Close sidebar on route change
+    useEffect(() => {
+      const handleRouteChange = () => setIsSidebarOpen(false);
+      router.events.on('routeChangeStart', handleRouteChange);
+      return () => {
+        router.events.off('routeChangeStart', handleRouteChange);
+      };
+    }, [router.events]);
   
-    const renderSubMenu = (menu) =>
-      menu.subMenu ? (
-        <SubMenu key={menu.label} label={menu.label}>
-          {menu.subMenu.map((sub) =>
-            sub.subMenu ? (
-              renderSubMenu(sub)
-            ) : (
-              <MenuItem key={sub.href}>
-                <Link href={sub.href} passHref>
-                  {sub.label} {/* Directly render the label */}
-                </Link>
-              </MenuItem>
-            )
+    const renderSubMenu = (menu) => {
+      const isExpanded = expandedMenus[menu.label] || false;
+  
+      const toggleMenu = () => {
+        setExpandedMenus((prevState) => ({
+          ...prevState,
+          [menu.label]: !prevState[menu.label],
+        }));
+      };
+  
+      return menu.subMenu ? (
+        <div key={menu.label} className={style.subMenu}>
+          <span onClick={toggleMenu}>
+            {menu.label}
+            <i className={`${style.expandIcon} ${isExpanded ? style.open : ''}`}></i>
+          </span>
+          {isExpanded && (
+            <div className={style.subMenuContent}>
+              {menu.subMenu.map((sub) =>
+                sub.subMenu ? renderSubMenu(sub) : (
+                  <Link key={sub.href} href={sub.href} passHref>
+                    {sub.label}
+                  </Link>
+                )
+              )}
+            </div>
           )}
-        </SubMenu>
+        </div>
       ) : (
-        <MenuItem key={menu.href}>
-          <Link href={menu.href} passHref>
-            {menu.label} {/* Directly render the label */}
-          </Link>
-        </MenuItem>
+        <Link key={menu.href} href={menu.href} passHref>
+          {menu.label}
+        </Link>
       );
-    
+    };
+  
     return (
       <>
-        <div className={`${isCompanyPage ? style.change_bg : ""} ${style.mobile_header}`}>
+        <div className={style.mobileHeader}>
           <div className="container">
-            <div className={`flex-between-center ${style.mobile_header_padd}`}>
+            <div className={style.mobileHeaderPadding}>
               <Link href="/">
-                <Image width={100} height={100} className={style.mobile_logo} src="/assets/images/header/mobile_logo.svg" alt="logo" priority />
+                <Image
+                  width={120}
+                  height={25}
+                  className={style.mobileLogo}
+                  src="/assets/images/header/mobile_logo.svg"
+                  alt="logo"
+                  priority
+                />
               </Link>
-              <Image width={100} height={100} className={style.toggle_img} onClick={toggleSidebar} src="/assets/images/header/toggle.svg" alt="toggle" />
+              <Image
+                width={30}
+                height={30}
+                className={style.toggleImg}
+                onClick={toggleSidebar}
+                src="/assets/images/header/toggle.svg"
+                alt="toggle"
+              />
             </div>
           </div>
         </div>
-        <OutsideClickHandler onOutsideClick={() => setSidebar(true)}>
-          <Sidebar className="d-xl-none sidebar" collapsed={sidebar} collapsedWidth="0px" width="295px">
-            <div className="flex justify-between align-center d-block">
-              <Image width={100} height={100} src="/assets/images/header/mobile_logo.svg" alt="logo" priority />
-              <i className="fa fa-times font-color-green" onClick={toggleSidebar}></i>
-            </div>
-            <Menu iconShape="square">
-              {menuData.map(renderSubMenu)}
-            </Menu>
-            <div className="menuSocial flex-between-center">
-              <Link href="https://www.facebook.com/digimarkdevelopers" target="_blank" rel="noopener noreferrer">
-                <i className="fab fa-facebook-f stky-h-n-link text-dark mx-2"></i>
-              </Link>
-              <Link href="https://www.instagram.com/digimark_developers/" target="_blank" rel="noopener noreferrer">
-                <i className="fab fa-instagram stky-h-n-link text-dark mx-2"></i>
-              </Link>
-              <Link href="https://www.linkedin.com/company/digimarkdevelopers/mycompany/" target="_blank" rel="noopener noreferrer">
-                <i className="fab fa-linkedin-in stky-h-n-link text-dark mx-2"></i>
-              </Link>
-              <Link href="https://www.behance.net/digimarkdevelopers" target="_blank" rel="noopener noreferrer">
-                <i className="fab fa-behance stky-h-n-link text-dark mx-2 pr-xxl-3"></i>
-              </Link>
-            </div>
-            <div className="mb-3 text-center d-lg-none d-block">
-              <Link href="/contact-us" className="footerContact" passHref>
-                <span className="text-white text-center d-block">Contact Us</span>
-              </Link>
-            </div>
-          </Sidebar>
-        </OutsideClickHandler>
+  
+        {/* Sidebar */}
+        <div className={`${style.sidebar} ${isSidebarOpen ? style.active : ""}`}>
+          <div className={style.sidebarHeader}>
+            <Link href="/">
+              <Image
+                width={120}
+                height={25}
+                src="/assets/images/header/mobile_logo.svg"
+                alt="logo"
+                priority
+              />
+            </Link>
+            <i className="fa fa-times" onClick={toggleSidebar}></i>
+          </div>
+  
+          <div className={style.menu}>
+            {menuData.map(renderSubMenu)}
+          </div>
+  
+          <div className={style.socialLinks}>
+            <Link href="https://www.facebook.com/digimarkdevelopers" target="_blank">
+              <i className="fab fa-facebook-f"></i>
+            </Link>
+            <Link href="https://www.instagram.com/digimark_developers/" target="_blank">
+              <i className="fab fa-instagram"></i>
+            </Link>
+            <Link href="https://www.linkedin.com/company/digimarkdevelopers/" target="_blank">
+              <i className="fab fa-linkedin-in"></i>
+            </Link>
+            <Link href="https://www.behance.net/digimarkdevelopers" target="_blank">
+              <i className="fab fa-behance"></i>
+            </Link>
+          </div>
+  
+          <div className={style.footerContact}>
+            <Link href="/contact-us">Contact Us</Link>
+          </div>
+        </div>
+  
+        {/* Overlay for closing the sidebar when clicking outside */}
+        {isSidebarOpen && <div className={style.overlay} onClick={toggleSidebar}></div>}
       </>
     );
   }
