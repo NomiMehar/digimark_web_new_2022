@@ -1,9 +1,7 @@
 import Link from "next/link";
-import { Menu, MenuItem, Sidebar, SubMenu } from "react-pro-sidebar";
 import { useState,useEffect } from "react";
 import style from "../Header.module.scss";
 import { useRouter } from "next/router";
-import OutsideClickHandler from 'react-outside-click-handler';
 import Image from "next/image";
 
 const menuData = [
