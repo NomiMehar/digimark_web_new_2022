@@ -3,10 +3,6 @@ import Link from "next/link";
 import Image from "next/image";
 import { useState } from "react";
 
-// Importing icons
-import headerIcon1 from "../../../public/assets/images/header/innovation.svg";
-import headerIcon2 from "../../../public/assets/images/header/growth.svg";
-import headerIcon3 from "../../../public/assets/images/header/nextgen.svg";
 
 const serviceItems = [
   {

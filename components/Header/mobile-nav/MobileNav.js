@@ -105,7 +105,6 @@ const menuData = [
     { label: "Case Studies", href: "/case-studies" },
   ];
   
-
   export default function MobileNav() {
     const [isSidebarOpen, setIsSidebarOpen] = useState(false);
     const [expandedMenus, setExpandedMenus] = useState({});

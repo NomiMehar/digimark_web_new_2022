@@ -11,10 +11,10 @@ export default function HiringModal() {
     return(
         <div className={`flex direction-column ${style.nft_services_wrapper}`}>
             <div className="container">
-                <div className="section_title" data-aos="fade-up"
+                <div className="main_section_title" data-aos="fade-up"
              data-aos-easing="ease-in-sine"
              data-aos-duration="1000">
-                    <h2>Types of <span>Engagement Models</span> Available</h2>
+                    <h2>Delegating Vs <span>Increased Staffing</span> Vs Devoted Group</h2>
                     <p>Our goal is to provide customizable development solutions at an affordable price to meet your project needs on time.</p>
                 </div>
                 <div className={style.choose_services}>

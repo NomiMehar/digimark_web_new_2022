@@ -5,6 +5,7 @@ import Layout from "../components/Layout";
 import React, { useEffect } from "react";
 import AOS from "aos";
 import Script from "next/script";
+import { Toaster } from "react-hot-toast";
 
 function MyApp({ Component, pageProps }) {
   useEffect(() => {
@@ -26,6 +27,7 @@ function MyApp({ Component, pageProps }) {
         src="https://www.googletagmanager.com/gtag/js?id=G-98MNYYGR9R"
         strategy="afterInteractive"
       />
+      <Toaster />
       <Component {...pageProps} />
     </Layout>
   );

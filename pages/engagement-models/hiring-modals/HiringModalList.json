@@ -1,38 +1,35 @@
 [
   {
     "whyChooseIcon": "/assets/images/services/t1.svg",
-    "whyChooseTitle": "Committed Group",
+    "whyChooseTitle": "Dedicated Team",
     "whyChooseDetail": [
-      "No attempts to hire",
-      "Independent Functioning",
-      "Entire Skill Set",
-      "Reduce operating expenses",
-      "Absence of Timezone Barriers",
-      "Extended Cooperation"
+      "Full-time commitment",
+      "Enhanced control",
+      "Long-term commitment",
+      "Higher costs",
+      "Strategic investment"
     ]
   },
   {
     "whyChooseIcon": "/assets/images/services/t2.svg",
-    "whyChooseTitle": "Employee Extension",
+    "whyChooseTitle": "Individual Hiring",
     "whyChooseDetail": [
-      "Economical",
-      "Openness",
-      "Flexibility in Time Zones",
-      "Quick Onboarding",
-      "Adaptability while scaling",
-      "Task-Oriented Proficiency"
+      "Dedicated Team Member",
+      "Flexibility in scaling",
+      "Task-focused expertise",
+      "Cost efficiency",
+      "Speedy onboarding"
     ]
   },
   {
     "whyChooseIcon": "/assets/images/services/t3.svg",
-    "whyChooseTitle": "Project Delegation",
+    "whyChooseTitle": "Project Outsourcing",
     "whyChooseDetail": [
-      "Objectivity",
-      "Economy of Cost",
-      "Accelerated time to market",
-      "Absence of additional Management",
-      "24/7 assistance",
-      "Timeline and price predictability"
+      "Full project outsourcing",
+      "Internal resource focus",
+      "Cost-effectiveness",
+      "Scalability",
+      "Milestone Based Payment"
     ]
   }
 ]

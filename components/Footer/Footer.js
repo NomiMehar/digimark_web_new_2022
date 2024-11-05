@@ -122,19 +122,19 @@ function Footer() {
                     <Link
                         onMouseEnter={handleMouseEnter}
                         onMouseLeave={handleMouseLeave}
-                        href="">Privacy Policy</Link>
+                        href="/">Privacy Policy</Link>
                   </li>
                   <li>
                     <Link
                         onMouseEnter={handleMouseEnter}
                         onMouseLeave={handleMouseLeave}
-                        href="">Terms & Conditions</Link>
+                        href="/">Terms & Conditions</Link>
                   </li>
                   <li>
                     <Link
                         onMouseEnter={handleMouseEnter}
                         onMouseLeave={handleMouseLeave}
-                        href="">Cookies</Link>
+                        href="/">Cookies</Link>
                   </li>
                 </ul> */}
                 <ul className={`list-none flex center justify-end ${style.content}`}>
